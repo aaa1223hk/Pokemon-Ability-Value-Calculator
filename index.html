@@ -724,15 +724,18 @@ function typeClass(t) { return 'type-' + t; }
     function renderWeaknesses(teData, formLabel = null) {
       if (!teData || !teData.length) return '<p class="placeholder">無弱點資料</p>';
       let entry = teData[0];
-      if (formLabel) {
-        // 優先找 form 完全相符；其次找 types 有對上的；最後用空 form 或第一筆
+      if (formLabel && !isBaseFormLabel(formLabel, currentData)) {
+        const key = extractFormKey(formLabel);
         entry = teData.find(t => t.form === formLabel)
-            || teData.find(t => t.form && formLabel.includes(t.form))
+            || (key ? teData.find(t => t.form && t.form.includes(key)) : null)
+            || teData.find(t => t.form && (formLabel.includes(t.form) || t.form.includes(formLabel)))
             || teData.find(t => !t.form || t.form === '')
             || teData[0];
       } else {
-        // 預設優先用空 form（一般），沒有再用第一筆
-        entry = teData.find(t => !t.form || t.form === '') || teData[0];
+        // 一般形態：優先用空 form，避開特性變體如「(引火)」
+        entry = teData.find(t => !t.form || t.form === '')
+            || teData.find(t => t.form && !t.form.startsWith('('))
+            || teData[0];
       }
       const data = (entry && entry.data) || [];
       const weak = data.filter(d => parseFloat(d.damage) > 1);
@@ -834,17 +837,8 @@ function typeClass(t) { return 'type-' + t; }
 
       currentFormLabel = formLabel;
 
-      // 種族值：優先用 stats 裡同名 form；找不到就用第一筆（極巨化通常與一般相同）
-      let entry = null;
-      if (currentData.stats && currentData.stats.length) {
-        entry = currentData.stats.find(s => s.form === formLabel);
-        if (!entry) {
-          // 模糊：超級噴火龍Ｘ 等可直接對上；超極巨化噴火龍 → 用一般
-          const clean = formLabel.replace(/^超極巨化/, '').replace(/^超級/, '超級');
-          entry = currentData.stats.find(s => s.form && (s.form === clean || formLabel.includes(s.form) || s.form.includes(formLabel)));
-        }
-        if (!entry) entry = currentData.stats[0];
-      }
+      // 種族值：用強化後的 form 對應
+      const entry = findStatsEntry(formLabel, currentData);
       currentBaseStats = { ...((entry && entry.data) || {}) };
 
       // 更新種族值數字
@@ -894,27 +888,99 @@ function typeClass(t) { return 'type-' + t; }
       });
     }
 
-    /** 依 forms 名稱解析圖片路徑（配合 data/images/home/other/ 的命名） */
-    function resolveFormImage(formLabel, index, data) {
-      const species = (data && data.name_zh) ? data.name_zh : '';
+    /** 地區／形態關鍵字，用於 forms ↔ stats ↔ 檔名 對應 */
+    const FORM_KEYWORDS = ['阿羅拉', '洗翠', '伽勒爾', '帕底亞', '祂夏', '白波動', '黑波動',
+      '超級', '超極巨化', '太晶', '起源', '加熱', '清洗', '冰冷', '普通形態', '攻擊形態',
+      '防禦形態', '速度形態', '陽光', '雨水', '雪花', '砂土', '晴天', '陰天'];
+
+    function extractFormKey(name) {
+      if (!name) return '';
+      for (const kw of FORM_KEYWORDS) {
+        if (name.includes(kw)) return kw;
+      }
+      return name;
+    }
+
+    function isBaseFormLabel(formLabel, data) {
+      const species = (data && data.name_zh) || '';
       const forms = (data && data.forms) || [];
       const firstFormName = forms.length ? (forms[0].name || '') : species;
+      return !formLabel
+          || formLabel === firstFormName
+          || formLabel === species
+          || formLabel === '一般' || formLabel === '普通'
+          || formLabel.includes('一般') || formLabel === '普通的樣子'
+          || formLabel === '普通形態' || formLabel === '一般的樣子';
+    }
 
-      // 第一個 form（通常是種族本身）視為一般形態
-      const isBase = !formLabel
-                  || formLabel === firstFormName
-                  || formLabel === species
-                  || formLabel === '一般' || formLabel === '普通'
-                  || formLabel.includes('一般') || formLabel === '普通的樣子'
-                  || formLabel === '普通形態' || formLabel === '一般的樣子';
-      if (isBase) {
+    /** 從 stats 找對應 form 的種族值 */
+    function findStatsEntry(formLabel, data) {
+      const stats = (data && data.stats) || [];
+      if (!stats.length) return null;
+      if (isBaseFormLabel(formLabel, data)) return stats[0];
+
+      // 1. 完全相符
+      let entry = stats.find(s => s.form === formLabel);
+      if (entry) return entry;
+
+      // 2. 關鍵字相符（阿羅拉九尾 ↔ 阿羅拉的樣子）
+      const key = extractFormKey(formLabel);
+      if (key) {
+        entry = stats.find(s => s.form && s.form.includes(key));
+        if (entry) return entry;
+      }
+
+      // 3. 互相包含
+      entry = stats.find(s => s.form && (formLabel.includes(s.form) || s.form.includes(formLabel)));
+      if (entry) return entry;
+
+      // 4. 極巨化等無獨立 stats → 用一般
+      return stats[0];
+    }
+
+    /** 依 forms 名稱解析圖片路徑 */
+    function resolveFormImage(formLabel, index, data) {
+      const species = (data && data.name_zh) ? data.name_zh : '';
+
+      if (isBaseFormLabel(formLabel, data)) {
         return `data/images/home/${index}.png`;
       }
 
-      // 超極巨化：檔名多用「超極巨化」而不是「超極巨化噴火龍」
+      // 1. 優先用 home_images 裡的對應檔名
+      const himgs = (data && data.home_images) || [];
+      if (himgs.length) {
+        const key = extractFormKey(formLabel);
+        let match = himgs.find(h => h.name === formLabel);
+        if (!match && key) {
+          match = himgs.find(h => h.name && h.name.includes(key));
+        }
+        if (!match) {
+          match = himgs.find(h => h.name && (h.name.includes(formLabel) || formLabel.includes(h.name)));
+        }
+        // 跳過純種族名那一筆
+        if (match && match.image && match.name !== species && match.name !== formLabel.split('-')[0]) {
+          // home_images 的 image 多半已是完整檔名
+          const imgName = match.image;
+          // 一般圖在 home/，形態圖在 other/
+          if (imgName === `${index}.png` || imgName === `${index}-${species}.png`) {
+            return `data/images/home/${imgName}`;
+          }
+          return `data/images/home/other/${imgName}`;
+        }
+      }
+
+      // 2. 依關鍵字組檔名
       let suffix = formLabel;
       if (formLabel.includes('超極巨化')) {
         suffix = '超極巨化';
+      } else {
+        const key = extractFormKey(formLabel);
+        // 阿羅拉九尾 → 阿羅拉的樣子（檔名慣例）
+        if (key === '阿羅拉') suffix = '阿羅拉的樣子';
+        else if (key === '洗翠') suffix = '洗翠的樣子';
+        else if (key === '伽勒爾') suffix = '伽勒爾的樣子';
+        else if (key === '帕底亞') suffix = '帕底亞的樣子';
+        else if (key) suffix = key;
       }
 
       if (species) {
