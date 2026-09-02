@@ -721,9 +721,20 @@ const searchInput = document.getElementById('pokemon-search');
 
 function typeClass(t) { return 'type-' + t; }
 
-    function renderWeaknesses(teData) {
+    function renderWeaknesses(teData, formLabel = null) {
       if (!teData || !teData.length) return '<p class="placeholder">無弱點資料</p>';
-      const data = teData[0].data || [];
+      let entry = teData[0];
+      if (formLabel) {
+        // 優先找 form 完全相符；其次找 types 有對上的；最後用空 form 或第一筆
+        entry = teData.find(t => t.form === formLabel)
+            || teData.find(t => t.form && formLabel.includes(t.form))
+            || teData.find(t => !t.form || t.form === '')
+            || teData[0];
+      } else {
+        // 預設優先用空 form（一般），沒有再用第一筆
+        entry = teData.find(t => !t.form || t.form === '') || teData[0];
+      }
+      const data = (entry && entry.data) || [];
       const weak = data.filter(d => parseFloat(d.damage) > 1);
       if (!weak.length) return '<p class="placeholder">無特別弱點</p>';
       return `<div class="weakness-grid">${weak.map(d => {
@@ -731,6 +742,19 @@ function typeClass(t) { return 'type-' + t; }
         const cls = mul >= 4 ? 'x4' : 'x2';
         return `<span class="weak-item ${cls}">${d.type} ×${mul}</span>`;
       }).join('')}</div>`;
+    }
+
+    function renderTypes(types) {
+      if (!types || !types.length) return '<span class="placeholder">—</span>';
+      return types.map(t => `<span class="type-badge ${typeClass(t)}">${t}</span>`).join('');
+    }
+
+    function getFormTypes(formLabel, data) {
+      if (!data || !data.forms) return [];
+      const f = data.forms.find(x => x.name === formLabel)
+             || data.forms.find(x => formLabel && x.name && (formLabel.includes(x.name) || x.name.includes(formLabel)))
+             || data.forms[0];
+      return (f && f.types) || [];
     }
 
     function renderStats(statsOrData, formLabel = null) {
@@ -826,6 +850,19 @@ function typeClass(t) { return 'type-' + t; }
       // 更新種族值數字
       const area = document.getElementById('stats-area');
       if (area) area.innerHTML = renderStats(currentBaseStats);
+
+      // 更新屬性
+      const typesEl = document.getElementById('types-area');
+      if (typesEl) {
+        const formTypes = getFormTypes(formLabel, currentData);
+        typesEl.innerHTML = renderTypes(formTypes);
+      }
+
+      // 更新弱點
+      const weakEl = document.getElementById('weakness-area');
+      if (weakEl && currentData.type_effectiveness) {
+        weakEl.innerHTML = renderWeaknesses(currentData.type_effectiveness, formLabel);
+      }
 
       // 更新按鈕 active 狀態
       document.querySelectorAll('.form-btn').forEach(btn => {
@@ -980,7 +1017,11 @@ function typeClass(t) { return 'type-' + t; }
         const nameZh = data.name_zh || (pokedex.find(p => p.index === index) || {}).name_zh || index;
         const nameEn = data.name_en || '';
         const nameJa = data.name_ja || data.name_jp || '';
-        const types = (data.type_effectiveness && data.type_effectiveness[0] && data.type_effectiveness[0].types) || [];
+        // 初始屬性優先用 forms[0].types（比 type_effectiveness 順序更可靠）
+        const types = (data.forms && data.forms[0] && data.forms[0].types)
+                   || (data.type_effectiveness && data.type_effectiveness.find(t => !t.form || t.form === '') || {}).types
+                   || (data.type_effectiveness && data.type_effectiveness[0] && data.type_effectiveness[0].types)
+                   || [];
 
         // 產生 form 切換按鈕（以 forms 為準，可含超極巨化等）
         let formButtonsHtml = '';
@@ -1000,13 +1041,13 @@ function typeClass(t) { return 'type-' + t; }
                 <div class="name-sub">${nameEn}${nameJa ? ' / ' + nameJa : ''}</div>
               </div>
               <div class="section-title">屬性</div>
-              <div class="types">
-                ${types.length ? types.map(t => `<span class="type-badge ${typeClass(t)}">${t}</span>`).join('') : '<span class="placeholder">—</span>'}
+              <div class="types" id="types-area">
+                ${types.length ? renderTypes(types) : '<span class="placeholder">—</span>'}
               </div>
               <div class="section-title" style="margin-top:1rem">種族值</div>
               <div id="stats-area">${renderStats(data.stats)}</div>
               <div class="section-title" style="margin-top:1rem">弱點（受到傷害倍率）</div>
-              ${renderWeaknesses(data.type_effectiveness)}
+              <div id="weakness-area">${renderWeaknesses(data.type_effectiveness)}</div>
             </div>
             <div class="info-right">
               <div class="image-area">
