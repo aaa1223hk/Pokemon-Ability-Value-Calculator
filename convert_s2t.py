@@ -31,11 +31,11 @@ def process_file(filepath):
         print(f"✗ 失敗 {filepath}：{e}")
 
 def main():
-    abilities_dir = r"data/pokedex"  # 確認這個路徑是否正確
+    abilities_dir = r"data/1"  # 確認這個路徑是否正確
     
     if not os.path.isdir(abilities_dir):
         print(f"找不到資料夾：{abilities_dir}")
-        print("請確認 data/pokedex 資料夾是否存在於目前目錄下")
+        print("請確認 data/1 資料夾是否存在於目前目錄下")
         return
     
     files = [f for f in os.listdir(abilities_dir) if f.endswith('.json')]
