@@ -166,22 +166,19 @@ const searchInput = document.getElementById('pokemon-search');
                  idx.replace(/^0+/, '').startsWith(q.replace(/^0+/, ''));
         });
       }
-      // 不再硬性限制前 80 筆；由 CSS max-height + overflow 控制可視範圍
-      // 若結果過多，在列表底部加提示
-      const MAX_SHOW = 300;
-      const show = matched.slice(0, MAX_SHOW);
-      const truncated = matched.length > MAX_SHOW;
-      if (!show.length) {
+      // 直接渲染全部匹配結果（目前約 1025 隻），由 CSS max-height + overflow 控制
+      // 之後若資料量增加，仍會自動顯示全部，無需再改上限
+      if (!matched.length) {
         dropdownList.innerHTML = '<div class="dropdown-empty">沒有符合的寶可夢</div>';
         return;
       }
-      let html = show.map((p, i) =>
+      let html = matched.map((p, i) =>
         `<div class="dropdown-item" data-index="${p.index}" data-i="${i}">${p.index} - ${p.name_zh}</div>`
       ).join('');
-      if (truncated) {
-        html += `<div class="dropdown-empty">… 還有 ${matched.length - MAX_SHOW} 隻，請繼續輸入關鍵字篩選</div>`;
-      } else if (!q && matched.length > 50) {
-        html += `<div class="dropdown-empty">共 ${matched.length} 隻，可輸入編號或名稱快速篩選</div>`;
+      if (!q && matched.length > 80) {
+        html += `<div class="dropdown-empty">共 ${matched.length} 隻 · 可輸入編號或名稱快速篩選</div>`;
+      } else if (q && matched.length > 80) {
+        html += `<div class="dropdown-empty">找到 ${matched.length} 隻</div>`;
       }
       dropdownList.innerHTML = html;
     }
