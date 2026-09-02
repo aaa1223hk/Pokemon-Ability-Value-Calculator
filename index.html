@@ -209,6 +209,9 @@
     .calc-btn.danger { color: #dc2626; }
     #calc-container { display: flex; flex-direction: column; gap: 1rem; }
     .calc-card-extra { border: 1px dashed #cbd5e1; }
+    th.sortable { cursor: pointer; user-select: none; }
+    th.sortable:hover { color: var(--accent); }
+    th.sortable .sort-ind { font-size: 0.7em; opacity: 0.6; margin-left: 2px; }
   </style>
 </head>
 <body>
@@ -719,12 +722,81 @@ function typeClass(t) { return 'type-' + t; }
       ).join('')}</div>`;
     }
 
-    function renderMovesTable(moves, formIndex = 0) {
+        // 招式表排序狀態
+    let currentMovesSort = { key: null, dir: 1 }; // dir: 1 asc, -1 desc
+    let currentMovesList = [];
+    let currentMovesTab = 'learnable';
+
+    const TYPE_ORDER = ['一般','火','水','草','電','冰','格鬥','毒','地面','飛行','超能力','蟲','岩石','幽靈','龍','惡','鋼','妖精'];
+    const CAT_ORDER = { '物理': 0, '特殊': 1, '變化': 2 };
+
+    function numOrNeg(v) {
+      if (v === null || v === undefined || v === '' || v === '—' || v === '-') return -1;
+      const n = parseFloat(v);
+      return isNaN(n) ? -1 : n;
+    }
+
+    function sortMovesList(list, key, dir) {
+      const arr = list.slice();
+      arr.sort((a, b) => {
+        let va, vb;
+        if (key === 'type') {
+          va = TYPE_ORDER.indexOf(a.type || '');
+          vb = TYPE_ORDER.indexOf(b.type || '');
+          if (va < 0) va = 999;
+          if (vb < 0) vb = 999;
+        } else if (key === 'category') {
+          va = CAT_ORDER[a.category] ?? 9;
+          vb = CAT_ORDER[b.category] ?? 9;
+        } else if (key === 'power') {
+          va = numOrNeg(a.power);
+          vb = numOrNeg(b.power);
+          // 高威力優先 → 我們用 desc 為預設
+        } else if (key === 'accuracy') {
+          va = numOrNeg(a.accuracy);
+          vb = numOrNeg(b.accuracy);
+        } else if (key === 'level') {
+          va = numOrNeg(a.level);
+          vb = numOrNeg(b.level);
+        } else {
+          return 0;
+        }
+        if (va < vb) return -1 * dir;
+        if (va > vb) return 1 * dir;
+        // 次要：等級
+        const la = numOrNeg(a.level), lb = numOrNeg(b.level);
+        return la - lb;
+      });
+      return arr;
+    }
+
+    function renderMovesTable(moves, formIndex = 0, sortKey = null, sortDir = 1) {
       if (!moves || !moves.length) return '<p class="placeholder">無招式資料</p>';
-      const list = (moves[formIndex] && moves[formIndex].data) ? moves[formIndex].data : (Array.isArray(moves) ? moves : []);
+      let list = (moves[formIndex] && moves[formIndex].data) ? moves[formIndex].data : (Array.isArray(moves) ? moves : []);
       if (!list.length) return '<p class="placeholder">無招式</p>';
+
+      // 保存原始列表供排序
+      currentMovesList = list;
+
+      if (sortKey) {
+        list = sortMovesList(list, sortKey, sortDir);
+      }
+
+      const ind = (k) => {
+        if (currentMovesSort.key !== k) return '';
+        return currentMovesSort.dir === 1 ? ' ↑' : ' ↓';
+      };
+
       return `<div class="moves-table-wrap"><table>
-        <thead><tr><th>等級</th><th>招式</th><th>屬性</th><th>分類</th><th>威力</th><th>命中</th><th>PP</th></tr></thead>
+        <thead><tr>
+          <th class="sortable" onclick="sortMoves('level')">等級<span class="sort-ind">${ind('level')}</span></th>
+          <th>招式</th>
+          <th class="sortable" onclick="sortMoves('type')">屬性<span class="sort-ind">${ind('type')}</span></th>
+          <th class="sortable" onclick="sortMoves('category')">分類<span class="sort-ind">${ind('category')}</span></th>
+          <th class="sortable" onclick="sortMoves('power')">威力<span class="sort-ind">${ind('power')}</span></th>
+          <th class="sortable" onclick="sortMoves('accuracy')">命中<span class="sort-ind">${ind('accuracy')}</span></th>
+          <th>PP</th>
+        </tr></thead>
         <tbody>${list.map(m => `<tr>
           <td>${m.level ?? '—'}</td><td>${m.name ?? '—'}</td>
           <td><span class="type-badge ${typeClass(m.type || '')}" style="font-size:0.75rem;padding:0.1rem 0.4rem">${m.type || '—'}</span></td>
@@ -732,9 +804,30 @@ function typeClass(t) { return 'type-' + t; }
         </tr>`).join('')}</tbody></table></div>`;
     }
 
-    function switchTab(tab) {
+    function sortMoves(key) {
+      if (currentMovesSort.key === key) {
+        currentMovesSort.dir *= -1;
+      } else {
+        currentMovesSort.key = key;
+        // 威力、命中預設由高到低；其他由低到高
+        currentMovesSort.dir = (key === 'power' || key === 'accuracy') ? -1 : 1;
+      }
+      const area = document.getElementById('moves-area');
+      if (!area || !currentData) return;
+      const tab = currentMovesTab;
+      let src;
+      if (tab === 'learnable') src = currentData.learnable_moves;
+      else if (tab === 'machine') src = currentData.machine_moves;
+      else src = currentData.egg_moves;
+      area.innerHTML = renderMovesTable(src, 0, currentMovesSort.key, currentMovesSort.dir);
+    }
+
+
+        function switchTab(tab) {
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       document.querySelector(`[data-tab="${tab}"]`)?.classList.add('active');
+      currentMovesTab = tab;
+      currentMovesSort = { key: null, dir: 1 }; // 換 tab 重置排序
       const area = document.getElementById('moves-area');
       if (!currentData || !area) return;
       if (tab === 'learnable') area.innerHTML = renderMovesTable(currentData.learnable_moves);
