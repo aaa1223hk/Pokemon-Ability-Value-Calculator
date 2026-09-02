@@ -83,6 +83,15 @@
     .form-btn.active {
       background: var(--accent); color: #fff; border-color: var(--accent);
     }
+    .ability-badge {
+      display: inline-block; padding: 0.25rem 0.7rem; border-radius: 8px;
+      font-size: 0.85rem; font-weight: 600; margin: 0.15rem 0.25rem 0.15rem 0;
+      background: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd;
+    }
+    .ability-badge.ability-hidden {
+      background: #f3e8ff; color: #7e22ce; border-color: #e9d5ff;
+    }
+    #abilities-area { display: flex; flex-wrap: wrap; gap: 0.25rem; }
 
     .info-right .image-area { min-height: 200px; }
     .placeholder { color: var(--muted); font-size: 0.95rem; }
@@ -760,6 +769,25 @@ function typeClass(t) { return 'type-' + t; }
       return (f && f.types) || [];
     }
 
+    function getFormAbilities(formLabel, data) {
+      if (!data || !data.forms) return [];
+      const f = data.forms.find(x => x.name === formLabel)
+             || data.forms.find(x => formLabel && x.name && (formLabel.includes(x.name) || x.name.includes(formLabel)))
+             || data.forms[0];
+      return (f && f.abilities) || [];
+    }
+
+    function renderAbilities(abilities) {
+      if (!abilities || !abilities.length) return '<span class="placeholder">—</span>';
+      return abilities.map(a => {
+        const name = typeof a === 'string' ? a : (a.name || '');
+        const hidden = typeof a === 'object' && a.is_hidden;
+        const cls = hidden ? 'ability-badge ability-hidden' : 'ability-badge';
+        const label = hidden ? `${name}（隱藏）` : name;
+        return `<span class="${cls}">${label}</span>`;
+      }).join('');
+    }
+
     function renderStats(statsOrData, formLabel = null) {
       let s = {};
       if (Array.isArray(statsOrData)) {
@@ -856,6 +884,12 @@ function typeClass(t) { return 'type-' + t; }
       const weakEl = document.getElementById('weakness-area');
       if (weakEl && currentData.type_effectiveness) {
         weakEl.innerHTML = renderWeaknesses(currentData.type_effectiveness, formLabel);
+      }
+
+      // 更新特性
+      const abEl = document.getElementById('abilities-area');
+      if (abEl) {
+        abEl.innerHTML = renderAbilities(getFormAbilities(formLabel, currentData));
       }
 
       // 更新按鈕 active 狀態
@@ -1114,6 +1148,8 @@ function typeClass(t) { return 'type-' + t; }
               <div id="stats-area">${renderStats(data.stats)}</div>
               <div class="section-title" style="margin-top:1rem">弱點（受到傷害倍率）</div>
               <div id="weakness-area">${renderWeaknesses(data.type_effectiveness)}</div>
+              <div class="section-title" style="margin-top:1rem">特性</div>
+              <div id="abilities-area">${renderAbilities(getFormAbilities(currentFormLabel, data))}</div>
             </div>
             <div class="info-right">
               <div class="image-area">
