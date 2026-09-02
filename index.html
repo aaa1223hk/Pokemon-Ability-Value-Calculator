@@ -531,22 +531,43 @@ const searchInput = document.getElementById('pokemon-search');
       const targets = isShedinja ? ["defense", "sp_defense"] : ["hp", "defense", "sp_defense"];
 
       while (remaining >= 4) {
+        // 讀取「當前」已調整後的最終能力值（包含使用者手動拉過的 EV）
+        const curHp = getFinalStat(cid, "hp");
+        const curDef = getFinalStat(cid, "defense");
+        const curSpd = getFinalStat(cid, "sp_defense");
+        const phys = curHp * curDef;   // 物理耐久
+        const spec = curHp * curSpd;   // 特殊耐久
+
+        // 根據目前哪邊較弱，決定優先加的方向
+        // 若物理較弱 → 優先考慮防禦或 HP
+        // 若特殊較弱 → 優先考慮特防或 HP
+        // 若相等 → 三者都可
+        let preferred;
+        if (phys < spec) {
+          preferred = ["defense", "hp", "sp_defense"];
+        } else if (spec < phys) {
+          preferred = ["sp_defense", "hp", "defense"];
+        } else {
+          preferred = ["hp", "defense", "sp_defense"];
+        }
+
+        // 只保留實際還能加的目標
+        preferred = preferred.filter(k => {
+          const ev = getNum(`ev-${cid}-${k}`, 0, 0, 252);
+          return targets.includes(k) && ev + 4 <= 252;
+        });
+
+        if (preferred.length === 0) break;
+
         let bestKey = null;
         let bestMin = -1;
         let bestSum = -1;
         let bestEv = 0;
 
-        // 當前真實數值
-        // 傷害公式中「攻擊」是對方的攻擊 → 我們要平衡「物理耐久 HP×Def」與「特殊耐久 HP×SpD」
-        const curHp = getFinalStat(cid, "hp");
-        const curDef = getFinalStat(cid, "defense");
-        const curSpd = getFinalStat(cid, "sp_defense");
-
-        for (const key of targets) {
+        for (const key of preferred) {
           const curEv = getNum(`ev-${cid}-${key}`, 0, 0, 252);
-          if (curEv + 4 > 252) continue;
 
-          // 暫時加 4
+          // 暫時加 4 並計算新耐久
           const el = document.getElementById(`ev-${cid}-${key}`);
           const range = document.getElementById(`ev-range-${cid}-${key}`);
           if (!el) continue;
@@ -565,7 +586,6 @@ const searchInput = document.getElementById('pokemon-search');
           el.value = curEv;
           if (range) range.value = curEv;
 
-          // 優先最大化較弱那一邊的耐久，其次再看總和（避免完全偏向 HP）
           if (newMin > bestMin || (newMin === bestMin && newSum > bestSum)) {
             bestMin = newMin;
             bestSum = newSum;
@@ -574,7 +594,11 @@ const searchInput = document.getElementById('pokemon-search');
           }
         }
 
-        if (!bestKey) break; // 沒有可再加的目標
+        // 若因 flooring 導致分數都沒變，仍強制選第一個可加的（確保剩餘點數會被用完）
+        if (!bestKey) {
+          bestKey = preferred[0];
+          bestEv = getNum(`ev-${cid}-${bestKey}`, 0, 0, 252) + 4;
+        }
 
         // 真正加上
         const el = document.getElementById(`ev-${cid}-${bestKey}`);
