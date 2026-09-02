@@ -126,6 +126,36 @@
     .name-zh { font-size: 1.35rem; font-weight: 700; }
     .name-sub { font-size: 0.85rem; color: var(--muted); }
     .note { font-size: 0.8rem; color: var(--muted); text-align: center; margin-top: 0.5rem; }
+    .calc-controls {
+      display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; align-items: center;
+      margin-bottom: 1rem; font-size: 0.9rem;
+    }
+    .calc-controls label { display: flex; align-items: center; gap: 0.4rem; }
+    .calc-controls input[type="number"] {
+      width: 4.5rem; padding: 0.3rem 0.4rem; border: 1px solid var(--border);
+      border-radius: 6px; font-size: 0.9rem;
+    }
+    .calc-controls select {
+      padding: 0.3rem 0.5rem; border: 1px solid var(--border);
+      border-radius: 6px; font-size: 0.85rem; max-width: 220px;
+    }
+    .calc-results {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem;
+    }
+    @media (min-width: 520px) {
+      .calc-results { grid-template-columns: repeat(6, 1fr); }
+    }
+    .calc-stat {
+      text-align: center; padding: 0.5rem 0.3rem; background: #f1f5f9;
+      border-radius: 8px;
+    }
+    .calc-stat .label { font-size: 0.7rem; color: var(--muted); }
+    .calc-stat .value { font-size: 1.15rem; font-weight: 700; }
+    .calc-stat.boost { background: #ecfdf5; }
+    .calc-stat.boost .value { color: #059669; }
+    .calc-stat.nerf { background: #fef2f2; }
+    .calc-stat.nerf .value { color: #dc2626; }
+    .calc-note { font-size: 0.75rem; color: var(--muted); margin-top: 0.6rem; }
   </style>
 </head>
 <body>
@@ -231,7 +261,94 @@ const searchInput = document.getElementById('pokemon-search');
       if (!e.target.closest('.search-wrap')) closeDropdown();
     });
 
-    function typeClass(t) { return 'type-' + t; }
+    
+    // ===== 性格與能力值計算 =====
+    const NATURES = [
+      { name: "勤奮", boost: null, nerf: null },
+      { name: "怕寂寞", boost: "attack", nerf: "defense" },
+      { name: "固執", boost: "attack", nerf: "sp_attack" },
+      { name: "頑皮", boost: "attack", nerf: "sp_defense" },
+      { name: "勇敢", boost: "attack", nerf: "speed" },
+      { name: "大膽", boost: "defense", nerf: "attack" },
+      { name: "坦率", boost: null, nerf: null },
+      { name: "淘氣", boost: "defense", nerf: "sp_attack" },
+      { name: "樂天", boost: "defense", nerf: "sp_defense" },
+      { name: "悠閒", boost: "defense", nerf: "speed" },
+      { name: "內斂", boost: "sp_attack", nerf: "attack" },
+      { name: "慢吞吞", boost: "sp_attack", nerf: "defense" },
+      { name: "害羞", boost: null, nerf: null },
+      { name: "馬虎", boost: "sp_attack", nerf: "sp_defense" },
+      { name: "冷靜", boost: "sp_attack", nerf: "speed" },
+      { name: "溫和", boost: "sp_defense", nerf: "attack" },
+      { name: "溫順", boost: "sp_defense", nerf: "defense" },
+      { name: "慎重", boost: "sp_defense", nerf: "sp_attack" },
+      { name: "浮躁", boost: null, nerf: null },
+      { name: "自大", boost: "sp_defense", nerf: "speed" },
+      { name: "膽小", boost: "speed", nerf: "attack" },
+      { name: "急躁", boost: "speed", nerf: "defense" },
+      { name: "爽朗", boost: "speed", nerf: "sp_attack" },
+      { name: "天真", boost: "speed", nerf: "sp_defense" },
+      { name: "認真", boost: null, nerf: null },
+    ];
+
+    const STAT_LABELS = { hp: "HP", attack: "攻擊", defense: "防禦", sp_attack: "特攻", sp_defense: "特防", speed: "速度" };
+    const STAT_KEYS = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed"];
+
+    function natureOptionText(n) {
+      if (!n.boost) return n.name + " (±0)";
+      return `${n.name} (+${STAT_LABELS[n.boost]} -${STAT_LABELS[n.nerf]})`;
+    }
+
+    function calcStat(base, iv, ev, level, isHP, natureMod) {
+      // 公式對應圖片
+      const term = Math.floor((base * 2 + iv + Math.floor(ev / 4)) * level / 100);
+      if (isHP) return term + level + 10;
+      return Math.floor((term + 5) * natureMod);
+    }
+
+    function getNatureMod(nature, key) {
+      if (!nature || !nature.boost) return 1.0;
+      if (key === nature.boost) return 1.1;
+      if (key === nature.nerf) return 0.9;
+      return 1.0;
+    }
+
+    function updateCalcResults() {
+      if (!currentData || !currentData.stats) return;
+      const baseMap = (currentData.stats[0] && currentData.stats[0].data) || {};
+      const level = Math.max(1, Math.min(100, parseInt(document.getElementById("calc-level")?.value, 10) || 50));
+      const natureIdx = parseInt(document.getElementById("calc-nature")?.value, 10) || 0;
+      const nature = NATURES[natureIdx];
+      const iv = 31; // 預設滿個體
+      const ev = 0;  // 預設無努力值
+      const isShedinja = (currentData.name_zh || "").includes("脫殼忍者") || (currentData.pokedex_id === "0292");
+
+      const area = document.getElementById("calc-results");
+      if (!area) return;
+
+      area.innerHTML = STAT_KEYS.map(key => {
+        const base = parseInt(baseMap[key], 10) || 0;
+        let val;
+        if (key === "hp" && isShedinja) {
+          val = 1;
+        } else {
+          const mod = key === "hp" ? 1.0 : getNatureMod(nature, key);
+          val = calcStat(base, iv, ev, level, key === "hp", mod);
+        }
+        let cls = "calc-stat";
+        if (key !== "hp" && nature.boost === key) cls += " boost";
+        if (key !== "hp" && nature.nerf === key) cls += " nerf";
+        return `<div class="${cls}"><div class="label">${STAT_LABELS[key]}</div><div class="value">${val}</div></div>`;
+      }).join("");
+    }
+
+    function buildNatureOptions() {
+      return NATURES.map((n, i) =>
+        `<option value="${i}">${natureOptionText(n)}</option>`
+      ).join("");
+    }
+
+function typeClass(t) { return 'type-' + t; }
 
     function renderWeaknesses(teData) {
       if (!teData || !teData.length) return '<p class="placeholder">無弱點資料</p>';
@@ -325,6 +442,19 @@ const searchInput = document.getElementById('pokemon-search');
               </div>
             </div>
           </div>
+          <div class="card" id="calc-card">
+            <div class="section-title">能力值計算</div>
+            <div class="calc-controls">
+              <label>等級 <input type="number" id="calc-level" value="50" min="1" max="100" oninput="updateCalcResults()"></label>
+              <label>性格
+                <select id="calc-nature" onchange="updateCalcResults()">
+                  ${buildNatureOptions()}
+                </select>
+              </label>
+            </div>
+            <div class="calc-results" id="calc-results"></div>
+            <div class="calc-note">預設：個體值 31、努力值 0。脫殼忍者 HP 固定為 1。</div>
+          </div>
           <div class="card">
             <div class="section-title">招式表</div>
             <div class="moves-tabs">
@@ -335,6 +465,8 @@ const searchInput = document.getElementById('pokemon-search');
             <div id="moves-area">${renderMovesTable(data.learnable_moves)}</div>
           </div>
         `;
+        // 初始計算
+        setTimeout(updateCalcResults, 0);
       } catch (e) {
         // 即使詳細資料載入失敗，仍嘗試顯示圖片 + 名稱
         const p = pokedex.find(x => x.index === index) || {};
