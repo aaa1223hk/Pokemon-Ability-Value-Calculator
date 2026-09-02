@@ -532,14 +532,15 @@ const searchInput = document.getElementById('pokemon-search');
 
       while (remaining >= 4) {
         let bestKey = null;
-        let bestScore = -1;
+        let bestMin = -1;
+        let bestSum = -1;
         let bestEv = 0;
 
         // 當前真實數值
+        // 傷害公式中「攻擊」是對方的攻擊 → 我們要平衡「物理耐久 HP×Def」與「特殊耐久 HP×SpD」
         const curHp = getFinalStat(cid, "hp");
         const curDef = getFinalStat(cid, "defense");
         const curSpd = getFinalStat(cid, "sp_defense");
-        const baseScore = curHp * (curDef + curSpd);
 
         for (const key of targets) {
           const curEv = getNum(`ev-${cid}-${key}`, 0, 0, 252);
@@ -555,20 +556,25 @@ const searchInput = document.getElementById('pokemon-search');
           const newHp = getFinalStat(cid, "hp");
           const newDef = getFinalStat(cid, "defense");
           const newSpd = getFinalStat(cid, "sp_defense");
-          const newScore = newHp * (newDef + newSpd);
+          const newPhys = newHp * newDef;
+          const newSpec = newHp * newSpd;
+          const newMin = Math.min(newPhys, newSpec);
+          const newSum = newPhys + newSpec;
 
           // 還原
           el.value = curEv;
           if (range) range.value = curEv;
 
-          if (newScore > bestScore) {
-            bestScore = newScore;
+          // 優先最大化較弱那一邊的耐久，其次再看總和（避免完全偏向 HP）
+          if (newMin > bestMin || (newMin === bestMin && newSum > bestSum)) {
+            bestMin = newMin;
+            bestSum = newSum;
             bestKey = key;
             bestEv = curEv + 4;
           }
         }
 
-        if (!bestKey) break; // 沒有可再加的目標（即使本步因 flooring 分數未變，仍繼續分配剩餘點數）
+        if (!bestKey) break; // 沒有可再加的目標
 
         // 真正加上
         const el = document.getElementById(`ev-${cid}-${bestKey}`);
