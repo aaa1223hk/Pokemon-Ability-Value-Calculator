@@ -24,8 +24,26 @@
       min-height: 100vh;
       padding: 1rem;
     }
-    .container { max-width: 720px; margin: 0 auto; }
+    .container { max-width: 900px; margin: 0 auto; }
     h1 { text-align: center; font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700; }
+    .main-info {
+      display: flex;
+      gap: 1.25rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .info-left {
+      flex: 1 1 280px;
+      min-width: 0;
+    }
+    .info-right {
+      flex: 0 0 240px;
+      text-align: center;
+    }
+    @media (max-width: 640px) {
+      .info-right { flex: 1 1 100%; order: -1; }
+      .info-left { flex: 1 1 100%; }
+    }
     .search-wrap { position: relative; margin-bottom: 1.25rem; }
     .search-input {
       width: 100%; padding: 0.75rem 1rem; font-size: 1rem;
@@ -48,10 +66,11 @@
       box-shadow: 0 2px 12px rgba(0,0,0,0.06); padding: 1.25rem; margin-bottom: 1rem;
     }
     .image-area {
-      text-align: center; min-height: 180px;
+      text-align: center; min-height: 160px;
       display: flex; align-items: center; justify-content: center;
     }
     .image-area img { max-width: 220px; max-height: 220px; object-fit: contain; }
+    .info-right .image-area { min-height: 200px; }
     .placeholder { color: var(--muted); font-size: 0.95rem; }
     .section-title {
       font-size: 0.85rem; font-weight: 600; color: var(--muted);
@@ -276,28 +295,28 @@ const searchInput = document.getElementById('pokemon-search');
         const types = (data.type_effectiveness && data.type_effectiveness[0] && data.type_effectiveness[0].types) || [];
 
         contentEl.innerHTML = `
-          <div class="card">
-            <div class="image-area">
-              <img src="${imgSrc}" alt="${nameZh}"
-                   onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
-              <p class="placeholder" style="display:none">圖片載入失敗（${imgFile}）</p>
+          <div class="card main-info">
+            <div class="info-left">
+              <div class="name-line" style="text-align:left; margin-bottom:0.75rem">
+                <div class="name-zh">${nameZh}</div>
+                <div class="name-sub">${nameEn}${nameJa ? ' / ' + nameJa : ''}</div>
+              </div>
+              <div class="section-title">屬性</div>
+              <div class="types">
+                ${types.length ? types.map(t => `<span class="type-badge ${typeClass(t)}">${t}</span>`).join('') : '<span class="placeholder">—</span>'}
+              </div>
+              <div class="section-title" style="margin-top:1rem">種族值</div>
+              ${renderStats(data.stats)}
+              <div class="section-title" style="margin-top:1rem">弱點（受到傷害倍率）</div>
+              ${renderWeaknesses(data.type_effectiveness)}
             </div>
-            <div class="name-line">
-              <div class="name-zh">${nameZh}</div>
-              <div class="name-sub">${nameEn}${nameJa ? ' / ' + nameJa : ''}</div>
+            <div class="info-right">
+              <div class="image-area">
+                <img src="${imgSrc}" alt="${nameZh}"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                <p class="placeholder" style="display:none">圖片載入失敗（${imgFile}）</p>
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="section-title">屬性</div>
-            <div class="types">
-              ${types.length ? types.map(t => `<span class="type-badge ${typeClass(t)}">${t}</span>`).join('') : '<span class="placeholder">—</span>'}
-            </div>
-            <div class="section-title" style="margin-top:0.75rem">弱點（受到傷害倍率）</div>
-            ${renderWeaknesses(data.type_effectiveness)}
-          </div>
-          <div class="card">
-            <div class="section-title">種族值</div>
-            ${renderStats(data.stats)}
           </div>
           <div class="card">
             <div class="section-title">招式表</div>
@@ -313,14 +332,18 @@ const searchInput = document.getElementById('pokemon-search');
         // 即使詳細資料載入失敗，仍嘗試顯示圖片 + 名稱
         const p = pokedex.find(x => x.index === index) || {};
         contentEl.innerHTML = `
-          <div class="card">
-            <div class="image-area">
-              <img src="${imgSrc}" alt="${p.name_zh || index}"
-                   onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
-              <p class="placeholder" style="display:none">圖片載入失敗</p>
+          <div class="card main-info">
+            <div class="info-left">
+              <div class="name-line" style="text-align:left">
+                <div class="name-zh">${p.name_zh || index}</div>
+              </div>
             </div>
-            <div class="name-line">
-              <div class="name-zh">${p.name_zh || index}</div>
+            <div class="info-right">
+              <div class="image-area">
+                <img src="${imgSrc}" alt="${p.name_zh || index}"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                <p class="placeholder" style="display:none">圖片載入失敗</p>
+              </div>
             </div>
           </div>
           <div class="card error">
@@ -335,3 +358,4 @@ const searchInput = document.getElementById('pokemon-search');
   </script>
 </body>
 </html>
+
