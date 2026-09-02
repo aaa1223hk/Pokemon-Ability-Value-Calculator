@@ -851,16 +851,20 @@ function typeClass(t) { return 'type-' + t; }
 
     /** 依 form 名稱盡力解析圖片路徑 */
     function resolveFormImage(formLabel, index, data) {
-      // 統一走 home/ 路線
-      // 一般形態：0006.png
-      // 其他形態：0006-超級噴火龍Ｘ.png（編號 + form 內容 + .png）
+      // 一般形態：data/images/home/0006.png
+      // 其他形態：1/0006-噴火龍-超級噴火龍Ｘ.png（編號 + 種族名 + form 名）
       const isBase = !formLabel || formLabel === '一般' || formLabel === '普通'
                   || formLabel.includes('一般') || formLabel === '普通的樣子'
                   || formLabel === '普通形態' || formLabel === '一般的樣子';
       if (isBase) {
         return `data/images/home/${index}.png`;
       }
-      return `data/images/home/${index}-${formLabel}.png`;
+      const species = (data && data.name_zh) ? data.name_zh : '';
+      if (species) {
+        return `1/${index}-${species}-${formLabel}.png`;
+      }
+      // 沒有種族名時退回舊規則
+      return `1/${index}-${formLabel}.png`;
     }
 
 
