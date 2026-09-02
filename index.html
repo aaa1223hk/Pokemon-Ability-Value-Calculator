@@ -53,7 +53,7 @@
     .search-input:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
     .dropdown-list {
       display: none; position: absolute; left: 0; right: 0; top: calc(100% + 4px);
-      max-height: 280px; overflow-y: auto; background: var(--card);
+      max-height: 360px; overflow-y: auto; background: var(--card);
       border: 1px solid var(--border); border-radius: 10px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.12); z-index: 50;
     }
@@ -166,14 +166,24 @@ const searchInput = document.getElementById('pokemon-search');
                  idx.replace(/^0+/, '').startsWith(q.replace(/^0+/, ''));
         });
       }
-      const show = matched.slice(0, 80);
+      // 不再硬性限制前 80 筆；由 CSS max-height + overflow 控制可視範圍
+      // 若結果過多，在列表底部加提示
+      const MAX_SHOW = 300;
+      const show = matched.slice(0, MAX_SHOW);
+      const truncated = matched.length > MAX_SHOW;
       if (!show.length) {
         dropdownList.innerHTML = '<div class="dropdown-empty">沒有符合的寶可夢</div>';
         return;
       }
-      dropdownList.innerHTML = show.map((p, i) =>
+      let html = show.map((p, i) =>
         `<div class="dropdown-item" data-index="${p.index}" data-i="${i}">${p.index} - ${p.name_zh}</div>`
       ).join('');
+      if (truncated) {
+        html += `<div class="dropdown-empty">… 還有 ${matched.length - MAX_SHOW} 隻，請繼續輸入關鍵字篩選</div>`;
+      } else if (!q && matched.length > 50) {
+        html += `<div class="dropdown-empty">共 ${matched.length} 隻，可輸入編號或名稱快速篩選</div>`;
+      }
+      dropdownList.innerHTML = html;
     }
 
     function openDropdown() { dropdownList.classList.add('open'); activeIdx = -1; }
