@@ -2,11 +2,11 @@
 """
 把 data/images/home/ 下的圖檔簡化命名。
 
-規則（依 sorted 排序，近似 ls）：
-  每個編號（0001, 0002, …）只保留前兩個檔案：
-    第 1 個 → 0001.png
-    第 2 個 → 0001-shiny.png
-  第 3 個以後 → 刪除
+規則（修正版）：
+  每個編號（0001, 0002, …）只保留兩個檔案：
+    - 優先選「沒有 shiny」的圖 → 0001.png
+    - 優先選「有 shiny」的圖   → 0001-shiny.png
+  其餘全部刪除
 
 使用方式：
   # 先預覽（不會改任何檔案）
@@ -23,6 +23,21 @@ from collections import defaultdict
 from pathlib import Path
 
 HOME_DIR = Path("data/images/home")
+
+
+def is_shiny(name: str) -> bool:
+    return "-shiny" in name.lower()
+
+
+def pick_best(files, prefer_shiny: bool):
+    """從候選中挑一個最合適的。prefer_shiny=True 時優先 shiny，否則優先非 shiny。"""
+    if not files:
+        return None
+    preferred = [p for p in files if is_shiny(p.name) == prefer_shiny]
+    candidates = preferred if preferred else files
+    # 在符合的裡面選檔名最短的（通常是最基本的型態）
+    candidates.sort(key=lambda p: (len(p.name), p.name))
+    return candidates[0]
 
 
 def main():
@@ -54,21 +69,33 @@ def main():
 
     plan_rename = []  # (src, dst)
     plan_delete = []  # path
+    used = set()
 
     for idx in sorted(groups.keys()):
-        files = sorted(groups[idx], key=lambda p: p.name)  # 近似 ls 排序
+        files = groups[idx]
 
-        for i, src in enumerate(files):
-            if i == 0:
-                dst = root / f"{idx}.png"
-                if src.resolve() != dst.resolve():
-                    plan_rename.append((src, dst))
-            elif i == 1:
-                dst = root / f"{idx}-shiny.png"
-                if src.resolve() != dst.resolve():
-                    plan_rename.append((src, dst))
-            else:
-                plan_delete.append(src)
+        normal = pick_best(files, prefer_shiny=False)
+        shiny = pick_best(files, prefer_shiny=True)
+
+        # 避免同一個檔被選兩次（例如該編號只有 shiny）
+        if normal and shiny and normal.resolve() == shiny.resolve():
+            shiny = None
+
+        if normal:
+            dst = root / f"{idx}.png"
+            if normal.resolve() != dst.resolve():
+                plan_rename.append((normal, dst))
+            used.add(normal.resolve())
+
+        if shiny:
+            dst = root / f"{idx}-shiny.png"
+            if shiny.resolve() != dst.resolve():
+                plan_rename.append((shiny, dst))
+            used.add(shiny.resolve())
+
+        for p in files:
+            if p.resolve() not in used:
+                plan_delete.append(p)
 
     # 輸出計畫
     print(f"目錄：{root}")
@@ -77,8 +104,7 @@ def main():
     print(f"預計刪除：{len(plan_delete)} 個")
     print("-" * 50)
 
-    # 顯示前幾個範例
-    show = 12
+    show = 14
     for src, dst in plan_rename[:show]:
         print(f"  改名  {src.name}  →  {dst.name}")
     if len(plan_rename) > show:
@@ -86,24 +112,22 @@ def main():
 
     if plan_delete:
         print()
-        for p in plan_delete[:show]:
+        for p in plan_delete[:8]:
             print(f"  刪除  {p.name}")
-        if len(plan_delete) > show:
-            print(f"  ... 還有 {len(plan_delete) - show} 個刪除")
+        if len(plan_delete) > 8:
+            print(f"  ... 還有 {len(plan_delete) - 8} 個刪除")
 
     if not args.apply:
         print()
         print("※ 目前是預覽模式，沒有任何檔案被更動。")
         print("  確認沒問題後請加上 --apply 再執行一次：")
-        print("  python rename_home_images.py --apply")
+        print("  python .\\rename_home_images.py --apply")
         return
 
-    # 真正執行
+    # 真正執行（兩階段暫存，避免名稱衝突）
     print()
     print("開始執行…")
 
-    # 先處理可能的目標檔名衝突：若目標已存在且不是來源本身，先刪除或改暫名
-    # 為了安全，用兩階段：先全部改成暫名，再改成最終名
     temp_pairs = []
     for i, (src, dst) in enumerate(plan_rename):
         temp = root / f"__tmp_rename_{i:04d}_{dst.name}"
@@ -116,7 +140,7 @@ def main():
     for temp, dst in temp_pairs:
         try:
             if dst.exists():
-                dst.unlink()  # 覆蓋舊的同名檔（極少見）
+                dst.unlink()
             temp.rename(dst)
             print(f"  ✓ {dst.name}")
         except Exception as e:
