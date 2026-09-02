@@ -806,13 +806,22 @@ function typeClass(t) { return 'type-' + t; }
 
     /** 切換型態：更新種族值顯示、圖片、以及計算用的 base stats */
     function switchForm(formLabel) {
-      if (!currentData || !currentData.stats) return;
-      const entry = currentData.stats.find(s => s.form === formLabel)
-                 || currentData.stats[0];
-      if (!entry) return;
+      if (!currentData) return;
 
       currentFormLabel = formLabel;
-      currentBaseStats = { ...(entry.data || {}) };
+
+      // 種族值：優先用 stats 裡同名 form；找不到就用第一筆（極巨化通常與一般相同）
+      let entry = null;
+      if (currentData.stats && currentData.stats.length) {
+        entry = currentData.stats.find(s => s.form === formLabel);
+        if (!entry) {
+          // 模糊：超級噴火龍Ｘ 等可直接對上；超極巨化噴火龍 → 用一般
+          const clean = formLabel.replace(/^超極巨化/, '').replace(/^超級/, '超級');
+          entry = currentData.stats.find(s => s.form && (s.form === clean || formLabel.includes(s.form) || s.form.includes(formLabel)));
+        }
+        if (!entry) entry = currentData.stats[0];
+      }
+      currentBaseStats = { ...((entry && entry.data) || {}) };
 
       // 更新種族值數字
       const area = document.getElementById('stats-area');
@@ -833,7 +842,6 @@ function typeClass(t) { return 'type-' + t; }
         const errP = img.nextElementSibling;
         if (errP) errP.style.display = 'none';
         img.onerror = function() {
-          // 若 form 圖不存在，退回基礎圖
           this.src = `data/images/home/${index}.png`;
           this.onerror = function() {
             this.style.display = 'none';
@@ -849,22 +857,33 @@ function typeClass(t) { return 'type-' + t; }
       });
     }
 
-    /** 依 form 名稱盡力解析圖片路徑 */
+    /** 依 forms 名稱解析圖片路徑（配合 data/images/home/other/ 的命名） */
     function resolveFormImage(formLabel, index, data) {
-      // 一般形態：data/images/home/0006.png
-      // 其他形態：data/images/home/other/0006-噴火龍-超級噴火龍Ｘ.png（編號 + 種族名 + form 名）
-      const isBase = !formLabel || formLabel === '一般' || formLabel === '普通'
+      const species = (data && data.name_zh) ? data.name_zh : '';
+      const forms = (data && data.forms) || [];
+      const firstFormName = forms.length ? (forms[0].name || '') : species;
+
+      // 第一個 form（通常是種族本身）視為一般形態
+      const isBase = !formLabel
+                  || formLabel === firstFormName
+                  || formLabel === species
+                  || formLabel === '一般' || formLabel === '普通'
                   || formLabel.includes('一般') || formLabel === '普通的樣子'
                   || formLabel === '普通形態' || formLabel === '一般的樣子';
       if (isBase) {
         return `data/images/home/${index}.png`;
       }
-      const species = (data && data.name_zh) ? data.name_zh : '';
-      if (species) {
-        return `data/images/home/other/${index}-${species}-${formLabel}.png`;
+
+      // 超極巨化：檔名多用「超極巨化」而不是「超極巨化噴火龍」
+      let suffix = formLabel;
+      if (formLabel.includes('超極巨化')) {
+        suffix = '超極巨化';
       }
-      // 沒有種族名時退回舊規則
-      return `data/images/home/other/${index}-${formLabel}.png`;
+
+      if (species) {
+        return `data/images/home/other/${index}-${species}-${suffix}.png`;
+      }
+      return `data/images/home/other/${index}-${suffix}.png`;
     }
 
 
@@ -952,22 +971,21 @@ function typeClass(t) { return 'type-' + t; }
         const data = await res.json();
         currentData = data;
 
-        // 預設用第一筆 stats 作為目前種族值
+        // 預設用第一筆 stats 作為目前種族值；form 標籤用 forms[0]
         const firstStats = (data.stats && data.stats[0] && data.stats[0].data) || {};
         currentBaseStats = { ...firstStats };
-        currentFormLabel = (data.stats && data.stats[0] && data.stats[0].form) || '一般';
+        const formNames = (data.forms || []).map(f => f.name).filter(Boolean);
+        currentFormLabel = formNames[0] || data.name_zh || '一般';
 
         const nameZh = data.name_zh || (pokedex.find(p => p.index === index) || {}).name_zh || index;
         const nameEn = data.name_en || '';
         const nameJa = data.name_ja || data.name_jp || '';
         const types = (data.type_effectiveness && data.type_effectiveness[0] && data.type_effectiveness[0].types) || [];
 
-        // 產生 form 切換按鈕（有多個 stats form 時才顯示）
-        const statsForms = (data.stats || []).map(s => s.form || '一般');
-        const uniqueForms = [...new Set(statsForms)];
+        // 產生 form 切換按鈕（以 forms 為準，可含超極巨化等）
         let formButtonsHtml = '';
-        if (uniqueForms.length > 1) {
-          formButtonsHtml = uniqueForms.map((f, i) => {
+        if (formNames.length > 1) {
+          formButtonsHtml = formNames.map((f, i) => {
             const active = i === 0 ? ' active' : '';
             const safe = f.replace(/'/g, "\\'");
             return `<button class="form-btn${active}" data-form="${f}" onclick="switchForm('${safe}')">${f}</button>`;
