@@ -1,0 +1,93 @@
+{
+  "name_zh": "毛茸茸",
+  "name_ja": "もふもふ",
+  "name_en": "Fluffy",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "會將對手所給予的接觸類招式的傷害減半，但火屬性招式的傷害會變為２倍。",
+  "effect": "該特性的寶可夢所受到的接觸類招式攻擊傷害是原本的1⁄2，但火屬性招式的傷害×2。\n- 所受到的火屬性接觸類招式攻擊傷害不變。\n- 遠隔特性的寶可夢對毛茸茸特性的寶可夢使用接觸類招式傷害不變。。\n- 攜帶拳擊手套的寶可夢對毛茸茸特性的寶可夢使用拳類招式傷害不變。",
+  "pokemon_list": [
+    {
+      "id": "0759",
+      "name": "童偶熊",
+      "form": "",
+      "icon": "-27em -28em",
+      "types": [
+        "一般",
+        "格鬥"
+      ],
+      "first_ability": "毛茸茸",
+      "second_ability": "笨拙",
+      "hidden_ability": "迷人之軀"
+    },
+    {
+      "id": "0760",
+      "name": "穿著熊",
+      "form": "",
+      "icon": "-28em -28em",
+      "types": [
+        "一般",
+        "格鬥"
+      ],
+      "first_ability": "毛茸茸",
+      "second_ability": "笨拙",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0831",
+      "name": "毛辮羊",
+      "form": "",
+      "icon": "-14em -31em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "毛茸茸",
+      "second_ability": "逃跑",
+      "hidden_ability": "防彈"
+    },
+    {
+      "id": "0832",
+      "name": "毛毛角羊",
+      "form": "",
+      "icon": "-15em -31em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "毛茸茸",
+      "second_ability": "不屈之心",
+      "hidden_ability": "防彈"
+    },
+    {
+      "id": "0971",
+      "name": "墓仔狗",
+      "form": "",
+      "icon": "-18em -37em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "",
+      "hidden_ability": "毛茸茸"
+    },
+    {
+      "id": "0972",
+      "name": "墓揚犬",
+      "form": "",
+      "icon": "-19em -37em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "撥沙",
+      "second_ability": "",
+      "hidden_ability": "毛茸茸"
+    }
+  ],
+  "id": "218"
+}

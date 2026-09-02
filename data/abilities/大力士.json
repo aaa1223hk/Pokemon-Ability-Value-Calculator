@@ -1,0 +1,119 @@
+{
+  "name_zh": "大力士",
+  "name_ja": "ちからもち",
+  "name_en": "Huge Power",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "物理攻擊的威力會變為２倍。",
+  "effect": "傷害計算中，此寶可夢的攻擊能力值×２。\n- 此效果不是能力變化。使用其他資料代替攻擊能力值（如將對手的攻擊能力值代替自身攻擊能力值的移花接木、將自身的防禦能力值代替自身攻擊能力值的撲擊）進行傷害計算的物理招式時，傷害計算中的攻擊也會×２。\n每回合有1⁄3機率攻擊提升50%。",
+  "pokemon_list": [
+    {
+      "id": "0183",
+      "name": "瑪力露",
+      "form": "",
+      "icon": "-16em -7em",
+      "types": [
+        "水",
+        "妖精"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "大力士",
+      "hidden_ability": "食草"
+    },
+    {
+      "id": "0184",
+      "name": "瑪力露麗",
+      "form": "",
+      "icon": "-17em -7em",
+      "types": [
+        "水",
+        "妖精"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "大力士",
+      "hidden_ability": "食草"
+    },
+    {
+      "id": "0298",
+      "name": "露力麗",
+      "form": "",
+      "icon": "0 -12em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "大力士",
+      "hidden_ability": "食草"
+    },
+    {
+      "id": "0303",
+      "name": "大嘴娃",
+      "form": "超級大嘴娃",
+      "icon": "-7em -12em",
+      "types": [
+        "鋼",
+        "妖精"
+      ],
+      "first_ability": "大力士",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0659",
+      "name": "掘掘兔",
+      "form": "",
+      "icon": "-21em -24em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "頰囊",
+      "hidden_ability": "大力士"
+    },
+    {
+      "id": "0660",
+      "name": "掘地兔",
+      "form": "",
+      "icon": "-22em -24em",
+      "types": [
+        "一般",
+        "地面"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "頰囊",
+      "hidden_ability": "大力士"
+    },
+    {
+      "id": "0000",
+      "name": "空手道王",
+      "form": "",
+      "icon": "0 0",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "大力士",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0000",
+      "name": "莫妮卡",
+      "form": "",
+      "icon": "0 0",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "大力士",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "037"
+}

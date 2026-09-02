@@ -1,0 +1,289 @@
+{
+  "name_zh": "靜電",
+  "name_ja": "せいでんき",
+  "name_en": "Static",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "身上帶有靜電，有時會讓接觸到的對手麻痺。",
+  "effect": "使用接觸類招式攻擊該特性的寶可夢時會有30%的機率麻痺。\n連續招式的每一擊都會單獨觸發該特性。",
+  "pokemon_list": [
+    {
+      "id": "0025",
+      "name": "皮卡丘",
+      "form": "",
+      "icon": "-3em -1em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0026",
+      "name": "雷丘",
+      "form": "",
+      "icon": "-21em -1em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0100",
+      "name": "霹靂電球",
+      "form": "",
+      "icon": "-15em -4em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0100",
+      "name": "霹靂電球",
+      "form": "洗翠的樣子",
+      "icon": "-16em -4em",
+      "types": [
+        "電",
+        "草"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0101",
+      "name": "頑皮雷彈",
+      "form": "",
+      "icon": "-17em -4em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0101",
+      "name": "頑皮雷彈",
+      "form": "洗翠的樣子",
+      "icon": "-18em -4em",
+      "types": [
+        "電",
+        "草"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0125",
+      "name": "電擊獸",
+      "form": "",
+      "icon": "-13em -5em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "幹勁"
+    },
+    {
+      "id": "0145",
+      "name": "閃電鳥",
+      "form": "",
+      "icon": "-7em -6em",
+      "types": [
+        "電",
+        "飛行"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "",
+      "hidden_ability": "靜電"
+    },
+    {
+      "id": "0172",
+      "name": "皮丘",
+      "form": "",
+      "icon": "-2em -7em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0179",
+      "name": "咩利羊",
+      "form": "",
+      "icon": "-11em -7em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "正電"
+    },
+    {
+      "id": "0180",
+      "name": "茸茸羊",
+      "form": "",
+      "icon": "-12em -7em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "正電"
+    },
+    {
+      "id": "0181",
+      "name": "電龍",
+      "form": "",
+      "icon": "-13em -7em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "正電"
+    },
+    {
+      "id": "0239",
+      "name": "電擊怪",
+      "form": "",
+      "icon": "-7em -10em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "幹勁"
+    },
+    {
+      "id": "0309",
+      "name": "落雷獸",
+      "form": "",
+      "icon": "-17em -12em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "避雷針",
+      "hidden_ability": "負電"
+    },
+    {
+      "id": "0310",
+      "name": "雷電獸",
+      "form": "",
+      "icon": "-18em -12em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "避雷針",
+      "hidden_ability": "負電"
+    },
+    {
+      "id": "0587",
+      "name": "電飛鼠",
+      "form": "",
+      "icon": "-13em -22em",
+      "types": [
+        "電",
+        "飛行"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "電氣引擎"
+    },
+    {
+      "id": "0618",
+      "name": "泥巴魚",
+      "form": "",
+      "icon": "-6em -23em",
+      "types": [
+        "地面",
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "柔軟",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0848",
+      "name": "電音嬰",
+      "form": "",
+      "icon": "-38em -31em",
+      "types": [
+        "電",
+        "毒"
+      ],
+      "first_ability": "膽怯",
+      "second_ability": "靜電",
+      "hidden_ability": "笨拙"
+    },
+    {
+      "id": "0881",
+      "name": "雷鳥海獸",
+      "form": "",
+      "icon": "-23em -34em",
+      "types": [
+        "電",
+        "冰"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "靜電",
+      "hidden_ability": "撥雪"
+    },
+    {
+      "id": "0921",
+      "name": "布撥",
+      "form": "",
+      "icon": "-38em -35em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "自然回覆",
+      "hidden_ability": "鐵拳"
+    },
+    {
+      "id": "0938",
+      "name": "光蚪仔",
+      "form": "",
+      "icon": "-19em -36em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "我行我素",
+      "second_ability": "靜電",
+      "hidden_ability": "溼氣"
+    },
+    {
+      "id": "0939",
+      "name": "電肚蛙",
+      "form": "",
+      "icon": "-20em -36em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "電力轉換",
+      "second_ability": "靜電",
+      "hidden_ability": "溼氣"
+    }
+  ],
+  "id": "009"
+}

@@ -1,0 +1,228 @@
+{
+  "name_zh": "輕裝",
+  "name_ja": "かるわざ",
+  "name_en": "Unburden",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "失去所持有的道具時，速度會提高。",
+  "effect": "當失去攜帶物品時速度加倍。\n輕裝特性發動中，如果獲得新的道具、失去輕裝特性或者被換下場，則效果消失。\n如果本來就沒有攜帶物品，則輕裝特性不發動。\n輕裝特性引發的速度加倍狀態不會被接棒傳遞。\n具該特性的寶可夢如無攜帶物品，每回合可以攻擊2次且只消耗1ＰＰ。",
+  "pokemon_list": [
+    {
+      "id": "0106",
+      "name": "飛腿郎",
+      "form": "",
+      "icon": "-26em -4em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "捨身",
+      "hidden_ability": "輕裝"
+    },
+    {
+      "id": "0252",
+      "name": "木守宮",
+      "form": "",
+      "icon": "-21em -10em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "輕裝"
+    },
+    {
+      "id": "0253",
+      "name": "森林蜥蜴",
+      "form": "",
+      "icon": "-22em -10em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "輕裝"
+    },
+    {
+      "id": "0254",
+      "name": "蜥蜴王",
+      "form": "",
+      "icon": "-23em -10em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "輕裝"
+    },
+    {
+      "id": "0425",
+      "name": "飄飄球",
+      "form": "",
+      "icon": "-24em -16em",
+      "types": [
+        "幽靈",
+        "飛行"
+      ],
+      "first_ability": "誘爆",
+      "second_ability": "輕裝",
+      "hidden_ability": "受熱激升"
+    },
+    {
+      "id": "0426",
+      "name": "隨風球",
+      "form": "",
+      "icon": "-25em -16em",
+      "types": [
+        "幽靈",
+        "飛行"
+      ],
+      "first_ability": "誘爆",
+      "second_ability": "輕裝",
+      "hidden_ability": "受熱激升"
+    },
+    {
+      "id": "0509",
+      "name": "扒手貓",
+      "form": "",
+      "icon": "-35em -19em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "輕裝",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0510",
+      "name": "酷豹",
+      "form": "",
+      "icon": "-36em -19em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "輕裝",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0617",
+      "name": "敏捷蟲",
+      "form": "",
+      "icon": "-5em -23em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "溼潤之軀",
+      "second_ability": "黏著",
+      "hidden_ability": "輕裝"
+    },
+    {
+      "id": "0684",
+      "name": "綿綿泡芙",
+      "form": "",
+      "icon": "-10em -26em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "甜幕",
+      "second_ability": "",
+      "hidden_ability": "輕裝"
+    },
+    {
+      "id": "0685",
+      "name": "胖甜妮",
+      "form": "",
+      "icon": "-11em -26em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "甜幕",
+      "second_ability": "",
+      "hidden_ability": "輕裝"
+    },
+    {
+      "id": "0701",
+      "name": "摔角鷹人",
+      "form": "",
+      "icon": "-27em -26em",
+      "types": [
+        "格鬥",
+        "飛行"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "輕裝",
+      "hidden_ability": "破格"
+    },
+    {
+      "id": "0827",
+      "name": "狡小狐",
+      "form": "",
+      "icon": "-10em -31em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "輕裝",
+      "hidden_ability": "蹲守"
+    },
+    {
+      "id": "0828",
+      "name": "猾大狐",
+      "form": "",
+      "icon": "-11em -31em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "輕裝",
+      "hidden_ability": "蹲守"
+    },
+    {
+      "id": "0903",
+      "name": "大狃拉",
+      "form": "",
+      "icon": "-18em -35em",
+      "types": [
+        "格鬥",
+        "毒"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "輕裝",
+      "hidden_ability": "毒手"
+    },
+    {
+      "id": "0944",
+      "name": "滋汁鼴",
+      "form": "",
+      "icon": "-25em -36em",
+      "types": [
+        "毒",
+        "一般"
+      ],
+      "first_ability": "輕裝",
+      "second_ability": "順手牽羊",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0945",
+      "name": "塗標客",
+      "form": "",
+      "icon": "-26em -36em",
+      "types": [
+        "毒",
+        "一般"
+      ],
+      "first_ability": "輕裝",
+      "second_ability": "毒手",
+      "hidden_ability": "惡作劇之心"
+    }
+  ],
+  "id": "084"
+}

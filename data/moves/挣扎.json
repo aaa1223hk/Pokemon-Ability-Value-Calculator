@@ -1,0 +1,29 @@
+{
+  "name_zh": "掙扎",
+  "name_ja": "わるあがき",
+  "name_en": "Struggle",
+  "type": "一般",
+  "category": "物理",
+  "pp": "— （最大 —）",
+  "power": "50",
+  "accuracy": "—",
+  "range": "隨機一隻對手",
+  "description": "當自己的ＰＰ耗盡時，努力掙扎攻擊對手。自己也會受到少許傷害。",
+  "intro": "掙扎（日文︰わるあがき，英文︰Struggle）是第一世代引入的一般屬性招式。",
+  "effect": [
+    "是接觸類招式",
+    "受守住影響",
+    "不受魔法反射影響",
+    "不可以被化為己用",
+    "不受鸚鵡學舌影響",
+    "受王者之證等類似道具影響"
+  ],
+  "additional_effect": "攻擊隨機一位對手造成無屬性的傷害。對使用者造成最大ＨＰ的1⁄4傷害。\n掙扎一定會命中，除非目標正在使用蓄力的招式並不在場地上。\n該招式不能被模仿或寫生學習，也不能被仿效、鸚鵡學舌、藉助或揮指發動，也不受再來一次、堅硬腦袋、捨身、神奇守護、魔法防守的影響。\n該招式不可被精通。",
+  "details": "掙扎的非官方的常用譯名有拼命、絕境反擊和絕地反擊。\n掙扎變為Ｚ招式和極巨招式後是威力最低的招式，威力僅有1。",
+  "move_changes": "第一世代\n攻擊目標造成傷害。\n自身承受對目標造成傷害的1⁄2的傷害。\n攻擊破壞替身時，使用者不會受到反作用力傷害。\nＰＰ：10\n作為反作用力傷害的招式：\n使用者因反作用力傷害而昏厥時，即使對手尚未行動，也會結束回合，跳過對手的行動和異常狀態、狀態變化結算（如睡眠的持續回合減少、中毒、寄生種子的傷害）。\n使用者受到反作用力傷害後，在受到其他招式傷害前使出的雙倍奉還，會以反作用力傷害計算雙倍奉還的傷害。\n在當時有以下漏洞：\n變身狀態的寶可夢使用揮指或鸚鵡學舌時，會增加這隻寶可夢原本的招式中，對應位置的招式的ＰＰ1點。\n由上述漏洞造成代表沒有招式的“—”的ＰＰ不為0時，即使其他招式的ＰＰ均為0，也無法使用掙扎。\n寶可夢中心不會回覆“—”的ＰＰ，因此無法用於修復該漏洞。\n可透過學會新的招式覆蓋出錯的“—”，或透過反覆觸發此漏洞並使出錯的“—”的ＰＰ達到256後溢位變為0進行修復。\n在競技場中：\n招式可以命中幽靈屬性寶可夢。\n攻擊讓對手陷入昏厥時，不會受到反作用力傷害。\n第二世代\n修復第一世代的漏洞。\n效果變更：反作用力傷害的招式不再會因使用者昏厥導致回合提前結束，反作用力傷害也不再用於計算雙倍奉還的傷害。\nＰＰ：10 → 1\n反作用力傷害：造成傷害的1⁄2 → 1⁄4。\n傷害屬性：一般.mw-parser-output .type-box-9,.mw-parser-output .type-box-9-other{position:relative;display:inline-block;overflow:hidden;margin:0 1px;height:20px;border-radius:10px;text-align:center;vertical-align:middle;white-space:nowrap;font-size:14px;line-height:20px}.mw-parser-output .type-box-9{padding-left:17px;width:60px}.mw-parser-output .type-box-9-other{width:80px}.mw-parser-output .type-box-9-icon{position:absolute;top:0;left:2px;width:20px;height:20px}.mw-parser-output .type-box-9-text{color:#fff}.mw-parser-output .type-box-9-一般{background-color:#9fa19f}.mw-parser-output .type-box-9-格鬥,.mw-parser-output .type-box-9-格鬥{background-color:#ff8000}.mw-parser-output .type-box-9-飛行,.mw-parser-output .type-box-9-飛行{background-color:#81b9ef}.mw-parser-output .type-box-9-毒{background-color:#9141cb}.mw-parser-output .type-box-9-地面{background-color:#915121}.mw-parser-output .type-box-9-岩石{background-color:#afa981}.mw-parser-output .type-box-9-蟲,.mw-parser-output .type-box-9-蟲{background-color:#91a119}.mw-parser-output .type-box-9-幽靈,.mw-parser-output .type-box-9-幽靈{background-color:#704170}.mw-parser-output .type-box-9-鋼,.mw-parser-output .type-box-9-鋼{background-color:#60a1b8}.mw-parser-output .type-box-9-火{background-color:#e62829}.mw-parser-output .type-box-9-水{background-color:#2980ef}.mw-parser-output .type-box-9-草{background-color:#3fa129}.mw-parser-output .type-box-9-電,.mw-parser-output .type-box-9-電{background-color:#fac000}.mw-parser-output .type-box-9-超能力{background-color:#ef4179}.mw-parser-output .type-box-9-冰{background-color:#3fd8ff}.mw-parser-output .type-box-9-龍,.mw-parser-output .type-box-9-龍{background-color:#5060e1}.mw-parser-output .type-box-9-惡,.mw-parser-output .type-box-9-惡{background-color:#50413f}.mw-parser-output .type-box-9-妖精{background-color:#ef70ef}.mw-parser-output .type-box-9-星晶{background-color:#73c6bc} → 無屬性\n取消效果：攻擊破壞了替身或讓對手陷入昏厥時，不會受到反作用力傷害。\n第三世代\n增加效果：不受堅硬腦袋影響。\n第四世代\n命中：100 → 必中\n招式一定會命中，除非目標正在使用蓄力的招式並不在場地上。\n反作用力傷害：造成傷害的1⁄4 → 自身最大ＨＰ的1⁄4。\n增加效果：不受定身法、無理取鬧、封印狀態影響。\n增加效果：攻擊會觸發目標的燈漿果。\n增加效果：不受技術高手、魔法防守、捨身影響。\n第五世代\n取消效果：攻擊會觸發目標的燈漿果。\n取消效果：不受技術高手影響。\n第六世代\n增加效果：不觸發使用者的一般寶石。",
+  "learn_by_level_up": [],
+  "learn_by_tm": [],
+  "learn_by_breeding": [],
+  "learn_by_tutor": [],
+  "id": "165"
+}

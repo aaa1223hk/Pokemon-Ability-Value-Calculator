@@ -1,0 +1,144 @@
+{
+  "name_zh": "防彈",
+  "name_ja": "ぼうだん",
+  "name_en": "Bulletproof",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "可以防住對手的球和彈類招式。",
+  "effect": "該特性的寶可夢免疫球和彈類招式的傷害。",
+  "pokemon_list": [
+    {
+      "id": "0650",
+      "name": "哈力慄",
+      "form": "",
+      "icon": "-11em -24em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "防彈"
+    },
+    {
+      "id": "0651",
+      "name": "胖胖哈力",
+      "form": "",
+      "icon": "-12em -24em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "防彈"
+    },
+    {
+      "id": "0652",
+      "name": "布里卡隆",
+      "form": "",
+      "icon": "-13em -24em",
+      "types": [
+        "草",
+        "格鬥"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "防彈"
+    },
+    {
+      "id": "0782",
+      "name": "心鱗寶",
+      "form": "",
+      "icon": "-35em -29em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "防彈",
+      "second_ability": "隔音",
+      "hidden_ability": "防塵"
+    },
+    {
+      "id": "0783",
+      "name": "鱗甲龍",
+      "form": "",
+      "icon": "-36em -29em",
+      "types": [
+        "龍",
+        "格鬥"
+      ],
+      "first_ability": "防彈",
+      "second_ability": "隔音",
+      "hidden_ability": "防塵"
+    },
+    {
+      "id": "0784",
+      "name": "杖尾鱗甲龍",
+      "form": "",
+      "icon": "-37em -29em",
+      "types": [
+        "龍",
+        "格鬥"
+      ],
+      "first_ability": "防彈",
+      "second_ability": "隔音",
+      "hidden_ability": "防塵"
+    },
+    {
+      "id": "0831",
+      "name": "毛辮羊",
+      "form": "",
+      "icon": "-14em -31em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "毛茸茸",
+      "second_ability": "逃跑",
+      "hidden_ability": "防彈"
+    },
+    {
+      "id": "0832",
+      "name": "毛毛角羊",
+      "form": "",
+      "icon": "-15em -31em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "毛茸茸",
+      "second_ability": "不屈之心",
+      "hidden_ability": "防彈"
+    },
+    {
+      "id": "0840",
+      "name": "啃果蟲",
+      "form": "",
+      "icon": "-25em -31em",
+      "types": [
+        "草",
+        "龍"
+      ],
+      "first_ability": "熟成",
+      "second_ability": "貪吃鬼",
+      "hidden_ability": "防彈"
+    },
+    {
+      "id": "0901",
+      "name": "月月熊",
+      "form": "",
+      "icon": "-14em -35em",
+      "types": [
+        "地面",
+        "一般"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "防彈",
+      "hidden_ability": "緊張感"
+    }
+  ],
+  "id": "171"
+}

@@ -1,0 +1,214 @@
+{
+  "name_zh": "幹勁",
+  "name_ja": "やるき",
+  "name_en": "Vital Spirit",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "透過激發出幹勁，不會變為睡眠狀態。",
+  "effect": "該特性的寶可夢不會陷入睡眠狀態，另外睡覺招式會無效。\n擁有該特性的寶可夢無法在遊戲同步中選擇睡眠並被傳送至寶可夢夢境世界。\n- 與達克萊伊的夢魘特性相斥。",
+  "pokemon_list": [
+    {
+      "id": "0056",
+      "name": "猴怪",
+      "form": "",
+      "icon": "-27em -2em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "憤怒穴位",
+      "hidden_ability": "不服輸"
+    },
+    {
+      "id": "0057",
+      "name": "火暴猴",
+      "form": "",
+      "icon": "-28em -2em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "憤怒穴位",
+      "hidden_ability": "不服輸"
+    },
+    {
+      "id": "0122",
+      "name": "魔牆人偶",
+      "form": "伽勒爾的樣子",
+      "icon": "-9em -5em",
+      "types": [
+        "冰",
+        "超能力"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "除障",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0125",
+      "name": "電擊獸",
+      "form": "",
+      "icon": "-13em -5em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "幹勁"
+    },
+    {
+      "id": "0126",
+      "name": "鴨嘴火獸",
+      "form": "",
+      "icon": "-14em -5em",
+      "types": [
+        "火"
+      ],
+      "first_ability": "火焰之軀",
+      "second_ability": "",
+      "hidden_ability": "幹勁"
+    },
+    {
+      "id": "0225",
+      "name": "信使鳥",
+      "form": "",
+      "icon": "-30em -9em",
+      "types": [
+        "冰",
+        "飛行"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "活力",
+      "hidden_ability": "不眠"
+    },
+    {
+      "id": "0236",
+      "name": "無畏小子",
+      "form": "",
+      "icon": "-4em -10em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "不屈之心",
+      "hidden_ability": "幹勁"
+    },
+    {
+      "id": "0239",
+      "name": "電擊怪",
+      "form": "",
+      "icon": "-7em -10em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "幹勁"
+    },
+    {
+      "id": "0240",
+      "name": "鴨嘴寶寶",
+      "form": "",
+      "icon": "-8em -10em",
+      "types": [
+        "火"
+      ],
+      "first_ability": "火焰之軀",
+      "second_ability": "",
+      "hidden_ability": "幹勁"
+    },
+    {
+      "id": "0288",
+      "name": "過動猿",
+      "form": "",
+      "icon": "-30em -11em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0466",
+      "name": "電擊魔獸",
+      "form": "",
+      "icon": "-3em -18em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "電氣引擎",
+      "second_ability": "",
+      "hidden_ability": "幹勁"
+    },
+    {
+      "id": "0467",
+      "name": "鴨嘴炎獸",
+      "form": "",
+      "icon": "-4em -18em",
+      "types": [
+        "火"
+      ],
+      "first_ability": "火焰之軀",
+      "second_ability": "",
+      "hidden_ability": "幹勁"
+    },
+    {
+      "id": "0506",
+      "name": "小約克",
+      "form": "",
+      "icon": "-32em -19em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "撿拾",
+      "hidden_ability": "逃跑"
+    },
+    {
+      "id": "0744",
+      "name": "巖狗狗",
+      "form": "",
+      "icon": "-9em -28em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "幹勁",
+      "hidden_ability": "不屈之心"
+    },
+    {
+      "id": "0745",
+      "name": "鬃巖狼人",
+      "form": "黑夜的樣子",
+      "icon": "-11em -28em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "幹勁",
+      "hidden_ability": "無防守"
+    },
+    {
+      "id": "0979",
+      "name": "棄世猴",
+      "form": "",
+      "icon": "-28em -37em",
+      "types": [
+        "格鬥",
+        "幽靈"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "精神力",
+      "hidden_ability": "不服輸"
+    }
+  ],
+  "id": "072"
+}

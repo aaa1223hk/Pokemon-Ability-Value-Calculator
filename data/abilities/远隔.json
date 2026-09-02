@@ -1,0 +1,57 @@
+{
+  "name_zh": "遠隔",
+  "name_ja": "えんかく",
+  "name_en": "Long Reach",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "可以不接觸對手就使出所有的招式。",
+  "effect": "擁有遠隔特性的寶可夢使用接觸類招式時，不會觸發攻擊目標任何與接觸類招式有關的效果。",
+  "pokemon_list": [
+    {
+      "id": "0722",
+      "name": "木木梟",
+      "form": "",
+      "icon": "-23em -27em",
+      "types": [
+        "草",
+        "飛行"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "遠隔"
+    },
+    {
+      "id": "0723",
+      "name": "投羽梟",
+      "form": "",
+      "icon": "-24em -27em",
+      "types": [
+        "草",
+        "飛行"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "遠隔"
+    },
+    {
+      "id": "0724",
+      "name": "狙射樹梟",
+      "form": "",
+      "icon": "-25em -27em",
+      "types": [
+        "草",
+        "幽靈"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "遠隔"
+    }
+  ],
+  "id": "203"
+}

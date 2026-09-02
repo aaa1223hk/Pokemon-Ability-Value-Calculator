@@ -1,0 +1,120 @@
+{
+  "name_zh": "降雪",
+  "name_ja": "ゆきふらし",
+  "name_en": "Snow Warning",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "入場時發動該特性"
+  ],
+  "introduction": "出場時，會將天氣變為下雪。",
+  "effect": "當該寶可夢登場時，天氣轉為下雪並持續5回合。\n- 在攜帶了道具冰冷岩石的情況下，下雪會持續8回合。\n- 在大雨、大日照和亂流天氣下，特性發動失敗。\n- 如果有多隻擁有可更換天氣特性的寶可夢同時登場，那麼將會按照寶可夢的速度依次發動特性改變天氣，後者覆蓋前者。發動失敗的情況下除外。",
+  "pokemon_list": [
+    {
+      "id": "0037",
+      "name": "六尾",
+      "form": "阿羅拉的樣子",
+      "icon": "-37em -1em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "",
+      "hidden_ability": "降雪"
+    },
+    {
+      "id": "0038",
+      "name": "九尾",
+      "form": "阿羅拉的樣子",
+      "icon": "-39em -1em",
+      "types": [
+        "冰",
+        "妖精"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "",
+      "hidden_ability": "降雪"
+    },
+    {
+      "id": "0459",
+      "name": "雪笠怪",
+      "form": "",
+      "icon": "-30em -17em",
+      "types": [
+        "草",
+        "冰"
+      ],
+      "first_ability": "降雪",
+      "second_ability": "",
+      "hidden_ability": "隔音"
+    },
+    {
+      "id": "0460",
+      "name": "暴雪王",
+      "form": "",
+      "icon": "-32em -17em",
+      "types": [
+        "草",
+        "冰"
+      ],
+      "first_ability": "降雪",
+      "second_ability": "",
+      "hidden_ability": "隔音"
+    },
+    {
+      "id": "0460",
+      "name": "暴雪王",
+      "form": "超級暴雪王",
+      "icon": "-34em -17em",
+      "types": [
+        "草",
+        "冰"
+      ],
+      "first_ability": "降雪",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0584",
+      "name": "雙倍多多冰",
+      "form": "",
+      "icon": "-4em -22em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "冰凍之軀",
+      "second_ability": "降雪",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0698",
+      "name": "冰雪龍",
+      "form": "",
+      "icon": "-24em -26em",
+      "types": [
+        "岩石",
+        "冰"
+      ],
+      "first_ability": "冰凍皮膚",
+      "second_ability": "",
+      "hidden_ability": "降雪"
+    },
+    {
+      "id": "0699",
+      "name": "冰雪巨龍",
+      "form": "",
+      "icon": "-25em -26em",
+      "types": [
+        "岩石",
+        "冰"
+      ],
+      "first_ability": "冰凍皮膚",
+      "second_ability": "",
+      "hidden_ability": "降雪"
+    }
+  ],
+  "id": "117"
+}

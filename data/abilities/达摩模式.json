@@ -1,0 +1,68 @@
+{
+  "name_zh": "達摩模式",
+  "name_ja": "ダルマモード",
+  "name_en": "Zen Mode",
+  "basic_info": [
+    "不能被交換",
+    "不能被其他特性覆蓋",
+    "不能被其他寶可夢複製",
+    "不受無特性狀態影響",
+    "變身時特性無效",
+    "不在入場時發動"
+  ],
+  "introduction": "ＨＰ變為一半以下時，樣子會改變。",
+  "effect": "在ＨＰ不足一半時轉變為達摩模式形態，替換、ＨＰ恢復至1⁄2以上或者戰鬥結束後形態恢復。如果進入戰鬥時ＨＰ不足一半，則會在開始戰鬥一回合後轉變為達摩模式形態。",
+  "pokemon_list": [
+    {
+      "id": "0555",
+      "name": "達摩狒狒",
+      "form": "",
+      "icon": "-8em -21em",
+      "types": [
+        "火"
+      ],
+      "first_ability": "強行",
+      "second_ability": "",
+      "hidden_ability": "達摩模式"
+    },
+    {
+      "id": "0555",
+      "name": "達摩狒狒",
+      "form": "達摩模式",
+      "icon": "-9em -21em",
+      "types": [
+        "火",
+        "超能力"
+      ],
+      "first_ability": "",
+      "second_ability": "",
+      "hidden_ability": "達摩模式"
+    },
+    {
+      "id": "0555",
+      "name": "達摩狒狒",
+      "form": "伽勒爾的樣子",
+      "icon": "-10em -21em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "一猩一意",
+      "second_ability": "",
+      "hidden_ability": "達摩模式"
+    },
+    {
+      "id": "0555",
+      "name": "達摩狒狒",
+      "form": "伽勒爾的樣子／達摩模式",
+      "icon": "-11em -21em",
+      "types": [
+        "冰",
+        "火"
+      ],
+      "first_ability": "",
+      "second_ability": "",
+      "hidden_ability": "達摩模式"
+    }
+  ],
+  "id": "161"
+}

@@ -1,0 +1,55 @@
+{
+  "name_zh": "神奇鱗片",
+  "name_ja": "ふしぎなうろこ",
+  "name_en": "Marvel Scale",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "如果變為異常狀態，神奇鱗片會發生反應，防禦會提高。",
+  "effect": "異常狀態時防禦上升為原來1.5倍。\n陷入異常狀態時受到物理攻擊防禦上升50%。",
+  "pokemon_list": [
+    {
+      "id": "0147",
+      "name": "迷你龍",
+      "form": "",
+      "icon": "-11em -6em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": "神奇鱗片"
+    },
+    {
+      "id": "0148",
+      "name": "哈克龍",
+      "form": "",
+      "icon": "-12em -6em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": "神奇鱗片"
+    },
+    {
+      "id": "0350",
+      "name": "美納斯",
+      "form": "",
+      "icon": "-28em -13em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "神奇鱗片",
+      "second_ability": "好勝",
+      "hidden_ability": "迷人之軀"
+    }
+  ],
+  "id": "063"
+}

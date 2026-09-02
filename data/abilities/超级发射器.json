@@ -1,0 +1,54 @@
+{
+  "name_zh": "超級發射器",
+  "name_ja": "メガランチャー",
+  "name_en": "Mega Launcher",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "波動和波導類招式的威力會提高。",
+  "effect": "該特性的寶可夢所使用除治癒波動以外的波動和波導類招式的威力會提高50%，治癒波動的ＨＰ回覆變為最大ＨＰ的3⁄4。",
+  "pokemon_list": [
+    {
+      "id": "0009",
+      "name": "水箭龜",
+      "form": "超級水箭龜",
+      "icon": "-18em 0",
+      "types": [
+        "水"
+      ],
+      "first_ability": "超級發射器",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0692",
+      "name": "鐵臂槍蝦",
+      "form": "",
+      "icon": "-18em -26em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "超級發射器",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0693",
+      "name": "鋼炮臂蝦",
+      "form": "",
+      "icon": "-19em -26em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "超級發射器",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "178"
+}

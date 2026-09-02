@@ -1,0 +1,177 @@
+{
+  "name_zh": "水幕",
+  "name_ja": "みずのベール",
+  "name_en": "Water Veil",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "將水幕裹在身上，不會變為灼傷狀態。",
+  "effect": "該特性的寶可夢不會陷入灼傷狀態。當灼傷狀態的寶可夢獲得該特性時灼傷狀態會被治癒。",
+  "pokemon_list": [
+    {
+      "id": "0118",
+      "name": "角金魚",
+      "form": "",
+      "icon": "-2em -5em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "水幕",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0119",
+      "name": "金魚王",
+      "form": "",
+      "icon": "-4em -5em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "水幕",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0226",
+      "name": "巨翅飛魚",
+      "form": "",
+      "icon": "-31em -9em",
+      "types": [
+        "水",
+        "飛行"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "儲水",
+      "hidden_ability": "水幕"
+    },
+    {
+      "id": "0320",
+      "name": "吼吼鯨",
+      "form": "",
+      "icon": "-33em -12em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "水幕",
+      "second_ability": "遲鈍",
+      "hidden_ability": "壓迫感"
+    },
+    {
+      "id": "0321",
+      "name": "吼鯨王",
+      "form": "",
+      "icon": "-34em -12em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "水幕",
+      "second_ability": "遲鈍",
+      "hidden_ability": "壓迫感"
+    },
+    {
+      "id": "0367",
+      "name": "獵斑魚",
+      "form": "",
+      "icon": "-12em -14em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "",
+      "hidden_ability": "水幕"
+    },
+    {
+      "id": "0418",
+      "name": "泳圈鼬",
+      "form": "",
+      "icon": "-11em -16em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "",
+      "hidden_ability": "水幕"
+    },
+    {
+      "id": "0419",
+      "name": "浮潛鼬",
+      "form": "",
+      "icon": "-13em -16em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "",
+      "hidden_ability": "水幕"
+    },
+    {
+      "id": "0456",
+      "name": "熒光魚",
+      "form": "",
+      "icon": "-25em -17em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "引水",
+      "hidden_ability": "水幕"
+    },
+    {
+      "id": "0457",
+      "name": "霓虹魚",
+      "form": "",
+      "icon": "-27em -17em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "引水",
+      "hidden_ability": "水幕"
+    },
+    {
+      "id": "0458",
+      "name": "小球飛魚",
+      "form": "",
+      "icon": "-29em -17em",
+      "types": [
+        "水",
+        "飛行"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "儲水",
+      "hidden_ability": "水幕"
+    },
+    {
+      "id": "0963",
+      "name": "波普海豚",
+      "form": "",
+      "icon": "-4em -37em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "水幕",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0977",
+      "name": "吃吼霸",
+      "form": "",
+      "icon": "-24em -37em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "純樸",
+      "second_ability": "遲鈍",
+      "hidden_ability": "水幕"
+    }
+  ],
+  "id": "041"
+}

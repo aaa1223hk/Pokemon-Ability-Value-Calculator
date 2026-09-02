@@ -1,0 +1,57 @@
+{
+  "name_zh": "鐵刺",
+  "name_ja": "てつのトゲ",
+  "name_en": "Iron Barbs",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "用鐵刺給予接觸到自己的對手傷害。",
+  "effect": "受到接觸類招式攻擊時對手會損失最大體力的1⁄8。\n- 連續招式的每一擊都會觸發此特性。\n- 有鐵刺特性的寶可夢使用守住並被攻擊方使用Ｚ招式攻擊時，鐵刺特性不會發動。",
+  "pokemon_list": [
+    {
+      "id": "0597",
+      "name": "種子鐵球",
+      "form": "",
+      "icon": "-25em -22em",
+      "types": [
+        "草",
+        "鋼"
+      ],
+      "first_ability": "鐵刺",
+      "second_ability": "",
+      "hidden_ability": "鐵刺"
+    },
+    {
+      "id": "0598",
+      "name": "堅果啞鈴",
+      "form": "",
+      "icon": "-26em -22em",
+      "types": [
+        "草",
+        "鋼"
+      ],
+      "first_ability": "鐵刺",
+      "second_ability": "",
+      "hidden_ability": "危險預知"
+    },
+    {
+      "id": "0777",
+      "name": "託戈德瑪爾",
+      "form": "",
+      "icon": "-29em -29em",
+      "types": [
+        "電",
+        "鋼"
+      ],
+      "first_ability": "鐵刺",
+      "second_ability": "避雷針",
+      "hidden_ability": "結實"
+    }
+  ],
+  "id": "160"
+}

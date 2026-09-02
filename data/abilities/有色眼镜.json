@@ -1,0 +1,172 @@
+{
+  "name_zh": "有色眼鏡",
+  "name_ja": "いろめがね",
+  "name_en": "Tinted Lens",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "可以將效果不好的招式以通常的威力使出。",
+  "effect": "該特性的寶可夢自身發動效果不理想（屬性剋制≤1⁄2時）的招式傷害×2。",
+  "pokemon_list": [
+    {
+      "id": "0012",
+      "name": "巴大蝶",
+      "form": "",
+      "icon": "-22em 0",
+      "types": [
+        "蟲",
+        "飛行"
+      ],
+      "first_ability": "複眼",
+      "second_ability": "",
+      "hidden_ability": "有色眼鏡"
+    },
+    {
+      "id": "0048",
+      "name": "毛球",
+      "form": "",
+      "icon": "-13em -2em",
+      "types": [
+        "蟲",
+        "毒"
+      ],
+      "first_ability": "複眼",
+      "second_ability": "有色眼鏡",
+      "hidden_ability": "逃跑"
+    },
+    {
+      "id": "0049",
+      "name": "摩魯蛾",
+      "form": "",
+      "icon": "-14em -2em",
+      "types": [
+        "蟲",
+        "毒"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "有色眼鏡",
+      "hidden_ability": "奇蹟皮膚"
+    },
+    {
+      "id": "0163",
+      "name": "咕咕",
+      "form": "",
+      "icon": "-31em -6em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "銳利目光",
+      "hidden_ability": "有色眼鏡"
+    },
+    {
+      "id": "0164",
+      "name": "貓頭夜鷹",
+      "form": "",
+      "icon": "-32em -6em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "銳利目光",
+      "hidden_ability": "有色眼鏡"
+    },
+    {
+      "id": "0314",
+      "name": "甜甜螢",
+      "form": "",
+      "icon": "-23em -12em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "遲鈍",
+      "second_ability": "有色眼鏡",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0414",
+      "name": "紳士蛾",
+      "form": "",
+      "icon": "-5em -16em",
+      "types": [
+        "蟲",
+        "飛行"
+      ],
+      "first_ability": "蟲之預感",
+      "second_ability": "",
+      "hidden_ability": "有色眼鏡"
+    },
+    {
+      "id": "0469",
+      "name": "遠古巨蜓",
+      "form": "",
+      "icon": "-6em -18em",
+      "types": [
+        "蟲",
+        "飛行"
+      ],
+      "first_ability": "加速",
+      "second_ability": "有色眼鏡",
+      "hidden_ability": "察覺"
+    },
+    {
+      "id": "0561",
+      "name": "象徵鳥",
+      "form": "",
+      "icon": "-17em -21em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "奇蹟皮膚",
+      "second_ability": "魔法防守",
+      "hidden_ability": "有色眼鏡"
+    },
+    {
+      "id": "0628",
+      "name": "勇士雄鷹",
+      "form": "洗翠的樣子",
+      "icon": "-18em -23em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "強行",
+      "hidden_ability": "有色眼鏡"
+    },
+    {
+      "id": "0919",
+      "name": "豆蟋蟀",
+      "form": "",
+      "icon": "-36em -35em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "蟲之預感",
+      "second_ability": "",
+      "hidden_ability": "有色眼鏡"
+    },
+    {
+      "id": "0920",
+      "name": "烈腿蝗",
+      "form": "",
+      "icon": "-37em -35em",
+      "types": [
+        "蟲",
+        "惡"
+      ],
+      "first_ability": "蟲之預感",
+      "second_ability": "",
+      "hidden_ability": "有色眼鏡"
+    }
+  ],
+  "id": "110"
+}

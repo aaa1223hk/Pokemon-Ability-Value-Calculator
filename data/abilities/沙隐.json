@@ -1,0 +1,384 @@
+{
+  "name_zh": "沙隱",
+  "name_ja": "すながくれ",
+  "name_en": "Sand Veil",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "在沙暴的時候，閃避率會提高。",
+  "effect": "在沙暴天氣中閃避率提升20%，並且不會受到沙暴天氣損失體力的影響。",
+  "pokemon_list": [
+    {
+      "id": "0027",
+      "name": "穿山鼠",
+      "form": "",
+      "icon": "-24em -1em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "",
+      "hidden_ability": "撥沙"
+    },
+    {
+      "id": "0028",
+      "name": "穿山王",
+      "form": "",
+      "icon": "-26em -1em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "",
+      "hidden_ability": "撥沙"
+    },
+    {
+      "id": "0050",
+      "name": "地鼠",
+      "form": "",
+      "icon": "-15em -2em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "沙穴",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0050",
+      "name": "地鼠",
+      "form": "阿羅拉的樣子",
+      "icon": "-16em -2em",
+      "types": [
+        "地面",
+        "鋼"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "捲髮",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0051",
+      "name": "三地鼠",
+      "form": "",
+      "icon": "-17em -2em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "沙穴",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0051",
+      "name": "三地鼠",
+      "form": "阿羅拉的樣子",
+      "icon": "-18em -2em",
+      "types": [
+        "地面",
+        "鋼"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "捲髮",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0074",
+      "name": "小拳石",
+      "form": "",
+      "icon": "-12em -3em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "結實",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0075",
+      "name": "隆隆石",
+      "form": "",
+      "icon": "-14em -3em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "結實",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0076",
+      "name": "隆隆巖",
+      "form": "",
+      "icon": "-16em -3em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "結實",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0207",
+      "name": "天蠍",
+      "form": "",
+      "icon": "-37em -8em",
+      "types": [
+        "地面",
+        "飛行"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "沙隱",
+      "hidden_ability": "免疫"
+    },
+    {
+      "id": "0231",
+      "name": "小小象",
+      "form": "",
+      "icon": "-38em -9em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0232",
+      "name": "頓甲",
+      "form": "",
+      "icon": "-39em -9em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "結實",
+      "second_ability": "",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0246",
+      "name": "幼基拉斯",
+      "form": "",
+      "icon": "-14em -10em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0331",
+      "name": "刺球仙人掌",
+      "form": "",
+      "icon": "-7em -13em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "",
+      "hidden_ability": "儲水"
+    },
+    {
+      "id": "0332",
+      "name": "夢歌仙人掌",
+      "form": "",
+      "icon": "-8em -13em",
+      "types": [
+        "草",
+        "惡"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "",
+      "hidden_ability": "儲水"
+    },
+    {
+      "id": "0443",
+      "name": "圓陸鯊",
+      "form": "",
+      "icon": "-3em -17em",
+      "types": [
+        "龍",
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "",
+      "hidden_ability": "粗糙皮膚"
+    },
+    {
+      "id": "0444",
+      "name": "尖牙陸鯊",
+      "form": "",
+      "icon": "-5em -17em",
+      "types": [
+        "龍",
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "",
+      "hidden_ability": "粗糙皮膚"
+    },
+    {
+      "id": "0445",
+      "name": "烈咬陸鯊",
+      "form": "",
+      "icon": "-7em -17em",
+      "types": [
+        "龍",
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "",
+      "hidden_ability": "粗糙皮膚"
+    },
+    {
+      "id": "0472",
+      "name": "天蠍王",
+      "form": "",
+      "icon": "-9em -18em",
+      "types": [
+        "地面",
+        "飛行"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "沙隱",
+      "hidden_ability": "毒療"
+    },
+    {
+      "id": "0618",
+      "name": "泥巴魚",
+      "form": "",
+      "icon": "-6em -23em",
+      "types": [
+        "地面",
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "柔軟",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0694",
+      "name": "傘電蜥",
+      "form": "",
+      "icon": "-20em -26em",
+      "types": [
+        "電",
+        "一般"
+      ],
+      "first_ability": "乾燥皮膚",
+      "second_ability": "沙隱",
+      "hidden_ability": "太陽之力"
+    },
+    {
+      "id": "0695",
+      "name": "光電傘蜥",
+      "form": "",
+      "icon": "-21em -26em",
+      "types": [
+        "電",
+        "一般"
+      ],
+      "first_ability": "乾燥皮膚",
+      "second_ability": "沙隱",
+      "hidden_ability": "太陽之力"
+    },
+    {
+      "id": "0769",
+      "name": "沙丘娃",
+      "form": "",
+      "icon": "-37em -28em",
+      "types": [
+        "幽靈",
+        "地面"
+      ],
+      "first_ability": "遇水凝固",
+      "second_ability": "",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0770",
+      "name": "噬沙堡爺",
+      "form": "",
+      "icon": "-38em -28em",
+      "types": [
+        "幽靈",
+        "地面"
+      ],
+      "first_ability": "遇水凝固",
+      "second_ability": "",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0843",
+      "name": "沙包蛇",
+      "form": "",
+      "icon": "-30em -31em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "吐沙",
+      "second_ability": "蛻皮",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0844",
+      "name": "沙螺蟒",
+      "form": "",
+      "icon": "-31em -31em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "吐沙",
+      "second_ability": "蛻皮",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0960",
+      "name": "海地鼠",
+      "form": "",
+      "icon": "-1em -37em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "黏滑",
+      "second_ability": "膽怯",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0961",
+      "name": "三海地鼠",
+      "form": "",
+      "icon": "-2em -37em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "黏滑",
+      "second_ability": "膽怯",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0968",
+      "name": "拖拖蚓",
+      "form": "",
+      "icon": "-15em -37em",
+      "types": [
+        "鋼"
+      ],
+      "first_ability": "食土",
+      "second_ability": "",
+      "hidden_ability": "沙隱"
+    }
+  ],
+  "id": "008"
+}

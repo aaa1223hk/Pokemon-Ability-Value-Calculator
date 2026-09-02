@@ -1,0 +1,70 @@
+{
+  "name_zh": "鋒銳",
+  "name_ja": "きれあじ",
+  "name_en": "Sharpness",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "提高切割對手的招式的威力。",
+  "effect": "擁有該特性的寶可夢使出的切割類招式威力會提高50%。",
+  "pokemon_list": [
+    {
+      "id": "0475",
+      "name": "艾路雷朵",
+      "form": "",
+      "icon": "-13em -18em",
+      "types": [
+        "超能力",
+        "格鬥"
+      ],
+      "first_ability": "不屈之心",
+      "second_ability": "鋒銳",
+      "hidden_ability": "正義之心"
+    },
+    {
+      "id": "0503",
+      "name": "大劍鬼",
+      "form": "洗翠的樣子",
+      "icon": "-29em -19em",
+      "types": [
+        "水",
+        "惡"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "鋒銳"
+    },
+    {
+      "id": "0900",
+      "name": "劈斧螳螂",
+      "form": "",
+      "icon": "-12em -35em",
+      "types": [
+        "蟲",
+        "岩石"
+      ],
+      "first_ability": "蟲之預感",
+      "second_ability": "強行",
+      "hidden_ability": "鋒銳"
+    },
+    {
+      "id": "0976",
+      "name": "輕身鱈",
+      "form": "",
+      "icon": "-23em -37em",
+      "types": [
+        "水",
+        "超能力"
+      ],
+      "first_ability": "破格",
+      "second_ability": "",
+      "hidden_ability": "鋒銳"
+    }
+  ],
+  "id": "292"
+}

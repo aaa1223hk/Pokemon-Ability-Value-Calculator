@@ -1,0 +1,148 @@
+{
+  "name_zh": "夸克充能",
+  "name_ja": "クォークチャージ",
+  "name_en": "Quark Drive",
+  "basic_info": [
+    "不能被交換",
+    "可以被其他特性覆蓋",
+    "不能被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性無效",
+    "不在入場時發動"
+  ],
+  "introduction": "攜帶著驅勁能量或在電氣場地上時，數值最高的能力會提高。",
+  "effect": "攜帶驅勁能量或對戰場地處於電氣場地狀態時，除ＨＰ外數值最高的能力會提高30%；若該項能力為速度，則會提高50%。\n- 場地處於電氣場地時，無論特性擁有者是否為地面上的寶可夢均會發動。\n- 數值最高的能力的判斷會計算能力變化，但不會計算攜帶道具、特性、狀態變化等其他情況。\n- 在電氣場地下，發動該特性時即使攜帶了驅勁能量也不會消耗。\n- 當數項能力同為最高時，按攻擊、防禦、特攻、特防、速度的順序提升其中的一項。\n- 在己方場地上存在黏黏網（狀態）時，受影響的己方寶可夢交換上場時，速度先下降1級，再根據當前速度實際值判定能力提升。\n- 出場時，當前沒有電氣場地，因特性或招式啟動電氣場地時，夸克充能會優先於電氣種子發動。\n- 出場時，當前存在電氣場地，電氣種子會優先於夸克充能發動。",
+  "pokemon_list": [
+    {
+      "id": "0990",
+      "name": "鐵轍跡",
+      "form": "",
+      "icon": "0 -38em",
+      "types": [
+        "地面",
+        "鋼"
+      ],
+      "first_ability": "夸克充能",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0991",
+      "name": "鐵包袱",
+      "form": "",
+      "icon": "-1em -38em",
+      "types": [
+        "冰",
+        "水"
+      ],
+      "first_ability": "夸克充能",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0992",
+      "name": "鐵臂膀",
+      "form": "",
+      "icon": "-2em -38em",
+      "types": [
+        "格鬥",
+        "電"
+      ],
+      "first_ability": "夸克充能",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0993",
+      "name": "鐵脖頸",
+      "form": "",
+      "icon": "-3em -38em",
+      "types": [
+        "惡",
+        "飛行"
+      ],
+      "first_ability": "夸克充能",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0994",
+      "name": "鐵毒蛾",
+      "form": "",
+      "icon": "-4em -38em",
+      "types": [
+        "火",
+        "毒"
+      ],
+      "first_ability": "夸克充能",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0995",
+      "name": "鐵荊棘",
+      "form": "",
+      "icon": "-5em -38em",
+      "types": [
+        "岩石",
+        "電"
+      ],
+      "first_ability": "夸克充能",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "1006",
+      "name": "鐵武者",
+      "form": "",
+      "icon": "-17em -38em",
+      "types": [
+        "妖精",
+        "格鬥"
+      ],
+      "first_ability": "夸克充能",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "1010",
+      "name": "鐵斑葉",
+      "form": "",
+      "icon": "-23em -38em",
+      "types": [
+        "草",
+        "超能力"
+      ],
+      "first_ability": "夸克充能",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "1022",
+      "name": "鐵磐巖",
+      "form": "",
+      "icon": "-38em -38em",
+      "types": [
+        "岩石",
+        "超能力"
+      ],
+      "first_ability": "夸克充能",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "1023",
+      "name": "鐵頭殼",
+      "form": "",
+      "icon": "-39em -38em",
+      "types": [
+        "鋼",
+        "超能力"
+      ],
+      "first_ability": "夸克充能",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "282"
+}

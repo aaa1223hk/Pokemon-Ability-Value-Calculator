@@ -1,0 +1,212 @@
+{
+  "name_zh": "順手牽羊",
+  "name_ja": "わるいてぐせ",
+  "name_en": "Pickpocket",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "盜取接觸到自己的對手的道具。",
+  "effect": "當該特性的寶可夢未攜帶任何道具時受到接觸類招式攻擊，可以獲得對手的道具。\n該特性對黏著特性的寶可夢無效。野生寶可夢不會發動該特性。該特性的寶可夢被接觸類招式擊倒時不發動該特性。\n該特性的寶可夢受到接觸類連續招式（如掃尾拍打）時，最後一次攻擊發動特性。如果多個擁有該特性的寶可夢被同一接觸類招式（如狂舞揮打）命中並滿足特性發動條件時，速度最快的寶可夢獲得對方的道具。\n該特性可以在自身的道具因接觸類招式轉移到攻擊方身上之後（如透過對方的魔術師特性，小偷等招式，以及自身的附著針等）立即發動將該道具取回。\n該特性的寶可夢所攜帶的特定物品如果在受到攻擊時立即消耗（如被拍落，或發動氣勢披帶，弱點保險等），會在消耗後立即偷取攻擊方的道具。\n以下道具無法偷取：\n- 郵件；\n- 阿爾宙斯攜帶的石板；\n- 蓋諾賽克特攜帶的卡帶；\n- 銀伴戰獸攜帶的儲存碟；\n- 帝牙盧卡攜帶的大金剛寶玉；\n- 帕路奇亞攜帶的大白寶玉；\n- 騎拉帝納攜帶的大白金寶玉；\n- 固拉多攜帶的硃紅色寶珠；\n- 蓋歐卡攜帶的靛藍色寶珠；\n- 能夠超級進化寶可夢攜帶的超級石；\n- Ｚ純晶；\n- 蒼響攜帶的腐朽的劍；\n- 藏瑪然特攜帶的腐朽的盾；\n- 厄詭椪攜帶的面具。",
+  "pokemon_list": [
+    {
+      "id": "0215",
+      "name": "狃拉",
+      "form": "",
+      "icon": "-13em -9em",
+      "types": [
+        "惡",
+        "冰"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "銳利目光",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0215",
+      "name": "狃拉",
+      "form": "洗翠的樣子",
+      "icon": "-15em -9em",
+      "types": [
+        "格鬥",
+        "毒"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "銳利目光",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0273",
+      "name": "橡實果",
+      "form": "",
+      "icon": "-12em -11em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "早起",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0274",
+      "name": "長鼻葉",
+      "form": "",
+      "icon": "-13em -11em",
+      "types": [
+        "草",
+        "惡"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "早起",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0275",
+      "name": "狡猾天狗",
+      "form": "",
+      "icon": "-15em -11em",
+      "types": [
+        "草",
+        "惡"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "乘風",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0461",
+      "name": "瑪狃拉",
+      "form": "",
+      "icon": "-35em -17em",
+      "types": [
+        "惡",
+        "冰"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0688",
+      "name": "龜腳腳",
+      "form": "",
+      "icon": "-14em -26em",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "first_ability": "硬爪",
+      "second_ability": "狙擊手",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0689",
+      "name": "龜足巨鎧",
+      "form": "",
+      "icon": "-15em -26em",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "first_ability": "硬爪",
+      "second_ability": "狙擊手",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0859",
+      "name": "搗蛋小妖",
+      "form": "",
+      "icon": "-13em -32em",
+      "types": [
+        "惡",
+        "妖精"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "察覺",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0860",
+      "name": "詐唬魔",
+      "form": "",
+      "icon": "-14em -32em",
+      "types": [
+        "惡",
+        "妖精"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "察覺",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0861",
+      "name": "長毛巨魔",
+      "form": "",
+      "icon": "-15em -32em",
+      "types": [
+        "惡",
+        "妖精"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "察覺",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0944",
+      "name": "滋汁鼴",
+      "form": "",
+      "icon": "-25em -36em",
+      "types": [
+        "毒",
+        "一般"
+      ],
+      "first_ability": "輕裝",
+      "second_ability": "順手牽羊",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0957",
+      "name": "小鍛匠",
+      "form": "",
+      "icon": "-38em -36em",
+      "types": [
+        "妖精",
+        "鋼"
+      ],
+      "first_ability": "破格",
+      "second_ability": "我行我素",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0958",
+      "name": "巧鍛匠",
+      "form": "",
+      "icon": "-39em -36em",
+      "types": [
+        "妖精",
+        "鋼"
+      ],
+      "first_ability": "破格",
+      "second_ability": "我行我素",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0959",
+      "name": "巨鍛匠",
+      "form": "",
+      "icon": "0 -37em",
+      "types": [
+        "妖精",
+        "鋼"
+      ],
+      "first_ability": "破格",
+      "second_ability": "我行我素",
+      "hidden_ability": "順手牽羊"
+    }
+  ],
+  "id": "124"
+}

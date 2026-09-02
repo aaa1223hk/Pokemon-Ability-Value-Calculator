@@ -1,0 +1,44 @@
+{
+  "name_zh": "風力發電",
+  "name_ja": "ふうりょくでんき",
+  "name_en": "Wind Power",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到風的招式攻擊時，會變為充電狀態。",
+  "effect": "受到風的招式攻擊或己方使用順風時，會進入充電狀態。",
+  "pokemon_list": [
+    {
+      "id": "0940",
+      "name": "電海燕",
+      "form": "",
+      "icon": "-21em -36em",
+      "types": [
+        "電",
+        "飛行"
+      ],
+      "first_ability": "風力發電",
+      "second_ability": "蓄電",
+      "hidden_ability": "好勝"
+    },
+    {
+      "id": "0941",
+      "name": "大電海燕",
+      "form": "",
+      "icon": "-22em -36em",
+      "types": [
+        "電",
+        "飛行"
+      ],
+      "first_ability": "風力發電",
+      "second_ability": "蓄電",
+      "hidden_ability": "好勝"
+    }
+  ],
+  "id": "277"
+}

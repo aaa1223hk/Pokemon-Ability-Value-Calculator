@@ -1,0 +1,257 @@
+{
+  "name_zh": "不眠",
+  "name_ja": "ふみん",
+  "name_en": "Insomnia",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "因為有著睡不著的體質，所以不會陷入睡眠狀態。",
+  "effect": "該特性的寶可夢不會陷入睡眠狀態，睡覺招式會無效。陷入睡眠的寶可夢獲得該特性時睡眠狀態消除。\n煩惱種子可以使寶可夢變成該特性。",
+  "pokemon_list": [
+    {
+      "id": "0096",
+      "name": "催眠貘",
+      "form": "",
+      "icon": "-9em -4em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "預知夢",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0097",
+      "name": "引夢貘人",
+      "form": "",
+      "icon": "-10em -4em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "預知夢",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0150",
+      "name": "超夢",
+      "form": "超級超夢Ｙ",
+      "icon": "-16em -6em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0163",
+      "name": "咕咕",
+      "form": "",
+      "icon": "-31em -6em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "銳利目光",
+      "hidden_ability": "有色眼鏡"
+    },
+    {
+      "id": "0164",
+      "name": "貓頭夜鷹",
+      "form": "",
+      "icon": "-32em -6em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "銳利目光",
+      "hidden_ability": "有色眼鏡"
+    },
+    {
+      "id": "0167",
+      "name": "圓絲蛛",
+      "form": "",
+      "icon": "-37em -6em",
+      "types": [
+        "蟲",
+        "毒"
+      ],
+      "first_ability": "蟲之預感",
+      "second_ability": "不眠",
+      "hidden_ability": "狙擊手"
+    },
+    {
+      "id": "0168",
+      "name": "阿利多斯",
+      "form": "",
+      "icon": "-38em -6em",
+      "types": [
+        "蟲",
+        "毒"
+      ],
+      "first_ability": "蟲之預感",
+      "second_ability": "不眠",
+      "hidden_ability": "狙擊手"
+    },
+    {
+      "id": "0198",
+      "name": "黑暗鴉",
+      "form": "",
+      "icon": "-37em -7em",
+      "types": [
+        "惡",
+        "飛行"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "超幸運",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0225",
+      "name": "信使鳥",
+      "form": "",
+      "icon": "-30em -9em",
+      "types": [
+        "冰",
+        "飛行"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "活力",
+      "hidden_ability": "不眠"
+    },
+    {
+      "id": "0353",
+      "name": "怨影娃娃",
+      "form": "",
+      "icon": "-35em -13em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "察覺",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0354",
+      "name": "詛咒娃娃",
+      "form": "",
+      "icon": "-36em -13em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "察覺",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0430",
+      "name": "烏鴉頭頭",
+      "form": "",
+      "icon": "-30em -16em",
+      "types": [
+        "惡",
+        "飛行"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "超幸運",
+      "hidden_ability": "自信過度"
+    },
+    {
+      "id": "0710",
+      "name": "南瓜精",
+      "form": "",
+      "icon": "-38em -26em",
+      "types": [
+        "幽靈",
+        "草"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "察覺",
+      "hidden_ability": "不眠"
+    },
+    {
+      "id": "0711",
+      "name": "南瓜怪人",
+      "form": "",
+      "icon": "-2em -27em",
+      "types": [
+        "幽靈",
+        "草"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "察覺",
+      "hidden_ability": "不眠"
+    },
+    {
+      "id": "0917",
+      "name": "團珠蛛",
+      "form": "",
+      "icon": "-34em -35em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "",
+      "hidden_ability": "蹲守"
+    },
+    {
+      "id": "0918",
+      "name": "操陷蛛",
+      "form": "",
+      "icon": "-35em -35em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "",
+      "hidden_ability": "蹲守"
+    },
+    {
+      "id": "0951",
+      "name": "熱辣娃",
+      "form": "",
+      "icon": "-32em -36em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "不眠",
+      "hidden_ability": "笨拙"
+    },
+    {
+      "id": "0952",
+      "name": "狠辣椒",
+      "form": "",
+      "icon": "-33em -36em",
+      "types": [
+        "草",
+        "火"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "不眠",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0000",
+      "name": "人形物",
+      "form": "",
+      "icon": "0 0",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "015"
+}

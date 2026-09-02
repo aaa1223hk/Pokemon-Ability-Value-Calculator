@@ -1,0 +1,265 @@
+{
+  "name_zh": "避雷針",
+  "name_ja": "ひらいしん",
+  "name_en": "Lightning Rod",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "將電屬性的招式吸引到自己身上，不會受到傷害，而是會提高特攻。",
+  "effect": "具有該特性的寶可夢不受電屬性招式的影響，當被電屬性的招式擊中時，提升1級特攻。\n場上其他寶可夢（包括同伴）使出的作用範圍為單體的電屬性招式的目標強制轉移至該特性的寶可夢。若場上有多隻寶可夢擁有此特性，將吸引到速度較高的那隻。萬眾矚目可以覆蓋這個效果。螺旋尾鰭、堅毅、狙擊可以無視這個效果。\n- 即使處於守住狀態，依然能夠吸引電屬性的招式，但特攻不會提升。\n- 該特性對電屬性的變化招式有效。包括透過其他方式變為電屬性的變化招式。\n- 對於連續招式，只會觸發1次特性效果。\n- 觸發該特性時，與沒有效果相同，不會發動招式的追加效果。\n- 該特性的寶可夢無法觸發自身攜帶的充電電池。\n- 可以吸引同伴的極巨閃電，即使極巨閃電無法直接對同伴使用。\n因為等離子浴並不以任何寶可夢為目標，也不直接影響處在場上的寶可夢，所以此招式不會觸發避雷針特性。",
+  "pokemon_list": [
+    {
+      "id": "0025",
+      "name": "皮卡丘",
+      "form": "",
+      "icon": "-3em -1em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0025",
+      "name": "皮卡丘",
+      "form": "換裝皮卡丘",
+      "icon": "-5em -1em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0026",
+      "name": "雷丘",
+      "form": "",
+      "icon": "-21em -1em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0104",
+      "name": "卡拉卡拉",
+      "form": "",
+      "icon": "-23em -4em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "避雷針",
+      "hidden_ability": "戰鬥盔甲"
+    },
+    {
+      "id": "0105",
+      "name": "嘎啦嘎啦",
+      "form": "",
+      "icon": "-24em -4em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "避雷針",
+      "hidden_ability": "戰鬥盔甲"
+    },
+    {
+      "id": "0105",
+      "name": "嘎啦嘎啦",
+      "form": "阿羅拉的樣子",
+      "icon": "-25em -4em",
+      "types": [
+        "火",
+        "幽靈"
+      ],
+      "first_ability": "咒術之軀",
+      "second_ability": "避雷針",
+      "hidden_ability": "堅硬腦袋"
+    },
+    {
+      "id": "0111",
+      "name": "獨角犀牛",
+      "form": "",
+      "icon": "-32em -4em",
+      "types": [
+        "地面",
+        "岩石"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0112",
+      "name": "鑽角犀獸",
+      "form": "",
+      "icon": "-34em -4em",
+      "types": [
+        "地面",
+        "岩石"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0118",
+      "name": "角金魚",
+      "form": "",
+      "icon": "-2em -5em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "水幕",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0119",
+      "name": "金魚王",
+      "form": "",
+      "icon": "-4em -5em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "水幕",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0172",
+      "name": "皮丘",
+      "form": "",
+      "icon": "-2em -7em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0254",
+      "name": "蜥蜴王",
+      "form": "超級蜥蜴王",
+      "icon": "-24em -10em",
+      "types": [
+        "草",
+        "龍"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0309",
+      "name": "落雷獸",
+      "form": "",
+      "icon": "-17em -12em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "避雷針",
+      "hidden_ability": "負電"
+    },
+    {
+      "id": "0310",
+      "name": "雷電獸",
+      "form": "",
+      "icon": "-18em -12em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "避雷針",
+      "hidden_ability": "負電"
+    },
+    {
+      "id": "0311",
+      "name": "正電拍拍",
+      "form": "",
+      "icon": "-20em -12em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "正電",
+      "second_ability": "",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0464",
+      "name": "超甲狂犀",
+      "form": "",
+      "icon": "-39em -17em",
+      "types": [
+        "地面",
+        "岩石"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "堅硬岩石",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0522",
+      "name": "斑斑馬",
+      "form": "",
+      "icon": "-9em -20em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "電氣引擎",
+      "hidden_ability": "食草"
+    },
+    {
+      "id": "0523",
+      "name": "雷電斑馬",
+      "form": "",
+      "icon": "-10em -20em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "電氣引擎",
+      "hidden_ability": "食草"
+    },
+    {
+      "id": "0777",
+      "name": "託戈德瑪爾",
+      "form": "",
+      "icon": "-29em -29em",
+      "types": [
+        "電",
+        "鋼"
+      ],
+      "first_ability": "鐵刺",
+      "second_ability": "避雷針",
+      "hidden_ability": "結實"
+    },
+    {
+      "id": "0871",
+      "name": "啪嚓海膽",
+      "form": "",
+      "icon": "-9em -34em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "",
+      "hidden_ability": "電氣製造者"
+    }
+  ],
+  "id": "031"
+}

@@ -1,0 +1,140 @@
+{
+  "name_zh": "魔法防守",
+  "name_ja": "マジックガード",
+  "name_en": "Magic Guard",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "不會受到攻擊以外的傷害。",
+  "effect": "不會受到天氣、道具、特性、異常狀態、狀態變化、除掙扎之外的反作用力傷害的招式等造成的傷害。\n- 非傷害效果仍然保留：例如灼傷狀態的攻擊減半效果，劇毒狀態的傷害計數增加，生命寶珠對招式威力的增幅作用。\n- 由於未受到寄生種子的傷害，對手也不會回覆ＨＰ。\n下列會減少ＨＰ的效果不能被此特性防止：\n- 招式的副作用：\n由於使用咒術、替身、腹鼓、分擔痛楚而失去ＨＰ\n由同命、終焉之歌直接導致的昏厥狀態\n造成自身陷入昏厥狀態的招式\n- 由於掙扎而受到的反作用力傷害\n- 由於混亂而對自己造成的傷害\n在第四世代中，在對戰外中毒依然會減少ＨＰ。",
+  "pokemon_list": [
+    {
+      "id": "0035",
+      "name": "皮皮",
+      "form": "",
+      "icon": "-34em -1em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "魔法防守",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0036",
+      "name": "皮可西",
+      "form": "",
+      "icon": "-35em -1em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "魔法防守",
+      "hidden_ability": "純樸"
+    },
+    {
+      "id": "0063",
+      "name": "凱西",
+      "form": "",
+      "icon": "-37em -2em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "精神力",
+      "hidden_ability": "魔法防守"
+    },
+    {
+      "id": "0064",
+      "name": "勇基拉",
+      "form": "",
+      "icon": "-38em -2em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "精神力",
+      "hidden_ability": "魔法防守"
+    },
+    {
+      "id": "0065",
+      "name": "胡地",
+      "form": "",
+      "icon": "0 -3em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "精神力",
+      "hidden_ability": "魔法防守"
+    },
+    {
+      "id": "0173",
+      "name": "皮寶寶",
+      "form": "",
+      "icon": "-4em -7em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "魔法防守",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0561",
+      "name": "象徵鳥",
+      "form": "",
+      "icon": "-17em -21em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "奇蹟皮膚",
+      "second_ability": "魔法防守",
+      "hidden_ability": "有色眼鏡"
+    },
+    {
+      "id": "0577",
+      "name": "單卵細胞球",
+      "form": "",
+      "icon": "-37em -21em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "防塵",
+      "second_ability": "魔法防守",
+      "hidden_ability": "再生力"
+    },
+    {
+      "id": "0578",
+      "name": "雙卵細胞球",
+      "form": "",
+      "icon": "-38em -21em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "防塵",
+      "second_ability": "魔法防守",
+      "hidden_ability": "再生力"
+    },
+    {
+      "id": "0579",
+      "name": "人造細胞卵",
+      "form": "",
+      "icon": "-39em -21em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "防塵",
+      "second_ability": "魔法防守",
+      "hidden_ability": "再生力"
+    }
+  ],
+  "id": "098"
+}

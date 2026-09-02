@@ -1,0 +1,190 @@
+{
+  "name_zh": "柔軟",
+  "name_ja": "じゅうなん",
+  "name_en": "Limber",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "因為身體柔軟，不會變為麻痺狀態。",
+  "effect": "該特性的寶可夢不會陷入麻痺狀態，陷入麻痺的寶可夢獲得該特性時麻痺狀態消除。",
+  "pokemon_list": [
+    {
+      "id": "0053",
+      "name": "貓老大",
+      "form": "",
+      "icon": "-23em -2em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "技術高手",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0106",
+      "name": "飛腿郎",
+      "form": "",
+      "icon": "-26em -4em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "捨身",
+      "hidden_ability": "輕裝"
+    },
+    {
+      "id": "0132",
+      "name": "百變怪",
+      "form": "",
+      "icon": "-28em -5em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "",
+      "hidden_ability": "變身者"
+    },
+    {
+      "id": "0427",
+      "name": "卷卷耳",
+      "form": "",
+      "icon": "-26em -16em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "笨拙",
+      "hidden_ability": "柔軟"
+    },
+    {
+      "id": "0428",
+      "name": "長耳兔",
+      "form": "",
+      "icon": "-27em -16em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "笨拙",
+      "hidden_ability": "柔軟"
+    },
+    {
+      "id": "0431",
+      "name": "魅力喵",
+      "form": "",
+      "icon": "-31em -16em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "我行我素",
+      "hidden_ability": "銳利目光"
+    },
+    {
+      "id": "0509",
+      "name": "扒手貓",
+      "form": "",
+      "icon": "-35em -19em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "輕裝",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0510",
+      "name": "酷豹",
+      "form": "",
+      "icon": "-36em -19em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "輕裝",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0618",
+      "name": "泥巴魚",
+      "form": "",
+      "icon": "-6em -23em",
+      "types": [
+        "地面",
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "柔軟",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0701",
+      "name": "摔角鷹人",
+      "form": "",
+      "icon": "-27em -26em",
+      "types": [
+        "格鬥",
+        "飛行"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "輕裝",
+      "hidden_ability": "破格"
+    },
+    {
+      "id": "0747",
+      "name": "好壞星",
+      "form": "",
+      "icon": "-15em -28em",
+      "types": [
+        "毒",
+        "水"
+      ],
+      "first_ability": "不仁不義",
+      "second_ability": "柔軟",
+      "hidden_ability": "再生力"
+    },
+    {
+      "id": "0748",
+      "name": "超壞星",
+      "form": "",
+      "icon": "-16em -28em",
+      "types": [
+        "毒",
+        "水"
+      ],
+      "first_ability": "不仁不義",
+      "second_ability": "柔軟",
+      "hidden_ability": "再生力"
+    },
+    {
+      "id": "0852",
+      "name": "拳拳蛸",
+      "form": "",
+      "icon": "-5em -32em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "",
+      "hidden_ability": "技術高手"
+    },
+    {
+      "id": "0853",
+      "name": "八爪武師",
+      "form": "",
+      "icon": "-6em -32em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "",
+      "hidden_ability": "技術高手"
+    }
+  ],
+  "id": "007"
+}

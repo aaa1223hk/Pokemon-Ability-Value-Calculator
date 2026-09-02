@@ -1,0 +1,157 @@
+{
+  "name_zh": "強壯之顎",
+  "name_ja": "がんじょうあご",
+  "name_en": "Strong Jaw",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "因為顎部強壯，啃咬類招式的威力會提高。",
+  "effect": "該特性的寶可夢使用啃咬類招式的威力上升50%。",
+  "pokemon_list": [
+    {
+      "id": "0319",
+      "name": "巨牙鯊",
+      "form": "超級巨牙鯊",
+      "icon": "-32em -12em",
+      "types": [
+        "水",
+        "惡"
+      ],
+      "first_ability": "強壯之顎",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0696",
+      "name": "寶寶暴龍",
+      "form": "",
+      "icon": "-22em -26em",
+      "types": [
+        "岩石",
+        "龍"
+      ],
+      "first_ability": "強壯之顎",
+      "second_ability": "",
+      "hidden_ability": "結實"
+    },
+    {
+      "id": "0697",
+      "name": "怪顎龍",
+      "form": "",
+      "icon": "-23em -26em",
+      "types": [
+        "岩石",
+        "龍"
+      ],
+      "first_ability": "強壯之顎",
+      "second_ability": "",
+      "hidden_ability": "堅硬腦袋"
+    },
+    {
+      "id": "0713",
+      "name": "冰岩怪",
+      "form": "洗翠的樣子",
+      "icon": "-8em -27em",
+      "types": [
+        "冰",
+        "岩石"
+      ],
+      "first_ability": "強壯之顎",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "結實"
+    },
+    {
+      "id": "0734",
+      "name": "貓鼬少",
+      "form": "",
+      "icon": "-36em -27em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "蹲守",
+      "second_ability": "強壯之顎",
+      "hidden_ability": "適應力"
+    },
+    {
+      "id": "0735",
+      "name": "貓鼬探長",
+      "form": "",
+      "icon": "-37em -27em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "蹲守",
+      "second_ability": "強壯之顎",
+      "hidden_ability": "適應力"
+    },
+    {
+      "id": "0779",
+      "name": "磨牙彩皮魚",
+      "form": "",
+      "icon": "-32em -29em",
+      "types": [
+        "水",
+        "超能力"
+      ],
+      "first_ability": "鮮豔之軀",
+      "second_ability": "強壯之顎",
+      "hidden_ability": "奇蹟皮膚"
+    },
+    {
+      "id": "0833",
+      "name": "咬咬龜",
+      "form": "",
+      "icon": "-16em -31em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "強壯之顎",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "悠遊自如"
+    },
+    {
+      "id": "0834",
+      "name": "暴噬龜",
+      "form": "",
+      "icon": "-17em -31em",
+      "types": [
+        "水",
+        "岩石"
+      ],
+      "first_ability": "強壯之顎",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "悠遊自如"
+    },
+    {
+      "id": "0836",
+      "name": "逐電犬",
+      "form": "",
+      "icon": "-20em -31em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "強壯之顎",
+      "second_ability": "",
+      "hidden_ability": "好勝"
+    },
+    {
+      "id": "0882",
+      "name": "鰓魚龍",
+      "form": "",
+      "icon": "-24em -34em",
+      "types": [
+        "水",
+        "龍"
+      ],
+      "first_ability": "儲水",
+      "second_ability": "強壯之顎",
+      "hidden_ability": "撥沙"
+    }
+  ],
+  "id": "173"
+}

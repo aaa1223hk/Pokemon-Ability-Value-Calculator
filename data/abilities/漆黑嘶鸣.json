@@ -1,0 +1,30 @@
+{
+  "name_zh": "漆黑嘶鳴",
+  "name_ja": "くろのいななき",
+  "name_en": "Grim Neigh",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "打倒對手時會用恐怖的聲音嘶鳴並提高特攻。",
+  "effect": "該特性的寶可夢打敗任意一方的一隻寶可夢後，自身特攻提升1級。",
+  "pokemon_list": [
+    {
+      "id": "0897",
+      "name": "靈幽馬",
+      "form": "",
+      "icon": "-7em -35em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "漆黑嘶鳴",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "265"
+}

@@ -1,0 +1,169 @@
+{
+  "name_zh": "笨拙",
+  "name_ja": "ぶきよう",
+  "name_en": "Klutz",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "無法使用持有的道具。",
+  "effect": "攜帶物品的能力失效（包括負面效果）。\n擁有笨拙特性的寶可夢無法使用投擲，但能夠使用掉包及戲法。\n如果該特性的寶可夢使用能透過道具改變招式屬性的招式時（如制裁光礫），招式為一般屬性。\n以下道具依然有效：\n- 超級石、硃紅色寶珠、靛藍色寶珠和Ｚ純晶；\n- 影響基礎點數、經驗值和親密度的攜帶物品（如護符金幣、幸運蛋、力量負重、安撫之鈴等）；\n- 攜帶物品的對戰外效果（如不變之石、潔淨之符、頭巾等）。",
+  "pokemon_list": [
+    {
+      "id": "0427",
+      "name": "卷卷耳",
+      "form": "",
+      "icon": "-26em -16em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "笨拙",
+      "hidden_ability": "柔軟"
+    },
+    {
+      "id": "0428",
+      "name": "長耳兔",
+      "form": "",
+      "icon": "-27em -16em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "笨拙",
+      "hidden_ability": "柔軟"
+    },
+    {
+      "id": "0527",
+      "name": "滾滾蝙蝠",
+      "form": "",
+      "icon": "-14em -20em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "純樸",
+      "second_ability": "笨拙",
+      "hidden_ability": "單純"
+    },
+    {
+      "id": "0528",
+      "name": "心蝙蝠",
+      "form": "",
+      "icon": "-15em -20em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "純樸",
+      "second_ability": "笨拙",
+      "hidden_ability": "單純"
+    },
+    {
+      "id": "0531",
+      "name": "差不多娃娃",
+      "form": "",
+      "icon": "-18em -20em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "治癒之心",
+      "second_ability": "再生力",
+      "hidden_ability": "笨拙"
+    },
+    {
+      "id": "0622",
+      "name": "泥偶小人",
+      "form": "",
+      "icon": "-11em -23em",
+      "types": [
+        "地面",
+        "幽靈"
+      ],
+      "first_ability": "鐵拳",
+      "second_ability": "笨拙",
+      "hidden_ability": "無防守"
+    },
+    {
+      "id": "0623",
+      "name": "泥偶巨人",
+      "form": "",
+      "icon": "-12em -23em",
+      "types": [
+        "地面",
+        "幽靈"
+      ],
+      "first_ability": "鐵拳",
+      "second_ability": "笨拙",
+      "hidden_ability": "無防守"
+    },
+    {
+      "id": "0759",
+      "name": "童偶熊",
+      "form": "",
+      "icon": "-27em -28em",
+      "types": [
+        "一般",
+        "格鬥"
+      ],
+      "first_ability": "毛茸茸",
+      "second_ability": "笨拙",
+      "hidden_ability": "迷人之軀"
+    },
+    {
+      "id": "0760",
+      "name": "穿著熊",
+      "form": "",
+      "icon": "-28em -28em",
+      "types": [
+        "一般",
+        "格鬥"
+      ],
+      "first_ability": "毛茸茸",
+      "second_ability": "笨拙",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0848",
+      "name": "電音嬰",
+      "form": "",
+      "icon": "-38em -31em",
+      "types": [
+        "電",
+        "毒"
+      ],
+      "first_ability": "膽怯",
+      "second_ability": "靜電",
+      "hidden_ability": "笨拙"
+    },
+    {
+      "id": "0926",
+      "name": "狗仔包",
+      "form": "",
+      "icon": "-4em -36em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "我行我素",
+      "second_ability": "",
+      "hidden_ability": "笨拙"
+    },
+    {
+      "id": "0951",
+      "name": "熱辣娃",
+      "form": "",
+      "icon": "-32em -36em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "不眠",
+      "hidden_ability": "笨拙"
+    }
+  ],
+  "id": "103"
+}

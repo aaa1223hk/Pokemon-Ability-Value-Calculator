@@ -1,0 +1,42 @@
+{
+  "name_zh": "花之禮",
+  "name_ja": "フラワーギフト",
+  "name_en": "Flower Gift",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "不能被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性無效",
+    "入場時發動該特性"
+  ],
+  "introduction": "晴朗天氣時，自己與同伴的攻擊和特防能力會提高。",
+  "effect": "在大晴天或大日照天氣時，己方所有寶可夢攻擊與特防提升50%，櫻花兒的形態會從陰天形態變為晴天形態。\n該特性僅當擁有者為櫻花兒時有效，當櫻花兒失去該特性時會變回陰天形態。",
+  "pokemon_list": [
+    {
+      "id": "0421",
+      "name": "櫻花兒",
+      "form": "陰天形態",
+      "icon": "-16em -16em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "花之禮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0421",
+      "name": "櫻花兒",
+      "form": "晴天形態",
+      "icon": "-17em -16em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "花之禮",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "122"
+}

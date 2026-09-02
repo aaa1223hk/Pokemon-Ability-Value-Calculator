@@ -1,0 +1,439 @@
+{
+  "name_zh": "強行",
+  "name_ja": "ちからずく",
+  "name_en": "Sheer Force",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "招式的追加效果消失，但因此能以更高的威力使出招式。",
+  "effect": "附帶追加效果的攻擊招式的威力提升30%，但這些招式的追加效果不再發動。\n- 對王者之證、銳利之牙和投擲道具帶來的效果無效，這些效果能夠正常發動，並且招式的威力也不會因此上升。\n- 對極巨招式無效。\n- 對千波激盪、緊咬不放兩個造成無法逃走狀態的招式無效，但對縫影、擲錨有效。\n- 對上菜能提升招式威力，但追加效果仍然能正常發動。\n- 在《朱／紫》Ver2.0.1前，對噴射拳能提升招式威力，儘管該招式無附帶追加效果。\n- 對電光束能提升招式威力，儘管該招式無附帶追加效果。\n如果攻擊方發動了強行特性，下列在傷害計算後才處理的效果會被忽略：\n- 防禦方的變色、怒火沖天、躍躍欲逃、危險迴避、順手牽羊特性；\n- 防禦方的陷阱甲殼招式的觸發；\n- 攻擊方攜帶的貝殼之鈴、防禦方攜帶的紅牌、逃脫按鍵、亞開果、香羅果；\n- 攻擊方的生命寶珠的損失ＨＰ的副作用，但不包括增加招式威力的效果。",
+  "pokemon_list": [
+    {
+      "id": "0031",
+      "name": "尼多後",
+      "form": "",
+      "icon": "-30em -1em",
+      "types": [
+        "毒",
+        "地面"
+      ],
+      "first_ability": "毒刺",
+      "second_ability": "鬥爭心",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0034",
+      "name": "尼多王",
+      "form": "",
+      "icon": "-33em -1em",
+      "types": [
+        "毒",
+        "地面"
+      ],
+      "first_ability": "毒刺",
+      "second_ability": "鬥爭心",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0098",
+      "name": "大鉗蟹",
+      "form": "",
+      "icon": "-12em -4em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0099",
+      "name": "巨鉗蟹",
+      "form": "",
+      "icon": "-13em -4em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0128",
+      "name": "肯泰羅",
+      "form": "",
+      "icon": "-17em -5em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "憤怒穴位",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0158",
+      "name": "小鋸鱷",
+      "form": "",
+      "icon": "-26em -6em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0159",
+      "name": "藍鱷",
+      "form": "",
+      "icon": "-27em -6em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0160",
+      "name": "大力鱷",
+      "form": "",
+      "icon": "-28em -6em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0208",
+      "name": "大鋼蛇",
+      "form": "",
+      "icon": "-39em -8em",
+      "types": [
+        "鋼",
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "結實",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0296",
+      "name": "幕下力士",
+      "form": "",
+      "icon": "-38em -11em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "毅力",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0297",
+      "name": "鐵掌力士",
+      "form": "",
+      "icon": "-39em -11em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "毅力",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0303",
+      "name": "大嘴娃",
+      "form": "",
+      "icon": "-6em -12em",
+      "types": [
+        "鋼",
+        "妖精"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "威嚇",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0323",
+      "name": "噴火駝",
+      "form": "超級噴火駝",
+      "icon": "-39em -12em",
+      "types": [
+        "火",
+        "地面"
+      ],
+      "first_ability": "強行",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0328",
+      "name": "大顎蟻",
+      "form": "",
+      "icon": "-4em -13em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "沙穴",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0371",
+      "name": "寶貝龍",
+      "form": "",
+      "icon": "-17em -14em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0408",
+      "name": "頭蓋龍",
+      "form": "",
+      "icon": "-35em -15em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "破格",
+      "second_ability": "",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0409",
+      "name": "戰槌龍",
+      "form": "",
+      "icon": "-36em -15em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "破格",
+      "second_ability": "",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0532",
+      "name": "搬運小匠",
+      "form": "",
+      "icon": "-20em -20em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "強行",
+      "hidden_ability": "鐵拳"
+    },
+    {
+      "id": "0533",
+      "name": "鐵骨土人",
+      "form": "",
+      "icon": "-21em -20em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "強行",
+      "hidden_ability": "鐵拳"
+    },
+    {
+      "id": "0534",
+      "name": "修建老匠",
+      "form": "",
+      "icon": "-22em -20em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "強行",
+      "hidden_ability": "鐵拳"
+    },
+    {
+      "id": "0555",
+      "name": "達摩狒狒",
+      "form": "",
+      "icon": "-8em -21em",
+      "types": [
+        "火"
+      ],
+      "first_ability": "強行",
+      "second_ability": "",
+      "hidden_ability": "達摩模式"
+    },
+    {
+      "id": "0621",
+      "name": "赤面龍",
+      "form": "",
+      "icon": "-10em -23em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "粗糙皮膚",
+      "second_ability": "強行",
+      "hidden_ability": "破格"
+    },
+    {
+      "id": "0627",
+      "name": "毛頭小鷹",
+      "form": "",
+      "icon": "-16em -23em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "強行",
+      "hidden_ability": "活力"
+    },
+    {
+      "id": "0628",
+      "name": "勇士雄鷹",
+      "form": "",
+      "icon": "-17em -23em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "強行",
+      "hidden_ability": "不服輸"
+    },
+    {
+      "id": "0628",
+      "name": "勇士雄鷹",
+      "form": "洗翠的樣子",
+      "icon": "-18em -23em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "強行",
+      "hidden_ability": "有色眼鏡"
+    },
+    {
+      "id": "0645",
+      "name": "土地雲",
+      "form": "化身形態",
+      "icon": "-37em -23em",
+      "types": [
+        "地面",
+        "飛行"
+      ],
+      "first_ability": "沙之力",
+      "second_ability": "",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0733",
+      "name": "銃嘴大鳥",
+      "form": "",
+      "icon": "-35em -27em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "連續攻擊",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0878",
+      "name": "銅象",
+      "form": "",
+      "icon": "-19em -34em",
+      "types": [
+        "鋼"
+      ],
+      "first_ability": "強行",
+      "second_ability": "",
+      "hidden_ability": "重金屬"
+    },
+    {
+      "id": "0879",
+      "name": "大王銅象",
+      "form": "",
+      "icon": "-20em -34em",
+      "types": [
+        "鋼"
+      ],
+      "first_ability": "強行",
+      "second_ability": "",
+      "hidden_ability": "重金屬"
+    },
+    {
+      "id": "0900",
+      "name": "劈斧螳螂",
+      "form": "",
+      "icon": "-12em -35em",
+      "types": [
+        "蟲",
+        "岩石"
+      ],
+      "first_ability": "蟲之預感",
+      "second_ability": "強行",
+      "hidden_ability": "鋒銳"
+    },
+    {
+      "id": "0931",
+      "name": "怒鸚哥",
+      "form": "黃羽毛",
+      "icon": "-11em -36em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "活力",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0931",
+      "name": "怒鸚哥",
+      "form": "白羽毛",
+      "icon": "-12em -36em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "活力",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0974",
+      "name": "走鯨",
+      "form": "",
+      "icon": "-21em -37em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "雪隱",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0975",
+      "name": "浩大鯨",
+      "form": "",
+      "icon": "-22em -37em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "撥雪",
+      "hidden_ability": "強行"
+    }
+  ],
+  "id": "125"
+}

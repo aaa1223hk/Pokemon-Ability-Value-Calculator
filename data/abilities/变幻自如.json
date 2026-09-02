@@ -1,0 +1,104 @@
+{
+  "name_zh": "變幻自如",
+  "name_ja": "へんげんじざい",
+  "name_en": "Protean",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "變為與自己使出的招式相同的屬性。每次出場戰鬥僅生效一次。",
+  "effect": "自身的屬性在使用招式之前變為所使用的招式的屬性。轉換屬性的效果持續直到離開場地為止。每一次出場只能轉換屬性一次，需要替換後再次出場才能再次轉換。對於兩種屬性的寶可夢，觸發變幻自如時變為只有一種屬性。該特性的寶可夢使用招式後，屬性一致加成會以改變後的屬性提升招式威力。\n以下情況能觸發變幻自如特性：\n- 當招式沒有命中或被守住時；\n- 招式屬性不固定時，例如覺醒力量，使用者的屬性變為不固定屬性招式的實際屬性。\n以下情況不能觸發變幻自如特性：\n- 掙扎；\n- 預知未來或者破滅之願時，包括使用回合和攻擊回合；\n- 太晶化的寶可夢使用招式時。\n特殊情況：\n- 保護色觸發變幻自如特性時，使用者屬性先變為一般屬性，接著再根據場地改變屬性。\n- 使用合體招式時，如果該特性的寶可夢是最先使用的話，不會觸發該特性。後手的話會觸發。",
+  "pokemon_list": [
+    {
+      "id": "0352",
+      "name": "變隱龍",
+      "form": "",
+      "icon": "-34em -13em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "變色",
+      "second_ability": "",
+      "hidden_ability": "變幻自如"
+    },
+    {
+      "id": "0656",
+      "name": "呱呱泡蛙",
+      "form": "",
+      "icon": "-17em -24em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "變幻自如"
+    },
+    {
+      "id": "0657",
+      "name": "呱頭蛙",
+      "form": "",
+      "icon": "-18em -24em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "變幻自如"
+    },
+    {
+      "id": "0658",
+      "name": "甲賀忍蛙",
+      "form": "",
+      "icon": "-19em -24em",
+      "types": [
+        "水",
+        "惡"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "變幻自如"
+    },
+    {
+      "id": "0906",
+      "name": "新葉喵",
+      "form": "",
+      "icon": "-22em -35em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "變幻自如"
+    },
+    {
+      "id": "0907",
+      "name": "蒂蕾喵",
+      "form": "",
+      "icon": "-23em -35em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "變幻自如"
+    },
+    {
+      "id": "0908",
+      "name": "魔幻假面喵",
+      "form": "",
+      "icon": "-24em -35em",
+      "types": [
+        "草",
+        "惡"
+      ],
+      "first_ability": "茂盛",
+      "second_ability": "",
+      "hidden_ability": "變幻自如"
+    }
+  ],
+  "id": "168"
+}

@@ -1,0 +1,142 @@
+{
+  "name_zh": "黏著",
+  "name_ja": "ねんちゃく",
+  "name_en": "Sticky Hold",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "因為道具是粘在黏性身體上的，所以不會被對手奪走。",
+  "effect": "攜帶物品不會受到其他寶可夢以下招式的影響：\n- 渴望、小偷的奪取；\n- 戲法、掉包的交換；\n- 拍落不會使物品消失，但仍會受到拍落的傷害加成。\n- 蟲咬、啄食的消耗。\n黏著特性不影響附著針。\n破格、兆級電壓和渦輪火焰影響黏著特性。",
+  "pokemon_list": [
+    {
+      "id": "0088",
+      "name": "臭泥",
+      "form": "",
+      "icon": "-37em -3em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "黏著",
+      "hidden_ability": "毒手"
+    },
+    {
+      "id": "0089",
+      "name": "臭臭泥",
+      "form": "",
+      "icon": "-39em -3em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "黏著",
+      "hidden_ability": "毒手"
+    },
+    {
+      "id": "0316",
+      "name": "溶食獸",
+      "form": "",
+      "icon": "-26em -12em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "汙泥漿",
+      "second_ability": "黏著",
+      "hidden_ability": "貪吃鬼"
+    },
+    {
+      "id": "0317",
+      "name": "吞食獸",
+      "form": "",
+      "icon": "-28em -12em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "汙泥漿",
+      "second_ability": "黏著",
+      "hidden_ability": "貪吃鬼"
+    },
+    {
+      "id": "0422",
+      "name": "無殼海兔",
+      "form": "",
+      "icon": "-18em -16em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "黏著",
+      "second_ability": "引水",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0423",
+      "name": "海兔獸",
+      "form": "",
+      "icon": "-20em -16em",
+      "types": [
+        "水",
+        "地面"
+      ],
+      "first_ability": "黏著",
+      "second_ability": "引水",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0568",
+      "name": "破破袋",
+      "form": "",
+      "icon": "-25em -21em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "黏著",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0617",
+      "name": "敏捷蟲",
+      "form": "",
+      "icon": "-5em -23em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "溼潤之軀",
+      "second_ability": "黏著",
+      "hidden_ability": "輕裝"
+    },
+    {
+      "id": "1011",
+      "name": "裹蜜蟲",
+      "form": "",
+      "icon": "-24em -38em",
+      "types": [
+        "草",
+        "龍"
+      ],
+      "first_ability": "甘露之蜜",
+      "second_ability": "貪吃鬼",
+      "hidden_ability": "黏著"
+    },
+    {
+      "id": "1019",
+      "name": "蜜集大蛇",
+      "form": "",
+      "icon": "-35em -38em",
+      "types": [
+        "草",
+        "龍"
+      ],
+      "first_ability": "甘露之蜜",
+      "second_ability": "再生力",
+      "hidden_ability": "黏著"
+    }
+  ],
+  "id": "060"
+}

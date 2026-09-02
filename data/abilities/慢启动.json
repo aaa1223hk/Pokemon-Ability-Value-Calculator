@@ -1,0 +1,43 @@
+{
+  "name_zh": "慢啟動",
+  "name_ja": "スロースタート",
+  "name_en": "Slow Start",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "入場時發動該特性"
+  ],
+  "introduction": "在５回合內，攻擊和速度減半。",
+  "effect": "該特性的寶可夢上場的前五回合物理招式的傷害和速度能力減半。",
+  "pokemon_list": [
+    {
+      "id": "0486",
+      "name": "雷吉奇卡斯",
+      "form": "",
+      "icon": "-32em -18em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "慢啟動",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0965",
+      "name": "噗隆隆",
+      "form": "",
+      "icon": "-7em -37em",
+      "types": [
+        "鋼",
+        "毒"
+      ],
+      "first_ability": "防塵",
+      "second_ability": "",
+      "hidden_ability": "慢啟動"
+    }
+  ],
+  "id": "112"
+}

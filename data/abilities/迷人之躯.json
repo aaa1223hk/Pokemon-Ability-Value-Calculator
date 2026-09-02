@@ -1,0 +1,203 @@
+{
+  "name_zh": "迷人之軀",
+  "name_ja": "メロメロボディ",
+  "name_en": "Cute Charm",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "有時會讓接觸到自己的對手著迷。",
+  "effect": "異性寶可夢使用接觸類招式攻擊該特性的寶可夢時會有30%的機率著迷。\n連續招式的每一擊都會單獨觸發該特性。\n在闖入對戰中，能讓入場寶可夢與隊首寶可夢性別不同的機率變為50%。",
+  "pokemon_list": [
+    {
+      "id": "0035",
+      "name": "皮皮",
+      "form": "",
+      "icon": "-34em -1em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "魔法防守",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0036",
+      "name": "皮可西",
+      "form": "",
+      "icon": "-35em -1em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "魔法防守",
+      "hidden_ability": "純樸"
+    },
+    {
+      "id": "0039",
+      "name": "胖丁",
+      "form": "",
+      "icon": "0 -2em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "好勝",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0040",
+      "name": "胖可丁",
+      "form": "",
+      "icon": "-1em -2em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "好勝",
+      "hidden_ability": "察覺"
+    },
+    {
+      "id": "0173",
+      "name": "皮寶寶",
+      "form": "",
+      "icon": "-4em -7em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "魔法防守",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0174",
+      "name": "寶寶丁",
+      "form": "",
+      "icon": "-5em -7em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "好勝",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0300",
+      "name": "向尾喵",
+      "form": "",
+      "icon": "-2em -12em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "一般皮膚",
+      "hidden_ability": "奇蹟皮膚"
+    },
+    {
+      "id": "0301",
+      "name": "優雅貓",
+      "form": "",
+      "icon": "-3em -12em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "一般皮膚",
+      "hidden_ability": "奇蹟皮膚"
+    },
+    {
+      "id": "0350",
+      "name": "美納斯",
+      "form": "",
+      "icon": "-28em -13em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "神奇鱗片",
+      "second_ability": "好勝",
+      "hidden_ability": "迷人之軀"
+    },
+    {
+      "id": "0428",
+      "name": "長耳兔",
+      "form": "",
+      "icon": "-27em -16em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "笨拙",
+      "hidden_ability": "柔軟"
+    },
+    {
+      "id": "0572",
+      "name": "泡沫栗鼠",
+      "form": "",
+      "icon": "-32em -21em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "技術高手",
+      "hidden_ability": "連續攻擊"
+    },
+    {
+      "id": "0573",
+      "name": "奇諾栗鼠",
+      "form": "",
+      "icon": "-33em -21em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "技術高手",
+      "hidden_ability": "連續攻擊"
+    },
+    {
+      "id": "0700",
+      "name": "仙子伊布",
+      "form": "",
+      "icon": "-26em -26em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "",
+      "hidden_ability": "妖精皮膚"
+    },
+    {
+      "id": "0759",
+      "name": "童偶熊",
+      "form": "",
+      "icon": "-27em -28em",
+      "types": [
+        "一般",
+        "格鬥"
+      ],
+      "first_ability": "毛茸茸",
+      "second_ability": "笨拙",
+      "hidden_ability": "迷人之軀"
+    },
+    {
+      "id": "0905",
+      "name": "眷戀雲",
+      "form": "化身形態",
+      "icon": "-20em -35em",
+      "types": [
+        "妖精",
+        "飛行"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "",
+      "hidden_ability": "唱反調"
+    }
+  ],
+  "id": "056"
+}

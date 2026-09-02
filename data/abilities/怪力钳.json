@@ -1,0 +1,156 @@
+{
+  "name_zh": "怪力鉗",
+  "name_ja": "かいりきバサミ",
+  "name_en": "Hyper Cutter",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "因為擁有以力量自豪的鉗子，不會被對手降低攻擊。",
+  "effect": "攻擊能力變化不會被對方以任何方式降低。",
+  "pokemon_list": [
+    {
+      "id": "0098",
+      "name": "大鉗蟹",
+      "form": "",
+      "icon": "-12em -4em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0099",
+      "name": "巨鉗蟹",
+      "form": "",
+      "icon": "-13em -4em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0127",
+      "name": "凱羅斯",
+      "form": "",
+      "icon": "-15em -5em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "破格",
+      "hidden_ability": "自信過度"
+    },
+    {
+      "id": "0207",
+      "name": "天蠍",
+      "form": "",
+      "icon": "-37em -8em",
+      "types": [
+        "地面",
+        "飛行"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "沙隱",
+      "hidden_ability": "免疫"
+    },
+    {
+      "id": "0303",
+      "name": "大嘴娃",
+      "form": "",
+      "icon": "-6em -12em",
+      "types": [
+        "鋼",
+        "妖精"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "威嚇",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0328",
+      "name": "大顎蟻",
+      "form": "",
+      "icon": "-4em -13em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "沙穴",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0341",
+      "name": "龍蝦小兵",
+      "form": "",
+      "icon": "-19em -13em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "適應力"
+    },
+    {
+      "id": "0342",
+      "name": "鐵螯龍蝦",
+      "form": "",
+      "icon": "-20em -13em",
+      "types": [
+        "水",
+        "惡"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "適應力"
+    },
+    {
+      "id": "0472",
+      "name": "天蠍王",
+      "form": "",
+      "icon": "-9em -18em",
+      "types": [
+        "地面",
+        "飛行"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "沙隱",
+      "hidden_ability": "毒療"
+    },
+    {
+      "id": "0739",
+      "name": "好勝蟹",
+      "form": "",
+      "icon": "-1em -28em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "鐵拳",
+      "hidden_ability": "憤怒穴位"
+    },
+    {
+      "id": "0740",
+      "name": "好勝毛蟹",
+      "form": "",
+      "icon": "-2em -28em",
+      "types": [
+        "格鬥",
+        "冰"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "鐵拳",
+      "hidden_ability": "憤怒穴位"
+    }
+  ],
+  "id": "052"
+}

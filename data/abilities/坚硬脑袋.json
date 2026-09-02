@@ -1,0 +1,310 @@
+{
+  "name_zh": "堅硬腦袋",
+  "name_ja": "いしあたま",
+  "name_en": "Rock Head",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "即使使出會受反作用力傷害的招式，ＨＰ也不會減少。",
+  "effect": "不會受到自身招式的反作用力傷害。作用範圍不包括（可能）按自身最大ＨＰ比例損傷自身的招式。\n此特性不影響生命寶珠的副作用。\n如果具有堅硬腦袋特性的寶可夢在使出這類招式後立即失去了此特性（例如使用閃焰衝鋒攻擊具有木乃伊特性的寶可夢），則仍然要受到反作用力傷害。",
+  "pokemon_list": [
+    {
+      "id": "0058",
+      "name": "卡蒂狗",
+      "form": "洗翠的樣子",
+      "icon": "-30em -2em",
+      "types": [
+        "火",
+        "岩石"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "引火",
+      "hidden_ability": "堅硬腦袋"
+    },
+    {
+      "id": "0059",
+      "name": "風速狗",
+      "form": "洗翠的樣子",
+      "icon": "-32em -2em",
+      "types": [
+        "火",
+        "岩石"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "引火",
+      "hidden_ability": "堅硬腦袋"
+    },
+    {
+      "id": "0074",
+      "name": "小拳石",
+      "form": "",
+      "icon": "-12em -3em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "結實",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0075",
+      "name": "隆隆石",
+      "form": "",
+      "icon": "-14em -3em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "結實",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0076",
+      "name": "隆隆巖",
+      "form": "",
+      "icon": "-16em -3em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "結實",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0095",
+      "name": "大巖蛇",
+      "form": "",
+      "icon": "-8em -4em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "結實",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0104",
+      "name": "卡拉卡拉",
+      "form": "",
+      "icon": "-23em -4em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "避雷針",
+      "hidden_ability": "戰鬥盔甲"
+    },
+    {
+      "id": "0105",
+      "name": "嘎啦嘎啦",
+      "form": "",
+      "icon": "-24em -4em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "避雷針",
+      "hidden_ability": "戰鬥盔甲"
+    },
+    {
+      "id": "0105",
+      "name": "嘎啦嘎啦",
+      "form": "阿羅拉的樣子",
+      "icon": "-25em -4em",
+      "types": [
+        "火",
+        "幽靈"
+      ],
+      "first_ability": "咒術之軀",
+      "second_ability": "避雷針",
+      "hidden_ability": "堅硬腦袋"
+    },
+    {
+      "id": "0111",
+      "name": "獨角犀牛",
+      "form": "",
+      "icon": "-32em -4em",
+      "types": [
+        "地面",
+        "岩石"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0112",
+      "name": "鑽角犀獸",
+      "form": "",
+      "icon": "-34em -4em",
+      "types": [
+        "地面",
+        "岩石"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0142",
+      "name": "化石翼龍",
+      "form": "",
+      "icon": "-1em -6em",
+      "types": [
+        "岩石",
+        "飛行"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "壓迫感",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0185",
+      "name": "樹才怪",
+      "form": "",
+      "icon": "-18em -7em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0208",
+      "name": "大鋼蛇",
+      "form": "",
+      "icon": "-39em -8em",
+      "types": [
+        "鋼",
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "結實",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0304",
+      "name": "可可多拉",
+      "form": "",
+      "icon": "-8em -12em",
+      "types": [
+        "鋼",
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "重金屬"
+    },
+    {
+      "id": "0305",
+      "name": "可多拉",
+      "form": "",
+      "icon": "-9em -12em",
+      "types": [
+        "鋼",
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "重金屬"
+    },
+    {
+      "id": "0306",
+      "name": "波士可多拉",
+      "form": "",
+      "icon": "-10em -12em",
+      "types": [
+        "鋼",
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "重金屬"
+    },
+    {
+      "id": "0369",
+      "name": "古空棘魚",
+      "form": "",
+      "icon": "-14em -14em",
+      "types": [
+        "水",
+        "岩石"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "結實"
+    },
+    {
+      "id": "0371",
+      "name": "寶貝龍",
+      "form": "",
+      "icon": "-17em -14em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0372",
+      "name": "甲殼龍",
+      "form": "",
+      "icon": "-18em -14em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "",
+      "hidden_ability": "防塵"
+    },
+    {
+      "id": "0438",
+      "name": "盆才怪",
+      "form": "",
+      "icon": "-38em -16em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0550",
+      "name": "野蠻鱸魚",
+      "form": "藍條紋的樣子",
+      "icon": "-1em -21em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "適應力",
+      "hidden_ability": "破格"
+    },
+    {
+      "id": "0697",
+      "name": "怪顎龍",
+      "form": "",
+      "icon": "-23em -26em",
+      "types": [
+        "岩石",
+        "龍"
+      ],
+      "first_ability": "強壯之顎",
+      "second_ability": "",
+      "hidden_ability": "堅硬腦袋"
+    }
+  ],
+  "id": "069"
+}

@@ -1,0 +1,58 @@
+{
+  "name_zh": "熱交換",
+  "name_ja": "ねつこうかん",
+  "name_en": "Thermal Exchange",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到火屬性的招式攻擊時，攻擊會提高，且不會陷入灼傷狀態。",
+  "effect": "擁有該特性的寶可夢在受到火屬性攻擊招式攻擊時，自身攻擊提升1級，且不會陷入灼傷狀態。\n處於替身狀態時，不會觸發此特性。",
+  "pokemon_list": [
+    {
+      "id": "0996",
+      "name": "涼脊龍",
+      "form": "",
+      "icon": "-6em -38em",
+      "types": [
+        "龍",
+        "冰"
+      ],
+      "first_ability": "熱交換",
+      "second_ability": "",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0997",
+      "name": "凍脊龍",
+      "form": "",
+      "icon": "-7em -38em",
+      "types": [
+        "龍",
+        "冰"
+      ],
+      "first_ability": "熱交換",
+      "second_ability": "",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0998",
+      "name": "戟脊龍",
+      "form": "",
+      "icon": "-8em -38em",
+      "types": [
+        "龍",
+        "冰"
+      ],
+      "first_ability": "熱交換",
+      "second_ability": "",
+      "hidden_ability": "冰凍之軀"
+    }
+  ],
+  "id": "270"
+}

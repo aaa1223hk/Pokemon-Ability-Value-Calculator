@@ -1,0 +1,207 @@
+{
+  "name_zh": "純樸",
+  "name_ja": "てんねん",
+  "name_en": "Unaware",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "可以無視對手能力的變化，進行攻擊。",
+  "effect": "擁有該特性的寶可夢使用招式攻擊目標時，無視目標防禦、特防和閃避率的能力變化；受到目標的招式攻擊時，無視目標的攻擊、特攻和命中率的能力變化。\n- 擁有該特性的寶可夢使用移花接木攻擊目標時，無視目標防禦的能力變化；受到移花接木攻擊時，無視自身攻擊的能力變化。\n- 擁有該特性的寶可夢受到撲擊攻擊時，無視目標防禦的能力變化。\n- 該特性只在命中和傷害的計算過程中無視目標的能力變化，故：\n不會影響因能力變化而改變的陀螺球、電球、輔助力量、囂張和懲罰等招式的威力；\n使用吸取力量回復的ＨＰ會根據目標攻擊的能力變化而計算。\n- 因混亂而攻擊自身時，不會無視自身的能力變化。",
+  "pokemon_list": [
+    {
+      "id": "0036",
+      "name": "皮可西",
+      "form": "",
+      "icon": "-35em -1em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "魔法防守",
+      "hidden_ability": "純樸"
+    },
+    {
+      "id": "0194",
+      "name": "烏波",
+      "form": "",
+      "icon": "-30em -7em",
+      "types": [
+        "水",
+        "地面"
+      ],
+      "first_ability": "溼氣",
+      "second_ability": "儲水",
+      "hidden_ability": "純樸"
+    },
+    {
+      "id": "0194",
+      "name": "烏波",
+      "form": "帕底亞的樣子",
+      "icon": "-32em -7em",
+      "types": [
+        "毒",
+        "地面"
+      ],
+      "first_ability": "毒刺",
+      "second_ability": "儲水",
+      "hidden_ability": "純樸"
+    },
+    {
+      "id": "0195",
+      "name": "沼王",
+      "form": "",
+      "icon": "-33em -7em",
+      "types": [
+        "水",
+        "地面"
+      ],
+      "first_ability": "溼氣",
+      "second_ability": "儲水",
+      "hidden_ability": "純樸"
+    },
+    {
+      "id": "0399",
+      "name": "大牙狸",
+      "form": "",
+      "icon": "-18em -15em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "單純",
+      "second_ability": "純樸",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0400",
+      "name": "大尾狸",
+      "form": "",
+      "icon": "-20em -15em",
+      "types": [
+        "一般",
+        "水"
+      ],
+      "first_ability": "單純",
+      "second_ability": "純樸",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0527",
+      "name": "滾滾蝙蝠",
+      "form": "",
+      "icon": "-14em -20em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "純樸",
+      "second_ability": "笨拙",
+      "hidden_ability": "單純"
+    },
+    {
+      "id": "0528",
+      "name": "心蝙蝠",
+      "form": "",
+      "icon": "-15em -20em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "純樸",
+      "second_ability": "笨拙",
+      "hidden_ability": "單純"
+    },
+    {
+      "id": "0771",
+      "name": "拳海參",
+      "form": "",
+      "icon": "-39em -28em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "飛出的內在物",
+      "second_ability": "",
+      "hidden_ability": "純樸"
+    },
+    {
+      "id": "0789",
+      "name": "科斯莫古",
+      "form": "",
+      "icon": "-2em -30em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "純樸",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0909",
+      "name": "呆火鱷",
+      "form": "",
+      "icon": "-25em -35em",
+      "types": [
+        "火"
+      ],
+      "first_ability": "猛火",
+      "second_ability": "",
+      "hidden_ability": "純樸"
+    },
+    {
+      "id": "0910",
+      "name": "炙燙鱷",
+      "form": "",
+      "icon": "-26em -35em",
+      "types": [
+        "火"
+      ],
+      "first_ability": "猛火",
+      "second_ability": "",
+      "hidden_ability": "純樸"
+    },
+    {
+      "id": "0911",
+      "name": "骨紋巨聲鱷",
+      "form": "",
+      "icon": "-27em -35em",
+      "types": [
+        "火",
+        "幽靈"
+      ],
+      "first_ability": "猛火",
+      "second_ability": "",
+      "hidden_ability": "純樸"
+    },
+    {
+      "id": "0977",
+      "name": "吃吼霸",
+      "form": "",
+      "icon": "-24em -37em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "純樸",
+      "second_ability": "遲鈍",
+      "hidden_ability": "水幕"
+    },
+    {
+      "id": "0980",
+      "name": "土王",
+      "form": "",
+      "icon": "-29em -37em",
+      "types": [
+        "毒",
+        "地面"
+      ],
+      "first_ability": "毒刺",
+      "second_ability": "儲水",
+      "hidden_ability": "純樸"
+    }
+  ],
+  "id": "109"
+}

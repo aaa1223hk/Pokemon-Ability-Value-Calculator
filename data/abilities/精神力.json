@@ -1,0 +1,490 @@
+{
+  "name_zh": "精神力",
+  "name_ja": "せいしんりょく",
+  "name_en": "Inner Focus",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "擁有經過鍛鍊的精神，而不會因對手的攻擊而畏縮。對威嚇也毫不動搖。",
+  "effect": "該特性的寶可夢不會陷入畏縮狀態。破格、兆級電壓和渦輪火焰特性的寶可夢仍能使該特性的寶可夢畏縮。獲得該特性並不能解除畏縮狀態。\n該特性不受威嚇影響。",
+  "pokemon_list": [
+    {
+      "id": "0041",
+      "name": "超音蝠",
+      "form": "",
+      "icon": "-2em -2em",
+      "types": [
+        "毒",
+        "飛行"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0042",
+      "name": "大嘴蝠",
+      "form": "",
+      "icon": "-4em -2em",
+      "types": [
+        "毒",
+        "飛行"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0063",
+      "name": "凱西",
+      "form": "",
+      "icon": "-37em -2em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "精神力",
+      "hidden_ability": "魔法防守"
+    },
+    {
+      "id": "0064",
+      "name": "勇基拉",
+      "form": "",
+      "icon": "-38em -2em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "精神力",
+      "hidden_ability": "魔法防守"
+    },
+    {
+      "id": "0065",
+      "name": "胡地",
+      "form": "",
+      "icon": "0 -3em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "精神力",
+      "hidden_ability": "魔法防守"
+    },
+    {
+      "id": "0083",
+      "name": "大蔥鴨",
+      "form": "",
+      "icon": "-29em -3em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "精神力",
+      "hidden_ability": "不服輸"
+    },
+    {
+      "id": "0096",
+      "name": "催眠貘",
+      "form": "",
+      "icon": "-9em -4em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "預知夢",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0097",
+      "name": "引夢貘人",
+      "form": "",
+      "icon": "-10em -4em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "預知夢",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0107",
+      "name": "快拳郎",
+      "form": "",
+      "icon": "-27em -4em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "鐵拳",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0115",
+      "name": "袋獸",
+      "form": "",
+      "icon": "-38em -4em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "早起",
+      "second_ability": "膽量",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0149",
+      "name": "快龍",
+      "form": "",
+      "icon": "-13em -6em",
+      "types": [
+        "龍",
+        "飛行"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "",
+      "hidden_ability": "多重鱗片"
+    },
+    {
+      "id": "0169",
+      "name": "叉字蝠",
+      "form": "",
+      "icon": "-39em -6em",
+      "types": [
+        "毒",
+        "飛行"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0197",
+      "name": "月亮伊布",
+      "form": "",
+      "icon": "-36em -7em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "同步",
+      "second_ability": "",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0203",
+      "name": "麒麟奇",
+      "form": "",
+      "icon": "-32em -8em",
+      "types": [
+        "一般",
+        "超能力"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "早起",
+      "hidden_ability": "食草"
+    },
+    {
+      "id": "0215",
+      "name": "狃拉",
+      "form": "",
+      "icon": "-13em -9em",
+      "types": [
+        "惡",
+        "冰"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "銳利目光",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0215",
+      "name": "狃拉",
+      "form": "洗翠的樣子",
+      "icon": "-15em -9em",
+      "types": [
+        "格鬥",
+        "毒"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "銳利目光",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0243",
+      "name": "雷公",
+      "form": "",
+      "icon": "-11em -10em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0244",
+      "name": "炎帝",
+      "form": "",
+      "icon": "-12em -10em",
+      "types": [
+        "火"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0245",
+      "name": "水君",
+      "form": "",
+      "icon": "-13em -10em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0361",
+      "name": "雪童子",
+      "form": "",
+      "icon": "-5em -14em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0362",
+      "name": "冰鬼護",
+      "form": "",
+      "icon": "-6em -14em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0447",
+      "name": "利歐路",
+      "form": "",
+      "icon": "-11em -17em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "不屈之心",
+      "second_ability": "精神力",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0448",
+      "name": "路卡利歐",
+      "form": "",
+      "icon": "-12em -17em",
+      "types": [
+        "格鬥",
+        "鋼"
+      ],
+      "first_ability": "不屈之心",
+      "second_ability": "精神力",
+      "hidden_ability": "正義之心"
+    },
+    {
+      "id": "0475",
+      "name": "艾路雷朵",
+      "form": "超級艾路雷朵",
+      "icon": "-14em -18em",
+      "types": [
+        "超能力",
+        "格鬥"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0538",
+      "name": "投摔鬼",
+      "form": "",
+      "icon": "-26em -20em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "精神力",
+      "hidden_ability": "破格"
+    },
+    {
+      "id": "0539",
+      "name": "打擊鬼",
+      "form": "",
+      "icon": "-27em -20em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "結實",
+      "second_ability": "精神力",
+      "hidden_ability": "破格"
+    },
+    {
+      "id": "0554",
+      "name": "火紅不倒翁",
+      "form": "",
+      "icon": "-6em -21em",
+      "types": [
+        "火"
+      ],
+      "first_ability": "活力",
+      "second_ability": "",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0554",
+      "name": "火紅不倒翁",
+      "form": "伽勒爾的樣子",
+      "icon": "-7em -21em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "活力",
+      "second_ability": "",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0619",
+      "name": "功夫鼬",
+      "form": "",
+      "icon": "-8em -23em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "再生力",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0620",
+      "name": "師父鼬",
+      "form": "",
+      "icon": "-9em -23em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "再生力",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0624",
+      "name": "駒刀小兵",
+      "form": "",
+      "icon": "-13em -23em",
+      "types": [
+        "惡",
+        "鋼"
+      ],
+      "first_ability": "不服輸",
+      "second_ability": "精神力",
+      "hidden_ability": "壓迫感"
+    },
+    {
+      "id": "0625",
+      "name": "劈斬司令",
+      "form": "",
+      "icon": "-14em -23em",
+      "types": [
+        "惡",
+        "鋼"
+      ],
+      "first_ability": "不服輸",
+      "second_ability": "精神力",
+      "hidden_ability": "壓迫感"
+    },
+    {
+      "id": "0749",
+      "name": "泥驢仔",
+      "form": "",
+      "icon": "-17em -28em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "我行我素",
+      "second_ability": "持久力",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0750",
+      "name": "重泥挽馬",
+      "form": "",
+      "icon": "-18em -28em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "我行我素",
+      "second_ability": "持久力",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0765",
+      "name": "智揮猩",
+      "form": "",
+      "icon": "-33em -28em",
+      "types": [
+        "一般",
+        "超能力"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "心靈感應",
+      "hidden_ability": "共生"
+    },
+    {
+      "id": "0876",
+      "name": "愛管侍",
+      "form": "♂",
+      "icon": "-15em -34em",
+      "types": [
+        "超能力",
+        "一般"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "同步",
+      "hidden_ability": "精神製造者"
+    },
+    {
+      "id": "0891",
+      "name": "熊徒弟",
+      "form": "",
+      "icon": "-37em -34em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0979",
+      "name": "棄世猴",
+      "form": "",
+      "icon": "-28em -37em",
+      "types": [
+        "格鬥",
+        "幽靈"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "精神力",
+      "hidden_ability": "不服輸"
+    }
+  ],
+  "id": "039"
+}

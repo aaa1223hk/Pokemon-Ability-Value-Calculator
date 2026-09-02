@@ -1,0 +1,169 @@
+{
+  "name_zh": "憤怒穴位",
+  "name_ja": "いかりのつぼ",
+  "name_en": "Anger Point",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "要害被擊中時，會大發雷霆，攻擊力變為最大。",
+  "effect": "當被擊中要害時，攻擊提升至+6階級。\n處於替身狀態下的寶可夢，無法發動該特性。",
+  "pokemon_list": [
+    {
+      "id": "0056",
+      "name": "猴怪",
+      "form": "",
+      "icon": "-27em -2em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "憤怒穴位",
+      "hidden_ability": "不服輸"
+    },
+    {
+      "id": "0057",
+      "name": "火暴猴",
+      "form": "",
+      "icon": "-28em -2em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "憤怒穴位",
+      "hidden_ability": "不服輸"
+    },
+    {
+      "id": "0128",
+      "name": "肯泰羅",
+      "form": "",
+      "icon": "-17em -5em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "憤怒穴位",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0128",
+      "name": "肯泰羅",
+      "form": "帕底亞的樣子（鬥戰種）",
+      "icon": "-18em -5em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "憤怒穴位",
+      "hidden_ability": "反芻"
+    },
+    {
+      "id": "0128",
+      "name": "肯泰羅",
+      "form": "帕底亞的樣子（火熾種）",
+      "icon": "-19em -5em",
+      "types": [
+        "格鬥",
+        "火"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "憤怒穴位",
+      "hidden_ability": "反芻"
+    },
+    {
+      "id": "0128",
+      "name": "肯泰羅",
+      "form": "帕底亞的樣子（水瀾種）",
+      "icon": "-20em -5em",
+      "types": [
+        "格鬥",
+        "水"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "憤怒穴位",
+      "hidden_ability": "反芻"
+    },
+    {
+      "id": "0323",
+      "name": "噴火駝",
+      "form": "",
+      "icon": "-37em -12em",
+      "types": [
+        "火",
+        "地面"
+      ],
+      "first_ability": "熔岩鎧甲",
+      "second_ability": "堅硬岩石",
+      "hidden_ability": "憤怒穴位"
+    },
+    {
+      "id": "0551",
+      "name": "黑眼鱷",
+      "form": "",
+      "icon": "-3em -21em",
+      "types": [
+        "地面",
+        "惡"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "自信過度",
+      "hidden_ability": "憤怒穴位"
+    },
+    {
+      "id": "0552",
+      "name": "混混鱷",
+      "form": "",
+      "icon": "-4em -21em",
+      "types": [
+        "地面",
+        "惡"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "自信過度",
+      "hidden_ability": "憤怒穴位"
+    },
+    {
+      "id": "0553",
+      "name": "流氓鱷",
+      "form": "",
+      "icon": "-5em -21em",
+      "types": [
+        "地面",
+        "惡"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "自信過度",
+      "hidden_ability": "憤怒穴位"
+    },
+    {
+      "id": "0739",
+      "name": "好勝蟹",
+      "form": "",
+      "icon": "-1em -28em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "鐵拳",
+      "hidden_ability": "憤怒穴位"
+    },
+    {
+      "id": "0740",
+      "name": "好勝毛蟹",
+      "form": "",
+      "icon": "-2em -28em",
+      "types": [
+        "格鬥",
+        "冰"
+      ],
+      "first_ability": "怪力鉗",
+      "second_ability": "鐵拳",
+      "hidden_ability": "憤怒穴位"
+    }
+  ],
+  "id": "083"
+}

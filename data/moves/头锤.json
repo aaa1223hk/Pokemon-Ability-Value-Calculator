@@ -1,0 +1,29 @@
+{
+  "name_zh": "頭錘",
+  "name_ja": "ずつき",
+  "name_en": "Headbutt",
+  "type": "一般",
+  "category": "物理",
+  "pp": "15 （最大 24）",
+  "power": "70",
+  "accuracy": "100",
+  "range": "除自身以外場上一只可以攻擊到的寶可夢",
+  "description": "將頭伸出，筆直地撲向對手進行攻擊。有時會使對手畏縮。",
+  "intro": "這篇文章講述的是第一世代曾譯“鐵頭功”的一般屬性招式。如果您在尋找第四世代的鋼屬性招式，請移步鐵頭（招式）。",
+  "effect": [
+    "是接觸類招式",
+    "受守住影響",
+    "不受魔法反射影響",
+    "不可以被化為己用",
+    "受鸚鵡學舌影響",
+    "不受王者之證等類似道具影響"
+  ],
+  "additional_effect": "",
+  "details": "頭錘的非官方的常用譯名有頭突。",
+  "move_changes": "",
+  "learn_by_level_up": [],
+  "learn_by_tm": [],
+  "learn_by_breeding": [],
+  "learn_by_tutor": [],
+  "id": "29"
+}

@@ -1,0 +1,197 @@
+{
+  "name_zh": "蓄電",
+  "name_ja": "ちくでん",
+  "name_en": "Volt Absorb",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到電屬性的招式攻擊時，不會受到傷害，而是會回覆。",
+  "effect": "具有該特性的寶可夢不受電屬性招式的影響，當被電屬性的招式擊中時，回覆最大ＨＰ的1⁄4。\n- 該特性只能令自身不受電屬性招式的影響，不能將電屬性招式的目標轉移至自身。\n- 該特性對電屬性的變化招式有效。包括透過其他方式變為電屬性的變化招式。\n- 對於連續招式，只會觸發1次特性效果。\n- 觸發該特性時，與沒有效果相同，不會發動招式的追加效果。\n- 該特性的寶可夢無法觸發自身攜帶的充電電池。\n- 該特性的寶可夢進入守住狀態無法透過被電屬性招式擊中回覆ＨＰ。",
+  "pokemon_list": [
+    {
+      "id": "0135",
+      "name": "雷伊布",
+      "form": "",
+      "icon": "-34em -5em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "",
+      "hidden_ability": "飛毛腿"
+    },
+    {
+      "id": "0170",
+      "name": "燈籠魚",
+      "form": "",
+      "icon": "0 -7em",
+      "types": [
+        "水",
+        "電"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "發光",
+      "hidden_ability": "儲水"
+    },
+    {
+      "id": "0171",
+      "name": "電燈怪",
+      "form": "",
+      "icon": "-1em -7em",
+      "types": [
+        "水",
+        "電"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "發光",
+      "hidden_ability": "儲水"
+    },
+    {
+      "id": "0312",
+      "name": "負電拍拍",
+      "form": "",
+      "icon": "-21em -12em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "負電",
+      "second_ability": "",
+      "hidden_ability": "蓄電"
+    },
+    {
+      "id": "0417",
+      "name": "帕奇利茲",
+      "form": "",
+      "icon": "-9em -16em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "撿拾",
+      "hidden_ability": "蓄電"
+    },
+    {
+      "id": "0642",
+      "name": "雷電雲",
+      "form": "靈獸形態",
+      "icon": "-34em -23em",
+      "types": [
+        "電",
+        "飛行"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0807",
+      "name": "捷拉奧拉",
+      "form": "",
+      "icon": "-24em -30em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0880",
+      "name": "雷鳥龍",
+      "form": "",
+      "icon": "-22em -34em",
+      "types": [
+        "電",
+        "龍"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "活力",
+      "hidden_ability": "撥沙"
+    },
+    {
+      "id": "0881",
+      "name": "雷鳥海獸",
+      "form": "",
+      "icon": "-23em -34em",
+      "types": [
+        "電",
+        "冰"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "靜電",
+      "hidden_ability": "撥雪"
+    },
+    {
+      "id": "0922",
+      "name": "布土撥",
+      "form": "",
+      "icon": "-39em -35em",
+      "types": [
+        "電",
+        "格鬥"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "自然回覆",
+      "hidden_ability": "鐵拳"
+    },
+    {
+      "id": "0923",
+      "name": "巴布土撥",
+      "form": "",
+      "icon": "0 -36em",
+      "types": [
+        "電",
+        "格鬥"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "自然回覆",
+      "hidden_ability": "鐵拳"
+    },
+    {
+      "id": "0940",
+      "name": "電海燕",
+      "form": "",
+      "icon": "-21em -36em",
+      "types": [
+        "電",
+        "飛行"
+      ],
+      "first_ability": "風力發電",
+      "second_ability": "蓄電",
+      "hidden_ability": "好勝"
+    },
+    {
+      "id": "0941",
+      "name": "大電海燕",
+      "form": "",
+      "icon": "-22em -36em",
+      "types": [
+        "電",
+        "飛行"
+      ],
+      "first_ability": "風力發電",
+      "second_ability": "蓄電",
+      "hidden_ability": "好勝"
+    },
+    {
+      "id": "0000",
+      "name": "F-00",
+      "form": "*",
+      "icon": "0 0",
+      "types": [
+        "鋼",
+        "一般"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "010"
+}

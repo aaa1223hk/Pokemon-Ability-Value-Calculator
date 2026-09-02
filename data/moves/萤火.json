@@ -1,0 +1,54 @@
+{
+  "name_zh": "螢火",
+  "name_ja": "ほたるび",
+  "name_en": "Tail Glow",
+  "type": "蟲",
+  "category": "變化",
+  "pp": "20 （最大 32）",
+  "power": "—",
+  "accuracy": "—",
+  "range": "自身",
+  "description": "凝視閃爍的光芒，集中自己的精神，從而巨幅提高特攻。",
+  "intro": "螢火（日文︰ほたるび，英文︰Tail Glow）是第三世代引入的蟲屬性招式。",
+  "effect": [
+    "不是接觸類招式",
+    "不受守住影響",
+    "不受魔法反射影響",
+    "可以被化為己用",
+    "不受鸚鵡學舌影響",
+    "不受王者之證等類似道具影響"
+  ],
+  "additional_effect": "令使用者的特攻提升3級。",
+  "details": "在第三世代中，螢火是電螢蟲的專用招式。",
+  "move_changes": "第五世代\n效果：令使用者的特攻提升2級 → 3級",
+  "learn_by_level_up": [
+    {
+      "id": "0313",
+      "name": "電螢蟲",
+      "types": [
+        "蟲"
+      ],
+      "icon": "-22em -12em"
+    },
+    {
+      "id": "0490",
+      "name": "瑪納霏",
+      "types": [
+        "水"
+      ],
+      "icon": "-37em -18em"
+    },
+    {
+      "id": "0796",
+      "name": "電束木",
+      "types": [
+        "電"
+      ],
+      "icon": "-9em -30em"
+    }
+  ],
+  "learn_by_tm": [],
+  "learn_by_breeding": [],
+  "learn_by_tutor": [],
+  "id": "294"
+}

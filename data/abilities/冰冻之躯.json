@@ -1,0 +1,281 @@
+{
+  "name_zh": "冰凍之軀",
+  "name_ja": "アイスボディ",
+  "name_en": "Ice Body",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "下雪天氣時，會緩緩回覆ＨＰ。",
+  "effect": "天氣處於冰雹或下雪狀態時，每回合結束時回覆最大ＨＰ的1⁄16。\n不具有冰屬性的寶可夢獲得該特性後不受冰雹天氣的傷害。",
+  "pokemon_list": [
+    {
+      "id": "0086",
+      "name": "小海獅",
+      "form": "",
+      "icon": "-35em -3em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "溼潤之軀",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0087",
+      "name": "白海獅",
+      "form": "",
+      "icon": "-36em -3em",
+      "types": [
+        "水",
+        "冰"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "溼潤之軀",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0122",
+      "name": "魔牆人偶",
+      "form": "伽勒爾的樣子",
+      "icon": "-9em -5em",
+      "types": [
+        "冰",
+        "超能力"
+      ],
+      "first_ability": "幹勁",
+      "second_ability": "除障",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0361",
+      "name": "雪童子",
+      "form": "",
+      "icon": "-5em -14em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0362",
+      "name": "冰鬼護",
+      "form": "",
+      "icon": "-6em -14em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0363",
+      "name": "海豹球",
+      "form": "",
+      "icon": "-8em -14em",
+      "types": [
+        "冰",
+        "水"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "遲鈍"
+    },
+    {
+      "id": "0364",
+      "name": "海魔獅",
+      "form": "",
+      "icon": "-9em -14em",
+      "types": [
+        "冰",
+        "水"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "遲鈍"
+    },
+    {
+      "id": "0365",
+      "name": "帝牙海獅",
+      "form": "",
+      "icon": "-10em -14em",
+      "types": [
+        "冰",
+        "水"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "遲鈍"
+    },
+    {
+      "id": "0378",
+      "name": "雷吉艾斯",
+      "form": "",
+      "icon": "-26em -14em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "恆淨之軀",
+      "second_ability": "",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0471",
+      "name": "冰伊布",
+      "form": "",
+      "icon": "-8em -18em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0582",
+      "name": "迷你冰",
+      "form": "",
+      "icon": "-2em -22em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "冰凍之軀",
+      "second_ability": "雪隱",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0583",
+      "name": "多多冰",
+      "form": "",
+      "icon": "-3em -22em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "冰凍之軀",
+      "second_ability": "雪隱",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0584",
+      "name": "雙倍多多冰",
+      "form": "",
+      "icon": "-4em -22em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "冰凍之軀",
+      "second_ability": "降雪",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0712",
+      "name": "冰寶",
+      "form": "",
+      "icon": "-6em -27em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "我行我素",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "結實"
+    },
+    {
+      "id": "0713",
+      "name": "冰岩怪",
+      "form": "",
+      "icon": "-7em -27em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "我行我素",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "結實"
+    },
+    {
+      "id": "0713",
+      "name": "冰岩怪",
+      "form": "洗翠的樣子",
+      "icon": "-8em -27em",
+      "types": [
+        "冰",
+        "岩石"
+      ],
+      "first_ability": "強壯之顎",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "結實"
+    },
+    {
+      "id": "0866",
+      "name": "踏冰人偶",
+      "form": "",
+      "icon": "-21em -32em",
+      "types": [
+        "冰",
+        "超能力"
+      ],
+      "first_ability": "蹣跚",
+      "second_ability": "除障",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0883",
+      "name": "鰓魚海獸",
+      "form": "",
+      "icon": "-25em -34em",
+      "types": [
+        "水",
+        "冰"
+      ],
+      "first_ability": "儲水",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "撥雪"
+    },
+    {
+      "id": "0996",
+      "name": "涼脊龍",
+      "form": "",
+      "icon": "-6em -38em",
+      "types": [
+        "龍",
+        "冰"
+      ],
+      "first_ability": "熱交換",
+      "second_ability": "",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0997",
+      "name": "凍脊龍",
+      "form": "",
+      "icon": "-7em -38em",
+      "types": [
+        "龍",
+        "冰"
+      ],
+      "first_ability": "熱交換",
+      "second_ability": "",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0998",
+      "name": "戟脊龍",
+      "form": "",
+      "icon": "-8em -38em",
+      "types": [
+        "龍",
+        "冰"
+      ],
+      "first_ability": "熱交換",
+      "second_ability": "",
+      "hidden_ability": "冰凍之軀"
+    }
+  ],
+  "id": "115"
+}

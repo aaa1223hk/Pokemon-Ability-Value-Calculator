@@ -1,0 +1,144 @@
+{
+  "name_zh": "引爆",
+  "name_ja": "ゆうばく",
+  "name_en": "Aftermath",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "變為瀕死時，會對接觸到自己的對手造成傷害。",
+  "effect": "當擁有這個特性的寶可夢被接觸類招式擊倒時，發動攻擊的寶可夢將損失最大ＨＰ的1⁄4。\n若場上有溼氣特性的寶可夢，誘爆特性無效。",
+  "pokemon_list": [
+    {
+      "id": "0100",
+      "name": "霹靂電球",
+      "form": "",
+      "icon": "-15em -4em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0100",
+      "name": "霹靂電球",
+      "form": "洗翠的樣子",
+      "icon": "-16em -4em",
+      "types": [
+        "電",
+        "草"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0101",
+      "name": "頑皮雷彈",
+      "form": "",
+      "icon": "-17em -4em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0101",
+      "name": "頑皮雷彈",
+      "form": "洗翠的樣子",
+      "icon": "-18em -4em",
+      "types": [
+        "電",
+        "草"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0425",
+      "name": "飄飄球",
+      "form": "",
+      "icon": "-24em -16em",
+      "types": [
+        "幽靈",
+        "飛行"
+      ],
+      "first_ability": "誘爆",
+      "second_ability": "輕裝",
+      "hidden_ability": "受熱激升"
+    },
+    {
+      "id": "0426",
+      "name": "隨風球",
+      "form": "",
+      "icon": "-25em -16em",
+      "types": [
+        "幽靈",
+        "飛行"
+      ],
+      "first_ability": "誘爆",
+      "second_ability": "輕裝",
+      "hidden_ability": "受熱激升"
+    },
+    {
+      "id": "0434",
+      "name": "臭鼬噗",
+      "form": "",
+      "icon": "-34em -16em",
+      "types": [
+        "毒",
+        "惡"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "誘爆",
+      "hidden_ability": "銳利目光"
+    },
+    {
+      "id": "0435",
+      "name": "坦克臭鼬",
+      "form": "",
+      "icon": "-35em -16em",
+      "types": [
+        "毒",
+        "惡"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "誘爆",
+      "hidden_ability": "銳利目光"
+    },
+    {
+      "id": "0568",
+      "name": "破破袋",
+      "form": "",
+      "icon": "-25em -21em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "黏著",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0569",
+      "name": "灰塵山",
+      "form": "",
+      "icon": "-26em -21em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "碎裂鎧甲",
+      "hidden_ability": "誘爆"
+    }
+  ],
+  "id": "106"
+}

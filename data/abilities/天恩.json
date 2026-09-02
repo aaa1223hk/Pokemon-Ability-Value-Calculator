@@ -1,0 +1,194 @@
+{
+  "name_zh": "天恩",
+  "name_ja": "てんのめぐみ",
+  "name_en": "Serene Grace",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "託天恩的福，招式的追加效果容易出現。",
+  "effect": "使用招式時追加效果的出現率×2，超過100％則必然出現追加效果。\n- 攜帶王者之證或銳利之牙的寶可夢觸發道具效果的機率×2。\n- 彩虹的效果可與天恩的效果重疊。即追加效果的出現機率×4。\n可能使寶可夢陷入畏縮狀態的招式，畏縮機率最多隻能×2。\n第八世代及以前，在效果重疊後可能會出現數值溢位錯誤，導致追加效果的機率計算後大於255%時，會減去256%。這隻會出現在充電光束上。\n第九世代開始，效果重疊後追加效果的機率會變為100%。",
+  "pokemon_list": [
+    {
+      "id": "0113",
+      "name": "吉利蛋",
+      "form": "",
+      "icon": "-36em -4em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "自然回覆",
+      "second_ability": "天恩",
+      "hidden_ability": "治癒之心"
+    },
+    {
+      "id": "0175",
+      "name": "波克比",
+      "form": "",
+      "icon": "-6em -7em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "活力",
+      "second_ability": "天恩",
+      "hidden_ability": "超幸運"
+    },
+    {
+      "id": "0176",
+      "name": "波克基古",
+      "form": "",
+      "icon": "-7em -7em",
+      "types": [
+        "妖精",
+        "飛行"
+      ],
+      "first_ability": "活力",
+      "second_ability": "天恩",
+      "hidden_ability": "超幸運"
+    },
+    {
+      "id": "0206",
+      "name": "土龍弟弟",
+      "form": "",
+      "icon": "-36em -8em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "天恩",
+      "second_ability": "逃跑",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0242",
+      "name": "幸福蛋",
+      "form": "",
+      "icon": "-10em -10em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "自然回覆",
+      "second_ability": "天恩",
+      "hidden_ability": "治癒之心"
+    },
+    {
+      "id": "0385",
+      "name": "基拉祈",
+      "form": "",
+      "icon": "-38em -14em",
+      "types": [
+        "鋼",
+        "超能力"
+      ],
+      "first_ability": "天恩",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0440",
+      "name": "小福蛋",
+      "form": "",
+      "icon": "0 -17em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "自然回覆",
+      "second_ability": "天恩",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0468",
+      "name": "波克基斯",
+      "form": "",
+      "icon": "-5em -18em",
+      "types": [
+        "妖精",
+        "飛行"
+      ],
+      "first_ability": "活力",
+      "second_ability": "天恩",
+      "hidden_ability": "超幸運"
+    },
+    {
+      "id": "0492",
+      "name": "謝米",
+      "form": "天空形態",
+      "icon": "0 -19em",
+      "types": [
+        "草",
+        "飛行"
+      ],
+      "first_ability": "天恩",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0585",
+      "name": "四季鹿",
+      "form": "",
+      "icon": "-5em -22em",
+      "types": [
+        "一般",
+        "草"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "食草",
+      "hidden_ability": "天恩"
+    },
+    {
+      "id": "0586",
+      "name": "萌芽鹿",
+      "form": "",
+      "icon": "-9em -22em",
+      "types": [
+        "一般",
+        "草"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "食草",
+      "hidden_ability": "天恩"
+    },
+    {
+      "id": "0648",
+      "name": "美洛耶塔",
+      "form": "歌聲形態",
+      "icon": "-4em -24em",
+      "types": [
+        "一般",
+        "超能力"
+      ],
+      "first_ability": "天恩",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0648",
+      "name": "美洛耶塔",
+      "form": "舞步形態",
+      "icon": "-5em -24em",
+      "types": [
+        "一般",
+        "格鬥"
+      ],
+      "first_ability": "天恩",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0982",
+      "name": "土龍節節",
+      "form": "",
+      "icon": "-31em -37em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "天恩",
+      "second_ability": "逃跑",
+      "hidden_ability": "膽怯"
+    }
+  ],
+  "id": "032"
+}

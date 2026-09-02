@@ -1,0 +1,120 @@
+{
+  "name_zh": "發光",
+  "name_ja": "はっこう",
+  "name_en": "Illuminate",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性無效",
+    "不在入場時發動"
+  ],
+  "introduction": "透過讓周圍變亮來保持命中率不會被降低。",
+  "effect": "命中率能力變化不會被對方以任何方式降低，無視目標閃避率能力變化的提升。\n- 與能力變化無關的影響命中判定的效果（如奇蹟皮膚、沙隱、雪隱等），不會受到發光特性的影響。\n該特性的寶可夢受到攻擊後，本層會多出1個對手。RBTDS\n該特性的寶可夢使用發光類招式（如奇異之光、光牆）後會進入“誘餌”狀態。在有多個目標可以攻擊時，敵人會優先攻擊處於該狀態的目標。此狀態在5回合後或進入下一層時消失。SMD",
+  "pokemon_list": [
+    {
+      "id": "0120",
+      "name": "海星星",
+      "form": "",
+      "icon": "-6em -5em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "發光",
+      "second_ability": "自然回覆",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0121",
+      "name": "寶石海星",
+      "form": "",
+      "icon": "-7em -5em",
+      "types": [
+        "水",
+        "超能力"
+      ],
+      "first_ability": "發光",
+      "second_ability": "自然回覆",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0170",
+      "name": "燈籠魚",
+      "form": "",
+      "icon": "0 -7em",
+      "types": [
+        "水",
+        "電"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "發光",
+      "hidden_ability": "儲水"
+    },
+    {
+      "id": "0171",
+      "name": "電燈怪",
+      "form": "",
+      "icon": "-1em -7em",
+      "types": [
+        "水",
+        "電"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "發光",
+      "hidden_ability": "儲水"
+    },
+    {
+      "id": "0313",
+      "name": "電螢蟲",
+      "form": "",
+      "icon": "-22em -12em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "發光",
+      "second_ability": "蟲之預感",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0505",
+      "name": "步哨鼠",
+      "form": "",
+      "icon": "-31em -19em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "發光",
+      "second_ability": "銳利目光",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0755",
+      "name": "睡睡菇",
+      "form": "",
+      "icon": "-23em -28em",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "first_ability": "發光",
+      "second_ability": "孢子",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0756",
+      "name": "燈罩夜菇",
+      "form": "",
+      "icon": "-24em -28em",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "first_ability": "發光",
+      "second_ability": "孢子",
+      "hidden_ability": "雨盤"
+    }
+  ],
+  "id": "035"
+}

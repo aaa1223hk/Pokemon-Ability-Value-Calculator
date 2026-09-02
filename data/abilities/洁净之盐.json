@@ -1,0 +1,55 @@
+{
+  "name_zh": "潔淨之鹽",
+  "name_ja": "きよめのしお",
+  "name_en": "Purifying Salt",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "因潔淨的鹽而不會陷入異常狀態。會讓幽靈屬性的招式傷害減半。",
+  "effect": "擁有該特性的寶可夢不會陷入異常狀態。受到幽靈屬性的招式的傷害變為1⁄2。\n- 無法成功使出睡覺。\n- 已經陷入異常狀態的寶可夢獲得該特性後，異常狀態不會解除。\n- 不影響幽靈屬性的固定傷害類招式，如黑夜魔影的傷害。",
+  "pokemon_list": [
+    {
+      "id": "0932",
+      "name": "鹽石寶",
+      "form": "",
+      "icon": "-13em -36em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "潔淨之鹽",
+      "second_ability": "結實",
+      "hidden_ability": "恆淨之軀"
+    },
+    {
+      "id": "0933",
+      "name": "鹽石壘",
+      "form": "",
+      "icon": "-14em -36em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "潔淨之鹽",
+      "second_ability": "結實",
+      "hidden_ability": "恆淨之軀"
+    },
+    {
+      "id": "0934",
+      "name": "鹽石巨靈",
+      "form": "",
+      "icon": "-15em -36em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "潔淨之鹽",
+      "second_ability": "結實",
+      "hidden_ability": "恆淨之軀"
+    }
+  ],
+  "id": "272"
+}

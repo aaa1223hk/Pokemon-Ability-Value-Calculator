@@ -1,0 +1,31 @@
+{
+  "name_zh": "腦核之力",
+  "name_ja": "ブレインフォース",
+  "name_en": "Neuroforce",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "效果絕佳的攻擊，威力會變得更強。",
+  "effect": "使用的效果絕佳招式的威力提升25%。",
+  "pokemon_list": [
+    {
+      "id": "0800",
+      "name": "奈克洛茲瑪",
+      "form": "究極奈克洛茲瑪",
+      "icon": "-16em -30em",
+      "types": [
+        "超能力",
+        "龍"
+      ],
+      "first_ability": "腦核之力",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "233"
+}

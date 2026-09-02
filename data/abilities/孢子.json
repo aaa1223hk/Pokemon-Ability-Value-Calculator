@@ -1,0 +1,158 @@
+{
+  "name_zh": "孢子",
+  "name_ja": "ほうし",
+  "name_en": "Effect Spore",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到攻擊時，有時會把接觸到自己的對手變為中毒、麻痺或睡眠狀態。",
+  "effect": "使用接觸類招式攻擊該特性的寶可夢時會有30%的機率陷入麻痺、中毒或睡眠狀態。\n- 其中，睡眠機率略高於10%，麻痺機率為10%，中毒機率略低於10%。\n連續招式的每一擊都可能觸發該特性。\n該特性屬於粉末類特性，因此對草屬性、擁有防塵特性或攜帶防塵護目鏡的寶可夢無效。",
+  "pokemon_list": [
+    {
+      "id": "0045",
+      "name": "霸王花",
+      "form": "",
+      "icon": "-9em -2em",
+      "types": [
+        "草",
+        "毒"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "",
+      "hidden_ability": "孢子"
+    },
+    {
+      "id": "0046",
+      "name": "派拉斯",
+      "form": "",
+      "icon": "-11em -2em",
+      "types": [
+        "蟲",
+        "草"
+      ],
+      "first_ability": "孢子",
+      "second_ability": "乾燥皮膚",
+      "hidden_ability": "溼氣"
+    },
+    {
+      "id": "0047",
+      "name": "派拉斯特",
+      "form": "",
+      "icon": "-12em -2em",
+      "types": [
+        "蟲",
+        "草"
+      ],
+      "first_ability": "孢子",
+      "second_ability": "乾燥皮膚",
+      "hidden_ability": "溼氣"
+    },
+    {
+      "id": "0285",
+      "name": "蘑蘑菇",
+      "form": "",
+      "icon": "-27em -11em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "孢子",
+      "second_ability": "毒療",
+      "hidden_ability": "飛毛腿"
+    },
+    {
+      "id": "0286",
+      "name": "斗笠菇",
+      "form": "",
+      "icon": "-28em -11em",
+      "types": [
+        "草",
+        "格鬥"
+      ],
+      "first_ability": "孢子",
+      "second_ability": "毒療",
+      "hidden_ability": "技術高手"
+    },
+    {
+      "id": "0590",
+      "name": "哎呀球菇",
+      "form": "",
+      "icon": "-16em -22em",
+      "types": [
+        "草",
+        "毒"
+      ],
+      "first_ability": "孢子",
+      "second_ability": "",
+      "hidden_ability": "再生力"
+    },
+    {
+      "id": "0591",
+      "name": "敗露球菇",
+      "form": "",
+      "icon": "-17em -22em",
+      "types": [
+        "草",
+        "毒"
+      ],
+      "first_ability": "孢子",
+      "second_ability": "",
+      "hidden_ability": "再生力"
+    },
+    {
+      "id": "0755",
+      "name": "睡睡菇",
+      "form": "",
+      "icon": "-23em -28em",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "first_ability": "發光",
+      "second_ability": "孢子",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0756",
+      "name": "燈罩夜菇",
+      "form": "",
+      "icon": "-24em -28em",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "first_ability": "發光",
+      "second_ability": "孢子",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0829",
+      "name": "幼棉棉",
+      "form": "",
+      "icon": "-12em -31em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "棉絮",
+      "second_ability": "再生力",
+      "hidden_ability": "孢子"
+    },
+    {
+      "id": "0830",
+      "name": "白蓬蓬",
+      "form": "",
+      "icon": "-13em -31em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "棉絮",
+      "second_ability": "再生力",
+      "hidden_ability": "孢子"
+    }
+  ],
+  "id": "027"
+}

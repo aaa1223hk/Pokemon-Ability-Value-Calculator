@@ -1,0 +1,263 @@
+{
+  "name_zh": "蛻皮",
+  "name_ja": "だっぴ",
+  "name_en": "Shed Skin",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "透過蛻去身上的皮，有時會治癒異常狀態。",
+  "effect": "在每回合結束時，有1⁄3的機率治癒自身除昏厥以外的異常狀態。",
+  "pokemon_list": [
+    {
+      "id": "0011",
+      "name": "鐵甲蛹",
+      "form": "",
+      "icon": "-21em 0",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0014",
+      "name": "鐵殼蛹",
+      "form": "",
+      "icon": "-26em 0",
+      "types": [
+        "蟲",
+        "毒"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0023",
+      "name": "阿柏蛇",
+      "form": "",
+      "icon": "-1em -1em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "蛻皮",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0024",
+      "name": "阿柏怪",
+      "form": "",
+      "icon": "-2em -1em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "蛻皮",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0147",
+      "name": "迷你龍",
+      "form": "",
+      "icon": "-11em -6em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": "神奇鱗片"
+    },
+    {
+      "id": "0148",
+      "name": "哈克龍",
+      "form": "",
+      "icon": "-12em -6em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": "神奇鱗片"
+    },
+    {
+      "id": "0247",
+      "name": "沙基拉斯",
+      "form": "",
+      "icon": "-15em -10em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0266",
+      "name": "甲殼繭",
+      "form": "",
+      "icon": "-2em -11em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0268",
+      "name": "盾甲繭",
+      "form": "",
+      "icon": "-5em -11em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0336",
+      "name": "飯匙蛇",
+      "form": "",
+      "icon": "-14em -13em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0401",
+      "name": "圓法師",
+      "form": "",
+      "icon": "-22em -15em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": "逃跑"
+    },
+    {
+      "id": "0412",
+      "name": "結草兒",
+      "form": "",
+      "icon": "-39em -15em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": "防塵"
+    },
+    {
+      "id": "0559",
+      "name": "滑滑小子",
+      "form": "",
+      "icon": "-15em -21em",
+      "types": [
+        "惡",
+        "格鬥"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "自信過度",
+      "hidden_ability": "威嚇"
+    },
+    {
+      "id": "0560",
+      "name": "頭巾混混",
+      "form": "",
+      "icon": "-16em -21em",
+      "types": [
+        "惡",
+        "格鬥"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "自信過度",
+      "hidden_ability": "威嚇"
+    },
+    {
+      "id": "0588",
+      "name": "蓋蓋蟲",
+      "form": "",
+      "icon": "-14em -22em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "蟲之預感",
+      "second_ability": "蛻皮",
+      "hidden_ability": "無防守"
+    },
+    {
+      "id": "0665",
+      "name": "粉蝶蛹",
+      "form": "",
+      "icon": "-27em -24em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0843",
+      "name": "沙包蛇",
+      "form": "",
+      "icon": "-30em -31em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "吐沙",
+      "second_ability": "蛻皮",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0844",
+      "name": "沙螺蟒",
+      "form": "",
+      "icon": "-31em -31em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "吐沙",
+      "second_ability": "蛻皮",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0953",
+      "name": "蟲滾泥",
+      "form": "",
+      "icon": "-34em -36em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "複眼",
+      "second_ability": "",
+      "hidden_ability": "蛻皮"
+    },
+    {
+      "id": "0967",
+      "name": "摩托蜥",
+      "form": "",
+      "icon": "-14em -37em",
+      "types": [
+        "龍",
+        "一般"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": "再生力"
+    }
+  ],
+  "id": "061"
+}

@@ -1,0 +1,195 @@
+{
+  "name_zh": "捨身",
+  "name_ja": "すてみ",
+  "name_en": "Reckless",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "自己會因反作用力受傷的招式，其威力會提高。",
+  "effect": "使用具有反作用力傷害的招式時，招式威力提升20%。作用範圍包括飛踢、飛膝踢、下壓踢和閃電強襲，但不包括掙扎、驚爆大頭、鐵蹄光線和葉綠爆震。\n使受到作用的招式的基礎威力翻倍。",
+  "pokemon_list": [
+    {
+      "id": "0106",
+      "name": "飛腿郎",
+      "form": "",
+      "icon": "-26em -4em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "捨身",
+      "hidden_ability": "輕裝"
+    },
+    {
+      "id": "0111",
+      "name": "獨角犀牛",
+      "form": "",
+      "icon": "-32em -4em",
+      "types": [
+        "地面",
+        "岩石"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0112",
+      "name": "鑽角犀獸",
+      "form": "",
+      "icon": "-34em -4em",
+      "types": [
+        "地面",
+        "岩石"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0396",
+      "name": "姆克兒",
+      "form": "",
+      "icon": "-12em -15em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0397",
+      "name": "姆克鳥",
+      "form": "",
+      "icon": "-14em -15em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0398",
+      "name": "姆克鷹",
+      "form": "",
+      "icon": "-16em -15em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0464",
+      "name": "超甲狂犀",
+      "form": "",
+      "icon": "-39em -17em",
+      "types": [
+        "地面",
+        "岩石"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "堅硬岩石",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0500",
+      "name": "炎武王",
+      "form": "",
+      "icon": "-25em -19em",
+      "types": [
+        "火",
+        "格鬥"
+      ],
+      "first_ability": "猛火",
+      "second_ability": "",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0550",
+      "name": "野蠻鱸魚",
+      "form": "紅條紋的樣子",
+      "icon": "0 -21em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "捨身",
+      "second_ability": "適應力",
+      "hidden_ability": "破格"
+    },
+    {
+      "id": "0619",
+      "name": "功夫鼬",
+      "form": "",
+      "icon": "-8em -23em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "再生力",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0620",
+      "name": "師父鼬",
+      "form": "",
+      "icon": "-9em -23em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "再生力",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0626",
+      "name": "爆炸頭水牛",
+      "form": "",
+      "icon": "-15em -23em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "捨身",
+      "second_ability": "食草",
+      "hidden_ability": "隔音"
+    },
+    {
+      "id": "0862",
+      "name": "堵攔熊",
+      "form": "",
+      "icon": "-17em -32em",
+      "types": [
+        "惡",
+        "一般"
+      ],
+      "first_ability": "捨身",
+      "second_ability": "毅力",
+      "hidden_ability": "不服輸"
+    },
+    {
+      "id": "0000",
+      "name": "F-00",
+      "form": "*",
+      "icon": "0 0",
+      "types": [
+        "鋼",
+        "一般"
+      ],
+      "first_ability": "捨身",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "120"
+}

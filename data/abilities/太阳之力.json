@@ -1,0 +1,131 @@
+{
+  "name_zh": "太陽之力",
+  "name_ja": "サンパワー",
+  "name_en": "Solar Power",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "晴朗天氣時，特攻會提高，而每回合ＨＰ會減少。",
+  "effect": "大晴天和大日照天氣下特攻增至1.5倍，但每回合損失最大ＨＰ的1⁄8。",
+  "pokemon_list": [
+    {
+      "id": "0004",
+      "name": "小火龍",
+      "form": "",
+      "icon": "-9em 0",
+      "types": [
+        "火"
+      ],
+      "first_ability": "猛火",
+      "second_ability": "",
+      "hidden_ability": "太陽之力"
+    },
+    {
+      "id": "0005",
+      "name": "火恐龍",
+      "form": "",
+      "icon": "-10em 0",
+      "types": [
+        "火"
+      ],
+      "first_ability": "猛火",
+      "second_ability": "",
+      "hidden_ability": "太陽之力"
+    },
+    {
+      "id": "0006",
+      "name": "噴火龍",
+      "form": "",
+      "icon": "-11em 0",
+      "types": [
+        "火",
+        "飛行"
+      ],
+      "first_ability": "猛火",
+      "second_ability": "",
+      "hidden_ability": "太陽之力"
+    },
+    {
+      "id": "0191",
+      "name": "向日種子",
+      "form": "",
+      "icon": "-27em -7em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "太陽之力",
+      "hidden_ability": "早起"
+    },
+    {
+      "id": "0192",
+      "name": "向日花怪",
+      "form": "",
+      "icon": "-28em -7em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "太陽之力",
+      "hidden_ability": "早起"
+    },
+    {
+      "id": "0229",
+      "name": "黑魯加",
+      "form": "超級黑魯加",
+      "icon": "-36em -9em",
+      "types": [
+        "惡",
+        "火"
+      ],
+      "first_ability": "太陽之力",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0357",
+      "name": "熱帶龍",
+      "form": "",
+      "icon": "0 -14em",
+      "types": [
+        "草",
+        "飛行"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "太陽之力",
+      "hidden_ability": "收穫"
+    },
+    {
+      "id": "0694",
+      "name": "傘電蜥",
+      "form": "",
+      "icon": "-20em -26em",
+      "types": [
+        "電",
+        "一般"
+      ],
+      "first_ability": "乾燥皮膚",
+      "second_ability": "沙隱",
+      "hidden_ability": "太陽之力"
+    },
+    {
+      "id": "0695",
+      "name": "光電傘蜥",
+      "form": "",
+      "icon": "-21em -26em",
+      "types": [
+        "電",
+        "一般"
+      ],
+      "first_ability": "乾燥皮膚",
+      "second_ability": "沙隱",
+      "hidden_ability": "太陽之力"
+    }
+  ],
+  "id": "094"
+}

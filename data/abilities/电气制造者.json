@@ -1,0 +1,43 @@
+{
+  "name_zh": "電氣製造者",
+  "name_ja": "エレキメイカー",
+  "name_en": "Electric Surge",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "入場時發動該特性"
+  ],
+  "introduction": "出場時，會佈下電氣場地。",
+  "effect": "透過讓腳下佈滿電力，佈下電氣場地，持續5回合。地面上的寶可夢的電屬性招式威力將會提高，並且不會變成睡眠狀態。\n- 攜帶了道具大地膜的情況下，電氣場地會持續8回合。",
+  "pokemon_list": [
+    {
+      "id": "0785",
+      "name": "卡璞・鳴鳴",
+      "form": "",
+      "icon": "-38em -29em",
+      "types": [
+        "電",
+        "妖精"
+      ],
+      "first_ability": "電氣製造者",
+      "second_ability": "",
+      "hidden_ability": "心靈感應"
+    },
+    {
+      "id": "0871",
+      "name": "啪嚓海膽",
+      "form": "",
+      "icon": "-9em -34em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "",
+      "hidden_ability": "電氣製造者"
+    }
+  ],
+  "id": "226"
+}

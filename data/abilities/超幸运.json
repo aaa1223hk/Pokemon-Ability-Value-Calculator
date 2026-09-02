@@ -1,0 +1,133 @@
+{
+  "name_zh": "超幸運",
+  "name_ja": "きょううん",
+  "name_en": "Super Luck",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "因為擁有超幸運，攻擊容易擊中對手的要害。",
+  "effect": "擊中要害等級提升1級。可以與要害攻擊、聚氣疊加。",
+  "pokemon_list": [
+    {
+      "id": "0175",
+      "name": "波克比",
+      "form": "",
+      "icon": "-6em -7em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "活力",
+      "second_ability": "天恩",
+      "hidden_ability": "超幸運"
+    },
+    {
+      "id": "0176",
+      "name": "波克基古",
+      "form": "",
+      "icon": "-7em -7em",
+      "types": [
+        "妖精",
+        "飛行"
+      ],
+      "first_ability": "活力",
+      "second_ability": "天恩",
+      "hidden_ability": "超幸運"
+    },
+    {
+      "id": "0198",
+      "name": "黑暗鴉",
+      "form": "",
+      "icon": "-37em -7em",
+      "types": [
+        "惡",
+        "飛行"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "超幸運",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0359",
+      "name": "阿勃梭魯",
+      "form": "",
+      "icon": "-2em -14em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "超幸運",
+      "hidden_ability": "正義之心"
+    },
+    {
+      "id": "0430",
+      "name": "烏鴉頭頭",
+      "form": "",
+      "icon": "-30em -16em",
+      "types": [
+        "惡",
+        "飛行"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "超幸運",
+      "hidden_ability": "自信過度"
+    },
+    {
+      "id": "0468",
+      "name": "波克基斯",
+      "form": "",
+      "icon": "-5em -18em",
+      "types": [
+        "妖精",
+        "飛行"
+      ],
+      "first_ability": "活力",
+      "second_ability": "天恩",
+      "hidden_ability": "超幸運"
+    },
+    {
+      "id": "0519",
+      "name": "豆豆鴿",
+      "form": "",
+      "icon": "-5em -20em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "健壯胸肌",
+      "second_ability": "超幸運",
+      "hidden_ability": "鬥爭心"
+    },
+    {
+      "id": "0520",
+      "name": "咕咕鴿",
+      "form": "",
+      "icon": "-6em -20em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "健壯胸肌",
+      "second_ability": "超幸運",
+      "hidden_ability": "鬥爭心"
+    },
+    {
+      "id": "0521",
+      "name": "高傲雉雞",
+      "form": "",
+      "icon": "-7em -20em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "健壯胸肌",
+      "second_ability": "超幸運",
+      "hidden_ability": "鬥爭心"
+    }
+  ],
+  "id": "105"
+}

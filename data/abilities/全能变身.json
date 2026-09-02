@@ -1,0 +1,42 @@
+{
+  "name_zh": "全能變身",
+  "name_ja": "マイティチェンジ",
+  "name_en": "Zero to Hero",
+  "basic_info": [
+    "不能被交換",
+    "不能被其他特性覆蓋",
+    "不能被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性無效",
+    "不在入場時發動"
+  ],
+  "introduction": "回到同行隊伍後，會變為全能形態。",
+  "effect": "回到同行隊伍後，會變為全能形態。\n- 全能形態的海豚俠在陷入昏厥狀態、並在對戰中恢復之後，仍然保持全能形態。",
+  "pokemon_list": [
+    {
+      "id": "0964",
+      "name": "海豚俠",
+      "form": "平凡形態",
+      "icon": "-5em -37em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "全能變身",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0964",
+      "name": "海豚俠",
+      "form": "全能形態",
+      "icon": "-6em -37em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "全能變身",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "278"
+}

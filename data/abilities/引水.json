@@ -1,0 +1,145 @@
+{
+  "name_zh": "引水",
+  "name_ja": "よびみず",
+  "name_en": "Storm Drain",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "將水屬性的招式引到自己身上，不會受到傷害，而是會提高特攻。",
+  "effect": "具有該特性的寶可夢不受水屬性招式的影響，當被水屬性的招式擊中時，提升1級特攻。\n場上其他寶可夢（包括同伴）使出的作用範圍為單體的水屬性招式的目標強制轉移至該特性的寶可夢。若場上有多隻寶可夢擁有此特性，將吸引到速度較高的那隻。萬眾矚目可以覆蓋這個效果。螺旋尾鰭、堅毅、狙擊可以無視這個效果。\n- 即使處於守住狀態，依然能夠吸引水屬性的招式，但特攻不會提升。\n- 該特性對水屬性的變化招式有效。包括透過其他方式變為水屬性的變化招式。\n- 對於連續招式，只會觸發1次特性效果。\n- 觸發該特性時，與沒有效果相同，不會發動招式的追加效果。\n- 該特性的寶可夢無法觸發自身攜帶的球根或光苔。\n- 可以吸引同伴的極巨水流，即便極巨水流無法直接對同伴使用。\n擁有該特性的寶可夢吸收整層的敵人的水屬性招式，使其效果無效化。敵方隊伍如果也有擁有引水特性的寶可夢，可以使我方的效果無效化。TS",
+  "pokemon_list": [
+    {
+      "id": "0345",
+      "name": "觸手百合",
+      "form": "",
+      "icon": "-23em -13em",
+      "types": [
+        "岩石",
+        "草"
+      ],
+      "first_ability": "吸盤",
+      "second_ability": "",
+      "hidden_ability": "引水"
+    },
+    {
+      "id": "0346",
+      "name": "搖籃百合",
+      "form": "",
+      "icon": "-24em -13em",
+      "types": [
+        "岩石",
+        "草"
+      ],
+      "first_ability": "吸盤",
+      "second_ability": "",
+      "hidden_ability": "引水"
+    },
+    {
+      "id": "0422",
+      "name": "無殼海兔",
+      "form": "",
+      "icon": "-18em -16em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "黏著",
+      "second_ability": "引水",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0423",
+      "name": "海兔獸",
+      "form": "",
+      "icon": "-20em -16em",
+      "types": [
+        "水",
+        "地面"
+      ],
+      "first_ability": "黏著",
+      "second_ability": "引水",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0456",
+      "name": "熒光魚",
+      "form": "",
+      "icon": "-25em -17em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "引水",
+      "hidden_ability": "水幕"
+    },
+    {
+      "id": "0457",
+      "name": "霓虹魚",
+      "form": "",
+      "icon": "-27em -17em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "引水",
+      "hidden_ability": "水幕"
+    },
+    {
+      "id": "0556",
+      "name": "沙鈴仙人掌",
+      "form": "",
+      "icon": "-12em -21em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "儲水",
+      "second_ability": "葉綠素",
+      "hidden_ability": "引水"
+    },
+    {
+      "id": "0978",
+      "name": "米立龍",
+      "form": "上弓姿勢",
+      "icon": "-25em -37em",
+      "types": [
+        "龍",
+        "水"
+      ],
+      "first_ability": "發號施令",
+      "second_ability": "",
+      "hidden_ability": "引水"
+    },
+    {
+      "id": "0978",
+      "name": "米立龍",
+      "form": "下垂姿勢",
+      "icon": "-26em -37em",
+      "types": [
+        "龍",
+        "水"
+      ],
+      "first_ability": "發號施令",
+      "second_ability": "",
+      "hidden_ability": "引水"
+    },
+    {
+      "id": "0978",
+      "name": "米立龍",
+      "form": "平挺姿勢",
+      "icon": "-27em -37em",
+      "types": [
+        "龍",
+        "水"
+      ],
+      "first_ability": "發號施令",
+      "second_ability": "",
+      "hidden_ability": "引水"
+    }
+  ],
+  "id": "114"
+}

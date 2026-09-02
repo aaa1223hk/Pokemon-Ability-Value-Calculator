@@ -1,0 +1,152 @@
+{
+  "name_zh": "飛毛腿",
+  "name_ja": "はやあし",
+  "name_en": "Quick Feet",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "變為異常狀態時，速度會提高。",
+  "effect": "陷入異常狀態時速度提升50%，並無視麻痺降低速度的效果。異常狀態恢復或失去特性時速度恢復。\n陷入異常狀態時速度提升1級。",
+  "pokemon_list": [
+    {
+      "id": "0135",
+      "name": "雷伊布",
+      "form": "",
+      "icon": "-34em -5em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "蓄電",
+      "second_ability": "",
+      "hidden_ability": "飛毛腿"
+    },
+    {
+      "id": "0210",
+      "name": "布魯皇",
+      "form": "",
+      "icon": "-3em -9em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "飛毛腿",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0216",
+      "name": "熊寶寶",
+      "form": "",
+      "icon": "-17em -9em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "飛毛腿",
+      "hidden_ability": "採蜜"
+    },
+    {
+      "id": "0217",
+      "name": "圈圈熊",
+      "form": "",
+      "icon": "-18em -9em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "飛毛腿",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0261",
+      "name": "土狼犬",
+      "form": "",
+      "icon": "-35em -10em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "飛毛腿",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0262",
+      "name": "大狼犬",
+      "form": "",
+      "icon": "-36em -10em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "飛毛腿",
+      "hidden_ability": "自信過度"
+    },
+    {
+      "id": "0263",
+      "name": "蛇紋熊",
+      "form": "",
+      "icon": "-37em -10em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "貪吃鬼",
+      "hidden_ability": "飛毛腿"
+    },
+    {
+      "id": "0263",
+      "name": "蛇紋熊",
+      "form": "伽勒爾的樣子",
+      "icon": "-38em -10em",
+      "types": [
+        "惡",
+        "一般"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "貪吃鬼",
+      "hidden_ability": "飛毛腿"
+    },
+    {
+      "id": "0264",
+      "name": "直衝熊",
+      "form": "",
+      "icon": "-39em -10em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "貪吃鬼",
+      "hidden_ability": "飛毛腿"
+    },
+    {
+      "id": "0264",
+      "name": "直衝熊",
+      "form": "伽勒爾的樣子",
+      "icon": "0 -11em",
+      "types": [
+        "惡",
+        "一般"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "貪吃鬼",
+      "hidden_ability": "飛毛腿"
+    },
+    {
+      "id": "0285",
+      "name": "蘑蘑菇",
+      "form": "",
+      "icon": "-27em -11em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "孢子",
+      "second_ability": "毒療",
+      "hidden_ability": "飛毛腿"
+    }
+  ],
+  "id": "095"
+}

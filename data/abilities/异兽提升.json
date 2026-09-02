@@ -1,0 +1,159 @@
+{
+  "name_zh": "異獸提升",
+  "name_ja": "ビーストブースト",
+  "name_en": "Beast Boost",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "打倒對手的時候，自己最高的那項能力會提高。",
+  "effect": "擁有該特性的寶可夢使用攻擊招式打倒寶可夢的時候，會提高自己除ＨＰ外能力值最高的一項常規能力。\n- 打倒隊友時也會觸發該特性。\n- 以下因素不會影響最高一項能力的判定：\n能力變化\n對戰影響道具\n異常狀態\n- 以下因素會影響最高一項能力的判定：\n力量平分\n防守平分\n力量戲法\n奇妙空間\n速度互換\n- 當數項能力同為最高時，按攻擊、防禦、特攻、特防、速度的順序提升其中的一項。",
+  "pokemon_list": [
+    {
+      "id": "0793",
+      "name": "虛吾伊德",
+      "form": "",
+      "icon": "-6em -30em",
+      "types": [
+        "岩石",
+        "毒"
+      ],
+      "first_ability": "異獸提升",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0794",
+      "name": "爆肌蚊",
+      "form": "",
+      "icon": "-7em -30em",
+      "types": [
+        "蟲",
+        "格鬥"
+      ],
+      "first_ability": "異獸提升",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0795",
+      "name": "費洛美螂",
+      "form": "",
+      "icon": "-8em -30em",
+      "types": [
+        "蟲",
+        "格鬥"
+      ],
+      "first_ability": "異獸提升",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0796",
+      "name": "電束木",
+      "form": "",
+      "icon": "-9em -30em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "異獸提升",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0797",
+      "name": "鐵火輝夜",
+      "form": "",
+      "icon": "-10em -30em",
+      "types": [
+        "鋼",
+        "飛行"
+      ],
+      "first_ability": "異獸提升",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0798",
+      "name": "紙御劍",
+      "form": "",
+      "icon": "-11em -30em",
+      "types": [
+        "草",
+        "鋼"
+      ],
+      "first_ability": "異獸提升",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0799",
+      "name": "惡食大王",
+      "form": "",
+      "icon": "-12em -30em",
+      "types": [
+        "惡",
+        "龍"
+      ],
+      "first_ability": "異獸提升",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0803",
+      "name": "毒貝比",
+      "form": "",
+      "icon": "-20em -30em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "異獸提升",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0804",
+      "name": "四顎針龍",
+      "form": "",
+      "icon": "-21em -30em",
+      "types": [
+        "毒",
+        "龍"
+      ],
+      "first_ability": "異獸提升",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0805",
+      "name": "壘磊石",
+      "form": "",
+      "icon": "-22em -30em",
+      "types": [
+        "岩石",
+        "鋼"
+      ],
+      "first_ability": "異獸提升",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0806",
+      "name": "砰頭小丑",
+      "form": "",
+      "icon": "-23em -30em",
+      "types": [
+        "火",
+        "幽靈"
+      ],
+      "first_ability": "異獸提升",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "224"
+}

@@ -1,0 +1,44 @@
+{
+  "name_zh": "不仁不義",
+  "name_ja": "ひとでなし",
+  "name_en": "Merciless",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "攻擊中毒狀態的對手時，必定會擊中要害。",
+  "effect": "擁有該特性的寶可夢每次攻擊中毒的目標時，都會擊中要害。對擁有戰鬥盔甲和硬殼盔甲特性的寶可夢為目標使用招式則不會觸發該特性。",
+  "pokemon_list": [
+    {
+      "id": "0747",
+      "name": "好壞星",
+      "form": "",
+      "icon": "-15em -28em",
+      "types": [
+        "毒",
+        "水"
+      ],
+      "first_ability": "不仁不義",
+      "second_ability": "柔軟",
+      "hidden_ability": "再生力"
+    },
+    {
+      "id": "0748",
+      "name": "超壞星",
+      "form": "",
+      "icon": "-16em -28em",
+      "types": [
+        "毒",
+        "水"
+      ],
+      "first_ability": "不仁不義",
+      "second_ability": "柔軟",
+      "hidden_ability": "再生力"
+    }
+  ],
+  "id": "196"
+}

@@ -1,0 +1,43 @@
+{
+  "name_zh": "不撓之劍",
+  "name_ja": "ふとうのけん",
+  "name_en": "Intrepid Sword",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "入場時發動該特性"
+  ],
+  "introduction": "首次出場時，攻擊會提高。",
+  "effect": "出場時，自身的攻擊上升1級。\n每隻寶可夢一場戰鬥中僅能發動1次。",
+  "pokemon_list": [
+    {
+      "id": "0888",
+      "name": "蒼響",
+      "form": "百戰勇者",
+      "icon": "-31em -34em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "不撓之劍",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0888",
+      "name": "蒼響",
+      "form": "劍之王",
+      "icon": "-32em -34em",
+      "types": [
+        "妖精",
+        "鋼"
+      ],
+      "first_ability": "不撓之劍",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "234"
+}

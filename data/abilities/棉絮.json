@@ -1,0 +1,42 @@
+{
+  "name_zh": "棉絮",
+  "name_ja": "わたげ",
+  "name_en": "Cotton Down",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到攻擊後撒下棉絮，降低除自己以外的所有寶可夢的速度。",
+  "effect": "該特性的寶可夢受到攻擊時，令除該特性以外的寶可夢速度降低1級。\n連續招式的每一擊都會觸發此特性。",
+  "pokemon_list": [
+    {
+      "id": "0829",
+      "name": "幼棉棉",
+      "form": "",
+      "icon": "-12em -31em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "棉絮",
+      "second_ability": "再生力",
+      "hidden_ability": "孢子"
+    },
+    {
+      "id": "0830",
+      "name": "白蓬蓬",
+      "form": "",
+      "icon": "-13em -31em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "棉絮",
+      "second_ability": "再生力",
+      "hidden_ability": "孢子"
+    }
+  ],
+  "id": "238"
+}

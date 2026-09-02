@@ -1,0 +1,148 @@
+{
+  "name_zh": "古代活性",
+  "name_ja": "こだいかっせい",
+  "name_en": "Protosynthesis",
+  "basic_info": [
+    "不能被交換",
+    "可以被其他特性覆蓋",
+    "不能被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性無效",
+    "不在入場時發動"
+  ],
+  "introduction": "攜帶著驅勁能量或天氣為晴朗時，數值最高的能力會提高。",
+  "effect": "攜帶驅勁能量或天氣為大晴天時，除ＨＰ外數值最高的能力會提高30%；若該項能力為速度，則會提高50%。\n- 即使攜帶萬能傘，在大晴天下依舊能夠發動該特性。\n- 數值最高的能力的判斷會計算能力變化，但不會計算攜帶道具、特性、狀態變化等其他情況。\n- 在大晴天下，發動該特性時即使攜帶了驅勁能量也不會消耗。\n- 當數項能力同為最高時，按攻擊、防禦、特攻、特防、速度的順序提升其中的一項。\n- 在己方場地上存在黏黏網（狀態）時，受影響的己方寶可夢交換上場時，速度先下降1級，再根據當前速度實際值判定能力提升。",
+  "pokemon_list": [
+    {
+      "id": "0984",
+      "name": "雄偉牙",
+      "form": "",
+      "icon": "-34em -37em",
+      "types": [
+        "地面",
+        "格鬥"
+      ],
+      "first_ability": "古代活性",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0985",
+      "name": "吼叫尾",
+      "form": "",
+      "icon": "-35em -37em",
+      "types": [
+        "妖精",
+        "超能力"
+      ],
+      "first_ability": "古代活性",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0986",
+      "name": "猛惡菇",
+      "form": "",
+      "icon": "-36em -37em",
+      "types": [
+        "草",
+        "惡"
+      ],
+      "first_ability": "古代活性",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0987",
+      "name": "振翼發",
+      "form": "",
+      "icon": "-37em -37em",
+      "types": [
+        "幽靈",
+        "妖精"
+      ],
+      "first_ability": "古代活性",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0988",
+      "name": "爬地翅",
+      "form": "",
+      "icon": "-38em -37em",
+      "types": [
+        "蟲",
+        "格鬥"
+      ],
+      "first_ability": "古代活性",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0989",
+      "name": "沙鐵皮",
+      "form": "",
+      "icon": "-39em -37em",
+      "types": [
+        "電",
+        "地面"
+      ],
+      "first_ability": "古代活性",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "1005",
+      "name": "轟鳴月",
+      "form": "",
+      "icon": "-16em -38em",
+      "types": [
+        "龍",
+        "惡"
+      ],
+      "first_ability": "古代活性",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "1009",
+      "name": "波盪水",
+      "form": "",
+      "icon": "-22em -38em",
+      "types": [
+        "水",
+        "龍"
+      ],
+      "first_ability": "古代活性",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "1020",
+      "name": "破空焰",
+      "form": "",
+      "icon": "-36em -38em",
+      "types": [
+        "火",
+        "龍"
+      ],
+      "first_ability": "古代活性",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "1021",
+      "name": "猛雷鼓",
+      "form": "",
+      "icon": "-37em -38em",
+      "types": [
+        "電",
+        "龍"
+      ],
+      "first_ability": "古代活性",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "281"
+}

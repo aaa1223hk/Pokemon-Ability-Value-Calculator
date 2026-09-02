@@ -1,0 +1,207 @@
+{
+  "name_zh": "雪隱",
+  "name_ja": "ゆきがくれ",
+  "name_en": "Snow Cloak",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "下雪天氣時，閃避率會提高。",
+  "effect": "天氣處於冰雹或下雪狀態時，閃避率提升20%。\n不具有冰屬性的寶可夢獲得該特性後不受冰雹天氣的傷害。",
+  "pokemon_list": [
+    {
+      "id": "0027",
+      "name": "穿山鼠",
+      "form": "阿羅拉的樣子",
+      "icon": "-25em -1em",
+      "types": [
+        "冰",
+        "鋼"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "",
+      "hidden_ability": "撥雪"
+    },
+    {
+      "id": "0028",
+      "name": "穿山王",
+      "form": "阿羅拉的樣子",
+      "icon": "-27em -1em",
+      "types": [
+        "冰",
+        "鋼"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "",
+      "hidden_ability": "撥雪"
+    },
+    {
+      "id": "0037",
+      "name": "六尾",
+      "form": "阿羅拉的樣子",
+      "icon": "-37em -1em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "",
+      "hidden_ability": "降雪"
+    },
+    {
+      "id": "0038",
+      "name": "九尾",
+      "form": "阿羅拉的樣子",
+      "icon": "-39em -1em",
+      "types": [
+        "冰",
+        "妖精"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "",
+      "hidden_ability": "降雪"
+    },
+    {
+      "id": "0144",
+      "name": "急凍鳥",
+      "form": "",
+      "icon": "-5em -6em",
+      "types": [
+        "冰",
+        "飛行"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "",
+      "hidden_ability": "雪隱"
+    },
+    {
+      "id": "0220",
+      "name": "小山豬",
+      "form": "",
+      "icon": "-22em -9em",
+      "types": [
+        "冰",
+        "地面"
+      ],
+      "first_ability": "遲鈍",
+      "second_ability": "雪隱",
+      "hidden_ability": "厚脂肪"
+    },
+    {
+      "id": "0221",
+      "name": "長毛豬",
+      "form": "",
+      "icon": "-23em -9em",
+      "types": [
+        "冰",
+        "地面"
+      ],
+      "first_ability": "遲鈍",
+      "second_ability": "雪隱",
+      "hidden_ability": "厚脂肪"
+    },
+    {
+      "id": "0471",
+      "name": "冰伊布",
+      "form": "",
+      "icon": "-8em -18em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "",
+      "hidden_ability": "冰凍之軀"
+    },
+    {
+      "id": "0473",
+      "name": "象牙豬",
+      "form": "",
+      "icon": "-10em -18em",
+      "types": [
+        "冰",
+        "地面"
+      ],
+      "first_ability": "遲鈍",
+      "second_ability": "雪隱",
+      "hidden_ability": "厚脂肪"
+    },
+    {
+      "id": "0478",
+      "name": "雪妖女",
+      "form": "",
+      "icon": "-17em -18em",
+      "types": [
+        "冰",
+        "幽靈"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0582",
+      "name": "迷你冰",
+      "form": "",
+      "icon": "-2em -22em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "冰凍之軀",
+      "second_ability": "雪隱",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0583",
+      "name": "多多冰",
+      "form": "",
+      "icon": "-3em -22em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "冰凍之軀",
+      "second_ability": "雪隱",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0613",
+      "name": "噴嚏熊",
+      "form": "",
+      "icon": "-1em -23em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "撥雪",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0614",
+      "name": "凍原熊",
+      "form": "",
+      "icon": "-2em -23em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "撥雪",
+      "hidden_ability": "悠遊自如"
+    },
+    {
+      "id": "0974",
+      "name": "走鯨",
+      "form": "",
+      "icon": "-21em -37em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "雪隱",
+      "hidden_ability": "強行"
+    }
+  ],
+  "id": "081"
+}

@@ -1,0 +1,57 @@
+{
+  "name_zh": "熔岩鎧甲",
+  "name_ja": "マグマのよろい",
+  "name_en": "Magma Armor",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "將熾熱的熔岩覆蓋在身上，不會變為冰凍狀態。",
+  "effect": "該特性的寶可夢不會陷入冰凍狀態。\n當該特性的寶可夢在隊伍時，隊伍中蛋孵化的速度提高為原來的2倍。\n- 此效果不會與自身、火焰之軀或蒸汽機疊加，但是它會與釋出之力、O能量、蛋蛋力或孵蛋碰碰疊加。",
+  "pokemon_list": [
+    {
+      "id": "0218",
+      "name": "熔岩蟲",
+      "form": "",
+      "icon": "-20em -9em",
+      "types": [
+        "火"
+      ],
+      "first_ability": "熔岩鎧甲",
+      "second_ability": "火焰之軀",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0219",
+      "name": "熔岩蝸牛",
+      "form": "",
+      "icon": "-21em -9em",
+      "types": [
+        "火",
+        "岩石"
+      ],
+      "first_ability": "熔岩鎧甲",
+      "second_ability": "火焰之軀",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0323",
+      "name": "噴火駝",
+      "form": "",
+      "icon": "-37em -12em",
+      "types": [
+        "火",
+        "地面"
+      ],
+      "first_ability": "熔岩鎧甲",
+      "second_ability": "堅硬岩石",
+      "hidden_ability": "憤怒穴位"
+    }
+  ],
+  "id": "040"
+}

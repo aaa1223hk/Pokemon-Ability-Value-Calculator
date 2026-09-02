@@ -1,0 +1,55 @@
+{
+  "name_zh": "溼潤之聲",
+  "name_ja": "うるおいボイス",
+  "name_en": "Liquid Voice",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "所有的聲音招式都變為水屬性。",
+  "effect": "擁有溼潤之聲特性的寶可夢使用的聲音的招式屬性均變為水屬性。",
+  "pokemon_list": [
+    {
+      "id": "0728",
+      "name": "球球海獅",
+      "form": "",
+      "icon": "-30em -27em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "溼潤之聲"
+    },
+    {
+      "id": "0729",
+      "name": "花漾海獅",
+      "form": "",
+      "icon": "-31em -27em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "溼潤之聲"
+    },
+    {
+      "id": "0730",
+      "name": "西獅海壬",
+      "form": "",
+      "icon": "-32em -27em",
+      "types": [
+        "水",
+        "妖精"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "溼潤之聲"
+    }
+  ],
+  "id": "204"
+}

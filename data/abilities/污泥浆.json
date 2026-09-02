@@ -1,0 +1,69 @@
+{
+  "name_zh": "汙泥漿",
+  "name_ja": "ヘドロえき",
+  "name_en": "Liquid Ooze",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "吸收了汙泥漿的對手會因強烈的惡臭而受到傷害，減少ＨＰ。",
+  "effect": "該特性的寶可夢受到吸取ＨＰ的攻擊招式的攻擊時，攻擊方本應回覆的ＨＰ會改為受到同等的傷害。\n該特性的寶可夢被寄生種子狀態吸取ＨＰ時，吸取方本應回覆的ＨＰ會改為受到同等的傷害。\n如果攻擊方攜帶大根莖，攻擊方受到的傷害為會根據大根莖原本吸取提升而增加傷害。",
+  "pokemon_list": [
+    {
+      "id": "0072",
+      "name": "瑪瑙水母",
+      "form": "",
+      "icon": "-10em -3em",
+      "types": [
+        "水",
+        "毒"
+      ],
+      "first_ability": "恆淨之軀",
+      "second_ability": "汙泥漿",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0073",
+      "name": "毒刺水母",
+      "form": "",
+      "icon": "-11em -3em",
+      "types": [
+        "水",
+        "毒"
+      ],
+      "first_ability": "恆淨之軀",
+      "second_ability": "汙泥漿",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0316",
+      "name": "溶食獸",
+      "form": "",
+      "icon": "-26em -12em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "汙泥漿",
+      "second_ability": "黏著",
+      "hidden_ability": "貪吃鬼"
+    },
+    {
+      "id": "0317",
+      "name": "吞食獸",
+      "form": "",
+      "icon": "-28em -12em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "汙泥漿",
+      "second_ability": "黏著",
+      "hidden_ability": "貪吃鬼"
+    }
+  ],
+  "id": "064"
+}

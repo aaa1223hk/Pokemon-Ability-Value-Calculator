@@ -1,0 +1,44 @@
+{
+  "name_zh": "受熱激升",
+  "name_ja": "ねつぼうそう",
+  "name_en": "Flare Boost",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "變為灼傷狀態時，特殊招式的威力會提高。",
+  "effect": "擁有有該特性的寶可夢陷入灼傷狀態時，特攻上升50%。",
+  "pokemon_list": [
+    {
+      "id": "0425",
+      "name": "飄飄球",
+      "form": "",
+      "icon": "-24em -16em",
+      "types": [
+        "幽靈",
+        "飛行"
+      ],
+      "first_ability": "誘爆",
+      "second_ability": "輕裝",
+      "hidden_ability": "受熱激升"
+    },
+    {
+      "id": "0426",
+      "name": "隨風球",
+      "form": "",
+      "icon": "-25em -16em",
+      "types": [
+        "幽靈",
+        "飛行"
+      ],
+      "first_ability": "誘爆",
+      "second_ability": "輕裝",
+      "hidden_ability": "受熱激升"
+    }
+  ],
+  "id": "138"
+}

@@ -1,0 +1,182 @@
+{
+  "name_zh": "詛咒之軀",
+  "name_ja": "のろわれボディ",
+  "name_en": "Cursed Body",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到攻擊時，有時會把對手的招式變為定身法狀態。",
+  "effect": "該特性的寶可夢受到攻擊時，有30%機率使目標陷入定身法狀態。\n以下情況時該特性仍能發動：\n- 攻擊方處於替身狀態；\n- 該特性的寶可夢因攻擊而陷入昏厥狀態；\n- 攻擊方為同伴寶可夢。\n連續招式的每次攻擊都可能觸發該特性，陷入定身法狀態之後剩餘的攻擊次數仍會正常進行。\n目標透過招式Ａ（如揮指、夢話）間接使出了攻擊招式Ｂ，則觸發特性時招式Ａ會陷入定身法狀態。\n- 若間接使出的招式Ｂ為蓄力的招式，則陷入定身法狀態的是蓄力的招式。被定身法後透過透過A招式再次使出這個蓄力的招式，只有蓄力的回合能正常進行，蓄力後的回合會因為定身法狀態而攻擊失敗。\n該特性對Ｚ招式生效，但陷入定身法狀態的是Ｚ招式而不是原本的招式。\n- 如果是變化招式升級成的Ｚ招式（例如Ｚ自然之力），則陷入定身法狀態的是原本招式。\n擁有該特性的寶可夢在替身狀態下時特性不會發動。",
+  "pokemon_list": [
+    {
+      "id": "0094",
+      "name": "耿鬼",
+      "form": "",
+      "icon": "-5em -4em",
+      "types": [
+        "幽靈",
+        "毒"
+      ],
+      "first_ability": "咒術之軀",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0105",
+      "name": "嘎啦嘎啦",
+      "form": "阿羅拉的樣子",
+      "icon": "-25em -4em",
+      "types": [
+        "火",
+        "幽靈"
+      ],
+      "first_ability": "咒術之軀",
+      "second_ability": "避雷針",
+      "hidden_ability": "堅硬腦袋"
+    },
+    {
+      "id": "0222",
+      "name": "太陽珊瑚",
+      "form": "伽勒爾的樣子",
+      "icon": "-26em -9em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "碎裂鎧甲",
+      "second_ability": "",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0353",
+      "name": "怨影娃娃",
+      "form": "",
+      "icon": "-35em -13em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "察覺",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0354",
+      "name": "詛咒娃娃",
+      "form": "",
+      "icon": "-36em -13em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "察覺",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0478",
+      "name": "雪妖女",
+      "form": "",
+      "icon": "-17em -18em",
+      "types": [
+        "冰",
+        "幽靈"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0592",
+      "name": "輕飄飄",
+      "form": "",
+      "icon": "-18em -22em",
+      "types": [
+        "水",
+        "幽靈"
+      ],
+      "first_ability": "儲水",
+      "second_ability": "咒術之軀",
+      "hidden_ability": "溼氣"
+    },
+    {
+      "id": "0593",
+      "name": "胖嘟嘟",
+      "form": "",
+      "icon": "-20em -22em",
+      "types": [
+        "水",
+        "幽靈"
+      ],
+      "first_ability": "儲水",
+      "second_ability": "咒術之軀",
+      "hidden_ability": "溼氣"
+    },
+    {
+      "id": "0854",
+      "name": "來悲茶",
+      "form": "",
+      "icon": "-7em -32em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "碎裂鎧甲",
+      "second_ability": "",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0855",
+      "name": "怖思壺",
+      "form": "",
+      "icon": "-8em -32em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "碎裂鎧甲",
+      "second_ability": "",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0885",
+      "name": "多龍梅西亞",
+      "form": "",
+      "icon": "-28em -34em",
+      "types": [
+        "龍",
+        "幽靈"
+      ],
+      "first_ability": "恆淨之軀",
+      "second_ability": "穿透",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0886",
+      "name": "多龍奇",
+      "form": "",
+      "icon": "-29em -34em",
+      "types": [
+        "龍",
+        "幽靈"
+      ],
+      "first_ability": "恆淨之軀",
+      "second_ability": "穿透",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0887",
+      "name": "多龍巴魯託",
+      "form": "",
+      "icon": "-30em -34em",
+      "types": [
+        "龍",
+        "幽靈"
+      ],
+      "first_ability": "恆淨之軀",
+      "second_ability": "穿透",
+      "hidden_ability": "咒術之軀"
+    }
+  ],
+  "id": "130"
+}

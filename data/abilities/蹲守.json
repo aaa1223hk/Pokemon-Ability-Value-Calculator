@@ -1,0 +1,114 @@
+{
+  "name_zh": "蹲守",
+  "name_ja": "はりこみ",
+  "name_en": "Stakeout",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "可以對替換出場的對手以２倍的傷害進行攻擊。",
+  "effect": "該特性的寶可夢使用的招式對本回合替換上場的寶可夢造成的傷害×2。",
+  "pokemon_list": [
+    {
+      "id": "0734",
+      "name": "貓鼬少",
+      "form": "",
+      "icon": "-36em -27em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "蹲守",
+      "second_ability": "強壯之顎",
+      "hidden_ability": "適應力"
+    },
+    {
+      "id": "0735",
+      "name": "貓鼬探長",
+      "form": "",
+      "icon": "-37em -27em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "蹲守",
+      "second_ability": "強壯之顎",
+      "hidden_ability": "適應力"
+    },
+    {
+      "id": "0827",
+      "name": "狡小狐",
+      "form": "",
+      "icon": "-10em -31em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "輕裝",
+      "hidden_ability": "蹲守"
+    },
+    {
+      "id": "0828",
+      "name": "猾大狐",
+      "form": "",
+      "icon": "-11em -31em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "輕裝",
+      "hidden_ability": "蹲守"
+    },
+    {
+      "id": "0917",
+      "name": "團珠蛛",
+      "form": "",
+      "icon": "-34em -35em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "",
+      "hidden_ability": "蹲守"
+    },
+    {
+      "id": "0918",
+      "name": "操陷蛛",
+      "form": "",
+      "icon": "-35em -35em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "",
+      "hidden_ability": "蹲守"
+    },
+    {
+      "id": "0942",
+      "name": "偶叫獒",
+      "form": "",
+      "icon": "-23em -36em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "逃跑",
+      "hidden_ability": "蹲守"
+    },
+    {
+      "id": "0943",
+      "name": "獒教父",
+      "form": "",
+      "icon": "-24em -36em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "看門犬",
+      "hidden_ability": "蹲守"
+    }
+  ],
+  "id": "198"
+}

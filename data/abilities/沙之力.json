@@ -1,0 +1,242 @@
+{
+  "name_zh": "沙之力",
+  "name_ja": "すなのちから",
+  "name_en": "Sand Force",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "沙暴天氣時，岩石屬性、地面屬性和鋼屬性的招式威力會提高。",
+  "effect": "在沙暴天氣下，該特性的寶可夢不受沙暴傷害，同時使用的岩石屬性、鋼屬性、地面屬性招式威力提升30%。",
+  "pokemon_list": [
+    {
+      "id": "0050",
+      "name": "地鼠",
+      "form": "",
+      "icon": "-15em -2em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "沙穴",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0050",
+      "name": "地鼠",
+      "form": "阿羅拉的樣子",
+      "icon": "-16em -2em",
+      "types": [
+        "地面",
+        "鋼"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "捲髮",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0051",
+      "name": "三地鼠",
+      "form": "",
+      "icon": "-17em -2em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "沙穴",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0051",
+      "name": "三地鼠",
+      "form": "阿羅拉的樣子",
+      "icon": "-18em -2em",
+      "types": [
+        "地面",
+        "鋼"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "捲髮",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0208",
+      "name": "大鋼蛇",
+      "form": "超級大鋼蛇",
+      "icon": "-1em -9em",
+      "types": [
+        "鋼",
+        "地面"
+      ],
+      "first_ability": "沙之力",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0299",
+      "name": "朝北鼻",
+      "form": "",
+      "icon": "-1em -12em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "磁力",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0422",
+      "name": "無殼海兔",
+      "form": "",
+      "icon": "-18em -16em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "黏著",
+      "second_ability": "引水",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0423",
+      "name": "海兔獸",
+      "form": "",
+      "icon": "-20em -16em",
+      "types": [
+        "水",
+        "地面"
+      ],
+      "first_ability": "黏著",
+      "second_ability": "引水",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0445",
+      "name": "烈咬陸鯊",
+      "form": "超級烈咬陸鯊",
+      "icon": "-9em -17em",
+      "types": [
+        "龍",
+        "地面"
+      ],
+      "first_ability": "沙之力",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0449",
+      "name": "沙河馬",
+      "form": "",
+      "icon": "-14em -17em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "揚沙",
+      "second_ability": "",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0450",
+      "name": "河馬獸",
+      "form": "",
+      "icon": "-16em -17em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "揚沙",
+      "second_ability": "",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0476",
+      "name": "大朝北鼻",
+      "form": "",
+      "icon": "-15em -18em",
+      "types": [
+        "岩石",
+        "鋼"
+      ],
+      "first_ability": "結實",
+      "second_ability": "磁力",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0524",
+      "name": "石丸子",
+      "form": "",
+      "icon": "-11em -20em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "碎裂鎧甲",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0525",
+      "name": "地幔巖",
+      "form": "",
+      "icon": "-12em -20em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "碎裂鎧甲",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0526",
+      "name": "龐巖怪",
+      "form": "",
+      "icon": "-13em -20em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "揚沙",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0529",
+      "name": "螺釘地鼠",
+      "form": "",
+      "icon": "-16em -20em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "撥沙",
+      "second_ability": "沙之力",
+      "hidden_ability": "破格"
+    },
+    {
+      "id": "0530",
+      "name": "龍頭地鼠",
+      "form": "",
+      "icon": "-17em -20em",
+      "types": [
+        "地面",
+        "鋼"
+      ],
+      "first_ability": "撥沙",
+      "second_ability": "沙之力",
+      "hidden_ability": "破格"
+    },
+    {
+      "id": "0645",
+      "name": "土地雲",
+      "form": "化身形態",
+      "icon": "-37em -23em",
+      "types": [
+        "地面",
+        "飛行"
+      ],
+      "first_ability": "沙之力",
+      "second_ability": "",
+      "hidden_ability": "強行"
+    }
+  ],
+  "id": "159"
+}

@@ -1,0 +1,159 @@
+{
+  "name_zh": "鱗粉",
+  "name_ja": "りんぷん",
+  "name_en": "Shield Dust",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "被鱗粉守護著，不會受到招式的追加效果影響。",
+  "effect": "擁有該特性的寶可夢不會受到其他寶可夢招式的追加效果影響。\n- 不能防止變化招式（如催眠粉、電磁波）的效果。\n- 不能防止該特性寶可夢自身使用招式時的副作用（如近身戰）。\n- 不能防止招式對攻擊方自身（如增強拳）或場地（如巖斧）施加的追加效果。也不能防止極巨招式或超極巨招式的效果。\n- 可以防止毒手、毒鎖鏈特性造成的中毒狀態、投擲投出部分道具時造成的效果，儘管這些不屬於追加效果。",
+  "pokemon_list": [
+    {
+      "id": "0010",
+      "name": "綠毛蟲",
+      "form": "",
+      "icon": "-20em 0",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "",
+      "hidden_ability": "逃跑"
+    },
+    {
+      "id": "0013",
+      "name": "獨角蟲",
+      "form": "",
+      "icon": "-25em 0",
+      "types": [
+        "蟲",
+        "毒"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "",
+      "hidden_ability": "逃跑"
+    },
+    {
+      "id": "0049",
+      "name": "摩魯蛾",
+      "form": "",
+      "icon": "-14em -2em",
+      "types": [
+        "蟲",
+        "毒"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "有色眼鏡",
+      "hidden_ability": "奇蹟皮膚"
+    },
+    {
+      "id": "0265",
+      "name": "刺尾蟲",
+      "form": "",
+      "icon": "-1em -11em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "",
+      "hidden_ability": "逃跑"
+    },
+    {
+      "id": "0269",
+      "name": "毒粉蛾",
+      "form": "",
+      "icon": "-6em -11em",
+      "types": [
+        "蟲",
+        "毒"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "",
+      "hidden_ability": "複眼"
+    },
+    {
+      "id": "0664",
+      "name": "粉蝶蟲",
+      "form": "",
+      "icon": "-26em -24em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "複眼",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0666",
+      "name": "彩粉蝶",
+      "form": "",
+      "icon": "-34em -24em",
+      "types": [
+        "蟲",
+        "飛行"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "複眼",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0742",
+      "name": "萌虻",
+      "form": "",
+      "icon": "-7em -28em",
+      "types": [
+        "蟲",
+        "妖精"
+      ],
+      "first_ability": "採蜜",
+      "second_ability": "鱗粉",
+      "hidden_ability": "甜幕"
+    },
+    {
+      "id": "0743",
+      "name": "蝶結萌虻",
+      "form": "",
+      "icon": "-8em -28em",
+      "types": [
+        "蟲",
+        "妖精"
+      ],
+      "first_ability": "採蜜",
+      "second_ability": "鱗粉",
+      "hidden_ability": "甜幕"
+    },
+    {
+      "id": "0872",
+      "name": "雪吞蟲",
+      "form": "",
+      "icon": "-10em -34em",
+      "types": [
+        "冰",
+        "蟲"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "",
+      "hidden_ability": "冰鱗粉"
+    },
+    {
+      "id": "0873",
+      "name": "雪絨蛾",
+      "form": "",
+      "icon": "-11em -34em",
+      "types": [
+        "冰",
+        "蟲"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "",
+      "hidden_ability": "冰鱗粉"
+    }
+  ],
+  "id": "019"
+}

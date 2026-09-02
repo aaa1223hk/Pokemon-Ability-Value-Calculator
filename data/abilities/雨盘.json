@@ -1,0 +1,184 @@
+{
+  "name_zh": "雨盤",
+  "name_ja": "あめうけざら",
+  "name_en": "Rain Dish",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "下雨天氣時，會緩緩回覆ＨＰ。",
+  "effect": "在下雨天氣時每回合結束回覆1⁄16體力。",
+  "pokemon_list": [
+    {
+      "id": "0007",
+      "name": "傑尼龜",
+      "form": "",
+      "icon": "-15em 0",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0008",
+      "name": "卡咪龜",
+      "form": "",
+      "icon": "-16em 0",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0009",
+      "name": "水箭龜",
+      "form": "",
+      "icon": "-17em 0",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0072",
+      "name": "瑪瑙水母",
+      "form": "",
+      "icon": "-10em -3em",
+      "types": [
+        "水",
+        "毒"
+      ],
+      "first_ability": "恆淨之軀",
+      "second_ability": "汙泥漿",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0073",
+      "name": "毒刺水母",
+      "form": "",
+      "icon": "-11em -3em",
+      "types": [
+        "水",
+        "毒"
+      ],
+      "first_ability": "恆淨之軀",
+      "second_ability": "汙泥漿",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0270",
+      "name": "蓮葉童子",
+      "form": "",
+      "icon": "-8em -11em",
+      "types": [
+        "水",
+        "草"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "雨盤",
+      "hidden_ability": "我行我素"
+    },
+    {
+      "id": "0271",
+      "name": "蓮帽小童",
+      "form": "",
+      "icon": "-9em -11em",
+      "types": [
+        "水",
+        "草"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "雨盤",
+      "hidden_ability": "我行我素"
+    },
+    {
+      "id": "0272",
+      "name": "樂天河童",
+      "form": "",
+      "icon": "-10em -11em",
+      "types": [
+        "水",
+        "草"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "雨盤",
+      "hidden_ability": "我行我素"
+    },
+    {
+      "id": "0278",
+      "name": "長翅鷗",
+      "form": "",
+      "icon": "-19em -11em",
+      "types": [
+        "水",
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "溼潤之軀",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0279",
+      "name": "大嘴鷗",
+      "form": "",
+      "icon": "-20em -11em",
+      "types": [
+        "水",
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "降雨",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0283",
+      "name": "溜溜糖球",
+      "form": "",
+      "icon": "-25em -11em",
+      "types": [
+        "蟲",
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0755",
+      "name": "睡睡菇",
+      "form": "",
+      "icon": "-23em -28em",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "first_ability": "發光",
+      "second_ability": "孢子",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0756",
+      "name": "燈罩夜菇",
+      "form": "",
+      "icon": "-24em -28em",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "first_ability": "發光",
+      "second_ability": "孢子",
+      "hidden_ability": "雨盤"
+    }
+  ],
+  "id": "044"
+}

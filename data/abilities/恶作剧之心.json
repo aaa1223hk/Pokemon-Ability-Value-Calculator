@@ -1,0 +1,257 @@
+{
+  "name_zh": "惡作劇之心",
+  "name_ja": "いたずらごころ",
+  "name_en": "Prankster",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "可以率先使出變化招式。",
+  "effect": "該特性的寶可夢使用變化招式時優先度+1，包括變化招式的Ｚ招式。\n受此特性影響的變化招式對對手的惡屬性寶可夢無效。\n- 對入場寶可夢生效的招式、影響天氣的招式與戲法空間等招式並不直接影響場上的寶可夢，就算對手寶可夢是惡屬性也可以正常作用。\n- 惡作劇之心特性的寶可夢自身藉助變化招式使出的攻擊招式（如透過揮指、藉助等）同樣無法對惡屬性寶可夢造成傷害。\n如果使用的招式本身優先度為 0，經過惡作劇之心的加成後優先度為正，則可以被快速防守、精神場地、女王的威嚴等所抵擋。\n惡屬性的寶可夢受到以自身為目標的變化招式，仍能使用魔法反射或憑藉魔法鏡把惡作劇之心引起優先度增加的變化招式無效化，並反彈給招式的使用者，除非該使用魔法反射的寶可夢同是惡作劇之心特性的寶可夢且反彈的物件是惡屬性寶可夢。",
+  "pokemon_list": [
+    {
+      "id": "0198",
+      "name": "黑暗鴉",
+      "form": "",
+      "icon": "-37em -7em",
+      "types": [
+        "惡",
+        "飛行"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "超幸運",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0302",
+      "name": "勾魂眼",
+      "form": "",
+      "icon": "-4em -12em",
+      "types": [
+        "惡",
+        "幽靈"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "慢出",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0313",
+      "name": "電螢蟲",
+      "form": "",
+      "icon": "-22em -12em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "發光",
+      "second_ability": "蟲之預感",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0314",
+      "name": "甜甜螢",
+      "form": "",
+      "icon": "-23em -12em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "遲鈍",
+      "second_ability": "有色眼鏡",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0354",
+      "name": "詛咒娃娃",
+      "form": "超級詛咒娃娃",
+      "icon": "-37em -13em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0447",
+      "name": "利歐路",
+      "form": "",
+      "icon": "-11em -17em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "不屈之心",
+      "second_ability": "精神力",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0509",
+      "name": "扒手貓",
+      "form": "",
+      "icon": "-35em -19em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "輕裝",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0510",
+      "name": "酷豹",
+      "form": "",
+      "icon": "-36em -19em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "輕裝",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0546",
+      "name": "木棉球",
+      "form": "",
+      "icon": "-34em -20em",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "穿透",
+      "hidden_ability": "葉綠素"
+    },
+    {
+      "id": "0547",
+      "name": "風妖精",
+      "form": "",
+      "icon": "-35em -20em",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "穿透",
+      "hidden_ability": "葉綠素"
+    },
+    {
+      "id": "0641",
+      "name": "龍捲雲",
+      "form": "化身形態",
+      "icon": "-31em -23em",
+      "types": [
+        "飛行"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "",
+      "hidden_ability": "不服輸"
+    },
+    {
+      "id": "0642",
+      "name": "雷電雲",
+      "form": "化身形態",
+      "icon": "-33em -23em",
+      "types": [
+        "電",
+        "飛行"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "",
+      "hidden_ability": "不服輸"
+    },
+    {
+      "id": "0678",
+      "name": "超能妙喵",
+      "form": "♂",
+      "icon": "-2em -26em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "穿透",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0707",
+      "name": "鑰圈兒",
+      "form": "",
+      "icon": "-35em -26em",
+      "types": [
+        "鋼",
+        "妖精"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "",
+      "hidden_ability": "魔術師"
+    },
+    {
+      "id": "0859",
+      "name": "搗蛋小妖",
+      "form": "",
+      "icon": "-13em -32em",
+      "types": [
+        "惡",
+        "妖精"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "察覺",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0860",
+      "name": "詐唬魔",
+      "form": "",
+      "icon": "-14em -32em",
+      "types": [
+        "惡",
+        "妖精"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "察覺",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0861",
+      "name": "長毛巨魔",
+      "form": "",
+      "icon": "-15em -32em",
+      "types": [
+        "惡",
+        "妖精"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "察覺",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0944",
+      "name": "滋汁鼴",
+      "form": "",
+      "icon": "-25em -36em",
+      "types": [
+        "毒",
+        "一般"
+      ],
+      "first_ability": "輕裝",
+      "second_ability": "順手牽羊",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0945",
+      "name": "塗標客",
+      "form": "",
+      "icon": "-26em -36em",
+      "types": [
+        "毒",
+        "一般"
+      ],
+      "first_ability": "輕裝",
+      "second_ability": "毒手",
+      "hidden_ability": "惡作劇之心"
+    }
+  ],
+  "id": "158"
+}

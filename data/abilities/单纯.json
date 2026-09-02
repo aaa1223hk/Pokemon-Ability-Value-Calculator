@@ -1,0 +1,83 @@
+{
+  "name_zh": "單純",
+  "name_ja": "たんじゅん",
+  "name_en": "Simple",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "能力變化會變為平時的２倍。",
+  "effect": "該特性的寶可夢上升或下降能力變化變為原來的兩倍。\n- 如果能力變化已經無法再提高或降低，儘管依然能使用改變能力的招式，但能力不會再改變。\n- 該特性在生效時不會展示該特性。\n- 透過接棒把能力變化傳遞給該特性的寶可夢時，能力變化不會加倍。\n- 若使用自我暗示對對方的能力變化進行復制，能力變化不會加倍。\n- 該特性對變化招式的Ｚ力量效果無效。例如在使用Ｚ重力時，特攻只會上升 1 級 。\n- 該特性對極巨招式產生的變化效果有效。",
+  "pokemon_list": [
+    {
+      "id": "0322",
+      "name": "呆火駝",
+      "form": "",
+      "icon": "-35em -12em",
+      "types": [
+        "火",
+        "地面"
+      ],
+      "first_ability": "遲鈍",
+      "second_ability": "單純",
+      "hidden_ability": "我行我素"
+    },
+    {
+      "id": "0399",
+      "name": "大牙狸",
+      "form": "",
+      "icon": "-18em -15em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "單純",
+      "second_ability": "純樸",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0400",
+      "name": "大尾狸",
+      "form": "",
+      "icon": "-20em -15em",
+      "types": [
+        "一般",
+        "水"
+      ],
+      "first_ability": "單純",
+      "second_ability": "純樸",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0527",
+      "name": "滾滾蝙蝠",
+      "form": "",
+      "icon": "-14em -20em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "純樸",
+      "second_ability": "笨拙",
+      "hidden_ability": "單純"
+    },
+    {
+      "id": "0528",
+      "name": "心蝙蝠",
+      "form": "",
+      "icon": "-15em -20em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "純樸",
+      "second_ability": "笨拙",
+      "hidden_ability": "單純"
+    }
+  ],
+  "id": "086"
+}

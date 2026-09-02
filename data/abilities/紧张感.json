@@ -1,0 +1,344 @@
+{
+  "name_zh": "緊張感",
+  "name_ja": "きんちょうかん",
+  "name_en": "Unnerve",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "入場時發動該特性"
+  ],
+  "introduction": "讓對手緊張，使其無法食用樹果。",
+  "effect": "對手的寶可夢無法使用樹果。\n該特性的寶可夢使用蟲咬、啄食攻擊對方，依然能獲得樹果效果。\n緊張感特性在上場時發動，且必定先於其他特性（不包括化學變化氣體）。透過複製、找夥伴、特性互換得到的緊張感則不會立即發動，而會等到場上有寶可夢登場後才優先發動。\n緊張感特性的寶可夢一離場（替換、倒下），特性的效果消失的瞬間樹果就會發動效果。\n緊張感特性阻礙回覆ＨＰ的樹果發動效果的情況下，緊張感特性的寶可夢受到同伴的全場攻擊招式的傷害倒下後，同回合內對手也受到該招式的傷害，在昏厥判定前樹果的效果會發動，回覆ＨＰ，最終導致對手雖然ＨＰ變為了0但是由於隨後樹果的回覆而沒有陷入昏厥狀態。\n- 在第五世代，結算順序有些不同，緊張感的寶可夢一倒下對手的樹果就會立刻發動效果回覆ＨＰ，隨後再計算受到的該全場攻擊招式的傷害，且傷害會大幅減少，但結果還是一樣，不會陷入昏厥狀態，最終剩餘的ＨＰ等於ＨＰ為0的狀態下樹果回覆的ＨＰ量。\n- 只有在對手的ＨＰ變為0之前，對手的ＨＰ在樹果可以發動效果的範圍之內才會出現此現象。\n- 緊張感特性的寶可夢使用玉石俱碎或者大爆炸令對手的ＨＰ變為0的情況下也會出現此現象。\n以下招式或特性不受該特性的影響：\n- 茶會\n- 大快朵頤\n- 反芻\n增加闖入對戰發生的機率。",
+  "pokemon_list": [
+    {
+      "id": "0023",
+      "name": "阿柏蛇",
+      "form": "",
+      "icon": "-1em -1em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "蛻皮",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0024",
+      "name": "阿柏怪",
+      "form": "",
+      "icon": "-2em -1em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "蛻皮",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0052",
+      "name": "喵喵",
+      "form": "",
+      "icon": "-19em -2em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "技術高手",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0052",
+      "name": "喵喵",
+      "form": "伽勒爾的樣子",
+      "icon": "-21em -2em",
+      "types": [
+        "鋼"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "硬爪",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0053",
+      "name": "貓老大",
+      "form": "",
+      "icon": "-23em -2em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "柔軟",
+      "second_ability": "技術高手",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0142",
+      "name": "化石翼龍",
+      "form": "",
+      "icon": "-1em -6em",
+      "types": [
+        "岩石",
+        "飛行"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "壓迫感",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0150",
+      "name": "超夢",
+      "form": "",
+      "icon": "-14em -6em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0217",
+      "name": "圈圈熊",
+      "form": "",
+      "icon": "-18em -9em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "飛毛腿",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0228",
+      "name": "戴魯比",
+      "form": "",
+      "icon": "-33em -9em",
+      "types": [
+        "惡",
+        "火"
+      ],
+      "first_ability": "早起",
+      "second_ability": "引火",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0229",
+      "name": "黑魯加",
+      "form": "",
+      "icon": "-34em -9em",
+      "types": [
+        "惡",
+        "火"
+      ],
+      "first_ability": "早起",
+      "second_ability": "引火",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0248",
+      "name": "班基拉斯",
+      "form": "",
+      "icon": "-16em -10em",
+      "types": [
+        "岩石",
+        "惡"
+      ],
+      "first_ability": "揚沙",
+      "second_ability": "",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0284",
+      "name": "雨翅蛾",
+      "form": "",
+      "icon": "-26em -11em",
+      "types": [
+        "蟲",
+        "飛行"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0416",
+      "name": "蜂女王",
+      "form": "",
+      "icon": "-8em -16em",
+      "types": [
+        "蟲",
+        "飛行"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0595",
+      "name": "電電蟲",
+      "form": "",
+      "icon": "-23em -22em",
+      "types": [
+        "蟲",
+        "電"
+      ],
+      "first_ability": "複眼",
+      "second_ability": "緊張感",
+      "hidden_ability": "蟲之預感"
+    },
+    {
+      "id": "0596",
+      "name": "電蜘蛛",
+      "form": "",
+      "icon": "-24em -22em",
+      "types": [
+        "蟲",
+        "電"
+      ],
+      "first_ability": "複眼",
+      "second_ability": "緊張感",
+      "hidden_ability": "蟲之預感"
+    },
+    {
+      "id": "0610",
+      "name": "牙牙",
+      "form": "",
+      "icon": "-38em -22em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "破格",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0611",
+      "name": "斧牙龍",
+      "form": "",
+      "icon": "-39em -22em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "破格",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0612",
+      "name": "雙斧戰龍",
+      "form": "",
+      "icon": "0 -23em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "破格",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0667",
+      "name": "小獅獅",
+      "form": "",
+      "icon": "-8em -25em",
+      "types": [
+        "火",
+        "一般"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "緊張感",
+      "hidden_ability": "自信過度"
+    },
+    {
+      "id": "0668",
+      "name": "火炎獅",
+      "form": "",
+      "icon": "-9em -25em",
+      "types": [
+        "火",
+        "一般"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "緊張感",
+      "hidden_ability": "自信過度"
+    },
+    {
+      "id": "0760",
+      "name": "穿著熊",
+      "form": "",
+      "icon": "-28em -28em",
+      "types": [
+        "一般",
+        "格鬥"
+      ],
+      "first_ability": "毛茸茸",
+      "second_ability": "笨拙",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0821",
+      "name": "稚山雀",
+      "form": "",
+      "icon": "-2em -31em",
+      "types": [
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "緊張感",
+      "hidden_ability": "健壯胸肌"
+    },
+    {
+      "id": "0822",
+      "name": "藍鴉",
+      "form": "",
+      "icon": "-3em -31em",
+      "types": [
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "緊張感",
+      "hidden_ability": "健壯胸肌"
+    },
+    {
+      "id": "0823",
+      "name": "鋼鎧鴉",
+      "form": "",
+      "icon": "-4em -31em",
+      "types": [
+        "飛行",
+        "鋼"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "緊張感",
+      "hidden_ability": "鏡甲"
+    },
+    {
+      "id": "0898",
+      "name": "蕾冠王",
+      "form": "",
+      "icon": "-8em -35em",
+      "types": [
+        "超能力",
+        "草"
+      ],
+      "first_ability": "緊張感",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0901",
+      "name": "月月熊",
+      "form": "",
+      "icon": "-14em -35em",
+      "types": [
+        "地面",
+        "一般"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "防彈",
+      "hidden_ability": "緊張感"
+    }
+  ],
+  "id": "127"
+}

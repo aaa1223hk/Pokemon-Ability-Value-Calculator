@@ -1,0 +1,509 @@
+{
+  "name_zh": "飄浮",
+  "name_ja": "ふゆう",
+  "name_en": "Levitate",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "從地面浮起，從而不會受到地面屬性招式的攻擊。",
+  "effect": "擁有該特性的寶可夢免疫地面屬性招式（除了潑沙和千箭齊發），不會受到沙穴特性和毒菱、撒菱、黏黏網和場地型狀態等狀態變化的影響。擁有該特性的毒屬性的寶可夢無法清除毒菱。\n當寶可夢持有道具黑色鐵球，或是寶可夢處於擊落、紮根狀態，或是場地上存在重力狀態時，該特性失效。",
+  "pokemon_list": [
+    {
+      "id": "0092",
+      "name": "鬼斯",
+      "form": "",
+      "icon": "-3em -4em",
+      "types": [
+        "幽靈",
+        "毒"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0093",
+      "name": "鬼斯通",
+      "form": "",
+      "icon": "-4em -4em",
+      "types": [
+        "幽靈",
+        "毒"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0109",
+      "name": "瓦斯彈",
+      "form": "",
+      "icon": "-29em -4em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "化學變化氣體",
+      "hidden_ability": "惡臭"
+    },
+    {
+      "id": "0110",
+      "name": "雙彈瓦斯",
+      "form": "",
+      "icon": "-30em -4em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "化學變化氣體",
+      "hidden_ability": "惡臭"
+    },
+    {
+      "id": "0110",
+      "name": "雙彈瓦斯",
+      "form": "伽勒爾的樣子",
+      "icon": "-31em -4em",
+      "types": [
+        "毒",
+        "妖精"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "化學變化氣體",
+      "hidden_ability": "薄霧製造者"
+    },
+    {
+      "id": "0200",
+      "name": "夢妖",
+      "form": "",
+      "icon": "-1em -8em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0201",
+      "name": "未知圖騰",
+      "form": "",
+      "icon": "-2em -8em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0329",
+      "name": "超音波幼蟲",
+      "form": "",
+      "icon": "-5em -13em",
+      "types": [
+        "地面",
+        "龍"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0330",
+      "name": "沙漠蜻蜓",
+      "form": "",
+      "icon": "-6em -13em",
+      "types": [
+        "地面",
+        "龍"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0337",
+      "name": "月石",
+      "form": "",
+      "icon": "-15em -13em",
+      "types": [
+        "岩石",
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0338",
+      "name": "太陽巖",
+      "form": "",
+      "icon": "-16em -13em",
+      "types": [
+        "岩石",
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0343",
+      "name": "天秤偶",
+      "form": "",
+      "icon": "-21em -13em",
+      "types": [
+        "地面",
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0344",
+      "name": "念力土偶",
+      "form": "",
+      "icon": "-22em -13em",
+      "types": [
+        "地面",
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0355",
+      "name": "夜巡靈",
+      "form": "",
+      "icon": "-38em -13em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": "察覺"
+    },
+    {
+      "id": "0358",
+      "name": "風鈴鈴",
+      "form": "",
+      "icon": "-1em -14em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0380",
+      "name": "拉帝亞斯",
+      "form": "",
+      "icon": "-28em -14em",
+      "types": [
+        "龍",
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0380",
+      "name": "拉帝亞斯",
+      "form": "超級拉帝亞斯",
+      "icon": "-29em -14em",
+      "types": [
+        "龍",
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0381",
+      "name": "拉帝歐斯",
+      "form": "",
+      "icon": "-30em -14em",
+      "types": [
+        "龍",
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0381",
+      "name": "拉帝歐斯",
+      "form": "超級拉帝歐斯",
+      "icon": "-31em -14em",
+      "types": [
+        "龍",
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0429",
+      "name": "夢妖魔",
+      "form": "",
+      "icon": "-29em -16em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0433",
+      "name": "鈴鐺響",
+      "form": "",
+      "icon": "-33em -16em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0436",
+      "name": "銅鏡怪",
+      "form": "",
+      "icon": "-36em -16em",
+      "types": [
+        "鋼",
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "耐熱",
+      "hidden_ability": "重金屬"
+    },
+    {
+      "id": "0437",
+      "name": "青銅鐘",
+      "form": "",
+      "icon": "-37em -16em",
+      "types": [
+        "鋼",
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "耐熱",
+      "hidden_ability": "重金屬"
+    },
+    {
+      "id": "0455",
+      "name": "尖牙籠",
+      "form": "",
+      "icon": "-24em -17em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0479",
+      "name": "洛託姆",
+      "form": "",
+      "icon": "-18em -18em",
+      "types": [
+        "電",
+        "幽靈"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0480",
+      "name": "由克希",
+      "form": "",
+      "icon": "-24em -18em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0481",
+      "name": "艾姆利多",
+      "form": "",
+      "icon": "-25em -18em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0482",
+      "name": "亞克諾姆",
+      "form": "",
+      "icon": "-26em -18em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0487",
+      "name": "騎拉帝納",
+      "form": "起源形態",
+      "icon": "-34em -18em",
+      "types": [
+        "幽靈",
+        "龍"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0488",
+      "name": "克雷色利亞",
+      "form": "",
+      "icon": "-35em -18em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0602",
+      "name": "麻麻小魚",
+      "form": "",
+      "icon": "-30em -22em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0603",
+      "name": "麻麻鰻",
+      "form": "",
+      "icon": "-31em -22em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0604",
+      "name": "麻麻鰻魚王",
+      "form": "",
+      "icon": "-32em -22em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0615",
+      "name": "幾何雪花",
+      "form": "",
+      "icon": "-3em -23em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0635",
+      "name": "三首惡龍",
+      "form": "",
+      "icon": "-25em -23em",
+      "types": [
+        "惡",
+        "龍"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0738",
+      "name": "鍬農炮蟲",
+      "form": "",
+      "icon": "0 -28em",
+      "types": [
+        "蟲",
+        "電"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0000",
+      "name": "哈奇酷俠",
+      "form": "",
+      "icon": "0 0",
+      "types": [
+        "惡",
+        "超能力"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0000",
+      "name": "UFO",
+      "form": "",
+      "icon": "0 0",
+      "types": [
+        "飛行",
+        "電"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0000",
+      "name": "UFO 2",
+      "form": "",
+      "icon": "0 0",
+      "types": [
+        "超能力",
+        "電"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "026"
+}

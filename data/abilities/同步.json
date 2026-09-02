@@ -1,0 +1,242 @@
+{
+  "name_zh": "同步",
+  "name_ja": "シンクロ",
+  "name_en": "Synchronize",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "將自己的中毒、麻痺或灼傷狀態傳染給對手。",
+  "effect": "其他寶可夢對自身造成灼傷、中毒、劇毒、麻痺時，自身對那隻寶可夢造成相同的異常狀態。\n若特性為同步的寶可夢同時攜帶可以治癒它異常狀態的樹果，那麼觸發樹果效果前觸發同步特性。\n若處於異常狀態的非同步特性寶可夢對特性為同步的寶可夢使用精神轉移，同步特性會在異常狀態被治癒之前觸發，使得特性發動失敗，前者的異常狀態可以解除。\n兩隻寶可夢連續因為同步而觸發，但是字幕會顯示同步失敗。\n以下情況不會觸發同步特性：\n- 若由於接觸到毒菱而陷入中毒狀態；\n- 若由於攜帶到劇毒寶珠或火焰寶珠而陷入中毒或灼傷狀態。",
+  "pokemon_list": [
+    {
+      "id": "0063",
+      "name": "凱西",
+      "form": "",
+      "icon": "-37em -2em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "精神力",
+      "hidden_ability": "魔法防守"
+    },
+    {
+      "id": "0064",
+      "name": "勇基拉",
+      "form": "",
+      "icon": "-38em -2em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "精神力",
+      "hidden_ability": "魔法防守"
+    },
+    {
+      "id": "0065",
+      "name": "胡地",
+      "form": "",
+      "icon": "0 -3em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "精神力",
+      "hidden_ability": "魔法防守"
+    },
+    {
+      "id": "0151",
+      "name": "夢幻",
+      "form": "",
+      "icon": "-17em -6em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0177",
+      "name": "天然雀",
+      "form": "",
+      "icon": "-8em -7em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "同步",
+      "second_ability": "早起",
+      "hidden_ability": "魔法鏡"
+    },
+    {
+      "id": "0178",
+      "name": "天然鳥",
+      "form": "",
+      "icon": "-9em -7em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "同步",
+      "second_ability": "早起",
+      "hidden_ability": "魔法鏡"
+    },
+    {
+      "id": "0196",
+      "name": "太陽伊布",
+      "form": "",
+      "icon": "-35em -7em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "",
+      "hidden_ability": "魔法鏡"
+    },
+    {
+      "id": "0197",
+      "name": "月亮伊布",
+      "form": "",
+      "icon": "-36em -7em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "同步",
+      "second_ability": "",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0280",
+      "name": "拉魯拉絲",
+      "form": "",
+      "icon": "-21em -11em",
+      "types": [
+        "超能力",
+        "妖精"
+      ],
+      "first_ability": "同步",
+      "second_ability": "複製",
+      "hidden_ability": "心靈感應"
+    },
+    {
+      "id": "0281",
+      "name": "奇魯莉安",
+      "form": "",
+      "icon": "-22em -11em",
+      "types": [
+        "超能力",
+        "妖精"
+      ],
+      "first_ability": "同步",
+      "second_ability": "複製",
+      "hidden_ability": "心靈感應"
+    },
+    {
+      "id": "0282",
+      "name": "沙奈朵",
+      "form": "",
+      "icon": "-23em -11em",
+      "types": [
+        "超能力",
+        "妖精"
+      ],
+      "first_ability": "同步",
+      "second_ability": "複製",
+      "hidden_ability": "心靈感應"
+    },
+    {
+      "id": "0517",
+      "name": "食夢夢",
+      "form": "",
+      "icon": "-3em -20em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "預知夢",
+      "second_ability": "同步",
+      "hidden_ability": "心靈感應"
+    },
+    {
+      "id": "0518",
+      "name": "夢夢蝕",
+      "form": "",
+      "icon": "-4em -20em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "預知夢",
+      "second_ability": "同步",
+      "hidden_ability": "心靈感應"
+    },
+    {
+      "id": "0605",
+      "name": "小灰怪",
+      "form": "",
+      "icon": "-33em -22em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "心靈感應",
+      "second_ability": "同步",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0606",
+      "name": "大宇怪",
+      "form": "",
+      "icon": "-34em -22em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "心靈感應",
+      "second_ability": "同步",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0876",
+      "name": "愛管侍",
+      "form": "♂",
+      "icon": "-15em -34em",
+      "types": [
+        "超能力",
+        "一般"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "同步",
+      "hidden_ability": "精神製造者"
+    },
+    {
+      "id": "0876",
+      "name": "愛管侍",
+      "form": "♀",
+      "icon": "-16em -34em",
+      "types": [
+        "超能力",
+        "一般"
+      ],
+      "first_ability": "我行我素",
+      "second_ability": "同步",
+      "hidden_ability": "精神製造者"
+    },
+    {
+      "id": "0954",
+      "name": "蟲甲聖",
+      "form": "",
+      "icon": "-35em -36em",
+      "types": [
+        "蟲",
+        "超能力"
+      ],
+      "first_ability": "同步",
+      "second_ability": "",
+      "hidden_ability": "心靈感應"
+    }
+  ],
+  "id": "028"
+}

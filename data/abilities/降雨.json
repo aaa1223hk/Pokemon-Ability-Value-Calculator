@@ -1,0 +1,55 @@
+{
+  "name_zh": "降雨",
+  "name_ja": "あめふらし",
+  "name_en": "Drizzle",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "入場時發動該特性"
+  ],
+  "introduction": "出場時，會將天氣變為下雨。",
+  "effect": "當該寶可夢登場時，天氣轉為下雨並持續5回合。\n- 在攜帶了道具潮溼岩石的情況下，下雨會持續8回合。\n- 在大雨、大日照和亂流天氣下，特性發動失敗。\n- 如果有多隻擁有可更換天氣特性的寶可夢同時登場，那麼將會按照寶可夢的速度依次發動特性改變天氣，後者覆蓋前者。發動失敗的情況下除外。",
+  "pokemon_list": [
+    {
+      "id": "0186",
+      "name": "蚊香蛙皇",
+      "form": "",
+      "icon": "-20em -7em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "儲水",
+      "second_ability": "溼氣",
+      "hidden_ability": "降雨"
+    },
+    {
+      "id": "0279",
+      "name": "大嘴鷗",
+      "form": "",
+      "icon": "-20em -11em",
+      "types": [
+        "水",
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "降雨",
+      "hidden_ability": "雨盤"
+    },
+    {
+      "id": "0382",
+      "name": "蓋歐卡",
+      "form": "",
+      "icon": "-32em -14em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "降雨",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "002"
+}

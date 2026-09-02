@@ -1,0 +1,157 @@
+{
+  "name_zh": "戰鬥盔甲",
+  "name_ja": "カブトアーマー",
+  "name_en": "Battle Armor",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "被堅硬的甲殼守護著，不會被對手的攻擊擊中要害。",
+  "effect": "不會被擊中要害，即使是必定命中要害的招式也不會擊中要害。",
+  "pokemon_list": [
+    {
+      "id": "0104",
+      "name": "卡拉卡拉",
+      "form": "",
+      "icon": "-23em -4em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "避雷針",
+      "hidden_ability": "戰鬥盔甲"
+    },
+    {
+      "id": "0105",
+      "name": "嘎啦嘎啦",
+      "form": "",
+      "icon": "-24em -4em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "避雷針",
+      "hidden_ability": "戰鬥盔甲"
+    },
+    {
+      "id": "0140",
+      "name": "化石盔",
+      "form": "",
+      "icon": "-39em -5em",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "戰鬥盔甲",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0141",
+      "name": "鐮刀盔",
+      "form": "",
+      "icon": "0 -6em",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "戰鬥盔甲",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0347",
+      "name": "太古羽蟲",
+      "form": "",
+      "icon": "-25em -13em",
+      "types": [
+        "岩石",
+        "蟲"
+      ],
+      "first_ability": "戰鬥盔甲",
+      "second_ability": "",
+      "hidden_ability": "悠遊自如"
+    },
+    {
+      "id": "0348",
+      "name": "太古盔甲",
+      "form": "",
+      "icon": "-26em -13em",
+      "types": [
+        "岩石",
+        "蟲"
+      ],
+      "first_ability": "戰鬥盔甲",
+      "second_ability": "",
+      "hidden_ability": "悠遊自如"
+    },
+    {
+      "id": "0451",
+      "name": "鉗尾蠍",
+      "form": "",
+      "icon": "-18em -17em",
+      "types": [
+        "毒",
+        "蟲"
+      ],
+      "first_ability": "戰鬥盔甲",
+      "second_ability": "狙擊手",
+      "hidden_ability": "銳利目光"
+    },
+    {
+      "id": "0452",
+      "name": "龍王蠍",
+      "form": "",
+      "icon": "-19em -17em",
+      "types": [
+        "毒",
+        "惡"
+      ],
+      "first_ability": "戰鬥盔甲",
+      "second_ability": "狙擊手",
+      "hidden_ability": "銳利目光"
+    },
+    {
+      "id": "0772",
+      "name": "屬性：空",
+      "form": "",
+      "icon": "0 -29em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "戰鬥盔甲",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0863",
+      "name": "喵頭目",
+      "form": "",
+      "icon": "-18em -32em",
+      "types": [
+        "鋼"
+      ],
+      "first_ability": "戰鬥盔甲",
+      "second_ability": "硬爪",
+      "hidden_ability": "鋼之意志"
+    },
+    {
+      "id": "0870",
+      "name": "列陣兵",
+      "form": "",
+      "icon": "-8em -34em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "戰鬥盔甲",
+      "second_ability": "",
+      "hidden_ability": "不服輸"
+    }
+  ],
+  "id": "004"
+}

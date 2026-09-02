@@ -1,0 +1,44 @@
+{
+  "name_zh": "魂心",
+  "name_ja": "ソウルハート",
+  "name_en": "Soul-Heart",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "寶可夢每次變為瀕死狀態時，特攻會提高。",
+  "effect": "每當場上有寶可夢被打倒時，特攻提高1個等級。",
+  "pokemon_list": [
+    {
+      "id": "0801",
+      "name": "瑪機雅娜",
+      "form": "現在的顏色",
+      "icon": "-17em -30em",
+      "types": [
+        "鋼",
+        "妖精"
+      ],
+      "first_ability": "魂心",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0801",
+      "name": "瑪機雅娜",
+      "form": "５００年前的顏色",
+      "icon": "-18em -30em",
+      "types": [
+        "鋼",
+        "妖精"
+      ],
+      "first_ability": "魂心",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "220"
+}

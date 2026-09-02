@@ -1,0 +1,133 @@
+{
+  "name_zh": "磁力",
+  "name_ja": "じりょく",
+  "name_en": "Magnet Pull",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "用磁力吸住鋼屬性的寶可夢，使其無法逃走。",
+  "effect": "使對方非幽靈屬性的鋼屬性寶可夢進入無法逃走狀態，無法替換或逃走。\n鋼屬性寶可夢攻擊該特性的寶可夢會被固定，幾回合內無法移動。TS",
+  "pokemon_list": [
+    {
+      "id": "0074",
+      "name": "小拳石",
+      "form": "阿羅拉的樣子",
+      "icon": "-13em -3em",
+      "types": [
+        "岩石",
+        "電"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "結實",
+      "hidden_ability": "電氣皮膚"
+    },
+    {
+      "id": "0075",
+      "name": "隆隆石",
+      "form": "阿羅拉的樣子",
+      "icon": "-15em -3em",
+      "types": [
+        "岩石",
+        "電"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "結實",
+      "hidden_ability": "電氣皮膚"
+    },
+    {
+      "id": "0076",
+      "name": "隆隆巖",
+      "form": "阿羅拉的樣子",
+      "icon": "-17em -3em",
+      "types": [
+        "岩石",
+        "電"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "結實",
+      "hidden_ability": "電氣皮膚"
+    },
+    {
+      "id": "0081",
+      "name": "小磁怪",
+      "form": "",
+      "icon": "-27em -3em",
+      "types": [
+        "電",
+        "鋼"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "結實",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0082",
+      "name": "三合一磁怪",
+      "form": "",
+      "icon": "-28em -3em",
+      "types": [
+        "電",
+        "鋼"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "結實",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0299",
+      "name": "朝北鼻",
+      "form": "",
+      "icon": "-1em -12em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "磁力",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0462",
+      "name": "自爆磁怪",
+      "form": "",
+      "icon": "-37em -17em",
+      "types": [
+        "電",
+        "鋼"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "結實",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0476",
+      "name": "大朝北鼻",
+      "form": "",
+      "icon": "-15em -18em",
+      "types": [
+        "岩石",
+        "鋼"
+      ],
+      "first_ability": "結實",
+      "second_ability": "磁力",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0808",
+      "name": "美錄坦",
+      "form": "",
+      "icon": "-25em -30em",
+      "types": [
+        "鋼"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "042"
+}

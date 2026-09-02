@@ -1,0 +1,144 @@
+{
+  "name_zh": "無防守",
+  "name_ja": "ノーガード",
+  "name_en": "No Guard",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "不受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "由於無防守戰術，雙方使出的招式都必定會擊中。",
+  "effect": "該特性寶可夢使用的招式與以該特性寶可夢為目標的招式都一定會命中，包括在飛翔、挖洞等情況的寶可夢都可以被擊中，除非這隻寶可夢因發號施令特性在吃吼霸的口中。\n只會影響命中，不能穿透守住、快速防守、廣域防守的保護。",
+  "pokemon_list": [
+    {
+      "id": "0018",
+      "name": "大比鳥",
+      "form": "超級大比鳥",
+      "icon": "-32em 0",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "無防守",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0066",
+      "name": "腕力",
+      "form": "",
+      "icon": "-3em -3em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "無防守",
+      "hidden_ability": "不屈之心"
+    },
+    {
+      "id": "0067",
+      "name": "豪力",
+      "form": "",
+      "icon": "-4em -3em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "無防守",
+      "hidden_ability": "不屈之心"
+    },
+    {
+      "id": "0068",
+      "name": "怪力",
+      "form": "",
+      "icon": "-5em -3em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "毅力",
+      "second_ability": "無防守",
+      "hidden_ability": "不屈之心"
+    },
+    {
+      "id": "0588",
+      "name": "蓋蓋蟲",
+      "form": "",
+      "icon": "-14em -22em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "蟲之預感",
+      "second_ability": "蛻皮",
+      "hidden_ability": "無防守"
+    },
+    {
+      "id": "0622",
+      "name": "泥偶小人",
+      "form": "",
+      "icon": "-11em -23em",
+      "types": [
+        "地面",
+        "幽靈"
+      ],
+      "first_ability": "鐵拳",
+      "second_ability": "笨拙",
+      "hidden_ability": "無防守"
+    },
+    {
+      "id": "0623",
+      "name": "泥偶巨人",
+      "form": "",
+      "icon": "-12em -23em",
+      "types": [
+        "地面",
+        "幽靈"
+      ],
+      "first_ability": "鐵拳",
+      "second_ability": "笨拙",
+      "hidden_ability": "無防守"
+    },
+    {
+      "id": "0679",
+      "name": "獨劍鞘",
+      "form": "",
+      "icon": "-4em -26em",
+      "types": [
+        "鋼",
+        "幽靈"
+      ],
+      "first_ability": "無防守",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0680",
+      "name": "雙劍鞘",
+      "form": "",
+      "icon": "-5em -26em",
+      "types": [
+        "鋼",
+        "幽靈"
+      ],
+      "first_ability": "無防守",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0745",
+      "name": "鬃巖狼人",
+      "form": "黑夜的樣子",
+      "icon": "-11em -28em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "幹勁",
+      "hidden_ability": "無防守"
+    }
+  ],
+  "id": "099"
+}

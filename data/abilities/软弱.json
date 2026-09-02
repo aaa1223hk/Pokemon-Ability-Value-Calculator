@@ -1,0 +1,44 @@
+{
+  "name_zh": "軟弱",
+  "name_ja": "よわき",
+  "name_en": "Defeatist",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "ＨＰ減半時，會變得軟弱，攻擊和特攻會減半。",
+  "effect": "該特性的寶可夢ＨＰ不足1⁄2時，攻擊與特攻降為1⁄2。",
+  "pokemon_list": [
+    {
+      "id": "0566",
+      "name": "始祖小鳥",
+      "form": "",
+      "icon": "-23em -21em",
+      "types": [
+        "岩石",
+        "飛行"
+      ],
+      "first_ability": "軟弱",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0567",
+      "name": "始祖大鳥",
+      "form": "",
+      "icon": "-24em -21em",
+      "types": [
+        "岩石",
+        "飛行"
+      ],
+      "first_ability": "軟弱",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "129"
+}

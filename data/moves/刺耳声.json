@@ -1,0 +1,29 @@
+{
+  "name_zh": "刺耳聲",
+  "name_ja": "いやなおと",
+  "name_en": "Screech",
+  "type": "一般",
+  "category": "變化",
+  "pp": "40 （最大 64）",
+  "power": "—",
+  "accuracy": "85",
+  "range": "除自身以外場上一只可以攻擊到的寶可夢",
+  "description": "發出不由自主想要捂起耳朵的刺耳聲，從而大幅降低對手的防禦。",
+  "intro": "刺耳聲（日文︰いやなおと，英文︰Screech）是第一世代引入的一般屬性招式。",
+  "effect": [
+    "不是接觸類招式",
+    "受守住影響",
+    "受魔法反射影響",
+    "不可以被化為己用",
+    "受鸚鵡學舌影響",
+    "不受王者之證等類似道具影響"
+  ],
+  "additional_effect": "令目標的防禦降低2級。\n對隔音特性的寶可夢無效。\n該招式無視目標的替身狀態。",
+  "details": "",
+  "move_changes": "第六世代\n新增效果：該招式無視目標的替身狀態。",
+  "learn_by_level_up": [],
+  "learn_by_tm": [],
+  "learn_by_breeding": [],
+  "learn_by_tutor": [],
+  "id": "103"
+}

@@ -1,0 +1,116 @@
+{
+  "name_zh": "心情不定",
+  "name_ja": "ムラっけ",
+  "name_en": "Moody",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "每一回合，能力中的某項會大幅提高，而某項會降低。",
+  "effect": "每回合結束時攻擊、防禦、特攻、特防、速度中隨機一項提升2級，隨機另一項降低1級。",
+  "pokemon_list": [
+    {
+      "id": "0223",
+      "name": "鐵炮魚",
+      "form": "",
+      "icon": "-27em -9em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "活力",
+      "second_ability": "狙擊手",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0224",
+      "name": "章魚桶",
+      "form": "",
+      "icon": "-28em -9em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "吸盤",
+      "second_ability": "狙擊手",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0235",
+      "name": "圖圖犬",
+      "form": "",
+      "icon": "-3em -10em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "我行我素",
+      "second_ability": "技術高手",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0361",
+      "name": "雪童子",
+      "form": "",
+      "icon": "-5em -14em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0362",
+      "name": "冰鬼護",
+      "form": "",
+      "icon": "-6em -14em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "冰凍之軀",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0399",
+      "name": "大牙狸",
+      "form": "",
+      "icon": "-18em -15em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "單純",
+      "second_ability": "純樸",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0400",
+      "name": "大尾狸",
+      "form": "",
+      "icon": "-20em -15em",
+      "types": [
+        "一般",
+        "水"
+      ],
+      "first_ability": "單純",
+      "second_ability": "純樸",
+      "hidden_ability": "心情不定"
+    },
+    {
+      "id": "0952",
+      "name": "狠辣椒",
+      "form": "",
+      "icon": "-33em -36em",
+      "types": [
+        "草",
+        "火"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "不眠",
+      "hidden_ability": "心情不定"
+    }
+  ],
+  "id": "141"
+}

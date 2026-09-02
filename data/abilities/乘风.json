@@ -1,0 +1,58 @@
+{
+  "name_zh": "乘風",
+  "name_ja": "かぜのり",
+  "name_en": "Wind Rider",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "吹起了順風或受到風的招式攻擊時，不會受到傷害，而是會提高攻擊。",
+  "effect": "擁有該特性的寶可夢不受風的招式影響，當被風的招式擊中時，提升1級攻擊。\n己方場地上存在順風時，攻擊提高1級。",
+  "pokemon_list": [
+    {
+      "id": "0275",
+      "name": "狡猾天狗",
+      "form": "",
+      "icon": "-15em -11em",
+      "types": [
+        "草",
+        "惡"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "乘風",
+      "hidden_ability": "順手牽羊"
+    },
+    {
+      "id": "0946",
+      "name": "納噬草",
+      "form": "",
+      "icon": "-27em -36em",
+      "types": [
+        "草",
+        "幽靈"
+      ],
+      "first_ability": "乘風",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0947",
+      "name": "怖納噬草",
+      "form": "",
+      "icon": "-28em -36em",
+      "types": [
+        "草",
+        "幽靈"
+      ],
+      "first_ability": "乘風",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    }
+  ],
+  "id": "274"
+}

@@ -1,0 +1,104 @@
+{
+  "name_zh": "黏滑",
+  "name_ja": "ぬめぬめ",
+  "name_en": "Gooey",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "對於用攻擊接觸到自己的對手，會降低其速度。",
+  "effect": "該特性的寶可夢受到接觸攻擊傷害後，則令攻擊方速度降低1級。\n接觸類連續招式的每一擊都會觸發此特性。",
+  "pokemon_list": [
+    {
+      "id": "0704",
+      "name": "黏黏寶",
+      "form": "",
+      "icon": "-30em -26em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "食草",
+      "second_ability": "溼潤之軀",
+      "hidden_ability": "黏滑"
+    },
+    {
+      "id": "0705",
+      "name": "黏美兒",
+      "form": "",
+      "icon": "-31em -26em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "食草",
+      "second_ability": "溼潤之軀",
+      "hidden_ability": "黏滑"
+    },
+    {
+      "id": "0705",
+      "name": "黏美兒",
+      "form": "洗翠的樣子",
+      "icon": "-32em -26em",
+      "types": [
+        "鋼",
+        "龍"
+      ],
+      "first_ability": "食草",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "黏滑"
+    },
+    {
+      "id": "0706",
+      "name": "黏美龍",
+      "form": "",
+      "icon": "-33em -26em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "食草",
+      "second_ability": "溼潤之軀",
+      "hidden_ability": "黏滑"
+    },
+    {
+      "id": "0706",
+      "name": "黏美龍",
+      "form": "洗翠的樣子",
+      "icon": "-34em -26em",
+      "types": [
+        "鋼",
+        "龍"
+      ],
+      "first_ability": "食草",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "黏滑"
+    },
+    {
+      "id": "0960",
+      "name": "海地鼠",
+      "form": "",
+      "icon": "-1em -37em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "黏滑",
+      "second_ability": "膽怯",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0961",
+      "name": "三海地鼠",
+      "form": "",
+      "icon": "-2em -37em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "黏滑",
+      "second_ability": "膽怯",
+      "hidden_ability": "沙隱"
+    }
+  ],
+  "id": "183"
+}

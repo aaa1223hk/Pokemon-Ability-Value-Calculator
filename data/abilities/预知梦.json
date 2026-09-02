@@ -1,0 +1,92 @@
+{
+  "name_zh": "預知夢",
+  "name_ja": "よちむ",
+  "name_en": "Forewarn",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "入場時發動該特性"
+  ],
+  "introduction": "出場時，只讀取１個對手擁有的招式。",
+  "effect": "預知對手威力最強的招式，雙打對戰中會預知對方2只寶可夢中威力最強的招式。如果這樣的招式有多個，將會隨機預知一個。\n提示為：讀取了<寶可夢的名字>的<招式名稱>！\n變化招式的威力視為1。\n基礎威力為“變化”的非變化招式，威力根據以下取值。\n擁有該特性的寶可夢可以隨機迴避攻擊，即使是攻擊必定會命中的招式。TS",
+  "pokemon_list": [
+    {
+      "id": "0096",
+      "name": "催眠貘",
+      "form": "",
+      "icon": "-9em -4em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "預知夢",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0097",
+      "name": "引夢貘人",
+      "form": "",
+      "icon": "-10em -4em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "不眠",
+      "second_ability": "預知夢",
+      "hidden_ability": "精神力"
+    },
+    {
+      "id": "0124",
+      "name": "迷唇姐",
+      "form": "",
+      "icon": "-12em -5em",
+      "types": [
+        "冰",
+        "超能力"
+      ],
+      "first_ability": "遲鈍",
+      "second_ability": "預知夢",
+      "hidden_ability": "乾燥皮膚"
+    },
+    {
+      "id": "0238",
+      "name": "迷唇娃",
+      "form": "",
+      "icon": "-6em -10em",
+      "types": [
+        "冰",
+        "超能力"
+      ],
+      "first_ability": "遲鈍",
+      "second_ability": "預知夢",
+      "hidden_ability": "溼潤之軀"
+    },
+    {
+      "id": "0517",
+      "name": "食夢夢",
+      "form": "",
+      "icon": "-3em -20em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "預知夢",
+      "second_ability": "同步",
+      "hidden_ability": "心靈感應"
+    },
+    {
+      "id": "0518",
+      "name": "夢夢蝕",
+      "form": "",
+      "icon": "-4em -20em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "預知夢",
+      "second_ability": "同步",
+      "hidden_ability": "心靈感應"
+    }
+  ],
+  "id": "108"
+}

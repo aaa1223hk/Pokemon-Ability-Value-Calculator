@@ -1,0 +1,233 @@
+{
+  "name_zh": "隔音",
+  "name_ja": "ぼうおん",
+  "name_en": "Soundproof",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "透過遮蔽聲音，不受到聲音招式的影響。",
+  "effect": "不受其他寶可夢使出的聲音的招式影響，但會受到自己使出的聲音的招式影響。\n- 雙打對戰中在場上時不能被同伴的治癒鈴聲治癒。\n- 隔音特性的寶可夢被接棒傳遞終焉之歌狀態時，終焉之歌仍然有效。\n- 不能防止因滅亡之軀而產生的終焉之歌狀態。\n該特性寶可夢不受寶可夢之笛的影響FRLG。",
+  "pokemon_list": [
+    {
+      "id": "0100",
+      "name": "霹靂電球",
+      "form": "",
+      "icon": "-15em -4em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0100",
+      "name": "霹靂電球",
+      "form": "洗翠的樣子",
+      "icon": "-16em -4em",
+      "types": [
+        "電",
+        "草"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0101",
+      "name": "頑皮雷彈",
+      "form": "",
+      "icon": "-17em -4em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0101",
+      "name": "頑皮雷彈",
+      "form": "洗翠的樣子",
+      "icon": "-18em -4em",
+      "types": [
+        "電",
+        "草"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "靜電",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0122",
+      "name": "魔牆人偶",
+      "form": "",
+      "icon": "-8em -5em",
+      "types": [
+        "超能力",
+        "妖精"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "過濾",
+      "hidden_ability": "技術高手"
+    },
+    {
+      "id": "0293",
+      "name": "咕妞妞",
+      "form": "",
+      "icon": "-35em -11em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0294",
+      "name": "吼爆彈",
+      "form": "",
+      "icon": "-36em -11em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "",
+      "hidden_ability": "膽量"
+    },
+    {
+      "id": "0295",
+      "name": "爆音怪",
+      "form": "",
+      "icon": "-37em -11em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "",
+      "hidden_ability": "膽量"
+    },
+    {
+      "id": "0410",
+      "name": "盾甲龍",
+      "form": "",
+      "icon": "-37em -15em",
+      "types": [
+        "岩石",
+        "鋼"
+      ],
+      "first_ability": "結實",
+      "second_ability": "",
+      "hidden_ability": "隔音"
+    },
+    {
+      "id": "0411",
+      "name": "護城龍",
+      "form": "",
+      "icon": "-38em -15em",
+      "types": [
+        "岩石",
+        "鋼"
+      ],
+      "first_ability": "結實",
+      "second_ability": "",
+      "hidden_ability": "隔音"
+    },
+    {
+      "id": "0439",
+      "name": "魔尼尼",
+      "form": "",
+      "icon": "-39em -16em",
+      "types": [
+        "超能力",
+        "妖精"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "過濾",
+      "hidden_ability": "技術高手"
+    },
+    {
+      "id": "0459",
+      "name": "雪笠怪",
+      "form": "",
+      "icon": "-30em -17em",
+      "types": [
+        "草",
+        "冰"
+      ],
+      "first_ability": "降雪",
+      "second_ability": "",
+      "hidden_ability": "隔音"
+    },
+    {
+      "id": "0460",
+      "name": "暴雪王",
+      "form": "",
+      "icon": "-32em -17em",
+      "types": [
+        "草",
+        "冰"
+      ],
+      "first_ability": "降雪",
+      "second_ability": "",
+      "hidden_ability": "隔音"
+    },
+    {
+      "id": "0626",
+      "name": "爆炸頭水牛",
+      "form": "",
+      "icon": "-15em -23em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "捨身",
+      "second_ability": "食草",
+      "hidden_ability": "隔音"
+    },
+    {
+      "id": "0782",
+      "name": "心鱗寶",
+      "form": "",
+      "icon": "-35em -29em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "防彈",
+      "second_ability": "隔音",
+      "hidden_ability": "防塵"
+    },
+    {
+      "id": "0783",
+      "name": "鱗甲龍",
+      "form": "",
+      "icon": "-36em -29em",
+      "types": [
+        "龍",
+        "格鬥"
+      ],
+      "first_ability": "防彈",
+      "second_ability": "隔音",
+      "hidden_ability": "防塵"
+    },
+    {
+      "id": "0784",
+      "name": "杖尾鱗甲龍",
+      "form": "",
+      "icon": "-37em -29em",
+      "types": [
+        "龍",
+        "格鬥"
+      ],
+      "first_ability": "防彈",
+      "second_ability": "隔音",
+      "hidden_ability": "防塵"
+    }
+  ],
+  "id": "043"
+}

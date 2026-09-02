@@ -1,0 +1,319 @@
+{
+  "name_zh": "碎裂鎧甲",
+  "name_ja": "くだけるよろい",
+  "name_en": "Weak Armor",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到物理招式的傷害時，防禦會降低，速度會大幅提高。",
+  "effect": "受到物理招式攻擊時，防禦降低1級，速度提升2級。物理連續招式的每一擊都會觸發此特性。",
+  "pokemon_list": [
+    {
+      "id": "0095",
+      "name": "大巖蛇",
+      "form": "",
+      "icon": "-8em -4em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "堅硬腦袋",
+      "second_ability": "結實",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0138",
+      "name": "菊石獸",
+      "form": "",
+      "icon": "-37em -5em",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0139",
+      "name": "多刺菊石獸",
+      "form": "",
+      "icon": "-38em -5em",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0140",
+      "name": "化石盔",
+      "form": "",
+      "icon": "-39em -5em",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "戰鬥盔甲",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0141",
+      "name": "鐮刀盔",
+      "form": "",
+      "icon": "0 -6em",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "戰鬥盔甲",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0218",
+      "name": "熔岩蟲",
+      "form": "",
+      "icon": "-20em -9em",
+      "types": [
+        "火"
+      ],
+      "first_ability": "熔岩鎧甲",
+      "second_ability": "火焰之軀",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0219",
+      "name": "熔岩蝸牛",
+      "form": "",
+      "icon": "-21em -9em",
+      "types": [
+        "火",
+        "岩石"
+      ],
+      "first_ability": "熔岩鎧甲",
+      "second_ability": "火焰之軀",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0222",
+      "name": "太陽珊瑚",
+      "form": "伽勒爾的樣子",
+      "icon": "-26em -9em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "碎裂鎧甲",
+      "second_ability": "",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0227",
+      "name": "盔甲鳥",
+      "form": "",
+      "icon": "-32em -9em",
+      "types": [
+        "鋼",
+        "飛行"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "結實",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0524",
+      "name": "石丸子",
+      "form": "",
+      "icon": "-11em -20em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "碎裂鎧甲",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0525",
+      "name": "地幔巖",
+      "form": "",
+      "icon": "-12em -20em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "碎裂鎧甲",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0557",
+      "name": "石居蟹",
+      "form": "",
+      "icon": "-13em -21em",
+      "types": [
+        "蟲",
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0558",
+      "name": "巖殿居蟹",
+      "form": "",
+      "icon": "-14em -21em",
+      "types": [
+        "蟲",
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "硬殼盔甲",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0569",
+      "name": "灰塵山",
+      "form": "",
+      "icon": "-26em -21em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "碎裂鎧甲",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0582",
+      "name": "迷你冰",
+      "form": "",
+      "icon": "-2em -22em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "冰凍之軀",
+      "second_ability": "雪隱",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0583",
+      "name": "多多冰",
+      "form": "",
+      "icon": "-3em -22em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "冰凍之軀",
+      "second_ability": "雪隱",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0584",
+      "name": "雙倍多多冰",
+      "form": "",
+      "icon": "-4em -22em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "冰凍之軀",
+      "second_ability": "降雪",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0629",
+      "name": "禿鷹丫頭",
+      "form": "",
+      "icon": "-19em -23em",
+      "types": [
+        "惡",
+        "飛行"
+      ],
+      "first_ability": "健壯胸肌",
+      "second_ability": "防塵",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0630",
+      "name": "禿鷹娜",
+      "form": "",
+      "icon": "-20em -23em",
+      "types": [
+        "惡",
+        "飛行"
+      ],
+      "first_ability": "健壯胸肌",
+      "second_ability": "防塵",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0854",
+      "name": "來悲茶",
+      "form": "",
+      "icon": "-7em -32em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "碎裂鎧甲",
+      "second_ability": "",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0855",
+      "name": "怖思壺",
+      "form": "",
+      "icon": "-8em -32em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "碎裂鎧甲",
+      "second_ability": "",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0864",
+      "name": "魔靈珊瑚",
+      "form": "",
+      "icon": "-19em -32em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "碎裂鎧甲",
+      "second_ability": "",
+      "hidden_ability": "滅亡之軀"
+    },
+    {
+      "id": "0936",
+      "name": "紅蓮鎧騎",
+      "form": "",
+      "icon": "-17em -36em",
+      "types": [
+        "火",
+        "超能力"
+      ],
+      "first_ability": "引火",
+      "second_ability": "",
+      "hidden_ability": "碎裂鎧甲"
+    },
+    {
+      "id": "0937",
+      "name": "蒼炎刃鬼",
+      "form": "",
+      "icon": "-18em -36em",
+      "types": [
+        "火",
+        "幽靈"
+      ],
+      "first_ability": "引火",
+      "second_ability": "",
+      "hidden_ability": "碎裂鎧甲"
+    }
+  ],
+  "id": "133"
+}

@@ -1,0 +1,30 @@
+{
+  "name_zh": "電力轉換",
+  "name_ja": "でんきにかえる",
+  "name_en": "Electromorphosis",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到傷害時，會變為充電狀態。",
+  "effect": "受到傷害時，會進入充電狀態。\n- 連續招式每一擊都會單獨觸發該特性。\n- 充電狀態不能疊加。",
+  "pokemon_list": [
+    {
+      "id": "0939",
+      "name": "電肚蛙",
+      "form": "",
+      "icon": "-20em -36em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "電力轉換",
+      "second_ability": "靜電",
+      "hidden_ability": "溼氣"
+    }
+  ],
+  "id": "280"
+}

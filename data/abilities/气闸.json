@@ -1,0 +1,31 @@
+{
+  "name_zh": "氣閘",
+  "name_ja": "エアロック",
+  "name_en": "Air Lock",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "入場時發動該特性"
+  ],
+  "introduction": "所有天氣的影響都會消失。",
+  "effect": "擁有該特性的寶可夢在場時，任何天氣造成的影響無效。天氣並不會消失。",
+  "pokemon_list": [
+    {
+      "id": "0384",
+      "name": "烈空坐",
+      "form": "",
+      "icon": "-36em -14em",
+      "types": [
+        "龍",
+        "飛行"
+      ],
+      "first_ability": "氣閘",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "076"
+}

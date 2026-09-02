@@ -1,0 +1,260 @@
+{
+  "name_zh": "膽怯",
+  "name_ja": "びびり",
+  "name_en": "Rattled",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到惡屬性、幽靈屬性和蟲屬性的攻擊或威嚇時，會因膽怯而速度提高。",
+  "effect": "該特性的寶可夢受到惡屬性、幽靈屬性和蟲屬性屬性招式攻擊時，速度提升1級。對於惡屬性、幽靈屬性和蟲屬性連續招式，每次攻擊都能觸發該特性。\n受到威嚇影響，該特性的寶可夢速度提升1級。",
+  "pokemon_list": [
+    {
+      "id": "0052",
+      "name": "喵喵",
+      "form": "阿羅拉的樣子",
+      "icon": "-20em -2em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "撿拾",
+      "second_ability": "技術高手",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0053",
+      "name": "貓老大",
+      "form": "阿羅拉的樣子",
+      "icon": "-24em -2em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "毛皮大衣",
+      "second_ability": "技術高手",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0129",
+      "name": "鯉魚王",
+      "form": "",
+      "icon": "-21em -5em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "悠遊自如",
+      "second_ability": "",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0165",
+      "name": "芭瓢蟲",
+      "form": "",
+      "icon": "-33em -6em",
+      "types": [
+        "蟲",
+        "飛行"
+      ],
+      "first_ability": "蟲之預感",
+      "second_ability": "早起",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0185",
+      "name": "樹才怪",
+      "form": "",
+      "icon": "-18em -7em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0206",
+      "name": "土龍弟弟",
+      "form": "",
+      "icon": "-36em -8em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "天恩",
+      "second_ability": "逃跑",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0209",
+      "name": "布魯",
+      "form": "",
+      "icon": "-2em -9em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "逃跑",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0210",
+      "name": "布魯皇",
+      "form": "",
+      "icon": "-3em -9em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "威嚇",
+      "second_ability": "飛毛腿",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0261",
+      "name": "土狼犬",
+      "form": "",
+      "icon": "-35em -10em",
+      "types": [
+        "惡"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "飛毛腿",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0293",
+      "name": "咕妞妞",
+      "form": "",
+      "icon": "-35em -11em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0366",
+      "name": "珍珠貝",
+      "form": "",
+      "icon": "-11em -14em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "硬殼盔甲",
+      "second_ability": "",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0438",
+      "name": "盆才怪",
+      "form": "",
+      "icon": "-38em -16em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "結實",
+      "second_ability": "堅硬腦袋",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0550",
+      "name": "野蠻鱸魚",
+      "form": "白條紋的樣子",
+      "icon": "-2em -21em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "膽怯",
+      "second_ability": "適應力",
+      "hidden_ability": "破格"
+    },
+    {
+      "id": "0613",
+      "name": "噴嚏熊",
+      "form": "",
+      "icon": "-1em -23em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "雪隱",
+      "second_ability": "撥雪",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0835",
+      "name": "來電汪",
+      "form": "",
+      "icon": "-19em -31em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "撿球",
+      "second_ability": "",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0848",
+      "name": "電音嬰",
+      "form": "",
+      "icon": "-38em -31em",
+      "types": [
+        "電",
+        "毒"
+      ],
+      "first_ability": "膽怯",
+      "second_ability": "靜電",
+      "hidden_ability": "笨拙"
+    },
+    {
+      "id": "0960",
+      "name": "海地鼠",
+      "form": "",
+      "icon": "-1em -37em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "黏滑",
+      "second_ability": "膽怯",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0961",
+      "name": "三海地鼠",
+      "form": "",
+      "icon": "-2em -37em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "黏滑",
+      "second_ability": "膽怯",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0982",
+      "name": "土龍節節",
+      "form": "",
+      "icon": "-31em -37em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "天恩",
+      "second_ability": "逃跑",
+      "hidden_ability": "膽怯"
+    },
+    {
+      "id": "0999",
+      "name": "索財靈",
+      "form": "寶箱形態",
+      "icon": "-9em -38em",
+      "types": [
+        "幽靈"
+      ],
+      "first_ability": "膽怯",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "155"
+}

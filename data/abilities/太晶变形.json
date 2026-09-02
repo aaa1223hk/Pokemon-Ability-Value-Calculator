@@ -1,0 +1,30 @@
+{
+  "name_zh": "太晶變形",
+  "name_ja": "テラスチェンジ",
+  "name_en": "Tera Shift",
+  "basic_info": [
+    "不能被交換",
+    "不能被其他特性覆蓋",
+    "不能被其他寶可夢複製",
+    "不受無特性狀態影響",
+    "變身時特性無效",
+    "入場時發動該特性"
+  ],
+  "introduction": "出場時，會吸收周圍的能量，變為太晶形態。",
+  "effect": "出場時，會吸收周圍的能量，變為太晶形態。",
+  "pokemon_list": [
+    {
+      "id": "1024",
+      "name": "太樂巴戈斯",
+      "form": "",
+      "icon": "0 -39em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "太晶變形",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "307"
+}

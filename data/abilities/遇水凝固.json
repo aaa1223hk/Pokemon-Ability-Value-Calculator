@@ -1,0 +1,44 @@
+{
+  "name_zh": "遇水凝固",
+  "name_ja": "みずがため",
+  "name_en": "Water Compaction",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到水屬性的招式攻擊時，防禦會大幅提高。",
+  "effect": "受到水屬性的招式攻擊時，防禦會提升2個等級。\n若對方以遇水凝固的寶可夢為目標使用水屬性連續招式，則每一擊都會觸發效果。",
+  "pokemon_list": [
+    {
+      "id": "0769",
+      "name": "沙丘娃",
+      "form": "",
+      "icon": "-37em -28em",
+      "types": [
+        "幽靈",
+        "地面"
+      ],
+      "first_ability": "遇水凝固",
+      "second_ability": "",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0770",
+      "name": "噬沙堡爺",
+      "form": "",
+      "icon": "-38em -28em",
+      "types": [
+        "幽靈",
+        "地面"
+      ],
+      "first_ability": "遇水凝固",
+      "second_ability": "",
+      "hidden_ability": "沙隱"
+    }
+  ],
+  "id": "195"
+}

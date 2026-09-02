@@ -1,0 +1,3808 @@
+[
+  {
+    "id": "001",
+    "national_id": "0810",
+    "name": "敲音猴",
+    "types": [
+      "草"
+    ],
+    "icon": "-28em -30em"
+  },
+  {
+    "id": "002",
+    "national_id": "0811",
+    "name": "啪咚猴",
+    "types": [
+      "草"
+    ],
+    "icon": "-29em -30em"
+  },
+  {
+    "id": "003",
+    "national_id": "0812",
+    "name": "轟擂金剛猩",
+    "types": [
+      "草"
+    ],
+    "icon": "-30em -30em"
+  },
+  {
+    "id": "004",
+    "national_id": "0813",
+    "name": "炎兔兒",
+    "types": [
+      "火"
+    ],
+    "icon": "-32em -30em"
+  },
+  {
+    "id": "005",
+    "national_id": "0814",
+    "name": "騰蹴小將",
+    "types": [
+      "火"
+    ],
+    "icon": "-33em -30em"
+  },
+  {
+    "id": "006",
+    "national_id": "0815",
+    "name": "閃焰王牌",
+    "types": [
+      "火"
+    ],
+    "icon": "-34em -30em"
+  },
+  {
+    "id": "007",
+    "national_id": "0816",
+    "name": "淚眼蜥",
+    "types": [
+      "水"
+    ],
+    "icon": "-36em -30em"
+  },
+  {
+    "id": "008",
+    "national_id": "0817",
+    "name": "變澀蜥",
+    "types": [
+      "水"
+    ],
+    "icon": "-37em -30em"
+  },
+  {
+    "id": "009",
+    "national_id": "0818",
+    "name": "千面避役",
+    "types": [
+      "水"
+    ],
+    "icon": "-38em -30em"
+  },
+  {
+    "id": "010",
+    "national_id": "0824",
+    "name": "索偵蟲",
+    "types": [
+      "蟲"
+    ],
+    "icon": "-6em -31em"
+  },
+  {
+    "id": "011",
+    "national_id": "0825",
+    "name": "天罩蟲",
+    "types": [
+      "蟲",
+      "超能力"
+    ],
+    "icon": "-7em -31em"
+  },
+  {
+    "id": "012",
+    "national_id": "0826",
+    "name": "以歐路普",
+    "types": [
+      "蟲",
+      "超能力"
+    ],
+    "icon": "-8em -31em"
+  },
+  {
+    "id": "013",
+    "national_id": "0010",
+    "name": "綠毛蟲",
+    "types": [
+      "蟲"
+    ],
+    "icon": "-20em 0"
+  },
+  {
+    "id": "014",
+    "national_id": "0011",
+    "name": "鐵甲蛹",
+    "types": [
+      "蟲"
+    ],
+    "icon": "-21em 0"
+  },
+  {
+    "id": "015",
+    "national_id": "0012",
+    "name": "巴大蝶",
+    "types": [
+      "蟲",
+      "飛行"
+    ],
+    "icon": "-22em 0"
+  },
+  {
+    "id": "016",
+    "national_id": "0736",
+    "name": "強顎雞母蟲",
+    "types": [
+      "蟲"
+    ],
+    "icon": "-38em -27em"
+  },
+  {
+    "id": "017",
+    "national_id": "0737",
+    "name": "蟲電寶",
+    "types": [
+      "蟲",
+      "電"
+    ],
+    "icon": "-39em -27em"
+  },
+  {
+    "id": "018",
+    "national_id": "0738",
+    "name": "鍬農炮蟲",
+    "types": [
+      "蟲",
+      "電"
+    ],
+    "icon": "0 -28em"
+  },
+  {
+    "id": "019",
+    "national_id": "0163",
+    "name": "咕咕",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "icon": "-31em -6em"
+  },
+  {
+    "id": "020",
+    "national_id": "0164",
+    "name": "貓頭夜鷹",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "icon": "-32em -6em"
+  },
+  {
+    "id": "021",
+    "national_id": "0821",
+    "name": "稚山雀",
+    "types": [
+      "飛行"
+    ],
+    "icon": "-2em -31em"
+  },
+  {
+    "id": "022",
+    "national_id": "0822",
+    "name": "藍鴉",
+    "types": [
+      "飛行"
+    ],
+    "icon": "-3em -31em"
+  },
+  {
+    "id": "023",
+    "national_id": "0823",
+    "name": "鋼鎧鴉",
+    "types": [
+      "飛行",
+      "鋼"
+    ],
+    "icon": "-4em -31em"
+  },
+  {
+    "id": "024",
+    "national_id": "0819",
+    "name": "貪心栗鼠",
+    "types": [
+      "一般"
+    ],
+    "icon": "0 -31em"
+  },
+  {
+    "id": "025",
+    "national_id": "0820",
+    "name": "藏飽栗鼠",
+    "types": [
+      "一般"
+    ],
+    "icon": "-1em -31em"
+  },
+  {
+    "id": "026",
+    "national_id": "0519",
+    "name": "豆豆鴿",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "icon": "-5em -20em"
+  },
+  {
+    "id": "027",
+    "national_id": "0520",
+    "name": "咕咕鴿",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "icon": "-6em -20em"
+  },
+  {
+    "id": "028",
+    "national_id": "0521",
+    "name": "高傲雉雞",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "icon": "-7em -20em"
+  },
+  {
+    "id": "029",
+    "national_id": "0827",
+    "name": "狡小狐",
+    "types": [
+      "惡"
+    ],
+    "icon": "-10em -31em"
+  },
+  {
+    "id": "030",
+    "national_id": "0828",
+    "name": "猾大狐",
+    "types": [
+      "惡"
+    ],
+    "icon": "-11em -31em"
+  },
+  {
+    "id": "031",
+    "national_id": "0263",
+    "name": "蛇紋熊-伽勒爾的樣子",
+    "types": [
+      "惡",
+      "一般"
+    ],
+    "icon": "-38em -10em"
+  },
+  {
+    "id": "032",
+    "national_id": "0264",
+    "name": "直衝熊-伽勒爾的樣子",
+    "types": [
+      "惡",
+      "一般"
+    ],
+    "icon": "0 -11em"
+  },
+  {
+    "id": "033",
+    "national_id": "0862",
+    "name": "堵攔熊",
+    "types": [
+      "惡",
+      "一般"
+    ],
+    "icon": "-17em -32em"
+  },
+  {
+    "id": "034",
+    "national_id": "0831",
+    "name": "毛辮羊",
+    "types": [
+      "一般"
+    ],
+    "icon": "-14em -31em"
+  },
+  {
+    "id": "035",
+    "national_id": "0832",
+    "name": "毛毛角羊",
+    "types": [
+      "一般"
+    ],
+    "icon": "-15em -31em"
+  },
+  {
+    "id": "036",
+    "national_id": "0270",
+    "name": "蓮葉童子",
+    "types": [
+      "水",
+      "草"
+    ],
+    "icon": "-8em -11em"
+  },
+  {
+    "id": "037",
+    "national_id": "0271",
+    "name": "蓮帽小童",
+    "types": [
+      "水",
+      "草"
+    ],
+    "icon": "-9em -11em"
+  },
+  {
+    "id": "038",
+    "national_id": "0272",
+    "name": "樂天河童",
+    "types": [
+      "水",
+      "草"
+    ],
+    "icon": "-10em -11em"
+  },
+  {
+    "id": "039",
+    "national_id": "0273",
+    "name": "橡實果",
+    "types": [
+      "草"
+    ],
+    "icon": "-12em -11em"
+  },
+  {
+    "id": "040",
+    "national_id": "0274",
+    "name": "長鼻葉",
+    "types": [
+      "草",
+      "惡"
+    ],
+    "icon": "-13em -11em"
+  },
+  {
+    "id": "041",
+    "national_id": "0275",
+    "name": "狡猾天狗",
+    "types": [
+      "草",
+      "惡"
+    ],
+    "icon": "-15em -11em"
+  },
+  {
+    "id": "042",
+    "national_id": "0833",
+    "name": "咬咬龜",
+    "types": [
+      "水"
+    ],
+    "icon": "-16em -31em"
+  },
+  {
+    "id": "043",
+    "national_id": "0834",
+    "name": "暴噬龜",
+    "types": [
+      "水",
+      "岩石"
+    ],
+    "icon": "-17em -31em"
+  },
+  {
+    "id": "044",
+    "national_id": "0509",
+    "name": "扒手貓",
+    "types": [
+      "惡"
+    ],
+    "icon": "-35em -19em"
+  },
+  {
+    "id": "045",
+    "national_id": "0510",
+    "name": "酷豹",
+    "types": [
+      "惡"
+    ],
+    "icon": "-36em -19em"
+  },
+  {
+    "id": "046",
+    "national_id": "0835",
+    "name": "來電汪",
+    "types": [
+      "電"
+    ],
+    "icon": "-19em -31em"
+  },
+  {
+    "id": "047",
+    "national_id": "0836",
+    "name": "逐電犬",
+    "types": [
+      "電"
+    ],
+    "icon": "-20em -31em"
+  },
+  {
+    "id": "048",
+    "national_id": "0659",
+    "name": "掘掘兔",
+    "types": [
+      "一般"
+    ],
+    "icon": "-21em -24em"
+  },
+  {
+    "id": "049",
+    "national_id": "0660",
+    "name": "掘地兔",
+    "types": [
+      "一般",
+      "地面"
+    ],
+    "icon": "-22em -24em"
+  },
+  {
+    "id": "050",
+    "national_id": "0572",
+    "name": "泡沫栗鼠",
+    "types": [
+      "一般"
+    ],
+    "icon": "-32em -21em"
+  },
+  {
+    "id": "051",
+    "national_id": "0573",
+    "name": "奇諾栗鼠",
+    "types": [
+      "一般"
+    ],
+    "icon": "-33em -21em"
+  },
+  {
+    "id": "052",
+    "national_id": "0761",
+    "name": "甜竹竹",
+    "types": [
+      "草"
+    ],
+    "icon": "-29em -28em"
+  },
+  {
+    "id": "053",
+    "national_id": "0762",
+    "name": "甜舞妮",
+    "types": [
+      "草"
+    ],
+    "icon": "-30em -28em"
+  },
+  {
+    "id": "054",
+    "national_id": "0763",
+    "name": "甜冷美后",
+    "types": [
+      "草"
+    ],
+    "icon": "-31em -28em"
+  },
+  {
+    "id": "055",
+    "national_id": "0043",
+    "name": "走路草",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "icon": "-6em -2em"
+  },
+  {
+    "id": "056",
+    "national_id": "0044",
+    "name": "臭臭花",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "icon": "-7em -2em"
+  },
+  {
+    "id": "057",
+    "national_id": "0045",
+    "name": "霸王花",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "icon": "-9em -2em"
+  },
+  {
+    "id": "058",
+    "national_id": "0182",
+    "name": "美麗花",
+    "types": [
+      "草"
+    ],
+    "icon": "-15em -7em"
+  },
+  {
+    "id": "059",
+    "national_id": "0406",
+    "name": "含羞苞",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "icon": "-32em -15em"
+  },
+  {
+    "id": "060",
+    "national_id": "0315",
+    "name": "毒薔薇",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "icon": "-24em -12em"
+  },
+  {
+    "id": "061",
+    "national_id": "0407",
+    "name": "羅絲雷朵",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "icon": "-33em -15em"
+  },
+  {
+    "id": "062",
+    "national_id": "0278",
+    "name": "長翅鷗",
+    "types": [
+      "水",
+      "飛行"
+    ],
+    "icon": "-19em -11em"
+  },
+  {
+    "id": "063",
+    "national_id": "0279",
+    "name": "大嘴鷗",
+    "types": [
+      "水",
+      "飛行"
+    ],
+    "icon": "-20em -11em"
+  },
+  {
+    "id": "064",
+    "national_id": "0595",
+    "name": "電電蟲",
+    "types": [
+      "蟲",
+      "電"
+    ],
+    "icon": "-23em -22em"
+  },
+  {
+    "id": "065",
+    "national_id": "0596",
+    "name": "電蜘蛛",
+    "types": [
+      "蟲",
+      "電"
+    ],
+    "icon": "-24em -22em"
+  },
+  {
+    "id": "066",
+    "national_id": "0309",
+    "name": "落雷獸",
+    "types": [
+      "電"
+    ],
+    "icon": "-17em -12em"
+  },
+  {
+    "id": "067",
+    "national_id": "0310",
+    "name": "雷電獸",
+    "types": [
+      "電"
+    ],
+    "icon": "-18em -12em"
+  },
+  {
+    "id": "068",
+    "national_id": "0037",
+    "name": "六尾",
+    "types": [
+      "火"
+    ],
+    "icon": "-36em -1em"
+  },
+  {
+    "id": "069",
+    "national_id": "0038",
+    "name": "九尾",
+    "types": [
+      "火"
+    ],
+    "icon": "-38em -1em"
+  },
+  {
+    "id": "070",
+    "national_id": "0058",
+    "name": "卡蒂狗",
+    "types": [
+      "火"
+    ],
+    "icon": "-29em -2em"
+  },
+  {
+    "id": "071",
+    "national_id": "0059",
+    "name": "風速狗",
+    "types": [
+      "火"
+    ],
+    "icon": "-31em -2em"
+  },
+  {
+    "id": "072",
+    "national_id": "0582",
+    "name": "迷你冰",
+    "types": [
+      "冰"
+    ],
+    "icon": "-2em -22em"
+  },
+  {
+    "id": "073",
+    "national_id": "0583",
+    "name": "多多冰",
+    "types": [
+      "冰"
+    ],
+    "icon": "-3em -22em"
+  },
+  {
+    "id": "074",
+    "national_id": "0584",
+    "name": "雙倍多多冰",
+    "types": [
+      "冰"
+    ],
+    "icon": "-4em -22em"
+  },
+  {
+    "id": "075",
+    "national_id": "0220",
+    "name": "小山豬",
+    "types": [
+      "冰",
+      "地面"
+    ],
+    "icon": "-22em -9em"
+  },
+  {
+    "id": "076",
+    "national_id": "0221",
+    "name": "長毛豬",
+    "types": [
+      "冰",
+      "地面"
+    ],
+    "icon": "-23em -9em"
+  },
+  {
+    "id": "077",
+    "national_id": "0473",
+    "name": "象牙豬",
+    "types": [
+      "冰",
+      "地面"
+    ],
+    "icon": "-10em -18em"
+  },
+  {
+    "id": "078",
+    "national_id": "0225",
+    "name": "信使鳥",
+    "types": [
+      "冰",
+      "飛行"
+    ],
+    "icon": "-30em -9em"
+  },
+  {
+    "id": "079",
+    "national_id": "0361",
+    "name": "雪童子",
+    "types": [
+      "冰"
+    ],
+    "icon": "-5em -14em"
+  },
+  {
+    "id": "080",
+    "national_id": "0362",
+    "name": "冰鬼護",
+    "types": [
+      "冰"
+    ],
+    "icon": "-6em -14em"
+  },
+  {
+    "id": "081",
+    "national_id": "0478",
+    "name": "雪妖女",
+    "types": [
+      "冰",
+      "幽靈"
+    ],
+    "icon": "-17em -18em"
+  },
+  {
+    "id": "082",
+    "national_id": "0343",
+    "name": "天秤偶",
+    "types": [
+      "地面",
+      "超能力"
+    ],
+    "icon": "-21em -13em"
+  },
+  {
+    "id": "083",
+    "national_id": "0344",
+    "name": "念力土偶",
+    "types": [
+      "地面",
+      "超能力"
+    ],
+    "icon": "-22em -13em"
+  },
+  {
+    "id": "084",
+    "national_id": "0749",
+    "name": "泥驢仔",
+    "types": [
+      "地面"
+    ],
+    "icon": "-17em -28em"
+  },
+  {
+    "id": "085",
+    "national_id": "0750",
+    "name": "重泥挽馬",
+    "types": [
+      "地面"
+    ],
+    "icon": "-18em -28em"
+  },
+  {
+    "id": "086",
+    "national_id": "0557",
+    "name": "石居蟹",
+    "types": [
+      "蟲",
+      "岩石"
+    ],
+    "icon": "-13em -21em"
+  },
+  {
+    "id": "087",
+    "national_id": "0558",
+    "name": "巖殿居蟹",
+    "types": [
+      "蟲",
+      "岩石"
+    ],
+    "icon": "-14em -21em"
+  },
+  {
+    "id": "088",
+    "national_id": "0622",
+    "name": "泥偶小人",
+    "types": [
+      "地面",
+      "幽靈"
+    ],
+    "icon": "-11em -23em"
+  },
+  {
+    "id": "089",
+    "national_id": "0623",
+    "name": "泥偶巨人",
+    "types": [
+      "地面",
+      "幽靈"
+    ],
+    "icon": "-12em -23em"
+  },
+  {
+    "id": "090",
+    "national_id": "0517",
+    "name": "食夢夢",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-3em -20em"
+  },
+  {
+    "id": "091",
+    "national_id": "0518",
+    "name": "夢夢蝕",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-4em -20em"
+  },
+  {
+    "id": "092",
+    "national_id": "0177",
+    "name": "天然雀",
+    "types": [
+      "超能力",
+      "飛行"
+    ],
+    "icon": "-8em -7em"
+  },
+  {
+    "id": "093",
+    "national_id": "0178",
+    "name": "天然鳥",
+    "types": [
+      "超能力",
+      "飛行"
+    ],
+    "icon": "-9em -7em"
+  },
+  {
+    "id": "094",
+    "national_id": "0759",
+    "name": "童偶熊",
+    "types": [
+      "一般",
+      "格鬥"
+    ],
+    "icon": "-27em -28em"
+  },
+  {
+    "id": "095",
+    "national_id": "0760",
+    "name": "穿著熊",
+    "types": [
+      "一般",
+      "格鬥"
+    ],
+    "icon": "-28em -28em"
+  },
+  {
+    "id": "096",
+    "national_id": "0459",
+    "name": "雪笠怪",
+    "types": [
+      "草",
+      "冰"
+    ],
+    "icon": "-30em -17em"
+  },
+  {
+    "id": "097",
+    "national_id": "0460",
+    "name": "暴雪王",
+    "types": [
+      "草",
+      "冰"
+    ],
+    "icon": "-32em -17em"
+  },
+  {
+    "id": "098",
+    "national_id": "0098",
+    "name": "大鉗蟹",
+    "types": [
+      "水"
+    ],
+    "icon": "-12em -4em"
+  },
+  {
+    "id": "099",
+    "national_id": "0099",
+    "name": "巨鉗蟹",
+    "types": [
+      "水"
+    ],
+    "icon": "-13em -4em"
+  },
+  {
+    "id": "100",
+    "national_id": "0194",
+    "name": "烏波",
+    "types": [
+      "水",
+      "地面"
+    ],
+    "icon": "-30em -7em"
+  },
+  {
+    "id": "101",
+    "national_id": "0195",
+    "name": "沼王",
+    "types": [
+      "水",
+      "地面"
+    ],
+    "icon": "-33em -7em"
+  },
+  {
+    "id": "102",
+    "national_id": "0341",
+    "name": "龍蝦小兵",
+    "types": [
+      "水"
+    ],
+    "icon": "-19em -13em"
+  },
+  {
+    "id": "103",
+    "national_id": "0342",
+    "name": "鐵螯龍蝦",
+    "types": [
+      "水",
+      "惡"
+    ],
+    "icon": "-20em -13em"
+  },
+  {
+    "id": "104",
+    "national_id": "0290",
+    "name": "土居忍士",
+    "types": [
+      "蟲",
+      "地面"
+    ],
+    "icon": "-32em -11em"
+  },
+  {
+    "id": "105",
+    "national_id": "0291",
+    "name": "鐵面忍者",
+    "types": [
+      "蟲",
+      "飛行"
+    ],
+    "icon": "-33em -11em"
+  },
+  {
+    "id": "106",
+    "national_id": "0292",
+    "name": "脫殼忍者",
+    "types": [
+      "蟲",
+      "幽靈"
+    ],
+    "icon": "-34em -11em"
+  },
+  {
+    "id": "107",
+    "national_id": "0236",
+    "name": "無畏小子",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-4em -10em"
+  },
+  {
+    "id": "108",
+    "national_id": "0106",
+    "name": "飛腿郎",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-26em -4em"
+  },
+  {
+    "id": "109",
+    "national_id": "0107",
+    "name": "快拳郎",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-27em -4em"
+  },
+  {
+    "id": "110",
+    "national_id": "0237",
+    "name": "戰舞郎",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-5em -10em"
+  },
+  {
+    "id": "111",
+    "national_id": "0674",
+    "name": "頑皮熊貓",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-29em -25em"
+  },
+  {
+    "id": "112",
+    "national_id": "0675",
+    "name": "霸道熊貓",
+    "types": [
+      "格鬥",
+      "惡"
+    ],
+    "icon": "-30em -25em"
+  },
+  {
+    "id": "113",
+    "national_id": "0599",
+    "name": "齒輪兒",
+    "types": [
+      "鋼"
+    ],
+    "icon": "-27em -22em"
+  },
+  {
+    "id": "114",
+    "national_id": "0600",
+    "name": "齒輪組",
+    "types": [
+      "鋼"
+    ],
+    "icon": "-28em -22em"
+  },
+  {
+    "id": "115",
+    "national_id": "0601",
+    "name": "齒輪怪",
+    "types": [
+      "鋼"
+    ],
+    "icon": "-29em -22em"
+  },
+  {
+    "id": "116",
+    "national_id": "0415",
+    "name": "三蜜蜂",
+    "types": [
+      "蟲",
+      "飛行"
+    ],
+    "icon": "-6em -16em"
+  },
+  {
+    "id": "117",
+    "national_id": "0416",
+    "name": "蜂女王",
+    "types": [
+      "蟲",
+      "飛行"
+    ],
+    "icon": "-8em -16em"
+  },
+  {
+    "id": "118",
+    "national_id": "0436",
+    "name": "銅鏡怪",
+    "types": [
+      "鋼",
+      "超能力"
+    ],
+    "icon": "-36em -16em"
+  },
+  {
+    "id": "119",
+    "national_id": "0437",
+    "name": "青銅鐘",
+    "types": [
+      "鋼",
+      "超能力"
+    ],
+    "icon": "-37em -16em"
+  },
+  {
+    "id": "120",
+    "national_id": "0280",
+    "name": "拉魯拉絲",
+    "types": [
+      "超能力",
+      "妖精"
+    ],
+    "icon": "-21em -11em"
+  },
+  {
+    "id": "121",
+    "national_id": "0281",
+    "name": "奇魯莉安",
+    "types": [
+      "超能力",
+      "妖精"
+    ],
+    "icon": "-22em -11em"
+  },
+  {
+    "id": "122",
+    "national_id": "0282",
+    "name": "沙奈朵",
+    "types": [
+      "超能力",
+      "妖精"
+    ],
+    "icon": "-23em -11em"
+  },
+  {
+    "id": "123",
+    "national_id": "0475",
+    "name": "艾路雷朵",
+    "types": [
+      "超能力",
+      "格鬥"
+    ],
+    "icon": "-13em -18em"
+  },
+  {
+    "id": "124",
+    "national_id": "0425",
+    "name": "飄飄球",
+    "types": [
+      "幽靈",
+      "飛行"
+    ],
+    "icon": "-24em -16em"
+  },
+  {
+    "id": "125",
+    "national_id": "0426",
+    "name": "隨風球",
+    "types": [
+      "幽靈",
+      "飛行"
+    ],
+    "icon": "-25em -16em"
+  },
+  {
+    "id": "126",
+    "national_id": "0829",
+    "name": "幼棉棉",
+    "types": [
+      "草"
+    ],
+    "icon": "-12em -31em"
+  },
+  {
+    "id": "127",
+    "national_id": "0830",
+    "name": "白蓬蓬",
+    "types": [
+      "草"
+    ],
+    "icon": "-13em -31em"
+  },
+  {
+    "id": "128",
+    "national_id": "0420",
+    "name": "櫻花寶",
+    "types": [
+      "草"
+    ],
+    "icon": "-15em -16em"
+  },
+  {
+    "id": "129",
+    "national_id": "0421",
+    "name": "櫻花兒",
+    "types": [
+      "草"
+    ],
+    "icon": "-16em -16em"
+  },
+  {
+    "id": "130",
+    "national_id": "0434",
+    "name": "臭鼬噗",
+    "types": [
+      "毒",
+      "惡"
+    ],
+    "icon": "-34em -16em"
+  },
+  {
+    "id": "131",
+    "national_id": "0435",
+    "name": "坦克臭鼬",
+    "types": [
+      "毒",
+      "惡"
+    ],
+    "icon": "-35em -16em"
+  },
+  {
+    "id": "132",
+    "national_id": "0535",
+    "name": "圓蝌蚪",
+    "types": [
+      "水"
+    ],
+    "icon": "-23em -20em"
+  },
+  {
+    "id": "133",
+    "national_id": "0536",
+    "name": "藍蟾蜍",
+    "types": [
+      "水",
+      "地面"
+    ],
+    "icon": "-24em -20em"
+  },
+  {
+    "id": "134",
+    "national_id": "0537",
+    "name": "蟾蜍王",
+    "types": [
+      "水",
+      "地面"
+    ],
+    "icon": "-25em -20em"
+  },
+  {
+    "id": "135",
+    "national_id": "0355",
+    "name": "夜巡靈",
+    "types": [
+      "幽靈"
+    ],
+    "icon": "-38em -13em"
+  },
+  {
+    "id": "136",
+    "national_id": "0356",
+    "name": "彷徨夜靈",
+    "types": [
+      "幽靈"
+    ],
+    "icon": "-39em -13em"
+  },
+  {
+    "id": "137",
+    "national_id": "0477",
+    "name": "黑夜魔靈",
+    "types": [
+      "幽靈"
+    ],
+    "icon": "-16em -18em"
+  },
+  {
+    "id": "138",
+    "national_id": "0066",
+    "name": "腕力",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-3em -3em"
+  },
+  {
+    "id": "139",
+    "national_id": "0067",
+    "name": "豪力",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-4em -3em"
+  },
+  {
+    "id": "140",
+    "national_id": "0068",
+    "name": "怪力",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-5em -3em"
+  },
+  {
+    "id": "141",
+    "national_id": "0092",
+    "name": "鬼斯",
+    "types": [
+      "幽靈",
+      "毒"
+    ],
+    "icon": "-3em -4em"
+  },
+  {
+    "id": "142",
+    "national_id": "0093",
+    "name": "鬼斯通",
+    "types": [
+      "幽靈",
+      "毒"
+    ],
+    "icon": "-4em -4em"
+  },
+  {
+    "id": "143",
+    "national_id": "0094",
+    "name": "耿鬼",
+    "types": [
+      "幽靈",
+      "毒"
+    ],
+    "icon": "-5em -4em"
+  },
+  {
+    "id": "144",
+    "national_id": "0129",
+    "name": "鯉魚王",
+    "types": [
+      "水"
+    ],
+    "icon": "-21em -5em"
+  },
+  {
+    "id": "145",
+    "national_id": "0130",
+    "name": "暴鯉龍",
+    "types": [
+      "水",
+      "飛行"
+    ],
+    "icon": "-23em -5em"
+  },
+  {
+    "id": "146",
+    "national_id": "0118",
+    "name": "角金魚",
+    "types": [
+      "水"
+    ],
+    "icon": "-2em -5em"
+  },
+  {
+    "id": "147",
+    "national_id": "0119",
+    "name": "金魚王",
+    "types": [
+      "水"
+    ],
+    "icon": "-4em -5em"
+  },
+  {
+    "id": "148",
+    "national_id": "0223",
+    "name": "鐵炮魚",
+    "types": [
+      "水"
+    ],
+    "icon": "-27em -9em"
+  },
+  {
+    "id": "149",
+    "national_id": "0224",
+    "name": "章魚桶",
+    "types": [
+      "水"
+    ],
+    "icon": "-28em -9em"
+  },
+  {
+    "id": "150",
+    "national_id": "0090",
+    "name": "大舌貝",
+    "types": [
+      "水"
+    ],
+    "icon": "-1em -4em"
+  },
+  {
+    "id": "151",
+    "national_id": "0091",
+    "name": "刺甲貝",
+    "types": [
+      "水",
+      "冰"
+    ],
+    "icon": "-2em -4em"
+  },
+  {
+    "id": "152",
+    "national_id": "0349",
+    "name": "醜醜魚",
+    "types": [
+      "水"
+    ],
+    "icon": "-27em -13em"
+  },
+  {
+    "id": "153",
+    "national_id": "0350",
+    "name": "美納斯",
+    "types": [
+      "水"
+    ],
+    "icon": "-28em -13em"
+  },
+  {
+    "id": "154",
+    "national_id": "0550",
+    "name": "野蠻鱸魚",
+    "types": [
+      "水"
+    ],
+    "icon": "0 -21em"
+  },
+  {
+    "id": "155",
+    "national_id": "0746",
+    "name": "弱丁魚",
+    "types": [
+      "水"
+    ],
+    "icon": "-13em -28em"
+  },
+  {
+    "id": "156",
+    "national_id": "0771",
+    "name": "拳海參",
+    "types": [
+      "水"
+    ],
+    "icon": "-39em -28em"
+  },
+  {
+    "id": "157",
+    "national_id": "0568",
+    "name": "破破袋",
+    "types": [
+      "毒"
+    ],
+    "icon": "-25em -21em"
+  },
+  {
+    "id": "158",
+    "national_id": "0569",
+    "name": "灰塵山",
+    "types": [
+      "毒"
+    ],
+    "icon": "-26em -21em"
+  },
+  {
+    "id": "159",
+    "national_id": "0850",
+    "name": "燒火蚣",
+    "types": [
+      "火",
+      "蟲"
+    ],
+    "icon": "-2em -32em"
+  },
+  {
+    "id": "160",
+    "national_id": "0851",
+    "name": "焚焰蚣",
+    "types": [
+      "火",
+      "蟲"
+    ],
+    "icon": "-3em -32em"
+  },
+  {
+    "id": "161",
+    "national_id": "0837",
+    "name": "小炭仔",
+    "types": [
+      "岩石"
+    ],
+    "icon": "-21em -31em"
+  },
+  {
+    "id": "162",
+    "national_id": "0838",
+    "name": "大炭車",
+    "types": [
+      "岩石",
+      "火"
+    ],
+    "icon": "-22em -31em"
+  },
+  {
+    "id": "163",
+    "national_id": "0839",
+    "name": "巨炭山",
+    "types": [
+      "岩石",
+      "火"
+    ],
+    "icon": "-23em -31em"
+  },
+  {
+    "id": "164",
+    "national_id": "0050",
+    "name": "地鼠",
+    "types": [
+      "地面"
+    ],
+    "icon": "-15em -2em"
+  },
+  {
+    "id": "165",
+    "national_id": "0051",
+    "name": "三地鼠",
+    "types": [
+      "地面"
+    ],
+    "icon": "-17em -2em"
+  },
+  {
+    "id": "166",
+    "national_id": "0529",
+    "name": "螺釘地鼠",
+    "types": [
+      "地面"
+    ],
+    "icon": "-16em -20em"
+  },
+  {
+    "id": "167",
+    "national_id": "0530",
+    "name": "龍頭地鼠",
+    "types": [
+      "地面",
+      "鋼"
+    ],
+    "icon": "-17em -20em"
+  },
+  {
+    "id": "168",
+    "national_id": "0524",
+    "name": "石丸子",
+    "types": [
+      "岩石"
+    ],
+    "icon": "-11em -20em"
+  },
+  {
+    "id": "169",
+    "national_id": "0525",
+    "name": "地幔巖",
+    "types": [
+      "岩石"
+    ],
+    "icon": "-12em -20em"
+  },
+  {
+    "id": "170",
+    "national_id": "0526",
+    "name": "龐巖怪",
+    "types": [
+      "岩石"
+    ],
+    "icon": "-13em -20em"
+  },
+  {
+    "id": "171",
+    "national_id": "0532",
+    "name": "搬運小匠",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-20em -20em"
+  },
+  {
+    "id": "172",
+    "national_id": "0533",
+    "name": "鐵骨土人",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-21em -20em"
+  },
+  {
+    "id": "173",
+    "national_id": "0534",
+    "name": "修建老匠",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-22em -20em"
+  },
+  {
+    "id": "174",
+    "national_id": "0527",
+    "name": "滾滾蝙蝠",
+    "types": [
+      "超能力",
+      "飛行"
+    ],
+    "icon": "-14em -20em"
+  },
+  {
+    "id": "175",
+    "national_id": "0528",
+    "name": "心蝙蝠",
+    "types": [
+      "超能力",
+      "飛行"
+    ],
+    "icon": "-15em -20em"
+  },
+  {
+    "id": "176",
+    "national_id": "0714",
+    "name": "嗡蝠",
+    "types": [
+      "飛行",
+      "龍"
+    ],
+    "icon": "-10em -27em"
+  },
+  {
+    "id": "177",
+    "national_id": "0715",
+    "name": "音波龍",
+    "types": [
+      "飛行",
+      "龍"
+    ],
+    "icon": "-11em -27em"
+  },
+  {
+    "id": "178",
+    "national_id": "0095",
+    "name": "大巖蛇",
+    "types": [
+      "岩石",
+      "地面"
+    ],
+    "icon": "-8em -4em"
+  },
+  {
+    "id": "179",
+    "national_id": "0208",
+    "name": "大鋼蛇",
+    "types": [
+      "鋼",
+      "地面"
+    ],
+    "icon": "-39em -8em"
+  },
+  {
+    "id": "180",
+    "national_id": "0846",
+    "name": "刺梭魚",
+    "types": [
+      "水"
+    ],
+    "icon": "-36em -31em"
+  },
+  {
+    "id": "181",
+    "national_id": "0847",
+    "name": "戽斗尖梭",
+    "types": [
+      "水"
+    ],
+    "icon": "-37em -31em"
+  },
+  {
+    "id": "182",
+    "national_id": "0052",
+    "name": "喵喵-伽勒爾的樣子",
+    "types": [
+      "鋼"
+    ],
+    "icon": "-21em -2em"
+  },
+  {
+    "id": "183",
+    "national_id": "0863",
+    "name": "喵頭目",
+    "types": [
+      "鋼"
+    ],
+    "icon": "-18em -32em"
+  },
+  {
+    "id": "184",
+    "national_id": "0053",
+    "name": "貓老大",
+    "types": [
+      "一般"
+    ],
+    "icon": "-23em -2em"
+  },
+  {
+    "id": "185",
+    "national_id": "0868",
+    "name": "小仙奶",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-23em -32em"
+  },
+  {
+    "id": "186",
+    "national_id": "0869",
+    "name": "霜奶仙",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-24em -32em"
+  },
+  {
+    "id": "187",
+    "national_id": "0742",
+    "name": "萌虻",
+    "types": [
+      "蟲",
+      "妖精"
+    ],
+    "icon": "-7em -28em"
+  },
+  {
+    "id": "188",
+    "national_id": "0743",
+    "name": "蝶結萌虻",
+    "types": [
+      "蟲",
+      "妖精"
+    ],
+    "icon": "-8em -28em"
+  },
+  {
+    "id": "189",
+    "national_id": "0597",
+    "name": "種子鐵球",
+    "types": [
+      "草",
+      "鋼"
+    ],
+    "icon": "-25em -22em"
+  },
+  {
+    "id": "190",
+    "national_id": "0598",
+    "name": "堅果啞鈴",
+    "types": [
+      "草",
+      "鋼"
+    ],
+    "icon": "-26em -22em"
+  },
+  {
+    "id": "191",
+    "national_id": "0710",
+    "name": "南瓜精",
+    "types": [
+      "幽靈",
+      "草"
+    ],
+    "icon": "-38em -26em"
+  },
+  {
+    "id": "192",
+    "national_id": "0711",
+    "name": "南瓜怪人",
+    "types": [
+      "幽靈",
+      "草"
+    ],
+    "icon": "-2em -27em"
+  },
+  {
+    "id": "193",
+    "national_id": "0172",
+    "name": "皮丘",
+    "types": [
+      "電"
+    ],
+    "icon": "-2em -7em"
+  },
+  {
+    "id": "194",
+    "national_id": "0025",
+    "name": "皮卡丘",
+    "types": [
+      "電"
+    ],
+    "icon": "-3em -1em"
+  },
+  {
+    "id": "195",
+    "national_id": "0026",
+    "name": "雷丘",
+    "types": [
+      "電"
+    ],
+    "icon": "-21em -1em"
+  },
+  {
+    "id": "196",
+    "national_id": "0133",
+    "name": "伊布",
+    "types": [
+      "一般"
+    ],
+    "icon": "-29em -5em"
+  },
+  {
+    "id": "197",
+    "national_id": "0134",
+    "name": "水伊布",
+    "types": [
+      "水"
+    ],
+    "icon": "-33em -5em"
+  },
+  {
+    "id": "198",
+    "national_id": "0135",
+    "name": "雷伊布",
+    "types": [
+      "電"
+    ],
+    "icon": "-34em -5em"
+  },
+  {
+    "id": "199",
+    "national_id": "0136",
+    "name": "火伊布",
+    "types": [
+      "火"
+    ],
+    "icon": "-35em -5em"
+  },
+  {
+    "id": "200",
+    "national_id": "0196",
+    "name": "太陽伊布",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-35em -7em"
+  },
+  {
+    "id": "201",
+    "national_id": "0197",
+    "name": "月亮伊布",
+    "types": [
+      "惡"
+    ],
+    "icon": "-36em -7em"
+  },
+  {
+    "id": "202",
+    "national_id": "0470",
+    "name": "葉伊布",
+    "types": [
+      "草"
+    ],
+    "icon": "-7em -18em"
+  },
+  {
+    "id": "203",
+    "national_id": "0471",
+    "name": "冰伊布",
+    "types": [
+      "冰"
+    ],
+    "icon": "-8em -18em"
+  },
+  {
+    "id": "204",
+    "national_id": "0700",
+    "name": "仙子伊布",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-26em -26em"
+  },
+  {
+    "id": "205",
+    "national_id": "0840",
+    "name": "啃果蟲",
+    "types": [
+      "草",
+      "龍"
+    ],
+    "icon": "-25em -31em"
+  },
+  {
+    "id": "206",
+    "national_id": "0841",
+    "name": "蘋裹龍",
+    "types": [
+      "草",
+      "龍"
+    ],
+    "icon": "-26em -31em"
+  },
+  {
+    "id": "207",
+    "national_id": "0842",
+    "name": "豐蜜龍",
+    "types": [
+      "草",
+      "龍"
+    ],
+    "icon": "-28em -31em"
+  },
+  {
+    "id": "208",
+    "national_id": "0677",
+    "name": "妙喵",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-1em -26em"
+  },
+  {
+    "id": "209",
+    "national_id": "0678",
+    "name": "超能妙喵",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-2em -26em"
+  },
+  {
+    "id": "210",
+    "national_id": "0684",
+    "name": "綿綿泡芙",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-10em -26em"
+  },
+  {
+    "id": "211",
+    "national_id": "0685",
+    "name": "胖甜妮",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-11em -26em"
+  },
+  {
+    "id": "212",
+    "national_id": "0682",
+    "name": "粉香香",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-8em -26em"
+  },
+  {
+    "id": "213",
+    "national_id": "0683",
+    "name": "芳香精",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-9em -26em"
+  },
+  {
+    "id": "214",
+    "national_id": "0751",
+    "name": "滴蛛",
+    "types": [
+      "水",
+      "蟲"
+    ],
+    "icon": "-19em -28em"
+  },
+  {
+    "id": "215",
+    "national_id": "0752",
+    "name": "滴蛛霸",
+    "types": [
+      "水",
+      "蟲"
+    ],
+    "icon": "-20em -28em"
+  },
+  {
+    "id": "216",
+    "national_id": "0360",
+    "name": "小果然",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-4em -14em"
+  },
+  {
+    "id": "217",
+    "national_id": "0202",
+    "name": "果然翁",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-30em -8em"
+  },
+  {
+    "id": "218",
+    "national_id": "0083",
+    "name": "大蔥鴨-伽勒爾的樣子",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-30em -3em"
+  },
+  {
+    "id": "219",
+    "national_id": "0865",
+    "name": "蔥遊兵",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-20em -32em"
+  },
+  {
+    "id": "220",
+    "national_id": "0170",
+    "name": "燈籠魚",
+    "types": [
+      "水",
+      "電"
+    ],
+    "icon": "0 -7em"
+  },
+  {
+    "id": "221",
+    "national_id": "0171",
+    "name": "電燈怪",
+    "types": [
+      "水",
+      "電"
+    ],
+    "icon": "-1em -7em"
+  },
+  {
+    "id": "222",
+    "national_id": "0453",
+    "name": "不良蛙",
+    "types": [
+      "毒",
+      "格鬥"
+    ],
+    "icon": "-20em -17em"
+  },
+  {
+    "id": "223",
+    "national_id": "0454",
+    "name": "毒骷蛙",
+    "types": [
+      "毒",
+      "格鬥"
+    ],
+    "icon": "-22em -17em"
+  },
+  {
+    "id": "224",
+    "national_id": "0559",
+    "name": "滑滑小子",
+    "types": [
+      "惡",
+      "格鬥"
+    ],
+    "icon": "-15em -21em"
+  },
+  {
+    "id": "225",
+    "national_id": "0560",
+    "name": "頭巾混混",
+    "types": [
+      "惡",
+      "格鬥"
+    ],
+    "icon": "-16em -21em"
+  },
+  {
+    "id": "226",
+    "national_id": "0618",
+    "name": "泥巴魚-伽勒爾的樣子",
+    "types": [
+      "地面",
+      "鋼"
+    ],
+    "icon": "-7em -23em"
+  },
+  {
+    "id": "227",
+    "national_id": "0213",
+    "name": "壺壺",
+    "types": [
+      "蟲",
+      "岩石"
+    ],
+    "icon": "-9em -9em"
+  },
+  {
+    "id": "228",
+    "national_id": "0339",
+    "name": "泥泥鰍",
+    "types": [
+      "水",
+      "地面"
+    ],
+    "icon": "-17em -13em"
+  },
+  {
+    "id": "229",
+    "national_id": "0340",
+    "name": "鯰魚王",
+    "types": [
+      "水",
+      "地面"
+    ],
+    "icon": "-18em -13em"
+  },
+  {
+    "id": "230",
+    "national_id": "0422",
+    "name": "無殼海兔",
+    "types": [
+      "水"
+    ],
+    "icon": "-18em -16em"
+  },
+  {
+    "id": "231",
+    "national_id": "0423",
+    "name": "海兔獸",
+    "types": [
+      "水",
+      "地面"
+    ],
+    "icon": "-20em -16em"
+  },
+  {
+    "id": "232",
+    "national_id": "0767",
+    "name": "膽小蟲",
+    "types": [
+      "蟲",
+      "水"
+    ],
+    "icon": "-35em -28em"
+  },
+  {
+    "id": "233",
+    "national_id": "0768",
+    "name": "具甲武者",
+    "types": [
+      "蟲",
+      "水"
+    ],
+    "icon": "-36em -28em"
+  },
+  {
+    "id": "234",
+    "national_id": "0688",
+    "name": "龜腳腳",
+    "types": [
+      "岩石",
+      "水"
+    ],
+    "icon": "-14em -26em"
+  },
+  {
+    "id": "235",
+    "national_id": "0689",
+    "name": "龜足巨鎧",
+    "types": [
+      "岩石",
+      "水"
+    ],
+    "icon": "-15em -26em"
+  },
+  {
+    "id": "236",
+    "national_id": "0222",
+    "name": "太陽珊瑚-伽勒爾的樣子",
+    "types": [
+      "幽靈"
+    ],
+    "icon": "-26em -9em"
+  },
+  {
+    "id": "237",
+    "national_id": "0864",
+    "name": "魔靈珊瑚",
+    "types": [
+      "幽靈"
+    ],
+    "icon": "-19em -32em"
+  },
+  {
+    "id": "238",
+    "national_id": "0859",
+    "name": "搗蛋小妖",
+    "types": [
+      "惡",
+      "妖精"
+    ],
+    "icon": "-13em -32em"
+  },
+  {
+    "id": "239",
+    "national_id": "0860",
+    "name": "詐唬魔",
+    "types": [
+      "惡",
+      "妖精"
+    ],
+    "icon": "-14em -32em"
+  },
+  {
+    "id": "240",
+    "national_id": "0861",
+    "name": "長毛巨魔",
+    "types": [
+      "惡",
+      "妖精"
+    ],
+    "icon": "-15em -32em"
+  },
+  {
+    "id": "241",
+    "national_id": "0856",
+    "name": "迷布莉姆",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-9em -32em"
+  },
+  {
+    "id": "242",
+    "national_id": "0857",
+    "name": "提布莉姆",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-10em -32em"
+  },
+  {
+    "id": "243",
+    "national_id": "0858",
+    "name": "布莉姆溫",
+    "types": [
+      "超能力",
+      "妖精"
+    ],
+    "icon": "-11em -32em"
+  },
+  {
+    "id": "244",
+    "national_id": "0757",
+    "name": "夜盜火蜥",
+    "types": [
+      "毒",
+      "火"
+    ],
+    "icon": "-25em -28em"
+  },
+  {
+    "id": "245",
+    "national_id": "0758",
+    "name": "焰後蜥",
+    "types": [
+      "毒",
+      "火"
+    ],
+    "icon": "-26em -28em"
+  },
+  {
+    "id": "246",
+    "national_id": "0624",
+    "name": "駒刀小兵",
+    "types": [
+      "惡",
+      "鋼"
+    ],
+    "icon": "-13em -23em"
+  },
+  {
+    "id": "247",
+    "national_id": "0625",
+    "name": "劈斬司令",
+    "types": [
+      "惡",
+      "鋼"
+    ],
+    "icon": "-14em -23em"
+  },
+  {
+    "id": "248",
+    "national_id": "0538",
+    "name": "投摔鬼",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-26em -20em"
+  },
+  {
+    "id": "249",
+    "national_id": "0539",
+    "name": "打擊鬼",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-27em -20em"
+  },
+  {
+    "id": "250",
+    "national_id": "0109",
+    "name": "瓦斯彈",
+    "types": [
+      "毒"
+    ],
+    "icon": "-29em -4em"
+  },
+  {
+    "id": "251",
+    "national_id": "0110",
+    "name": "雙彈瓦斯-伽勒爾的樣子",
+    "types": [
+      "毒",
+      "妖精"
+    ],
+    "icon": "-31em -4em"
+  },
+  {
+    "id": "252",
+    "national_id": "0438",
+    "name": "盆才怪",
+    "types": [
+      "岩石"
+    ],
+    "icon": "-38em -16em"
+  },
+  {
+    "id": "253",
+    "national_id": "0185",
+    "name": "樹才怪",
+    "types": [
+      "岩石"
+    ],
+    "icon": "-18em -7em"
+  },
+  {
+    "id": "254",
+    "national_id": "0173",
+    "name": "皮寶寶",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-4em -7em"
+  },
+  {
+    "id": "255",
+    "national_id": "0035",
+    "name": "皮皮",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-34em -1em"
+  },
+  {
+    "id": "256",
+    "national_id": "0036",
+    "name": "皮可西",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-35em -1em"
+  },
+  {
+    "id": "257",
+    "national_id": "0175",
+    "name": "波克比",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-6em -7em"
+  },
+  {
+    "id": "258",
+    "national_id": "0176",
+    "name": "波克基古",
+    "types": [
+      "妖精",
+      "飛行"
+    ],
+    "icon": "-7em -7em"
+  },
+  {
+    "id": "259",
+    "national_id": "0468",
+    "name": "波克基斯",
+    "types": [
+      "妖精",
+      "飛行"
+    ],
+    "icon": "-5em -18em"
+  },
+  {
+    "id": "260",
+    "national_id": "0446",
+    "name": "小卡比獸",
+    "types": [
+      "一般"
+    ],
+    "icon": "-10em -17em"
+  },
+  {
+    "id": "261",
+    "national_id": "0143",
+    "name": "卡比獸",
+    "types": [
+      "一般"
+    ],
+    "icon": "-3em -6em"
+  },
+  {
+    "id": "262",
+    "national_id": "0546",
+    "name": "木棉球",
+    "types": [
+      "草",
+      "妖精"
+    ],
+    "icon": "-34em -20em"
+  },
+  {
+    "id": "263",
+    "national_id": "0547",
+    "name": "風妖精",
+    "types": [
+      "草",
+      "妖精"
+    ],
+    "icon": "-35em -20em"
+  },
+  {
+    "id": "264",
+    "national_id": "0111",
+    "name": "獨角犀牛",
+    "types": [
+      "地面",
+      "岩石"
+    ],
+    "icon": "-32em -4em"
+  },
+  {
+    "id": "265",
+    "national_id": "0112",
+    "name": "鑽角犀獸",
+    "types": [
+      "地面",
+      "岩石"
+    ],
+    "icon": "-34em -4em"
+  },
+  {
+    "id": "266",
+    "national_id": "0464",
+    "name": "超甲狂犀",
+    "types": [
+      "地面",
+      "岩石"
+    ],
+    "icon": "-39em -17em"
+  },
+  {
+    "id": "267",
+    "national_id": "0574",
+    "name": "哥德寶寶",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-34em -21em"
+  },
+  {
+    "id": "268",
+    "national_id": "0575",
+    "name": "哥德小童",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-35em -21em"
+  },
+  {
+    "id": "269",
+    "national_id": "0576",
+    "name": "哥德小姐",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-36em -21em"
+  },
+  {
+    "id": "270",
+    "national_id": "0577",
+    "name": "單卵細胞球",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-37em -21em"
+  },
+  {
+    "id": "271",
+    "national_id": "0578",
+    "name": "雙卵細胞球",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-38em -21em"
+  },
+  {
+    "id": "272",
+    "national_id": "0579",
+    "name": "人造細胞卵",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-39em -21em"
+  },
+  {
+    "id": "273",
+    "national_id": "0588",
+    "name": "蓋蓋蟲",
+    "types": [
+      "蟲"
+    ],
+    "icon": "-14em -22em"
+  },
+  {
+    "id": "274",
+    "national_id": "0589",
+    "name": "騎士蝸牛",
+    "types": [
+      "蟲",
+      "鋼"
+    ],
+    "icon": "-15em -22em"
+  },
+  {
+    "id": "275",
+    "national_id": "0616",
+    "name": "小嘴蝸",
+    "types": [
+      "蟲"
+    ],
+    "icon": "-4em -23em"
+  },
+  {
+    "id": "276",
+    "national_id": "0617",
+    "name": "敏捷蟲",
+    "types": [
+      "蟲"
+    ],
+    "icon": "-5em -23em"
+  },
+  {
+    "id": "277",
+    "national_id": "0605",
+    "name": "小灰怪",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-33em -22em"
+  },
+  {
+    "id": "278",
+    "national_id": "0606",
+    "name": "大宇怪",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-34em -22em"
+  },
+  {
+    "id": "279",
+    "national_id": "0613",
+    "name": "噴嚏熊",
+    "types": [
+      "冰"
+    ],
+    "icon": "-1em -23em"
+  },
+  {
+    "id": "280",
+    "national_id": "0614",
+    "name": "凍原熊",
+    "types": [
+      "冰"
+    ],
+    "icon": "-2em -23em"
+  },
+  {
+    "id": "281",
+    "national_id": "0627",
+    "name": "毛頭小鷹",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "icon": "-16em -23em"
+  },
+  {
+    "id": "282",
+    "national_id": "0628",
+    "name": "勇士雄鷹",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "icon": "-17em -23em"
+  },
+  {
+    "id": "283",
+    "national_id": "0629",
+    "name": "禿鷹丫頭",
+    "types": [
+      "惡",
+      "飛行"
+    ],
+    "icon": "-19em -23em"
+  },
+  {
+    "id": "284",
+    "national_id": "0630",
+    "name": "禿鷹娜",
+    "types": [
+      "惡",
+      "飛行"
+    ],
+    "icon": "-20em -23em"
+  },
+  {
+    "id": "285",
+    "national_id": "0451",
+    "name": "鉗尾蠍",
+    "types": [
+      "毒",
+      "蟲"
+    ],
+    "icon": "-18em -17em"
+  },
+  {
+    "id": "286",
+    "national_id": "0452",
+    "name": "龍王蠍",
+    "types": [
+      "毒",
+      "惡"
+    ],
+    "icon": "-19em -17em"
+  },
+  {
+    "id": "287",
+    "national_id": "0607",
+    "name": "燭光靈",
+    "types": [
+      "幽靈",
+      "火"
+    ],
+    "icon": "-35em -22em"
+  },
+  {
+    "id": "288",
+    "national_id": "0608",
+    "name": "燈火幽靈",
+    "types": [
+      "幽靈",
+      "火"
+    ],
+    "icon": "-36em -22em"
+  },
+  {
+    "id": "289",
+    "national_id": "0609",
+    "name": "水晶燈火靈",
+    "types": [
+      "幽靈",
+      "火"
+    ],
+    "icon": "-37em -22em"
+  },
+  {
+    "id": "290",
+    "national_id": "0686",
+    "name": "好啦魷",
+    "types": [
+      "惡",
+      "超能力"
+    ],
+    "icon": "-12em -26em"
+  },
+  {
+    "id": "291",
+    "national_id": "0687",
+    "name": "烏賊王",
+    "types": [
+      "惡",
+      "超能力"
+    ],
+    "icon": "-13em -26em"
+  },
+  {
+    "id": "292",
+    "national_id": "0215",
+    "name": "狃拉",
+    "types": [
+      "惡",
+      "冰"
+    ],
+    "icon": "-13em -9em"
+  },
+  {
+    "id": "293",
+    "national_id": "0461",
+    "name": "瑪狃拉",
+    "types": [
+      "惡",
+      "冰"
+    ],
+    "icon": "-35em -17em"
+  },
+  {
+    "id": "294",
+    "national_id": "0302",
+    "name": "勾魂眼",
+    "types": [
+      "惡",
+      "幽靈"
+    ],
+    "icon": "-4em -12em"
+  },
+  {
+    "id": "295",
+    "national_id": "0303",
+    "name": "大嘴娃",
+    "types": [
+      "鋼",
+      "妖精"
+    ],
+    "icon": "-6em -12em"
+  },
+  {
+    "id": "296",
+    "national_id": "0556",
+    "name": "沙鈴仙人掌",
+    "types": [
+      "草"
+    ],
+    "icon": "-12em -21em"
+  },
+  {
+    "id": "297",
+    "national_id": "0561",
+    "name": "象徵鳥",
+    "types": [
+      "超能力",
+      "飛行"
+    ],
+    "icon": "-17em -21em"
+  },
+  {
+    "id": "298",
+    "national_id": "0447",
+    "name": "利歐路",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-11em -17em"
+  },
+  {
+    "id": "299",
+    "national_id": "0448",
+    "name": "路卡利歐",
+    "types": [
+      "格鬥",
+      "鋼"
+    ],
+    "icon": "-12em -17em"
+  },
+  {
+    "id": "300",
+    "national_id": "0324",
+    "name": "煤炭龜",
+    "types": [
+      "火"
+    ],
+    "icon": "0 -13em"
+  },
+  {
+    "id": "301",
+    "national_id": "0778",
+    "name": "謎擬丘",
+    "types": [
+      "幽靈",
+      "妖精"
+    ],
+    "icon": "-30em -29em"
+  },
+  {
+    "id": "302",
+    "national_id": "0878",
+    "name": "銅象",
+    "types": [
+      "鋼"
+    ],
+    "icon": "-19em -34em"
+  },
+  {
+    "id": "303",
+    "national_id": "0879",
+    "name": "大王銅象",
+    "types": [
+      "鋼"
+    ],
+    "icon": "-20em -34em"
+  },
+  {
+    "id": "304",
+    "national_id": "0211",
+    "name": "千針魚",
+    "types": [
+      "水",
+      "毒"
+    ],
+    "icon": "-4em -9em"
+  },
+  {
+    "id": "305",
+    "national_id": "0592",
+    "name": "輕飄飄",
+    "types": [
+      "水",
+      "幽靈"
+    ],
+    "icon": "-18em -22em"
+  },
+  {
+    "id": "306",
+    "national_id": "0593",
+    "name": "胖嘟嘟",
+    "types": [
+      "水",
+      "幽靈"
+    ],
+    "icon": "-20em -22em"
+  },
+  {
+    "id": "307",
+    "national_id": "0747",
+    "name": "好壞星",
+    "types": [
+      "毒",
+      "水"
+    ],
+    "icon": "-15em -28em"
+  },
+  {
+    "id": "308",
+    "national_id": "0748",
+    "name": "超壞星",
+    "types": [
+      "毒",
+      "水"
+    ],
+    "icon": "-16em -28em"
+  },
+  {
+    "id": "309",
+    "national_id": "0845",
+    "name": "古月鳥",
+    "types": [
+      "飛行",
+      "水"
+    ],
+    "icon": "-33em -31em"
+  },
+  {
+    "id": "310",
+    "national_id": "0848",
+    "name": "電音嬰",
+    "types": [
+      "電",
+      "毒"
+    ],
+    "icon": "-38em -31em"
+  },
+  {
+    "id": "311",
+    "national_id": "0849",
+    "name": "顫弦蠑螈",
+    "types": [
+      "電",
+      "毒"
+    ],
+    "icon": "-39em -31em"
+  },
+  {
+    "id": "312",
+    "national_id": "0843",
+    "name": "沙包蛇",
+    "types": [
+      "地面"
+    ],
+    "icon": "-30em -31em"
+  },
+  {
+    "id": "313",
+    "national_id": "0844",
+    "name": "沙螺蟒",
+    "types": [
+      "地面"
+    ],
+    "icon": "-31em -31em"
+  },
+  {
+    "id": "314",
+    "national_id": "0449",
+    "name": "沙河馬",
+    "types": [
+      "地面"
+    ],
+    "icon": "-14em -17em"
+  },
+  {
+    "id": "315",
+    "national_id": "0450",
+    "name": "河馬獸",
+    "types": [
+      "地面"
+    ],
+    "icon": "-16em -17em"
+  },
+  {
+    "id": "316",
+    "national_id": "0632",
+    "name": "鐵蟻",
+    "types": [
+      "蟲",
+      "鋼"
+    ],
+    "icon": "-22em -23em"
+  },
+  {
+    "id": "317",
+    "national_id": "0631",
+    "name": "熔蟻獸",
+    "types": [
+      "火"
+    ],
+    "icon": "-21em -23em"
+  },
+  {
+    "id": "318",
+    "national_id": "0694",
+    "name": "傘電蜥",
+    "types": [
+      "電",
+      "一般"
+    ],
+    "icon": "-20em -26em"
+  },
+  {
+    "id": "319",
+    "national_id": "0695",
+    "name": "光電傘蜥",
+    "types": [
+      "電",
+      "一般"
+    ],
+    "icon": "-21em -26em"
+  },
+  {
+    "id": "320",
+    "national_id": "0701",
+    "name": "摔角鷹人",
+    "types": [
+      "格鬥",
+      "飛行"
+    ],
+    "icon": "-27em -26em"
+  },
+  {
+    "id": "321",
+    "national_id": "0328",
+    "name": "大顎蟻",
+    "types": [
+      "地面"
+    ],
+    "icon": "-4em -13em"
+  },
+  {
+    "id": "322",
+    "national_id": "0329",
+    "name": "超音波幼蟲",
+    "types": [
+      "地面",
+      "龍"
+    ],
+    "icon": "-5em -13em"
+  },
+  {
+    "id": "323",
+    "national_id": "0330",
+    "name": "沙漠蜻蜓",
+    "types": [
+      "地面",
+      "龍"
+    ],
+    "icon": "-6em -13em"
+  },
+  {
+    "id": "324",
+    "national_id": "0610",
+    "name": "牙牙",
+    "types": [
+      "龍"
+    ],
+    "icon": "-38em -22em"
+  },
+  {
+    "id": "325",
+    "national_id": "0611",
+    "name": "斧牙龍",
+    "types": [
+      "龍"
+    ],
+    "icon": "-39em -22em"
+  },
+  {
+    "id": "326",
+    "national_id": "0612",
+    "name": "雙斧戰龍",
+    "types": [
+      "龍"
+    ],
+    "icon": "0 -23em"
+  },
+  {
+    "id": "327",
+    "national_id": "0562",
+    "name": "哭哭面具-伽勒爾的樣子",
+    "types": [
+      "地面",
+      "幽靈"
+    ],
+    "icon": "-19em -21em"
+  },
+  {
+    "id": "328",
+    "national_id": "0867",
+    "name": "迭失板",
+    "types": [
+      "地面",
+      "幽靈"
+    ],
+    "icon": "-22em -32em"
+  },
+  {
+    "id": "329",
+    "national_id": "0563",
+    "name": "迭失棺",
+    "types": [
+      "幽靈"
+    ],
+    "icon": "-20em -21em"
+  },
+  {
+    "id": "330",
+    "national_id": "0679",
+    "name": "獨劍鞘",
+    "types": [
+      "鋼",
+      "幽靈"
+    ],
+    "icon": "-4em -26em"
+  },
+  {
+    "id": "331",
+    "national_id": "0680",
+    "name": "雙劍鞘",
+    "types": [
+      "鋼",
+      "幽靈"
+    ],
+    "icon": "-5em -26em"
+  },
+  {
+    "id": "332",
+    "national_id": "0681",
+    "name": "堅盾劍怪",
+    "types": [
+      "鋼",
+      "幽靈"
+    ],
+    "icon": "-6em -26em"
+  },
+  {
+    "id": "333",
+    "national_id": "0077",
+    "name": "小火馬-伽勒爾的樣子",
+    "types": [
+      "超能力"
+    ],
+    "icon": "-19em -3em"
+  },
+  {
+    "id": "334",
+    "national_id": "0078",
+    "name": "烈焰馬-伽勒爾的樣子",
+    "types": [
+      "超能力",
+      "妖精"
+    ],
+    "icon": "-21em -3em"
+  },
+  {
+    "id": "335",
+    "national_id": "0854",
+    "name": "來悲茶",
+    "types": [
+      "幽靈"
+    ],
+    "icon": "-7em -32em"
+  },
+  {
+    "id": "336",
+    "national_id": "0855",
+    "name": "怖思壺",
+    "types": [
+      "幽靈"
+    ],
+    "icon": "-8em -32em"
+  },
+  {
+    "id": "337",
+    "national_id": "0876",
+    "name": "愛管侍",
+    "types": [
+      "超能力",
+      "一般"
+    ],
+    "icon": "-15em -34em"
+  },
+  {
+    "id": "338",
+    "national_id": "0708",
+    "name": "小木靈",
+    "types": [
+      "幽靈",
+      "草"
+    ],
+    "icon": "-36em -26em"
+  },
+  {
+    "id": "339",
+    "national_id": "0709",
+    "name": "朽木妖",
+    "types": [
+      "幽靈",
+      "草"
+    ],
+    "icon": "-37em -26em"
+  },
+  {
+    "id": "340",
+    "national_id": "0755",
+    "name": "睡睡菇",
+    "types": [
+      "草",
+      "妖精"
+    ],
+    "icon": "-23em -28em"
+  },
+  {
+    "id": "341",
+    "national_id": "0756",
+    "name": "燈罩夜菇",
+    "types": [
+      "草",
+      "妖精"
+    ],
+    "icon": "-24em -28em"
+  },
+  {
+    "id": "342",
+    "national_id": "0765",
+    "name": "智揮猩",
+    "types": [
+      "一般",
+      "超能力"
+    ],
+    "icon": "-33em -28em"
+  },
+  {
+    "id": "343",
+    "national_id": "0766",
+    "name": "投擲猴",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-34em -28em"
+  },
+  {
+    "id": "344",
+    "national_id": "0877",
+    "name": "莫魯貝可",
+    "types": [
+      "電",
+      "惡"
+    ],
+    "icon": "-17em -34em"
+  },
+  {
+    "id": "345",
+    "national_id": "0870",
+    "name": "列陣兵",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-8em -34em"
+  },
+  {
+    "id": "346",
+    "national_id": "0780",
+    "name": "老翁龍",
+    "types": [
+      "一般",
+      "龍"
+    ],
+    "icon": "-33em -29em"
+  },
+  {
+    "id": "347",
+    "national_id": "0776",
+    "name": "爆焰龜獸",
+    "types": [
+      "火",
+      "龍"
+    ],
+    "icon": "-28em -29em"
+  },
+  {
+    "id": "348",
+    "national_id": "0777",
+    "name": "託戈德瑪爾",
+    "types": [
+      "電",
+      "鋼"
+    ],
+    "icon": "-29em -29em"
+  },
+  {
+    "id": "349",
+    "national_id": "0872",
+    "name": "雪吞蟲",
+    "types": [
+      "冰",
+      "蟲"
+    ],
+    "icon": "-10em -34em"
+  },
+  {
+    "id": "350",
+    "national_id": "0873",
+    "name": "雪絨蛾",
+    "types": [
+      "冰",
+      "蟲"
+    ],
+    "icon": "-11em -34em"
+  },
+  {
+    "id": "351",
+    "national_id": "0852",
+    "name": "拳拳蛸",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-5em -32em"
+  },
+  {
+    "id": "352",
+    "national_id": "0853",
+    "name": "八爪武師",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-6em -32em"
+  },
+  {
+    "id": "353",
+    "national_id": "0871",
+    "name": "啪嚓海膽",
+    "types": [
+      "電"
+    ],
+    "icon": "-9em -34em"
+  },
+  {
+    "id": "354",
+    "national_id": "0458",
+    "name": "小球飛魚",
+    "types": [
+      "水",
+      "飛行"
+    ],
+    "icon": "-29em -17em"
+  },
+  {
+    "id": "355",
+    "national_id": "0226",
+    "name": "巨翅飛魚",
+    "types": [
+      "水",
+      "飛行"
+    ],
+    "icon": "-31em -9em"
+  },
+  {
+    "id": "356",
+    "national_id": "0320",
+    "name": "吼吼鯨",
+    "types": [
+      "水"
+    ],
+    "icon": "-33em -12em"
+  },
+  {
+    "id": "357",
+    "national_id": "0321",
+    "name": "吼鯨王",
+    "types": [
+      "水"
+    ],
+    "icon": "-34em -12em"
+  },
+  {
+    "id": "358",
+    "national_id": "0712",
+    "name": "冰寶",
+    "types": [
+      "冰"
+    ],
+    "icon": "-6em -27em"
+  },
+  {
+    "id": "359",
+    "national_id": "0713",
+    "name": "冰岩怪",
+    "types": [
+      "冰"
+    ],
+    "icon": "-7em -27em"
+  },
+  {
+    "id": "360",
+    "national_id": "0781",
+    "name": "破破舵輪",
+    "types": [
+      "幽靈",
+      "草"
+    ],
+    "icon": "-34em -29em"
+  },
+  {
+    "id": "361",
+    "national_id": "0131",
+    "name": "拉普拉斯",
+    "types": [
+      "水",
+      "冰"
+    ],
+    "icon": "-26em -5em"
+  },
+  {
+    "id": "362",
+    "national_id": "0337",
+    "name": "月石",
+    "types": [
+      "岩石",
+      "超能力"
+    ],
+    "icon": "-15em -13em"
+  },
+  {
+    "id": "363",
+    "national_id": "0338",
+    "name": "太陽巖",
+    "types": [
+      "岩石",
+      "超能力"
+    ],
+    "icon": "-16em -13em"
+  },
+  {
+    "id": "364",
+    "national_id": "0439",
+    "name": "魔尼尼",
+    "types": [
+      "超能力",
+      "妖精"
+    ],
+    "icon": "-39em -16em"
+  },
+  {
+    "id": "365",
+    "national_id": "0122",
+    "name": "魔牆人偶-伽勒爾的樣子",
+    "types": [
+      "冰",
+      "超能力"
+    ],
+    "icon": "-9em -5em"
+  },
+  {
+    "id": "366",
+    "national_id": "0866",
+    "name": "踏冰人偶",
+    "types": [
+      "冰",
+      "超能力"
+    ],
+    "icon": "-21em -32em"
+  },
+  {
+    "id": "367",
+    "national_id": "0554",
+    "name": "火紅不倒翁-伽勒爾的樣子",
+    "types": [
+      "冰"
+    ],
+    "icon": "-7em -21em"
+  },
+  {
+    "id": "368",
+    "national_id": "0555",
+    "name": "達摩狒狒-伽勒爾的樣子",
+    "types": [
+      "冰"
+    ],
+    "icon": "-10em -21em"
+  },
+  {
+    "id": "369",
+    "national_id": "0874",
+    "name": "巨石丁",
+    "types": [
+      "岩石"
+    ],
+    "icon": "-12em -34em"
+  },
+  {
+    "id": "370",
+    "national_id": "0875",
+    "name": "冰砌鵝",
+    "types": [
+      "冰"
+    ],
+    "icon": "-13em -34em"
+  },
+  {
+    "id": "371",
+    "national_id": "0884",
+    "name": "鋁鋼龍",
+    "types": [
+      "鋼",
+      "龍"
+    ],
+    "icon": "-26em -34em"
+  },
+  {
+    "id": "372",
+    "national_id": "0479",
+    "name": "洛託姆",
+    "types": [
+      "電",
+      "幽靈"
+    ],
+    "icon": "-18em -18em"
+  },
+  {
+    "id": "373",
+    "national_id": "0132",
+    "name": "百變怪",
+    "types": [
+      "一般"
+    ],
+    "icon": "-28em -5em"
+  },
+  {
+    "id": "374",
+    "national_id": "0880",
+    "name": "雷鳥龍",
+    "types": [
+      "電",
+      "龍"
+    ],
+    "icon": "-22em -34em"
+  },
+  {
+    "id": "375",
+    "national_id": "0881",
+    "name": "雷鳥海獸",
+    "types": [
+      "電",
+      "冰"
+    ],
+    "icon": "-23em -34em"
+  },
+  {
+    "id": "376",
+    "national_id": "0882",
+    "name": "鰓魚龍",
+    "types": [
+      "水",
+      "龍"
+    ],
+    "icon": "-24em -34em"
+  },
+  {
+    "id": "377",
+    "national_id": "0883",
+    "name": "鰓魚海獸",
+    "types": [
+      "水",
+      "冰"
+    ],
+    "icon": "-25em -34em"
+  },
+  {
+    "id": "378",
+    "national_id": "0004",
+    "name": "小火龍",
+    "types": [
+      "火"
+    ],
+    "icon": "-9em 0"
+  },
+  {
+    "id": "379",
+    "national_id": "0005",
+    "name": "火恐龍",
+    "types": [
+      "火"
+    ],
+    "icon": "-10em 0"
+  },
+  {
+    "id": "380",
+    "national_id": "0006",
+    "name": "噴火龍",
+    "types": [
+      "火",
+      "飛行"
+    ],
+    "icon": "-11em 0"
+  },
+  {
+    "id": "381",
+    "national_id": "0772",
+    "name": "屬性：空",
+    "types": [
+      "一般"
+    ],
+    "icon": "0 -29em"
+  },
+  {
+    "id": "382",
+    "national_id": "0773",
+    "name": "銀伴戰獸",
+    "types": [
+      "一般"
+    ],
+    "icon": "-1em -29em"
+  },
+  {
+    "id": "383",
+    "national_id": "0246",
+    "name": "幼基拉斯",
+    "types": [
+      "岩石",
+      "地面"
+    ],
+    "icon": "-14em -10em"
+  },
+  {
+    "id": "384",
+    "national_id": "0247",
+    "name": "沙基拉斯",
+    "types": [
+      "岩石",
+      "地面"
+    ],
+    "icon": "-15em -10em"
+  },
+  {
+    "id": "385",
+    "national_id": "0248",
+    "name": "班基拉斯",
+    "types": [
+      "岩石",
+      "惡"
+    ],
+    "icon": "-16em -10em"
+  },
+  {
+    "id": "386",
+    "national_id": "0633",
+    "name": "單首龍",
+    "types": [
+      "惡",
+      "龍"
+    ],
+    "icon": "-23em -23em"
+  },
+  {
+    "id": "387",
+    "national_id": "0634",
+    "name": "雙首暴龍",
+    "types": [
+      "惡",
+      "龍"
+    ],
+    "icon": "-24em -23em"
+  },
+  {
+    "id": "388",
+    "national_id": "0635",
+    "name": "三首惡龍",
+    "types": [
+      "惡",
+      "龍"
+    ],
+    "icon": "-25em -23em"
+  },
+  {
+    "id": "389",
+    "national_id": "0704",
+    "name": "黏黏寶",
+    "types": [
+      "龍"
+    ],
+    "icon": "-30em -26em"
+  },
+  {
+    "id": "390",
+    "national_id": "0705",
+    "name": "黏美兒",
+    "types": [
+      "龍"
+    ],
+    "icon": "-31em -26em"
+  },
+  {
+    "id": "391",
+    "national_id": "0706",
+    "name": "黏美龍",
+    "types": [
+      "龍"
+    ],
+    "icon": "-33em -26em"
+  },
+  {
+    "id": "392",
+    "national_id": "0782",
+    "name": "心鱗寶",
+    "types": [
+      "龍"
+    ],
+    "icon": "-35em -29em"
+  },
+  {
+    "id": "393",
+    "national_id": "0783",
+    "name": "鱗甲龍",
+    "types": [
+      "龍",
+      "格鬥"
+    ],
+    "icon": "-36em -29em"
+  },
+  {
+    "id": "394",
+    "national_id": "0784",
+    "name": "杖尾鱗甲龍",
+    "types": [
+      "龍",
+      "格鬥"
+    ],
+    "icon": "-37em -29em"
+  },
+  {
+    "id": "395",
+    "national_id": "0885",
+    "name": "多龍梅西亞",
+    "types": [
+      "龍",
+      "幽靈"
+    ],
+    "icon": "-28em -34em"
+  },
+  {
+    "id": "396",
+    "national_id": "0886",
+    "name": "多龍奇",
+    "types": [
+      "龍",
+      "幽靈"
+    ],
+    "icon": "-29em -34em"
+  },
+  {
+    "id": "397",
+    "national_id": "0887",
+    "name": "多龍巴魯託",
+    "types": [
+      "龍",
+      "幽靈"
+    ],
+    "icon": "-30em -34em"
+  },
+  {
+    "id": "398",
+    "national_id": "0888",
+    "name": "蒼響",
+    "types": [
+      "妖精"
+    ],
+    "icon": "-31em -34em"
+  },
+  {
+    "id": "399",
+    "national_id": "0889",
+    "name": "藏瑪然特",
+    "types": [
+      "格鬥"
+    ],
+    "icon": "-33em -34em"
+  },
+  {
+    "id": "400",
+    "national_id": "0890",
+    "name": "無極汰那",
+    "types": [
+      "毒",
+      "龍"
+    ],
+    "icon": "-35em -34em"
+  }
+]

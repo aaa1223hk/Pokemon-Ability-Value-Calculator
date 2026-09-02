@@ -1,0 +1,43 @@
+{
+  "name_zh": "不屈之盾",
+  "name_ja": "ふくつのたて",
+  "name_en": "Dauntless Shield",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "入場時發動該特性"
+  ],
+  "introduction": "首次出場時，防禦會提高。",
+  "effect": "出場時，自身的防禦上升1級。\n每隻寶可夢一場戰鬥中僅能發動1次。",
+  "pokemon_list": [
+    {
+      "id": "0889",
+      "name": "藏瑪然特",
+      "form": "百戰勇者",
+      "icon": "-33em -34em",
+      "types": [
+        "格鬥"
+      ],
+      "first_ability": "不屈之盾",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0889",
+      "name": "藏瑪然特",
+      "form": "盾之王",
+      "icon": "-34em -34em",
+      "types": [
+        "格鬥",
+        "鋼"
+      ],
+      "first_ability": "不屈之盾",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "235"
+}

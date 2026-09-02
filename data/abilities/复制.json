@@ -1,0 +1,93 @@
+{
+  "name_zh": "複製",
+  "name_ja": "トレース",
+  "name_en": "Trace",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "不能被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "入場時發動該特性"
+  ],
+  "introduction": "出場時，複製對手的特性，變為與之相同的特性。",
+  "effect": "自身登場時，複製特性變為隨機1只對方寶可夢的特性。如果複製到了登場時發動的特性，它會立即發動。自身離場時特性還原為複製。\n當複製其他特性後，該特性的寶可夢再次變為複製特性（比如使用扮演），複製特性無法觸發，直到下次替換出場時再次觸發。\n複製的目標處於無特性，能觸發該特性。\n如果對方場上沒有可以複製的特性，則複製特性暫不發動，而是留待對方場上出現能夠複製的特性時發動。\n下表所列均為無法複製的特性，打 ✔ 的表示該特性在對應世代可以被複制：\n自身被攻擊的回合獲得隨機一隻攻擊自己的寶可夢的特性。",
+  "pokemon_list": [
+    {
+      "id": "0065",
+      "name": "胡地",
+      "form": "超級胡地",
+      "icon": "-2em -3em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "複製",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0137",
+      "name": "多邊獸",
+      "form": "",
+      "icon": "-36em -5em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "複製",
+      "second_ability": "下載",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0233",
+      "name": "多邊獸２型",
+      "form": "",
+      "icon": "-1em -10em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "複製",
+      "second_ability": "下載",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0280",
+      "name": "拉魯拉絲",
+      "form": "",
+      "icon": "-21em -11em",
+      "types": [
+        "超能力",
+        "妖精"
+      ],
+      "first_ability": "同步",
+      "second_ability": "複製",
+      "hidden_ability": "心靈感應"
+    },
+    {
+      "id": "0281",
+      "name": "奇魯莉安",
+      "form": "",
+      "icon": "-22em -11em",
+      "types": [
+        "超能力",
+        "妖精"
+      ],
+      "first_ability": "同步",
+      "second_ability": "複製",
+      "hidden_ability": "心靈感應"
+    },
+    {
+      "id": "0282",
+      "name": "沙奈朵",
+      "form": "",
+      "icon": "-23em -11em",
+      "types": [
+        "超能力",
+        "妖精"
+      ],
+      "first_ability": "同步",
+      "second_ability": "複製",
+      "hidden_ability": "心靈感應"
+    }
+  ],
+  "id": "036"
+}

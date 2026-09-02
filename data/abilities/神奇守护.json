@@ -1,0 +1,45 @@
+{
+  "name_zh": "神奇守護",
+  "name_ja": "ふしぎなまもり",
+  "name_en": "Wonder Guard",
+  "basic_info": [
+    "不能被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "不可思議的力量，只有效果絕佳的招式才能擊中。",
+  "effect": "如果招式對擁有該特性的寶可夢不能產生效果絕佳，則招式對該特性的寶可夢沒有傷害。\n例如：脫殼忍者（蟲.mw-parser-output .type-box-9,.mw-parser-output .type-box-9-other{position:relative;display:inline-block;overflow:hidden;margin:0 1px;height:20px;border-radius:10px;text-align:center;vertical-align:middle;white-space:nowrap;font-size:14px;line-height:20px}.mw-parser-output .type-box-9{padding-left:17px;width:60px}.mw-parser-output .type-box-9-other{width:80px}.mw-parser-output .type-box-9-icon{position:absolute;top:0;left:2px;width:20px;height:20px}.mw-parser-output .type-box-9-text{color:#fff}.mw-parser-output .type-box-9-一般{background-color:#9fa19f}.mw-parser-output .type-box-9-格鬥,.mw-parser-output .type-box-9-格鬥{background-color:#ff8000}.mw-parser-output .type-box-9-飛行,.mw-parser-output .type-box-9-飛行{background-color:#81b9ef}.mw-parser-output .type-box-9-毒{background-color:#9141cb}.mw-parser-output .type-box-9-地面{background-color:#915121}.mw-parser-output .type-box-9-岩石{background-color:#afa981}.mw-parser-output .type-box-9-蟲,.mw-parser-output .type-box-9-蟲{background-color:#91a119}.mw-parser-output .type-box-9-幽靈,.mw-parser-output .type-box-9-幽靈{background-color:#704170}.mw-parser-output .type-box-9-鋼,.mw-parser-output .type-box-9-鋼{background-color:#60a1b8}.mw-parser-output .type-box-9-火{background-color:#e62829}.mw-parser-output .type-box-9-水{background-color:#2980ef}.mw-parser-output .type-box-9-草{background-color:#3fa129}.mw-parser-output .type-box-9-電,.mw-parser-output .type-box-9-電{background-color:#fac000}.mw-parser-output .type-box-9-超能力{background-color:#ef4179}.mw-parser-output .type-box-9-冰{background-color:#3fd8ff}.mw-parser-output .type-box-9-龍,.mw-parser-output .type-box-9-龍{background-color:#5060e1}.mw-parser-output .type-box-9-惡,.mw-parser-output .type-box-9-惡{background-color:#50413f}.mw-parser-output .type-box-9-妖精{background-color:#ef70ef}.mw-parser-output .type-box-9-星晶{background-color:#73c6bc}幽靈）會被以下屬性效果絕佳招式受到傷害：飛行岩石幽靈火惡，那麼除了這些屬性以外，其他所有攻擊招式都無法對脫殼忍者造成攻擊傷害。\n對於無法產生傷害的攻擊招式，其任何效果都無法發動。\n不能防止掙扎、反作用力招式、混亂狀態等情況下對自己的傷害。各種非直接傷害效果也不能防止，例如灼傷、中毒、冰雹、沙暴以及對入場寶可夢生效的招式等。\n該特性只能透過複製特性複製，不能透過扮演招式或化學之力、接球手等特性複製。\n該特性不能防止黑暗招式的傷害。即使在《圓形競技場》中黑暗招式不對任何屬性效果絕佳，依然可以對該特性的寶可夢造成傷害。",
+  "pokemon_list": [
+    {
+      "id": "0292",
+      "name": "脫殼忍者",
+      "form": "",
+      "icon": "-34em -11em",
+      "types": [
+        "蟲",
+        "幽靈"
+      ],
+      "first_ability": "神奇守護",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0000",
+      "name": "惡靈",
+      "form": "",
+      "icon": "0 0",
+      "types": [
+        "惡",
+        "幽靈"
+      ],
+      "first_ability": "神奇守護",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "025"
+}

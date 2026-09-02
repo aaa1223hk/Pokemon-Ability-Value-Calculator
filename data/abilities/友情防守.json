@@ -1,0 +1,130 @@
+{
+  "name_zh": "友情防守",
+  "name_ja": "フレンドガード",
+  "name_en": "Friend Guard",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "可以減少我方的傷害。",
+  "effect": "己方場上除自己以外的寶可夢受到的招式直接造成的傷害減少1⁄4。\n如果自身場上有多個擁有該特性的寶可夢，特性效果可以疊加。\n如在三打對戰中有兩隻擁有友情防守的寶可夢，則另外一隻寶可夢受到的傷害就會減少為原來的3⁄4 × 3⁄4 = 9⁄16。",
+  "pokemon_list": [
+    {
+      "id": "0035",
+      "name": "皮皮",
+      "form": "",
+      "icon": "-34em -1em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "魔法防守",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0039",
+      "name": "胖丁",
+      "form": "",
+      "icon": "0 -2em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "好勝",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0173",
+      "name": "皮寶寶",
+      "form": "",
+      "icon": "-4em -7em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "魔法防守",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0174",
+      "name": "寶寶丁",
+      "form": "",
+      "icon": "-5em -7em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "好勝",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0440",
+      "name": "小福蛋",
+      "form": "",
+      "icon": "0 -17em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "自然回覆",
+      "second_ability": "天恩",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0664",
+      "name": "粉蝶蟲",
+      "form": "",
+      "icon": "-26em -24em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "複眼",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0665",
+      "name": "粉蝶蛹",
+      "form": "",
+      "icon": "-27em -24em",
+      "types": [
+        "蟲"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0666",
+      "name": "彩粉蝶",
+      "form": "",
+      "icon": "-34em -24em",
+      "types": [
+        "蟲",
+        "飛行"
+      ],
+      "first_ability": "鱗粉",
+      "second_ability": "複眼",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0925",
+      "name": "一家鼠",
+      "form": "",
+      "icon": "-2em -36em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "友情防守",
+      "second_ability": "頰囊",
+      "hidden_ability": "技術高手"
+    }
+  ],
+  "id": "132"
+}

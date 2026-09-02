@@ -1,0 +1,80 @@
+{
+  "name_zh": "電氣引擎",
+  "name_ja": "でんきエンジン",
+  "name_en": "Motor Drive",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到電屬性的招式攻擊時，不會受到傷害，而是速度會提高。",
+  "effect": "具有該特性的寶可夢不受電屬性招式的影響，當被電屬性的招式擊中時，提升1級速度。\n- 該特性只能令自身不受電屬性招式的影響，不能將電屬性招式的目標轉移至自身。\n- 該特性對電屬性的變化招式有效。包括透過其他方式變為電屬性的變化招式。\n- 對於連續招式，只會觸發1次特性效果。\n- 觸發該特性時，與沒有效果相同，不會發動招式的追加效果。\n- 該特性的寶可夢無法觸發自身攜帶的充電電池。",
+  "pokemon_list": [
+    {
+      "id": "0466",
+      "name": "電擊魔獸",
+      "form": "",
+      "icon": "-3em -18em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "電氣引擎",
+      "second_ability": "",
+      "hidden_ability": "幹勁"
+    },
+    {
+      "id": "0522",
+      "name": "斑斑馬",
+      "form": "",
+      "icon": "-9em -20em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "電氣引擎",
+      "hidden_ability": "食草"
+    },
+    {
+      "id": "0523",
+      "name": "雷電斑馬",
+      "form": "",
+      "icon": "-10em -20em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "電氣引擎",
+      "hidden_ability": "食草"
+    },
+    {
+      "id": "0587",
+      "name": "電飛鼠",
+      "form": "",
+      "icon": "-13em -22em",
+      "types": [
+        "電",
+        "飛行"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "電氣引擎"
+    },
+    {
+      "id": "0000",
+      "name": "傳送器",
+      "form": "",
+      "icon": "0 0",
+      "types": [
+        "鋼"
+      ],
+      "first_ability": "電氣引擎",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "078"
+}

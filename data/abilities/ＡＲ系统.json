@@ -1,0 +1,30 @@
+{
+  "name_zh": "ＡＲ系統",
+  "name_ja": "ＡＲシステム",
+  "name_en": "RKS System",
+  "basic_info": [
+    "不能被交換",
+    "不能被其他特性覆蓋",
+    "不能被其他寶可夢複製",
+    "不受無特性狀態影響",
+    "變身時特性無效",
+    "不在入場時發動"
+  ],
+  "introduction": "根據持有的儲存碟，自己的屬性會改變。",
+  "effect": "攜帶對應各屬性的儲存碟，藉此改變屬性。",
+  "pokemon_list": [
+    {
+      "id": "0773",
+      "name": "銀伴戰獸",
+      "form": "",
+      "icon": "-1em -29em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "ＡＲ系統",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "225"
+}

@@ -1,0 +1,205 @@
+{
+  "name_zh": "好勝",
+  "name_ja": "かちき",
+  "name_en": "Competitive",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "如果被對手降低能力，特攻會大幅提高。",
+  "effect": "能力變化被對手降低時，每降低一種能力，特攻就會提升2級。\n下列情況將觸發此特性：\n- 受到對手的招式影響導致能力變化降低（例如受到清除濃霧）\n- 受到對手的特性影響導致能力變化降低（例如受到威嚇）\n- 踩到黏黏網導致速度降低\n- 極巨團體戰中神秘障壁被打破導致防禦和特防降低，會觸發兩次\n下列情況不能觸發此特性：\n- 由於招式的副作用導致能力變化降低（例如使用近身戰）\n- 雙打對戰中由隊友使用招式導致能力變化降低（例如使用拋下狠話、糖漿炸彈、重踏）\n- 由於道具的作用導致能力變化降低（例如發動客房服務）",
+  "pokemon_list": [
+    {
+      "id": "0039",
+      "name": "胖丁",
+      "form": "",
+      "icon": "0 -2em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "好勝",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0040",
+      "name": "胖可丁",
+      "form": "",
+      "icon": "-1em -2em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "好勝",
+      "hidden_ability": "察覺"
+    },
+    {
+      "id": "0144",
+      "name": "急凍鳥",
+      "form": "伽勒爾的樣子",
+      "icon": "-6em -6em",
+      "types": [
+        "超能力",
+        "飛行"
+      ],
+      "first_ability": "好勝",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0174",
+      "name": "寶寶丁",
+      "form": "",
+      "icon": "-5em -7em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "迷人之軀",
+      "second_ability": "好勝",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0350",
+      "name": "美納斯",
+      "form": "",
+      "icon": "-28em -13em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "神奇鱗片",
+      "second_ability": "好勝",
+      "hidden_ability": "迷人之軀"
+    },
+    {
+      "id": "0393",
+      "name": "波加曼",
+      "form": "",
+      "icon": "-9em -15em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "好勝"
+    },
+    {
+      "id": "0394",
+      "name": "波皇子",
+      "form": "",
+      "icon": "-10em -15em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "好勝"
+    },
+    {
+      "id": "0395",
+      "name": "帝王拿波",
+      "form": "",
+      "icon": "-11em -15em",
+      "types": [
+        "水",
+        "鋼"
+      ],
+      "first_ability": "激流",
+      "second_ability": "",
+      "hidden_ability": "好勝"
+    },
+    {
+      "id": "0574",
+      "name": "哥德寶寶",
+      "form": "",
+      "icon": "-34em -21em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "察覺",
+      "second_ability": "好勝",
+      "hidden_ability": "踩影"
+    },
+    {
+      "id": "0575",
+      "name": "哥德小童",
+      "form": "",
+      "icon": "-35em -21em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "察覺",
+      "second_ability": "好勝",
+      "hidden_ability": "踩影"
+    },
+    {
+      "id": "0576",
+      "name": "哥德小姐",
+      "form": "",
+      "icon": "-36em -21em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "察覺",
+      "second_ability": "好勝",
+      "hidden_ability": "踩影"
+    },
+    {
+      "id": "0678",
+      "name": "超能妙喵",
+      "form": "♀",
+      "icon": "-3em -26em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "穿透",
+      "hidden_ability": "好勝"
+    },
+    {
+      "id": "0836",
+      "name": "逐電犬",
+      "form": "",
+      "icon": "-20em -31em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "強壯之顎",
+      "second_ability": "",
+      "hidden_ability": "好勝"
+    },
+    {
+      "id": "0940",
+      "name": "電海燕",
+      "form": "",
+      "icon": "-21em -36em",
+      "types": [
+        "電",
+        "飛行"
+      ],
+      "first_ability": "風力發電",
+      "second_ability": "蓄電",
+      "hidden_ability": "好勝"
+    },
+    {
+      "id": "0941",
+      "name": "大電海燕",
+      "form": "",
+      "icon": "-22em -36em",
+      "types": [
+        "電",
+        "飛行"
+      ],
+      "first_ability": "風力發電",
+      "second_ability": "蓄電",
+      "hidden_ability": "好勝"
+    }
+  ],
+  "id": "172"
+}

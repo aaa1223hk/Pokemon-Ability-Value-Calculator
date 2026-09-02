@@ -1,0 +1,79 @@
+{
+  "name_zh": "花幕",
+  "name_ja": "フラワーベール",
+  "name_en": "Flower Veil",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "我方的草屬性寶可夢能力不會降低，也不會變為異常狀態。",
+  "effect": "存在花幕特性的寶可夢的一方，其所有的草屬性寶可夢的能力變化將不會被對方的寶可夢降低，並且其所有的草屬性寶可夢不會陷入異常狀態。\n可以防止瞌睡狀態。已經處於瞌睡狀態的寶可夢受到花幕保護後，在下個回合結束時仍會陷入睡眠狀態。\n不能防止劇毒寶珠、火焰寶珠造成的劇毒和灼傷狀態，睡覺造成的睡眠狀態和森林咒術造成的森林咒術狀態。\n花幕特性不能避免自身使用近身戰、飛葉風暴、流星群等招式和碎裂鎧甲、心情不定等特性造成的能力變化下降的效果。",
+  "pokemon_list": [
+    {
+      "id": "0669",
+      "name": "花蓓蓓",
+      "form": "",
+      "icon": "-11em -25em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "花幕",
+      "second_ability": "",
+      "hidden_ability": "共生"
+    },
+    {
+      "id": "0670",
+      "name": "花葉蒂",
+      "form": "",
+      "icon": "-16em -25em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "花幕",
+      "second_ability": "",
+      "hidden_ability": "共生"
+    },
+    {
+      "id": "0670",
+      "name": "花葉蒂",
+      "form": "永恆之花",
+      "icon": "-21em -25em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "花幕",
+      "second_ability": "",
+      "hidden_ability": "共生"
+    },
+    {
+      "id": "0671",
+      "name": "花潔夫人",
+      "form": "",
+      "icon": "-22em -25em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "花幕",
+      "second_ability": "",
+      "hidden_ability": "共生"
+    },
+    {
+      "id": "0764",
+      "name": "花療環環",
+      "form": "",
+      "icon": "-32em -28em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "花幕",
+      "second_ability": "先行治療",
+      "hidden_ability": "自然回覆"
+    }
+  ],
+  "id": "166"
+}

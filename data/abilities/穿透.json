@@ -1,0 +1,352 @@
+{
+  "name_zh": "穿透",
+  "name_ja": "すりぬけ",
+  "name_en": "Infiltrator",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "可以穿透對手的壁障或替身進行攻擊。",
+  "effect": "該特性的寶可夢不受對方的反射壁、光牆、神秘守護、白霧、替身和極光幕狀態影響。\n如果使用的招式是變身或者自由落體，仍然不能穿透替身。",
+  "pokemon_list": [
+    {
+      "id": "0041",
+      "name": "超音蝠",
+      "form": "",
+      "icon": "-2em -2em",
+      "types": [
+        "毒",
+        "飛行"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0042",
+      "name": "大嘴蝠",
+      "form": "",
+      "icon": "-4em -2em",
+      "types": [
+        "毒",
+        "飛行"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0169",
+      "name": "叉字蝠",
+      "form": "",
+      "icon": "-39em -6em",
+      "types": [
+        "毒",
+        "飛行"
+      ],
+      "first_ability": "精神力",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0187",
+      "name": "毽子草",
+      "form": "",
+      "icon": "-22em -7em",
+      "types": [
+        "草",
+        "飛行"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "葉子防守",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0188",
+      "name": "毽子花",
+      "form": "",
+      "icon": "-23em -7em",
+      "types": [
+        "草",
+        "飛行"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "葉子防守",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0189",
+      "name": "毽子棉",
+      "form": "",
+      "icon": "-24em -7em",
+      "types": [
+        "草",
+        "飛行"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "葉子防守",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0291",
+      "name": "鐵面忍者",
+      "form": "",
+      "icon": "-33em -11em",
+      "types": [
+        "蟲",
+        "飛行"
+      ],
+      "first_ability": "加速",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0336",
+      "name": "飯匙蛇",
+      "form": "",
+      "icon": "-14em -13em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "蛻皮",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0442",
+      "name": "花巖怪",
+      "form": "",
+      "icon": "-2em -17em",
+      "types": [
+        "幽靈",
+        "惡"
+      ],
+      "first_ability": "壓迫感",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0546",
+      "name": "木棉球",
+      "form": "",
+      "icon": "-34em -20em",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "穿透",
+      "hidden_ability": "葉綠素"
+    },
+    {
+      "id": "0547",
+      "name": "風妖精",
+      "form": "",
+      "icon": "-35em -20em",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "first_ability": "惡作劇之心",
+      "second_ability": "穿透",
+      "hidden_ability": "葉綠素"
+    },
+    {
+      "id": "0607",
+      "name": "燭光靈",
+      "form": "",
+      "icon": "-35em -22em",
+      "types": [
+        "幽靈",
+        "火"
+      ],
+      "first_ability": "引火",
+      "second_ability": "火焰之軀",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0608",
+      "name": "燈火幽靈",
+      "form": "",
+      "icon": "-36em -22em",
+      "types": [
+        "幽靈",
+        "火"
+      ],
+      "first_ability": "引火",
+      "second_ability": "火焰之軀",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0609",
+      "name": "水晶燈火靈",
+      "form": "",
+      "icon": "-37em -22em",
+      "types": [
+        "幽靈",
+        "火"
+      ],
+      "first_ability": "引火",
+      "second_ability": "火焰之軀",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0677",
+      "name": "妙喵",
+      "form": "",
+      "icon": "-1em -26em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "穿透",
+      "hidden_ability": "我行我素"
+    },
+    {
+      "id": "0678",
+      "name": "超能妙喵",
+      "form": "♂",
+      "icon": "-2em -26em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "穿透",
+      "hidden_ability": "惡作劇之心"
+    },
+    {
+      "id": "0678",
+      "name": "超能妙喵",
+      "form": "♀",
+      "icon": "-3em -26em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "銳利目光",
+      "second_ability": "穿透",
+      "hidden_ability": "好勝"
+    },
+    {
+      "id": "0686",
+      "name": "好啦魷",
+      "form": "",
+      "icon": "-12em -26em",
+      "types": [
+        "惡",
+        "超能力"
+      ],
+      "first_ability": "唱反調",
+      "second_ability": "吸盤",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0687",
+      "name": "烏賊王",
+      "form": "",
+      "icon": "-13em -26em",
+      "types": [
+        "惡",
+        "超能力"
+      ],
+      "first_ability": "唱反調",
+      "second_ability": "吸盤",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0714",
+      "name": "嗡蝠",
+      "form": "",
+      "icon": "-10em -27em",
+      "types": [
+        "飛行",
+        "龍"
+      ],
+      "first_ability": "察覺",
+      "second_ability": "穿透",
+      "hidden_ability": "心靈感應"
+    },
+    {
+      "id": "0715",
+      "name": "音波龍",
+      "form": "",
+      "icon": "-11em -27em",
+      "types": [
+        "飛行",
+        "龍"
+      ],
+      "first_ability": "察覺",
+      "second_ability": "穿透",
+      "hidden_ability": "心靈感應"
+    },
+    {
+      "id": "0885",
+      "name": "多龍梅西亞",
+      "form": "",
+      "icon": "-28em -34em",
+      "types": [
+        "龍",
+        "幽靈"
+      ],
+      "first_ability": "恆淨之軀",
+      "second_ability": "穿透",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0886",
+      "name": "多龍奇",
+      "form": "",
+      "icon": "-29em -34em",
+      "types": [
+        "龍",
+        "幽靈"
+      ],
+      "first_ability": "恆淨之軀",
+      "second_ability": "穿透",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0887",
+      "name": "多龍巴魯託",
+      "form": "",
+      "icon": "-30em -34em",
+      "types": [
+        "龍",
+        "幽靈"
+      ],
+      "first_ability": "恆淨之軀",
+      "second_ability": "穿透",
+      "hidden_ability": "咒術之軀"
+    },
+    {
+      "id": "0946",
+      "name": "納噬草",
+      "form": "",
+      "icon": "-27em -36em",
+      "types": [
+        "草",
+        "幽靈"
+      ],
+      "first_ability": "乘風",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    },
+    {
+      "id": "0947",
+      "name": "怖納噬草",
+      "form": "",
+      "icon": "-28em -36em",
+      "types": [
+        "草",
+        "幽靈"
+      ],
+      "first_ability": "乘風",
+      "second_ability": "",
+      "hidden_ability": "穿透"
+    }
+  ],
+  "id": "151"
+}

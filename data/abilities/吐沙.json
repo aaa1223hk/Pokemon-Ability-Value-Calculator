@@ -1,0 +1,42 @@
+{
+  "name_zh": "吐沙",
+  "name_ja": "すなはき",
+  "name_en": "Sand Spit",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到攻擊時，會颳起沙暴。",
+  "effect": "當該寶可夢受到攻擊時，天氣轉為沙暴並持續5回合。即使在受到攻擊後昏厥，效果也會觸發。\n- 在攜帶了道具沙沙岩石的情況下，沙暴會持續8回合。",
+  "pokemon_list": [
+    {
+      "id": "0843",
+      "name": "沙包蛇",
+      "form": "",
+      "icon": "-30em -31em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "吐沙",
+      "second_ability": "蛻皮",
+      "hidden_ability": "沙隱"
+    },
+    {
+      "id": "0844",
+      "name": "沙螺蟒",
+      "form": "",
+      "icon": "-31em -31em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "吐沙",
+      "second_ability": "蛻皮",
+      "hidden_ability": "沙隱"
+    }
+  ],
+  "id": "245"
+}

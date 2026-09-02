@@ -1,0 +1,129 @@
+{
+  "name_zh": "正電",
+  "name_ja": "プラス",
+  "name_en": "Plus",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "出場的夥伴之間如果有正電或負電特性的寶可夢，自己的特攻會提高。",
+  "effect": "場上己方同伴具有正電或負電特性時，特攻能力×1.5。\n磁場操控可令己方所有特性為正電或負電的寶可夢的防禦和特防分別提升1級。輔助齒輪可令己方所有特性為正電或負電的寶可夢的攻擊和特攻分別提升1級。",
+  "pokemon_list": [
+    {
+      "id": "0179",
+      "name": "咩利羊",
+      "form": "",
+      "icon": "-11em -7em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "正電"
+    },
+    {
+      "id": "0180",
+      "name": "茸茸羊",
+      "form": "",
+      "icon": "-12em -7em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "正電"
+    },
+    {
+      "id": "0181",
+      "name": "電龍",
+      "form": "",
+      "icon": "-13em -7em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "靜電",
+      "second_ability": "",
+      "hidden_ability": "正電"
+    },
+    {
+      "id": "0311",
+      "name": "正電拍拍",
+      "form": "",
+      "icon": "-20em -12em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "正電",
+      "second_ability": "",
+      "hidden_ability": "避雷針"
+    },
+    {
+      "id": "0599",
+      "name": "齒輪兒",
+      "form": "",
+      "icon": "-27em -22em",
+      "types": [
+        "鋼"
+      ],
+      "first_ability": "正電",
+      "second_ability": "負電",
+      "hidden_ability": "恆淨之軀"
+    },
+    {
+      "id": "0600",
+      "name": "齒輪組",
+      "form": "",
+      "icon": "-28em -22em",
+      "types": [
+        "鋼"
+      ],
+      "first_ability": "正電",
+      "second_ability": "負電",
+      "hidden_ability": "恆淨之軀"
+    },
+    {
+      "id": "0601",
+      "name": "齒輪怪",
+      "form": "",
+      "icon": "-29em -22em",
+      "types": [
+        "鋼"
+      ],
+      "first_ability": "正電",
+      "second_ability": "負電",
+      "hidden_ability": "恆淨之軀"
+    },
+    {
+      "id": "0702",
+      "name": "咚咚鼠",
+      "form": "",
+      "icon": "-28em -26em",
+      "types": [
+        "電",
+        "妖精"
+      ],
+      "first_ability": "頰囊",
+      "second_ability": "撿拾",
+      "hidden_ability": "正電"
+    },
+    {
+      "id": "0849",
+      "name": "顫弦蠑螈",
+      "form": "高調的樣子",
+      "icon": "-39em -31em",
+      "types": [
+        "電",
+        "毒"
+      ],
+      "first_ability": "龐克搖滾",
+      "second_ability": "正電",
+      "hidden_ability": "技術高手"
+    }
+  ],
+  "id": "057"
+}

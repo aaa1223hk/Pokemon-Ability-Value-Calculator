@@ -1,0 +1,95 @@
+{
+  "name_zh": "粗糙皮膚",
+  "name_ja": "さめはだ",
+  "name_en": "Rough Skin",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到攻擊時，用粗糙的皮膚弄傷接觸到自己的對手。",
+  "effect": "受到接觸類招式攻擊時對手會損失最大體力的1⁄8。\n- 連續招式的每一擊都會觸發此特性。\n- 有粗糙皮膚特性的寶可夢使用守住並被攻擊方使用Ｚ招式攻擊時，粗糙皮膚特性不會發動。\n如果受到敵人從正面的近身攻擊，會反彈一半傷害。",
+  "pokemon_list": [
+    {
+      "id": "0318",
+      "name": "利牙魚",
+      "form": "",
+      "icon": "-30em -12em",
+      "types": [
+        "水",
+        "惡"
+      ],
+      "first_ability": "粗糙皮膚",
+      "second_ability": "",
+      "hidden_ability": "加速"
+    },
+    {
+      "id": "0319",
+      "name": "巨牙鯊",
+      "form": "",
+      "icon": "-31em -12em",
+      "types": [
+        "水",
+        "惡"
+      ],
+      "first_ability": "粗糙皮膚",
+      "second_ability": "",
+      "hidden_ability": "加速"
+    },
+    {
+      "id": "0443",
+      "name": "圓陸鯊",
+      "form": "",
+      "icon": "-3em -17em",
+      "types": [
+        "龍",
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "",
+      "hidden_ability": "粗糙皮膚"
+    },
+    {
+      "id": "0444",
+      "name": "尖牙陸鯊",
+      "form": "",
+      "icon": "-5em -17em",
+      "types": [
+        "龍",
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "",
+      "hidden_ability": "粗糙皮膚"
+    },
+    {
+      "id": "0445",
+      "name": "烈咬陸鯊",
+      "form": "",
+      "icon": "-7em -17em",
+      "types": [
+        "龍",
+        "地面"
+      ],
+      "first_ability": "沙隱",
+      "second_ability": "",
+      "hidden_ability": "粗糙皮膚"
+    },
+    {
+      "id": "0621",
+      "name": "赤面龍",
+      "form": "",
+      "icon": "-10em -23em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "粗糙皮膚",
+      "second_ability": "強行",
+      "hidden_ability": "破格"
+    }
+  ],
+  "id": "024"
+}

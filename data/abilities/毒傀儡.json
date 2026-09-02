@@ -1,0 +1,31 @@
+{
+  "name_zh": "毒傀儡",
+  "name_ja": "どくくぐつ",
+  "name_en": "Poison Puppeteer",
+  "basic_info": [
+    "不能被交換",
+    "可以被其他特性覆蓋",
+    "不能被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性無效",
+    "不在入場時發動"
+  ],
+  "introduction": "因桃歹郎的招式而陷入中毒狀態的對手同時也會陷入混亂狀態。",
+  "effect": "桃歹郎的招式對其他寶可夢造成中毒狀態時，那隻寶可夢也會陷入混亂狀態。",
+  "pokemon_list": [
+    {
+      "id": "1025",
+      "name": "桃歹郎",
+      "form": "",
+      "icon": "-3em -39em",
+      "types": [
+        "毒",
+        "幽靈"
+      ],
+      "first_ability": "毒傀儡",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "310"
+}

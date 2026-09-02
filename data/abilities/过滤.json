@@ -1,0 +1,70 @@
+{
+  "name_zh": "過濾",
+  "name_ja": "フィルター",
+  "name_en": "Filter",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到效果絕佳的攻擊時，可以減弱其威力。",
+  "effect": "效果絕佳招式造成的傷害降低1⁄4。",
+  "pokemon_list": [
+    {
+      "id": "0122",
+      "name": "魔牆人偶",
+      "form": "",
+      "icon": "-8em -5em",
+      "types": [
+        "超能力",
+        "妖精"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "過濾",
+      "hidden_ability": "技術高手"
+    },
+    {
+      "id": "0306",
+      "name": "波士可多拉",
+      "form": "超級波士可多拉",
+      "icon": "-11em -12em",
+      "types": [
+        "鋼"
+      ],
+      "first_ability": "過濾",
+      "second_ability": "",
+      "hidden_ability": ""
+    },
+    {
+      "id": "0439",
+      "name": "魔尼尼",
+      "form": "",
+      "icon": "-39em -16em",
+      "types": [
+        "超能力",
+        "妖精"
+      ],
+      "first_ability": "隔音",
+      "second_ability": "過濾",
+      "hidden_ability": "技術高手"
+    },
+    {
+      "id": "0966",
+      "name": "普隆隆姆",
+      "form": "",
+      "icon": "-8em -37em",
+      "types": [
+        "鋼",
+        "毒"
+      ],
+      "first_ability": "防塵",
+      "second_ability": "",
+      "hidden_ability": "過濾"
+    }
+  ],
+  "id": "111"
+}

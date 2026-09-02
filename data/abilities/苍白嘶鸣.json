@@ -1,0 +1,30 @@
+{
+  "name_zh": "蒼白嘶鳴",
+  "name_ja": "しろのいななき",
+  "name_en": "Chilling Neigh",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "打倒對手時會用冰冷的聲音嘶鳴並提高攻擊。",
+  "effect": "該特性的寶可夢打敗任意一方的一隻寶可夢後，自身攻擊提升1級。",
+  "pokemon_list": [
+    {
+      "id": "0896",
+      "name": "雪暴馬",
+      "form": "",
+      "icon": "-6em -35em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "蒼白嘶鳴",
+      "second_ability": "",
+      "hidden_ability": ""
+    }
+  ],
+  "id": "264"
+}

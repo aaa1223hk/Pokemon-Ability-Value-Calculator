@@ -1,0 +1,71 @@
+{
+  "name_zh": "堅硬岩石",
+  "name_ja": "ハードロック",
+  "name_en": "Solid Rock",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "受破格或類似效果的影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "受到效果絕佳的攻擊時，可以減弱其威力。",
+  "effect": "效果絕佳招式造成的傷害降低1⁄4。",
+  "pokemon_list": [
+    {
+      "id": "0323",
+      "name": "噴火駝",
+      "form": "",
+      "icon": "-37em -12em",
+      "types": [
+        "火",
+        "地面"
+      ],
+      "first_ability": "熔岩鎧甲",
+      "second_ability": "堅硬岩石",
+      "hidden_ability": "憤怒穴位"
+    },
+    {
+      "id": "0464",
+      "name": "超甲狂犀",
+      "form": "",
+      "icon": "-39em -17em",
+      "types": [
+        "地面",
+        "岩石"
+      ],
+      "first_ability": "避雷針",
+      "second_ability": "堅硬岩石",
+      "hidden_ability": "捨身"
+    },
+    {
+      "id": "0564",
+      "name": "原蓋海龜",
+      "form": "",
+      "icon": "-21em -21em",
+      "types": [
+        "水",
+        "岩石"
+      ],
+      "first_ability": "堅硬岩石",
+      "second_ability": "結實",
+      "hidden_ability": "悠遊自如"
+    },
+    {
+      "id": "0565",
+      "name": "肋骨海龜",
+      "form": "",
+      "icon": "-22em -21em",
+      "types": [
+        "水",
+        "岩石"
+      ],
+      "first_ability": "堅硬岩石",
+      "second_ability": "結實",
+      "hidden_ability": "悠遊自如"
+    }
+  ],
+  "id": "116"
+}

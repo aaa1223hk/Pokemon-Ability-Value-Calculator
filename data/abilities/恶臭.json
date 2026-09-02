@@ -1,0 +1,129 @@
+{
+  "name_zh": "惡臭",
+  "name_ja": "あくしゅう",
+  "name_en": "Stench",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "透過釋放臭臭的氣味，在攻擊的時候，有時會使對手畏縮。",
+  "effect": "使用招式攻擊對手造成傷害時，對方有10%機率陷入畏縮狀態。\n- 該效果與王者之證／銳利之牙不疊加。\n- 該效果與特效為畏縮的招式（比如空氣之刃）不疊加。\n- 連續招式每一下連續的攻擊都會有相同的機率造成對手畏縮。",
+  "pokemon_list": [
+    {
+      "id": "0044",
+      "name": "臭臭花",
+      "form": "",
+      "icon": "-7em -2em",
+      "types": [
+        "草",
+        "毒"
+      ],
+      "first_ability": "葉綠素",
+      "second_ability": "",
+      "hidden_ability": "惡臭"
+    },
+    {
+      "id": "0088",
+      "name": "臭泥",
+      "form": "",
+      "icon": "-37em -3em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "黏著",
+      "hidden_ability": "毒手"
+    },
+    {
+      "id": "0089",
+      "name": "臭臭泥",
+      "form": "",
+      "icon": "-39em -3em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "黏著",
+      "hidden_ability": "毒手"
+    },
+    {
+      "id": "0109",
+      "name": "瓦斯彈",
+      "form": "",
+      "icon": "-29em -4em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "化學變化氣體",
+      "hidden_ability": "惡臭"
+    },
+    {
+      "id": "0110",
+      "name": "雙彈瓦斯",
+      "form": "",
+      "icon": "-30em -4em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "飄浮",
+      "second_ability": "化學變化氣體",
+      "hidden_ability": "惡臭"
+    },
+    {
+      "id": "0434",
+      "name": "臭鼬噗",
+      "form": "",
+      "icon": "-34em -16em",
+      "types": [
+        "毒",
+        "惡"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "誘爆",
+      "hidden_ability": "銳利目光"
+    },
+    {
+      "id": "0435",
+      "name": "坦克臭鼬",
+      "form": "",
+      "icon": "-35em -16em",
+      "types": [
+        "毒",
+        "惡"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "誘爆",
+      "hidden_ability": "銳利目光"
+    },
+    {
+      "id": "0568",
+      "name": "破破袋",
+      "form": "",
+      "icon": "-25em -21em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "黏著",
+      "hidden_ability": "誘爆"
+    },
+    {
+      "id": "0569",
+      "name": "灰塵山",
+      "form": "",
+      "icon": "-26em -21em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "惡臭",
+      "second_ability": "碎裂鎧甲",
+      "hidden_ability": "誘爆"
+    }
+  ],
+  "id": "001"
+}

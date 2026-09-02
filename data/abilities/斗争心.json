@@ -1,0 +1,242 @@
+{
+  "name_zh": "鬥爭心",
+  "name_ja": "とうそうしん",
+  "name_en": "Rivalry",
+  "basic_info": [
+    "可以被交換",
+    "可以被其他特性覆蓋",
+    "可以被其他寶可夢複製",
+    "受無特性狀態影響",
+    "變身時特性有效",
+    "不在入場時發動"
+  ],
+  "introduction": "面對性別相同的對手，會燃起鬥爭心，變得更強。而面對性別不同的，則會變弱。",
+  "effect": "對手與自身性別相同時，招式威力提升25%；性別不同時威力下降25%。雙方只要有一方為性別不明時，招式威力不變，群體對戰的群體傷害中，多性別仍然為同性威力提升25%，不同性別威力下降25%。",
+  "pokemon_list": [
+    {
+      "id": "0029",
+      "name": "尼多蘭",
+      "form": "",
+      "icon": "-28em -1em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "毒刺",
+      "second_ability": "鬥爭心",
+      "hidden_ability": "活力"
+    },
+    {
+      "id": "0030",
+      "name": "尼多娜",
+      "form": "",
+      "icon": "-29em -1em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "毒刺",
+      "second_ability": "鬥爭心",
+      "hidden_ability": "活力"
+    },
+    {
+      "id": "0031",
+      "name": "尼多後",
+      "form": "",
+      "icon": "-30em -1em",
+      "types": [
+        "毒",
+        "地面"
+      ],
+      "first_ability": "毒刺",
+      "second_ability": "鬥爭心",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0032",
+      "name": "尼多朗",
+      "form": "",
+      "icon": "-31em -1em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "毒刺",
+      "second_ability": "鬥爭心",
+      "hidden_ability": "活力"
+    },
+    {
+      "id": "0033",
+      "name": "尼多力諾",
+      "form": "",
+      "icon": "-32em -1em",
+      "types": [
+        "毒"
+      ],
+      "first_ability": "毒刺",
+      "second_ability": "鬥爭心",
+      "hidden_ability": "活力"
+    },
+    {
+      "id": "0034",
+      "name": "尼多王",
+      "form": "",
+      "icon": "-33em -1em",
+      "types": [
+        "毒",
+        "地面"
+      ],
+      "first_ability": "毒刺",
+      "second_ability": "鬥爭心",
+      "hidden_ability": "強行"
+    },
+    {
+      "id": "0267",
+      "name": "狩獵鳳蝶",
+      "form": "",
+      "icon": "-3em -11em",
+      "types": [
+        "蟲",
+        "飛行"
+      ],
+      "first_ability": "蟲之預感",
+      "second_ability": "",
+      "hidden_ability": "鬥爭心"
+    },
+    {
+      "id": "0403",
+      "name": "小貓怪",
+      "form": "",
+      "icon": "-26em -15em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "威嚇",
+      "hidden_ability": "毅力"
+    },
+    {
+      "id": "0404",
+      "name": "勒克貓",
+      "form": "",
+      "icon": "-28em -15em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "威嚇",
+      "hidden_ability": "毅力"
+    },
+    {
+      "id": "0405",
+      "name": "倫琴貓",
+      "form": "",
+      "icon": "-30em -15em",
+      "types": [
+        "電"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "威嚇",
+      "hidden_ability": "毅力"
+    },
+    {
+      "id": "0519",
+      "name": "豆豆鴿",
+      "form": "",
+      "icon": "-5em -20em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "健壯胸肌",
+      "second_ability": "超幸運",
+      "hidden_ability": "鬥爭心"
+    },
+    {
+      "id": "0520",
+      "name": "咕咕鴿",
+      "form": "",
+      "icon": "-6em -20em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "健壯胸肌",
+      "second_ability": "超幸運",
+      "hidden_ability": "鬥爭心"
+    },
+    {
+      "id": "0521",
+      "name": "高傲雉雞",
+      "form": "",
+      "icon": "-7em -20em",
+      "types": [
+        "一般",
+        "飛行"
+      ],
+      "first_ability": "健壯胸肌",
+      "second_ability": "超幸運",
+      "hidden_ability": "鬥爭心"
+    },
+    {
+      "id": "0610",
+      "name": "牙牙",
+      "form": "",
+      "icon": "-38em -22em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "破格",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0611",
+      "name": "斧牙龍",
+      "form": "",
+      "icon": "-39em -22em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "破格",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0612",
+      "name": "雙斧戰龍",
+      "form": "",
+      "icon": "0 -23em",
+      "types": [
+        "龍"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "破格",
+      "hidden_ability": "緊張感"
+    },
+    {
+      "id": "0667",
+      "name": "小獅獅",
+      "form": "",
+      "icon": "-8em -25em",
+      "types": [
+        "火",
+        "一般"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "緊張感",
+      "hidden_ability": "自信過度"
+    },
+    {
+      "id": "0668",
+      "name": "火炎獅",
+      "form": "",
+      "icon": "-9em -25em",
+      "types": [
+        "火",
+        "一般"
+      ],
+      "first_ability": "鬥爭心",
+      "second_ability": "緊張感",
+      "hidden_ability": "自信過度"
+    }
+  ],
+  "id": "079"
+}
