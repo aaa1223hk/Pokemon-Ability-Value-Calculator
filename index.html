@@ -488,6 +488,101 @@ const searchInput = document.getElementById('pokemon-search');
       updateCalcResults(cid);
     }
 
+    function getFinalStat(cid, key) {
+      if (!currentData || !currentData.stats) return 0;
+      const baseMap = (currentData.stats[0] && currentData.stats[0].data) || {};
+      const base = parseInt(baseMap[key], 10) || 0;
+      const level = getNum(`calc-level-${cid}`, 50, 1, 100);
+      const natureIdx = getNum(`calc-nature-${cid}`, 0, 0, NATURES.length - 1);
+      const nature = NATURES[natureIdx];
+      const iv = getNum(`iv-${cid}-${key}`, 31, 0, 31);
+      const ev = getNum(`ev-${cid}-${key}`, 0, 0, 252);
+      const isShedinja = (currentData.name_zh || "").includes("脫殼忍者") ||
+                         (currentData.pokedex_id === "0292") ||
+                         (currentData.name_en || "").toLowerCase() === "shedinja";
+      if (key === "hp" && isShedinja) return 1;
+      const mod = key === "hp" ? 1.0 : getNatureMod(nature, key);
+      return calcStat(base, iv, ev, level, key === "hp", mod);
+    }
+
+    // 自動血防調整：把剩餘努力值（以4為單位）分配到 HP / 防禦 / 特防
+    // 目標：最大化「物理耐久 + 特殊耐久」= HP×Def + HP×SpD
+    // （參考傷害公式中 攻擊/防禦 與 特攻/特防 的對稱性，讓兩邊 bulk 都提升）
+    function autoBulk(cid) {
+      if (!currentData) return;
+      const isShedinja = (currentData.name_zh || "").includes("脫殼忍者") ||
+                         (currentData.pokedex_id === "0292") ||
+                         (currentData.name_en || "").toLowerCase() === "shedinja";
+      if (isShedinja) {
+        // 脫殼忍者 HP 固定，只把剩餘點分給 Def / SpD
+        // 仍用相同邏輯
+      }
+
+      // 先讀取目前非血防的 EV，計算剩餘
+      let used = 0;
+      STAT_KEYS.forEach(k => { used += getNum(`ev-${cid}-${k}`, 0, 0, 252); });
+      let remaining = 510 - used;
+      if (remaining < 4) {
+        alert("剩餘努力值不足 4 點，無法再分配。");
+        return;
+      }
+
+      // 貪心：每次加 4 點到能讓 score = HP*(Def + SpD) 提升最多的那個
+      const targets = isShedinja ? ["defense", "sp_defense"] : ["hp", "defense", "sp_defense"];
+
+      while (remaining >= 4) {
+        let bestKey = null;
+        let bestScore = -1;
+        let bestEv = 0;
+
+        // 當前真實數值
+        const curHp = getFinalStat(cid, "hp");
+        const curDef = getFinalStat(cid, "defense");
+        const curSpd = getFinalStat(cid, "sp_defense");
+        const baseScore = curHp * (curDef + curSpd);
+
+        for (const key of targets) {
+          const curEv = getNum(`ev-${cid}-${key}`, 0, 0, 252);
+          if (curEv + 4 > 252) continue;
+
+          // 暫時加 4
+          const el = document.getElementById(`ev-${cid}-${key}`);
+          const range = document.getElementById(`ev-range-${cid}-${key}`);
+          if (!el) continue;
+          el.value = curEv + 4;
+          if (range) range.value = curEv + 4;
+
+          const newHp = getFinalStat(cid, "hp");
+          const newDef = getFinalStat(cid, "defense");
+          const newSpd = getFinalStat(cid, "sp_defense");
+          const newScore = newHp * (newDef + newSpd);
+
+          // 還原
+          el.value = curEv;
+          if (range) range.value = curEv;
+
+          if (newScore > bestScore) {
+            bestScore = newScore;
+            bestKey = key;
+            bestEv = curEv + 4;
+          }
+        }
+
+        if (!bestKey || bestScore <= baseScore) break; // 無法再提升
+
+        // 真正加上
+        const el = document.getElementById(`ev-${cid}-${bestKey}`);
+        const range = document.getElementById(`ev-range-${cid}-${bestKey}`);
+        if (el) el.value = bestEv;
+        if (range) range.value = bestEv;
+        remaining -= 4;
+      }
+
+      updateCalcResults(cid);
+    }
+
+
+
     function removeCalc(cid) {
       const card = document.getElementById(`calc-card-${cid}`);
       if (card) card.remove();
@@ -521,6 +616,7 @@ const searchInput = document.getElementById('pokemon-search');
           <div class="calc-header">
             <div class="section-title">${title}</div>
             <div class="calc-actions">
+              <button type="button" class="calc-btn" onclick="autoBulk(${cid})" title="把剩餘努力值自動分配到HP/防禦/特防，以最大化物理+特殊耐久">自動血防</button>
               <button type="button" class="calc-btn" onclick="resetCalc(${cid})">重設</button>
               ${isPrimary ? `<button type="button" class="calc-btn primary" onclick="addCalc()">＋</button>` : ""}
               ${removeBtn}
