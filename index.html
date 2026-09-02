@@ -568,7 +568,7 @@ const searchInput = document.getElementById('pokemon-search');
           }
         }
 
-        if (!bestKey || bestScore <= baseScore) break; // 無法再提升
+        if (!bestKey) break; // 沒有可再加的目標（即使本步因 flooring 分數未變，仍繼續分配剩餘點數）
 
         // 真正加上
         const el = document.getElementById(`ev-${cid}-${bestKey}`);
