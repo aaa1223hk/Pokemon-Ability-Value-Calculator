@@ -1,55 +1,55 @@
 {
-  "name_zh": "灯火幽灵",
+  "name_zh": "燈火幽靈",
   "name_ja": "ランプラー",
   "name_en": "Lampent",
   "pokedex_id": "0608",
-  "description": "灯火幽灵（日文︰ランプラー，英文︰Lampent）是幽灵属性／火属性宝可梦。",
-  "profile": "灯火幽灵有黑色帽子状的头部，顶部有一个尖端，样子像灯罩。它仅有的面部特征是两个明亮的黄色眼睛。它的玻璃头部里面有蓝色的火焰。它有两只长长的摆动着的手臂，没有手指。它的身体很小，在底部有一个较小的灯托。\n灯火幽灵会在人类的临终时刻出现，当人的魂魄离开肉体的瞬间，它就会立即吸取。他会伪装成灯的样子藏身在城镇里，一旦发现了临近死期的人便会悄悄地跟在后面。它靠吸取灵魂来点亮灯火，会为了寻求死者的灵魂而在医院和街巷四处彷徨游荡。人们认为它是死神的使者，对它畏惧不已，将其称为不吉利的宝可梦。",
-  "prototype": "灯火幽灵的形象来自于油灯（或煤气灯）。吸取灵魂与指引前往灵界的设定可能参考了提灯妖怪与日本传说中名为青行灯的妖怪。",
-  "detail": "灯火幽灵是合众十二星座之一，代表了现实中的天秤宫。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步灯火幽灵（Pokémon GO）。\n←\nNo.0607：烛光灵\n宝可梦\nNo.0609：水晶灯火灵\n→",
+  "description": "燈火幽靈（日文︰ランプラー，英文︰Lampent）是幽靈屬性／火屬性寶可夢。",
+  "profile": "燈火幽靈有黑色帽子狀的頭部，頂部有一個尖端，樣子像燈罩。它僅有的面部特徵是兩個明亮的黃色眼睛。它的玻璃頭部裡面有藍色的火焰。它有兩隻長長的擺動著的手臂，沒有手指。它的身體很小，在底部有一個較小的燈託。\n燈火幽靈會在人類的臨終時刻出現，當人的魂魄離開肉體的瞬間，它就會立即吸取。他會偽裝成燈的樣子藏身在城鎮裡，一旦發現了臨近死期的人便會悄悄地跟在後面。它靠吸取靈魂來點亮燈火，會為了尋求死者的靈魂而在醫院和街巷四處彷徨遊蕩。人們認為它是死神的使者，對它畏懼不已，將其稱為不吉利的寶可夢。",
+  "prototype": "燈火幽靈的形象來自於油燈（或煤氣燈）。吸取靈魂與指引前往靈界的設定可能參考了提燈妖怪與日本傳說中名為青行燈的妖怪。",
+  "detail": "燈火幽靈是合眾十二星座之一，代表了現實中的天秤宮。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步燈火幽靈（Pokémon GO）。\n←\nNo.0607：燭光靈\n寶可夢\nNo.0609：水晶燈火靈\n→",
   "names": [
     {
       "language": "日文",
       "name": "ランプラー Lampler",
-      "origin": "来自英文 lamp（灯）。"
+      "origin": "來自英文 lamp（燈）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "燈火幽靈灯火幽灵",
-      "origin": "来自“灯火”和“幽灵”。"
+      "name": "燈火幽靈燈火幽靈",
+      "origin": "來自“燈火”和“幽靈”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "灯火幽灵",
-      "origin": "来自“灯火”和“幽灵”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "燈火幽靈",
-      "origin": "来自“灯火”和“幽灵”。"
+      "origin": "來自“燈火”和“幽靈”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "燈火幽靈",
+      "origin": "來自“燈火”和“幽靈”。"
     },
     {
       "language": "中文-香港",
       "name": "燈火幽靈",
-      "origin": "来自“灯火”和“幽灵”。"
+      "origin": "來自“燈火”和“幽靈”。"
     },
     {
       "language": "英文",
       "name": "Lampent",
-      "origin": "来自 lamp（灯）和 lambent（光线柔和的）或 lament（悲叹）。"
+      "origin": "來自 lamp（燈）和 lambent（光線柔和的）或 lament（悲嘆）。"
     },
     {
       "language": "法文",
       "name": "Mélancolux",
-      "origin": "来自 Mélancolie（忧郁）和拉丁文 lux（光）。"
+      "origin": "來自 Mélancolie（憂鬱）和拉丁文 lux（光）。"
     },
     {
       "language": "德文",
       "name": "Laternecto",
-      "origin": "来自 Laterne（灯笼）和 Ektoplasma（灵的外质、灵气）。"
+      "origin": "來自 Laterne（燈籠）和 Ektoplasma（靈的外質、靈氣）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Lampent",
       "origin": "同英文名。"
     },
@@ -59,26 +59,26 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "램프라 Lampler",
-      "origin": "来自英文 lamp（灯）和日文名的音译。"
+      "origin": "來自英文 lamp（燈）和日文名的音譯。"
     }
   ],
   "forms": [
     {
-      "name": "灯火幽灵",
+      "name": "燈火幽靈",
       "types": [
-        "幽灵",
+        "幽靈",
         "火"
       ],
-      "category": "油灯宝可梦",
+      "category": "油燈寶可夢",
       "abilities": [
         {
           "name": "引火",
           "is_hidden": false
         },
         {
-          "name": "火焰之躯",
+          "name": "火焰之軀",
           "is_hidden": false
         },
         {
@@ -93,7 +93,7 @@
       "egg_groups": [
         "不定形群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -126,10 +126,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body04.png",
       "footprint": "Fnone.png",
-      "image": "0608-灯火幽灵.png"
+      "image": "0608-燈火幽靈.png"
     }
   ],
   "stats": [
@@ -149,7 +149,7 @@
     {
       "form": "(引火)",
       "types": [
-        "幽灵",
+        "幽靈",
         "火"
       ],
       "data": [
@@ -158,11 +158,11 @@
           "damage": "0"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -178,15 +178,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.25"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -202,7 +202,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -214,11 +214,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -230,7 +230,7 @@
     {
       "form": "",
       "types": [
-        "幽灵",
+        "幽靈",
         "火"
       ],
       "data": [
@@ -239,11 +239,11 @@
           "damage": "0"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -259,15 +259,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.25"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -283,7 +283,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -295,11 +295,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -315,13 +315,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "世人害怕它将其称为不吉利的宝可梦。为了寻求死者的灵魂而在街巷四处游荡。"
+          "group": "寶可夢 黑／白",
+          "text": "世人害怕它將其稱為不吉利的寶可夢。為了尋求死者的靈魂而在街巷四處遊蕩。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "在人类的临终时刻出现。当人的魂魄离开肉体的瞬间，它就会立即吸取。"
+          "group": "寶可夢 黑／白",
+          "text": "在人類的臨終時刻出現。當人的魂魄離開肉體的瞬間，它就會立即吸取。"
         }
       ]
     },
@@ -330,23 +330,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "吸取灵魂来点亮灯火。为了等待人类死去，而在医院里彷徨游荡。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "吸取靈魂來點亮燈火。為了等待人類死去，而在醫院裡彷徨遊蕩。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "在人类的临终时刻出现。当人的魂魄离开肉体的瞬间，它就会立即吸取。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "在人類的臨終時刻出現。當人的魂魄離開肉體的瞬間，它就會立即吸取。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "吸取灵魂来点亮灯火。为了等待人类死去，而在医院里彷徨游荡。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "吸取靈魂來點亮燈火。為了等待人類死去，而在醫院裡彷徨遊蕩。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "在人类的临终时刻出现。当人的魂魄离开肉体的瞬间，它就会立即吸取。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "在人類的臨終時刻出現。當人的魂魄離開肉體的瞬間，它就會立即吸取。"
         }
       ]
     },
@@ -354,14 +354,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "由于它会在人类临终时出现，人们认为它是死神的使者，对它畏惧不已。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "由於它會在人類臨終時出現，人們認為它是死神的使者，對它畏懼不已。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "伪装成灯的样子藏身在城镇里。一旦发现了临近死期的人，便会悄悄地跟在后面。"
+          "group": "寶可夢 劍／盾",
+          "text": "偽裝成燈的樣子藏身在城鎮裡。一旦發現了臨近死期的人，便會悄悄地跟在後面。"
         }
       ]
     },
@@ -370,18 +370,18 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "在人类的临终时刻出现。当人的魂魄离开肉体的瞬间，它就会立即吸取。"
+          "group": "寶可夢 朱／紫",
+          "text": "在人類的臨終時刻出現。當人的魂魄離開肉體的瞬間，它就會立即吸取。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "吸取灵魂来点亮灯火。为了等待人类死去，而在医院里彷徨游荡。"
+          "group": "寶可夢 朱／紫",
+          "text": "吸取靈魂來點亮燈火。為了等待人類死去，而在醫院裡彷徨遊蕩。"
         },
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "在人类的临终时刻出现。当人的魂魄离开肉体的瞬间，它就会立即吸取。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "在人類的臨終時刻出現。當人的魂魄離開肉體的瞬間，它就會立即吸取。"
         }
       ]
     }
@@ -389,8 +389,8 @@
   "evolution_chains": [
     [
       {
-        "name": "烛光灵",
-        "stage": "未进化",
+        "name": "燭光靈",
+        "stage": "未進化",
         "text": null,
         "image": "607Litwick_Dream.png",
         "back_text": null,
@@ -398,21 +398,21 @@
         "form_name": null
       },
       {
-        "name": "灯火幽灵",
-        "stage": "1阶进化",
-        "text": "等级41以上",
+        "name": "燈火幽靈",
+        "stage": "1階進化",
+        "text": "等級41以上",
         "image": "608Lampent_Dream.png",
         "back_text": null,
-        "from": "烛光灵",
+        "from": "燭光靈",
         "form_name": null
       },
       {
-        "name": "水晶灯火灵",
-        "stage": "2阶进化",
+        "name": "水晶燈火靈",
+        "stage": "2階進化",
         "text": "使用暗之石",
         "image": "609Chandelure_Dream.png",
         "back_text": null,
-        "from": "灯火幽灵",
+        "from": "燈火幽靈",
         "form_name": null
       }
     ]
@@ -434,16 +434,16 @@
         },
         {
           "level": "—",
-          "name": "变小",
+          "name": "變小",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "—",
-          "name": "浊雾",
+          "name": "濁霧",
           "type": "毒",
           "category": "特殊",
           "power": "30",
@@ -452,8 +452,8 @@
         },
         {
           "level": "—",
-          "name": "惊吓",
-          "type": "幽灵",
+          "name": "驚嚇",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -461,17 +461,17 @@
         },
         {
           "level": "12",
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "16",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
@@ -481,14 +481,14 @@
           "level": "20",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
           "level": "24",
-          "name": "火焰旋涡",
+          "name": "火焰旋渦",
           "type": "火",
           "category": "特殊",
           "power": "35",
@@ -498,17 +498,17 @@
         {
           "level": "28",
           "name": "黑夜魔影",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "32",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -516,7 +516,7 @@
         {
           "level": "36",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -524,7 +524,7 @@
         },
         {
           "level": "40",
-          "name": "烈火深渊",
+          "name": "烈火深淵",
           "type": "火",
           "category": "特殊",
           "power": "100",
@@ -535,23 +535,23 @@
           "level": "46",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "52",
-          "name": "分担痛楚",
+          "name": "分擔痛楚",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "58",
-          "name": "过热",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -560,9 +560,9 @@
         },
         {
           "level": "64",
-          "name": "临别礼物",
-          "type": "恶",
-          "category": "变化",
+          "name": "臨別禮物",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -575,35 +575,35 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１７",
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器０１７",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２４",
-          "name": "火焰旋涡",
+          "machine": "招式學習器０２４",
+          "name": "火焰旋渦",
           "type": "火",
           "category": "特殊",
           "power": "35",
@@ -611,8 +611,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -620,17 +620,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２９",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "machine": "招式學習器０２９",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０３８",
-          "name": "蓄能焰袭",
+          "machine": "招式學習器０３８",
+          "name": "蓄能焰襲",
           "type": "火",
           "category": "物理",
           "power": "50",
@@ -638,116 +638,116 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４２",
+          "machine": "招式學習器０４２",
           "name": "黑夜魔影",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９２",
+          "machine": "招式學習器０９２",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９４",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式學習器０９４",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０７",
+          "machine": "招式學習器１０７",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０９",
-          "name": "戏法",
+          "machine": "招式學習器１０９",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１４",
+          "machine": "招式學習器１１４",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１８",
-          "name": "热风",
+          "machine": "招式學習器１１８",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -755,7 +755,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１９",
+          "machine": "招式學習器１１９",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -764,8 +764,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２０",
-          "name": "精神强念",
+          "machine": "招式學習器１２０",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -773,8 +773,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２５",
-          "name": "喷射火焰",
+          "machine": "招式學習器１２５",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -782,16 +782,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２９",
+          "machine": "招式學習器１２９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１４１",
+          "machine": "招式學習器１４１",
           "name": "大字爆炎",
           "type": "火",
           "category": "特殊",
@@ -800,8 +800,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５７",
-          "name": "过热",
+          "machine": "招式學習器１５７",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -809,17 +809,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６１",
-          "name": "戏法空间",
+          "machine": "招式學習器１６１",
+          "name": "戲法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６５",
-          "name": "闪焰冲锋",
+          "machine": "招式學習器１６５",
+          "name": "閃焰衝鋒",
           "type": "火",
           "category": "物理",
           "power": "120",
@@ -827,7 +827,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１６８",
+          "machine": "招式學習器１６８",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -836,8 +836,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -845,25 +845,25 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７４",
-          "name": "黑雾",
+          "machine": "招式學習器１７４",
+          "name": "黑霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器１７７",
+          "machine": "招式學習器１７７",
           "name": "怨恨",
-          "type": "幽灵",
-          "category": "变化",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９５",
+          "machine": "招式學習器１９５",
           "name": "妒火",
           "type": "火",
           "category": "特殊",
@@ -872,43 +872,43 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１９８",
-          "name": "灵骚",
-          "type": "幽灵",
+          "machine": "招式學習器１９８",
+          "name": "靈騷",
+          "type": "幽靈",
           "category": "物理",
           "power": "110",
           "accuracy": "90",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１９９",
-          "name": "泄愤",
-          "type": "恶",
+          "machine": "招式學習器１９９",
+          "name": "洩憤",
+          "type": "惡",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器２０２",
-          "name": "分担痛楚",
+          "machine": "招式學習器２０２",
+          "name": "分擔痛楚",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０３",
+          "machine": "招式學習器２０３",
           "name": "自我暗示",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０７",
+          "machine": "招式學習器２０７",
           "name": "豁出去",
           "type": "火",
           "category": "物理",
@@ -917,19 +917,19 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１９",
-          "name": "爬击",
-          "type": "虫",
+          "machine": "招式學習器２１９",
+          "name": "爬擊",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２４",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器２２４",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -945,20 +945,20 @@
           "parents": [
             {
               "id": "0109",
-              "name": "瓦斯弹"
+              "name": "瓦斯彈"
             },
             {
               "id": "0110",
-              "name": "双弹瓦斯"
+              "name": "雙彈瓦斯"
             },
             {
               "id": "0110G",
-              "name": "双弹瓦斯"
+              "name": "雙彈瓦斯"
             }
           ],
-          "name": "黑雾",
+          "name": "黑霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -984,7 +984,7 @@
           ],
           "name": "溶化",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -1002,7 +1002,7 @@
           ],
           "name": "力量平分",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -1011,26 +1011,26 @@
           "parents": [
             {
               "id": "0109",
-              "name": "瓦斯弹"
+              "name": "瓦斯彈"
             },
             {
               "id": "0110",
-              "name": "双弹瓦斯"
+              "name": "雙彈瓦斯"
             },
             {
               "id": "0110G",
-              "name": "双弹瓦斯"
+              "name": "雙彈瓦斯"
             },
             {
               "id": "0218",
-              "name": "熔岩虫"
+              "name": "熔岩蟲"
             },
             {
               "id": "0219",
-              "name": "熔岩蜗牛"
+              "name": "熔岩蝸牛"
             }
           ],
-          "name": "清除之烟",
+          "name": "清除之煙",
           "type": "毒",
           "category": "特殊",
           "power": "50",
@@ -1042,9 +1042,9 @@
   ],
   "home_images": [
     {
-      "name": "灯火幽灵",
-      "image": "0608-灯火幽灵.png",
-      "shiny": "0608-灯火幽灵-shiny.png"
+      "name": "燈火幽靈",
+      "image": "0608-燈火幽靈.png",
+      "shiny": "0608-燈火幽靈-shiny.png"
     }
   ]
 }

@@ -1,62 +1,62 @@
 {
-  "name_zh": "铁臂膀",
+  "name_zh": "鐵臂膀",
   "name_ja": "テツノカイナ",
   "name_en": "Iron Hands",
   "pokedex_id": "0992",
-  "description": "铁臂膀（日文︰テツノカイナ，英文︰Iron Hands）是格斗属性／电属性悖谬宝可梦。",
-  "profile": "铁臂膀的外形与铁掌力士相似。\n据说，铁臂膀曾用活动自如的手掌将高速奔驰的大型车辆扔飞很远。较有力的说法认为，铁臂膀的真面目是机械生化人，由身负重伤而濒临死亡的运动员改造而成。世纪奇书《紫之书》中，记载了名为铁之臂膀的神秘物体，铁臂膀这个名字便来源于此。",
-  "prototype": "铁臂膀在铁掌力士的基础上加入了更多科技的元素。\n电属性和相扑的结合可能来自江户时代相扑力士雷电为右卫门。",
-  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步铁臂膀（Pokémon GO）。\n←\nNo.0991：铁包袱\n宝可梦\nNo.0993：铁脖颈\n→",
+  "description": "鐵臂膀（日文︰テツノカイナ，英文︰Iron Hands）是格鬥屬性／電屬性悖謬寶可夢。",
+  "profile": "鐵臂膀的外形與鐵掌力士相似。\n據說，鐵臂膀曾用活動自如的手掌將高速賓士的大型車輛扔飛很遠。較有力的說法認為，鐵臂膀的真面目是機械生化人，由身負重傷而瀕臨死亡的運動員改造而成。世紀奇書《紫之書》中，記載了名為鐵之臂膀的神秘物體，鐵臂膀這個名字便來源於此。",
+  "prototype": "鐵臂膀在鐵掌力士的基礎上加入了更多科技的元素。\n電屬性和相撲的結合可能來自江戶時代相撲力士雷電為右衛門。",
+  "detail": "如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步鐵臂膀（Pokémon GO）。\n←\nNo.0991：鐵包袱\n寶可夢\nNo.0993：鐵脖頸\n→",
   "names": [
     {
       "language": "日文",
       "name": "テツノカイナ Tetsunokaina",
-      "origin": "来自“鉄（てつ）の腕（かいな）”（铁的臂）。"
+      "origin": "來自“鉄（てつ）の腕（かいな）”（鐵的臂）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "鐵臂膀铁臂膀",
-      "origin": "来自“铁”和“臂膀”。"
+      "name": "鐵臂膀鐵臂膀",
+      "origin": "來自“鐵”和“臂膀”。"
     },
     {
       "language": "英文",
       "name": "Iron Hands",
-      "origin": "来自 iron（铁）和 hand（手）。"
+      "origin": "來自 iron（鐵）和 hand（手）。"
     },
     {
       "language": "法文",
       "name": "Paume-de-Fer",
-      "origin": "来自 paume（掌）和 de fer（铁的）。"
+      "origin": "來自 paume（掌）和 de fer（鐵的）。"
     },
     {
       "language": "德文",
       "name": "Eisenhand",
-      "origin": "来自 Eisen（铁）和 Hand（手）。"
+      "origin": "來自 Eisen（鐵）和 Hand（手）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Manoferrea",
-      "origin": "来自 mano（手）和 ferreo（铁的）。"
+      "origin": "來自 mano（手）和 ferreo（鐵的）。"
     },
     {
       "language": "西班牙文",
       "name": "Ferropalmas",
-      "origin": "来自前缀 ferro-（表示“铁”）和 palma（手掌）。"
+      "origin": "來自字首 ferro-（表示“鐵”）和 palma（手掌）。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "무쇠손 Musoeson",
-      "origin": "来自“무쇠”（铸铁）和“손”（手）。"
+      "origin": "來自“무쇠”（鑄鐵）和“손”（手）。"
     }
   ],
   "forms": [
     {
-      "name": "铁臂膀",
+      "name": "鐵臂膀",
       "types": [
-        "格斗",
-        "电"
+        "格鬥",
+        "電"
       ],
-      "category": "悖谬宝可梦",
+      "category": "悖謬寶可夢",
       "abilities": [
         {
           "name": "夸克充能",
@@ -68,7 +68,7 @@
       "color": "灰色",
       "catch_rate": "50（6.5%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -103,10 +103,10 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "50 孵化周期*（12850步）",
+      "egg_cycles": "50 孵化週期*（12850步）",
       "shape": "Body12.png",
       "footprint": "FUnknown.png",
-      "image": "0992-铁臂膀.png"
+      "image": "0992-鐵臂膀.png"
     }
   ],
   "stats": [
@@ -126,8 +126,8 @@
     {
       "form": "",
       "types": [
-        "格斗",
-        "电"
+        "格鬥",
+        "電"
       ],
       "data": [
         {
@@ -135,11 +135,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -155,15 +155,15 @@
           "damage": "0.5"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -179,7 +179,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -191,11 +191,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "0.5"
         },
         {
@@ -211,13 +211,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "与超自然杂志曾独家报道过的某运动员被改造成机械生化人的样子很相似。"
+          "group": "寶可夢 朱／紫",
+          "text": "與超自然雜誌曾獨家報道過的某運動員被改造成機械生化人的樣子很相似。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "这种宝可梦与某本探险记中记载的一种叫做铁臂膀的物体有许多相似之处。"
+          "group": "寶可夢 朱／紫",
+          "text": "這種寶可夢與某本探險記中記載的一種叫做鐵臂膀的物體有許多相似之處。"
         }
       ]
     }
@@ -225,8 +225,8 @@
   "evolution_chains": [
     [
       {
-        "name": "铁臂膀",
-        "stage": "不进化",
+        "name": "鐵臂膀",
+        "stage": "不進化",
         "text": null,
         "image": "992Iron_Hands_Dream.png",
         "back_text": null,
@@ -243,16 +243,16 @@
       "data": [
         {
           "level": "—",
-          "name": "泼沙",
+          "name": "潑沙",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -261,9 +261,9 @@
         },
         {
           "level": "—",
-          "name": "聚气",
+          "name": "聚氣",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -271,7 +271,7 @@
         {
           "level": "—",
           "name": "猛推",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "15",
           "accuracy": "100",
@@ -279,7 +279,7 @@
         },
         {
           "level": "7",
-          "name": "击掌奇袭",
+          "name": "擊掌奇襲",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -288,17 +288,17 @@
         },
         {
           "level": "14",
-          "name": "吹飞",
+          "name": "吹飛",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "21",
-          "name": "雷电拳",
-          "type": "电",
+          "name": "雷電拳",
+          "type": "電",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
@@ -315,8 +315,8 @@
         },
         {
           "level": "35",
-          "name": "发劲",
-          "type": "格斗",
+          "name": "發勁",
+          "type": "格鬥",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -325,25 +325,25 @@
         {
           "level": "42",
           "name": "地球上投",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "49",
-          "name": "充电",
-          "type": "电",
-          "category": "变化",
+          "name": "充電",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "56",
-          "name": "疯狂伏特",
-          "type": "电",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
@@ -351,8 +351,8 @@
         },
         {
           "level": "63",
-          "name": "近身战",
-          "type": "格斗",
+          "name": "近身戰",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
@@ -361,18 +361,18 @@
         {
           "level": "70",
           "name": "看穿",
-          "type": "格斗",
-          "category": "变化",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "77",
-          "name": "重磅冲撞",
-          "type": "钢",
+          "name": "重磅衝撞",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
@@ -380,25 +380,25 @@
           "level": "84",
           "name": "腹鼓",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "91",
-          "name": "真气拳",
-          "type": "格斗",
+          "name": "真氣拳",
+          "type": "格鬥",
           "category": "物理",
           "power": "150",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "level": "回忆",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "level": "回憶",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -411,7 +411,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -420,35 +420,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１２",
+          "machine": "招式學習器０１２",
           "name": "踢倒",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -456,7 +456,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２８",
+          "machine": "招式學習器０２８",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -465,8 +465,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３６",
-          "name": "岩石封锁",
+          "machine": "招式學習器０３６",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -474,53 +474,53 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３９",
-          "name": "下盘踢",
-          "type": "格斗",
+          "machine": "招式學習器０３９",
+          "name": "下盤踢",
+          "type": "格鬥",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４８",
-          "name": "伏特替换",
-          "type": "电",
+          "machine": "招式學習器０４８",
+          "name": "伏特替換",
+          "type": "電",
           "category": "特殊",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０５８",
+          "machine": "招式學習器０５８",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -528,7 +528,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６７",
+          "machine": "招式學習器０６７",
           "name": "火焰拳",
           "type": "火",
           "category": "物理",
@@ -537,17 +537,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６８",
-          "name": "雷电拳",
-          "type": "电",
+          "machine": "招式學習器０６８",
+          "name": "雷電拳",
+          "type": "電",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６９",
-          "name": "冰冻拳",
+          "machine": "招式學習器０６９",
+          "name": "冰凍拳",
           "type": "冰",
           "category": "物理",
           "power": "75",
@@ -555,35 +555,35 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７３",
+          "machine": "招式學習器０７３",
           "name": "吸取拳",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８０",
-          "name": "挥指",
+          "machine": "招式學習器０８０",
+          "name": "揮指",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８４",
-          "name": "跺脚",
+          "machine": "招式學習器０８４",
+          "name": "跺腳",
           "type": "地面",
           "category": "物理",
           "power": "75",
@@ -591,17 +591,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８６",
-          "name": "岩崩",
+          "machine": "招式學習器０８６",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -609,71 +609,71 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８８",
-          "name": "剑舞",
+          "machine": "招式學習器０８８",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８９",
-          "name": "扑击",
-          "type": "格斗",
+          "machine": "招式學習器０８９",
+          "name": "撲擊",
+          "type": "格鬥",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９９",
-          "name": "铁头",
-          "type": "钢",
+          "machine": "招式學習器０９９",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０４",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式學習器１０４",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２１",
-          "name": "重磅冲撞",
-          "type": "钢",
+          "machine": "招式學習器１２１",
+          "name": "重磅衝撞",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２６",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式學習器１２６",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２７",
-          "name": "嬉闹",
+          "machine": "招式學習器１２７",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -681,34 +681,34 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３４",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式學習器１３４",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３６",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１３６",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４７",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式學習器１４７",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１４９",
+          "machine": "招式學習器１４９",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -717,8 +717,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -726,17 +726,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５８",
-          "name": "真气弹",
-          "type": "格斗",
+          "machine": "招式學習器１５８",
+          "name": "真氣彈",
+          "type": "格鬥",
           "category": "特殊",
           "power": "120",
           "accuracy": "70",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -744,26 +744,26 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６６",
+          "machine": "招式學習器１６６",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６７",
-          "name": "近身战",
-          "type": "格斗",
+          "machine": "招式學習器１６７",
+          "name": "近身戰",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -771,26 +771,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７３",
-          "name": "充电",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１７３",
+          "name": "充電",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１９２",
-          "name": "真气拳",
-          "type": "格斗",
+          "machine": "招式學習器１９２",
+          "name": "真氣拳",
+          "type": "格鬥",
           "category": "物理",
           "power": "150",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -798,20 +798,20 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１０",
-          "name": "闪电强袭",
-          "type": "电",
+          "machine": "招式學習器２１０",
+          "name": "閃電強襲",
+          "type": "電",
           "category": "物理",
           "power": "100",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２５",
-          "name": "硬压",
-          "type": "钢",
+          "machine": "招式學習器２２５",
+          "name": "硬壓",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         }
@@ -821,9 +821,9 @@
   "egg_moves": [],
   "home_images": [
     {
-      "name": "铁臂膀",
-      "image": "0992-铁臂膀.png",
-      "shiny": "0992-铁臂膀-shiny.png"
+      "name": "鐵臂膀",
+      "image": "0992-鐵臂膀.png",
+      "shiny": "0992-鐵臂膀-shiny.png"
     }
   ]
 }

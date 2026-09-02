@@ -1,55 +1,55 @@
 {
-  "name_zh": "钳尾蝎",
+  "name_zh": "鉗尾蠍",
   "name_ja": "スコルピ",
   "name_en": "Skorupi",
   "pokedex_id": "0451",
-  "description": "钳尾蝎（日文︰スコルピ，英文︰Skorupi）是毒属性／虫属性宝可梦。",
-  "profile": "钳尾蝎全身蓝紫相间，尾巴末端有一个钳子，前肢尖端有白色钩子。\n钳尾蝎生活在干燥的土地上，对于寒冷似乎缺乏抵抗力。它是一种忍耐力很强的宝可梦，会在沙地里挖洞，将自己的身体埋在沙子里，然后潜藏在里面等待猎物上门，可以一年到头什么都不吃地伏击猎物。它会用尾巴上带毒的钩爪袭击对手，钳子不但锐利而且带毒，毫无疑问是种危险的宝可梦。当尾巴上的钳子闭合后就会从针尖渗出毒素，一旦被夹住毒素就会扩散开来，导致全身无法动弹。它很执着，毒不发作就绝不松开。它的祖先和烧火蚣的祖先是近亲。",
-  "prototype": "钳尾蝎基于蝎子，最前端的螯足类似于有鞭蝎。",
-  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步钳尾蝎（Pokémon GO）。\n←\nNo.0450：河马兽\n宝可梦\nNo.0452：龙王蝎\n→",
+  "description": "鉗尾蠍（日文︰スコルピ，英文︰Skorupi）是毒屬性／蟲屬性寶可夢。",
+  "profile": "鉗尾蠍全身藍紫相間，尾巴末端有一個鉗子，前肢尖端有白色鉤子。\n鉗尾蠍生活在乾燥的土地上，對於寒冷似乎缺乏抵抗力。它是一種忍耐力很強的寶可夢，會在沙地裡挖洞，將自己的身體埋在沙子裡，然後潛藏在裡面等待獵物上門，可以一年到頭什麼都不吃地伏擊獵物。它會用尾巴上帶毒的鉤爪襲擊對手，鉗子不但銳利而且帶毒，毫無疑問是種危險的寶可夢。當尾巴上的鉗子閉合後就會從針尖滲出毒素，一旦被夾住毒素就會擴散開來，導致全身無法動彈。它很執著，毒不發作就絕不鬆開。它的祖先和燒火蚣的祖先是近親。",
+  "prototype": "鉗尾蠍基於蠍子，最前端的螯足類似於有鞭蠍。",
+  "detail": "如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步鉗尾蠍（Pokémon GO）。\n←\nNo.0450：河馬獸\n寶可夢\nNo.0452：龍王蠍\n→",
   "names": [
     {
       "language": "日文",
       "name": "スコルピ Scorpi",
-      "origin": "来自英文 scorpion（蝎子）。"
+      "origin": "來自英文 scorpion（蠍子）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "鉗尾蠍钳尾蝎",
-      "origin": "来自“钳”、“尾”和“蝎”。"
+      "name": "鉗尾蠍鉗尾蠍",
+      "origin": "來自“鉗”、“尾”和“蠍”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "紫天蝎",
-      "origin": "来自“紫”和“天蝎”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "紫天蠍",
-      "origin": "来自“紫”和“天蝎”。"
+      "origin": "來自“紫”和“天蠍”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "紫天蠍",
+      "origin": "來自“紫”和“天蠍”。"
     },
     {
       "language": "中文-香港",
       "name": "紫天蠍",
-      "origin": "来自“紫”和“天蝎”。"
+      "origin": "來自“紫”和“天蠍”。"
     },
     {
       "language": "英文",
       "name": "Skorupi",
-      "origin": "来自日文名。"
+      "origin": "來自日文名。"
     },
     {
       "language": "法文",
       "name": "Rapion",
-      "origin": "来自 dragon（龙）和 scorpion（蝎子）。"
+      "origin": "來自 dragon（龍）和 scorpion（蠍子）。"
     },
     {
       "language": "德文",
       "name": "Pionskora",
-      "origin": "来自 Skorpion（蝎子）。"
+      "origin": "來自 Skorpion（蠍子）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Skorupi",
       "origin": "同英文名。"
     },
@@ -59,30 +59,30 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "스콜피 Skorupi",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     }
   ],
   "forms": [
     {
-      "name": "钳尾蝎",
+      "name": "鉗尾蠍",
       "types": [
         "毒",
-        "虫"
+        "蟲"
       ],
-      "category": "蝎子宝可梦",
+      "category": "蠍子寶可夢",
       "abilities": [
         {
-          "name": "战斗盔甲",
+          "name": "戰鬥盔甲",
           "is_hidden": false
         },
         {
-          "name": "狙击手",
+          "name": "狙擊手",
           "is_hidden": false
         },
         {
-          "name": "锐利目光",
+          "name": "銳利目光",
           "is_hidden": true
         }
       ],
@@ -91,7 +91,7 @@
       "color": "紫色",
       "catch_rate": "120（15.7%）",
       "egg_groups": [
-        "虫",
+        "蟲",
         "水中3群"
       ],
       "experience_100": "1,250,000（慢）",
@@ -127,10 +127,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body14.png",
       "footprint": "F451.png",
-      "image": "0451-钳尾蝎.png"
+      "image": "0451-鉗尾蠍.png"
     }
   ],
   "stats": [
@@ -151,7 +151,7 @@
       "form": "",
       "types": [
         "毒",
-        "虫"
+        "蟲"
       ],
       "data": [
         {
@@ -159,11 +159,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.25"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "2"
         },
         {
@@ -179,15 +179,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -203,7 +203,7 @@
           "damage": "0.25"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -215,11 +215,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -234,29 +234,29 @@
       "name": "第四世代",
       "versions": [
         {
-          "name": "钻石",
-          "group": "宝可梦 钻石／珍珠",
-          "text": "用尾巴上的钩爪夹住猎物并注入毒素。很执着，毒不发作就绝不松开。"
+          "name": "鑽石",
+          "group": "寶可夢 鑽石／珍珠",
+          "text": "用尾巴上的鉤爪夾住獵物並注入毒素。很執著，毒不發作就絕不鬆開。"
         },
         {
           "name": "珍珠",
-          "group": "宝可梦 钻石／珍珠",
-          "text": "栖息在干燥的土地上。会在沙地里挖洞，然后潜藏在里面等待猎物上门。"
+          "group": "寶可夢 鑽石／珍珠",
+          "text": "棲息在乾燥的土地上。會在沙地裡挖洞，然後潛藏在裡面等待獵物上門。"
         },
         {
           "name": "白金",
-          "group": "宝可梦 白金",
-          "text": "当尾巴上的钳子闭合后，会从针尖渗出毒素。可以不吃东西存活１年。"
+          "group": "寶可夢 白金",
+          "text": "當尾巴上的鉗子閉合後，會從針尖滲出毒素。可以不吃東西存活１年。"
         },
         {
           "name": "心金",
-          "group": "宝可梦 心金／魂银",
-          "text": "躲藏在沙子中伏击猎物。从尾巴上的钩爪放出毒素，了结猎物。"
+          "group": "寶可夢 心金／魂銀",
+          "text": "躲藏在沙子中伏擊獵物。從尾巴上的鉤爪放出毒素，了結獵物。"
         },
         {
-          "name": "魂银",
-          "group": "宝可梦 心金／魂银",
-          "text": "躲藏在沙子中伏击猎物。从尾巴上的钩爪放出毒素，了结猎物。"
+          "name": "魂銀",
+          "group": "寶可夢 心金／魂銀",
+          "text": "躲藏在沙子中伏擊獵物。從尾巴上的鉤爪放出毒素，了結獵物。"
         }
       ]
     },
@@ -265,13 +265,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "当尾巴上的钳子闭合后，会从针尖渗出毒素。可以不吃东西存活１年。"
+          "group": "寶可夢 黑／白",
+          "text": "當尾巴上的鉗子閉合後，會從針尖滲出毒素。可以不吃東西存活１年。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "当尾巴上的钳子闭合后，会从针尖渗出毒素。可以不吃东西存活１年。"
+          "group": "寶可夢 黑／白",
+          "text": "當尾巴上的鉗子閉合後，會從針尖滲出毒素。可以不吃東西存活１年。"
         }
       ]
     },
@@ -280,23 +280,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "用尾巴上的钩爪夹住猎物并注入毒素。很执着，毒不发作就绝不松开。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "用尾巴上的鉤爪夾住獵物並注入毒素。很執著，毒不發作就絕不鬆開。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "躲藏在沙子中伏击猎物。从尾巴上的钩爪放出毒素，了结猎物。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "躲藏在沙子中伏擊獵物。從尾巴上的鉤爪放出毒素，了結獵物。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "用尾巴上的钩爪夹住猎物并注入毒素。很执着，毒不发作就绝不松开。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "用尾巴上的鉤爪夾住獵物並注入毒素。很執著，毒不發作就絕不鬆開。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "躲藏在沙子中伏击猎物。从尾巴上的钩爪放出毒素，了结猎物。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "躲藏在沙子中伏擊獵物。從尾巴上的鉤爪放出毒素，了結獵物。"
         }
       ]
     },
@@ -304,29 +304,29 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "将自己的身体埋在沙子里，一声不响地等待猎物。祖先和烧火蚣的祖先是近亲。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "將自己的身體埋在沙子裡，一聲不響地等待獵物。祖先和燒火蚣的祖先是近親。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "用尾巴上带毒的钩爪袭击对手。一旦被夹住，毒素就会扩散开来，导致全身无法动弹。"
+          "group": "寶可夢 劍／盾",
+          "text": "用尾巴上帶毒的鉤爪襲擊對手。一旦被夾住，毒素就會擴散開來，導致全身無法動彈。"
         },
         {
-          "name": "晶灿钻石",
-          "group": "宝可梦 晶灿钻石／明亮珍珠",
-          "text": "用尾巴上的钩爪夹住猎物并注入毒素。很执着，毒不发作就绝不松开。"
+          "name": "晶燦鑽石",
+          "group": "寶可夢 晶燦鑽石／明亮珍珠",
+          "text": "用尾巴上的鉤爪夾住獵物並注入毒素。很執著，毒不發作就絕不鬆開。"
         },
         {
           "name": "明亮珍珠",
-          "group": "宝可梦 晶灿钻石／明亮珍珠",
-          "text": "栖息在干燥的土地上。会在沙地里挖洞，然后潜藏在里面等待猎物上门。"
+          "group": "寶可夢 晶燦鑽石／明亮珍珠",
+          "text": "棲息在乾燥的土地上。會在沙地裡挖洞，然後潛藏在裡面等待獵物上門。"
         },
         {
-          "name": "传说 阿尔宙斯",
-          "group": "宝可梦传说 阿尔宙斯",
-          "text": "钳子不但锐利而且带毒，毫无疑问是种危险的宝可梦。但对于寒冷似乎缺乏抵抗力。"
+          "name": "傳說 阿爾宙斯",
+          "group": "寶可夢傳說 阿爾宙斯",
+          "text": "鉗子不但銳利而且帶毒，毫無疑問是種危險的寶可夢。但對於寒冷似乎缺乏抵抗力。"
         }
       ]
     }
@@ -334,8 +334,8 @@
   "evolution_chains": [
     [
       {
-        "name": "钳尾蝎",
-        "stage": "未进化",
+        "name": "鉗尾蠍",
+        "stage": "未進化",
         "text": null,
         "image": "451Skorupi_Dream.png",
         "back_text": null,
@@ -343,12 +343,12 @@
         "form_name": null
       },
       {
-        "name": "龙王蝎",
-        "stage": "1阶进化",
-        "text": "等级40以上",
+        "name": "龍王蠍",
+        "stage": "1階進化",
+        "text": "等級40以上",
         "image": "452Drapion_Dream.png",
         "back_text": null,
-        "from": "钳尾蝎",
+        "from": "鉗尾蠍",
         "form_name": null
       }
     ]
@@ -361,7 +361,7 @@
       "data": [
         {
           "level": "—",
-          "name": "毒针",
+          "name": "毒針",
           "type": "毒",
           "category": "物理",
           "power": "15",
@@ -372,7 +372,7 @@
           "level": "—",
           "name": "瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
@@ -380,16 +380,16 @@
         {
           "level": "3",
           "name": "磨爪",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "6",
-          "name": "致命针刺",
-          "type": "虫",
+          "name": "致命針刺",
+          "type": "蟲",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
@@ -397,7 +397,7 @@
         },
         {
           "level": "9",
-          "name": "剧毒牙",
+          "name": "劇毒牙",
           "type": "毒",
           "category": "物理",
           "power": "50",
@@ -407,7 +407,7 @@
         {
           "level": "12",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -417,15 +417,15 @@
           "level": "15",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "18",
-          "name": "虫咬",
-          "type": "虫",
+          "name": "蟲咬",
+          "type": "蟲",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -433,7 +433,7 @@
         },
         {
           "level": "21",
-          "name": "毒液冲击",
+          "name": "毒液衝擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -443,7 +443,7 @@
         {
           "level": "24",
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
@@ -453,15 +453,15 @@
           "level": "27",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "30",
-          "name": "飞弹针",
-          "type": "虫",
+          "name": "飛彈針",
+          "type": "蟲",
           "category": "物理",
           "power": "25",
           "accuracy": "95",
@@ -469,17 +469,17 @@
         },
         {
           "level": "33",
-          "name": "剧毒",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
         },
         {
           "level": "36",
-          "name": "暗袭要害",
-          "type": "恶",
+          "name": "暗襲要害",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -497,7 +497,7 @@
         {
           "level": "42",
           "name": "十字剪",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -505,9 +505,9 @@
         },
         {
           "level": "45",
-          "name": "点穴",
+          "name": "點穴",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -515,7 +515,7 @@
         {
           "level": "48",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -529,16 +529,16 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０７",
-          "name": "飞弹针",
-          "type": "虫",
+          "machine": "招式學習器０７",
+          "name": "飛彈針",
+          "type": "蟲",
           "category": "物理",
           "power": "25",
           "accuracy": "95",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１５",
+          "machine": "招式學習器１５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -547,34 +547,34 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６",
-          "name": "刺耳声",
+          "machine": "招式學習器１６",
+          "name": "刺耳聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２３",
+          "machine": "招式學習器２３",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -583,53 +583,53 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２６",
+          "machine": "招式學習器２６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３４",
+          "machine": "招式學習器３４",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -637,17 +637,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４３",
+          "machine": "招式學習器４３",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器４８",
-          "name": "岩石封锁",
+          "machine": "招式學習器４８",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -655,34 +655,34 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器５７",
-          "name": "以牙还牙",
-          "type": "恶",
+          "machine": "招式學習器５７",
+          "name": "以牙還牙",
+          "type": "惡",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器５８",
-          "name": "恶意追击",
-          "type": "恶",
+          "machine": "招式學習器５８",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器５９",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器５９",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７３",
+          "machine": "招式學習器７３",
           "name": "十字毒刃",
           "type": "毒",
           "category": "物理",
@@ -691,8 +691,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器７４",
-          "name": "毒液冲击",
+          "machine": "招式學習器７４",
+          "name": "毒液衝擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -700,8 +700,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -709,8 +709,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器９４",
-          "name": "点到为止",
+          "machine": "招式學習器９４",
+          "name": "點到為止",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -718,35 +718,35 @@
           "pp": "40"
         },
         {
-          "machine": "招式记录００",
-          "name": "剑舞",
+          "machine": "招式記錄００",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录１２",
-          "name": "高速移动",
+          "machine": "招式記錄１２",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２２",
-          "name": "污泥炸弹",
+          "machine": "招式記錄２２",
+          "name": "汙泥炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "90",
@@ -754,71 +754,71 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３１",
-          "name": "铁尾",
-          "type": "钢",
+          "machine": "招式記錄３１",
+          "name": "鐵尾",
+          "type": "鋼",
           "category": "物理",
           "power": "100",
           "accuracy": "75",
           "pp": "15"
         },
         {
-          "machine": "招式记录３２",
+          "machine": "招式記錄３２",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３３",
+          "machine": "招式記錄３３",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄３７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录５４",
+          "machine": "招式記錄５４",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录５７",
-          "name": "毒击",
+          "machine": "招式記錄５７",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -826,27 +826,27 @@
           "pp": "20"
         },
         {
-          "machine": "招式记录５８",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式記錄５８",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录６０",
+          "machine": "招式記錄６０",
           "name": "十字剪",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录６１",
-          "name": "虫鸣",
-          "type": "虫",
+          "machine": "招式記錄６１",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
@@ -863,11 +863,11 @@
           "parents": [
             {
               "id": "138",
-              "name": "菊石兽"
+              "name": "菊石獸"
             },
             {
               "id": "139",
-              "name": "多刺菊石兽"
+              "name": "多刺菊石獸"
             },
             {
               "id": "140",
@@ -875,7 +875,7 @@
             },
             {
               "id": "141",
-              "name": "镰刀盔"
+              "name": "鐮刀盔"
             },
             {
               "id": "290",
@@ -883,15 +883,15 @@
             },
             {
               "id": "291",
-              "name": "铁面忍者"
+              "name": "鐵面忍者"
             },
             {
               "id": "328",
-              "name": "大颚蚁"
+              "name": "大顎蟻"
             },
             {
               "id": "329",
-              "name": "超音波幼虫"
+              "name": "超音波幼蟲"
             },
             {
               "id": "330",
@@ -903,24 +903,24 @@
             },
             {
               "id": "558",
-              "name": "岩殿居蟹"
+              "name": "巖殿居蟹"
             },
             {
               "id": "632",
-              "name": "铁蚁"
+              "name": "鐵蟻"
             },
             {
               "id": null,
-              "name": "胆小虫"
+              "name": "膽小蟲"
             },
             {
               "id": null,
               "name": "具甲武者"
             }
           ],
-          "name": "泼沙",
+          "name": "潑沙",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
@@ -929,23 +929,23 @@
           "parents": [
             {
               "id": "123",
-              "name": "飞天螳螂"
+              "name": "飛天螳螂"
             },
             {
               "id": "141",
-              "name": "镰刀盔"
+              "name": "鐮刀盔"
             },
             {
               "id": "212",
-              "name": "巨钳螳螂"
+              "name": "巨鉗螳螂"
             },
             {
               "id": "291",
-              "name": "铁面忍者"
+              "name": "鐵面忍者"
             },
             {
               "id": "347",
-              "name": "太古羽虫"
+              "name": "太古羽蟲"
             },
             {
               "id": "348",
@@ -957,30 +957,30 @@
             },
             {
               "id": "558",
-              "name": "岩殿居蟹"
+              "name": "巖殿居蟹"
             },
             {
               "id": "595",
-              "name": "电电虫"
+              "name": "電電蟲"
             },
             {
               "id": "596",
-              "name": "电蜘蛛"
+              "name": "電蜘蛛"
             },
             {
               "id": "688",
-              "name": "龟脚脚"
+              "name": "龜腳腳"
             },
             {
               "id": "689",
-              "name": "龟足巨铠"
+              "name": "龜足巨鎧"
             },
             {
               "id": null,
               "name": "具甲武者"
             }
           ],
-          "name": "劈开",
+          "name": "劈開",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -991,20 +991,20 @@
           "parents": [
             {
               "id": "345",
-              "name": "触手百合"
+              "name": "觸手百合"
             },
             {
               "id": "346",
-              "name": "摇篮百合"
+              "name": "搖籃百合"
             },
             {
               "id": "826",
-              "name": "以欧路普"
+              "name": "以歐路普"
             }
           ],
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -1020,9 +1020,9 @@
               "name": "火神蛾"
             }
           ],
-          "name": "吹飞",
+          "name": "吹飛",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -1032,9 +1032,9 @@
   ],
   "home_images": [
     {
-      "name": "钳尾蝎",
-      "image": "0451-钳尾蝎.png",
-      "shiny": "0451-钳尾蝎-shiny.png"
+      "name": "鉗尾蠍",
+      "image": "0451-鉗尾蠍.png",
+      "shiny": "0451-鉗尾蠍-shiny.png"
     }
   ]
 }

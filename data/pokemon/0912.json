@@ -1,45 +1,45 @@
 {
-  "name_zh": "润水鸭",
+  "name_zh": "潤水鴨",
   "name_ja": "クワッス",
   "name_en": "Quaxly",
   "pokedex_id": "0912",
-  "description": "润水鸭（日文︰クワッス，英文︰Quaxly）是水属性宝可梦。润水鸭于2022年2月27日正式公开。",
-  "profile": "润水鸭有着蓝色的羽毛构成的飞机头，它身体的羽毛是白色的，脚掌是蓝色的。它有着黄色的扁扁的喙，眼睛则是深蓝色的。\n润水鸭很久以前从远方的土地来到这里栖息。总是会跟在训练家的身后，性格认真顽固。它爱干净，非常讨厌头部被弄脏。由羽毛分泌出的凝胶有防水和防污的效果，因此身体总能保持光润。头上的毛会用饱含水分的乳液来梳理，晾干后就会变得乱蓬蓬的。它的脚力很强，即使在水流湍急的地方也能自在游动，在对战中会快速且多次地向对手发动踢击。",
-  "prototype": "润水鸭来源于鸭或冠鸭，尤其像观赏鸭品种凤头白鸭，其蓝色的足部类似蓝脚鲣鸟。\n《朱》版的宝可梦图鉴称润水鸭来自遥远的地方，可能反映了冠鸭和蓝脚鲣鸟原产中美洲热带地区。\n润水鸭及其进化型涌跃鸭、狂欢浪舞鸭在设计上与舞蹈的关联可能源自于蓝脚鲣鸟跳舞求偶的行为，其中润水鸭形象类似水手，舞蹈可能基于角笛舞（又称水兵舞）。\n润水鸭的发型可能源自飞机头、水手帽和凤头白鸭的头冠。",
+  "description": "潤水鴨（日文︰クワッス，英文︰Quaxly）是水屬性寶可夢。潤水鴨於2022年2月27日正式公開。",
+  "profile": "潤水鴨有著藍色的羽毛構成的飛機頭，它身體的羽毛是白色的，腳掌是藍色的。它有著黃色的扁扁的喙，眼睛則是深藍色的。\n潤水鴨很久以前從遠方的土地來到這裡棲息。總是會跟在訓練家的身後，性格認真頑固。它愛乾淨，非常討厭頭部被弄髒。由羽毛分泌出的凝膠有防水和防汙的效果，因此身體總能保持光潤。頭上的毛會用飽含水分的乳液來梳理，晾乾後就會變得亂蓬蓬的。它的腳力很強，即使在水流湍急的地方也能自在遊動，在對戰中會快速且多次地向對手發動踢擊。",
+  "prototype": "潤水鴨來源於鴨或冠鴨，尤其像觀賞鴨品種鳳頭白鴨，其藍色的足部類似藍腳鰹鳥。\n《朱》版的寶可夢圖鑑稱潤水鴨來自遙遠的地方，可能反映了冠鴨和藍腳鰹鳥原產中美洲熱帶地區。\n潤水鴨及其進化型湧躍鴨、狂歡浪舞鴨在設計上與舞蹈的關聯可能源自於藍腳鰹鳥跳舞求偶的行為，其中潤水鴨形象類似水手，舞蹈可能基於角笛舞（又稱水兵舞）。\n潤水鴨的髮型可能源自飛機頭、水手帽和鳳頭白鴨的頭冠。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "クワッス Kuwassu",
-      "origin": "来自“クワックワッ”（鸭叫声）、拉丁文 aqua（水）和英文 wax（发蜡）。"
+      "origin": "來自“クワックワッ”（鴨叫聲）、拉丁文 aqua（水）和英文 wax（髮蠟）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "潤水鴨润水鸭",
-      "origin": "来自“润”、“水”和“鸭”或“水鸭”。"
+      "name": "潤水鴨潤水鴨",
+      "origin": "來自“潤”、“水”和“鴨”或“水鴨”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "潤水鴨",
-      "origin": "来自“润”、“水”和“鸭”或“水鸭”。"
+      "origin": "來自“潤”、“水”和“鴨”或“水鴨”。"
     },
     {
       "language": "英文",
       "name": "Quaxly",
-      "origin": "来自 quack鸭叫声）、拉丁文 aqua（水）、wax（发蜡）和 duckling（小鸭）。"
+      "origin": "來自 quack鴨叫聲）、拉丁文 aqua（水）、wax（髮蠟）和 duckling（小鴨）。"
     },
     {
       "language": "法文",
       "name": "Coiffeton",
-      "origin": "来自 coiffure（发型）和 caneton（小鸭）。"
+      "origin": "來自 coiffure（髮型）和 caneton（小鴨）。"
     },
     {
       "language": "德文",
       "name": "Kwaks",
-      "origin": "来自 Quak（鸭叫声）、Wasser（水）和 Wachs（发蜡）。"
+      "origin": "來自 Quak（鴨叫聲）、Wasser（水）和 Wachs（髮蠟）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Quaxly",
       "origin": "同英文名。"
     },
@@ -49,37 +49,37 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "꾸왁스 Kkuwax",
-      "origin": "来自“꽥꽥”（鸭叫声）、拉丁文 aqua（水）和英文 wax（发蜡）。"
+      "origin": "來自“꽥꽥”（鴨叫聲）、拉丁文 aqua（水）和英文 wax（髮蠟）。"
     }
   ],
   "forms": [
     {
-      "name": "润水鸭",
+      "name": "潤水鴨",
       "types": [
         "水"
       ],
-      "category": "小鸭宝可梦",
+      "category": "小鴨寶可夢",
       "abilities": [
         {
           "name": "激流",
           "is_hidden": false
         },
         {
-          "name": "自信过度",
+          "name": "自信過度",
           "is_hidden": true
         }
       ],
       "height": "0.5m",
       "weight": "6.1kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "飞行",
+        "飛行",
         "水中1群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -112,10 +112,10 @@
         "male": 87.5,
         "female": 12.5
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body06.png",
       "footprint": "FUnknown.png",
-      "image": "0912-润水鸭.png"
+      "image": "0912-潤水鴨.png"
     }
   ],
   "stats": [
@@ -143,11 +143,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -163,15 +163,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -187,7 +187,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -199,11 +199,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -219,13 +219,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "很久以前从远方的土地来到这里栖息。羽毛分泌出的凝胶有防水和防污的效果。"
+          "group": "寶可夢 朱／紫",
+          "text": "很久以前從遠方的土地來到這裡棲息。羽毛分泌出的凝膠有防水和防汙的效果。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "脚力之强，即使在水流湍急的河川也能自在游动。爱干净，性格有些顽固。"
+          "group": "寶可夢 朱／紫",
+          "text": "腳力之強，即使在水流湍急的河川也能自在遊動。愛乾淨，性格有些頑固。"
         }
       ]
     }
@@ -233,8 +233,8 @@
   "evolution_chains": [
     [
       {
-        "name": "润水鸭",
-        "stage": "未进化",
+        "name": "潤水鴨",
+        "stage": "未進化",
         "text": null,
         "image": "912Quaxly_Dream.png",
         "back_text": null,
@@ -242,21 +242,21 @@
         "form_name": null
       },
       {
-        "name": "涌跃鸭",
-        "stage": "1阶进化",
-        "text": "等级16以上",
+        "name": "湧躍鴨",
+        "stage": "1階進化",
+        "text": "等級16以上",
         "image": "913Quaxwell_Dream.png",
         "back_text": null,
-        "from": "润水鸭",
+        "from": "潤水鴨",
         "form_name": null
       },
       {
-        "name": "狂欢浪舞鸭",
-        "stage": "2阶进化",
-        "text": "等级36以上",
+        "name": "狂歡浪舞鴨",
+        "stage": "2階進化",
+        "text": "等級36以上",
         "image": "914Quaquaval_Dream.png",
         "back_text": null,
-        "from": "涌跃鸭",
+        "from": "湧躍鴨",
         "form_name": null
       }
     ]
@@ -269,7 +269,7 @@
       "data": [
         {
           "level": "—",
-          "name": "拍击",
+          "name": "拍擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -278,16 +278,16 @@
         },
         {
           "level": "—",
-          "name": "叫声",
+          "name": "叫聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "40"
         },
         {
           "level": "—",
-          "name": "水枪",
+          "name": "水槍",
           "type": "水",
           "category": "特殊",
           "power": "40",
@@ -296,17 +296,17 @@
         },
         {
           "level": "7",
-          "name": "自我激励",
+          "name": "自我激勵",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "10",
-          "name": "翅膀攻击",
-          "type": "飞行",
+          "name": "翅膀攻擊",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -314,7 +314,7 @@
         },
         {
           "level": "13",
-          "name": "水流喷射",
+          "name": "水流噴射",
           "type": "水",
           "category": "物理",
           "power": "40",
@@ -323,7 +323,7 @@
         },
         {
           "level": "17",
-          "name": "二连击",
+          "name": "二連擊",
           "type": "一般",
           "category": "物理",
           "power": "35",
@@ -341,8 +341,8 @@
         },
         {
           "level": "24",
-          "name": "空气之刃",
-          "type": "飞行",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
@@ -350,17 +350,17 @@
         },
         {
           "level": "28",
-          "name": "聚气",
+          "name": "聚氣",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "31",
-          "name": "杂技",
-          "type": "飞行",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
@@ -383,7 +383,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -392,35 +392,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１２",
+          "machine": "招式學習器０１２",
           "name": "踢倒",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１９",
-          "name": "魅惑之声",
+          "machine": "招式學習器０１９",
+          "name": "魅惑之聲",
           "type": "妖精",
           "category": "特殊",
           "power": "40",
@@ -428,8 +428,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２２",
-          "name": "泼冷水",
+          "machine": "招式學習器０２２",
+          "name": "潑冷水",
           "type": "水",
           "category": "特殊",
           "power": "50",
@@ -437,8 +437,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -446,16 +446,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２７",
+          "machine": "招式學習器０２７",
           "name": "燕返",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -464,70 +464,70 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４０",
-          "name": "空气利刃",
-          "type": "飞行",
+          "machine": "招式學習器０４０",
+          "name": "空氣利刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "60",
           "accuracy": "95",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０６５",
-          "name": "空气之刃",
-          "type": "飞行",
+          "machine": "招式學習器０６５",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１０",
+          "machine": "招式學習器１１０",
           "name": "水流裂破",
           "type": "水",
           "category": "物理",
@@ -536,17 +536,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２２",
-          "name": "再来一次",
+          "machine": "招式學習器１２２",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１２３",
-          "name": "冲浪",
+          "machine": "招式學習器１２３",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -554,34 +554,34 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３２",
+          "machine": "招式學習器１３２",
           "name": "接棒",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
         },
         {
-          "machine": "招式学习器１３９",
-          "name": "薄雾场地",
+          "machine": "招式學習器１３９",
+          "name": "薄霧場地",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４２",
+          "machine": "招式學習器１４２",
           "name": "水炮",
           "type": "水",
           "category": "特殊",
@@ -590,8 +590,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４５",
-          "name": "水之誓约",
+          "machine": "招式學習器１４５",
+          "name": "水之誓約",
           "type": "水",
           "category": "特殊",
           "power": "80",
@@ -599,17 +599,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６４",
-          "name": "勇鸟猛攻",
-          "type": "飞行",
+          "machine": "招式學習器１６４",
+          "name": "勇鳥猛攻",
+          "type": "飛行",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -617,16 +617,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０３",
+          "machine": "招式學習器２０３",
           "name": "自我暗示",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０８",
+          "machine": "招式學習器２０８",
           "name": "潮旋",
           "type": "水",
           "category": "特殊",
@@ -645,16 +645,16 @@
           "parents": [
             {
               "id": "0701",
-              "name": "摔角鹰人"
+              "name": "摔角鷹人"
             },
             {
               "id": "0973",
-              "name": "缠红鹤"
+              "name": "纏紅鶴"
             }
           ],
           "name": "看穿",
-          "type": "格斗",
-          "category": "变化",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -663,18 +663,18 @@
           "parents": [
             {
               "id": "0007",
-              "name": "杰尼龟"
+              "name": "傑尼龜"
             },
             {
               "id": "0008",
-              "name": "卡咪龟"
+              "name": "卡咪龜"
             },
             {
               "id": "0009",
-              "name": "水箭龟"
+              "name": "水箭龜"
             }
           ],
-          "name": "高速旋转",
+          "name": "高速旋轉",
           "type": "一般",
           "category": "物理",
           "power": "50",
@@ -685,7 +685,7 @@
           "parents": [
             {
               "id": "0149",
-              "name": "快龙"
+              "name": "快龍"
             },
             {
               "id": "0163",
@@ -693,23 +693,23 @@
             },
             {
               "id": "0164",
-              "name": "猫头夜鹰"
+              "name": "貓頭夜鷹"
             },
             {
               "id": "0278",
-              "name": "长翅鸥"
+              "name": "長翅鷗"
             },
             {
               "id": "0279",
-              "name": "大嘴鸥"
+              "name": "大嘴鷗"
             },
             {
               "id": "0580",
-              "name": "鸭宝宝"
+              "name": "鴨寶寶"
             },
             {
               "id": "0581",
-              "name": "舞天鹅"
+              "name": "舞天鵝"
             },
             {
               "id": "0661",
@@ -721,11 +721,11 @@
             },
             {
               "id": "0663",
-              "name": "烈箭鹰"
+              "name": "烈箭鷹"
             },
             {
               "id": "0701",
-              "name": "摔角鹰人"
+              "name": "摔角鷹人"
             },
             {
               "id": "0714",
@@ -733,44 +733,44 @@
             },
             {
               "id": "0715",
-              "name": "音波龙"
+              "name": "音波龍"
             },
             {
               "id": "0731",
-              "name": "小笃儿"
+              "name": "小篤兒"
             },
             {
               "id": "0732",
-              "name": "喇叭啄鸟"
+              "name": "喇叭啄鳥"
             },
             {
               "id": "0733",
-              "name": "铳嘴大鸟"
+              "name": "銃嘴大鳥"
             },
             {
               "id": "0741",
-              "name": "花舞鸟"
+              "name": "花舞鳥"
             },
             {
               "id": "0931",
-              "name": "怒鹦哥"
+              "name": "怒鸚哥"
             },
             {
               "id": "0940",
-              "name": "电海燕"
+              "name": "電海燕"
             },
             {
               "id": "0941",
-              "name": "大电海燕"
+              "name": "大電海燕"
             },
             {
               "id": "0973",
-              "name": "缠红鹤"
+              "name": "纏紅鶴"
             }
           ],
-          "name": "羽栖",
-          "type": "飞行",
-          "category": "变化",
+          "name": "羽棲",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -779,7 +779,7 @@
           "parents": [
             {
               "id": null,
-              "name": "超能艳鸵"
+              "name": "超能豔鴕"
             }
           ],
           "name": "珍藏",
@@ -794,9 +794,9 @@
   ],
   "home_images": [
     {
-      "name": "润水鸭",
-      "image": "0912-润水鸭.png",
-      "shiny": "0912-润水鸭-shiny.png"
+      "name": "潤水鴨",
+      "image": "0912-潤水鴨.png",
+      "shiny": "0912-潤水鴨-shiny.png"
     }
   ]
 }

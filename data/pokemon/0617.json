@@ -1,55 +1,55 @@
 {
-  "name_zh": "敏捷虫",
+  "name_zh": "敏捷蟲",
   "name_ja": "アギルダー",
   "name_en": "Accelgor",
   "pokedex_id": "0617",
-  "description": "敏捷虫（日文︰アギルダー，英文︰Accelgor）是虫属性宝可梦。",
-  "profile": "敏捷虫是直立型的宝可梦，它经常以双手抱胸的姿态站着，全身被粘膜包裹着，无法看到它的脚。它的头部有一个四角星的形状，头顶可以看到螺旋形状部位，背后有两条延伸出去的带子。\n敏捷虫脱掉了沉重的壳而变得轻巧。它的身体干燥就会变弱，为了防止干燥会将带状的粘膜裹在身上。它行动迅速，会用简直是忍者般的身手战斗，同时会喷出毒液。敏捷虫担任主角的电影和漫画拥有极高的人气。",
-  "prototype": "敏捷虫设定上为被盖盖虫夺走外壳的小嘴蜗，同进化前，它的形象可能来自彩条蜗牛。\n设计师们思考着盖盖虫夺去小嘴蜗的壳和小嘴蜗失去壳分别变成什么样后，便设计出了它们的进化型，具体可参照宝可梦诞生秘话。\n敏捷虫同时也融入了特撮的元素，例如假面忍者赤影，其头部的十字状花纹或源自忍者的手里剑。",
-  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步敏捷虫（Pokémon GO）。\n←\nNo.0616：小嘴蜗\n宝可梦\nNo.0618：泥巴鱼\n→",
+  "description": "敏捷蟲（日文︰アギルダー，英文︰Accelgor）是蟲屬性寶可夢。",
+  "profile": "敏捷蟲是直立型的寶可夢，它經常以雙手抱胸的姿態站著，全身被粘膜包裹著，無法看到它的腳。它的頭部有一個四角星的形狀，頭頂可以看到螺旋形狀部位，背後有兩條延伸出去的帶子。\n敏捷蟲脫掉了沉重的殼而變得輕巧。它的身體乾燥就會變弱，為了防止乾燥會將帶狀的粘膜裹在身上。它行動迅速，會用簡直是忍者般的身手戰鬥，同時會噴出毒液。敏捷蟲擔任主角的電影和漫畫擁有極高的人氣。",
+  "prototype": "敏捷蟲設定上為被蓋蓋蟲奪走外殼的小嘴蝸，同進化前，它的形象可能來自彩條蝸牛。\n設計師們思考著蓋蓋蟲奪去小嘴蝸的殼和小嘴蝸失去殼分別變成什麼樣後，便設計出了它們的進化型，具體可參照寶可夢誕生秘話。\n敏捷蟲同時也融入了特撮的元素，例如假面忍者赤影，其頭部的十字狀花紋或源自忍者的手裡劍。",
+  "detail": "如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步敏捷蟲（Pokémon GO）。\n←\nNo.0616：小嘴蝸\n寶可夢\nNo.0618：泥巴魚\n→",
   "names": [
     {
       "language": "日文",
       "name": "アギルダー Agilder",
-      "origin": "来自英文 agility（敏捷的）。"
+      "origin": "來自英文 agility（敏捷的）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "敏捷蟲敏捷虫",
-      "origin": "来自“敏捷”和“虫”。"
+      "name": "敏捷蟲敏捷蟲",
+      "origin": "來自“敏捷”和“蟲”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "敏捷虫",
-      "origin": "来自“敏捷”和“虫”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "敏捷蟲",
-      "origin": "来自“敏捷”和“虫”。"
+      "origin": "來自“敏捷”和“蟲”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "敏捷蟲",
+      "origin": "來自“敏捷”和“蟲”。"
     },
     {
       "language": "中文-香港",
       "name": "敏捷蟲",
-      "origin": "来自“敏捷”和“虫”。"
+      "origin": "來自“敏捷”和“蟲”。"
     },
     {
       "language": "英文",
       "name": "Accelgor",
-      "origin": "来自 accelerate（加速）和法文 escargot（蜗牛）。"
+      "origin": "來自 accelerate（加速）和法文 escargot（蝸牛）。"
     },
     {
       "language": "法文",
       "name": "Limaspeed",
-      "origin": "来自 limace（蛞蝓）和英文 speed（速度）。"
+      "origin": "來自 limace（蛞蝓）和英文 speed（速度）。"
     },
     {
       "language": "德文",
       "name": "Hydragil",
-      "origin": "来自 Hydration（湿润之躯）和 agil（敏捷的）。"
+      "origin": "來自 Hydration（溼潤之軀）和 agil（敏捷的）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Accelgor",
       "origin": "同英文名。"
     },
@@ -59,40 +59,40 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "어지리더 Eojirideo",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     }
   ],
   "forms": [
     {
-      "name": "敏捷虫",
+      "name": "敏捷蟲",
       "types": [
-        "虫"
+        "蟲"
       ],
-      "category": "脱壳宝可梦",
+      "category": "脫殼寶可夢",
       "abilities": [
         {
-          "name": "湿润之躯",
+          "name": "溼潤之軀",
           "is_hidden": false
         },
         {
-          "name": "黏着",
+          "name": "黏著",
           "is_hidden": false
         },
         {
-          "name": "轻装",
+          "name": "輕裝",
           "is_hidden": true
         }
       ],
       "height": "0.8m",
       "weight": "25.3kg",
-      "color": "红色",
+      "color": "紅色",
       "catch_rate": "75（9.8%）",
       "egg_groups": [
-        "虫群"
+        "蟲群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -125,10 +125,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "15 孵化周期（3855步）",
+      "egg_cycles": "15 孵化週期（3855步）",
       "shape": "Body04.png",
       "footprint": "Fnone.png",
-      "image": "0617-敏捷虫.png"
+      "image": "0617-敏捷蟲.png"
     }
   ],
   "stats": [
@@ -148,7 +148,7 @@
     {
       "form": "",
       "types": [
-        "虫"
+        "蟲"
       ],
       "data": [
         {
@@ -156,11 +156,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "2"
         },
         {
@@ -176,15 +176,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -200,7 +200,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -212,11 +212,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -232,13 +232,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "身体干燥的话就会变弱。身上卷着一层又一层的薄膜，用来防止干燥。"
+          "group": "寶可夢 黑／白",
+          "text": "身體乾燥的話就會變弱。身上卷著一層又一層的薄膜，用來防止乾燥。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "因为脱掉了沉重的壳，而变得轻巧。会用简直是忍者般的身手战斗。"
+          "group": "寶可夢 黑／白",
+          "text": "因為脫掉了沉重的殼，而變得輕巧。會用簡直是忍者般的身手戰鬥。"
         }
       ]
     },
@@ -247,23 +247,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "因为脱掉了沉重的壳，而变得轻巧。会用简直是忍者般的身手战斗。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "因為脫掉了沉重的殼，而變得輕巧。會用簡直是忍者般的身手戰鬥。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "身体干燥的话就会变弱。身上卷着一层又一层的薄膜，用来防止干燥。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "身體乾燥的話就會變弱。身上卷著一層又一層的薄膜，用來防止乾燥。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "因为脱掉了沉重的壳，而变得轻巧。会用简直是忍者般的身手战斗。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "因為脫掉了沉重的殼，而變得輕巧。會用簡直是忍者般的身手戰鬥。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "身体干燥的话就会变弱。身上卷着一层又一层的薄膜，用来防止干燥。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "身體乾燥的話就會變弱。身上卷著一層又一層的薄膜，用來防止乾燥。"
         }
       ]
     },
@@ -271,14 +271,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "行动迅速，会喷出毒液来战斗。敏捷虫担任主角的电影和漫画拥有极高的人气。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "行動迅速，會噴出毒液來戰鬥。敏捷蟲擔任主角的電影和漫畫擁有極高的人氣。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "脱壳后变得更轻巧了。为了防止干燥，会将带状的粘膜裹在身上。"
+          "group": "寶可夢 劍／盾",
+          "text": "脫殼後變得更輕巧了。為了防止乾燥，會將帶狀的粘膜裹在身上。"
         }
       ]
     }
@@ -286,8 +286,8 @@
   "evolution_chains": [
     [
       {
-        "name": "小嘴蜗",
-        "stage": "未进化",
+        "name": "小嘴蝸",
+        "stage": "未進化",
         "text": null,
         "image": "616Shelmet_Dream.png",
         "back_text": null,
@@ -295,12 +295,12 @@
         "form_name": null
       },
       {
-        "name": "敏捷虫",
-        "stage": "1阶进化",
-        "text": "与盖盖虫连接交换",
+        "name": "敏捷蟲",
+        "stage": "1階進化",
+        "text": "與蓋蓋蟲連線交換",
         "image": "617Accelgor_Dream.png",
         "back_text": null,
-        "from": "小嘴蜗",
+        "from": "小嘴蝸",
         "form_name": null
       }
     ]
@@ -315,14 +315,14 @@
           "level": "—",
           "name": "溶化",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "—",
-          "name": "泰山压顶",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -331,7 +331,7 @@
         },
         {
           "level": "—",
-          "name": "酸液炸弹",
+          "name": "酸液炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "40",
@@ -342,14 +342,14 @@
           "level": "—",
           "name": "哈欠",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "—",
-          "name": "飞水手里剑",
+          "name": "飛水手裡劍",
           "type": "水",
           "category": "特殊",
           "power": "15",
@@ -358,9 +358,9 @@
         },
         {
           "level": "—",
-          "name": "防守互换",
+          "name": "防守互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -376,16 +376,16 @@
         },
         {
           "level": "—",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "—",
-          "name": "电光一闪",
+          "name": "電光一閃",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -405,14 +405,14 @@
           "level": "—",
           "name": "影子分身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "12",
-          "name": "超级吸取",
+          "name": "超級吸取",
           "type": "草",
           "category": "特殊",
           "power": "40",
@@ -421,8 +421,8 @@
         },
         {
           "level": "16",
-          "name": "虫之抵抗",
-          "type": "虫",
+          "name": "蟲之抵抗",
+          "type": "蟲",
           "category": "特殊",
           "power": "50",
           "accuracy": "100",
@@ -439,16 +439,16 @@
         },
         {
           "level": "24",
-          "name": "高速移动",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "28",
-          "name": "终极吸取",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -457,9 +457,9 @@
         },
         {
           "level": "32",
-          "name": "力量互换",
+          "name": "力量互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -467,7 +467,7 @@
         {
           "level": "36",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -477,15 +477,15 @@
           "level": "40",
           "name": "自我再生",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "44",
-          "name": "虫鸣",
-          "type": "虫",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
@@ -494,17 +494,17 @@
         {
           "level": "48",
           "name": "搏命",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
           "level": "52",
-          "name": "剧毒",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
@@ -517,8 +517,8 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -526,8 +526,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９",
-          "name": "终极冲击",
+          "machine": "招式學習器０９",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -535,16 +535,16 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -553,17 +553,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２８",
-          "name": "终极吸取",
+          "machine": "招式學習器２８",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -571,35 +571,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３２",
+          "machine": "招式學習器３２",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -607,7 +607,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４０",
+          "machine": "招式學習器４０",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -616,8 +616,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器５３",
-          "name": "泥巴射击",
+          "machine": "招式學習器５３",
+          "name": "泥巴射擊",
           "type": "地面",
           "category": "特殊",
           "power": "55",
@@ -625,44 +625,44 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器５６",
+          "machine": "招式學習器５６",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器６０",
-          "name": "力量互换",
+          "machine": "招式學習器６０",
+          "name": "力量互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６１",
-          "name": "防守互换",
+          "machine": "招式學習器６１",
+          "name": "防守互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６３",
+          "machine": "招式學習器６３",
           "name": "吸取拳",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７４",
-          "name": "毒液冲击",
+          "machine": "招式學習器７４",
+          "name": "毒液衝擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -670,8 +670,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -679,8 +679,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录０１",
-          "name": "泰山压顶",
+          "machine": "招式記錄０１",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -688,44 +688,44 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录１２",
-          "name": "高速移动",
+          "machine": "招式記錄１２",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式记录１８",
+          "machine": "招式記錄１８",
           "name": "汲取",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２１",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式記錄２１",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录２２",
-          "name": "污泥炸弹",
+          "machine": "招式記錄２２",
+          "name": "汙泥炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "90",
@@ -733,79 +733,79 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２３",
+          "machine": "招式記錄２３",
           "name": "撒菱",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２９",
+          "machine": "招式記錄２９",
           "name": "接棒",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
         },
         {
-          "machine": "招式记录３０",
-          "name": "再来一次",
+          "machine": "招式記錄３０",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式记录５４",
+          "machine": "招式記錄５４",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录６１",
-          "name": "虫鸣",
-          "type": "虫",
+          "machine": "招式記錄６１",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录６４",
-          "name": "真气弹",
-          "type": "格斗",
+          "machine": "招式記錄６４",
+          "name": "真氣彈",
+          "type": "格鬥",
           "category": "特殊",
           "power": "120",
           "accuracy": "70",
           "pp": "5"
         },
         {
-          "machine": "招式记录６５",
+          "machine": "招式記錄６５",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -814,10 +814,10 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录９１",
+          "machine": "招式記錄９１",
           "name": "毒液陷阱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -837,7 +837,7 @@
             },
             {
               "id": "544",
-              "name": "车轮球"
+              "name": "車輪球"
             },
             {
               "id": "545",
@@ -845,22 +845,22 @@
             },
             {
               "id": "588",
-              "name": "盖盖虫"
+              "name": "蓋蓋蟲"
             },
             {
               "id": "589",
-              "name": "骑士蜗牛"
+              "name": "騎士蝸牛"
             },
             {
               "id": "636",
-              "name": "燃烧虫"
+              "name": "燃燒蟲"
             },
             {
               "id": null,
               "name": "火神蛾"
             }
           ],
-          "name": "舍身冲撞",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -871,12 +871,12 @@
           "parents": [
             {
               "id": null,
-              "name": "壶壶"
+              "name": "壺壺"
             }
           ],
           "name": "防守平分",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -889,12 +889,12 @@
             },
             {
               "id": null,
-              "name": "铁面忍者"
+              "name": "鐵面忍者"
             }
           ],
           "name": "心之眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -918,9 +918,9 @@
   ],
   "home_images": [
     {
-      "name": "敏捷虫",
-      "image": "0617-敏捷虫.png",
-      "shiny": "0617-敏捷虫-shiny.png"
+      "name": "敏捷蟲",
+      "image": "0617-敏捷蟲.png",
+      "shiny": "0617-敏捷蟲-shiny.png"
     }
   ]
 }

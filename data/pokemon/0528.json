@@ -3,53 +3,53 @@
   "name_ja": "ココロモリ",
   "name_en": "Swoobat",
   "pokedex_id": "0528",
-  "description": "心蝙蝠（日文︰ココロモリ，英文︰Swoobat）是超能力属性／飞行属性宝可梦。",
-  "profile": "心蝙蝠头部与躯干中的脖子被浅蓝色的毛发所覆盖。在毛发中同时也延伸出一对黑色的前肢与一双黑色的蝙蝠翅膀。心蝙蝠拥有一双闪亮的眼睛，黑色瞳仁。其鼻子为心形，而在鼻子正中央有一个黑色的心形印记。位于鼻子下方，从其下颚延伸出两颗尖锐的獠牙。位于心蝙蝠的下半身末端，有两条互相交错螺旋缠绕下来的粉色尾巴。心蝙蝠的左右两只耳朵是相连的，并且位于其头顶形成三角形结构。耳廓由与脖颈毛发类似的浅蓝色皮膜所构成，内部还构有竖条黑色的纹路。\n心蝙蝠会从鼻孔中发射出各种波长的音波，也可发出破坏岩石的音波。发出连混凝土都能破坏的强力超音波时，尾巴会激烈地振动。不过在它发出极其强力的音波后会陷入疲劳，暂时无法飞行。据说有些地区的人觉得它鼻子的形状很吉利，而把它当成幸福的象征来祭拜。如果被雄性向雌性求爱时发出的超音波照到，心情就会变得非常快乐。",
-  "prototype": "同进化前，心蝙蝠的基础形象可能基于洪都拉斯白蝙蝠，异色心蝙蝠的配色非常接近于该物种现实中的颜色。它的一些特征和居住在洞穴中的特点也类似菊头蝠。\n心蝙蝠的形象也可能参考非洲假汲取蝠属的心状鼻蝙蝠。\n心蝙蝠的鼻子可能源于心形封蜡印，为了使蜡油定型后图案清晰，这种印章的图案部分会明显凹陷。",
-  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步心蝙蝠（Pokémon GO）。\n←\nNo.0527：滚滚蝙蝠\n宝可梦\nNo.0529：螺钉地鼠\n→",
+  "description": "心蝙蝠（日文︰ココロモリ，英文︰Swoobat）是超能力屬性／飛行屬性寶可夢。",
+  "profile": "心蝙蝠頭部與軀幹中的脖子被淺藍色的毛髮所覆蓋。在毛髮中同時也延伸出一對黑色的前肢與一雙黑色的蝙蝠翅膀。心蝙蝠擁有一雙閃亮的眼睛，黑色瞳仁。其鼻子為心形，而在鼻子正中央有一個黑色的心形印記。位於鼻子下方，從其下顎延伸出兩顆尖銳的獠牙。位於心蝙蝠的下半身末端，有兩條互相交錯螺旋纏繞下來的粉色尾巴。心蝙蝠的左右兩隻耳朵是相連的，並且位於其頭頂形成三角形結構。耳廓由與脖頸毛髮類似的淺藍色皮膜所構成，內部還構有豎條黑色的紋路。\n心蝙蝠會從鼻孔中發射出各種波長的音波，也可發出破壞岩石的音波。發出連混凝土都能破壞的強力超音波時，尾巴會激烈地振動。不過在它發出極其強力的音波後會陷入疲勞，暫時無法飛行。據說有些地區的人覺得它鼻子的形狀很吉利，而把它當成幸福的象徵來祭拜。如果被雄性向雌性求愛時發出的超音波照到，心情就會變得非常快樂。",
+  "prototype": "同進化前，心蝙蝠的基礎形象可能基於宏都拉斯白蝙蝠，異色心蝙蝠的配色非常接近於該物種現實中的顏色。它的一些特徵和居住在洞穴中的特點也類似菊頭蝠。\n心蝙蝠的形象也可能參考非洲假汲取蝠屬的心狀鼻蝙蝠。\n心蝙蝠的鼻子可能源於心形封蠟印，為了使蠟油定型後圖案清晰，這種印章的圖案部分會明顯凹陷。",
+  "detail": "如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步心蝙蝠（Pokémon GO）。\n←\nNo.0527：滾滾蝙蝠\n寶可夢\nNo.0529：螺釘地鼠\n→",
   "names": [
     {
       "language": "日文",
       "name": "ココロモリ Kokoromori",
-      "origin": "来自“心（こころ）”（心）和“蝙蝠（こうもり）”（蝙蝠）。"
+      "origin": "來自“心（こころ）”（心）和“蝙蝠（こうもり）”（蝙蝠）。"
     },
     {
       "language": "中文-任天堂",
       "name": "心蝙蝠",
-      "origin": "来自“心”和“蝙蝠”。"
+      "origin": "來自“心”和“蝙蝠”。"
     },
     {
-      "language": "中文-大陆",
+      "language": "中文-大陸",
       "name": "心蝙蝠",
-      "origin": "来自“心”和“蝙蝠”。"
+      "origin": "來自“心”和“蝙蝠”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "心蝙蝠",
-      "origin": "来自“心”和“蝙蝠”。"
+      "origin": "來自“心”和“蝙蝠”。"
     },
     {
       "language": "中文-香港",
       "name": "心蝙蝠",
-      "origin": "来自“心”和“蝙蝠”。"
+      "origin": "來自“心”和“蝙蝠”。"
     },
     {
       "language": "英文",
       "name": "Swoobat",
-      "origin": "来自 swoon（心醉神迷）和 bat（蝙蝠）。"
+      "origin": "來自 swoon（心醉神迷）和 bat（蝙蝠）。"
     },
     {
       "language": "法文",
       "name": "Rhinolove",
-      "origin": "来自 rhinolophe（菊头蝠）和英文 love（爱）。"
+      "origin": "來自 rhinolophe（菊頭蝠）和英文 love（愛）。"
     },
     {
       "language": "德文",
       "name": "Fletiamo",
-      "origin": "来自 Fledermaus（蝙蝠）和意大利文 ti amo（我爱你）。"
+      "origin": "來自 Fledermaus（蝙蝠）和義大利文 ti amo（我愛你）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Swoobat",
       "origin": "同英文名。"
     },
@@ -59,9 +59,9 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "맘박쥐 Mambakjwi",
-      "origin": "来自“마음”（心灵）和“박쥐”（蝙蝠）。"
+      "origin": "來自“마음”（心靈）和“박쥐”（蝙蝠）。"
     }
   ],
   "forms": [
@@ -69,12 +69,12 @@
       "name": "心蝙蝠",
       "types": [
         "超能力",
-        "飞行"
+        "飛行"
       ],
-      "category": "求爱宝可梦",
+      "category": "求愛寶可夢",
       "abilities": [
         {
-          "name": "纯朴",
+          "name": "純樸",
           "is_hidden": false
         },
         {
@@ -82,19 +82,19 @@
           "is_hidden": false
         },
         {
-          "name": "单纯",
+          "name": "單純",
           "is_hidden": true
         }
       ],
       "height": "0.9m",
       "weight": "10.5kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "陆上",
-        "飞行群"
+        "陸上",
+        "飛行群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -127,7 +127,7 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "15 孵化周期（3855步）",
+      "egg_cycles": "15 孵化週期（3855步）",
       "shape": "Body09.png",
       "footprint": "F528.png",
       "image": "0528-心蝙蝠.png"
@@ -151,7 +151,7 @@
       "form": "",
       "types": [
         "超能力",
-        "飞行"
+        "飛行"
       ],
       "data": [
         {
@@ -159,11 +159,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.25"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -179,15 +179,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -203,7 +203,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -215,11 +215,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -235,13 +235,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "从鼻孔中发射出各种波长的音波。也可发出破坏岩石的音波。"
+          "group": "寶可夢 黑／白",
+          "text": "從鼻孔中發射出各種波長的音波。也可發出破壞岩石的音波。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "如果被雄性向雌性求爱时发出的超音波照到，心情就会变得非常快乐。"
+          "group": "寶可夢 黑／白",
+          "text": "如果被雄性向雌性求愛時發出的超音波照到，心情就會變得非常快樂。"
         }
       ]
     },
@@ -250,23 +250,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "发出连混凝土都能破坏的强力超音波时，尾巴会激烈地振动。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "發出連混凝土都能破壞的強力超音波時，尾巴會激烈地振動。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "如果被雄性向雌性求爱时发出的超音波照到，心情就会变得非常快乐。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "如果被雄性向雌性求愛時發出的超音波照到，心情就會變得非常快樂。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "发出连混凝土都能破坏的强力超音波时，尾巴会激烈地振动。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "發出連混凝土都能破壞的強力超音波時，尾巴會激烈地振動。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "如果被雄性向雌性求爱时发出的超音波照到，心情就会变得非常快乐。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "如果被雄性向雌性求愛時發出的超音波照到，心情就會變得非常快樂。"
         }
       ]
     },
@@ -274,14 +274,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "在发出极其强力的音波后会陷入疲劳，暂时无法飞行。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "在發出極其強力的音波後會陷入疲勞，暫時無法飛行。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "据说有些地区的人觉得它鼻子的形状很吉利，而把它当成幸福的象征来祭拜。"
+          "group": "寶可夢 劍／盾",
+          "text": "據說有些地區的人覺得它鼻子的形狀很吉利，而把它當成幸福的象徵來祭拜。"
         }
       ]
     }
@@ -289,8 +289,8 @@
   "evolution_chains": [
     [
       {
-        "name": "滚滚蝙蝠",
-        "stage": "未进化",
+        "name": "滾滾蝙蝠",
+        "stage": "未進化",
         "text": null,
         "image": "527Woobat_Dream.png",
         "back_text": null,
@@ -299,11 +299,11 @@
       },
       {
         "name": "心蝙蝠",
-        "stage": "1阶进化",
-        "text": "亲密度220以上或友好度158以上提升等级",
+        "stage": "1階進化",
+        "text": "親密度220以上或友好度158以上提升等級",
         "image": "528Swoobat_Dream.png",
         "back_text": null,
-        "from": "滚滚蝙蝠",
+        "from": "滾滾蝙蝠",
         "form_name": null
       }
     ]
@@ -316,8 +316,8 @@
       "data": [
         {
           "level": "—",
-          "name": "起风",
-          "type": "飞行",
+          "name": "起風",
+          "type": "飛行",
           "category": "特殊",
           "power": "40",
           "accuracy": "100",
@@ -327,7 +327,7 @@
           "level": "—",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
@@ -343,17 +343,17 @@
         },
         {
           "level": "—",
-          "name": "蛮干",
+          "name": "蠻幹",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
           "level": "15",
-          "name": "空气利刃",
-          "type": "飞行",
+          "name": "空氣利刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "60",
           "accuracy": "95",
@@ -363,15 +363,15 @@
           "level": "20",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "25",
-          "name": "恶意追击",
-          "type": "恶",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -379,17 +379,17 @@
         },
         {
           "level": "30",
-          "name": "瞬间失忆",
+          "name": "瞬間失憶",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "35",
-          "name": "空气之刃",
-          "type": "飞行",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
@@ -397,7 +397,7 @@
         },
         {
           "level": "40",
-          "name": "精神强念",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -408,14 +408,14 @@
           "level": "45",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "50",
-          "name": "预知未来",
+          "name": "預知未來",
           "type": "超能力",
           "category": "特殊",
           "power": "120",
@@ -424,9 +424,9 @@
         },
         {
           "level": "55",
-          "name": "单纯光束",
+          "name": "單純光束",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
@@ -439,17 +439,17 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０６",
-          "name": "飞翔",
-          "type": "飞行",
+          "machine": "招式學習器０６",
+          "name": "飛翔",
+          "type": "飛行",
           "category": "物理",
           "power": "90",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -457,8 +457,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９",
-          "name": "终极冲击",
+          "machine": "招式學習器０９",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -466,61 +466,61 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１４",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１７",
-          "name": "光墙",
+          "machine": "招式學習器１７",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器１８",
+          "machine": "招式學習器１８",
           "name": "反射壁",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１９",
-          "name": "神秘守护",
+          "machine": "招式學習器１９",
+          "name": "神秘守護",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２３",
+          "machine": "招式學習器２３",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -529,17 +529,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２８",
-          "name": "终极吸取",
+          "machine": "招式學習器２８",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -547,44 +547,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２９",
-          "name": "撒娇",
+          "machine": "招式學習器２９",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器３０",
-          "name": "钢翼",
-          "type": "钢",
+          "machine": "招式學習器３０",
+          "name": "鋼翼",
+          "type": "鋼",
           "category": "物理",
           "power": "70",
           "accuracy": "90",
           "pp": "25"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -592,7 +592,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４０",
+          "machine": "招式學習器４０",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -601,61 +601,61 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４１",
-          "name": "帮助",
+          "machine": "招式學習器４１",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器４４",
+          "machine": "招式學習器４４",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器４７",
+          "machine": "招式學習器４７",
           "name": "假哭",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器５６",
+          "machine": "招式學習器５６",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器５８",
-          "name": "恶意追击",
-          "type": "恶",
+          "machine": "招式學習器５８",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６２",
-          "name": "速度互换",
+          "machine": "招式學習器６２",
+          "name": "速度互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６９",
+          "machine": "招式學習器６９",
           "name": "精神利刃",
           "type": "超能力",
           "category": "物理",
@@ -664,17 +664,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器７０",
-          "name": "戏法空间",
+          "machine": "招式學習器７０",
+          "name": "戲法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -682,26 +682,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７８",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器７８",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器９５",
-          "name": "空气之刃",
-          "type": "飞行",
+          "machine": "招式學習器９５",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式记录１１",
-          "name": "精神强念",
+          "machine": "招式記錄１１",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -709,26 +709,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录１７",
-          "name": "瞬间失忆",
+          "machine": "招式記錄１７",
+          "name": "瞬間失憶",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２５",
-          "name": "精神冲击",
+          "machine": "招式記錄２５",
+          "name": "精神衝擊",
           "type": "超能力",
           "category": "特殊",
           "power": "80",
@@ -736,44 +736,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２９",
+          "machine": "招式記錄２９",
           "name": "接棒",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
         },
         {
-          "machine": "招式记录３３",
+          "machine": "招式記錄３３",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３４",
-          "name": "预知未来",
+          "machine": "招式記錄３４",
+          "name": "預知未來",
           "type": "超能力",
           "category": "特殊",
           "power": "120",
@@ -781,8 +781,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３５",
-          "name": "吵闹",
+          "machine": "招式記錄３５",
+          "name": "吵鬧",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -790,8 +790,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３６",
-          "name": "热风",
+          "machine": "招式記錄３６",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -799,52 +799,52 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄３７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录３８",
-          "name": "戏法",
+          "machine": "招式記錄３８",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录４０",
-          "name": "特性互换",
+          "machine": "招式記錄４０",
+          "name": "特性互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录４９",
+          "machine": "招式記錄４９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录５２",
+          "machine": "招式記錄５２",
           "name": "陀螺球",
-          "type": "钢",
+          "type": "鋼",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式记录６５",
+          "machine": "招式記錄６５",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -853,17 +853,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录６８",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄６８",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录６９",
-          "name": "意念头锤",
+          "machine": "招式記錄６９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -871,8 +871,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录８２",
-          "name": "辅助力量",
+          "machine": "招式記錄８２",
+          "name": "輔助力量",
           "type": "超能力",
           "category": "特殊",
           "power": "20",
@@ -880,25 +880,25 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录８３",
-          "name": "交换场地",
+          "machine": "招式記錄８３",
+          "name": "交換場地",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式记录９１",
+          "machine": "招式記錄９１",
           "name": "毒液陷阱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录９７",
+          "machine": "招式記錄９７",
           "name": "精神之牙",
           "type": "超能力",
           "category": "物理",
@@ -917,23 +917,23 @@
           "parents": [
             {
               "id": "083",
-              "name": "大葱鸭"
+              "name": "大蔥鴨"
             },
             {
               "id": "083G",
-              "name": "大葱鸭"
+              "name": "大蔥鴨"
             },
             {
               "id": "359",
-              "name": "阿勃梭鲁"
+              "name": "阿勃梭魯"
             },
             {
               "id": "570",
-              "name": "索罗亚"
+              "name": "索羅亞"
             },
             {
               "id": "571",
-              "name": "索罗亚克"
+              "name": "索羅亞克"
             },
             {
               "id": "810",
@@ -945,15 +945,15 @@
             },
             {
               "id": "812",
-              "name": "轰擂金刚猩"
+              "name": "轟擂金剛猩"
             },
             {
               "id": "865",
-              "name": "葱游兵"
+              "name": "蔥遊兵"
             }
           ],
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
@@ -971,7 +971,7 @@
             },
             {
               "id": "142",
-              "name": "化石翼龙"
+              "name": "化石翼龍"
             },
             {
               "id": "169",
@@ -979,11 +979,11 @@
             },
             {
               "id": "278",
-              "name": "长翅鸥"
+              "name": "長翅鷗"
             },
             {
               "id": "279",
-              "name": "大嘴鸥"
+              "name": "大嘴鷗"
             },
             {
               "id": "293",
@@ -991,7 +991,7 @@
             },
             {
               "id": "294",
-              "name": "吼爆弹"
+              "name": "吼爆彈"
             },
             {
               "id": "295",
@@ -1003,12 +1003,12 @@
             },
             {
               "id": null,
-              "name": "音波龙"
+              "name": "音波龍"
             }
           ],
           "name": "超音波",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "55",
           "pp": "20"
@@ -1021,31 +1021,31 @@
             },
             {
               "id": "164",
-              "name": "猫头夜鹰"
+              "name": "貓頭夜鷹"
             },
             {
               "id": "206",
-              "name": "土龙弟弟"
+              "name": "土龍弟弟"
             },
             {
               "id": "278",
-              "name": "长翅鸥"
+              "name": "長翅鷗"
             },
             {
               "id": "279",
-              "name": "大嘴鸥"
+              "name": "大嘴鷗"
             },
             {
               "id": "519",
-              "name": "豆豆鸽"
+              "name": "豆豆鴿"
             },
             {
               "id": "520",
-              "name": "咕咕鸽"
+              "name": "咕咕鴿"
             },
             {
               "id": "521",
-              "name": "高傲雉鸡"
+              "name": "高傲雉雞"
             },
             {
               "id": "661",
@@ -1057,11 +1057,11 @@
             },
             {
               "id": "663",
-              "name": "烈箭鹰"
+              "name": "烈箭鷹"
             },
             {
               "id": "701",
-              "name": "摔角鹰人"
+              "name": "摔角鷹人"
             },
             {
               "id": null,
@@ -1069,12 +1069,12 @@
             },
             {
               "id": null,
-              "name": "音波龙"
+              "name": "音波龍"
             }
           ],
-          "name": "羽栖",
-          "type": "飞行",
-          "category": "变化",
+          "name": "羽棲",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -1087,7 +1087,7 @@
             },
             {
               "id": "033",
-              "name": "尼多力诺"
+              "name": "尼多力諾"
             },
             {
               "id": "034",
@@ -1099,16 +1099,16 @@
             },
             {
               "id": "428",
-              "name": "长耳兔"
+              "name": "長耳兔"
             },
             {
               "id": "877",
-              "name": "莫鲁贝可"
+              "name": "莫魯貝可"
             }
           ],
           "name": "吹捧",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
@@ -1121,7 +1121,7 @@
             },
             {
               "id": "164",
-              "name": "猫头夜鹰"
+              "name": "貓頭夜鷹"
             },
             {
               "id": "177",
@@ -1129,12 +1129,12 @@
             },
             {
               "id": null,
-              "name": "天然鸟"
+              "name": "天然鳥"
             }
           ],
-          "name": "精神转移",
+          "name": "精神轉移",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"

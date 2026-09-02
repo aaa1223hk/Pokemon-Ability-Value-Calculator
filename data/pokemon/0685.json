@@ -3,43 +3,43 @@
   "name_ja": "ペロリーム",
   "name_en": "Slurpuff",
   "pokedex_id": "0685",
-  "description": "胖甜妮（日文︰ペロリーム，英文︰Slurpuff）是妖精属性宝可梦。",
-  "profile": "胖甜妮头上有类似头发的粉红色附属物和一个红色球体，颈部有一条像红色围巾的斑纹，进化后长出了脚、手和身体，身体左手边有一个红斑。它的体毛里富含空气，摸起来十分柔软，重量也比看起来要轻。\n胖甜妮的嗅觉比人类灵敏1亿倍以上，通过空气中飘浮的细微气味就能完全了解周围的情形。它即便是细微气味也能区分，是西点师傅的好帮手。它还能从人们身上的气味里嗅出他们的身心状态，在医疗领域的实际应用备受瞩目。",
-  "prototype": "胖甜妮的造型为甜品与犬科动物相融合的形象，可以看到宠物狗的鼻子、脚爪及伸出的舌头。\n设计理念可能为犬类灵敏的嗅觉感知到甜食的诱人香味。\n根据胖甜妮颈部的花纹，其原型可能为慕斯蛋糕或维多利亚海绵蛋糕之类有鲜奶油或果酱夹层的甜品，柔软兼具弹性的身体质感可能基于奶冻。\n其头部的球状物可能指向用于点缀甜品的草莓或樱桃。",
-  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步胖甜妮（Pokémon GO）。\n←\nNo.0684：绵绵泡芙\n宝可梦\nNo.0686：好啦鱿\n→",
+  "description": "胖甜妮（日文︰ペロリーム，英文︰Slurpuff）是妖精屬性寶可夢。",
+  "profile": "胖甜妮頭上有類似頭髮的粉紅色附屬物和一個紅色球體，頸部有一條像紅色圍巾的斑紋，進化後長出了腳、手和身體，身體左手邊有一個紅斑。它的體毛裡富含空氣，摸起來十分柔軟，重量也比看起來要輕。\n胖甜妮的嗅覺比人類靈敏1億倍以上，透過空氣中飄浮的細微氣味就能完全瞭解周圍的情形。它即便是細微氣味也能區分，是西點師傅的好幫手。它還能從人們身上的氣味裡嗅出他們的身心狀態，在醫療領域的實際應用備受矚目。",
+  "prototype": "胖甜妮的造型為甜品與犬科動物相融合的形象，可以看到寵物狗的鼻子、腳爪及伸出的舌頭。\n設計理念可能為犬類靈敏的嗅覺感知到甜食的誘人香味。\n根據胖甜妮頸部的花紋，其原型可能為慕斯蛋糕或維多利亞海綿蛋糕之類有鮮奶油或果醬夾層的甜品，柔軟兼具彈性的身體質感可能基於奶凍。\n其頭部的球狀物可能指向用於點綴甜品的草莓或櫻桃。",
+  "detail": "如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步胖甜妮（Pokémon GO）。\n←\nNo.0684：綿綿泡芙\n寶可夢\nNo.0686：好啦魷\n→",
   "names": [
     {
       "language": "日文",
       "name": "ペロリーム Peroream",
-      "origin": "来自“ペロリ”（吐舌貌）和英文 cream（鲜奶油）。"
+      "origin": "來自“ペロリ”（吐舌貌）和英文 cream（鮮奶油）。"
     },
     {
       "language": "中文-任天堂",
       "name": "胖甜妮",
-      "origin": "来自“胖”、“甜”和“妮”。"
+      "origin": "來自“胖”、“甜”和“妮”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "胖甜妮",
-      "origin": "来自“胖”、“甜”和“妮”。"
+      "origin": "來自“胖”、“甜”和“妮”。"
     },
     {
       "language": "英文",
       "name": "Slurpuff",
-      "origin": "来自于　slurp（啜食声）和 puff（泡芙）。"
+      "origin": "來自於　slurp（啜食聲）和 puff（泡芙）。"
     },
     {
       "language": "法文",
       "name": "Cupcanaille",
-      "origin": "来自 cupcake（纸杯蛋糕）和 canaille（顽童）。"
+      "origin": "來自 cupcake（紙杯蛋糕）和 canaille（頑童）。"
     },
     {
       "language": "德文",
       "name": "Sabbaione",
-      "origin": "来自 sabbern（流口水）和 zabaione（沙巴雍：意大利蛋黄酥）。"
+      "origin": "來自 sabbern（流口水）和 zabaione（沙巴雍：義大利蛋黃酥）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Slurpuff",
       "origin": "同英文名。"
     },
@@ -49,9 +49,9 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "나루림 Naruream",
-      "origin": "来自“낼름낼름”（舌舔声）和英文 cream（鲜奶油）。"
+      "origin": "來自“낼름낼름”（舌舔聲）和英文 cream（鮮奶油）。"
     }
   ],
   "forms": [
@@ -60,14 +60,14 @@
       "types": [
         "妖精"
       ],
-      "category": "泡沫奶油宝可梦",
+      "category": "泡沫奶油寶可夢",
       "abilities": [
         {
           "name": "甜幕",
           "is_hidden": false
         },
         {
-          "name": "轻装",
+          "name": "輕裝",
           "is_hidden": true
         }
       ],
@@ -78,7 +78,7 @@
       "egg_groups": [
         "妖精群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -111,7 +111,7 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body12.png",
       "footprint": "FUnknown.png",
       "image": "0685-胖甜妮.png"
@@ -142,11 +142,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -162,15 +162,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -186,7 +186,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -198,11 +198,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "0"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "0.5"
         },
         {
@@ -218,23 +218,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "拥有即便是细微气味也能区分的敏锐嗅觉，是西点师傅的好帮手。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "擁有即便是細微氣味也能區分的敏銳嗅覺，是西點師傅的好幫手。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "嗅觉比人类灵敏１亿倍以上。通过空气中飘浮的细微气味就能完全了解周围的情形。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "嗅覺比人類靈敏１億倍以上。透過空氣中飄浮的細微氣味就能完全瞭解周圍的情形。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "拥有即便是细微气味也能区分的敏锐嗅觉，是西点师傅的好帮手。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "擁有即便是細微氣味也能區分的敏銳嗅覺，是西點師傅的好幫手。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "嗅觉比人类灵敏１亿倍以上。通过空气中飘浮的细微气味就能完全了解周围的情形。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "嗅覺比人類靈敏１億倍以上。透過空氣中飄浮的細微氣味就能完全瞭解周圍的情形。"
         }
       ]
     },
@@ -242,14 +242,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "能从人们身上的气味里嗅出他们的身心状态。在医疗领域的实际应用备受瞩目。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "能從人們身上的氣味裡嗅出他們的身心狀態。在醫療領域的實際應用備受矚目。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "因为体毛里富含空气，所以摸起来十分柔软，重量也比看起来要轻。"
+          "group": "寶可夢 劍／盾",
+          "text": "因為體毛裡富含空氣，所以摸起來十分柔軟，重量也比看起來要輕。"
         }
       ]
     },
@@ -257,9 +257,9 @@
       "name": "第九世代",
       "versions": [
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "拥有即便是细微气味也能区分的敏锐嗅觉，是西点师傅的好帮手。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "擁有即便是細微氣味也能區分的敏銳嗅覺，是西點師傅的好幫手。"
         }
       ]
     }
@@ -267,8 +267,8 @@
   "evolution_chains": [
     [
       {
-        "name": "绵绵泡芙",
-        "stage": "未进化",
+        "name": "綿綿泡芙",
+        "stage": "未進化",
         "text": null,
         "image": "684Swirlix_Dream.png",
         "back_text": null,
@@ -277,11 +277,11 @@
       },
       {
         "name": "胖甜妮",
-        "stage": "1阶进化",
-        "text": "携带泡沫奶油连接交换",
+        "stage": "1階進化",
+        "text": "攜帶泡沫奶油連線交換",
         "image": "685Slurpuff_Dream.png",
         "back_text": null,
-        "from": "绵绵泡芙",
+        "from": "綿綿泡芙",
         "form_name": null
       }
     ]
@@ -294,16 +294,16 @@
       "data": [
         {
           "level": "—",
-          "name": "甜甜香气",
+          "name": "甜甜香氣",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -312,16 +312,16 @@
         },
         {
           "level": "—",
-          "name": "和睦相处",
+          "name": "和睦相處",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "—",
-          "name": "妖精之风",
+          "name": "妖精之風",
           "type": "妖精",
           "category": "特殊",
           "power": "40",
@@ -330,9 +330,9 @@
         },
         {
           "level": "9",
-          "name": "芳香治疗",
+          "name": "芳香治療",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -349,15 +349,15 @@
         {
           "level": "15",
           "name": "假哭",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "18",
-          "name": "轮唱",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -366,9 +366,9 @@
         },
         {
           "level": "21",
-          "name": "吐丝",
-          "type": "虫",
-          "category": "变化",
+          "name": "吐絲",
+          "type": "蟲",
+          "category": "變化",
           "power": "—",
           "accuracy": "95",
           "pp": "40"
@@ -377,7 +377,7 @@
           "level": "24",
           "name": "棉孢子",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "40"
@@ -393,16 +393,16 @@
         },
         {
           "level": "30",
-          "name": "祈愿",
+          "name": "祈願",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "33",
-          "name": "嬉闹",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -413,25 +413,25 @@
           "level": "36",
           "name": "棉花防守",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "39",
-          "name": "蛮干",
+          "name": "蠻幹",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
           "level": "42",
-          "name": "黏黏网",
-          "type": "虫",
-          "category": "变化",
+          "name": "黏黏網",
+          "type": "蟲",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -444,8 +444,8 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -453,8 +453,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９",
-          "name": "终极冲击",
+          "machine": "招式學習器０９",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -462,43 +462,43 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７",
-          "name": "光墙",
+          "machine": "招式學習器１７",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器１９",
-          "name": "神秘守护",
+          "machine": "招式學習器１９",
+          "name": "神秘守護",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２３",
+          "machine": "招式學習器２３",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -507,53 +507,53 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２９",
-          "name": "撒娇",
+          "machine": "招式學習器２９",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３４",
+          "machine": "招式學習器３４",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -561,35 +561,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４１",
-          "name": "帮助",
+          "machine": "招式學習器４１",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器４７",
+          "machine": "招式學習器４７",
           "name": "假哭",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器６３",
+          "machine": "招式學習器６３",
           "name": "吸取拳",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -597,7 +597,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器８７",
+          "machine": "招式學習器８７",
           "name": "吸取之吻",
           "type": "妖精",
           "category": "特殊",
@@ -606,8 +606,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录０２",
-          "name": "喷射火焰",
+          "machine": "招式記錄０２",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -615,8 +615,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录０４",
-          "name": "冲浪",
+          "machine": "招式記錄０４",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -624,26 +624,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录０８",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式記錄０８",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录０９",
+          "machine": "招式記錄０９",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式记录１１",
-          "name": "精神强念",
+          "machine": "招式記錄１１",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -651,61 +651,61 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录１４",
-          "name": "挥指",
+          "machine": "招式記錄１４",
+          "name": "揮指",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录１７",
-          "name": "瞬间失忆",
+          "machine": "招式記錄１７",
+          "name": "瞬間失憶",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录４９",
+          "machine": "招式記錄４９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录６５",
+          "machine": "招式記錄６５",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -714,8 +714,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录９０",
-          "name": "嬉闹",
+          "machine": "招式記錄９０",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -723,8 +723,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录９２",
-          "name": "魔法闪耀",
+          "machine": "招式記錄９２",
+          "name": "魔法閃耀",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -762,12 +762,12 @@
             },
             {
               "id": "876",
-              "name": "爱管侍"
+              "name": "愛管侍"
             }
           ],
-          "name": "您先请",
+          "name": "您先請",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -785,7 +785,7 @@
           ],
           "name": "哈欠",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -811,16 +811,16 @@
           ],
           "name": "仿效",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "parents": [],
-          "name": "黏黏网",
-          "type": "虫",
-          "category": "变化",
+          "name": "黏黏網",
+          "type": "蟲",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"

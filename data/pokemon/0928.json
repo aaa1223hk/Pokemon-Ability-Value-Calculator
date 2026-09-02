@@ -3,43 +3,43 @@
   "name_ja": "ミニーブ",
   "name_en": "Smoliv",
   "pokedex_id": "0928",
-  "description": "迷你芙（日文︰ミニーブ，英文︰Smoliv）是草属性／一般属性宝可梦。迷你芙于2022年6月1日正式公开。",
-  "profile": "迷你芙的身体是嫩绿色的，头上有着绿色的叶子，在脸部的上面有着一个叶柄。在迷你芙叶子的中间有着一个黄色的果实。\n迷你芙喜欢日晒强烈且干燥的气候，白天似乎总是在晒太阳。它会把光合作用生成的营养转换成油，储存在头部的果实里，可让自己至少能够不吃不喝地生活1周。从它头上果实冒出的油非常苦涩，不适合食用，苦涩到能让人跳起来。受到惊吓或被袭击时会喷射出这种油来让敌人的动作变得迟缓，并趁机逃跑，以此保护自己不受敌人攻击。",
-  "prototype": "迷你芙可能基于油橄榄（木樨榄）绿色未成熟的果实。油橄榄可用于榨取橄榄油，在地中海盆地一带被广泛种植。\n头顶的部分可能来源于常被用于制作罐头的去核油橄榄。",
+  "description": "迷你芙（日文︰ミニーブ，英文︰Smoliv）是草屬性／一般屬性寶可夢。迷你芙於2022年6月1日正式公開。",
+  "profile": "迷你芙的身體是嫩綠色的，頭上有著綠色的葉子，在臉部的上面有著一個葉柄。在迷你芙葉子的中間有著一個黃色的果實。\n迷你芙喜歡日曬強烈且乾燥的氣候，白天似乎總是在曬太陽。它會把光合作用生成的營養轉換成油，儲存在頭部的果實裡，可讓自己至少能夠不吃不喝地生活1周。從它頭上果實冒出的油非常苦澀，不適合食用，苦澀到能讓人跳起來。受到驚嚇或被襲擊時會噴射出這種油來讓敵人的動作變得遲緩，並趁機逃跑，以此保護自己不受敵人攻擊。",
+  "prototype": "迷你芙可能基於油橄欖（木樨欖）綠色未成熟的果實。油橄欖可用於榨取橄欖油，在地中海盆地一帶被廣泛種植。\n頭頂的部分可能來源於常被用於製作罐頭的去核油橄欖。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ミニーブ Minive",
-      "origin": "来自英文 mini（迷你的）和英文 olive（油橄榄） 。"
+      "origin": "來自英文 mini（迷你的）和英文 olive（油橄欖） 。"
     },
     {
       "language": "中文-任天堂",
       "name": "迷你芙",
-      "origin": "来自“迷你”和日文名的音译。"
+      "origin": "來自“迷你”和日文名的音譯。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "迷你芙",
-      "origin": "来自“迷你”和日文名的音译。"
+      "origin": "來自“迷你”和日文名的音譯。"
     },
     {
       "language": "英文",
       "name": "Smoliv",
-      "origin": "来自 small（小的）和 olive（油橄榄）。"
+      "origin": "來自 small（小的）和 olive（油橄欖）。"
     },
     {
       "language": "法文",
       "name": "Olivini",
-      "origin": "来自 olive（油橄榄）和 mini（迷你的）。"
+      "origin": "來自 olive（油橄欖）和 mini（迷你的）。"
     },
     {
       "language": "德文",
       "name": "Olini",
-      "origin": "来自 Olive（油橄榄）和 mini（迷你的）。"
+      "origin": "來自 Olive（油橄欖）和 mini（迷你的）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Smoliv",
       "origin": "同英文名。"
     },
@@ -49,9 +49,9 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "미니브 Minibeu",
-      "origin": "来自英文 mini（迷你的）和英文 olive（油橄榄） 。"
+      "origin": "來自英文 mini（迷你的）和英文 olive（油橄欖） 。"
     }
   ],
   "forms": [
@@ -61,25 +61,25 @@
         "草",
         "一般"
       ],
-      "category": "橄榄宝可梦",
+      "category": "橄欖寶可夢",
       "abilities": [
         {
           "name": "早起",
           "is_hidden": false
         },
         {
-          "name": "收获",
+          "name": "收穫",
           "is_hidden": true
         }
       ],
       "height": "0.3m",
       "weight": "6.5kg",
-      "color": "绿色",
+      "color": "綠色",
       "catch_rate": "255（33.3%）",
       "egg_groups": [
         "植物群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -112,7 +112,7 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body07.png",
       "footprint": "FUnknown.png",
       "image": "0928-迷你芙.png"
@@ -144,11 +144,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "2"
         },
         {
@@ -164,15 +164,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "2"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "0"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -188,7 +188,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -200,11 +200,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -220,13 +220,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "从头上的果实喷出油，以此保护自己不受敌人攻击。那种油苦涩到能让人跳起来。"
+          "group": "寶可夢 朱／紫",
+          "text": "從頭上的果實噴出油，以此保護自己不受敵人攻擊。那種油苦澀到能讓人跳起來。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "会把营养转换成油，并储存在头部的果实里。１个星期不吃不喝也无所谓。"
+          "group": "寶可夢 朱／紫",
+          "text": "會把營養轉換成油，並儲存在頭部的果實裡。１個星期不吃不喝也無所謂。"
         }
       ]
     }
@@ -235,7 +235,7 @@
     [
       {
         "name": "迷你芙",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "928Smoliv_Dream.png",
         "back_text": null,
@@ -243,21 +243,21 @@
         "form_name": null
       },
       {
-        "name": "奥利纽",
-        "stage": "1阶进化",
-        "text": "等级25以上",
+        "name": "奧利紐",
+        "stage": "1階進化",
+        "text": "等級25以上",
         "image": "929Dolliv_Dream.png",
         "back_text": null,
         "from": "迷你芙",
         "form_name": null
       },
       {
-        "name": "奥利瓦",
-        "stage": "2阶进化",
-        "text": "等级35以上",
+        "name": "奧利瓦",
+        "stage": "2階進化",
+        "text": "等級35以上",
         "image": "930Arboliva_Dream.png",
         "back_text": null,
-        "from": "奥利纽",
+        "from": "奧利紐",
         "form_name": null
       }
     ]
@@ -270,7 +270,7 @@
       "data": [
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -279,9 +279,9 @@
         },
         {
           "level": "—",
-          "name": "甜甜香气",
+          "name": "甜甜香氣",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -297,16 +297,16 @@
         },
         {
           "level": "7",
-          "name": "生长",
+          "name": "生長",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "10",
-          "name": "飞叶快刀",
+          "name": "飛葉快刀",
           "type": "草",
           "category": "物理",
           "power": "55",
@@ -315,9 +315,9 @@
         },
         {
           "level": "13",
-          "name": "帮助",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -327,13 +327,13 @@
           "name": "抓狂",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "20",
-          "name": "超级吸取",
+          "name": "超級吸取",
           "type": "草",
           "category": "特殊",
           "power": "40",
@@ -342,16 +342,16 @@
         },
         {
           "level": "23",
-          "name": "青草场地",
+          "name": "青草場地",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "27",
-          "name": "种子炸弹",
+          "name": "種子炸彈",
           "type": "草",
           "category": "物理",
           "power": "80",
@@ -369,16 +369,16 @@
         },
         {
           "level": "34",
-          "name": "寄生种子",
+          "name": "寄生種子",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
         },
         {
           "level": "38",
-          "name": "大地波动",
+          "name": "大地波動",
           "type": "一般",
           "category": "特殊",
           "power": "50",
@@ -393,25 +393,25 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００２",
-          "name": "撒娇",
+          "machine": "招式學習器００２",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２０",
+          "machine": "招式學習器０２０",
           "name": "起草",
           "type": "草",
           "category": "物理",
@@ -420,8 +420,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -429,7 +429,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -438,8 +438,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３３",
-          "name": "魔法叶",
+          "machine": "招式學習器０３３",
+          "name": "魔法葉",
           "type": "草",
           "category": "特殊",
           "power": "60",
@@ -447,26 +447,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５６",
-          "name": "种子机关枪",
+          "machine": "招式學習器０５６",
+          "name": "種子機關槍",
           "type": "草",
           "category": "物理",
           "power": "25",
@@ -474,17 +474,17 @@
           "pp": "30"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７１",
-          "name": "种子炸弹",
+          "machine": "招式學習器０７１",
+          "name": "種子炸彈",
           "type": "草",
           "category": "物理",
           "power": "80",
@@ -492,35 +492,35 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８１",
-          "name": "打草结",
+          "machine": "招式學習器０８１",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１１",
-          "name": "终极吸取",
+          "machine": "招式學習器１１１",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -528,7 +528,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１９",
+          "machine": "招式學習器１１９",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -537,16 +537,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３３",
+          "machine": "招式學習器１３３",
           "name": "大地之力",
           "type": "地面",
           "category": "特殊",
@@ -555,17 +555,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３７",
-          "name": "青草场地",
+          "machine": "招式學習器１３７",
+          "name": "青草場地",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５９",
-          "name": "飞叶风暴",
+          "machine": "招式學習器１５９",
+          "name": "飛葉風暴",
           "type": "草",
           "category": "特殊",
           "power": "130",
@@ -573,7 +573,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６８",
+          "machine": "招式學習器１６８",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -582,8 +582,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -591,7 +591,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９０",
+          "machine": "招式學習器１９０",
           "name": "日光刃",
           "type": "草",
           "category": "物理",
@@ -600,8 +600,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９３",
-          "name": "气象球",
+          "machine": "招式學習器１９３",
+          "name": "氣象球",
           "type": "一般",
           "category": "特殊",
           "power": "50",
@@ -619,7 +619,7 @@
           "parents": [
             {
               "id": "001",
-              "name": "妙蛙种子"
+              "name": "妙蛙種子"
             },
             {
               "id": "002",
@@ -635,19 +635,19 @@
             },
             {
               "id": "103",
-              "name": "椰蛋树"
+              "name": "椰蛋樹"
             },
             {
               "id": "103A",
-              "name": "椰蛋树"
+              "name": "椰蛋樹"
             },
             {
               "id": "152",
-              "name": "菊草叶"
+              "name": "菊草葉"
             },
             {
               "id": "153",
-              "name": "月桂叶"
+              "name": "月桂葉"
             },
             {
               "id": "154",
@@ -667,31 +667,31 @@
             },
             {
               "id": "191",
-              "name": "向日种子"
+              "name": "向日種子"
             },
             {
               "id": "273",
-              "name": "橡实果"
+              "name": "橡實果"
             },
             {
               "id": "274",
-              "name": "长鼻叶"
+              "name": "長鼻葉"
             },
             {
               "id": "357",
-              "name": "热带龙"
+              "name": "熱帶龍"
             },
             {
               "id": "387",
-              "name": "草苗龟"
+              "name": "草苗龜"
             },
             {
               "id": "388",
-              "name": "树林龟"
+              "name": "樹林龜"
             },
             {
               "id": "389",
-              "name": "土台龟"
+              "name": "土臺龜"
             },
             {
               "id": "590",
@@ -699,24 +699,24 @@
             },
             {
               "id": "591",
-              "name": "败露球菇"
+              "name": "敗露球菇"
             },
             {
               "id": "753",
-              "name": "伪螳草"
+              "name": "偽螳草"
             },
             {
               "id": "754",
-              "name": "兰螳花"
+              "name": "蘭螳花"
             },
             {
               "id": "764",
-              "name": "花疗环环"
+              "name": "花療環環"
             }
           ],
           "name": "光合作用",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -737,12 +737,12 @@
             },
             {
               "id": "0547",
-              "name": "风妖精"
+              "name": "風妖精"
             }
           ],
-          "name": "临别礼物",
-          "type": "恶",
-          "category": "变化",
+          "name": "臨別禮物",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -758,7 +758,7 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "气象球",
+          "name": "氣象球",
           "type": "一般",
           "category": "特殊",
           "power": "50",
@@ -778,7 +778,7 @@
           ],
           "name": "吸取力量",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"

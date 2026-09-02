@@ -1,62 +1,62 @@
 {
-  "name_zh": "铁毒蛾",
+  "name_zh": "鐵毒蛾",
   "name_ja": "テツノドクガ",
   "name_en": "Iron Moth",
   "pokedex_id": "0994",
-  "description": "铁毒蛾（日文︰テツノドクガ，英文︰Iron Moth）是火属性／毒属性悖谬宝可梦。",
-  "profile": "据说铁毒蛾与火神蛾相似，会从上空追随地面上的人们，有时还会发起袭击。有说法认为，它之所以具有攻击性，是因为其真面目是外星人所操控的ＵＦＯ。他们或许在利用铁毒蛾监视人类，伺机寻找发起侵略的机会。其名称取自世纪奇书《紫之书》中登场的神秘物体。",
-  "prototype": "铁毒蛾在火神蛾的基础上加入了更多机械的元素，翅膀的设计可能参考了太阳能电池板。\n其整体形象可能也融入了某些科幻作品中浮游炮，或者都市传说中的不明飞行物，例如火焰战斗机。\n悖谬宝可梦\n古代宝可梦\n未来宝可梦\n乐园守护龙\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步铁毒蛾（Pokémon GO）。\n←\nNo.0993：铁脖颈\n宝可梦\nNo.0995：铁荆棘\n→",
+  "description": "鐵毒蛾（日文︰テツノドクガ，英文︰Iron Moth）是火屬性／毒屬性悖謬寶可夢。",
+  "profile": "據說鐵毒蛾與火神蛾相似，會從上空追隨地面上的人們，有時還會發起襲擊。有說法認為，它之所以具有攻擊性，是因為其真面目是外星人所操控的ＵＦＯ。他們或許在利用鐵毒蛾監視人類，伺機尋找發起侵略的機會。其名稱取自世紀奇書《紫之書》中登場的神秘物體。",
+  "prototype": "鐵毒蛾在火神蛾的基礎上加入了更多機械的元素，翅膀的設計可能參考了太陽能電池板。\n其整體形象可能也融入了某些科幻作品中浮游炮，或者都市傳說中的不明飛行物，例如火焰戰鬥機。\n悖謬寶可夢\n古代寶可夢\n未來寶可夢\n樂園守護龍\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步鐵毒蛾（Pokémon GO）。\n←\nNo.0993：鐵脖頸\n寶可夢\nNo.0995：鐵荊棘\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "テツノドクガ Tetsunodokuga",
-      "origin": "来自“鉄（てつ）の毒（どく）蛾（が）”（铁的毒蛾）。"
+      "origin": "來自“鉄（てつ）の毒（どく）蛾（が）”（鐵的毒蛾）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "鐵毒蛾铁毒蛾",
-      "origin": "来自“铁”和“毒蛾”。"
+      "name": "鐵毒蛾鐵毒蛾",
+      "origin": "來自“鐵”和“毒蛾”。"
     },
     {
       "language": "英文",
       "name": "Iron Moth",
-      "origin": "来自 iron（铁）和 moth（蛾）。"
+      "origin": "來自 iron（鐵）和 moth（蛾）。"
     },
     {
       "language": "法文",
       "name": "Mite-de-Fer",
-      "origin": "来自 mite（蛾）和 de fer（铁的）。"
+      "origin": "來自 mite（蛾）和 de fer（鐵的）。"
     },
     {
       "language": "德文",
       "name": "Eisenfalter",
-      "origin": "来自 Eisen（铁）和 Falter（鳞翅目也即蝴蝶和蛾的俗称）。"
+      "origin": "來自 Eisen（鐵）和 Falter（鱗翅目也即蝴蝶和蛾的俗稱）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Falenaferrea",
-      "origin": "来自 falena（蛾）和 ferreo（铁的）。"
+      "origin": "來自 falena（蛾）和 ferreo（鐵的）。"
     },
     {
       "language": "西班牙文",
       "name": "Ferropolilla",
-      "origin": "来自前缀 ferro-（表示“铁”）和 polilla（蛾）。"
+      "origin": "來自字首 ferro-（表示“鐵”）和 polilla（蛾）。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "무쇠독나방 Musoedoknabang",
-      "origin": "来自“무쇠”（铸铁）和“독나방〈毒——〉”（毒蛾）。"
+      "origin": "來自“무쇠”（鑄鐵）和“독나방〈毒——〉”（毒蛾）。"
     }
   ],
   "forms": [
     {
-      "name": "铁毒蛾",
+      "name": "鐵毒蛾",
       "types": [
         "火",
         "毒"
       ],
-      "category": "悖谬宝可梦",
+      "category": "悖謬寶可夢",
       "abilities": [
         {
           "name": "夸克充能",
@@ -68,7 +68,7 @@
       "color": "白色",
       "catch_rate": "30（3.9%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -103,10 +103,10 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "50 孵化周期*（12850步）",
+      "egg_cycles": "50 孵化週期*（12850步）",
       "shape": "Body13.png",
       "footprint": "FUnknown.png",
-      "image": "0994-铁毒蛾.png"
+      "image": "0994-鐵毒蛾.png"
     }
   ],
   "stats": [
@@ -135,11 +135,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -155,15 +155,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.25"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -179,7 +179,7 @@
           "damage": "0.25"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -191,11 +191,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -211,13 +211,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "与超自然杂志中所介绍的监视人类的ＵＦＯ这种未知物体很相似。"
+          "group": "寶可夢 朱／紫",
+          "text": "與超自然雜誌中所介紹的監視人類的ＵＦＯ這種未知物體很相似。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "没有捕获记录。资料不足。其特征与古老的书籍里所记载的物体一致。"
+          "group": "寶可夢 朱／紫",
+          "text": "沒有捕獲記錄。資料不足。其特徵與古老的書籍裡所記載的物體一致。"
         }
       ]
     }
@@ -225,8 +225,8 @@
   "evolution_chains": [
     [
       {
-        "name": "铁毒蛾",
-        "stage": "不进化",
+        "name": "鐵毒蛾",
+        "stage": "不進化",
         "text": null,
         "image": "994Iron_Moth_Dream.png",
         "back_text": null,
@@ -243,8 +243,8 @@
       "data": [
         {
           "level": "—",
-          "name": "起风",
-          "type": "飞行",
+          "name": "起風",
+          "type": "飛行",
           "category": "特殊",
           "power": "40",
           "accuracy": "100",
@@ -252,9 +252,9 @@
         },
         {
           "level": "—",
-          "name": "吹飞",
+          "name": "吹飛",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -270,7 +270,7 @@
         },
         {
           "level": "—",
-          "name": "酸液炸弹",
+          "name": "酸液炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "40",
@@ -279,8 +279,8 @@
         },
         {
           "level": "7",
-          "name": "虫之抵抗",
-          "type": "虫",
+          "name": "蟲之抵抗",
+          "type": "蟲",
           "category": "特殊",
           "power": "50",
           "accuracy": "100",
@@ -288,7 +288,7 @@
         },
         {
           "level": "14",
-          "name": "火焰旋涡",
+          "name": "火焰旋渦",
           "type": "火",
           "category": "特殊",
           "power": "35",
@@ -306,8 +306,8 @@
         },
         {
           "level": "28",
-          "name": "猛扑",
-          "type": "虫",
+          "name": "猛撲",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -315,17 +315,17 @@
         },
         {
           "level": "35",
-          "name": "刺耳声",
+          "name": "刺耳聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
           "level": "42",
-          "name": "放电",
-          "type": "电",
+          "name": "放電",
+          "type": "電",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -333,7 +333,7 @@
         },
         {
           "level": "49",
-          "name": "污泥波",
+          "name": "汙泥波",
           "type": "毒",
           "category": "特殊",
           "power": "95",
@@ -351,9 +351,9 @@
         },
         {
           "level": "63",
-          "name": "金属音",
-          "type": "钢",
-          "category": "变化",
+          "name": "金屬音",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
@@ -362,15 +362,15 @@
           "level": "70",
           "name": "晨光",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "77",
-          "name": "暴风",
-          "type": "飞行",
+          "name": "暴風",
+          "type": "飛行",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
@@ -378,8 +378,8 @@
         },
         {
           "level": "84",
-          "name": "虫鸣",
-          "type": "虫",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
@@ -387,7 +387,7 @@
         },
         {
           "level": "91",
-          "name": "过热",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -395,10 +395,10 @@
           "pp": "5"
         },
         {
-          "level": "回忆",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "level": "回憶",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -411,7 +411,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -420,26 +420,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００４",
-          "name": "高速移动",
+          "machine": "招式學習器００４",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１３",
-          "name": "酸液炸弹",
+          "machine": "招式學習器０１３",
+          "name": "酸液炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "40",
@@ -447,53 +447,53 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１５",
-          "name": "虫之抵抗",
-          "type": "虫",
+          "machine": "招式學習器０１５",
+          "name": "蟲之抵抗",
+          "type": "蟲",
           "category": "特殊",
           "power": "50",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１７",
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器０１７",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２１",
-          "name": "虫扑",
-          "type": "虫",
+          "machine": "招式學習器０２１",
+          "name": "蟲撲",
+          "type": "蟲",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２３",
-          "name": "充电光束",
-          "type": "电",
+          "machine": "招式學習器０２３",
+          "name": "充電光束",
+          "type": "電",
           "category": "特殊",
           "power": "50",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２４",
-          "name": "火焰旋涡",
+          "machine": "招式學習器０２４",
+          "name": "火焰旋渦",
           "type": "火",
           "category": "特殊",
           "power": "35",
@@ -501,8 +501,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -510,7 +510,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -519,8 +519,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３８",
-          "name": "蓄能焰袭",
+          "machine": "招式學習器０３８",
+          "name": "蓄能焰襲",
           "type": "火",
           "category": "物理",
           "power": "50",
@@ -528,8 +528,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４５",
-          "name": "毒液冲击",
+          "machine": "招式學習器０４５",
+          "name": "毒液衝擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -537,62 +537,62 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６５",
-          "name": "空气之刃",
-          "type": "飞行",
+          "machine": "招式學習器０６５",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０７９",
-          "name": "魔法闪耀",
+          "machine": "招式學習器０７９",
+          "name": "魔法閃耀",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -600,44 +600,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９１",
+          "machine": "招式學習器０９１",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９３",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式學習器０９３",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１８",
-          "name": "热风",
+          "machine": "招式學習器１１８",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -645,7 +645,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１９",
+          "machine": "招式學習器１１９",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -654,8 +654,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２０",
-          "name": "精神强念",
+          "machine": "招式學習器１２０",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -663,8 +663,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２５",
-          "name": "喷射火焰",
+          "machine": "招式學習器１２５",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -672,25 +672,25 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３６",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１３６",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４１",
+          "machine": "招式學習器１４１",
           "name": "大字爆炎",
           "type": "火",
           "category": "特殊",
@@ -699,8 +699,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -708,8 +708,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５７",
-          "name": "过热",
+          "machine": "招式學習器１５７",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -717,26 +717,26 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６０",
-          "name": "暴风",
-          "type": "飞行",
+          "machine": "招式學習器１６０",
+          "name": "暴風",
+          "type": "飛行",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６２",
-          "name": "虫鸣",
-          "type": "虫",
+          "machine": "招式學習器１６２",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -744,8 +744,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６５",
-          "name": "闪焰冲锋",
+          "machine": "招式學習器１６５",
+          "name": "閃焰衝鋒",
           "type": "火",
           "category": "物理",
           "power": "120",
@@ -753,7 +753,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１６８",
+          "machine": "招式學習器１６８",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -762,8 +762,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -771,26 +771,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７５",
-          "name": "剧毒",
+          "machine": "招式學習器１７５",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８５",
-          "name": "猛扑",
-          "type": "虫",
+          "machine": "招式學習器１８５",
+          "name": "猛撲",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１４",
-          "name": "污泥波",
+          "machine": "招式學習器２１４",
+          "name": "汙泥波",
           "type": "毒",
           "category": "特殊",
           "power": "95",
@@ -798,7 +798,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２０",
+          "machine": "招式學習器２２０",
           "name": "流星光束",
           "type": "岩石",
           "category": "特殊",
@@ -807,10 +807,10 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２３",
-          "name": "金属音",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式學習器２２３",
+          "name": "金屬音",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
@@ -821,9 +821,9 @@
   "egg_moves": [],
   "home_images": [
     {
-      "name": "铁毒蛾",
-      "image": "0994-铁毒蛾.png",
-      "shiny": "0994-铁毒蛾-shiny.png"
+      "name": "鐵毒蛾",
+      "image": "0994-鐵毒蛾.png",
+      "shiny": "0994-鐵毒蛾-shiny.png"
     }
   ]
 }

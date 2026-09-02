@@ -1,55 +1,55 @@
 {
-  "name_zh": "始祖大鸟",
+  "name_zh": "始祖大鳥",
   "name_ja": "アーケオス",
   "name_en": "Archeops",
   "pokedex_id": "0567",
-  "description": "始祖大鸟（日文︰アーケオス，英文︰Archeops）是岩石属性／飞行属性宝可梦。",
-  "profile": "始祖大鸟身体主要以红、黄、蓝和少许的青色组成。它从头背部直到颈背部都有青色的条状皮肤，正面则面是红色的，它的颈部有一撮尖尖的黄色羽毛。它的腹部是黄色的，巨大的翅膀是由黄色与末端的蓝色组成的。它四肢都有三个锐利的爪子，在他腿部的位置的羽毛分别有青色与蓝色。它也拥有一条长长的、红色的条状尾巴，尾巴末端的蓝色羽毛排列成五角星的样子。\n始祖大鸟是古代的宝可梦，据说是鸟宝可梦的祖先。因为羽毛很细，所以如果不是熟练的匠人，就会复原失败。它虽然也会飞行，但挥动翅膀的肌肉还很弱，必须助跑才能飞起来，助跑的距离大约为4公里。比起飞行，它更擅长奔跑，跑步的速度为每小时40公里。它拥有与伙伴合作捕猎的智商，将猎物追到无路可逃时，其他伙伴就会从空中发动突袭。菊石兽好像曾是它的食物。",
-  "prototype": "始祖大鸟基于始祖鸟以及其它有羽毛恐龙，如后肢长有飞羽的小盗龙。\n曾有研究认为始祖鸟会在湖岸边觅食，这可能是始祖大鸟分类在水中3群的原因。",
-  "detail": "始祖大鸟和它的进化前身的蛋群组合在所有的宝可梦中是唯一的。\n始祖大鸟的全国图鉴编号与种族值总和相等。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步始祖大鸟（Pokémon GO）。\n←\nNo.0566：始祖小鸟\n宝可梦\nNo.0568：破破袋\n→",
+  "description": "始祖大鳥（日文︰アーケオス，英文︰Archeops）是岩石屬性／飛行屬性寶可夢。",
+  "profile": "始祖大鳥身體主要以紅、黃、藍和少許的青色組成。它從頭背部直到頸背部都有青色的條狀皮膚，正面則面是紅色的，它的頸部有一撮尖尖的黃色羽毛。它的腹部是黃色的，巨大的翅膀是由黃色與末端的藍色組成的。它四肢都有三個銳利的爪子，在他腿部的位置的羽毛分別有青色與藍色。它也擁有一條長長的、紅色的條狀尾巴，尾巴末端的藍色羽毛排列成五角星的樣子。\n始祖大鳥是古代的寶可夢，據說是鳥寶可夢的祖先。因為羽毛很細，所以如果不是熟練的匠人，就會復原失敗。它雖然也會飛行，但揮動翅膀的肌肉還很弱，必須助跑才能飛起來，助跑的距離大約為4公里。比起飛行，它更擅長奔跑，跑步的速度為每小時40公里。它擁有與夥伴合作捕獵的智商，將獵物追到無路可逃時，其他夥伴就會從空中發動突襲。菊石獸好像曾是它的食物。",
+  "prototype": "始祖大鳥基於始祖鳥以及其它有羽毛恐龍，如後肢長有飛羽的小盜龍。\n曾有研究認為始祖鳥會在湖岸邊覓食，這可能是始祖大鳥分類在水中3群的原因。",
+  "detail": "始祖大鳥和它的進化前身的蛋群組合在所有的寶可夢中是唯一的。\n始祖大鳥的全國圖鑑編號與種族值總和相等。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步始祖大鳥（Pokémon GO）。\n←\nNo.0566：始祖小鳥\n寶可夢\nNo.0568：破破袋\n→",
   "names": [
     {
       "language": "日文",
       "name": "アーケオス Archeos",
-      "origin": "来自学名 Archaeopteryx（始祖鸟属）。"
+      "origin": "來自學名 Archaeopteryx（始祖鳥屬）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "始祖大鳥始祖大鸟",
-      "origin": "来自“始祖鸟”和“大”。"
+      "name": "始祖大鳥始祖大鳥",
+      "origin": "來自“始祖鳥”和“大”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "始祖大鸟",
-      "origin": "来自“始祖鸟”和“大”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "始祖大鳥",
-      "origin": "来自“始祖鸟”和“大”。"
+      "origin": "來自“始祖鳥”和“大”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "始祖大鳥",
+      "origin": "來自“始祖鳥”和“大”。"
     },
     {
       "language": "中文-香港",
       "name": "始祖大鳥",
-      "origin": "来自“始祖鸟”和“大”。"
+      "origin": "來自“始祖鳥”和“大”。"
     },
     {
       "language": "英文",
       "name": "Archeops",
-      "origin": "来自 Archaeopteryx（始祖鸟）。"
+      "origin": "來自 Archaeopteryx（始祖鳥）。"
     },
     {
       "language": "法文",
       "name": "Aéroptéryx",
-      "origin": "来自前缀 aéro-（表示“空气”）和学名 Archaeopteryx（始祖鸟属）。"
+      "origin": "來自字首 aéro-（表示“空氣”）和學名 Archaeopteryx（始祖鳥屬）。"
     },
     {
       "language": "德文",
       "name": "Aeropteryx",
-      "origin": "来自前缀 aero-（表示“空气”）和学名 Archaeopteryx（始祖鸟属）。"
+      "origin": "來自字首 aero-（表示“空氣”）和學名 Archaeopteryx（始祖鳥屬）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Archeops",
       "origin": "同英文名。"
     },
@@ -59,34 +59,34 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "아케오스 Akeos",
-      "origin": "来自日文名直译。"
+      "origin": "來自日文名直譯。"
     }
   ],
   "forms": [
     {
-      "name": "始祖大鸟",
+      "name": "始祖大鳥",
       "types": [
         "岩石",
-        "飞行"
+        "飛行"
       ],
-      "category": "远古鸟宝可梦",
+      "category": "遠古鳥寶可夢",
       "abilities": [
         {
-          "name": "软弱",
+          "name": "軟弱",
           "is_hidden": false
         }
       ],
       "height": "1.4m",
       "weight": "32.0kg",
-      "color": "黄色",
+      "color": "黃色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "飞行",
+        "飛行",
         "水中3群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -119,10 +119,10 @@
         "male": 87.5,
         "female": 12.5
       },
-      "egg_cycles": "30 孵化周期（7710步）",
+      "egg_cycles": "30 孵化週期（7710步）",
       "shape": "Body09.png",
       "footprint": "F567.png",
-      "image": "0567-始祖大鸟.png"
+      "image": "0567-始祖大鳥.png"
     }
   ],
   "stats": [
@@ -143,7 +143,7 @@
       "form": "",
       "types": [
         "岩石",
-        "飞行"
+        "飛行"
       ],
       "data": [
         {
@@ -151,11 +151,11 @@
           "damage": "0.5"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -171,15 +171,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -195,7 +195,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -207,11 +207,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -227,13 +227,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "在地面上助跑一阵后就会飞起来。拥有与伙伴合作捕猎的智商。"
+          "group": "寶可夢 黑／白",
+          "text": "在地面上助跑一陣後就會飛起來。擁有與夥伴合作捕獵的智商。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "比起飞行，跑步更在行。以不输给汽车的速度四处奔走捕捉猎物。"
+          "group": "寶可夢 黑／白",
+          "text": "比起飛行，跑步更在行。以不輸給汽車的速度四處奔走捕捉獵物。"
         }
       ]
     },
@@ -242,23 +242,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "在地面上助跑一阵后就会飞起来。拥有与伙伴合作捕猎的智商。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "在地面上助跑一陣後就會飛起來。擁有與夥伴合作捕獵的智商。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "比起飞行，更擅长奔跑。以时速４０公里飞奔的势头朝着天空展翅飞翔。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "比起飛行，更擅長奔跑。以時速４０公里飛奔的勢頭朝著天空展翅飛翔。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "在地面上助跑一阵后就会飞起来。拥有与伙伴合作捕猎的智商。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "在地面上助跑一陣後就會飛起來。擁有與夥伴合作捕獵的智商。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "比起飞行，更擅长奔跑。以时速４０公里飞奔的势头朝着天空展翅飞翔。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "比起飛行，更擅長奔跑。以時速４０公里飛奔的勢頭朝著天空展翅飛翔。"
         }
       ]
     },
@@ -266,14 +266,14 @@
       "name": "第七世代",
       "versions": [
         {
-          "name": "太阳",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "好像也会飞行，但主要是在地上四处飞奔。平均时速达到４０公里。"
+          "name": "太陽",
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "好像也會飛行，但主要是在地上四處飛奔。平均時速達到４０公里。"
         },
         {
           "name": "月亮",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "成群结队进行捕猎。将猎物追到无路可逃时，其他伙伴就会从空中发动突袭。"
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "成群結隊進行捕獵。將獵物追到無路可逃時，其他夥伴就會從空中發動突襲。"
         }
       ]
     },
@@ -281,14 +281,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "会为了飞翔而助跑。助跑的距离大约为４公里，跑步的速度为每小时４０公里。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "會為了飛翔而助跑。助跑的距離大約為４公里，跑步的速度為每小時４０公里。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "虽然也会飞行，但是似乎更擅长在地面上捕捉猎物。"
+          "group": "寶可夢 劍／盾",
+          "text": "雖然也會飛行，但是似乎更擅長在地面上捕捉獵物。"
         }
       ]
     }
@@ -296,8 +296,8 @@
   "evolution_chains": [
     [
       {
-        "name": "始祖小鸟",
-        "stage": "未进化",
+        "name": "始祖小鳥",
+        "stage": "未進化",
         "text": null,
         "image": "566Archen_Dream.png",
         "back_text": null,
@@ -305,12 +305,12 @@
         "form_name": null
       },
       {
-        "name": "始祖大鸟",
-        "stage": "1阶进化",
-        "text": "等级37以上",
+        "name": "始祖大鳥",
+        "stage": "1階進化",
+        "text": "等級37以上",
         "image": "567Archeops_Dream.png",
         "back_text": null,
-        "from": "始祖小鸟",
+        "from": "始祖小鳥",
         "form_name": null
       }
     ]
@@ -323,7 +323,7 @@
       "data": [
         {
           "level": "—",
-          "name": "电光一闪",
+          "name": "電光一閃",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -334,7 +334,7 @@
           "level": "—",
           "name": "瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
@@ -350,8 +350,8 @@
         },
         {
           "level": "—",
-          "name": "翅膀攻击",
-          "type": "飞行",
+          "name": "翅膀攻擊",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -359,8 +359,8 @@
         },
         {
           "level": "9",
-          "name": "龙息",
-          "type": "龙",
+          "name": "龍息",
+          "type": "龍",
           "category": "特殊",
           "power": "60",
           "accuracy": "100",
@@ -378,7 +378,7 @@
         {
           "level": "15",
           "name": "啄食",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -387,8 +387,8 @@
         {
           "level": "18",
           "name": "快速防守",
-          "type": "格斗",
-          "category": "变化",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -396,7 +396,7 @@
         {
           "level": "21",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -404,7 +404,7 @@
         },
         {
           "level": "24",
-          "name": "岩崩",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -415,7 +415,7 @@
           "level": "27",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -423,7 +423,7 @@
         {
           "level": "30",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -431,26 +431,26 @@
         },
         {
           "level": "33",
-          "name": "高速移动",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "36",
-          "name": "顺风",
-          "type": "飞行",
-          "category": "变化",
+          "name": "順風",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "41",
-          "name": "龙爪",
-          "type": "龙",
+          "name": "龍爪",
+          "type": "龍",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -458,7 +458,7 @@
         },
         {
           "level": "46",
-          "name": "大闹一番",
+          "name": "大鬧一番",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -467,10 +467,10 @@
         },
         {
           "level": "51",
-          "name": "蛮干",
+          "name": "蠻幹",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         }
@@ -482,17 +482,17 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０６",
-          "name": "飞翔",
-          "type": "飞行",
+          "machine": "招式學習器０６",
+          "name": "飛翔",
+          "type": "飛行",
           "category": "物理",
           "power": "90",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -500,8 +500,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９",
-          "name": "终极冲击",
+          "machine": "招式學習器０９",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -509,7 +509,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５",
+          "machine": "招式學習器１５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -518,17 +518,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２",
-          "name": "岩崩",
+          "machine": "招式學習器２２",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -536,7 +536,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -545,53 +545,53 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２６",
+          "machine": "招式學習器２６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３０",
-          "name": "钢翼",
-          "type": "钢",
+          "machine": "招式學習器３０",
+          "name": "鋼翼",
+          "type": "鋼",
           "category": "物理",
           "power": "70",
           "accuracy": "90",
           "pp": "25"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３２",
+          "machine": "招式學習器３２",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -599,7 +599,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４０",
+          "machine": "招式學習器４０",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -608,8 +608,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４８",
-          "name": "岩石封锁",
+          "machine": "招式學習器４８",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -617,17 +617,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器５２",
-          "name": "弹跳",
-          "type": "飞行",
+          "machine": "招式學習器５２",
+          "name": "彈跳",
+          "type": "飛行",
           "category": "物理",
           "power": "85",
           "accuracy": "85",
           "pp": "5"
         },
         {
-          "machine": "招式学习器５４",
-          "name": "岩石爆击",
+          "machine": "招式學習器５４",
+          "name": "岩石爆擊",
           "type": "岩石",
           "category": "物理",
           "power": "25",
@@ -635,35 +635,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器５６",
+          "machine": "招式學習器５６",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器５８",
-          "name": "恶意追击",
-          "type": "恶",
+          "machine": "招式學習器５８",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６５",
+          "machine": "招式學習器６５",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -671,16 +671,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７８",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器７８",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器８１",
+          "machine": "招式學習器８１",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -689,16 +689,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器９５",
-          "name": "空气之刃",
-          "type": "飞行",
+          "machine": "招式學習器９５",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式记录１０",
+          "machine": "招式記錄１０",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -707,71 +707,71 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录１２",
-          "name": "高速移动",
+          "machine": "招式記錄１２",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２４",
-          "name": "逆鳞",
-          "type": "龙",
+          "machine": "招式記錄２４",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３１",
-          "name": "铁尾",
-          "type": "钢",
+          "machine": "招式記錄３１",
+          "name": "鐵尾",
+          "type": "鋼",
           "category": "物理",
           "power": "100",
           "accuracy": "75",
           "pp": "15"
         },
         {
-          "machine": "招式记录３２",
+          "machine": "招式記錄３２",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３５",
-          "name": "吵闹",
+          "machine": "招式記錄３５",
+          "name": "吵鬧",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -779,8 +779,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３６",
-          "name": "热风",
+          "machine": "招式記錄３６",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -788,52 +788,52 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄３７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录４６",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式記錄４６",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式记录４７",
-          "name": "龙爪",
-          "type": "龙",
+          "machine": "招式記錄４７",
+          "name": "龍爪",
+          "type": "龍",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录６２",
-          "name": "龙之波动",
-          "type": "龙",
+          "machine": "招式記錄６２",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录６４",
-          "name": "真气弹",
-          "type": "格斗",
+          "machine": "招式記錄６４",
+          "name": "真氣彈",
+          "type": "格鬥",
           "category": "特殊",
           "power": "120",
           "accuracy": "70",
           "pp": "5"
         },
         {
-          "machine": "招式记录６７",
+          "machine": "招式記錄６７",
           "name": "大地之力",
           "type": "地面",
           "category": "特殊",
@@ -842,8 +842,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录６９",
-          "name": "意念头锤",
+          "machine": "招式記錄６９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -851,8 +851,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录７５",
-          "name": "尖石攻击",
+          "machine": "招式記錄７５",
+          "name": "尖石攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "100",
@@ -860,19 +860,19 @@
           "pp": "5"
         },
         {
-          "machine": "招式记录７６",
-          "name": "隐形岩",
+          "machine": "招式記錄７６",
+          "name": "隱形巖",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录８３",
-          "name": "交换场地",
+          "machine": "招式記錄８３",
+          "name": "交換場地",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -896,7 +896,7 @@
             },
             {
               "id": "142",
-              "name": "化石翼龙"
+              "name": "化石翼龍"
             },
             {
               "id": "169",
@@ -904,19 +904,19 @@
             },
             {
               "id": "451",
-              "name": "钳尾蝎"
+              "name": "鉗尾蠍"
             },
             {
               "id": "452",
-              "name": "龙王蝎"
+              "name": "龍王蠍"
             },
             {
               "id": "564",
-              "name": "原盖海龟"
+              "name": "原蓋海龜"
             },
             {
               "id": "565",
-              "name": "肋骨海龟"
+              "name": "肋骨海龜"
             },
             {
               "id": "714",
@@ -924,11 +924,11 @@
             },
             {
               "id": null,
-              "name": "音波龙"
+              "name": "音波龍"
             }
           ],
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -938,24 +938,24 @@
           "parents": [
             {
               "id": "083G",
-              "name": "大葱鸭"
+              "name": "大蔥鴨"
             },
             {
               "id": "627",
-              "name": "毛头小鹰"
+              "name": "毛頭小鷹"
             },
             {
               "id": "628",
-              "name": "勇士雄鹰"
+              "name": "勇士雄鷹"
             },
             {
               "id": null,
-              "name": "葱游兵"
+              "name": "蔥遊兵"
             }
           ],
-          "name": "清除浓雾",
-          "type": "飞行",
-          "category": "变化",
+          "name": "清除濃霧",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -964,35 +964,35 @@
           "parents": [
             {
               "id": "083",
-              "name": "大葱鸭"
+              "name": "大蔥鴨"
             },
             {
               "id": "083G",
-              "name": "大葱鸭"
+              "name": "大蔥鴨"
             },
             {
               "id": "341",
-              "name": "龙虾小兵"
+              "name": "龍蝦小兵"
             },
             {
               "id": "342",
-              "name": "铁螯龙虾"
+              "name": "鐵螯龍蝦"
             },
             {
               "id": "451",
-              "name": "钳尾蝎"
+              "name": "鉗尾蠍"
             },
             {
               "id": "452",
-              "name": "龙王蝎"
+              "name": "龍王蠍"
             },
             {
               "id": null,
-              "name": "葱游兵"
+              "name": "蔥遊兵"
             }
           ],
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
@@ -1006,12 +1006,12 @@
             },
             {
               "id": null,
-              "name": "音波龙"
+              "name": "音波龍"
             }
           ],
           "name": "影子分身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -1020,10 +1020,10 @@
           "parents": [
             {
               "id": null,
-              "name": "太阳珊瑚"
+              "name": "太陽珊瑚"
             }
           ],
-          "name": "双刃头锤*",
+          "name": "雙刃頭錘*",
           "type": "岩石",
           "category": "物理",
           "power": "150",
@@ -1034,16 +1034,16 @@
           "parents": [
             {
               "id": null,
-              "name": "龙虾小兵"
+              "name": "龍蝦小兵"
             },
             {
               "id": null,
-              "name": "龟脚脚"
+              "name": "龜腳腳"
             }
           ],
           "name": "掉包*",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -1053,9 +1053,9 @@
   ],
   "home_images": [
     {
-      "name": "始祖大鸟",
-      "image": "0567-始祖大鸟.png",
-      "shiny": "0567-始祖大鸟-shiny.png"
+      "name": "始祖大鳥",
+      "image": "0567-始祖大鳥.png",
+      "shiny": "0567-始祖大鳥-shiny.png"
     }
   ]
 }

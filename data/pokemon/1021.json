@@ -3,60 +3,60 @@
   "name_ja": "タケルライコ",
   "name_en": "Raging Bolt",
   "pokedex_id": "1021",
-  "description": "猛雷鼓（日文︰タケルライコ，英文︰Raging Bolt）是电属性／龙属性悖谬宝可梦。猛雷鼓在2023年8月8日正式公布。",
-  "profile": "猛雷鼓最引人注目的是它长长的脖子前端的体毛，与超自然杂志报道的曾短暂引起一阵话题的雷公的祖先长得很像。\n据说猛雷鼓会从它脖子前端悠然摆动的体毛放出雷电，把周围焚烧殆尽，但详情不明。",
-  "prototype": "猛雷鼓的形象可能是在雷公的基础上融入了蜥脚类恐龙的元素，其将头部的雷云状鬃毛盘绕起来时的形象可能参考了特斯拉线圈。\n具体来说，猛雷鼓纤细脖子向纵向伸长，前肢更加健硕而长的造型可能取自于腕龙。背部的三角刺甲可能是基于部分泰坦巨龙类化石曾发现过的大片鳞甲，或是取材自奥古斯丁龙背部附着三角尖刺的老旧复原。\n也有可能参考了雷龙。雷龙属的学名 Brontosaurus 在希腊文中的含义即为“雷声的蜥蜴”，故得名雷龙。将电属性与雷龙等蜥脚类恐龙的元素融合起来可能正是出于此原因。\n波荡水、猛雷鼓、破空焰的形象分别对应恐龙的三大主要演化支——兽脚亚目、蜥脚形亚目、鸟臀目。\n猛雷鼓的形象（尤其是毛发质感）与龙属性可能参考了长颈鹿与麒麟，以及与长颈鹿有关的其他虚构生物，例如亚瑟王传说中的吠兽，或者古埃及和两河流域艺术中的蛇豹兽，二者都是蛇首、豹身的形象。",
-  "detail": "猛雷鼓、波荡水与破空焰的部分要素与在《朱之书》上刊登的素描相似。\n《紫》的图鉴中提及猛雷鼓是雷公的祖先，这与城都地区流传的“雷公由不知名宝可梦经凤王复活而诞生”的传说相悖。",
+  "description": "猛雷鼓（日文︰タケルライコ，英文︰Raging Bolt）是電屬性／龍屬性悖謬寶可夢。猛雷鼓在2023年8月8日正式公佈。",
+  "profile": "猛雷鼓最引人注目的是它長長的脖子前端的體毛，與超自然雜誌報道的曾短暫引起一陣話題的雷公的祖先長得很像。\n據說猛雷鼓會從它脖子前端悠然擺動的體毛放出雷電，把周圍焚燒殆盡，但詳情不明。",
+  "prototype": "猛雷鼓的形象可能是在雷公的基礎上融入了蜥腳類恐龍的元素，其將頭部的雷雲狀鬃毛盤繞起來時的形象可能參考了特斯拉線圈。\n具體來說，猛雷鼓纖細脖子向縱向伸長，前肢更加健碩而長的造型可能取自於腕龍。背部的三角刺甲可能是基於部分泰坦巨龍類化石曾發現過的大片鱗甲，或是取材自奧古斯丁龍背部附著三角尖刺的老舊復原。\n也有可能參考了雷龍。雷龍屬的學名 Brontosaurus 在希臘文中的含義即為“雷聲的蜥蜴”，故得名雷龍。將電屬性與雷龍等蜥腳類恐龍的元素融合起來可能正是出於此原因。\n波盪水、猛雷鼓、破空焰的形象分別對應恐龍的三大主要演化支——獸腳亞目、蜥腳形亞目、鳥臀目。\n猛雷鼓的形象（尤其是毛髮質感）與龍屬性可能參考了長頸鹿與麒麟，以及與長頸鹿有關的其他虛構生物，例如亞瑟王傳說中的吠獸，或者古埃及和兩河流域藝術中的蛇豹獸，二者都是蛇首、豹身的形象。",
+  "detail": "猛雷鼓、波盪水與破空焰的部分要素與在《朱之書》上刊登的素描相似。\n《紫》的圖鑑中提及猛雷鼓是雷公的祖先，這與城都地區流傳的“雷公由不知名寶可夢經鳳王復活而誕生”的傳說相悖。",
   "names": [
     {
       "language": "日文",
       "name": "タケルライコ Takeruraiko",
-      "origin": "来自“猛（たけ）る雷鼓（らいこ）”（凶猛的雷鼓）。"
+      "origin": "來自“猛（たけ）る雷鼓（らいこ）”（兇猛的雷鼓）。"
     },
     {
       "language": "中文-任天堂",
       "name": "猛雷鼓",
-      "origin": "来自“猛”和“雷鼓”。"
+      "origin": "來自“猛”和“雷鼓”。"
     },
     {
       "language": "英文",
       "name": "Raging Bolt",
-      "origin": "来自 raging（狂暴的；猛烈的）和 bolt（闪电）。"
+      "origin": "來自 raging（狂暴的；猛烈的）和 bolt（閃電）。"
     },
     {
       "language": "法文",
       "name": "Ire-Foudre",
-      "origin": "来自 ire（愤怒）和 foudre（闪电）。"
+      "origin": "來自 ire（憤怒）和 foudre（閃電）。"
     },
     {
       "language": "德文",
       "name": "Furienblitz",
-      "origin": "来自 Furie（暴怒）和 Blitz（闪电）。"
+      "origin": "來自 Furie（暴怒）和 Blitz（閃電）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Furiatonante",
-      "origin": "来自 furia（狂怒）和 tonante（雷鸣般的）。"
+      "origin": "來自 furia（狂怒）和 tonante（雷鳴般的）。"
     },
     {
       "language": "西班牙文",
       "name": "Electrofuria",
-      "origin": "来自前缀 electro-（表示“电”）和 furia（狂怒）。"
+      "origin": "來自字首 electro-（表示“電”）和 furia（狂怒）。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "날뛰는우레 Nalttwineun-ure",
-      "origin": "来自“날뛰는”（粗暴的）和“우레”（雷）。"
+      "origin": "來自“날뛰는”（粗暴的）和“우레”（雷）。"
     }
   ],
   "forms": [
     {
       "name": "猛雷鼓",
       "types": [
-        "电",
-        "龙"
+        "電",
+        "龍"
       ],
-      "category": "悖谬宝可梦",
+      "category": "悖謬寶可夢",
       "abilities": [
         {
           "name": "古代活性",
@@ -65,7 +65,7 @@
       ],
       "height": "5.2m",
       "weight": "480.0kg",
-      "color": "黄色",
+      "color": "黃色",
       "catch_rate": "10（1.3%）",
       "egg_groups": [
         "未知蛋群"
@@ -103,7 +103,7 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "未知 孵化周期（未知步）",
+      "egg_cycles": "未知 孵化週期（未知步）",
       "shape": "Body08.png",
       "footprint": "FUnknown.png",
       "image": "1021-猛雷鼓.png"
@@ -126,8 +126,8 @@
     {
       "form": "",
       "types": [
-        "电",
-        "龙"
+        "電",
+        "龍"
       ],
       "data": [
         {
@@ -135,11 +135,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -155,15 +155,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -179,7 +179,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.25"
         },
         {
@@ -191,11 +191,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "2"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -211,13 +211,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "据说会从体毛释放出雷电将周围烧毁。具体详情不明。"
+          "group": "寶可夢 朱／紫",
+          "text": "據說會從體毛釋放出雷電將周圍燒燬。具體詳情不明。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "与超自然杂志报道的曾短暂引起一阵话题的雷公的祖先长得很像。"
+          "group": "寶可夢 朱／紫",
+          "text": "與超自然雜誌報道的曾短暫引起一陣話題的雷公的祖先長得很像。"
         }
       ]
     }
@@ -226,7 +226,7 @@
     [
       {
         "name": "猛雷鼓",
-        "stage": "不进化",
+        "stage": "不進化",
         "text": null,
         "image": "1021Raging_Bolt_Dream.png",
         "back_text": null,
@@ -243,8 +243,8 @@
       "data": [
         {
           "level": "—",
-          "name": "龙卷风",
-          "type": "龙",
+          "name": "龍捲風",
+          "type": "龍",
           "category": "特殊",
           "power": "40",
           "accuracy": "100",
@@ -254,15 +254,15 @@
           "level": "—",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "—",
-          "name": "电击波",
-          "type": "电",
+          "name": "電擊波",
+          "type": "電",
           "category": "特殊",
           "power": "60",
           "accuracy": "—",
@@ -279,17 +279,17 @@
         },
         {
           "level": "7",
-          "name": "充电",
-          "type": "电",
-          "category": "变化",
+          "name": "充電",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "14",
-          "name": "龙息",
-          "type": "龙",
+          "name": "龍息",
+          "type": "龍",
           "category": "特殊",
           "power": "60",
           "accuracy": "100",
@@ -297,17 +297,17 @@
         },
         {
           "level": "21",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "28",
-          "name": "放电",
-          "type": "电",
+          "name": "放電",
+          "type": "電",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -315,8 +315,8 @@
         },
         {
           "level": "35",
-          "name": "龙尾",
-          "type": "龙",
+          "name": "龍尾",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "90",
@@ -326,7 +326,7 @@
           "level": "42",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -334,7 +334,7 @@
         {
           "level": "49",
           "name": "迅雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "70",
           "accuracy": "100",
@@ -342,8 +342,8 @@
         },
         {
           "level": "56",
-          "name": "龙锤",
-          "type": "龙",
+          "name": "龍錘",
+          "type": "龍",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
@@ -351,8 +351,8 @@
         },
         {
           "level": "63",
-          "name": "电力上升",
-          "type": "电",
+          "name": "電力上升",
+          "type": "電",
           "category": "特殊",
           "power": "70",
           "accuracy": "100",
@@ -360,8 +360,8 @@
         },
         {
           "level": "70",
-          "name": "龙之波动",
-          "type": "龙",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
@@ -369,8 +369,8 @@
         },
         {
           "level": "77",
-          "name": "电磁炮",
-          "type": "电",
+          "name": "電磁炮",
+          "type": "電",
           "category": "特殊",
           "power": "120",
           "accuracy": "50",
@@ -378,8 +378,8 @@
         },
         {
           "level": "84",
-          "name": "扑击",
-          "type": "格斗",
+          "name": "撲擊",
+          "type": "格鬥",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -388,14 +388,14 @@
         {
           "level": "91",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "level": "回忆",
+          "level": "回憶",
           "name": "原始之力",
           "type": "岩石",
           "category": "特殊",
@@ -411,7 +411,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -420,44 +420,44 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００９",
-          "name": "雷电牙",
-          "type": "电",
+          "machine": "招式學習器００９",
+          "name": "雷電牙",
+          "type": "電",
           "category": "物理",
           "power": "65",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２３",
-          "name": "充电光束",
-          "type": "电",
+          "machine": "招式學習器０２３",
+          "name": "充電光束",
+          "type": "電",
           "category": "特殊",
           "power": "50",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -465,53 +465,53 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３０",
-          "name": "大声咆哮",
-          "type": "恶",
+          "machine": "招式學習器０３０",
+          "name": "大聲咆哮",
+          "type": "惡",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４４",
-          "name": "龙尾",
-          "type": "龙",
+          "machine": "招式學習器０４４",
+          "name": "龍尾",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４８",
-          "name": "伏特替换",
-          "type": "电",
+          "machine": "招式學習器０４８",
+          "name": "伏特替換",
+          "type": "電",
           "category": "特殊",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -519,35 +519,35 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７２",
-          "name": "电球",
-          "type": "电",
+          "machine": "招式學習器０７２",
+          "name": "電球",
+          "type": "電",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８２",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０８２",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８４",
-          "name": "跺脚",
+          "machine": "招式學習器０８４",
+          "name": "跺腳",
           "type": "地面",
           "category": "物理",
           "power": "75",
@@ -555,71 +555,71 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８９",
-          "name": "扑击",
-          "type": "格斗",
+          "machine": "招式學習器０８９",
+          "name": "撲擊",
+          "type": "格鬥",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９６",
-          "name": "怪异电波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０９６",
+          "name": "怪異電波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０８",
+          "machine": "招式學習器１０８",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１５",
-          "name": "龙之波动",
-          "type": "龙",
+          "machine": "招式學習器１１５",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１７",
-          "name": "巨声",
+          "machine": "招式學習器１１７",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -627,52 +627,52 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２１",
-          "name": "重磅冲撞",
-          "type": "钢",
+          "machine": "招式學習器１２１",
+          "name": "重磅衝撞",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２６",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式學習器１２６",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２９",
+          "machine": "招式學習器１２９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３６",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１３６",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４７",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式學習器１４７",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１４９",
+          "machine": "招式學習器１４９",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -681,8 +681,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -690,17 +690,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５６",
-          "name": "逆鳞",
-          "type": "龙",
+          "machine": "招式學習器１５６",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -708,16 +708,16 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６６",
+          "machine": "招式學習器１６６",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６８",
+          "machine": "招式學習器１６８",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -726,17 +726,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６９",
+          "machine": "招式學習器１６９",
           "name": "流星群",
-          "type": "龙",
+          "type": "龍",
           "category": "特殊",
           "power": "130",
           "accuracy": "90",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -744,26 +744,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７２",
+          "machine": "招式學習器１７２",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１７３",
-          "name": "充电",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１７３",
+          "name": "充電",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１９３",
-          "name": "气象球",
+          "machine": "招式學習器１９３",
+          "name": "氣象球",
           "type": "一般",
           "category": "特殊",
           "power": "50",
@@ -771,8 +771,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -780,37 +780,37 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１０",
-          "name": "闪电强袭",
-          "type": "电",
+          "machine": "招式學習器２１０",
+          "name": "閃電強襲",
+          "type": "電",
           "category": "物理",
           "power": "100",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１１",
-          "name": "电网",
-          "type": "电",
+          "machine": "招式學習器２１１",
+          "name": "電網",
+          "type": "電",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２２",
-          "name": "广域破坏",
-          "type": "龙",
+          "machine": "招式學習器２２２",
+          "name": "廣域破壞",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２６",
-          "name": "龙声鼓舞",
-          "type": "龙",
-          "category": "变化",
+          "machine": "招式學習器２２６",
+          "name": "龍聲鼓舞",
+          "type": "龍",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"

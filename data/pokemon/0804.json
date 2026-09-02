@@ -1,40 +1,40 @@
 {
-  "name_zh": "四颚针龙",
+  "name_zh": "四顎針龍",
   "name_ja": "アーゴヨン",
   "name_en": "Naganadel",
   "pokedex_id": "0804",
-  "description": "四颚针龙（日文︰アーゴヨン，英文︰Naganadel）是毒属性／龙属性究极异兽，它的设计者是James Turner。",
-  "profile": "四颚针龙由究极异兽“ＵＢ：沾黏”毒贝比进化而成，代号为“ＵＢ：刺针”。四颚针龙的下半身和肩膀都长有针，长在它腹部的针直接与大脑相连。它其外形看起来有点类似于现实的蜂类，其长有翅膀，有着巨大的腹部。\n四颚针龙是被称为究极异兽的生物中的一种，存在于被奈克洛兹玛夺去了光的世界。它把毒贝比当作自己的孩子来养育，会为它寻觅食物，筑起巢穴。它看似巨大腹部的部位装有它的大脑和数百升的毒液，毒液的黏性很强，有会发光的特性，是种特殊的物质。它会从从下半身宛如炮台的最巨大的毒针喷射出黏性很大又发光的毒液，射程能达到1万米之远。因为腹部的针直接与大脑相连，所以它非常讨厌自己的针被别人摸到，有着会猛烈袭击触碰者的习性。",
-  "prototype": "四颚针龙的造型源自黄蜂，也有西方龙、蝙蝠或恶魔的元素。\n异色的四颚针龙及其进化前身配色与黄蜂的成虫和幼虫相符。\n动画中四颚针龙的栖息地也有类似蜂房的岩壁，以及类似蜂群的种群结构。\n四颚针龙的造型与哥斯拉系列电影中的怪兽角色美加基拉斯（超翔龙）有很多相似之处。",
+  "description": "四顎針龍（日文︰アーゴヨン，英文︰Naganadel）是毒屬性／龍屬性究極異獸，它的設計者是James Turner。",
+  "profile": "四顎針龍由究極異獸“ＵＢ：沾黏”毒貝比進化而成，代號為“ＵＢ：刺針”。四顎針龍的下半身和肩膀都長有針，長在它腹部的針直接與大腦相連。它其外形看起來有點類似於現實的蜂類，其長有翅膀，有著巨大的腹部。\n四顎針龍是被稱為究極異獸的生物中的一種，存在於被奈克洛茲瑪奪去了光的世界。它把毒貝比當作自己的孩子來養育，會為它尋覓食物，築起巢穴。它看似巨大腹部的部位裝有它的大腦和數百升的毒液，毒液的黏性很強，有會發光的特性，是種特殊的物質。它會從從下半身宛如炮臺的最巨大的毒針噴射出黏性很大又發光的毒液，射程能達到1萬米之遠。因為腹部的針直接與大腦相連，所以它非常討厭自己的針被別人摸到，有著會猛烈襲擊觸碰者的習性。",
+  "prototype": "四顎針龍的造型源自黃蜂，也有西方龍、蝙蝠或惡魔的元素。\n異色的四顎針龍及其進化前身配色與黃蜂的成蟲和幼蟲相符。\n動畫中四顎針龍的棲息地也有類似蜂房的巖壁，以及類似蜂群的種群結構。\n四顎針龍的造型與哥斯拉系列電影中的怪獸角色美加基拉斯（超翔龍）有很多相似之處。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "アーゴヨン Agoyon",
-      "origin": "来自“顎（あご）”（颚）和“四（よん）”（四）[2]。也可能取自意大利文 ago（针）和韩文“용〈龍〉”（龙）。"
+      "origin": "來自“顎（あご）”（顎）和“四（よん）”（四）[2]。也可能取自義大利文 ago（針）和韓文“용〈龍〉”（龍）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "四顎針龍四颚针龙",
-      "origin": "来自“四”、“颚”、“针”和“龙”。"
+      "name": "四顎針龍四顎針龍",
+      "origin": "來自“四”、“顎”、“針”和“龍”。"
     },
     {
       "language": "英文",
       "name": "Naganadel",
-      "origin": "来自 Naga（那伽：印度神话中的蛇神）和德文 Nadel（针）[3]。"
+      "origin": "來自 Naga（那伽：印度神話中的蛇神）和德文 Nadel（針）[3]。"
     },
     {
       "language": "法文",
       "name": "Mandrillon",
-      "origin": "来自 mandibule（下颚）、mandrin（卡盘）、英文 drill（钻）、dragon（龙）和 aiguillon（刺针）。"
+      "origin": "來自 mandibule（下顎）、mandrin（卡盤）、英文 drill（鑽）、dragon（龍）和 aiguillon（刺針）。"
     },
     {
       "language": "德文",
       "name": "Agoyon",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Naganadel",
       "origin": "同英文名。"
     },
@@ -44,22 +44,22 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "아고용 Agoyong",
-      "origin": "来自日文名的音译和“용〈龍〉”（龙）。"
+      "origin": "來自日文名的音譯和“용〈龍〉”（龍）。"
     }
   ],
   "forms": [
     {
-      "name": "四颚针龙",
+      "name": "四顎針龍",
       "types": [
         "毒",
-        "龙"
+        "龍"
       ],
-      "category": "毒针宝可梦",
+      "category": "毒針寶可夢",
       "abilities": [
         {
-          "name": "异兽提升",
+          "name": "異獸提升",
           "is_hidden": false
         }
       ],
@@ -68,7 +68,7 @@
       "color": "紫色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -103,10 +103,10 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "120 孵化周期*（30840步）",
+      "egg_cycles": "120 孵化週期*（30840步）",
       "shape": "Body09.png",
       "footprint": "FUnknown.png",
-      "image": "0804-四颚针龙.png"
+      "image": "0804-四顎針龍.png"
     }
   ],
   "stats": [
@@ -127,7 +127,7 @@
       "form": "",
       "types": [
         "毒",
-        "龙"
+        "龍"
       ],
       "data": [
         {
@@ -135,11 +135,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -155,15 +155,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -179,7 +179,7 @@
           "damage": "0.25"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -191,11 +191,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "2"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -209,8 +209,8 @@
   "evolution_chains": [
     [
       {
-        "name": "毒贝比",
-        "stage": "未进化",
+        "name": "毒貝比",
+        "stage": "未進化",
         "text": null,
         "image": "803Poipole_Dream.png",
         "back_text": null,
@@ -218,12 +218,12 @@
         "form_name": null
       },
       {
-        "name": "四颚针龙",
-        "stage": "1阶进化",
-        "text": "学会龙之波动时提升等级",
+        "name": "四顎針龍",
+        "stage": "1階進化",
+        "text": "學會龍之波動時提升等級",
         "image": "804Naganadel_Dream.png",
         "back_text": null,
-        "from": "毒贝比",
+        "from": "毒貝比",
         "form_name": null
       }
     ]
@@ -236,8 +236,8 @@
       "data": [
         {
           "level": "—",
-          "name": "空气利刃",
-          "type": "飞行",
+          "name": "空氣利刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "60",
           "accuracy": "95",
@@ -245,8 +245,8 @@
         },
         {
           "level": "—",
-          "name": "空气之刃",
-          "type": "飞行",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
@@ -254,8 +254,8 @@
         },
         {
           "level": "—",
-          "name": "龙之波动",
-          "type": "龙",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
@@ -264,7 +264,7 @@
         {
           "level": "—",
           "name": "啄",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "35",
           "accuracy": "100",
@@ -272,18 +272,18 @@
         },
         {
           "level": "—",
-          "name": "叫声",
+          "name": "叫聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "40"
         },
         {
           "level": "—",
-          "name": "帮助",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -298,9 +298,9 @@
           "pp": "30"
         },
         {
-          "level": "进化",
-          "name": "空气利刃",
-          "type": "飞行",
+          "level": "進化",
+          "name": "空氣利刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "60",
           "accuracy": "95",
@@ -308,7 +308,7 @@
         },
         {
           "level": "7",
-          "name": "乱击",
+          "name": "亂擊",
           "type": "一般",
           "category": "物理",
           "power": "15",
@@ -317,8 +317,8 @@
         },
         {
           "level": "14",
-          "name": "致命针刺",
-          "type": "虫",
+          "name": "致命針刺",
+          "type": "蟲",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
@@ -326,16 +326,16 @@
         },
         {
           "level": "21",
-          "name": "撒娇",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "28",
-          "name": "毒液冲击",
+          "name": "毒液衝擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -346,23 +346,23 @@
           "level": "35",
           "name": "毒液陷阱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "42",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "49",
-          "name": "毒击",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -373,24 +373,24 @@
           "level": "56",
           "name": "胃液",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "63",
-          "name": "剧毒",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
         },
         {
           "level": "70",
-          "name": "龙之波动",
-          "type": "龙",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
@@ -404,26 +404,26 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０６",
-          "name": "飞翔",
-          "type": "飞行",
+          "machine": "招式學習器０６",
+          "name": "飛翔",
+          "type": "飛行",
           "category": "物理",
           "power": "90",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７",
-          "name": "飞弹针",
-          "type": "虫",
+          "machine": "招式學習器０７",
+          "name": "飛彈針",
+          "type": "蟲",
           "category": "物理",
           "power": "25",
           "accuracy": "95",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -431,8 +431,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９",
-          "name": "终极冲击",
+          "machine": "招式學習器０９",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -440,25 +440,25 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２３",
+          "machine": "招式學習器２３",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -467,26 +467,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２９",
-          "name": "撒娇",
+          "machine": "招式學習器２９",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -494,7 +494,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４０",
+          "machine": "招式學習器４０",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -503,43 +503,43 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４１",
-          "name": "帮助",
+          "machine": "招式學習器４１",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器５６",
+          "machine": "招式學習器５６",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器５８",
-          "name": "恶意追击",
-          "type": "恶",
+          "machine": "招式學習器５８",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６５",
+          "machine": "招式學習器６５",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器７３",
+          "machine": "招式學習器７３",
           "name": "十字毒刃",
           "type": "毒",
           "category": "物理",
@@ -548,8 +548,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器７４",
-          "name": "毒液冲击",
+          "machine": "招式學習器７４",
+          "name": "毒液衝擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -557,8 +557,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -566,62 +566,62 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７７",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "machine": "招式學習器７７",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７８",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器７８",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器８５",
-          "name": "大声咆哮",
-          "type": "恶",
+          "machine": "招式學習器８５",
+          "name": "大聲咆哮",
+          "type": "惡",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器９５",
-          "name": "空气之刃",
-          "type": "飞行",
+          "machine": "招式學習器９５",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器９６",
-          "name": "修长之角",
-          "type": "钢",
+          "machine": "招式學習器９６",
+          "name": "修長之角",
+          "type": "鋼",
           "category": "物理",
           "power": "70",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器９９",
-          "name": "广域破坏",
-          "type": "龙",
+          "machine": "招式學習器９９",
+          "name": "廣域破壞",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录０２",
-          "name": "喷射火焰",
+          "machine": "招式記錄０２",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -629,16 +629,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录０８",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式記錄０８",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录１５",
+          "machine": "招式記錄１５",
           "name": "大字爆炎",
           "type": "火",
           "category": "特殊",
@@ -647,26 +647,26 @@
           "pp": "5"
         },
         {
-          "machine": "招式记录１８",
+          "machine": "招式記錄１８",
           "name": "汲取",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２２",
-          "name": "污泥炸弹",
+          "machine": "招式記錄２２",
+          "name": "汙泥炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "90",
@@ -674,53 +674,53 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２３",
+          "machine": "招式記錄２３",
           "name": "撒菱",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录２４",
-          "name": "逆鳞",
-          "type": "龙",
+          "machine": "招式記錄２４",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３１",
-          "name": "铁尾",
-          "type": "钢",
+          "machine": "招式記錄３１",
+          "name": "鐵尾",
+          "type": "鋼",
           "category": "物理",
           "power": "100",
           "accuracy": "75",
           "pp": "15"
         },
         {
-          "machine": "招式记录３５",
-          "name": "吵闹",
+          "machine": "招式記錄３５",
+          "name": "吵鬧",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -728,8 +728,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３６",
-          "name": "热风",
+          "machine": "招式記錄３６",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -737,35 +737,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录４７",
-          "name": "龙爪",
-          "type": "龙",
+          "machine": "招式記錄４７",
+          "name": "龍爪",
+          "type": "龍",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录５１",
-          "name": "龙之舞",
-          "type": "龙",
-          "category": "变化",
+          "machine": "招式記錄５１",
+          "name": "龍之舞",
+          "type": "龍",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录５４",
+          "machine": "招式記錄５４",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录５７",
-          "name": "毒击",
+          "machine": "招式記錄５７",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -773,44 +773,44 @@
           "pp": "20"
         },
         {
-          "machine": "招式记录５８",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式記錄５８",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录６０",
+          "machine": "招式記錄６０",
           "name": "十字剪",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录６２",
-          "name": "龙之波动",
-          "type": "龙",
+          "machine": "招式記錄６２",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录６８",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄６８",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录７３",
-          "name": "垃圾射击",
+          "machine": "招式記錄７３",
+          "name": "垃圾射擊",
           "type": "毒",
           "category": "物理",
           "power": "120",
@@ -818,8 +818,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式记录７８",
-          "name": "污泥波",
+          "machine": "招式記錄７８",
+          "name": "汙泥波",
           "type": "毒",
           "category": "特殊",
           "power": "95",
@@ -827,27 +827,27 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录８３",
-          "name": "交换场地",
+          "machine": "招式記錄８３",
+          "name": "交換場地",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式记录９１",
+          "machine": "招式記錄９１",
           "name": "毒液陷阱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录９５",
-          "name": "深渊突刺",
-          "type": "恶",
+          "machine": "招式記錄９５",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -859,9 +859,9 @@
   "egg_moves": [],
   "home_images": [
     {
-      "name": "四颚针龙",
-      "image": "0804-四颚针龙.png",
-      "shiny": "0804-四颚针龙-shiny.png"
+      "name": "四顎針龍",
+      "image": "0804-四顎針龍.png",
+      "shiny": "0804-四顎針龍-shiny.png"
     }
   ]
 }

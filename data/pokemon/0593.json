@@ -3,53 +3,53 @@
   "name_ja": "ブルンゲル",
   "name_en": "Jellicent",
   "pokedex_id": "0593",
-  "description": "胖嘟嘟（日文︰ブルンゲル，英文︰Jellicent）是水属性／幽灵属性宝可梦，它的设计者是井部真那。",
-  "profile": "胖嘟嘟是拥有性别差异的宝可梦。雄性胖嘟嘟的身体是蓝色，面有胡子。雄性有小睫毛和小眼睛，没有嘴唇。雄性的内触须有菱形，外触须的饰毛更多。雌性的身体是粉色，面有蓬松的领。雌性的内触须有条纹。雌性有两个睫毛和更大的眼睛，嘴唇是心形。\n胖嘟嘟身体的绝大部分都由与海水相同的成分组成，据说海底有胖嘟嘟弄沉的船做成的城堡。它能有技巧地吐出吸入体内的海水来前行，会缠着豪华客轮或是油轮周围，目的是将猎物拖进海里。每到满月时胖嘟嘟会成群结队地来到海面上，这么做是为了等待猎物上门。它非常喜欢生命能量，误入胖嘟嘟住所的船会沉没，船员们的生命也会被吸走。它是令渔夫恐惧的存在。传说它会将渔夫拖入海中，夺走对方的性命。",
-  "prototype": "胖嘟嘟的原型为水母。其巨大的体型和圆润丰满的头部类似越前水母，但其触手更像冥河水母，不同于一般水母，冥河水母的触手如同飘逸的衣摆。\n胖嘟嘟常为保护自己的住处而吸走人类生命的设定可能来源于立方水母等高毒性水母。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步胖嘟嘟（Pokémon GO）。\n←\nNo.0592：轻飘飘\n宝可梦\nNo.0594：保姆曼波\n→",
+  "description": "胖嘟嘟（日文︰ブルンゲル，英文︰Jellicent）是水屬性／幽靈屬性寶可夢，它的設計者是井部真那。",
+  "profile": "胖嘟嘟是擁有性別差異的寶可夢。雄性胖嘟嘟的身體是藍色，面有鬍子。雄性有小睫毛和小眼睛，沒有嘴唇。雄性的內觸鬚有菱形，外觸鬚的飾毛更多。雌性的身體是粉色，面有蓬鬆的領。雌性的內觸鬚有條紋。雌性有兩個睫毛和更大的眼睛，嘴唇是心形。\n胖嘟嘟身體的絕大部分都由與海水相同的成分組成，據說海底有胖嘟嘟弄沉的船做成的城堡。它能有技巧地吐出吸入體內的海水來前行，會纏著豪華客輪或是油輪周圍，目的是將獵物拖進海里。每到滿月時胖嘟嘟會成群結隊地來到海面上，這麼做是為了等待獵物上門。它非常喜歡生命能量，誤入胖嘟嘟住所的船會沉沒，船員們的生命也會被吸走。它是令漁夫恐懼的存在。傳說它會將漁夫拖入海中，奪走對方的性命。",
+  "prototype": "胖嘟嘟的原型為水母。其巨大的體型和圓潤豐滿的頭部類似越前水母，但其觸手更像冥河水母，不同於一般水母，冥河水母的觸手如同飄逸的衣襬。\n胖嘟嘟常為保護自己的住處而吸走人類生命的設定可能來源於立方水母等高毒性水母。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步胖嘟嘟（Pokémon GO）。\n←\nNo.0592：輕飄飄\n寶可夢\nNo.0594：保姆曼波\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ブルンゲル Burungel",
-      "origin": "来自“ブルン”（有弹力的物体颤动的拟声语）和“ゲル状（じょう）”（凝胶状）。"
+      "origin": "來自“ブルン”（有彈力的物體顫動的擬聲語）和“ゲル狀（じょう）”（凝膠狀）。"
     },
     {
       "language": "中文-任天堂",
       "name": "胖嘟嘟",
-      "origin": "来自“胖嘟嘟”（形容身材肥胖的样子）。"
+      "origin": "來自“胖嘟嘟”（形容身材肥胖的樣子）。"
     },
     {
-      "language": "中文-大陆",
+      "language": "中文-大陸",
       "name": "胖嘟嘟",
-      "origin": "来自“胖嘟嘟”。"
+      "origin": "來自“胖嘟嘟”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "胖嘟嘟",
-      "origin": "来自“胖嘟嘟”。"
+      "origin": "來自“胖嘟嘟”。"
     },
     {
       "language": "中文-香港",
       "name": "胖嘟嘟",
-      "origin": "来自“胖嘟嘟”。"
+      "origin": "來自“胖嘟嘟”。"
     },
     {
       "language": "英文",
       "name": "Jellicent",
-      "origin": "来自 jellyfish（水母）和 magnificent（华丽的）或 translucent（半透明的）。"
+      "origin": "來自 jellyfish（水母）和 magnificent（華麗的）或 translucent（半透明的）。"
     },
     {
       "language": "法文",
       "name": "Moyade",
-      "origin": "来自 méduse（水母）和 noyade（遇溺）或 naïade（那伊阿得斯：希腊神话中的淡水仙女）。"
+      "origin": "來自 méduse（水母）和 noyade（遇溺）或 naïade（那伊阿得斯：希臘神話中的淡水仙女）。"
     },
     {
       "language": "德文",
       "name": "Apoquallyp",
-      "origin": "来自 Apokalypse（天启；世界末日）、Qualle（水母）和 Polyp（珊瑚虫）。"
+      "origin": "來自 Apokalypse（天啟；世界末日）、Qualle（水母）和 Polyp（珊瑚蟲）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Jellicent",
       "origin": "同英文名。"
     },
@@ -59,30 +59,30 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "탱탱겔 Taengtaenggel",
-      "origin": "来自“탱탱”（紧綳；胀鼓鼓）和德文 Gel（凝胶）。"
+      "origin": "來自“탱탱”（緊綳；脹鼓鼓）和德文 Gel（凝膠）。"
     }
   ],
   "forms": [
     {
-      "name": "雄性的样子",
+      "name": "雄性的樣子",
       "types": [
         "水",
-        "幽灵"
+        "幽靈"
       ],
-      "category": "漂浮宝可梦",
+      "category": "漂浮寶可夢",
       "abilities": [
         {
-          "name": "储水",
+          "name": "儲水",
           "is_hidden": false
         },
         {
-          "name": "咒术之躯",
+          "name": "咒術之軀",
           "is_hidden": false
         },
         {
-          "name": "湿气",
+          "name": "溼氣",
           "is_hidden": true
         }
       ],
@@ -93,7 +93,7 @@
       "egg_groups": [
         "不定形群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -126,29 +126,29 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body10.png",
       "footprint": "Fnone.png",
-      "image": "0593-胖嘟嘟-雄性的样子.png"
+      "image": "0593-胖嘟嘟-雄性的樣子.png"
     },
     {
-      "name": "雌性的样子",
+      "name": "雌性的樣子",
       "types": [
         "水",
-        "幽灵"
+        "幽靈"
       ],
-      "category": "漂浮宝可梦",
+      "category": "漂浮寶可夢",
       "abilities": [
         {
-          "name": "储水",
+          "name": "儲水",
           "is_hidden": false
         },
         {
-          "name": "咒术之躯",
+          "name": "咒術之軀",
           "is_hidden": false
         },
         {
-          "name": "湿气",
+          "name": "溼氣",
           "is_hidden": true
         }
       ],
@@ -159,7 +159,7 @@
       "egg_groups": [
         "不定形群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -192,10 +192,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body10.png",
       "footprint": "Fnone.png",
-      "image": "0593-胖嘟嘟-雌性的样子.png"
+      "image": "0593-胖嘟嘟-雌性的樣子.png"
     }
   ],
   "stats": [
@@ -213,10 +213,10 @@
   ],
   "type_effectiveness": [
     {
-      "form": "(储水)",
+      "form": "(儲水)",
       "types": [
         "水",
-        "幽灵"
+        "幽靈"
       ],
       "data": [
         {
@@ -224,11 +224,11 @@
           "damage": "0"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -244,15 +244,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -268,7 +268,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -280,11 +280,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -297,7 +297,7 @@
       "form": "",
       "types": [
         "水",
-        "幽灵"
+        "幽靈"
       ],
       "data": [
         {
@@ -305,11 +305,11 @@
           "damage": "0"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -325,15 +325,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -349,7 +349,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -361,11 +361,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -381,13 +381,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "误入胖嘟嘟住所的船会沉没，船员们的生命也会被吸走。"
+          "group": "寶可夢 黑／白",
+          "text": "誤入胖嘟嘟住所的船會沉沒，船員們的生命也會被吸走。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "通过吸入体内的海水并用力喷出来前行。非常喜欢生命能量。"
+          "group": "寶可夢 黑／白",
+          "text": "透過吸入體內的海水並用力噴出來前行。非常喜歡生命能量。"
         }
       ]
     },
@@ -396,23 +396,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "身体几乎都是海水。据说，海底有胖嘟嘟弄沉的船做成的城堡。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "身體幾乎都是海水。據說，海底有胖嘟嘟弄沉的船做成的城堡。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "误入胖嘟嘟住所的船会沉没，船员们的生命也会被吸走。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "誤入胖嘟嘟住所的船會沉沒，船員們的生命也會被吸走。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "身体几乎都是海水。据说，海底有胖嘟嘟弄沉的船做成的城堡。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "身體幾乎都是海水。據說，海底有胖嘟嘟弄沉的船做成的城堡。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "误入胖嘟嘟住所的船会沉没，船员们的生命也会被吸走。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "誤入胖嘟嘟住所的船會沉沒，船員們的生命也會被吸走。"
         }
       ]
     },
@@ -420,14 +420,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "身体的绝大部分都由与海水相同的成分组成。会把沉船当成自己的城堡。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "身體的絕大部分都由與海水相同的成分組成。會把沉船當成自己的城堡。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "每到满月时，胖嘟嘟会成群结队地来到海面上。这么做是为了等待猎物上门。"
+          "group": "寶可夢 劍／盾",
+          "text": "每到滿月時，胖嘟嘟會成群結隊地來到海面上。這麼做是為了等待獵物上門。"
         }
       ]
     }
@@ -435,8 +435,8 @@
   "evolution_chains": [
     [
       {
-        "name": "轻飘飘",
-        "stage": "未进化",
+        "name": "輕飄飄",
+        "stage": "未進化",
         "text": null,
         "image": "592Frillish_Dream.png",
         "back_text": null,
@@ -445,11 +445,11 @@
       },
       {
         "name": "胖嘟嘟",
-        "stage": "1阶进化",
-        "text": "等级40以上",
+        "stage": "1階進化",
+        "text": "等級40以上",
         "image": "593Jellicent_Dream.png",
         "back_text": null,
-        "from": "轻飘飘",
+        "from": "輕飄飄",
         "form_name": null
       }
     ]
@@ -464,14 +464,14 @@
           "level": "—",
           "name": "溶化",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "—",
-          "name": "水枪",
+          "name": "水槍",
           "type": "水",
           "category": "特殊",
           "power": "40",
@@ -489,7 +489,7 @@
         },
         {
           "level": "—",
-          "name": "毒针",
+          "name": "毒針",
           "type": "毒",
           "category": "物理",
           "power": "15",
@@ -499,15 +499,15 @@
         {
           "level": "—",
           "name": "黑夜魔影",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "12",
-          "name": "水之波动",
+          "name": "水之波動",
           "type": "水",
           "category": "特殊",
           "power": "60",
@@ -518,15 +518,15 @@
           "level": "16",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "20",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
@@ -534,7 +534,7 @@
         },
         {
           "level": "24",
-          "name": "盐水",
+          "name": "鹽水",
           "type": "水",
           "category": "特殊",
           "power": "65",
@@ -545,7 +545,7 @@
           "level": "28",
           "name": "自我再生",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -553,7 +553,7 @@
         {
           "level": "32",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -580,15 +580,15 @@
         {
           "level": "48",
           "name": "同命",
-          "type": "幽灵",
-          "category": "变化",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "54",
-          "name": "喷水",
+          "name": "噴水",
           "type": "水",
           "category": "特殊",
           "power": "150",
@@ -603,8 +603,8 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -612,8 +612,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９",
-          "name": "终极冲击",
+          "machine": "招式學習器０９",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -621,25 +621,25 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１９",
-          "name": "神秘守护",
+          "machine": "招式學習器１９",
+          "name": "神秘守護",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -648,17 +648,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２７",
-          "name": "冰冻之风",
+          "machine": "招式學習器２７",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -666,8 +666,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２８",
-          "name": "终极吸取",
+          "machine": "招式學習器２８",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -675,34 +675,34 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３５",
+          "machine": "招式學習器３５",
           "name": "冰雹",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３６",
+          "machine": "招式學習器３６",
           "name": "潮旋",
           "type": "水",
           "category": "特殊",
@@ -711,17 +711,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器３８",
+          "machine": "招式學習器３８",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -729,17 +729,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４４",
+          "machine": "招式學習器４４",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器４５",
-          "name": "潜水",
+          "machine": "招式學習器４５",
+          "name": "潛水",
           "type": "水",
           "category": "物理",
           "power": "80",
@@ -747,8 +747,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器５５",
-          "name": "盐水",
+          "machine": "招式學習器５５",
+          "name": "鹽水",
           "type": "水",
           "category": "特殊",
           "power": "65",
@@ -756,17 +756,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器７０",
-          "name": "戏法空间",
+          "machine": "招式學習器７０",
+          "name": "戲法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -774,16 +774,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７７",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "machine": "招式學習器７７",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录０３",
+          "machine": "招式記錄０３",
           "name": "水炮",
           "type": "水",
           "category": "特殊",
@@ -792,8 +792,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式记录０４",
-          "name": "冲浪",
+          "machine": "招式記錄０４",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -801,8 +801,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录０５",
-          "name": "冰冻光束",
+          "machine": "招式記錄０５",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -810,8 +810,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录０６",
-          "name": "暴风雪",
+          "machine": "招式記錄０６",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -819,8 +819,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式记录１１",
-          "name": "精神强念",
+          "machine": "招式記錄１１",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -828,7 +828,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录１６",
+          "machine": "招式記錄１６",
           "name": "攀瀑",
           "type": "水",
           "category": "物理",
@@ -837,17 +837,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２２",
-          "name": "污泥炸弹",
+          "machine": "招式記錄２２",
+          "name": "汙泥炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "90",
@@ -855,53 +855,53 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３３",
+          "machine": "招式記錄３３",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄３７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录３８",
-          "name": "戏法",
+          "machine": "招式記錄３８",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录４５",
-          "name": "浊流",
+          "machine": "招式記錄４５",
+          "name": "濁流",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -909,16 +909,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录５８",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式記錄５８",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录６５",
+          "machine": "招式記錄６５",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -927,8 +927,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录７８",
-          "name": "污泥波",
+          "machine": "招式記錄７８",
+          "name": "汙泥波",
           "type": "毒",
           "category": "特殊",
           "power": "95",
@@ -936,8 +936,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录８４",
-          "name": "热水",
+          "machine": "招式記錄８４",
+          "name": "熱水",
           "type": "水",
           "category": "特殊",
           "power": "80",
@@ -945,8 +945,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录９２",
-          "name": "魔法闪耀",
+          "machine": "招式記錄９２",
+          "name": "魔法閃耀",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -964,7 +964,7 @@
           "parents": [],
           "name": "溶化",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -985,35 +985,35 @@
             },
             {
               "id": "355",
-              "name": "夜巡灵"
+              "name": "夜巡靈"
             },
             {
               "id": "356",
-              "name": "彷徨夜灵"
+              "name": "彷徨夜靈"
             },
             {
               "id": "442",
-              "name": "花岩怪"
+              "name": "花巖怪"
             },
             {
               "id": "477",
-              "name": "黑夜魔灵"
+              "name": "黑夜魔靈"
             },
             {
               "id": "607",
-              "name": "烛光灵"
+              "name": "燭光靈"
             },
             {
               "id": "608",
-              "name": "灯火幽灵"
+              "name": "燈火幽靈"
             },
             {
               "id": "609",
-              "name": "水晶灯火灵"
+              "name": "水晶燈火靈"
             },
             {
               "id": "708",
-              "name": "小木灵"
+              "name": "小木靈"
             },
             {
               "id": "709",
@@ -1028,9 +1028,9 @@
               "name": "南瓜怪人"
             }
           ],
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -1039,27 +1039,27 @@
           "parents": [
             {
               "id": "577",
-              "name": "单卵细胞球"
+              "name": "單卵細胞球"
             },
             {
               "id": "578",
-              "name": "双卵细胞球"
+              "name": "雙卵細胞球"
             },
             {
               "id": "579",
-              "name": "人造细胞卵"
+              "name": "人造細胞卵"
             },
             {
               "id": "607",
-              "name": "烛光灵"
+              "name": "燭光靈"
             },
             {
               "id": "608",
-              "name": "灯火幽灵"
+              "name": "燈火幽靈"
             },
             {
               "id": "609",
-              "name": "水晶灯火灵"
+              "name": "水晶燈火靈"
             },
             {
               "id": "710",
@@ -1071,12 +1071,12 @@
             },
             {
               "id": "778",
-              "name": "谜拟丘"
+              "name": "謎擬丘"
             }
           ],
-          "name": "分担痛楚",
+          "name": "分擔痛楚",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -1085,12 +1085,12 @@
           "parents": [
             {
               "id": null,
-              "name": "无壳海兔"
+              "name": "無殼海兔"
             }
           ],
-          "name": "白雾*",
+          "name": "白霧*",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -1099,10 +1099,10 @@
           "parents": [
             {
               "id": null,
-              "name": "啪嚓海胆"
+              "name": "啪嚓海膽"
             }
           ],
-          "name": "泡沫光线",
+          "name": "泡沫光線",
           "type": "水",
           "category": "特殊",
           "power": "65",
@@ -1113,12 +1113,12 @@
           "parents": [
             {
               "id": null,
-              "name": "随风球"
+              "name": "隨風球"
             }
           ],
           "name": "吸取力量",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"

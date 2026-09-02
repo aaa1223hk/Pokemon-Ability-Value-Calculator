@@ -1,40 +1,40 @@
 {
-  "name_zh": "陆地水母",
+  "name_zh": "陸地水母",
   "name_ja": "リククラゲ",
   "name_en": "Toedscruel",
   "pokedex_id": "0949",
-  "description": "陆地水母（日文︰リククラゲ，英文︰Toedscruel）是地面属性／草属性宝可梦。",
-  "profile": "陆地水母看起来像毒刺水母，其实是截然不同的种类。\n陆地水母会在森林深处建造集体生活用的聚落，非常厌恶有外来者靠近。它会用10根触手缠住敌人并吸取养分来折磨对方。下摆的褶皱是很受欢迎的珍味佳肴。",
-  "prototype": "陆地水母和毒刺水母间的联系基于日语中木耳的字面含义“木水母”。\n根据其“木耳宝可梦”的分类以及在树旁出没的习性，陆地水母可能基于黑木耳，但是其头部的红色凸起更像出血齿菌。\n黑木耳曾被分类为欧洲黑木耳（又名厚质木耳）的栽培种，2014年建立了独立的种。陆地水母及其进化前身也在现实原型分居亚欧大陆两侧的帕底亚地区与北上乡登场。",
-  "detail": "陆地水母和毒刺水母拥有完全相同的种族值分布。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步陆地水母（Pokémon GO）。\n←\nNo.0948：原野水母\n宝可梦\nNo.0950：毛崖蟹\n→",
+  "description": "陸地水母（日文︰リククラゲ，英文︰Toedscruel）是地面屬性／草屬性寶可夢。",
+  "profile": "陸地水母看起來像毒刺水母，其實是截然不同的種類。\n陸地水母會在森林深處建造集體生活用的聚落，非常厭惡有外來者靠近。它會用10根觸手纏住敵人並吸取養分來折磨對方。下襬的褶皺是很受歡迎的珍味佳餚。",
+  "prototype": "陸地水母和毒刺水母間的聯絡基於日語中木耳的字面含義“木水母”。\n根據其“木耳寶可夢”的分類以及在樹旁出沒的習性，陸地水母可能基於黑木耳，但是其頭部的紅色凸起更像出血齒菌。\n黑木耳曾被分類為歐洲黑木耳（又名厚質木耳）的栽培種，2014年建立了獨立的種。陸地水母及其進化前身也在現實原型分居亞歐大陸兩側的帕底亞地區與北上鄉登場。",
+  "detail": "陸地水母和毒刺水母擁有完全相同的種族值分佈。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步陸地水母（Pokémon GO）。\n←\nNo.0948：原野水母\n寶可夢\nNo.0950：毛崖蟹\n→",
   "names": [
     {
       "language": "日文",
       "name": "リククラゲ Rikukurage",
-      "origin": "来自“陸（りく）”（陆）和“水母（くらげ）”（水母）及“木耳（きくらげ）”（木耳），对应“ドククラゲ”（毒刺水母）。"
+      "origin": "來自“陸（りく）”（陸）和“水母（くらげ）”（水母）及“木耳（きくらげ）”（木耳），對應“ドククラゲ”（毒刺水母）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "陸地水母陆地水母",
-      "origin": "来自“陆地”和“毒刺水母”。"
+      "name": "陸地水母陸地水母",
+      "origin": "來自“陸地”和“毒刺水母”。"
     },
     {
       "language": "英文",
       "name": "Toedscruel",
-      "origin": "来自 toadstool（毒蕈）、toe（脚趾）和 Tentacruel（毒刺水母）。"
+      "origin": "來自 toadstool（毒蕈）、toe（腳趾）和 Tentacruel（毒刺水母）。"
     },
     {
       "language": "法文",
       "name": "Terracruel",
-      "origin": "来自拉丁文 terra（大地）和 Tentacruel（毒刺水母）。"
+      "origin": "來自拉丁文 terra（大地）和 Tentacruel（毒刺水母）。"
     },
     {
       "language": "德文",
       "name": "Tenterra",
-      "origin": "来自 Tentoxa（毒刺水母）和拉丁文 terra（大地）。"
+      "origin": "來自 Tentoxa（毒刺水母）和拉丁文 terra（大地）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Toedscruel",
       "origin": "同英文名。"
     },
@@ -44,22 +44,22 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "육파리 Yukpari",
-      "origin": "来自“육〈陸〉”（陆）和“독파리”（毒刺水母）。"
+      "origin": "來自“육〈陸〉”（陸）和“독파리”（毒刺水母）。"
     }
   ],
   "forms": [
     {
-      "name": "陆地水母",
+      "name": "陸地水母",
       "types": [
         "地面",
         "草"
       ],
-      "category": "木耳宝可梦",
+      "category": "木耳寶可夢",
       "abilities": [
         {
-          "name": "菌丝之力",
+          "name": "菌絲之力",
           "is_hidden": false
         }
       ],
@@ -70,7 +70,7 @@
       "egg_groups": [
         "植物群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -103,10 +103,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body10.png",
       "footprint": "FUnknown.png",
-      "image": "0949-陆地水母.png"
+      "image": "0949-陸地水母.png"
     }
   ],
   "stats": [
@@ -135,11 +135,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "2"
         },
         {
@@ -155,15 +155,15 @@
           "damage": "0.5"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "2"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -179,7 +179,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0"
         },
         {
@@ -191,11 +191,11 @@
           "damage": "4"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -211,13 +211,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "会在森林深处建造集体生活用的聚落。非常厌恶有外来者靠近。"
+          "group": "寶可夢 朱／紫",
+          "text": "會在森林深處建造集體生活用的聚落。非常厭惡有外來者靠近。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "会用１０根触手缠住敌人并吸取养分来折磨对方。下摆的褶皱是很受欢迎的珍味佳肴。"
+          "group": "寶可夢 朱／紫",
+          "text": "會用１０根觸手纏住敵人並吸取養分來折磨對方。下襬的褶皺是很受歡迎的珍味佳餚。"
         }
       ]
     }
@@ -226,7 +226,7 @@
     [
       {
         "name": "原野水母",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "948Toedscool_Dream.png",
         "back_text": null,
@@ -234,9 +234,9 @@
         "form_name": null
       },
       {
-        "name": "陆地水母",
-        "stage": "1阶进化",
-        "text": "等级30以上",
+        "name": "陸地水母",
+        "stage": "1階進化",
+        "text": "等級30以上",
         "image": "949Toedscruel_Dream.png",
         "back_text": null,
         "from": "原野水母",
@@ -252,16 +252,16 @@
       "data": [
         {
           "level": "—",
-          "name": "镜面属性",
+          "name": "鏡面屬性",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "—",
-          "name": "紧束",
+          "name": "緊束",
           "type": "一般",
           "category": "物理",
           "power": "15",
@@ -270,7 +270,7 @@
         },
         {
           "level": "—",
-          "name": "掷泥",
+          "name": "擲泥",
           "type": "地面",
           "category": "特殊",
           "power": "20",
@@ -288,9 +288,9 @@
         },
         {
           "level": "8",
-          "name": "麻痹粉",
+          "name": "麻痺粉",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "75",
           "pp": "30"
@@ -299,7 +299,7 @@
           "level": "8",
           "name": "毒粉",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "75",
           "pp": "35"
@@ -308,14 +308,14 @@
           "level": "12",
           "name": "超音波",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "55",
           "pp": "20"
         },
         {
           "level": "15",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -324,7 +324,7 @@
         },
         {
           "level": "16",
-          "name": "超级吸取",
+          "name": "超級吸取",
           "type": "草",
           "category": "特殊",
           "power": "40",
@@ -333,16 +333,16 @@
         },
         {
           "level": "20",
-          "name": "刺耳声",
+          "name": "刺耳聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
           "level": "24",
-          "name": "泥巴射击",
+          "name": "泥巴射擊",
           "type": "地面",
           "category": "特殊",
           "power": "55",
@@ -351,8 +351,8 @@
         },
         {
           "level": "28",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
@@ -360,7 +360,7 @@
         },
         {
           "level": "34",
-          "name": "种子炸弹",
+          "name": "種子炸彈",
           "type": "草",
           "category": "物理",
           "power": "80",
@@ -371,23 +371,23 @@
           "level": "40",
           "name": "蘑菇孢子",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "44",
-          "name": "生长",
+          "name": "生長",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "48",
-          "name": "终极吸取",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -405,7 +405,7 @@
         },
         {
           "level": "58",
-          "name": "强力鞭打",
+          "name": "強力鞭打",
           "type": "草",
           "category": "物理",
           "power": "120",
@@ -420,8 +420,8 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００５",
-          "name": "掷泥",
+          "machine": "招式學習器００５",
+          "name": "擲泥",
           "type": "地面",
           "category": "特殊",
           "power": "20",
@@ -429,26 +429,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１３",
-          "name": "酸液炸弹",
+          "machine": "招式學習器０１３",
+          "name": "酸液炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "40",
@@ -456,16 +456,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１７",
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器０１７",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２０",
+          "machine": "招式學習器０２０",
           "name": "起草",
           "type": "草",
           "category": "物理",
@@ -474,16 +474,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２９",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "machine": "招式學習器０２９",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -492,8 +492,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３３",
-          "name": "魔法叶",
+          "machine": "招式學習器０３３",
+          "name": "魔法葉",
           "type": "草",
           "category": "特殊",
           "power": "60",
@@ -501,8 +501,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３５",
-          "name": "泥巴射击",
+          "machine": "招式學習器０３５",
+          "name": "泥巴射擊",
           "type": "地面",
           "category": "特殊",
           "power": "55",
@@ -510,8 +510,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４５",
-          "name": "毒液冲击",
+          "machine": "招式學習器０４５",
+          "name": "毒液衝擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -519,26 +519,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５６",
-          "name": "种子机关枪",
+          "machine": "招式學習器０５６",
+          "name": "種子機關槍",
           "type": "草",
           "category": "物理",
           "power": "25",
@@ -546,26 +546,26 @@
           "pp": "30"
         },
         {
-          "machine": "招式学习器０６２",
+          "machine": "招式學習器０６２",
           "name": "移花接木",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "95",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７１",
-          "name": "种子炸弹",
+          "machine": "招式學習器０７１",
+          "name": "種子炸彈",
           "type": "草",
           "category": "物理",
           "power": "80",
@@ -573,26 +573,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７４",
+          "machine": "招式學習器０７４",
           "name": "反射壁",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０７９",
-          "name": "魔法闪耀",
+          "machine": "招式學習器０７９",
+          "name": "魔法閃耀",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -600,71 +600,71 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８１",
-          "name": "打草结",
+          "machine": "招式學習器０８１",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９０",
+          "machine": "招式學習器０９０",
           "name": "撒菱",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９１",
+          "machine": "招式學習器０９１",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９３",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式學習器０９３",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１１",
-          "name": "终极吸取",
+          "machine": "招式學習器１１１",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -672,7 +672,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１９",
+          "machine": "招式學習器１１９",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -681,7 +681,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３３",
+          "machine": "招式學習器１３３",
           "name": "大地之力",
           "type": "地面",
           "category": "特殊",
@@ -690,17 +690,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３７",
-          "name": "青草场地",
+          "machine": "招式學習器１３７",
+          "name": "青草場地",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４８",
-          "name": "污泥炸弹",
+          "machine": "招式學習器１４８",
+          "name": "汙泥炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "90",
@@ -708,8 +708,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -717,8 +717,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５９",
-          "name": "飞叶风暴",
+          "machine": "招式學習器１５９",
+          "name": "飛葉風暴",
           "type": "草",
           "category": "特殊",
           "power": "130",
@@ -726,17 +726,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６１",
-          "name": "戏法空间",
+          "machine": "招式學習器１６１",
+          "name": "戲法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -744,7 +744,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６８",
+          "machine": "招式學習器１６８",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -753,8 +753,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -762,34 +762,34 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７５",
-          "name": "剧毒",
+          "machine": "招式學習器１７５",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８１",
+          "machine": "招式學習器１８１",
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１８５",
-          "name": "猛扑",
-          "type": "虫",
+          "machine": "招式學習器１８５",
+          "name": "猛撲",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１９４",
+          "machine": "招式學習器１９４",
           "name": "青草滑梯",
           "type": "草",
           "category": "物理",
@@ -798,18 +798,18 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０２",
-          "name": "分担痛楚",
+          "machine": "招式學習器２０２",
+          "name": "分擔痛楚",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２１９",
-          "name": "爬击",
-          "type": "虫",
+          "machine": "招式學習器２１９",
+          "name": "爬擊",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "90",
@@ -826,7 +826,7 @@
           "parents": [
             {
               "id": "0001",
-              "name": "妙蛙种子"
+              "name": "妙蛙種子"
             },
             {
               "id": "0002",
@@ -842,19 +842,19 @@
             },
             {
               "id": "0103",
-              "name": "椰蛋树"
+              "name": "椰蛋樹"
             },
             {
               "id": "0103A",
-              "name": "椰蛋树"
+              "name": "椰蛋樹"
             },
             {
               "id": "0152",
-              "name": "菊草叶"
+              "name": "菊草葉"
             },
             {
               "id": "0153",
-              "name": "月桂叶"
+              "name": "月桂葉"
             },
             {
               "id": "0154",
@@ -878,11 +878,11 @@
             },
             {
               "id": "0270",
-              "name": "莲叶童子"
+              "name": "蓮葉童子"
             },
             {
               "id": "0271",
-              "name": "莲帽小童"
+              "name": "蓮帽小童"
             },
             {
               "id": "0285",
@@ -898,19 +898,19 @@
             },
             {
               "id": "0332",
-              "name": "梦歌仙人掌"
+              "name": "夢歌仙人掌"
             },
             {
               "id": "0387",
-              "name": "草苗龟"
+              "name": "草苗龜"
             },
             {
               "id": "0388",
-              "name": "树林龟"
+              "name": "樹林龜"
             },
             {
               "id": "0389",
-              "name": "土台龟"
+              "name": "土臺龜"
             },
             {
               "id": "0495",
@@ -930,11 +930,11 @@
             },
             {
               "id": "0547",
-              "name": "风妖精"
+              "name": "風妖精"
             },
             {
               "id": "0708",
-              "name": "小木灵"
+              "name": "小木靈"
             },
             {
               "id": "0709",
@@ -942,15 +942,15 @@
             },
             {
               "id": "0764",
-              "name": "花疗环环"
+              "name": "花療環環"
             },
             {
               "id": "0841",
-              "name": "苹裹龙"
+              "name": "蘋裹龍"
             },
             {
               "id": "0842",
-              "name": "丰蜜龙"
+              "name": "豐蜜龍"
             },
             {
               "id": "0928",
@@ -958,16 +958,16 @@
             },
             {
               "id": "0929",
-              "name": "奥利纽"
+              "name": "奧利紐"
             },
             {
               "id": "0930",
-              "name": "奥利瓦"
+              "name": "奧利瓦"
             }
           ],
-          "name": "寄生种子",
+          "name": "寄生種子",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
@@ -988,7 +988,7 @@
             },
             {
               "id": "182",
-              "name": "美丽花"
+              "name": "美麗花"
             },
             {
               "id": "285",
@@ -1004,12 +1004,12 @@
             },
             {
               "id": "591",
-              "name": "败露球菇"
+              "name": "敗露球菇"
             }
           ],
-          "name": "剧毒",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
@@ -1018,14 +1018,14 @@
           "parents": [
             {
               "id": "0946",
-              "name": "纳噬草"
+              "name": "納噬草"
             },
             {
               "id": "0947",
-              "name": "怖纳噬草"
+              "name": "怖納噬草"
             }
           ],
-          "name": "高速旋转",
+          "name": "高速旋轉",
           "type": "一般",
           "category": "物理",
           "power": "50",
@@ -1036,13 +1036,13 @@
           "parents": [
             {
               "id": null,
-              "name": "奥利瓦"
+              "name": "奧利瓦"
             }
           ],
-          "name": "镜面反射",
+          "name": "鏡面反射",
           "type": "超能力",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
@@ -1058,7 +1058,7 @@
             },
             {
               "id": "0271",
-              "name": "莲帽小童"
+              "name": "蓮帽小童"
             },
             {
               "id": "0810",
@@ -1070,7 +1070,7 @@
             },
             {
               "id": "0812",
-              "name": "轰擂金刚猩"
+              "name": "轟擂金剛猩"
             },
             {
               "id": "0908",
@@ -1078,7 +1078,7 @@
             }
           ],
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
@@ -1096,20 +1096,20 @@
             },
             {
               "id": "0270",
-              "name": "莲叶童子"
+              "name": "蓮葉童子"
             },
             {
               "id": "0387",
-              "name": "草苗龟"
+              "name": "草苗龜"
             },
             {
               "id": "0546",
               "name": "木棉球"
             }
           ],
-          "name": "挠痒*",
+          "name": "撓癢*",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -1125,9 +1125,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "点穴",
+          "name": "點穴",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -1140,12 +1140,12 @@
             },
             {
               "id": "591",
-              "name": "败露球菇"
+              "name": "敗露球菇"
             }
           ],
-          "name": "愤怒粉",
-          "type": "虫",
-          "category": "变化",
+          "name": "憤怒粉",
+          "type": "蟲",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -1155,9 +1155,9 @@
   ],
   "home_images": [
     {
-      "name": "陆地水母",
-      "image": "0949-陆地水母.png",
-      "shiny": "0949-陆地水母-shiny.png"
+      "name": "陸地水母",
+      "image": "0949-陸地水母.png",
+      "shiny": "0949-陸地水母-shiny.png"
     }
   ]
 }

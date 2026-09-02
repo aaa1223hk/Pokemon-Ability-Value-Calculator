@@ -1,40 +1,40 @@
 {
-  "name_zh": "捣蛋小妖",
+  "name_zh": "搗蛋小妖",
   "name_ja": "ベロバー",
   "name_en": "Impidimp",
   "pokedex_id": "0859",
-  "description": "捣蛋小妖（日文︰ベロバー，英文︰Impidimp）是一只恶属性／妖精属性宝可梦。",
-  "profile": "捣蛋小妖外表上看起来就像是传统印象中喜欢捣蛋的小妖精，它的身体小，四肢很瘦。它的皮肤是粉红色。它的眼睛眼白较大但瞳孔很小。他的嘴里出现了紫色的舌头和两个尖牙。它的手只有三个手指。它的头部很大，大概等同于自己的身体，它的头部后面有一片不同颜色的翘起的部位，像单片的翅膀。捣蛋小妖只有雄性，对应的雌性宝可梦为迷布莉姆。\n捣蛋小妖成群结队地生活，彼此之间会恶作剧和找不痛快，以此来磨炼制造麻烦的技能。它会用鼻子吸收人类或宝可梦情绪糟糕时产生的负能量，来为自己补充活力。它不但会溜进民宅偷盗，还会吸收人们悔恨时的负面能量。它之所以会欺负与自己亲密的对象，是因为如果不吸收负面情绪，就会很烦躁。",
-  "prototype": "捣蛋小妖可能基于小恶魔。小恶魔是日耳曼民间故事中调皮捣蛋的妖怪，在英国最著名的个体是林肯主教座堂的小恶魔。捣蛋小妖的面部表情可能来自于此。\n从形象来看，也可能基于欧洲传说中的哥布林、葛雷姆林等身材瘦小、性情顽劣的类人魔幻生物。它喜好恶作剧和潜入民宅偷盗的特点可能也参考了博格特。\n结合其进化型长毛巨魔的原型洞穴巨人，捣蛋小妖的原型可能为巨魔娃娃，一种有着冲天长发的塑料娃娃玩具。有关该形象知名的改编作品为电影《魔发精灵》。\n异色捣蛋小妖的配色类似比利时漫画家贝约创造的著名卡通形象蓝精灵，一群居住在森林里的蘑菇屋中的蓝色人形小生物。",
-  "detail": "捣蛋小妖首次出现在任天堂2019 E3树屋试玩中。\n捣蛋小妖是有唯一属性组合的宝可梦，恶属性／妖精属性组合。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步捣蛋小妖（Pokémon GO）。\n←\nNo.0858：布莉姆温\n宝可梦\nNo.0860：诈唬魔\n→",
+  "description": "搗蛋小妖（日文︰ベロバー，英文︰Impidimp）是一隻惡屬性／妖精屬性寶可夢。",
+  "profile": "搗蛋小妖外表上看起來就像是傳統印象中喜歡搗蛋的小妖精，它的身體小，四肢很瘦。它的皮膚是粉紅色。它的眼睛眼白較大但瞳孔很小。他的嘴裡出現了紫色的舌頭和兩個尖牙。它的手只有三個手指。它的頭部很大，大概等同於自己的身體，它的頭部後面有一片不同顏色的翹起的部位，像單片的翅膀。搗蛋小妖只有雄性，對應的雌性寶可夢為迷布莉姆。\n搗蛋小妖成群結隊地生活，彼此之間會惡作劇和找不痛快，以此來磨鍊製造麻煩的技能。它會用鼻子吸收人類或寶可夢情緒糟糕時產生的負能量，來為自己補充活力。它不但會溜進民宅偷盜，還會吸收人們悔恨時的負面能量。它之所以會欺負與自己親密的物件，是因為如果不吸收負面情緒，就會很煩躁。",
+  "prototype": "搗蛋小妖可能基於小惡魔。小惡魔是日耳曼民間故事中調皮搗蛋的妖怪，在英國最著名的個體是林肯主教座堂的小惡魔。搗蛋小妖的面部表情可能來自於此。\n從形象來看，也可能基於歐洲傳說中的哥布林、葛雷姆林等身材瘦小、性情頑劣的類人魔幻生物。它喜好惡作劇和潛入民宅偷盜的特點可能也參考了博格特。\n結合其進化型長毛巨魔的原型洞穴巨人，搗蛋小妖的原型可能為巨魔娃娃，一種有著沖天長髮的塑膠娃娃玩具。有關該形象知名的改編作品為電影《魔發精靈》。\n異色搗蛋小妖的配色類似比利時漫畫家貝約創造的著名卡通形象藍精靈，一群居住在森林裡的蘑菇屋中的藍色人形小生物。",
+  "detail": "搗蛋小妖首次出現在任天堂2019 E3樹屋試玩中。\n搗蛋小妖是有唯一屬性組合的寶可夢，惡屬性／妖精屬性組合。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步搗蛋小妖（Pokémon GO）。\n←\nNo.0858：布莉姆溫\n寶可夢\nNo.0860：詐唬魔\n→",
   "names": [
     {
       "language": "日文",
       "name": "ベロバー Beroba",
-      "origin": "来自“ベロ”（舌头）和“べろべろばあ”（逗笑或嘲笑的拟声词）。"
+      "origin": "來自“ベロ”（舌頭）和“べろべろばあ”（逗笑或嘲笑的擬聲詞）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "搗蛋小妖捣蛋小妖",
-      "origin": "来自“捣蛋”和“小妖”。"
+      "name": "搗蛋小妖搗蛋小妖",
+      "origin": "來自“搗蛋”和“小妖”。"
     },
     {
       "language": "英文",
       "name": "Impidimp",
-      "origin": "来自 imp（小恶魔）和 impede（阻扰）或 impediment（障碍）。"
+      "origin": "來自 imp（小惡魔）和 impede（阻擾）或 impediment（障礙）。"
     },
     {
       "language": "法文",
       "name": "Grimalin",
-      "origin": "来自 grimace（鬼脸）、malin（恶意的）和 gremlin（葛雷姆林：英国传说中破坏机械的捣蛋鬼）。"
+      "origin": "來自 grimace（鬼臉）、malin（惡意的）和 gremlin（葛雷姆林：英國傳說中破壞機械的搗蛋鬼）。"
     },
     {
       "language": "德文",
       "name": "Bähmon",
-      "origin": "来自 bäh（嘲笑的拟声词）和 Dämon（魔鬼）或 Monster（怪兽）。"
+      "origin": "來自 bäh（嘲笑的擬聲詞）和 Dämon（魔鬼）或 Monster（怪獸）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Impidimp",
       "origin": "同英文名。"
     },
@@ -44,42 +44,42 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "메롱꿍 Merongkkung",
-      "origin": "来自儿语“메롱”（捉弄对方时发出的声音）和“까꿍”（大人想逗小孩的时候用的象声词）。"
+      "origin": "來自兒語“메롱”（捉弄對方時發出的聲音）和“까꿍”（大人想逗小孩的時候用的象聲詞）。"
     }
   ],
   "forms": [
     {
-      "name": "捣蛋小妖",
+      "name": "搗蛋小妖",
       "types": [
-        "恶",
+        "惡",
         "妖精"
       ],
-      "category": "捉弄宝可梦",
+      "category": "捉弄寶可夢",
       "abilities": [
         {
-          "name": "恶作剧之心",
+          "name": "惡作劇之心",
           "is_hidden": false
         },
         {
-          "name": "察觉",
+          "name": "察覺",
           "is_hidden": false
         },
         {
-          "name": "顺手牵羊",
+          "name": "順手牽羊",
           "is_hidden": true
         }
       ],
       "height": "0.4m",
       "weight": "5.5kg",
-      "color": "粉红色",
+      "color": "粉紅色",
       "catch_rate": "255（33.3%）",
       "egg_groups": [
         "妖精",
         "人型群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -112,10 +112,10 @@
         "male": 100,
         "female": 0
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body12.png",
       "footprint": "FUnknown.png",
-      "image": "0859-捣蛋小妖.png"
+      "image": "0859-搗蛋小妖.png"
     }
   ],
   "stats": [
@@ -135,7 +135,7 @@
     {
       "form": "",
       "types": [
-        "恶",
+        "惡",
         "妖精"
       ],
       "data": [
@@ -144,11 +144,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -164,15 +164,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "0.5"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -188,7 +188,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -200,11 +200,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "0"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "0.25"
         },
         {
@@ -219,14 +219,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "会用鼻子吸收人类或宝可梦情绪糟糕时产生的负能量，来为自己补充活力。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "會用鼻子吸收人類或寶可夢情緒糟糕時產生的負能量，來為自己補充活力。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "不但会溜进民宅偷盗，还会吸收人们悔恨时的负面能量。"
+          "group": "寶可夢 劍／盾",
+          "text": "不但會溜進民宅偷盜，還會吸收人們悔恨時的負面能量。"
         }
       ]
     },
@@ -235,13 +235,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "它之所以会欺负与自己亲密的对象，是因为如果不吸收负面情绪，就会很烦躁。"
+          "group": "寶可夢 朱／紫",
+          "text": "它之所以會欺負與自己親密的物件，是因為如果不吸收負面情緒，就會很煩躁。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "成群结队地生活。彼此之间会恶作剧和找不痛快，以此来磨炼制造麻烦的技能。"
+          "group": "寶可夢 朱／紫",
+          "text": "成群結隊地生活。彼此之間會惡作劇和找不痛快，以此來磨鍊製造麻煩的技能。"
         }
       ]
     }
@@ -249,8 +249,8 @@
   "evolution_chains": [
     [
       {
-        "name": "捣蛋小妖",
-        "stage": "未进化",
+        "name": "搗蛋小妖",
+        "stage": "未進化",
         "text": null,
         "image": "859Impidimp_Dream.png",
         "back_text": null,
@@ -258,21 +258,21 @@
         "form_name": null
       },
       {
-        "name": "诈唬魔",
-        "stage": "1阶进化",
-        "text": "等级32以上",
+        "name": "詐唬魔",
+        "stage": "1階進化",
+        "text": "等級32以上",
         "image": "860Morgrem_Dream.png",
         "back_text": null,
-        "from": "捣蛋小妖",
+        "from": "搗蛋小妖",
         "form_name": null
       },
       {
-        "name": "长毛巨魔",
-        "stage": "2阶进化",
-        "text": "等级42以上",
+        "name": "長毛巨魔",
+        "stage": "2階進化",
+        "text": "等級42以上",
         "image": "861Grimmsnarl_Dream.png",
         "back_text": null,
-        "from": "诈唬魔",
+        "from": "詐唬魔",
         "form_name": null
       }
     ]
@@ -285,7 +285,7 @@
       "data": [
         {
           "level": "—",
-          "name": "击掌奇袭",
+          "name": "擊掌奇襲",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -294,9 +294,9 @@
         },
         {
           "level": "—",
-          "name": "密语",
+          "name": "密語",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -304,7 +304,7 @@
         {
           "level": "4",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -313,8 +313,8 @@
         {
           "level": "8",
           "name": "吹捧",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
@@ -322,16 +322,16 @@
         {
           "level": "12",
           "name": "假哭",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "16",
-          "name": "恶意追击",
-          "type": "恶",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -339,17 +339,17 @@
         },
         {
           "level": "20",
-          "name": "虚张声势",
+          "name": "虛張聲勢",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
           "level": "24",
-          "name": "突袭",
-          "type": "恶",
+          "name": "突襲",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -357,17 +357,17 @@
         },
         {
           "level": "28",
-          "name": "无理取闹",
-          "type": "恶",
-          "category": "变化",
+          "name": "無理取鬧",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "33",
-          "name": "恶之波动",
-          "type": "恶",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -375,16 +375,16 @@
         },
         {
           "level": "36",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "40",
-          "name": "嬉闹",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -394,7 +394,7 @@
         {
           "level": "44",
           "name": "移花接木",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "95",
           "accuracy": "100",
@@ -408,7 +408,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -417,52 +417,52 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００３",
+          "machine": "招式學習器００３",
           "name": "假哭",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１２",
+          "machine": "招式學習器０１２",
           "name": "踢倒",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２０",
+          "machine": "招式學習器０２０",
           "name": "起草",
           "type": "草",
           "category": "物理",
@@ -471,8 +471,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２２",
-          "name": "泼冷水",
+          "machine": "招式學習器０２２",
+          "name": "潑冷水",
           "type": "水",
           "category": "特殊",
           "power": "50",
@@ -480,8 +480,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -489,7 +489,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３７",
+          "machine": "招式學習器０３７",
           "name": "吸取之吻",
           "type": "妖精",
           "category": "特殊",
@@ -498,71 +498,71 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０６２",
+          "machine": "招式學習器０６２",
           "name": "移花接木",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "95",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７３",
+          "machine": "招式學習器０７３",
           "name": "吸取拳",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７４",
+          "machine": "招式學習器０７４",
           "name": "反射壁",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０７９",
-          "name": "魔法闪耀",
+          "machine": "招式學習器０７９",
+          "name": "魔法閃耀",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -570,80 +570,80 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８０",
-          "name": "挥指",
+          "machine": "招式學習器０８０",
+          "name": "揮指",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８２",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０８２",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９４",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式學習器０９４",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０９５",
+          "machine": "招式學習器０９５",
           "name": "汲取",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０９",
-          "name": "戏法",
+          "machine": "招式學習器１０９",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２７",
-          "name": "嬉闹",
+          "machine": "招式學習器１２７",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -651,26 +651,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３９",
-          "name": "薄雾场地",
+          "machine": "招式學習器１３９",
+          "name": "薄霧場地",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４０",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器１４０",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -678,7 +678,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９５",
+          "machine": "招式學習器１９５",
           "name": "妒火",
           "type": "火",
           "category": "特殊",
@@ -687,18 +687,18 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１９９",
-          "name": "泄愤",
-          "type": "恶",
+          "machine": "招式學習器１９９",
+          "name": "洩憤",
+          "type": "惡",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器２２１",
-          "name": "深渊突刺",
-          "type": "恶",
+          "machine": "招式學習器２２１",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -722,9 +722,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "抛下狠话",
-          "type": "恶",
-          "category": "变化",
+          "name": "拋下狠話",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -734,9 +734,9 @@
   ],
   "home_images": [
     {
-      "name": "捣蛋小妖",
-      "image": "0859-捣蛋小妖.png",
-      "shiny": "0859-捣蛋小妖-shiny.png"
+      "name": "搗蛋小妖",
+      "image": "0859-搗蛋小妖.png",
+      "shiny": "0859-搗蛋小妖-shiny.png"
     }
   ]
 }

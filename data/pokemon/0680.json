@@ -1,45 +1,45 @@
 {
-  "name_zh": "双剑鞘",
+  "name_zh": "雙劍鞘",
   "name_ja": "ニダンギル",
   "name_en": "Doublade",
   "pokedex_id": "0680",
-  "description": "双剑鞘（日文︰ニダンギル，英文︰Doublade）是钢属性／幽灵属性宝可梦，它的设计者是有贺等。",
-  "profile": "独剑鞘进化之后变成了双胞胎，分裂为两把呈X型交叉状的剑。眼睛和缎带的颜色变为了品红色。背后有一个盾牌，两只剑鞘和盾牌似乎是固定在一起的。战斗时两把剑会飞出来，一只手保护着后面的盾牌，直到下次进化后盾牌变得完整，才可以用盾牌承受攻击。\n双剑鞘通过心灵感应对话，用互相摩擦剑刃发出的金属音来威吓对手，用配合攻击砍碎敌人。两把剑会用令人眼花缭乱的速度不断交替攻击和防御，借以制服猎物。要抵挡住两把剑发出的复杂的连续攻击，即便是用剑高手也不可能。",
-  "prototype": "来自剑和二刀流的形象。\n整体形象也可能来自于欧洲中世纪的纹章设计。",
-  "detail": "独剑鞘和双剑鞘的官方绘图是剑入鞘的形象，但游戏形象却是剑出鞘的形象。与坚盾剑怪不同，它们在游戏中并没有形态变化。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步双剑鞘（Pokémon GO）。\n←\nNo.0679：独剑鞘\n宝可梦\nNo.0681：坚盾剑怪\n→",
+  "description": "雙劍鞘（日文︰ニダンギル，英文︰Doublade）是鋼屬性／幽靈屬性寶可夢，它的設計者是有賀等。",
+  "profile": "獨劍鞘進化之後變成了雙胞胎，分裂為兩把呈X型交叉狀的劍。眼睛和緞帶的顏色變為了品紅色。背後有一個盾牌，兩隻劍鞘和盾牌似乎是固定在一起的。戰鬥時兩把劍會飛出來，一隻手保護著後面的盾牌，直到下次進化後盾牌變得完整，才可以用盾牌承受攻擊。\n雙劍鞘透過心靈感應對話，用互相摩擦劍刃發出的金屬音來威嚇對手，用配合攻擊砍碎敵人。兩把劍會用令人眼花繚亂的速度不斷交替攻擊和防禦，藉以制服獵物。要抵擋住兩把劍發出的複雜的連續攻擊，即便是用劍高手也不可能。",
+  "prototype": "來自劍和二刀流的形象。\n整體形象也可能來自於歐洲中世紀的紋章設計。",
+  "detail": "獨劍鞘和雙劍鞘的官方繪圖是劍入鞘的形象，但遊戲形象卻是劍出鞘的形象。與堅盾劍怪不同，它們在遊戲中並沒有形態變化。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步雙劍鞘（Pokémon GO）。\n←\nNo.0679：獨劍鞘\n寶可夢\nNo.0681：堅盾劍怪\n→",
   "names": [
     {
       "language": "日文",
       "name": "ニダンギル Nidangill",
-      "origin": "来自“二（に）段（だん）切（ぎ）り”（二连切斩）和英文 kill（杀）。"
+      "origin": "來自“二（に）段（だん）切（ぎ）り”（二連切斬）和英文 kill（殺）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "雙劍鞘双剑鞘",
-      "origin": "来自“双”、“剑”和“鞘”。"
+      "name": "雙劍鞘雙劍鞘",
+      "origin": "來自“雙”、“劍”和“鞘”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "雙劍鞘",
-      "origin": "来自“双”、“剑”和“鞘”。"
+      "origin": "來自“雙”、“劍”和“鞘”。"
     },
     {
       "language": "英文",
       "name": "Doublade",
-      "origin": "来自 double（双）和 blade（刀刃）。"
+      "origin": "來自 double（雙）和 blade（刀刃）。"
     },
     {
       "language": "法文",
       "name": "Dimoclès",
-      "origin": "来自前缀 di-（表示“二”、“双”）和 Damoclès（达摩克利斯，以“悬顶之剑”的轶事闻名）。"
+      "origin": "來自字首 di-（表示“二”、“雙”）和 Damoclès（達摩克利斯，以“懸頂之劍”的軼事聞名）。"
     },
     {
       "language": "德文",
       "name": "Duokles",
-      "origin": "来自 Duo（二人组）和 Damokles（达摩克利斯）。"
+      "origin": "來自 Duo（二人組）和 Damokles（達摩克利斯）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Doublade",
       "origin": "同英文名。"
     },
@@ -49,22 +49,22 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "쌍검킬 Ssanggeomkil",
-      "origin": "来自“쌍〈雙〉”（双）、“검〈劍〉”（剑）和英文 kill（杀）。"
+      "origin": "來自“쌍〈雙〉”（雙）、“검〈劍〉”（劍）和英文 kill（殺）。"
     }
   ],
   "forms": [
     {
-      "name": "双剑鞘",
+      "name": "雙劍鞘",
       "types": [
-        "钢",
-        "幽灵"
+        "鋼",
+        "幽靈"
       ],
-      "category": "刀剑宝可梦",
+      "category": "刀劍寶可夢",
       "abilities": [
         {
-          "name": "无防守",
+          "name": "無防守",
           "is_hidden": false
         }
       ],
@@ -73,9 +73,9 @@
       "color": "褐色",
       "catch_rate": "90（11.8%）",
       "egg_groups": [
-        "矿物群"
+        "礦物群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -108,10 +108,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body11.png",
       "footprint": "FUnknown.png",
-      "image": "0680-双剑鞘.png"
+      "image": "0680-雙劍鞘.png"
     }
   ],
   "stats": [
@@ -131,8 +131,8 @@
     {
       "form": "",
       "types": [
-        "钢",
-        "幽灵"
+        "鋼",
+        "幽靈"
       ],
       "data": [
         {
@@ -140,11 +140,11 @@
           "damage": "0"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -160,15 +160,15 @@
           "damage": "0.5"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.25"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -184,7 +184,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -196,11 +196,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "0.5"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -216,23 +216,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "进化后分裂为２把。通过心灵感应对话，用配合攻击砍碎敌人。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "進化後分裂為２把。透過心靈感應對話，用配合攻擊砍碎敵人。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "要抵挡住２把剑发出的复杂的连续攻击，即便是用剑高手也不可能。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "要抵擋住２把劍發出的複雜的連續攻擊，即便是用劍高手也不可能。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "进化后分裂为２把。通过心灵感应对话，用配合攻击砍碎敌人。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "進化後分裂為２把。透過心靈感應對話，用配合攻擊砍碎敵人。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "要抵挡住２把剑发出的复杂的连续攻击，即便是用剑高手也不可能。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "要抵擋住２把劍發出的複雜的連續攻擊，即便是用劍高手也不可能。"
         }
       ]
     },
@@ -240,14 +240,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "进化之后变成了双胞胎。用互相摩擦剑刃发出的金属音来威吓对手。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "進化之後變成了雙胞胎。用互相摩擦劍刃發出的金屬音來威嚇對手。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "２把剑会用令人眼花缭乱的速度不断交替攻击和防御，借以制服猎物。"
+          "group": "寶可夢 劍／盾",
+          "text": "２把劍會用令人眼花繚亂的速度不斷交替攻擊和防禦，藉以制服獵物。"
         }
       ]
     },
@@ -255,9 +255,9 @@
       "name": "第九世代",
       "versions": [
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "进化后分裂为２把。通过心灵感应对话，用配合攻击砍碎敌人。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "進化後分裂為２把。透過心靈感應對話，用配合攻擊砍碎敵人。"
         }
       ]
     }
@@ -265,8 +265,8 @@
   "evolution_chains": [
     [
       {
-        "name": "独剑鞘",
-        "stage": "未进化",
+        "name": "獨劍鞘",
+        "stage": "未進化",
         "text": null,
         "image": "679Honedge_Dream.png",
         "back_text": null,
@@ -274,21 +274,21 @@
         "form_name": null
       },
       {
-        "name": "双剑鞘",
-        "stage": "1阶进化",
-        "text": "等级35以上",
+        "name": "雙劍鞘",
+        "stage": "1階進化",
+        "text": "等級35以上",
         "image": "680Doublade_Dream.png",
         "back_text": null,
-        "from": "独剑鞘",
+        "from": "獨劍鞘",
         "form_name": null
       },
       {
-        "name": "坚盾剑怪",
-        "stage": "2阶进化",
+        "name": "堅盾劍怪",
+        "stage": "2階進化",
         "text": "使用暗之石",
         "image": "681Aegislash_Dream.png",
         "back_text": null,
-        "from": "双剑鞘",
+        "from": "雙劍鞘",
         "form_name": null
       }
     ]
@@ -301,8 +301,8 @@
       "data": [
         {
           "level": "—",
-          "name": "连斩",
-          "type": "虫",
+          "name": "連斬",
+          "type": "蟲",
           "category": "物理",
           "power": "40",
           "accuracy": "95",
@@ -310,7 +310,7 @@
         },
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -319,8 +319,8 @@
         },
         {
           "level": "—",
-          "name": "影子偷袭",
-          "type": "幽灵",
+          "name": "影子偷襲",
+          "type": "幽靈",
           "category": "物理",
           "power": "40",
           "accuracy": "100",
@@ -328,9 +328,9 @@
         },
         {
           "level": "—",
-          "name": "身体轻量化",
-          "type": "钢",
-          "category": "变化",
+          "name": "身體輕量化",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -338,7 +338,7 @@
         {
           "level": "12",
           "name": "燕返",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "—",
@@ -346,16 +346,16 @@
         },
         {
           "level": "16",
-          "name": "金属音",
-          "type": "钢",
-          "category": "变化",
+          "name": "金屬音",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
           "level": "20",
-          "name": "劈开",
+          "name": "劈開",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -364,8 +364,8 @@
         },
         {
           "level": "24",
-          "name": "暗袭要害",
-          "type": "恶",
+          "name": "暗襲要害",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -373,7 +373,7 @@
         },
         {
           "level": "28",
-          "name": "报仇",
+          "name": "報仇",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -382,17 +382,17 @@
         },
         {
           "level": "32",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "38",
-          "name": "铁头",
-          "type": "钢",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -400,26 +400,26 @@
         },
         {
           "level": "44",
-          "name": "力量戏法",
+          "name": "力量戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "50",
-          "name": "剑舞",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "56",
-          "name": "圣剑",
-          "type": "格斗",
+          "name": "聖劍",
+          "type": "格鬥",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
@@ -433,7 +433,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器１２",
+          "machine": "招式學習器１２",
           "name": "日光刃",
           "type": "草",
           "category": "物理",
@@ -442,35 +442,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６",
-          "name": "刺耳声",
+          "machine": "招式學習器１６",
+          "name": "刺耳聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
-          "machine": "招式学习器１８",
+          "machine": "招式學習器１８",
           "name": "反射壁",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２",
-          "name": "岩崩",
+          "machine": "招式學習器２２",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -478,7 +478,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -487,35 +487,35 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -523,25 +523,25 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４３",
+          "machine": "招式學習器４３",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器６５",
+          "machine": "招式學習器６５",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器６９",
+          "machine": "招式學習器６９",
           "name": "精神利刃",
           "type": "超能力",
           "category": "物理",
@@ -550,8 +550,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -559,8 +559,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７９",
-          "name": "报仇",
+          "machine": "招式學習器７９",
+          "name": "報仇",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -568,8 +568,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器９４",
-          "name": "点到为止",
+          "machine": "招式學習器９４",
+          "name": "點到為止",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -577,99 +577,99 @@
           "pp": "40"
         },
         {
-          "machine": "招式学习器９７",
-          "name": "狂舞挥打",
-          "type": "恶",
+          "machine": "招式學習器９７",
+          "name": "狂舞揮打",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录００",
-          "name": "剑舞",
+          "machine": "招式記錄００",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２１",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式記錄２１",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录４６",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式記錄４６",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式记录５２",
+          "machine": "招式記錄５２",
           "name": "陀螺球",
-          "type": "钢",
+          "type": "鋼",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式记录５３",
-          "name": "近身战",
-          "type": "格斗",
+          "machine": "招式記錄５３",
+          "name": "近身戰",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式记录７０",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式記錄７０",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录７４",
-          "name": "铁头",
-          "type": "钢",
+          "machine": "招式記錄７４",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -702,8 +702,8 @@
             }
           ],
           "name": "同命",
-          "type": "幽灵",
-          "category": "变化",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -719,9 +719,9 @@
               "name": "巨石丁"
             }
           ],
-          "name": "广域防守",
+          "name": "廣域防守",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -730,16 +730,16 @@
           "parents": [
             {
               "id": null,
-              "name": "树才怪"
+              "name": "樹才怪"
             },
             {
               "id": null,
               "name": "巨石丁"
             }
           ],
-          "name": "挡路",
+          "name": "擋路",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -749,9 +749,9 @@
   ],
   "home_images": [
     {
-      "name": "双剑鞘",
-      "image": "0680-双剑鞘.png",
-      "shiny": "0680-双剑鞘-shiny.png"
+      "name": "雙劍鞘",
+      "image": "0680-雙劍鞘.png",
+      "shiny": "0680-雙劍鞘-shiny.png"
     }
   ]
 }

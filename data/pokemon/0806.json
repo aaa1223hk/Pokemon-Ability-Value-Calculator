@@ -1,45 +1,45 @@
 {
-  "name_zh": "砰头小丑",
+  "name_zh": "砰頭小丑",
   "name_ja": "ズガドーン",
   "name_en": "Blacephalon",
   "pokedex_id": "0806",
-  "description": "砰头小丑（日文︰ズガドーン，英文︰Blacephalon）是火属性／幽灵属性究极异兽。",
-  "profile": "砰头小丑是究极异兽的一种，代号为\"ＵＢ：爆炸\"。它有着与众不同的头部，黄色的眼睛位于头部两端，被两个粉色的和蓝色的六角星花纹包裹，布满头部的粉色和蓝色圆点连线连接着两只眼睛。头部下方是外翻的领子似的白色部位，边缘有皱褶，中央有一个小孔，下面是长长的蓝色黄色粉色条纹的脖颈和身子，脖子上还黏着一个白色小球。领子下还伸出两只分别是品红色和湖蓝色的手臂，末端带着小丑手套一样白色的手，手腕处有外翻花边。臀部后方同样黏着一个白色小球，似乎是它的尾巴。身体下方代表裤子的部位尖锐的末端连着白色的靴子，脚腕上方分别黏着一个品红色和一个湖蓝色的小球，颜色正好与那边的手臂颜色相反，脚跟处黏着一个白色小球，可以帮助保持平衡。\n砰头小丑是从究极之洞里出现的究极异兽。它会用爆炸吓唬对手，趁那空当夺走对方的生命气息。它的头部由不可思议的火花集合体形成，听说它可以随心所欲地把头部拿走或让其爆炸。它利用扭来扭去的滑稽样子让对手放下戒心并逐渐靠近，接着突然诱爆头部来惊吓对手。据说那时它便会趁机夺取生命气息，将其转换为自己的能量。",
-  "prototype": "砰头小丑是小丑和焰火的组合，可能也参考了无头人的传说以及小丑恐惧症。\n砰头小丑还可能来自荧光气球，它头上的点缀和荧光气球的LED灯的亮光相似，其中一些含有氢气的气球，对人极具危险性，容易爆炸。\n结合其在游戏和动画中的动作来看，砰头小丑的设计可能致敬了上世纪70和80年代流行经典，它的头部也像迪斯科舞厅的旋转灯球。",
+  "description": "砰頭小丑（日文︰ズガドーン，英文︰Blacephalon）是火屬性／幽靈屬性究極異獸。",
+  "profile": "砰頭小丑是究極異獸的一種，代號為\"ＵＢ：爆炸\"。它有著與眾不同的頭部，黃色的眼睛位於頭部兩端，被兩個粉色的和藍色的六角星花紋包裹，佈滿頭部的粉色和藍色圓點連線連線著兩隻眼睛。頭部下方是外翻的領子似的白色部位，邊緣有皺褶，中央有一個小孔，下面是長長的藍色黃色粉色條紋的脖頸和身子，脖子上還黏著一個白色小球。領子下還伸出兩隻分別是品紅色和湖藍色的手臂，末端帶著小丑手套一樣白色的手，手腕處有外翻花邊。臀部後方同樣黏著一個白色小球，似乎是它的尾巴。身體下方代表褲子的部位尖銳的末端連著白色的靴子，腳腕上方分別黏著一個品紅色和一個湖藍色的小球，顏色正好與那邊的手臂顏色相反，腳跟處黏著一個白色小球，可以幫助保持平衡。\n砰頭小丑是從究極之洞裡出現的究極異獸。它會用爆炸嚇唬對手，趁那空當奪走對方的生命氣息。它的頭部由不可思議的火花集合體形成，聽說它可以隨心所欲地把頭部拿走或讓其爆炸。它利用扭來扭去的滑稽樣子讓對手放下戒心並逐漸靠近，接著突然誘爆頭部來驚嚇對手。據說那時它便會趁機奪取生命氣息，將其轉換為自己的能量。",
+  "prototype": "砰頭小丑是小丑和焰火的組合，可能也參考了無頭人的傳說以及小丑恐懼症。\n砰頭小丑還可能來自熒光氣球，它頭上的點綴和熒光氣球的LED燈的亮光相似，其中一些含有氫氣的氣球，對人極具危險性，容易爆炸。\n結合其在遊戲和動畫中的動作來看，砰頭小丑的設計可能致敬了上世紀70和80年代流行經典，它的頭部也像迪斯科舞廳的旋轉燈球。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ズガドーン Zugadoon",
-      "origin": "来自“頭（ず）”（头）和“ドーン”（砰、轰，爆炸的拟声词）。"
+      "origin": "來自“頭（ず）”（頭）和“ドーン”（砰、轟，爆炸的擬聲詞）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "砰頭小丑砰头小丑",
-      "origin": "来自“砰”、“头”和“小丑”。"
+      "name": "砰頭小丑砰頭小丑",
+      "origin": "來自“砰”、“頭”和“小丑”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "砰頭小丑",
-      "origin": "来自“砰”、“头”和“小丑”。"
+      "origin": "來自“砰”、“頭”和“小丑”。"
     },
     {
       "language": "英文",
       "name": "Blacephalon",
-      "origin": "来自 blast（爆炸）和 encephalon（脑）。"
+      "origin": "來自 blast（爆炸）和 encephalon（腦）。"
     },
     {
       "language": "法文",
       "name": "Pierroteknik",
-      "origin": "来自 pierrot（丑角）和 pyrotechnique（烟火的）。"
+      "origin": "來自 pierrot（丑角）和 pyrotechnique（煙火的）。"
     },
     {
       "language": "德文",
       "name": "Kopplosio",
-      "origin": "来自 Kopf（头）和 Explosion （爆炸）。"
+      "origin": "來自 Kopf（頭）和 Explosion （爆炸）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Blacephalon",
       "origin": "同英文名。"
     },
@@ -49,22 +49,22 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "두파팡 Dupapang",
-      "origin": "来自“두〈頭〉”（头）和“팡”（砰、轰）。"
+      "origin": "來自“두〈頭〉”（頭）和“팡”（砰、轟）。"
     }
   ],
   "forms": [
     {
-      "name": "砰头小丑",
+      "name": "砰頭小丑",
       "types": [
         "火",
-        "幽灵"
+        "幽靈"
       ],
-      "category": "烟火宝可梦",
+      "category": "煙火寶可夢",
       "abilities": [
         {
-          "name": "异兽提升",
+          "name": "異獸提升",
           "is_hidden": false
         }
       ],
@@ -73,7 +73,7 @@
       "color": "白色",
       "catch_rate": "30（3.9%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -108,10 +108,10 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "120 孵化周期*（30840步）",
+      "egg_cycles": "120 孵化週期*（30840步）",
       "shape": "Body12.png",
       "footprint": "FUnknown.png",
-      "image": "0806-砰头小丑.png"
+      "image": "0806-砰頭小丑.png"
     }
   ],
   "stats": [
@@ -132,7 +132,7 @@
       "form": "",
       "types": [
         "火",
-        "幽灵"
+        "幽靈"
       ],
       "data": [
         {
@@ -140,11 +140,11 @@
           "damage": "0"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -160,15 +160,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.25"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -184,7 +184,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -196,11 +196,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -214,8 +214,8 @@
   "evolution_chains": [
     [
       {
-        "name": "砰头小丑",
-        "stage": "不进化",
+        "name": "砰頭小丑",
+        "stage": "不進化",
         "text": null,
         "image": "806Blacephalon_Dream.png",
         "back_text": null,
@@ -232,8 +232,8 @@
       "data": [
         {
           "level": "—",
-          "name": "惊吓",
-          "type": "幽灵",
+          "name": "驚嚇",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -241,7 +241,7 @@
         },
         {
           "level": "—",
-          "name": "火焰旋涡",
+          "name": "火焰旋渦",
           "type": "火",
           "category": "特殊",
           "power": "35",
@@ -250,9 +250,9 @@
         },
         {
           "level": "5",
-          "name": "光墙",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -269,17 +269,17 @@
         {
           "level": "15",
           "name": "黑夜魔影",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "20",
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -288,14 +288,14 @@
           "level": "25",
           "name": "魔法反射",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "30",
-          "name": "烧净",
+          "name": "燒淨",
           "type": "火",
           "category": "特殊",
           "power": "60",
@@ -304,9 +304,9 @@
         },
         {
           "level": "35",
-          "name": "催眠术",
+          "name": "催眠術",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "60",
           "pp": "20"
@@ -323,7 +323,7 @@
         {
           "level": "45",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -333,7 +333,7 @@
           "level": "50",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -342,16 +342,16 @@
           "level": "55",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
           "level": "60",
-          "name": "戏法",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -367,7 +367,7 @@
         },
         {
           "level": "70",
-          "name": "惊爆大头",
+          "name": "驚爆大頭",
           "type": "火",
           "category": "特殊",
           "power": "150",
@@ -382,7 +382,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０３",
+          "machine": "招式學習器０３",
           "name": "火焰拳",
           "type": "火",
           "category": "物理",
@@ -391,8 +391,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -400,7 +400,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１１",
+          "machine": "招式學習器１１",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -409,8 +409,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３",
-          "name": "火焰旋涡",
+          "machine": "招式學習器１３",
+          "name": "火焰旋渦",
           "type": "火",
           "category": "特殊",
           "power": "35",
@@ -418,16 +418,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１７",
-          "name": "光墙",
+          "machine": "招式學習器１７",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器２０",
+          "machine": "招式學習器２０",
           "name": "玉石俱碎",
           "type": "一般",
           "category": "物理",
@@ -436,25 +436,25 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２３",
+          "machine": "招式學習器２３",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -463,35 +463,35 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３４",
+          "machine": "招式學習器３４",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３８",
+          "machine": "招式學習器３８",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -499,8 +499,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器５４",
-          "name": "岩石爆击",
+          "machine": "招式學習器５４",
+          "name": "岩石爆擊",
           "type": "岩石",
           "category": "物理",
           "power": "25",
@@ -508,35 +508,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器５７",
-          "name": "以牙还牙",
-          "type": "恶",
+          "machine": "招式學習器５７",
+          "name": "以牙還牙",
+          "type": "惡",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器５９",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器５９",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６５",
+          "machine": "招式學習器６５",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -544,7 +544,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器９２",
+          "machine": "招式學習器９２",
           "name": "魔法火焰",
           "type": "火",
           "category": "特殊",
@@ -553,8 +553,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录０２",
-          "name": "喷射火焰",
+          "machine": "招式記錄０２",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -562,8 +562,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录１１",
-          "name": "精神强念",
+          "machine": "招式記錄１１",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -571,7 +571,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录１５",
+          "machine": "招式記錄１５",
           "name": "大字爆炎",
           "type": "火",
           "category": "特殊",
@@ -580,17 +580,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２５",
-          "name": "精神冲击",
+          "machine": "招式記錄２５",
+          "name": "精神衝擊",
           "type": "超能力",
           "category": "特殊",
           "power": "80",
@@ -598,44 +598,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３０",
-          "name": "再来一次",
+          "machine": "招式記錄３０",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式记录３３",
+          "machine": "招式記錄３３",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３５",
-          "name": "吵闹",
+          "machine": "招式記錄３５",
+          "name": "吵鬧",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -643,8 +643,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３６",
-          "name": "热风",
+          "machine": "招式記錄３６",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -652,26 +652,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄３７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录３８",
-          "name": "戏法",
+          "machine": "招式記錄３８",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录４３",
-          "name": "过热",
+          "machine": "招式記錄４３",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -679,26 +679,26 @@
           "pp": "5"
         },
         {
-          "machine": "招式记录４９",
+          "machine": "招式記錄４９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录５８",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式記錄５８",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录６９",
-          "name": "意念头锤",
+          "machine": "招式記錄６９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -706,17 +706,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录８１",
+          "machine": "招式記錄８１",
           "name": "移花接木",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "95",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录８２",
-          "name": "辅助力量",
+          "machine": "招式記錄８２",
+          "name": "輔助力量",
           "type": "超能力",
           "category": "特殊",
           "power": "20",
@@ -729,9 +729,9 @@
   "egg_moves": [],
   "home_images": [
     {
-      "name": "砰头小丑",
-      "image": "0806-砰头小丑.png",
-      "shiny": "0806-砰头小丑-shiny.png"
+      "name": "砰頭小丑",
+      "image": "0806-砰頭小丑.png",
+      "shiny": "0806-砰頭小丑-shiny.png"
     }
   ]
 }

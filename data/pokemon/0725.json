@@ -3,53 +3,53 @@
   "name_ja": "ニャビー",
   "name_en": "Litten",
   "pokedex_id": "0725",
-  "description": "火斑喵（日文︰ニャビー，英文︰Litten）是火属性宝可梦，是阿罗拉地区最初的伙伴之一。",
-  "profile": "火斑喵是小猫型的宝可梦，全身毛发为黑色。它的面部长著红色的斑纹和胡须，四肢也有红色条纹。火斑喵有一双黄色的眼睛，尾巴末端有些许刺状的毛。\n火斑喵经常用舌头舔舔身体来打理毛发，并通过此举收集掉落的毛。它的毛含有油分，因此十分易燃。火斑喵一年要换两次毛，到了换毛的时候会用火点燃自己的身体，烧掉旧毛。它还会将积在腹中的落毛燃烧，喷出火焰攻击。根据吐毛的方式不同，火焰也会变化。火斑喵总是表现得很冷静，独自生活，不会将情感挂在脸上。要取得它的信任，得花点时间。它如果被纠缠不休，就不会再打开心扉。即使亲近起来，过多的亲密接触也是禁忌。如果在得到火斑喵的信任前就想抚摸它的话，要小心它用尖锐的爪子抓你。但是，当训练家和伙伴陷入紧急关头时，它也会使出全力拯救大家。",
-  "prototype": "火斑喵的原型为虎斑猫。",
+  "description": "火斑喵（日文︰ニャビー，英文︰Litten）是火屬性寶可夢，是阿羅拉地區最初的夥伴之一。",
+  "profile": "火斑喵是小貓型的寶可夢，全身毛髮為黑色。它的面部長著紅色的斑紋和鬍鬚，四肢也有紅色條紋。火斑喵有一雙黃色的眼睛，尾巴末端有些許刺狀的毛。\n火斑喵經常用舌頭舔舔身體來打理毛髮，並透過此舉收集掉落的毛。它的毛含有油分，因此十分易燃。火斑喵一年要換兩次毛，到了換毛的時候會用火點燃自己的身體，燒掉舊毛。它還會將積在腹中的落毛燃燒，噴出火焰攻擊。根據吐毛的方式不同，火焰也會變化。火斑喵總是表現得很冷靜，獨自生活，不會將情感掛在臉上。要取得它的信任，得花點時間。它如果被糾纏不休，就不會再開啟心扉。即使親近起來，過多的親密接觸也是禁忌。如果在得到火斑喵的信任前就想撫摸它的話，要小心它用尖銳的爪子抓你。但是，當訓練家和夥伴陷入緊急關頭時，它也會使出全力拯救大家。",
+  "prototype": "火斑喵的原型為虎斑貓。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ニャビー Nyabby",
-      "origin": "来自“ニャー”（喵喵声）、“火（ひ）”（火）和英文 tabby（虎斑猫）。"
+      "origin": "來自“ニャー”（喵喵聲）、“火（ひ）”（火）和英文 tabby（虎斑貓）。"
     },
     {
       "language": "中文-任天堂",
       "name": "火斑喵",
-      "origin": "来自“火”、“虎斑猫”和“喵”。"
+      "origin": "來自“火”、“虎斑貓”和“喵”。"
     },
     {
-      "language": "中文-大陆",
+      "language": "中文-大陸",
       "name": "火斑喵",
-      "origin": "来自“火”、“虎斑猫”和“喵”。"
+      "origin": "來自“火”、“虎斑貓”和“喵”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "火斑喵",
-      "origin": "来自“火”、“虎斑猫”和“喵”。"
+      "origin": "來自“火”、“虎斑貓”和“喵”。"
     },
     {
       "language": "中文-香港",
       "name": "火斑喵",
-      "origin": "来自“火”、“虎斑猫”和“喵”。"
+      "origin": "來自“火”、“虎斑貓”和“喵”。"
     },
     {
       "language": "英文",
       "name": "Litten",
-      "origin": "来自 lit（点燃）和 kitten（小猫）。"
+      "origin": "來自 lit（點燃）和 kitten（小貓）。"
     },
     {
       "language": "法文",
       "name": "Flamiaou‎‎",
-      "origin": "来自 flamme（火焰）和 miaou（喵）。"
+      "origin": "來自 flamme（火焰）和 miaou（喵）。"
     },
     {
       "language": "德文",
       "name": "Flamiau",
-      "origin": "来自 Flamme（火焰）和 Miau（喵）。"
+      "origin": "來自 Flamme（火焰）和 Miau（喵）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Litten",
       "origin": "同英文名。"
     },
@@ -59,9 +59,9 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "냐오불 Nyaobul",
-      "origin": "来自“야옹”（喵喵声）和“불”（火）。"
+      "origin": "來自“야옹”（喵喵聲）和“불”（火）。"
     }
   ],
   "forms": [
@@ -70,25 +70,25 @@
       "types": [
         "火"
       ],
-      "category": "火猫宝可梦",
+      "category": "火貓寶可夢",
       "abilities": [
         {
           "name": "猛火",
           "is_hidden": false
         },
         {
-          "name": "威吓",
+          "name": "威嚇",
           "is_hidden": true
         }
       ],
       "height": "0.4m",
       "weight": "4.3kg",
-      "color": "红色",
+      "color": "紅色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "陆上群"
+        "陸上群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -121,7 +121,7 @@
         "male": 87.5,
         "female": 12.5
       },
-      "egg_cycles": "15 孵化周期（3855步）",
+      "egg_cycles": "15 孵化週期（3855步）",
       "shape": "Body08.png",
       "footprint": "FUnknown.png",
       "image": "0725-火斑喵.png"
@@ -152,11 +152,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -172,15 +172,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -196,7 +196,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -208,11 +208,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -227,14 +227,14 @@
       "name": "第七世代",
       "versions": [
         {
-          "name": "太阳",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "通过理毛然后将积在腹中的落毛燃烧，喷出火焰。根据吐毛的方式不同，火焰也会变化。"
+          "name": "太陽",
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "透過理毛然後將積在腹中的落毛燃燒，噴出火焰。根據吐毛的方式不同，火焰也會變化。"
         },
         {
           "name": "月亮",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "喜欢不流露感情，独自生活。要取得它的信任，得花点时间。"
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "喜歡不流露感情，獨自生活。要取得它的信任，得花點時間。"
         }
       ]
     },
@@ -242,14 +242,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "一有时间就会去舔身体整理毛发。会燃烧积在腹中的落毛来使出火属性招式。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "一有時間就會去舔身體整理毛髮。會燃燒積在腹中的落毛來使出火屬性招式。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "如果在得到火斑喵的信任前就想抚摸它的话，要小心它用尖锐的爪子抓你。"
+          "group": "寶可夢 劍／盾",
+          "text": "如果在得到火斑喵的信任前就想撫摸它的話，要小心它用尖銳的爪子抓你。"
         }
       ]
     },
@@ -258,13 +258,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "如果被纠缠不休，就不会再打开心扉。即使亲近起来，过多的亲密接触也是禁忌。"
+          "group": "寶可夢 朱／紫",
+          "text": "如果被糾纏不休，就不會再開啟心扉。即使親近起來，過多的親密接觸也是禁忌。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "通过理毛然后将积在腹中的落毛燃烧，喷出火焰。根据吐毛的方式不同，火焰也会变化。"
+          "group": "寶可夢 朱／紫",
+          "text": "透過理毛然後將積在腹中的落毛燃燒，噴出火焰。根據吐毛的方式不同，火焰也會變化。"
         }
       ]
     }
@@ -273,7 +273,7 @@
     [
       {
         "name": "火斑喵",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "725Litten_Dream.png",
         "back_text": null,
@@ -281,21 +281,21 @@
         "form_name": null
       },
       {
-        "name": "炎热喵",
-        "stage": "1阶进化",
-        "text": "等级17以上",
+        "name": "炎熱喵",
+        "stage": "1階進化",
+        "text": "等級17以上",
         "image": "726Torracat_Dream.png",
         "back_text": null,
         "from": "火斑喵",
         "form_name": null
       },
       {
-        "name": "炽焰咆哮虎",
-        "stage": "2阶进化",
-        "text": "等级34以上",
+        "name": "熾焰咆哮虎",
+        "stage": "2階進化",
+        "text": "等級34以上",
         "image": "727Incineroar_Dream.png",
         "back_text": null,
-        "from": "炎热喵",
+        "from": "炎熱喵",
         "form_name": null
       }
     ]
@@ -317,9 +317,9 @@
         },
         {
           "level": "—",
-          "name": "叫声",
+          "name": "叫聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "40"
@@ -336,7 +336,7 @@
         {
           "level": "6",
           "name": "舌舔",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -346,14 +346,14 @@
           "level": "9",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "12",
-          "name": "乱抓",
+          "name": "亂抓",
           "type": "一般",
           "category": "物理",
           "power": "18",
@@ -363,7 +363,7 @@
         {
           "level": "15",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -371,8 +371,8 @@
         },
         {
           "level": "18",
-          "name": "二连踢",
-          "type": "格斗",
+          "name": "二連踢",
+          "type": "格鬥",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -391,23 +391,23 @@
           "level": "24",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "27",
-          "name": "虚张声势",
+          "name": "虛張聲勢",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
           "level": "30",
-          "name": "喷射火焰",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -416,7 +416,7 @@
         },
         {
           "level": "33",
-          "name": "大闹一番",
+          "name": "大鬧一番",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -425,7 +425,7 @@
         },
         {
           "level": "36",
-          "name": "闪焰冲锋",
+          "name": "閃焰衝鋒",
           "type": "火",
           "category": "物理",
           "power": "120",
@@ -440,7 +440,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -449,25 +449,25 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００８",
+          "machine": "招式學習器００８",
           "name": "火焰牙",
           "type": "火",
           "category": "物理",
@@ -476,16 +476,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２０",
+          "machine": "招式學習器０２０",
           "name": "起草",
           "type": "草",
           "category": "物理",
@@ -494,8 +494,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２４",
-          "name": "火焰旋涡",
+          "machine": "招式學習器０２４",
+          "name": "火焰旋渦",
           "type": "火",
           "category": "特殊",
           "power": "35",
@@ -503,8 +503,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -512,8 +512,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３８",
-          "name": "蓄能焰袭",
+          "machine": "招式學習器０３８",
+          "name": "蓄能焰襲",
           "type": "火",
           "category": "物理",
           "power": "50",
@@ -521,53 +521,53 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６１",
+          "machine": "招式學習器０６１",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６４",
+          "machine": "招式學習器０６４",
           "name": "健美",
-          "type": "格斗",
-          "category": "变化",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -575,80 +575,80 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８８",
-          "name": "剑舞",
+          "machine": "招式學習器０８８",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９５",
+          "machine": "招式學習器０９５",
           "name": "汲取",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０７",
+          "machine": "招式學習器１０７",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０８",
+          "machine": "招式學習器１０８",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１８",
-          "name": "热风",
+          "machine": "招式學習器１１８",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -656,8 +656,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２５",
-          "name": "喷射火焰",
+          "machine": "招式學習器１２５",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -665,25 +665,25 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１４０",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器１４０",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１４１",
+          "machine": "招式學習器１４１",
           "name": "大字爆炎",
           "type": "火",
           "category": "特殊",
@@ -692,8 +692,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４４",
-          "name": "火之誓约",
+          "machine": "招式學習器１４４",
+          "name": "火之誓約",
           "type": "火",
           "category": "特殊",
           "power": "80",
@@ -701,17 +701,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５６",
-          "name": "逆鳞",
-          "type": "龙",
+          "machine": "招式學習器１５６",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５７",
-          "name": "过热",
+          "machine": "招式學習器１５７",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -719,8 +719,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６５",
-          "name": "闪焰冲锋",
+          "machine": "招式學習器１６５",
+          "name": "閃焰衝鋒",
           "type": "火",
           "category": "物理",
           "power": "120",
@@ -728,8 +728,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -737,17 +737,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７２",
+          "machine": "招式學習器１７２",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -755,16 +755,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２０５",
-          "name": "蛮干",
+          "machine": "招式學習器２０５",
+          "name": "蠻幹",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器２０７",
+          "machine": "招式學習器２０７",
           "name": "豁出去",
           "type": "火",
           "category": "物理",
@@ -795,15 +795,15 @@
             },
             {
               "id": "053",
-              "name": "猫老大"
+              "name": "貓老大"
             },
             {
               "id": "0053A",
-              "name": "猫老大"
+              "name": "貓老大"
             },
             {
               "id": "0274",
-              "name": "长鼻叶"
+              "name": "長鼻葉"
             },
             {
               "id": "0619",
@@ -811,7 +811,7 @@
             },
             {
               "id": "0620",
-              "name": "师父鼬"
+              "name": "師父鼬"
             },
             {
               "id": "0677",
@@ -823,10 +823,10 @@
             },
             {
               "id": "0863",
-              "name": "喵头目"
+              "name": "喵頭目"
             }
           ],
-          "name": "击掌奇袭",
+          "name": "擊掌奇襲",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -844,9 +844,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "抛下狠话",
-          "type": "恶",
-          "category": "变化",
+          "name": "拋下狠話",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -855,27 +855,27 @@
           "parents": [
             {
               "id": "0335",
-              "name": "猫鼬斩"
+              "name": "貓鼬斬"
             },
             {
               "id": "0551",
-              "name": "黑眼鳄"
+              "name": "黑眼鱷"
             },
             {
               "id": "0552",
-              "name": "混混鳄"
+              "name": "混混鱷"
             },
             {
               "id": "0553",
-              "name": "流氓鳄"
+              "name": "流氓鱷"
             },
             {
               "id": "0877",
-              "name": "莫鲁贝可"
+              "name": "莫魯貝可"
             }
           ],
-          "name": "嚣张",
-          "type": "恶",
+          "name": "囂張",
+          "type": "惡",
           "category": "物理",
           "power": "20",
           "accuracy": "100",

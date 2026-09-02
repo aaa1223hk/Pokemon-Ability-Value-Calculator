@@ -1,55 +1,55 @@
 {
-  "name_zh": "齿轮儿",
+  "name_zh": "齒輪兒",
   "name_ja": "ギアル",
   "name_en": "Klink",
   "pokedex_id": "0599",
-  "description": "齿轮儿（日文︰ギアル，英文︰Klink）是钢属性宝可梦。它的设计者是森次庆子。",
-  "profile": "齿轮儿由2个齿轮组成，每个齿轮上有6个锯齿，齿轮盘上有类似眼睛和嘴巴的图案。左边的齿轮顺时针旋转，右边的则是逆时针旋转。\n齿轮儿两个身体是定好了的，比双胞胎还要亲近，要是换成别的齿轮就没有办法很好的咬合而会分离。它通过两个身体（即齿轮）的咬合旋转，制造出用以生存的能量。据说在很久以前，看到了齿轮儿的人根据齿轮儿发明了齿轮。",
-  "prototype": "外表基于齿轮。",
-  "detail": "齿轮儿是合众十二星座之一，代表了现实中的双子宫。\n在《剑／盾》中，因为细化了宝可梦在活动时的声音，齿轮儿在进行攻击动作或者是抛起齿轮的动作时会产生一种金属碰撞的声音。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步齿轮儿（Pokémon GO）。\n←\nNo.0598：坚果哑铃\n宝可梦\nNo.0600：齿轮组\n→",
+  "description": "齒輪兒（日文︰ギアル，英文︰Klink）是鋼屬性寶可夢。它的設計者是森次慶子。",
+  "profile": "齒輪兒由2個齒輪組成，每個齒輪上有6個鋸齒，齒輪盤上有類似眼睛和嘴巴的圖案。左邊的齒輪順時針旋轉，右邊的則是逆時針旋轉。\n齒輪兒兩個身體是定好了的，比雙胞胎還要親近，要是換成別的齒輪就沒有辦法很好的咬合而會分離。它透過兩個身體（即齒輪）的咬合旋轉，製造出用以生存的能量。據說在很久以前，看到了齒輪兒的人根據齒輪兒發明了齒輪。",
+  "prototype": "外表基於齒輪。",
+  "detail": "齒輪兒是合眾十二星座之一，代表了現實中的雙子宮。\n在《劍／盾》中，因為細化了寶可夢在活動時的聲音，齒輪兒在進行攻擊動作或者是拋起齒輪的動作時會產生一種金屬碰撞的聲音。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步齒輪兒（Pokémon GO）。\n←\nNo.0598：堅果啞鈴\n寶可夢\nNo.0600：齒輪組\n→",
   "names": [
     {
       "language": "日文",
       "name": "ギアル Giaru",
-      "origin": "来自英文 gear（齿轮）。"
+      "origin": "來自英文 gear（齒輪）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "齒輪兒齿轮儿",
-      "origin": "来自“齿轮”和“儿”。"
+      "name": "齒輪兒齒輪兒",
+      "origin": "來自“齒輪”和“兒”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "齿轮儿",
-      "origin": "来自“齿轮”和“儿”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "齒輪兒",
-      "origin": "来自“齿轮”和“儿”。"
+      "origin": "來自“齒輪”和“兒”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "齒輪兒",
+      "origin": "來自“齒輪”和“兒”。"
     },
     {
       "language": "中文-香港",
       "name": "齒輪兒",
-      "origin": "来自“齿轮”和“儿”。"
+      "origin": "來自“齒輪”和“兒”。"
     },
     {
       "language": "英文",
       "name": "Klink",
-      "origin": "来自 clink（叮当声）。"
+      "origin": "來自 clink（叮噹聲）。"
     },
     {
       "language": "法文",
       "name": "Tic",
-      "origin": "来自 tic-tac（滴答声）。"
+      "origin": "來自 tic-tac（滴答聲）。"
     },
     {
       "language": "德文",
       "name": "Klikk",
-      "origin": "来自 Klik（喀嚓声）。"
+      "origin": "來自 Klik（喀嚓聲）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Klink",
       "origin": "同英文名。"
     },
@@ -59,29 +59,29 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "기어르 Gigiaru",
-      "origin": "来自英文 gear（齿轮）。"
+      "origin": "來自英文 gear（齒輪）。"
     }
   ],
   "forms": [
     {
-      "name": "齿轮儿",
+      "name": "齒輪兒",
       "types": [
-        "钢"
+        "鋼"
       ],
-      "category": "齿轮宝可梦",
+      "category": "齒輪寶可夢",
       "abilities": [
         {
-          "name": "正电",
+          "name": "正電",
           "is_hidden": false
         },
         {
-          "name": "负电",
+          "name": "負電",
           "is_hidden": false
         },
         {
-          "name": "恒净之躯",
+          "name": "恆淨之軀",
           "is_hidden": true
         }
       ],
@@ -90,9 +90,9 @@
       "color": "灰色",
       "catch_rate": "130（17%）",
       "egg_groups": [
-        "矿物群"
+        "礦物群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -125,10 +125,10 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body11.png",
       "footprint": "Fnone.png",
-      "image": "0599-齿轮儿.png"
+      "image": "0599-齒輪兒.png"
     }
   ],
   "stats": [
@@ -148,7 +148,7 @@
     {
       "form": "",
       "types": [
-        "钢"
+        "鋼"
       ],
       "data": [
         {
@@ -156,11 +156,11 @@
           "damage": "0.5"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -176,15 +176,15 @@
           "damage": "0.5"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -200,7 +200,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -212,11 +212,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "0.5"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -232,13 +232,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "２个身体的组合是定好了的。和别的身体不会咬合会分离。"
+          "group": "寶可夢 黑／白",
+          "text": "２個身體的組合是定好了的。和別的身體不會咬合會分離。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "通过２个身体的咬合旋转，制造出用以生存的能量。"
+          "group": "寶可夢 黑／白",
+          "text": "透過２個身體的咬合旋轉，製造出用以生存的能量。"
         }
       ]
     },
@@ -247,23 +247,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "通过２个身体的咬合旋转，制造出用以生存的能量。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "透過２個身體的咬合旋轉，製造出用以生存的能量。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "２个身体的组合是定好了的。和别的身体不会咬合会分离。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "２個身體的組合是定好了的。和別的身體不會咬合會分離。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "通过２个身体的咬合旋转，制造出用以生存的能量。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "透過２個身體的咬合旋轉，製造出用以生存的能量。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "２个身体的组合是定好了的。和别的身体不会咬合会分离。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "２個身體的組合是定好了的。和別的身體不會咬合會分離。"
         }
       ]
     },
@@ -271,14 +271,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "２个身体比双胞胎还要亲近。要是换成别的齿轮儿。就没有办法好好咬合。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "２個身體比雙胞胎還要親近。要是換成別的齒輪兒。就沒有辦法好好咬合。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "据说在很久以前，是看到了齿轮儿的人发明了齿轮的构造。"
+          "group": "寶可夢 劍／盾",
+          "text": "據說在很久以前，是看到了齒輪兒的人發明了齒輪的構造。"
         }
       ]
     }
@@ -286,8 +286,8 @@
   "evolution_chains": [
     [
       {
-        "name": "齿轮儿",
-        "stage": "未进化",
+        "name": "齒輪兒",
+        "stage": "未進化",
         "text": null,
         "image": "599Klink_Dream.png",
         "back_text": null,
@@ -295,21 +295,21 @@
         "form_name": null
       },
       {
-        "name": "齿轮组",
-        "stage": "1阶进化",
-        "text": "等级38以上",
+        "name": "齒輪組",
+        "stage": "1階進化",
+        "text": "等級38以上",
         "image": "600Klang_Dream.png",
         "back_text": null,
-        "from": "齿轮儿",
+        "from": "齒輪兒",
         "form_name": null
       },
       {
-        "name": "齿轮怪",
-        "stage": "2阶进化",
-        "text": "等级49以上",
+        "name": "齒輪怪",
+        "stage": "2階進化",
+        "text": "等級49以上",
         "image": "601Klinklang_Dream.png",
         "back_text": null,
-        "from": "齿轮组",
+        "from": "齒輪組",
         "form_name": null
       }
     ]
@@ -322,8 +322,8 @@
       "data": [
         {
           "level": "—",
-          "name": "电击",
-          "type": "电",
+          "name": "電擊",
+          "type": "電",
           "category": "特殊",
           "power": "40",
           "accuracy": "100",
@@ -331,7 +331,7 @@
         },
         {
           "level": "—",
-          "name": "夹住",
+          "name": "夾住",
           "type": "一般",
           "category": "物理",
           "power": "55",
@@ -340,7 +340,7 @@
         },
         {
           "level": "4",
-          "name": "绑紧",
+          "name": "綁緊",
           "type": "一般",
           "category": "物理",
           "power": "15",
@@ -349,17 +349,17 @@
         },
         {
           "level": "8",
-          "name": "充电",
-          "type": "电",
-          "category": "变化",
+          "name": "充電",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "12",
-          "name": "充电光束",
-          "type": "电",
+          "name": "充電光束",
+          "type": "電",
           "category": "特殊",
           "power": "50",
           "accuracy": "90",
@@ -367,26 +367,26 @@
         },
         {
           "level": "16",
-          "name": "金属音",
-          "type": "钢",
-          "category": "变化",
+          "name": "金屬音",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
           "level": "20",
-          "name": "身体轻量化",
-          "type": "钢",
-          "category": "变化",
+          "name": "身體輕量化",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "24",
-          "name": "放电",
-          "type": "电",
+          "name": "放電",
+          "type": "電",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -394,17 +394,17 @@
         },
         {
           "level": "28",
-          "name": "刺耳声",
+          "name": "刺耳聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
           "level": "32",
-          "name": "齿轮飞盘",
-          "type": "钢",
+          "name": "齒輪飛盤",
+          "type": "鋼",
           "category": "物理",
           "power": "50",
           "accuracy": "85",
@@ -412,26 +412,26 @@
         },
         {
           "level": "36",
-          "name": "锁定",
+          "name": "鎖定",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "40",
-          "name": "换档",
-          "type": "钢",
-          "category": "变化",
+          "name": "換檔",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "44",
-          "name": "电磁炮",
-          "type": "电",
+          "name": "電磁炮",
+          "type": "電",
           "category": "特殊",
           "power": "120",
           "accuracy": "50",
@@ -439,7 +439,7 @@
         },
         {
           "level": "48",
-          "name": "破坏光线",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -454,8 +454,8 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -463,34 +463,34 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１４",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１６",
-          "name": "刺耳声",
+          "machine": "招式學習器１６",
+          "name": "刺耳聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -499,26 +499,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３２",
+          "machine": "招式學習器３２",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -526,17 +526,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器５８",
-          "name": "恶意追击",
-          "type": "恶",
+          "machine": "招式學習器５８",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -544,53 +544,53 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器８０",
-          "name": "伏特替换",
-          "type": "电",
+          "machine": "招式學習器８０",
+          "name": "伏特替換",
+          "type": "電",
           "category": "特殊",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录０８",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式記錄０８",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３５",
-          "name": "吵闹",
+          "machine": "招式記錄３５",
+          "name": "吵鬧",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -598,17 +598,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录４６",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式記錄４６",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式记录６３",
-          "name": "力量宝石",
+          "machine": "招式記錄６３",
+          "name": "力量寶石",
           "type": "岩石",
           "category": "特殊",
           "power": "80",
@@ -616,18 +616,18 @@
           "pp": "20"
         },
         {
-          "machine": "招式记录７０",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式記錄７０",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录８６",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式記錄８６",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
@@ -639,9 +639,9 @@
   "egg_moves": [],
   "home_images": [
     {
-      "name": "齿轮儿",
-      "image": "0599-齿轮儿.png",
-      "shiny": "0599-齿轮儿-shiny.png"
+      "name": "齒輪兒",
+      "image": "0599-齒輪兒.png",
+      "shiny": "0599-齒輪兒-shiny.png"
     }
   ]
 }

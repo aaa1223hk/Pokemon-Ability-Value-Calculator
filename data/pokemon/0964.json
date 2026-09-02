@@ -1,45 +1,45 @@
 {
-  "name_zh": "海豚侠",
+  "name_zh": "海豚俠",
   "name_ja": "イルカマン",
   "name_en": "Palafin",
   "pokedex_id": "0964",
-  "description": "海豚侠（日文︰イルカマン，英文︰Palafin）是水属性宝可梦。",
-  "profile": "平凡形态的海豚侠体能与波普海豚差不多，可一旦伙伴陷入了危机，就会变身来提高自己的力量。只要听见伙伴求助的声音，它就会改变自己的样子。那瞬间绝不会让谁看见。\n全能形态的海豚侠是太古基因觉醒之后的样子。力气之大，用单边的鳍就能轻松举起游轮。它会以50节的游泳速度去救助溺水的人类和宝可梦，是大海的英雄。",
-  "prototype": "海豚侠可能基于海豚和变身型超级英雄的结合。其特性全能变身可能参考了早期漫画中超人在电话亭内换装的设定。\n平凡形态的海豚侠与波普海豚外表几乎相同，这可能基于一些超级英雄平时会以普通人的身份生活，特殊时刻才会成为英雄。\n海豚和超级英雄的组合可能参考了海豚救助人类的传闻。\n波普海豚在38级进化为海豚侠的设定，可能源于超人初登场的《动作漫画》是在1938年6月创刊的。\n海豚侠的形态变化亦可能参考了葡萄牙语国家流传的粉红色亚马逊河豚（Boto cor-de-rosa）变身故事，其胸部的红色心形图案可能包含葡萄牙语“（通体）粉红色”与“桃心”的图文双关语（二者在现代葡萄牙语中都拼作cor de rosa）。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步海豚侠（Pokémon GO）。\n←\nNo.0963：波普海豚\n宝可梦\nNo.0965：噗隆隆\n→",
+  "description": "海豚俠（日文︰イルカマン，英文︰Palafin）是水屬性寶可夢。",
+  "profile": "平凡形態的海豚俠體能與波普海豚差不多，可一旦夥伴陷入了危機，就會變身來提高自己的力量。只要聽見夥伴求助的聲音，它就會改變自己的樣子。那瞬間絕不會讓誰看見。\n全能形態的海豚俠是太古基因覺醒之後的樣子。力氣之大，用單邊的鰭就能輕鬆舉起遊輪。它會以50節的游泳速度去救助溺水的人類和寶可夢，是大海的英雄。",
+  "prototype": "海豚俠可能基於海豚和變身型超級英雄的結合。其特性全能變身可能參考了早期漫畫中超人在電話亭內換裝的設定。\n平凡形態的海豚俠與波普海豚外表幾乎相同，這可能基於一些超級英雄平時會以普通人的身份生活，特殊時刻才會成為英雄。\n海豚和超級英雄的組合可能參考了海豚救助人類的傳聞。\n波普海豚在38級進化為海豚俠的設定，可能源於超人初登場的《動作漫畫》是在1938年6月創刊的。\n海豚俠的形態變化亦可能參考了葡萄牙語國家流傳的粉紅色亞馬遜河豚（Boto cor-de-rosa）變身故事，其胸部的紅色心形圖案可能包含葡萄牙語“（通體）粉紅色”與“桃心”的圖文雙關語（二者在現代葡萄牙語中都拼作cor de rosa）。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步海豚俠（Pokémon GO）。\n←\nNo.0963：波普海豚\n寶可夢\nNo.0965：噗隆隆\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "イルカマン Irukaman",
-      "origin": "来自“海豚（いるか）”（海豚）和英文 man（人；超级英雄名称常用后缀）。"
+      "origin": "來自“海豚（いるか）”（海豚）和英文 man（人；超級英雄名稱常用字尾）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "海豚俠海豚侠",
-      "origin": "来自“海豚”和“侠”（多用于超级英雄名称的中文翻译）。"
+      "name": "海豚俠海豚俠",
+      "origin": "來自“海豚”和“俠”（多用於超級英雄名稱的中文翻譯）。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "海豚俠",
-      "origin": "来自“海豚”和“侠”。"
+      "origin": "來自“海豚”和“俠”。"
     },
     {
       "language": "英文",
       "name": "Palafin",
-      "origin": "来自 paladin（圣骑士）和 dolphin（海豚）。"
+      "origin": "來自 paladin（聖騎士）和 dolphin（海豚）。"
     },
     {
       "language": "法文",
       "name": "Superdofin",
-      "origin": "来自 super（超级，用于超级英雄命名）和 dauphin（海豚）。"
+      "origin": "來自 super（超級，用於超級英雄命名）和 dauphin（海豚）。"
     },
     {
       "language": "德文",
       "name": "Delfinator",
-      "origin": "来自 Delfin（海豚）和 Terminator（终结者）。"
+      "origin": "來自 Delfin（海豚）和 Terminator（終結者）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Palafin",
       "origin": "同英文名。"
     },
@@ -49,30 +49,30 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "돌핀맨 Dolpinmaen",
-      "origin": "来自英文 dolphin（海豚）和英文 man（人；超级英雄名称常用后缀）。"
+      "origin": "來自英文 dolphin（海豚）和英文 man（人；超級英雄名稱常用字尾）。"
     }
   ],
   "forms": [
     {
-      "name": "平凡形态",
+      "name": "平凡形態",
       "types": [
         "水"
       ],
-      "category": "海豚宝可梦",
+      "category": "海豚寶可夢",
       "abilities": [
         {
-          "name": "全能变身",
+          "name": "全能變身",
           "is_hidden": false
         }
       ],
       "height": "1.3m",
       "weight": "60.2kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "陆上",
+        "陸上",
         "水中2群"
       ],
       "experience_100": "1,250,000（慢）",
@@ -108,29 +108,29 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "40 孵化周期（10280步）",
+      "egg_cycles": "40 孵化週期（10280步）",
       "shape": "Body03.png",
       "footprint": "FUnknown.png",
-      "image": "0964-海豚侠-平凡形态.png"
+      "image": "0964-海豚俠-平凡形態.png"
     },
     {
-      "name": "全能形态",
+      "name": "全能形態",
       "types": [
         "水"
       ],
-      "category": "英雄宝可梦",
+      "category": "英雄寶可夢",
       "abilities": [
         {
-          "name": "全能变身",
+          "name": "全能變身",
           "is_hidden": false
         }
       ],
       "height": "1.8m",
       "weight": "97.4kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "陆上",
+        "陸上",
         "水中2群"
       ],
       "experience_100": "1,250,000（慢）",
@@ -166,15 +166,15 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "40 孵化周期（10280步）",
+      "egg_cycles": "40 孵化週期（10280步）",
       "shape": "Body12.png",
       "footprint": "FUnknown.png",
-      "image": "0964-海豚侠-全能形态.png"
+      "image": "0964-海豚俠-全能形態.png"
     }
   ],
   "stats": [
     {
-      "form": "平凡形态",
+      "form": "平凡形態",
       "data": {
         "hp": "100",
         "attack": "70",
@@ -185,7 +185,7 @@
       }
     },
     {
-      "form": "全能形态",
+      "form": "全能形態",
       "data": {
         "hp": "100",
         "attack": "160",
@@ -208,11 +208,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -228,15 +228,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -252,7 +252,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -264,11 +264,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -284,13 +284,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "只要听见伙伴求助的声音，它就会改变自己的样子。那瞬间绝不会让谁看见。（平凡形态）太古基因觉醒之后的样子。力气之大，用单边的鳍就能轻松举起游轮。（全能形态）"
+          "group": "寶可夢 朱／紫",
+          "text": "只要聽見夥伴求助的聲音，它就會改變自己的樣子。那瞬間絕不會讓誰看見。（平凡形態）太古基因覺醒之後的樣子。力氣之大，用單邊的鰭就能輕鬆舉起遊輪。（全能形態）"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "体能与波普海豚差不多，可一旦伙伴陷入了危机，就会变身来提高自己的力量。（平凡形态）会以５０节的游泳速度去救助溺水的人类和宝可梦。是大海的英雄。（全能形态）"
+          "group": "寶可夢 朱／紫",
+          "text": "體能與波普海豚差不多，可一旦夥伴陷入了危機，就會變身來提高自己的力量。（平凡形態）會以５０節的游泳速度去救助溺水的人類和寶可夢。是大海的英雄。（全能形態）"
         }
       ]
     }
@@ -299,7 +299,7 @@
     [
       {
         "name": "波普海豚",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "963Finizen_Dream.png",
         "back_text": null,
@@ -307,9 +307,9 @@
         "form_name": null
       },
       {
-        "name": "海豚侠",
-        "stage": "1阶进化",
-        "text": "等级38以上（在联机游玩中）",
+        "name": "海豚俠",
+        "stage": "1階進化",
+        "text": "等級38以上（在聯機遊玩中）",
         "image": "964Palafin-Zero_Dream.png",
         "back_text": null,
         "from": "波普海豚",
@@ -324,7 +324,7 @@
       "form": "一般",
       "data": [
         {
-          "level": "进化",
+          "level": "進化",
           "name": "快速折返",
           "type": "水",
           "category": "物理",
@@ -334,7 +334,7 @@
         },
         {
           "level": "—",
-          "name": "喷射拳",
+          "name": "噴射拳",
           "type": "水",
           "category": "物理",
           "power": "60",
@@ -345,14 +345,14 @@
           "level": "—",
           "name": "超音波",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "55",
           "pp": "20"
         },
         {
           "level": "—",
-          "name": "水枪",
+          "name": "水槍",
           "type": "水",
           "category": "特殊",
           "power": "40",
@@ -361,8 +361,8 @@
         },
         {
           "level": "7",
-          "name": "惊吓",
-          "type": "幽灵",
+          "name": "驚嚇",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -370,16 +370,16 @@
         },
         {
           "level": "10",
-          "name": "聚气",
+          "name": "聚氣",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "13",
-          "name": "水流喷射",
+          "name": "水流噴射",
           "type": "水",
           "category": "物理",
           "power": "40",
@@ -388,7 +388,7 @@
         },
         {
           "level": "17",
-          "name": "二连击",
+          "name": "二連擊",
           "type": "一般",
           "category": "物理",
           "power": "35",
@@ -397,7 +397,7 @@
         },
         {
           "level": "21",
-          "name": "潜水",
+          "name": "潛水",
           "type": "水",
           "category": "物理",
           "power": "80",
@@ -406,17 +406,17 @@
         },
         {
           "level": "25",
-          "name": "撒娇",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "29",
-          "name": "杂技",
-          "type": "飞行",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
@@ -424,9 +424,9 @@
         },
         {
           "level": "34",
-          "name": "再来一次",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
@@ -442,9 +442,9 @@
         },
         {
           "level": "44",
-          "name": "白雾",
+          "name": "白霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -460,8 +460,8 @@
         },
         {
           "level": "55",
-          "name": "真气拳",
-          "type": "格斗",
+          "name": "真氣拳",
+          "type": "格鬥",
           "category": "物理",
           "power": "150",
           "accuracy": "100",
@@ -469,7 +469,7 @@
         },
         {
           "level": "61",
-          "name": "波动冲",
+          "name": "波動衝",
           "type": "水",
           "category": "物理",
           "power": "120",
@@ -484,7 +484,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -493,35 +493,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００２",
-          "name": "撒娇",
+          "machine": "招式學習器００２",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００４",
-          "name": "高速移动",
+          "machine": "招式學習器００４",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１１",
-          "name": "水之波动",
+          "machine": "招式學習器０１１",
+          "name": "水之波動",
           "type": "水",
           "category": "特殊",
           "power": "60",
@@ -529,17 +529,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１９",
-          "name": "魅惑之声",
+          "machine": "招式學習器０１９",
+          "name": "魅惑之聲",
           "type": "妖精",
           "category": "特殊",
           "power": "40",
@@ -547,8 +547,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２２",
-          "name": "泼冷水",
+          "machine": "招式學習器０２２",
+          "name": "潑冷水",
           "type": "水",
           "category": "特殊",
           "power": "50",
@@ -556,8 +556,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -565,7 +565,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -574,8 +574,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３４",
-          "name": "冰冻之风",
+          "machine": "招式學習器０３４",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -583,7 +583,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３７",
+          "machine": "招式學習器０３７",
           "name": "吸取之吻",
           "type": "妖精",
           "category": "特殊",
@@ -592,35 +592,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５９",
-          "name": "意念头锤",
+          "machine": "招式學習器０５９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -628,17 +628,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６４",
+          "machine": "招式學習器０６４",
           "name": "健美",
-          "type": "格斗",
-          "category": "变化",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -646,8 +646,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６９",
-          "name": "冰冻拳",
+          "machine": "招式學習器０６９",
+          "name": "冰凍拳",
           "type": "冰",
           "category": "物理",
           "power": "75",
@@ -655,25 +655,25 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７３",
+          "machine": "招式學習器０７３",
           "name": "吸取拳",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７７",
+          "machine": "招式學習器０７７",
           "name": "攀瀑",
           "type": "水",
           "category": "物理",
@@ -682,52 +682,52 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８１",
-          "name": "打草结",
+          "machine": "招式學習器０８１",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９９",
-          "name": "铁头",
-          "type": "钢",
+          "machine": "招式學習器０９９",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１０",
+          "machine": "招式學習器１１０",
           "name": "水流裂破",
           "type": "水",
           "category": "物理",
@@ -736,17 +736,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１２",
-          "name": "波导弹",
-          "type": "格斗",
+          "machine": "招式學習器１１２",
+          "name": "波導彈",
+          "type": "格鬥",
           "category": "特殊",
           "power": "80",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１１７",
-          "name": "巨声",
+          "machine": "招式學習器１１７",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -754,17 +754,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２２",
-          "name": "再来一次",
+          "machine": "招式學習器１２２",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１２３",
-          "name": "冲浪",
+          "machine": "招式學習器１２３",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -772,26 +772,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３４",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式學習器１３４",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３５",
-          "name": "冰冻光束",
+          "machine": "招式學習器１３５",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -799,7 +799,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４２",
+          "machine": "招式學習器１４２",
           "name": "水炮",
           "type": "水",
           "category": "特殊",
@@ -808,8 +808,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４３",
-          "name": "暴风雪",
+          "machine": "招式學習器１４３",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -817,8 +817,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -826,26 +826,26 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５６",
-          "name": "逆鳞",
-          "type": "龙",
+          "machine": "招式學習器１５６",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５８",
-          "name": "真气弹",
-          "type": "格斗",
+          "machine": "招式學習器１５８",
+          "name": "真氣彈",
+          "type": "格鬥",
           "category": "特殊",
           "power": "120",
           "accuracy": "70",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -853,17 +853,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６７",
-          "name": "近身战",
-          "type": "格斗",
+          "machine": "招式學習器１６７",
+          "name": "近身戰",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -871,25 +871,25 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７４",
-          "name": "黑雾",
+          "machine": "招式學習器１７４",
+          "name": "黑霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器１９２",
-          "name": "真气拳",
-          "type": "格斗",
+          "machine": "招式學習器１９２",
+          "name": "真氣拳",
+          "type": "格鬥",
           "category": "物理",
           "power": "150",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１９６",
+          "machine": "招式學習器１９６",
           "name": "快速折返",
           "type": "水",
           "category": "物理",
@@ -898,25 +898,25 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０３",
+          "machine": "招式學習器２０３",
           "name": "自我暗示",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０５",
-          "name": "蛮干",
+          "machine": "招式學習器２０５",
+          "name": "蠻幹",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器２０８",
+          "machine": "招式學習器２０８",
           "name": "潮旋",
           "type": "水",
           "category": "特殊",
@@ -925,20 +925,20 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２１",
-          "name": "深渊突刺",
-          "type": "恶",
+          "machine": "招式學習器２２１",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２５",
-          "name": "硬压",
-          "type": "钢",
+          "machine": "招式學習器２２５",
+          "name": "硬壓",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         }
@@ -953,65 +953,65 @@
           "parents": [
             {
               "id": "287",
-              "name": "懒人獭"
+              "name": "懶人獺"
             },
             {
               "id": "288",
-              "name": "过动猿"
+              "name": "過動猿"
             },
             {
               "id": "289",
-              "name": "请假王"
+              "name": "請假王"
             },
             {
               "id": "448",
-              "name": "路卡利欧"
+              "name": "路卡利歐"
             },
             {
               "id": "745Mn",
-              "name": "鬃岩狼人"
+              "name": "鬃巖狼人"
             },
             {
               "id": "745D",
-              "name": "鬃岩狼人"
+              "name": "鬃巖狼人"
             },
             {
               "id": "749",
-              "name": "泥驴仔"
+              "name": "泥驢仔"
             },
             {
               "id": "750",
-              "name": "重泥挽马"
+              "name": "重泥挽馬"
             },
             {
               "id": "813",
-              "name": "炎兔儿"
+              "name": "炎兔兒"
             },
             {
               "id": "814",
-              "name": "腾蹴小将"
+              "name": "騰蹴小將"
             },
             {
               "id": "815",
-              "name": "闪焰王牌"
+              "name": "閃焰王牌"
             },
             {
               "id": "819",
-              "name": "贪心栗鼠"
+              "name": "貪心栗鼠"
             },
             {
               "id": "820",
-              "name": "藏饱栗鼠"
+              "name": "藏飽栗鼠"
             },
             {
               "id": "979",
-              "name": "弃世猴"
+              "name": "棄世猴"
             }
           ],
-          "name": "双倍奉还",
-          "type": "格斗",
+          "name": "雙倍奉還",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
@@ -1031,7 +1031,7 @@
             },
             {
               "id": "0194",
-              "name": "乌波"
+              "name": "烏波"
             },
             {
               "id": "0195",
@@ -1039,12 +1039,12 @@
             },
             {
               "id": "0336",
-              "name": "饭匙蛇"
+              "name": "飯匙蛇"
             }
           ],
-          "name": "黑雾",
+          "name": "黑霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -1053,15 +1053,15 @@
           "parents": [
             {
               "id": "0190",
-              "name": "长尾怪手"
+              "name": "長尾怪手"
             },
             {
               "id": "0340",
-              "name": "鲶鱼王"
+              "name": "鯰魚王"
             },
             {
               "id": "0424",
-              "name": "双尾怪手"
+              "name": "雙尾怪手"
             },
             {
               "id": "0572",
@@ -1072,9 +1072,9 @@
               "name": "吃吼霸"
             }
           ],
-          "name": "挠痒",
+          "name": "撓癢",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -1083,31 +1083,31 @@
           "parents": [
             {
               "id": "0255",
-              "name": "火稚鸡"
+              "name": "火稚雞"
             },
             {
               "id": "0256",
-              "name": "力壮鸡"
+              "name": "力壯雞"
             },
             {
               "id": "0257",
-              "name": "火焰鸡"
+              "name": "火焰雞"
             },
             {
               "id": "0325",
-              "name": "跳跳猪"
+              "name": "跳跳豬"
             },
             {
               "id": "0326",
-              "name": "噗噗猪"
+              "name": "噗噗豬"
             },
             {
               "id": "0456",
-              "name": "荧光鱼"
+              "name": "熒光魚"
             },
             {
               "id": "0457",
-              "name": "霓虹鱼"
+              "name": "霓虹魚"
             },
             {
               "id": "0619",
@@ -1115,31 +1115,31 @@
             },
             {
               "id": "0620",
-              "name": "师父鼬"
+              "name": "師父鼬"
             },
             {
               "id": "813",
-              "name": "炎兔儿"
+              "name": "炎兔兒"
             },
             {
               "id": "814",
-              "name": "腾蹴小将"
+              "name": "騰蹴小將"
             },
             {
               "id": "815",
-              "name": "闪焰王牌"
+              "name": "閃焰王牌"
             },
             {
               "id": "0974",
-              "name": "走鲸"
+              "name": "走鯨"
             },
             {
               "id": "0975",
-              "name": "浩大鲸"
+              "name": "浩大鯨"
             }
           ],
-          "name": "弹跳",
-          "type": "飞行",
+          "name": "彈跳",
+          "type": "飛行",
           "category": "物理",
           "power": "85",
           "accuracy": "85",
@@ -1149,11 +1149,11 @@
           "parents": [
             {
               "id": "0812",
-              "name": "轰擂金刚猩"
+              "name": "轟擂金剛猩"
             },
             {
               "id": "0982",
-              "name": "土龙节节"
+              "name": "土龍節節"
             }
           ],
           "name": "爆音波",
@@ -1168,14 +1168,14 @@
   ],
   "home_images": [
     {
-      "name": "海豚侠-平凡形态",
-      "image": "0964-海豚侠-平凡形态.png",
-      "shiny": "0964-海豚侠-平凡形态-shiny.png"
+      "name": "海豚俠-平凡形態",
+      "image": "0964-海豚俠-平凡形態.png",
+      "shiny": "0964-海豚俠-平凡形態-shiny.png"
     },
     {
-      "name": "海豚侠-全能形态",
-      "image": "0964-海豚侠-全能形态.png",
-      "shiny": "0964-海豚侠-全能形态-shiny.png"
+      "name": "海豚俠-全能形態",
+      "image": "0964-海豚俠-全能形態.png",
+      "shiny": "0964-海豚俠-全能形態-shiny.png"
     }
   ]
 }

@@ -1,50 +1,50 @@
 {
-  "name_zh": "炽焰咆哮虎",
+  "name_zh": "熾焰咆哮虎",
   "name_ja": "ガオガエン",
   "name_en": "Incineroar",
   "pokedex_id": "0727",
-  "description": "炽焰咆哮虎（日文︰ガオガエン，英文︰Incineroar）是火属性／恶属性宝可梦。",
-  "profile": "炽焰咆哮虎变成双足行走，有着健壮的身躯，比起进化之前猫的原型，炽焰咆哮虎就如同名字一样看起来更像是虎。当它的斗争心增强时，在体内制造的火焰将从肚脐及其周围喷出，温度达到摄氏2000度以上。这种火焰看起来像冠军腰带，因此被称为火焰腰带。\n炽焰咆哮虎擅长没有规则限制的粗暴战斗，对于强大的对手会拿出干劲来。它会在使出猛烈的拳击或脚踢后，从肚脐周围喷出火焰将敌人一击毙命。如果燃起了斗志，在它腰周围的火焰也会燃烧得格外猛烈。若对战的观众们气氛热烈，炽焰咆哮虎自己也会燃起更旺盛的斗志。相反，若观众没有兴奋起来，炽焰咆哮虎便无法集中且容易变得松懈。一旦开始战斗，炽焰咆哮虎不但不会关心对手，有时甚至会把对手的训练家卷入自己的攻击中。因此，炽焰咆哮虎经常被嫌弃，或是被人们敬而远之。虽然它的行为举止十分粗野，但讨厌欺凌弱小这类无聊的事，也有着会去帮助弱小宝可梦的温柔一面。当被幼小的宝可梦和小孩拥抱时，它虽表现冷酷但内心却会感到十分喜悦。在与明显地较柔弱或受伤的宝可梦的对战中，炽焰咆哮虎的斗争心会减弱，因此有机会被人乘虚而入。它性格粗鲁又任性。心情不爽的时候，连训练家的命令也会淡定地无视。",
-  "prototype": "炽焰咆哮虎的原型为虎和职业摔跤手。其角色设定可能参考了梶原一骑的摔跤题材漫画《虎面人》（又译老虎假面）。\n炽焰咆哮虎分类中的“反派”（ヒール、Heel）指的是摔角娱乐中的黑恶势力。\n炽焰咆哮虎的专用招式与专属Ｚ招式都参考了美国职业摔角用语。\n异色的炽焰咆哮虎可能参照了孟加拉白虎。",
+  "description": "熾焰咆哮虎（日文︰ガオガエン，英文︰Incineroar）是火屬性／惡屬性寶可夢。",
+  "profile": "熾焰咆哮虎變成雙足行走，有著健壯的身軀，比起進化之前貓的原型，熾焰咆哮虎就如同名字一樣看起來更像是虎。當它的鬥爭心增強時，在體內製造的火焰將從肚臍及其周圍噴出，溫度達到攝氏2000度以上。這種火焰看起來像冠軍腰帶，因此被稱為火焰腰帶。\n熾焰咆哮虎擅長沒有規則限制的粗暴戰鬥，對於強大的對手會拿出幹勁來。它會在使出猛烈的拳擊或腳踢後，從肚臍周圍噴出火焰將敵人一擊斃命。如果燃起了鬥志，在它腰周圍的火焰也會燃燒得格外猛烈。若對戰的觀眾們氣氛熱烈，熾焰咆哮虎自己也會燃起更旺盛的鬥志。相反，若觀眾沒有興奮起來，熾焰咆哮虎便無法集中且容易變得鬆懈。一旦開始戰鬥，熾焰咆哮虎不但不會關心對手，有時甚至會把對手的訓練家捲入自己的攻擊中。因此，熾焰咆哮虎經常被嫌棄，或是被人們敬而遠之。雖然它的行為舉止十分粗野，但討厭欺凌弱小這類無聊的事，也有著會去幫助弱小寶可夢的溫柔一面。當被幼小的寶可夢和小孩擁抱時，它雖表現冷酷但內心卻會感到十分喜悅。在與明顯地較柔弱或受傷的寶可夢的對戰中，熾焰咆哮虎的鬥爭心會減弱，因此有機會被人乘虛而入。它性格粗魯又任性。心情不爽的時候，連訓練家的命令也會淡定地無視。",
+  "prototype": "熾焰咆哮虎的原型為虎和職業摔跤手。其角色設定可能參考了梶原一騎的摔跤題材漫畫《虎麵人》（又譯老虎假面）。\n熾焰咆哮虎分類中的“反派”（ヒール、Heel）指的是摔角娛樂中的黑惡勢力。\n熾焰咆哮虎的專用招式與專屬Ｚ招式都參考了美國職業摔角用語。\n異色的熾焰咆哮虎可能參照了孟加拉白虎。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ガオガエン Gaogaen",
-      "origin": "来自“ガオ”（咆哮声）、 英文 tiger（虎）和“火（か）炎（えん）”（火焰）。"
+      "origin": "來自“ガオ”（咆哮聲）、 英文 tiger（虎）和“火（か）炎（えん）”（火焰）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "熾焰咆哮虎炽焰咆哮虎",
-      "origin": "来自“炽焰”、“咆哮”和“虎”。"
+      "name": "熾焰咆哮虎熾焰咆哮虎",
+      "origin": "來自“熾焰”、“咆哮”和“虎”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "熾焰咆哮虎",
-      "origin": "来自“炽焰”、“咆哮”和“虎”。"
+      "origin": "來自“熾焰”、“咆哮”和“虎”。"
     },
     {
       "language": "中文-香港",
       "name": "熾焰咆哮虎",
-      "origin": "来自“炽焰”、“咆哮”和“虎”。"
+      "origin": "來自“熾焰”、“咆哮”和“虎”。"
     },
     {
       "language": "英文",
       "name": "Incineroar",
-      "origin": "来自 incinerate（焚毁）和 roar（咆哮）。"
+      "origin": "來自 incinerate（焚燬）和 roar（咆哮）。"
     },
     {
       "language": "法文",
       "name": "Félinferno",
-      "origin": "来自 félin（猫的）和英文 inferno（地狱；火海）。"
+      "origin": "來自 félin（貓的）和英文 inferno（地獄；火海）。"
     },
     {
       "language": "德文",
       "name": "Fuegro",
-      "origin": "来自西班牙文 fuego（火）和英文 growl（咆哮）。"
+      "origin": "來自西班牙文 fuego（火）和英文 growl（咆哮）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Incineroar",
       "origin": "同英文名。"
     },
@@ -54,37 +54,37 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "어흥염 Eoheungyeum",
-      "origin": "来自“어흥”（虎吼啸声）和“홍염〈紅焰〉”（红色火焰；日珥）。"
+      "origin": "來自“어흥”（虎吼嘯聲）和“홍염〈紅焰〉”（紅色火焰；日珥）。"
     }
   ],
   "forms": [
     {
-      "name": "炽焰咆哮虎",
+      "name": "熾焰咆哮虎",
       "types": [
         "火",
-        "恶"
+        "惡"
       ],
-      "category": "反派宝可梦",
+      "category": "反派寶可夢",
       "abilities": [
         {
           "name": "猛火",
           "is_hidden": false
         },
         {
-          "name": "威吓",
+          "name": "威嚇",
           "is_hidden": true
         }
       ],
       "height": "1.8m",
       "weight": "83.0kg",
-      "color": "红色",
+      "color": "紅色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "陆上群"
+        "陸上群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -117,10 +117,10 @@
         "male": 87.5,
         "female": 12.5
       },
-      "egg_cycles": "15 孵化周期（3855步）",
+      "egg_cycles": "15 孵化週期（3855步）",
       "shape": "Body06.png",
       "footprint": "FUnknown.png",
-      "image": "0727-炽焰咆哮虎.png"
+      "image": "0727-熾焰咆哮虎.png"
     }
   ],
   "stats": [
@@ -141,7 +141,7 @@
       "form": "",
       "types": [
         "火",
-        "恶"
+        "惡"
       ],
       "data": [
         {
@@ -149,11 +149,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -169,15 +169,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "0.5"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -193,7 +193,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -205,11 +205,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "0.5"
         },
         {
@@ -224,7 +224,7 @@
     [
       {
         "name": "火斑喵",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "725Litten_Dream.png",
         "back_text": null,
@@ -232,21 +232,21 @@
         "form_name": null
       },
       {
-        "name": "炎热喵",
-        "stage": "1阶进化",
-        "text": "等级17以上",
+        "name": "炎熱喵",
+        "stage": "1階進化",
+        "text": "等級17以上",
         "image": "726Torracat_Dream.png",
         "back_text": null,
         "from": "火斑喵",
         "form_name": null
       },
       {
-        "name": "炽焰咆哮虎",
-        "stage": "2阶进化",
-        "text": "等级34以上",
+        "name": "熾焰咆哮虎",
+        "stage": "2階進化",
+        "text": "等級34以上",
         "image": "727Incineroar_Dream.png",
         "back_text": null,
-        "from": "炎热喵",
+        "from": "炎熱喵",
         "form_name": null
       }
     ]
@@ -258,9 +258,9 @@
       "form": "一般",
       "data": [
         {
-          "level": "进化",
+          "level": "進化",
           "name": "ＤＤ金勾臂",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "85",
           "accuracy": "100",
@@ -278,7 +278,7 @@
         {
           "level": "—",
           "name": "舌舔",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -287,7 +287,7 @@
         {
           "level": "—",
           "name": "十字劈",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "100",
           "accuracy": "80",
@@ -296,8 +296,8 @@
         {
           "level": "—",
           "name": "健美",
-          "type": "格斗",
-          "category": "变化",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -306,14 +306,14 @@
           "level": "9",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "12",
-          "name": "乱抓",
+          "name": "亂抓",
           "type": "一般",
           "category": "物理",
           "power": "18",
@@ -323,7 +323,7 @@
         {
           "level": "15",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -331,8 +331,8 @@
         },
         {
           "level": "20",
-          "name": "二连踢",
-          "type": "格斗",
+          "name": "二連踢",
+          "type": "格鬥",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -351,23 +351,23 @@
           "level": "30",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "32",
-          "name": "虚张声势",
+          "name": "虛張聲勢",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
           "level": "44",
-          "name": "喷射火焰",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -376,7 +376,7 @@
         },
         {
           "level": "51",
-          "name": "大闹一番",
+          "name": "大鬧一番",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -385,7 +385,7 @@
         },
         {
           "level": "58",
-          "name": "闪焰冲锋",
+          "name": "閃焰衝鋒",
           "type": "火",
           "category": "物理",
           "power": "120",
@@ -393,7 +393,7 @@
           "pp": "15"
         },
         {
-          "level": "回忆",
+          "level": "回憶",
           "name": "抓",
           "type": "一般",
           "category": "物理",
@@ -402,18 +402,18 @@
           "pp": "35"
         },
         {
-          "level": "回忆",
-          "name": "叫声",
+          "level": "回憶",
+          "name": "叫聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "40"
         },
         {
-          "level": "回忆",
-          "name": "深渊突刺",
-          "type": "恶",
+          "level": "回憶",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -427,7 +427,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -436,25 +436,25 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００８",
+          "machine": "招式學習器００８",
           "name": "火焰牙",
           "type": "火",
           "category": "物理",
@@ -463,34 +463,34 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１２",
+          "machine": "招式學習器０１２",
           "name": "踢倒",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２０",
+          "machine": "招式學習器０２０",
           "name": "起草",
           "type": "草",
           "category": "物理",
@@ -499,8 +499,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２４",
-          "name": "火焰旋涡",
+          "machine": "招式學習器０２４",
+          "name": "火焰旋渦",
           "type": "火",
           "category": "特殊",
           "power": "35",
@@ -508,8 +508,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -517,16 +517,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２７",
+          "machine": "招式學習器０２７",
           "name": "燕返",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２８",
+          "machine": "招式學習器０２８",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -535,17 +535,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３０",
-          "name": "大声咆哮",
-          "type": "恶",
+          "machine": "招式學習器０３０",
+          "name": "大聲咆哮",
+          "type": "惡",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３８",
-          "name": "蓄能焰袭",
+          "machine": "招式學習器０３８",
+          "name": "蓄能焰襲",
           "type": "火",
           "category": "物理",
           "power": "50",
@@ -553,80 +553,80 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３９",
-          "name": "下盘踢",
-          "type": "格斗",
+          "machine": "招式學習器０３９",
+          "name": "下盤踢",
+          "type": "格鬥",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５８",
+          "machine": "招式學習器０５８",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６１",
+          "machine": "招式學習器０６１",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６４",
+          "machine": "招式學習器０６４",
           "name": "健美",
-          "type": "格斗",
-          "category": "变化",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -634,7 +634,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６７",
+          "machine": "招式學習器０６７",
           "name": "火焰拳",
           "type": "火",
           "category": "物理",
@@ -643,35 +643,35 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６８",
-          "name": "雷电拳",
-          "type": "电",
+          "machine": "招式學習器０６８",
+          "name": "雷電拳",
+          "type": "電",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７３",
+          "machine": "招式學習器０７３",
           "name": "吸取拳",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８４",
-          "name": "跺脚",
+          "machine": "招式學習器０８４",
+          "name": "跺腳",
           "type": "地面",
           "category": "物理",
           "power": "75",
@@ -679,89 +679,89 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８８",
-          "name": "剑舞",
+          "machine": "招式學習器０８８",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９４",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式學習器０９４",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０９５",
+          "machine": "招式學習器０９５",
           "name": "汲取",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９９",
-          "name": "铁头",
-          "type": "钢",
+          "machine": "招式學習器０９９",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０７",
+          "machine": "招式學習器１０７",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０８",
+          "machine": "招式學習器１０８",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１８",
-          "name": "热风",
+          "machine": "招式學習器１１８",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -769,8 +769,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２５",
-          "name": "喷射火焰",
+          "machine": "招式學習器１２５",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -778,43 +778,43 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３２",
+          "machine": "招式學習器１３２",
           "name": "接棒",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
         },
         {
-          "machine": "招式学习器１３４",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式學習器１３４",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１４０",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器１４０",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１４１",
+          "machine": "招式學習器１４１",
           "name": "大字爆炎",
           "type": "火",
           "category": "特殊",
@@ -823,8 +823,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４４",
-          "name": "火之誓约",
+          "machine": "招式學習器１４４",
+          "name": "火之誓約",
           "type": "火",
           "category": "特殊",
           "power": "80",
@@ -832,7 +832,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４９",
+          "machine": "招式學習器１４９",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -841,8 +841,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -850,7 +850,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５３",
+          "machine": "招式學習器１５３",
           "name": "爆炸烈焰",
           "type": "火",
           "category": "特殊",
@@ -859,17 +859,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５６",
-          "name": "逆鳞",
-          "type": "龙",
+          "machine": "招式學習器１５６",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５７",
-          "name": "过热",
+          "machine": "招式學習器１５７",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -877,17 +877,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５８",
-          "name": "真气弹",
-          "type": "格斗",
+          "machine": "招式學習器１５８",
+          "name": "真氣彈",
+          "type": "格鬥",
           "category": "特殊",
           "power": "120",
           "accuracy": "70",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -895,8 +895,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６５",
-          "name": "闪焰冲锋",
+          "machine": "招式學習器１６５",
+          "name": "閃焰衝鋒",
           "type": "火",
           "category": "物理",
           "power": "120",
@@ -904,17 +904,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１６７",
-          "name": "近身战",
-          "type": "格斗",
+          "machine": "招式學習器１６７",
+          "name": "近身戰",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -922,43 +922,43 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７２",
+          "machine": "招式學習器１７２",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１８１",
+          "machine": "招式學習器１８１",
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１８９",
-          "name": "高温重压",
+          "machine": "招式學習器１８９",
+          "name": "高溫重壓",
           "type": "火",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９２",
-          "name": "真气拳",
-          "type": "格斗",
+          "machine": "招式學習器１９２",
+          "name": "真氣拳",
+          "type": "格鬥",
           "category": "物理",
           "power": "150",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１９５",
+          "machine": "招式學習器１９５",
           "name": "妒火",
           "type": "火",
           "category": "特殊",
@@ -967,17 +967,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１９９",
-          "name": "泄愤",
-          "type": "恶",
+          "machine": "招式學習器１９９",
+          "name": "洩憤",
+          "type": "惡",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -985,16 +985,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２０５",
-          "name": "蛮干",
+          "machine": "招式學習器２０５",
+          "name": "蠻幹",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器２０７",
+          "machine": "招式學習器２０７",
           "name": "豁出去",
           "type": "火",
           "category": "物理",
@@ -1003,8 +1003,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１５",
-          "name": "热沙大地",
+          "machine": "招式學習器２１５",
+          "name": "熱沙大地",
           "type": "地面",
           "category": "特殊",
           "power": "70",
@@ -1012,9 +1012,9 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２１",
-          "name": "深渊突刺",
-          "type": "恶",
+          "machine": "招式學習器２２１",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -1043,15 +1043,15 @@
             },
             {
               "id": "053",
-              "name": "猫老大"
+              "name": "貓老大"
             },
             {
               "id": "0053A",
-              "name": "猫老大"
+              "name": "貓老大"
             },
             {
               "id": "0274",
-              "name": "长鼻叶"
+              "name": "長鼻葉"
             },
             {
               "id": "0619",
@@ -1059,7 +1059,7 @@
             },
             {
               "id": "0620",
-              "name": "师父鼬"
+              "name": "師父鼬"
             },
             {
               "id": "0677",
@@ -1071,10 +1071,10 @@
             },
             {
               "id": "0863",
-              "name": "喵头目"
+              "name": "喵頭目"
             }
           ],
-          "name": "击掌奇袭",
+          "name": "擊掌奇襲",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -1092,9 +1092,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "抛下狠话",
-          "type": "恶",
-          "category": "变化",
+          "name": "拋下狠話",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -1103,27 +1103,27 @@
           "parents": [
             {
               "id": "0335",
-              "name": "猫鼬斩"
+              "name": "貓鼬斬"
             },
             {
               "id": "0551",
-              "name": "黑眼鳄"
+              "name": "黑眼鱷"
             },
             {
               "id": "0552",
-              "name": "混混鳄"
+              "name": "混混鱷"
             },
             {
               "id": "0553",
-              "name": "流氓鳄"
+              "name": "流氓鱷"
             },
             {
               "id": "0877",
-              "name": "莫鲁贝可"
+              "name": "莫魯貝可"
             }
           ],
-          "name": "嚣张",
-          "type": "恶",
+          "name": "囂張",
+          "type": "惡",
           "category": "物理",
           "power": "20",
           "accuracy": "100",
@@ -1134,9 +1134,9 @@
   ],
   "home_images": [
     {
-      "name": "炽焰咆哮虎",
-      "image": "0727-炽焰咆哮虎.png",
-      "shiny": "0727-炽焰咆哮虎-shiny.png"
+      "name": "熾焰咆哮虎",
+      "image": "0727-熾焰咆哮虎.png",
+      "shiny": "0727-熾焰咆哮虎-shiny.png"
     }
   ]
 }

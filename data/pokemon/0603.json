@@ -1,55 +1,55 @@
 {
-  "name_zh": "麻麻鳗",
+  "name_zh": "麻麻鰻",
   "name_ja": "シビビール",
   "name_en": "Eelektrik",
   "pokedex_id": "0603",
-  "description": "麻麻鳗（日文︰シビビール，英文︰Eelektrik）是电属性宝可梦，它的设计者是大村祐介。",
-  "profile": "麻麻鳗是一条普蓝色的类似于鳗鱼的宝可梦。它的嘴巴非常大，是圆的吸盘形的, 牙齿从外表看只有四个, 有二块白鱼鳞, 尾巴是红色, 皮肤上有三个黄点。身上圆圆的花纹是发电器官。\n麻麻鳗是食欲旺盛的宝可梦，一旦发现猎物就会发动袭击。它会先缠住对手，然后把花纹压在对手身上后放出电流，将对方用电麻痹后再吃掉。",
-  "prototype": "麻麻鳗的外形基于七鳃鳗（八目鳗），其电属性可能基于电鳗。\n麻麻鳗蛋群属于不定形而非水中，可能由于七鳃鳗属于构造原始的无颌类，严格来说不算狭义的鱼类。七鳃鳗和电鳗都不是真正的鳗鱼。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步麻麻鳗（Pokémon GO）。\n←\nNo.0602：麻麻小鱼\n宝可梦\nNo.0604：麻麻鳗鱼王\n→",
+  "description": "麻麻鰻（日文︰シビビール，英文︰Eelektrik）是電屬性寶可夢，它的設計者是大村祐介。",
+  "profile": "麻麻鰻是一條普藍色的類似於鰻魚的寶可夢。它的嘴巴非常大，是圓的吸盤形的, 牙齒從外表看只有四個, 有二塊白魚鱗, 尾巴是紅色, 皮膚上有三個黃點。身上圓圓的花紋是發電器官。\n麻麻鰻是食慾旺盛的寶可夢，一旦發現獵物就會發動襲擊。它會先纏住對手，然後把花紋壓在對手身上後放出電流，將對方用電麻痺後再吃掉。",
+  "prototype": "麻麻鰻的外形基於七鰓鰻（八目鰻），其電屬性可能基於電鰻。\n麻麻鰻蛋群屬於不定形而非水中，可能由於七鰓鰻屬於構造原始的無頜類，嚴格來說不算狹義的魚類。七鰓鰻和電鰻都不是真正的鰻魚。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步麻麻鰻（Pokémon GO）。\n←\nNo.0602：麻麻小魚\n寶可夢\nNo.0604：麻麻鰻魚王\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "シビビール Shibibeel",
-      "origin": "来自“痺（しび）れる”（麻痹）和英文 eel（鳗鱼）。"
+      "origin": "來自“痺（しび）れる”（麻痺）和英文 eel（鰻魚）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "麻麻鰻麻麻鳗",
-      "origin": "来自“麻麻”和“鳗”。"
+      "name": "麻麻鰻麻麻鰻",
+      "origin": "來自“麻麻”和“鰻”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "麻麻鳗",
-      "origin": "来自“麻麻”和“鳗”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "麻麻鰻",
-      "origin": "来自“麻麻”和“鳗”。"
+      "origin": "來自“麻麻”和“鰻”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "麻麻鰻",
+      "origin": "來自“麻麻”和“鰻”。"
     },
     {
       "language": "中文-香港",
       "name": "麻麻鰻",
-      "origin": "来自“麻麻”和“鳗”。"
+      "origin": "來自“麻麻”和“鰻”。"
     },
     {
       "language": "英文",
       "name": "Eelektrik",
-      "origin": "来自 eel（鳗鱼）和 electric（电的）。"
+      "origin": "來自 eel（鰻魚）和 electric（電的）。"
     },
     {
       "language": "法文",
       "name": "Lampéroie",
-      "origin": "来自 lamproie（七鳃鳗）和 ampere（安培：电流强度的国际单位）。"
+      "origin": "來自 lamproie（七鰓鰻）和 ampere（安培：電流強度的國際單位）。"
     },
     {
       "language": "德文",
       "name": "Zapplalek",
-      "origin": "来自 zappeln（活蹦乱跳）、英文 zap（表示“电击”的拟声词）、Lamprete（鳃鳗）和 Elektrizität（电）。"
+      "origin": "來自 zappeln（活蹦亂跳）、英文 zap（表示“電擊”的擬聲詞）、Lamprete（鰓鰻）和 Elektrizität（電）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Eelektrik",
       "origin": "同英文名。"
     },
@@ -59,27 +59,27 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "저리릴 Jeoriril",
-      "origin": "来自“저리다”（麻木）和 英文 eel（鳗鱼）。"
+      "origin": "來自“저리다”（麻木）和 英文 eel（鰻魚）。"
     }
   ],
   "forms": [
     {
-      "name": "麻麻鳗",
+      "name": "麻麻鰻",
       "types": [
-        "电"
+        "電"
       ],
-      "category": "电鱼宝可梦",
+      "category": "電魚寶可夢",
       "abilities": [
         {
-          "name": "飘浮",
+          "name": "飄浮",
           "is_hidden": false
         }
       ],
       "height": "1.2m",
       "weight": "22.0kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "60（7.8%）",
       "egg_groups": [
         "不定形群"
@@ -117,10 +117,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body03.png",
       "footprint": "Fnone.png",
-      "image": "0603-麻麻鳗.png"
+      "image": "0603-麻麻鰻.png"
     }
   ],
   "stats": [
@@ -138,9 +138,9 @@
   ],
   "type_effectiveness": [
     {
-      "form": "(飘浮)",
+      "form": "(飄浮)",
       "types": [
-        "电"
+        "電"
       ],
       "data": [
         {
@@ -148,11 +148,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -168,15 +168,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -192,7 +192,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -204,11 +204,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -220,7 +220,7 @@
     {
       "form": "",
       "types": [
-        "电"
+        "電"
       ],
       "data": [
         {
@@ -228,11 +228,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -248,15 +248,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -272,7 +272,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -284,11 +284,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -304,13 +304,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "圆圆的花纹是发电器官。会先缠住对手，然后把花纹压在对手身上后放出电流。"
+          "group": "寶可夢 黑／白",
+          "text": "圓圓的花紋是發電器官。會先纏住對手，然後把花紋壓在對手身上後放出電流。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "是食欲旺盛的宝可梦。一旦发现猎物就会发动袭击，将对方用电麻痹后再吃掉。"
+          "group": "寶可夢 黑／白",
+          "text": "是食慾旺盛的寶可夢。一旦發現獵物就會發動襲擊，將對方用電麻痺後再吃掉。"
         }
       ]
     },
@@ -319,23 +319,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "缠住对手，从圆圆的斑点放出电流通过对方身体，使其麻痹后啃食。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "纏住對手，從圓圓的斑點放出電流透過對方身體，使其麻痺後啃食。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "是食欲旺盛的宝可梦。一旦发现猎物就会发动袭击，将对方用电麻痹后再吃掉。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "是食慾旺盛的寶可夢。一旦發現獵物就會發動襲擊，將對方用電麻痺後再吃掉。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "缠住对手，从圆圆的斑点放出电流通过对方身体，使其麻痹后啃食。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "纏住對手，從圓圓的斑點放出電流透過對方身體，使其麻痺後啃食。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "是食欲旺盛的宝可梦。一旦发现猎物就会发动袭击，将对方用电麻痹后再吃掉。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "是食慾旺盛的寶可夢。一旦發現獵物就會發動襲擊，將對方用電麻痺後再吃掉。"
         }
       ]
     },
@@ -344,18 +344,18 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "圆圆的花纹是发电器官。会先缠住对手，然后把花纹压在对手身上后放出电流。"
+          "group": "寶可夢 朱／紫",
+          "text": "圓圓的花紋是發電器官。會先纏住對手，然後把花紋壓在對手身上後放出電流。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "是食欲旺盛的宝可梦。一旦发现猎物就会发动袭击，将对方用电麻痹后再吃掉。"
+          "group": "寶可夢 朱／紫",
+          "text": "是食慾旺盛的寶可夢。一旦發現獵物就會發動襲擊，將對方用電麻痺後再吃掉。"
         },
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "缠住对手，从圆圆的斑点放出电流通过对方身体，使其麻痹后啃食。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "纏住對手，從圓圓的斑點放出電流透過對方身體，使其麻痺後啃食。"
         }
       ]
     }
@@ -363,8 +363,8 @@
   "evolution_chains": [
     [
       {
-        "name": "麻麻小鱼",
-        "stage": "未进化",
+        "name": "麻麻小魚",
+        "stage": "未進化",
         "text": null,
         "image": "602Tynamo_Dream.png",
         "back_text": null,
@@ -372,21 +372,21 @@
         "form_name": null
       },
       {
-        "name": "麻麻鳗",
-        "stage": "1阶进化",
-        "text": "等级39以上",
+        "name": "麻麻鰻",
+        "stage": "1階進化",
+        "text": "等級39以上",
         "image": "603Eelektrik_Dream.png",
         "back_text": null,
-        "from": "麻麻小鱼",
+        "from": "麻麻小魚",
         "form_name": null
       },
       {
-        "name": "麻麻鳗鱼王",
-        "stage": "2阶进化",
+        "name": "麻麻鰻魚王",
+        "stage": "2階進化",
         "text": "使用雷之石",
         "image": "604Eelektross_Dream.png",
         "back_text": null,
-        "from": "麻麻鳗",
+        "from": "麻麻鰻",
         "form_name": null
       }
     ]
@@ -398,9 +398,9 @@
       "form": "一般",
       "data": [
         {
-          "level": "进化",
+          "level": "進化",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -408,7 +408,7 @@
         },
         {
           "level": "—",
-          "name": "头锤",
+          "name": "頭錘",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -417,17 +417,17 @@
         },
         {
           "level": "—",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
           "level": "—",
-          "name": "电光",
-          "type": "电",
+          "name": "電光",
+          "type": "電",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
@@ -435,8 +435,8 @@
         },
         {
           "level": "—",
-          "name": "充电光束",
-          "type": "电",
+          "name": "充電光束",
+          "type": "電",
           "category": "特殊",
           "power": "50",
           "accuracy": "90",
@@ -444,7 +444,7 @@
         },
         {
           "level": "9",
-          "name": "绑紧",
+          "name": "綁緊",
           "type": "一般",
           "category": "物理",
           "power": "15",
@@ -462,8 +462,8 @@
         },
         {
           "level": "29",
-          "name": "放电",
-          "type": "电",
+          "name": "放電",
+          "type": "電",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -471,8 +471,8 @@
         },
         {
           "level": "44",
-          "name": "十万伏特",
-          "type": "电",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
@@ -480,7 +480,7 @@
         },
         {
           "level": "49",
-          "name": "酸液炸弹",
+          "name": "酸液炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "40",
@@ -489,17 +489,17 @@
         },
         {
           "level": "54",
-          "name": "盘蜷",
+          "name": "盤蜷",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "59",
-          "name": "疯狂伏特",
-          "type": "电",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
@@ -509,15 +509,15 @@
           "level": "64",
           "name": "胃液",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "69",
-          "name": "电磁炮",
-          "type": "电",
+          "name": "電磁炮",
+          "type": "電",
           "category": "特殊",
           "power": "120",
           "accuracy": "50",
@@ -525,7 +525,7 @@
         },
         {
           "level": "74",
-          "name": "大闹一番",
+          "name": "大鬧一番",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -540,7 +540,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -549,35 +549,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００９",
-          "name": "雷电牙",
-          "type": "电",
+          "machine": "招式學習器００９",
+          "name": "雷電牙",
+          "type": "電",
           "category": "物理",
           "power": "65",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１３",
-          "name": "酸液炸弹",
+          "machine": "招式學習器０１３",
+          "name": "酸液炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "40",
@@ -585,26 +585,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２３",
-          "name": "充电光束",
-          "type": "电",
+          "machine": "招式學習器０２３",
+          "name": "充電光束",
+          "type": "電",
           "category": "特殊",
           "power": "50",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -612,44 +612,44 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４８",
-          "name": "伏特替换",
-          "type": "电",
+          "machine": "招式學習器０４８",
+          "name": "伏特替換",
+          "type": "電",
           "category": "特殊",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -657,89 +657,89 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７２",
-          "name": "电球",
-          "type": "电",
+          "machine": "招式學習器０７２",
+          "name": "電球",
+          "type": "電",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０８２",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０８２",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９３",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式學習器０９３",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９６",
-          "name": "怪异电波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０９６",
+          "name": "怪異電波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０８",
+          "machine": "招式學習器１０８",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１１",
-          "name": "终极吸取",
+          "machine": "招式學習器１１１",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -747,44 +747,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２６",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式學習器１２６",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３６",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１３６",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４７",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式學習器１４７",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１６６",
+          "machine": "招式學習器１６６",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -792,54 +792,54 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７３",
-          "name": "充电",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１７３",
+          "name": "充電",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１８１",
+          "machine": "招式學習器１８１",
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１８３",
-          "name": "愤怒门牙",
+          "machine": "招式學習器１８３",
+          "name": "憤怒門牙",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８５",
-          "name": "猛扑",
-          "type": "虫",
+          "machine": "招式學習器１８５",
+          "name": "猛撲",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１１",
-          "name": "电网",
-          "type": "电",
+          "machine": "招式學習器２１１",
+          "name": "電網",
+          "type": "電",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２１",
-          "name": "深渊突刺",
-          "type": "恶",
+          "machine": "招式學習器２２１",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -851,9 +851,9 @@
   "egg_moves": [],
   "home_images": [
     {
-      "name": "麻麻鳗",
-      "image": "0603-麻麻鳗.png",
-      "shiny": "0603-麻麻鳗-shiny.png"
+      "name": "麻麻鰻",
+      "image": "0603-麻麻鰻.png",
+      "shiny": "0603-麻麻鰻-shiny.png"
     }
   ]
 }

@@ -3,53 +3,53 @@
   "name_ja": "デスマス",
   "name_en": "Yamask",
   "pokedex_id": "0562",
-  "description": "哭哭面具（日文︰デスマス，英文︰Yamask）是幽灵属性宝可梦。而伽勒尔的样子是地面属性／幽灵属性宝可梦。",
-  "profile": "哭哭面具的身体由黑色组成，它拥有大大的红色眼睛，眼睛的形状虽然看起来是圆形，但旁边还有个像眼泪的小圆形，它的头部有几个突起，它也拥有一对长长的双手，它的手指只有三个，它头部下的类似脚但更类似于尾巴的物体上拿着一个米色的面具。伽勒尔哭哭面具有着像是流眼泪的紫色眼睛，不过比目前已经发现的哭哭面具还多一个泪滴。伽勒尔哭哭面具的尾巴上挂着的并非面具而是一个印有某种图案的石板。\n哭哭面具从古代墓穴中埋葬的人的灵魂中诞生，持有过去的记忆。它拿着的面具是还是人类时的脸，偶尔会注视着面具哭泣。每天夜里都为了寻找认得自己长相的人而在遗迹里徘徊。\n据说伽勒尔哭哭面具是被咒术的黏土板与死者的灵魂融合在一起，古代黏土板被带有强烈怨念的灵魂吸引后诞生的宝可梦。刻有咒术的黏土板附在了哭哭面具上，据说会吸收怨念的能量，满怀怨恨地挥舞黏土板。",
-  "prototype": "根据官方设定秘辛，哭哭面具和迭失棺是以死亡面具、棺材等稍微有些恐怖的原型来考虑的，但不光是恐怖，也考虑到要融入爱意到里面去。因为所有的宝可梦都可以成为同伴，所以意识到不能让玩家产生出“不能和这家伙做朋友”的心情来设计的。哭哭面具的亮点是仿佛完全忘记、灵魂出窍般的表情。\n具体来说，哭哭面具可能基于埃及人的魂（Bâ）手持死亡面具。Bâ的外形常被描述为一只有人脸的鸟。\n哭哭面具的整体外形可能参考了荷鲁斯之眼，古埃及文化中标志性的符号之一。\n它的头部设计可能基于玉璇玑，一种古代的三牙玉璧。\n哭哭面具伽勒尔的样子可能参考了卢恩石刻“一种古代诺斯人用符文刻写的巨石，用以纪念逝去的人”的残片。",
+  "description": "哭哭面具（日文︰デスマス，英文︰Yamask）是幽靈屬性寶可夢。而伽勒爾的樣子是地面屬性／幽靈屬性寶可夢。",
+  "profile": "哭哭面具的身體由黑色組成，它擁有大大的紅色眼睛，眼睛的形狀雖然看起來是圓形，但旁邊還有個像眼淚的小圓形，它的頭部有幾個突起，它也擁有一對長長的雙手，它的手指只有三個，它頭部下的類似腳但更類似於尾巴的物體上拿著一個米色的面具。伽勒爾哭哭面具有著像是流眼淚的紫色眼睛，不過比目前已經發現的哭哭面具還多一個淚滴。伽勒爾哭哭面具的尾巴上掛著的並非面具而是一個印有某種圖案的石板。\n哭哭面具從古代墓穴中埋葬的人的靈魂中誕生，持有過去的記憶。它拿著的面具是還是人類時的臉，偶爾會注視著面具哭泣。每天夜裡都為了尋找認得自己長相的人而在遺蹟裡徘徊。\n據說伽勒爾哭哭面具是被咒術的黏土板與死者的靈魂融合在一起，古代黏土板被帶有強烈怨念的靈魂吸引後誕生的寶可夢。刻有咒術的黏土板附在了哭哭面具上，據說會吸收怨念的能量，滿懷怨恨地揮舞黏土板。",
+  "prototype": "根據官方設定秘辛，哭哭面具和迭失棺是以死亡面具、棺材等稍微有些恐怖的原型來考慮的，但不光是恐怖，也考慮到要融入愛意到裡面去。因為所有的寶可夢都可以成為同伴，所以意識到不能讓玩家產生出“不能和這傢伙做朋友”的心情來設計的。哭哭面具的亮點是彷彿完全忘記、靈魂出竅般的表情。\n具體來說，哭哭面具可能基於埃及人的魂（Bâ）手持死亡面具。Bâ的外形常被描述為一隻有人臉的鳥。\n哭哭面具的整體外形可能參考了荷魯斯之眼，古埃及文化中標誌性的符號之一。\n它的頭部設計可能基於玉璇璣，一種古代的三牙玉璧。\n哭哭面具伽勒爾的樣子可能參考了盧恩石刻“一種古代諾斯人用符文刻寫的巨石，用以紀念逝去的人”的殘片。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "デスマス Desumasu",
-      "origin": "来自英文 death mask（死亡面具：根据死者的脸制作的面具）。"
+      "origin": "來自英文 death mask（死亡面具：根據死者的臉製作的面具）。"
     },
     {
       "language": "中文-任天堂",
       "name": "哭哭面具",
-      "origin": "来自“哭”和“面具”。"
+      "origin": "來自“哭”和“面具”。"
     },
     {
-      "language": "中文-大陆",
+      "language": "中文-大陸",
       "name": "哭哭面具",
-      "origin": "来自“哭”和“面具”。"
+      "origin": "來自“哭”和“面具”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "哭哭面具",
-      "origin": "来自“哭”和“面具”。"
+      "origin": "來自“哭”和“面具”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "哭哭面具",
-      "origin": "来自“哭”和“面具”。"
+      "origin": "來自“哭”和“面具”。"
     },
     {
       "language": "英文",
       "name": "Yamask",
-      "origin": "来自日文“闇（やみ）”（黑暗）或 Yama（阎魔：印度教及佛教中的地狱君主）和 mask（面具）。"
+      "origin": "來自日文“闇（やみ）”（黑暗）或 Yama（閻魔：印度教及佛教中的地獄君主）和 mask（面具）。"
     },
     {
       "language": "法文",
       "name": "Tutafeh",
-      "origin": "来自英文 Tutankhamun（图坦卡蒙：古埃及的一位法老，以黄金面具闻名）和 fée（妖精），谐音 tout à fait（完全正确）。"
+      "origin": "來自英文 Tutankhamun（圖坦卡蒙：古埃及的一位法老，以黃金面具聞名）和 fée（妖精），諧音 tout à fait（完全正確）。"
     },
     {
       "language": "德文",
       "name": "Makabaja",
-      "origin": "来自 makaber（恐怖的；以死亡为主题的）、Maske（面具）和日文“闇（やみ）”（黑暗）或 Yamarāja（阎罗王）。"
+      "origin": "來自 makaber（恐怖的；以死亡為主題的）、Maske（面具）和日文“闇（やみ）”（黑暗）或 Yamarāja（閻羅王）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Yamask",
       "origin": "同英文名。"
     },
@@ -59,18 +59,18 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "데스마스 Desumasu",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     }
   ],
   "forms": [
     {
       "name": "哭哭面具",
       "types": [
-        "幽灵"
+        "幽靈"
       ],
-      "category": "魂宝可梦",
+      "category": "魂寶可夢",
       "abilities": [
         {
           "name": "木乃伊",
@@ -82,10 +82,10 @@
       "color": "黑色",
       "catch_rate": "190（24.8%）",
       "egg_groups": [
-        "矿物",
+        "礦物",
         "不定形群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -118,21 +118,21 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "25 孵化周期（6425步）",
+      "egg_cycles": "25 孵化週期（6425步）",
       "shape": "Body04.png",
       "footprint": "Fnone.png",
       "image": "0562-哭哭面具.png"
     },
     {
-      "name": "伽勒尔哭哭面具",
+      "name": "伽勒爾哭哭面具",
       "types": [
         "地面",
-        "幽灵"
+        "幽靈"
       ],
-      "category": "魂宝可梦",
+      "category": "魂寶可夢",
       "abilities": [
         {
-          "name": "游魂",
+          "name": "遊魂",
           "is_hidden": false
         }
       ],
@@ -141,10 +141,10 @@
       "color": "黑色",
       "catch_rate": "190（24.8%）",
       "egg_groups": [
-        "矿物",
+        "礦物",
         "不定形群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -177,10 +177,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "25 孵化周期（6425步）",
+      "egg_cycles": "25 孵化週期（6425步）",
       "shape": "Body04.png",
       "footprint": "Fnone.png",
-      "image": "0562-哭哭面具-伽勒尔哭哭面具.png"
+      "image": "0562-哭哭面具-伽勒爾哭哭面具.png"
     }
   ],
   "stats": [
@@ -196,7 +196,7 @@
       }
     },
     {
-      "form": "伽勒尔的样子",
+      "form": "伽勒爾的樣子",
       "data": {
         "hp": "38",
         "attack": "55",
@@ -211,7 +211,7 @@
     {
       "form": "",
       "types": [
-        "幽灵"
+        "幽靈"
       ],
       "data": [
         {
@@ -219,11 +219,11 @@
           "damage": "0"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -239,15 +239,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -263,7 +263,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -275,11 +275,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -289,10 +289,10 @@
       ]
     },
     {
-      "form": "伽勒尔",
+      "form": "伽勒爾",
       "types": [
         "地面",
-        "幽灵"
+        "幽靈"
       ],
       "data": [
         {
@@ -300,11 +300,11 @@
           "damage": "0"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -320,15 +320,15 @@
           "damage": "0.5"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -344,7 +344,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0"
         },
         {
@@ -356,11 +356,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -376,13 +376,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "拿着的面具是哭哭面具还是人类时的脸。偶尔会注视着面具哭泣。"
+          "group": "寶可夢 黑／白",
+          "text": "拿著的面具是哭哭面具還是人類時的臉。偶爾會注視著面具哭泣。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "从古代墓穴中埋葬的人的灵魂中诞生。持有过去的记忆。"
+          "group": "寶可夢 黑／白",
+          "text": "從古代墓穴中埋葬的人的靈魂中誕生。持有過去的記憶。"
         }
       ]
     },
@@ -391,23 +391,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "埋葬在墓穴里的人类灵魂变化而成的宝可梦。还残留着死前的记忆。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "埋葬在墓穴裡的人類靈魂變化而成的寶可夢。還殘留著死前的記憶。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "拿着的面具是哭哭面具还是人类时的脸。偶尔会注视着面具哭泣。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "拿著的面具是哭哭面具還是人類時的臉。偶爾會注視著面具哭泣。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "埋葬在墓穴里的人类灵魂变化而成的宝可梦。还残留着死前的记忆。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "埋葬在墓穴裡的人類靈魂變化而成的寶可夢。還殘留著死前的記憶。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "拿着的面具是哭哭面具还是人类时的脸。偶尔会注视着面具哭泣。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "拿著的面具是哭哭面具還是人類時的臉。偶爾會注視著面具哭泣。"
         }
       ]
     },
@@ -415,14 +415,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "每天夜里都在遗迹中徘徊。据说它拿着的面具是它还是人类时的脸。刻有诅咒的黏土板附在了哭哭面具上。据说会吸收怨念的能量。（伽勒尔的样子）"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "每天夜裡都在遺蹟中徘徊。據說它拿著的面具是它還是人類時的臉。刻有詛咒的黏土板附在了哭哭面具上。據說會吸收怨念的能量。（伽勒爾的樣子）"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "古代人的灵魂变成了宝可梦。为了寻找认得自己长相的人而在遗迹里徘徊。据说它是古代黏土板被带有强烈怨念的灵魂吸引后诞生的宝可梦。（伽勒尔的样子）"
+          "group": "寶可夢 劍／盾",
+          "text": "古代人的靈魂變成了寶可夢。為了尋找認得自己長相的人而在遺蹟裡徘徊。據說它是古代黏土板被帶有強烈怨念的靈魂吸引後誕生的寶可夢。（伽勒爾的樣子）"
         }
       ]
     },
@@ -430,9 +430,9 @@
       "name": "第九世代",
       "versions": [
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "拿着的面具是哭哭面具还是人类时的脸。偶尔会注视着面具哭泣。被诅咒的黏土板与死者的灵魂融合在一起。会满怀怨恨地挥舞黏土板。（伽勒尔的样子）"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "拿著的面具是哭哭面具還是人類時的臉。偶爾會注視著面具哭泣。被詛咒的黏土板與死者的靈魂融合在一起。會滿懷怨恨地揮舞黏土板。（伽勒爾的樣子）"
         }
       ]
     }
@@ -441,7 +441,7 @@
     [
       {
         "name": "哭哭面具",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "562Yamask_Dream.png",
         "back_text": null,
@@ -450,8 +450,8 @@
       },
       {
         "name": "迭失棺",
-        "stage": "1阶进化",
-        "text": "等级34以上",
+        "stage": "1階進化",
+        "text": "等級34以上",
         "image": "563Cofagrigus_Dream.png",
         "back_text": null,
         "from": "哭哭面具",
@@ -461,17 +461,17 @@
     [
       {
         "name": "哭哭面具",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "562Yamask-Galar_Dream.png",
         "back_text": null,
         "from": null,
-        "form_name": "伽勒尔的样子"
+        "form_name": "伽勒爾的樣子"
       },
       {
         "name": "迭失板",
-        "stage": "1阶进化",
-        "text": "受到至少49伤害后来到沙尘洼地岩门(剑盾)或库流水路拱桥下（ZA）",
+        "stage": "1階進化",
+        "text": "受到至少49傷害後來到沙塵窪地巖門(劍盾)或庫流水路拱橋下（ZA）",
         "image": "867Runerigus_Dream.png",
         "back_text": null,
         "from": "哭哭面具",
@@ -487,8 +487,8 @@
       "data": [
         {
           "level": "—",
-          "name": "惊吓",
-          "type": "幽灵",
+          "name": "驚嚇",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -498,16 +498,16 @@
           "level": "—",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "4",
-          "name": "黑雾",
+          "name": "黑霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -515,9 +515,9 @@
         {
           "level": "8",
           "name": "黑夜魔影",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
@@ -525,7 +525,7 @@
           "level": "12",
           "name": "定身法",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -534,24 +534,24 @@
           "level": "16",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
           "level": "20",
-          "name": "戏法防守",
+          "name": "戲法防守",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "24",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
@@ -561,7 +561,7 @@
           "level": "28",
           "name": "黑色目光",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -569,17 +569,17 @@
         {
           "level": "32",
           "name": "怨念",
-          "type": "幽灵",
-          "category": "变化",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "36",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -587,7 +587,7 @@
         {
           "level": "40",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -595,8 +595,8 @@
         },
         {
           "level": "44",
-          "name": "恶之波动",
-          "type": "恶",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -606,7 +606,7 @@
           "level": "48",
           "name": "力量平分",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -615,7 +615,7 @@
           "level": "48",
           "name": "防守平分",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -623,8 +623,8 @@
         {
           "level": "52",
           "name": "同命",
-          "type": "幽灵",
-          "category": "变化",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -632,12 +632,12 @@
       ]
     },
     {
-      "form": "伽勒尔的样子",
+      "form": "伽勒爾的樣子",
       "data": [
         {
           "level": "—",
-          "name": "惊吓",
-          "type": "幽灵",
+          "name": "驚嚇",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -647,16 +647,16 @@
           "level": "—",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "4",
-          "name": "黑雾",
+          "name": "黑霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -664,9 +664,9 @@
         {
           "level": "8",
           "name": "黑夜魔影",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
@@ -674,15 +674,15 @@
           "level": "12",
           "name": "定身法",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "16",
-          "name": "狂舞挥打",
-          "type": "恶",
+          "name": "狂舞揮打",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -690,17 +690,17 @@
         },
         {
           "level": "20",
-          "name": "戏法防守",
+          "name": "戲法防守",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "24",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
@@ -710,7 +710,7 @@
           "level": "28",
           "name": "黑色目光",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -726,9 +726,9 @@
         },
         {
           "level": "36",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -736,7 +736,7 @@
         {
           "level": "40",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -755,7 +755,7 @@
           "level": "48",
           "name": "力量平分",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -764,7 +764,7 @@
           "level": "48",
           "name": "防守平分",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -772,8 +772,8 @@
         {
           "level": "52",
           "name": "同命",
-          "type": "幽灵",
-          "category": "变化",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -786,34 +786,34 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器１９",
-          "name": "神秘守护",
+          "machine": "招式學習器１９",
+          "name": "神秘守護",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２３",
+          "machine": "招式學習器２３",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -822,44 +822,44 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３８",
+          "machine": "招式學習器３８",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -867,53 +867,53 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４４",
+          "machine": "招式學習器４４",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器４７",
+          "machine": "招式學習器４７",
           "name": "假哭",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器５７",
-          "name": "以牙还牙",
-          "type": "恶",
+          "machine": "招式學習器５７",
+          "name": "以牙還牙",
+          "type": "惡",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７０",
-          "name": "戏法空间",
+          "machine": "招式學習器７０",
+          "name": "戲法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器７１",
-          "name": "奇妙空间",
+          "machine": "招式學習器７１",
+          "name": "奇妙空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -921,17 +921,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７７",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "machine": "招式學習器７７",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录１１",
-          "name": "精神强念",
+          "machine": "招式記錄１１",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -939,97 +939,97 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３３",
+          "machine": "招式記錄３３",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３８",
-          "name": "戏法",
+          "machine": "招式記錄３８",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录４０",
-          "name": "特性互换",
+          "machine": "招式記錄４０",
+          "name": "特性互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录４６",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式記錄４６",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式记录４９",
+          "machine": "招式記錄４９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录５４",
+          "machine": "招式記錄５４",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录５８",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式記錄５８",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录６５",
+          "machine": "招式記錄６５",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -1038,17 +1038,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录６８",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄６８",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录６９",
-          "name": "意念头锤",
+          "machine": "招式記錄６９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -1056,10 +1056,10 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录８３",
-          "name": "交换场地",
+          "machine": "招式記錄８３",
+          "name": "交換場地",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -1067,29 +1067,29 @@
       ]
     },
     {
-      "form": "伽勒尔的样子",
+      "form": "伽勒爾的樣子",
       "data": [
         {
-          "machine": "招式学习器１９",
-          "name": "神秘守护",
+          "machine": "招式學習器１９",
+          "name": "神秘守護",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２",
-          "name": "岩崩",
+          "machine": "招式學習器２２",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -1097,16 +1097,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２３",
+          "machine": "招式學習器２３",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -1115,53 +1115,53 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３２",
+          "machine": "招式學習器３２",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３８",
+          "machine": "招式學習器３８",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -1169,26 +1169,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４４",
+          "machine": "招式學習器４４",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器４７",
+          "machine": "招式學習器４７",
           "name": "假哭",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器４８",
-          "name": "岩石封锁",
+          "machine": "招式學習器４８",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -1196,35 +1196,35 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器５７",
-          "name": "以牙还牙",
-          "type": "恶",
+          "machine": "招式學習器５７",
+          "name": "以牙還牙",
+          "type": "惡",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７０",
-          "name": "戏法空间",
+          "machine": "招式學習器７０",
+          "name": "戲法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器７１",
-          "name": "奇妙空间",
+          "machine": "招式學習器７１",
+          "name": "奇妙空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -1232,25 +1232,25 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７７",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "machine": "招式學習器７７",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器９７",
-          "name": "狂舞挥打",
-          "type": "恶",
+          "machine": "招式學習器９７",
+          "name": "狂舞揮打",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录１０",
+          "machine": "招式記錄１０",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -1259,8 +1259,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录１１",
-          "name": "精神强念",
+          "machine": "招式記錄１１",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -1268,97 +1268,97 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３３",
+          "machine": "招式記錄３３",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３８",
-          "name": "戏法",
+          "machine": "招式記錄３８",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录４０",
-          "name": "特性互换",
+          "machine": "招式記錄４０",
+          "name": "特性互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录４６",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式記錄４６",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式记录４９",
+          "machine": "招式記錄４９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录５４",
+          "machine": "招式記錄５４",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录５８",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式記錄５８",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录６５",
+          "machine": "招式記錄６５",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -1367,7 +1367,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录６７",
+          "machine": "招式記錄６７",
           "name": "大地之力",
           "type": "地面",
           "category": "特殊",
@@ -1376,17 +1376,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录６８",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄６８",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录６９",
-          "name": "意念头锤",
+          "machine": "招式記錄６９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -1394,10 +1394,10 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录８３",
-          "name": "交换场地",
+          "machine": "招式記錄８３",
+          "name": "交換場地",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -1413,52 +1413,52 @@
           "parents": [
             {
               "id": "109",
-              "name": "瓦斯弹"
+              "name": "瓦斯彈"
             },
             {
               "id": "110",
-              "name": "双弹瓦斯"
+              "name": "雙彈瓦斯"
             },
             {
               "id": "110G",
-              "name": "双弹瓦斯"
+              "name": "雙彈瓦斯"
             },
             {
               "id": "422",
-              "name": "无壳海兔"
+              "name": "無殼海兔"
             },
             {
               "id": "422E",
-              "name": "无壳海兔"
+              "name": "無殼海兔"
             },
             {
               "id": "423",
-              "name": "海兔兽"
+              "name": "海兔獸"
             },
             {
               "id": "423E",
-              "name": "海兔兽"
+              "name": "海兔獸"
             },
             {
               "id": "442",
-              "name": "花岩怪"
+              "name": "花巖怪"
             },
             {
               "id": "607",
-              "name": "烛光灵"
+              "name": "燭光靈"
             },
             {
               "id": null,
-              "name": "灯火幽灵"
+              "name": "燈火幽靈"
             },
             {
               "id": null,
-              "name": "水晶灯火灵"
+              "name": "水晶燈火靈"
             }
           ],
-          "name": "临别礼物",
-          "type": "恶",
-          "category": "变化",
+          "name": "臨別禮物",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -1466,58 +1466,58 @@
       ]
     },
     {
-      "form": "伽勒尔的样子",
+      "form": "伽勒爾的樣子",
       "data": [
         {
           "parents": [
             {
               "id": "109",
-              "name": "瓦斯弹"
+              "name": "瓦斯彈"
             },
             {
               "id": "110",
-              "name": "双弹瓦斯"
+              "name": "雙彈瓦斯"
             },
             {
               "id": "110G",
-              "name": "双弹瓦斯"
+              "name": "雙彈瓦斯"
             },
             {
               "id": "422",
-              "name": "无壳海兔"
+              "name": "無殼海兔"
             },
             {
               "id": "422E",
-              "name": "无壳海兔"
+              "name": "無殼海兔"
             },
             {
               "id": "423",
-              "name": "海兔兽"
+              "name": "海兔獸"
             },
             {
               "id": "423E",
-              "name": "海兔兽"
+              "name": "海兔獸"
             },
             {
               "id": "442",
-              "name": "花岩怪"
+              "name": "花巖怪"
             },
             {
               "id": "607",
-              "name": "烛光灵"
+              "name": "燭光靈"
             },
             {
               "id": null,
-              "name": "灯火幽灵"
+              "name": "燈火幽靈"
             },
             {
               "id": null,
-              "name": "水晶灯火灵"
+              "name": "水晶燈火靈"
             }
           ],
-          "name": "临别礼物",
-          "type": "恶",
-          "category": "变化",
+          "name": "臨別禮物",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -1532,9 +1532,9 @@
       "shiny": "0562-哭哭面具-shiny.png"
     },
     {
-      "name": "哭哭面具-伽勒尔的样子",
-      "image": "0562-哭哭面具-伽勒尔的样子.png",
-      "shiny": "0562-哭哭面具-伽勒尔的样子-shiny.png"
+      "name": "哭哭面具-伽勒爾的樣子",
+      "image": "0562-哭哭面具-伽勒爾的樣子.png",
+      "shiny": "0562-哭哭面具-伽勒爾的樣子-shiny.png"
     }
   ]
 }

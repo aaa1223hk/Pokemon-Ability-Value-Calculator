@@ -3,53 +3,53 @@
   "name_ja": "メロエッタ",
   "name_en": "Meloetta",
   "pokedex_id": "0648",
-  "description": "美洛耶塔（日文︰メロエッタ，英文︰Meloetta）是一般属性／超能力属性幻之宝可梦，而舞步形态是一般属性/格斗属性幻之宝可梦。",
-  "profile": "歌声形态的美洛耶塔浅绿色的头发中有音乐小节般的条纹，纤细的手臂与椭圆状的手掌连接，构成四分音符的形状。它看不出有瞳孔的眼睛则像全音符。它的额头上有一颗宝石，并有高音谱号般的黑色头饰。黑色的腰上环有与它发色相同的腰环。舞步形态的美洛耶塔头发则是橙色的，盘卷向上。\n歌声形态的美洛耶塔用特殊的发声法唱出的旋律可以自由地操纵听者的情绪，让周围的宝可梦或悲或喜。许多名曲的灵感都来自于美洛耶塔演奏的旋律。舞步形态的美洛耶塔找回了被遗忘已久的歌，以魅惑的舞步令众生为之倾倒。",
-  "prototype": "在歌声形态中，美洛耶塔就像一名典型的歌手。\n它的黑色头饰就像头戴型麦克风，造型参考了高音谱号，头发参考了五线谱和全音符，手则参考了四分音符。\n在舞步形态中，美洛耶塔就像一名芭蕾舞舞者或一名西班牙弗拉明戈舞舞者。\n美洛耶塔也许基于缪斯，一名希腊神话的艺术女神。也可能糅合了希腊神话中的爱与美之神维纳斯，长发而碧眼，皮肤雪白。",
-  "detail": "在第五世代教授古老之歌的乐师会提到“深褐色的记忆”，而在《朱／紫》美洛耶塔的获取方式中改变相机滤镜的颜色正是深褐色。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步美洛耶塔（Pokémon GO）。\n←\nNo.0647：凯路迪欧\n宝可梦\nNo.0649：盖诺赛克特\n→",
+  "description": "美洛耶塔（日文︰メロエッタ，英文︰Meloetta）是一般屬性／超能力屬性幻之寶可夢，而舞步形態是一般屬性/格鬥屬性幻之寶可夢。",
+  "profile": "歌聲形態的美洛耶塔淺綠色的頭髮中有音樂小節般的條紋，纖細的手臂與橢圓狀的手掌連線，構成四分音符的形狀。它看不出有瞳孔的眼睛則像全音符。它的額頭上有一顆寶石，並有高音譜號般的黑色頭飾。黑色的腰上環有與它髮色相同的腰環。舞步形態的美洛耶塔頭髮則是橙色的，盤卷向上。\n歌聲形態的美洛耶塔用特殊的發聲法唱出的旋律可以自由地操縱聽者的情緒，讓周圍的寶可夢或悲或喜。許多名曲的靈感都來自於美洛耶塔演奏的旋律。舞步形態的美洛耶塔找回了被遺忘已久的歌，以魅惑的舞步令眾生為之傾倒。",
+  "prototype": "在歌聲形態中，美洛耶塔就像一名典型的歌手。\n它的黑色頭飾就像頭戴型麥克風，造型參考了高音譜號，頭髮參考了五線譜和全音符，手則參考了四分音符。\n在舞步形態中，美洛耶塔就像一名芭蕾舞舞者或一名西班牙弗拉明戈舞舞者。\n美洛耶塔也許基於繆斯，一名希臘神話的藝術女神。也可能糅合了希臘神話中的愛與美之神維納斯，長髮而碧眼，皮膚雪白。",
+  "detail": "在第五世代教授古老之歌的樂師會提到“深褐色的記憶”，而在《朱／紫》美洛耶塔的獲取方式中改變相機濾鏡的顏色正是深褐色。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步美洛耶塔（Pokémon GO）。\n←\nNo.0647：凱路迪歐\n寶可夢\nNo.0649：蓋諾賽克特\n→",
   "names": [
     {
       "language": "日文",
       "name": "メロエッタ Meloetta",
-      "origin": "来自英文 melody（旋律）和意大利文 arietta（小咏叹调）。"
+      "origin": "來自英文 melody（旋律）和義大利文 arietta（小詠歎調）。"
     },
     {
       "language": "中文-任天堂",
       "name": "美洛耶塔",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     },
     {
-      "language": "中文-大陆",
+      "language": "中文-大陸",
       "name": "美洛耶塔",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "美洛耶塔",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     },
     {
       "language": "中文-香港",
       "name": "美洛耶塔",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     },
     {
       "language": "英文",
       "name": "Meloetta",
-      "origin": "来自日文名。"
+      "origin": "來自日文名。"
     },
     {
       "language": "法文",
       "name": "Meloetta",
-      "origin": "来自日文名。"
+      "origin": "來自日文名。"
     },
     {
       "language": "德文",
       "name": "Meloetta",
-      "origin": "来自日文名。"
+      "origin": "來自日文名。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Meloetta",
       "origin": "同英文名。"
     },
@@ -59,19 +59,19 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "메로엣타 Meloetta",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     }
   ],
   "forms": [
     {
-      "name": "歌声形态",
+      "name": "歌聲形態",
       "types": [
         "一般",
         "超能力"
       ],
-      "category": "旋律宝可梦",
+      "category": "旋律寶可夢",
       "abilities": [
         {
           "name": "天恩",
@@ -83,7 +83,7 @@
       "color": "白色",
       "catch_rate": "3（0.4%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -118,18 +118,18 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "120 孵化周期*（30840步）",
+      "egg_cycles": "120 孵化週期*（30840步）",
       "shape": "Body12.png",
       "footprint": "F648.png",
-      "image": "0648-美洛耶塔-歌声形态.png"
+      "image": "0648-美洛耶塔-歌聲形態.png"
     },
     {
-      "name": "舞步形态",
+      "name": "舞步形態",
       "types": [
         "一般",
-        "格斗"
+        "格鬥"
       ],
-      "category": "旋律宝可梦",
+      "category": "旋律寶可夢",
       "abilities": [
         {
           "name": "天恩",
@@ -141,7 +141,7 @@
       "color": "白色",
       "catch_rate": "3（0.4%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -176,15 +176,15 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "120 孵化周期*（30840步）",
+      "egg_cycles": "120 孵化週期*（30840步）",
       "shape": "Body12.png",
       "footprint": "F648.png",
-      "image": "0648-美洛耶塔-舞步形态.png"
+      "image": "0648-美洛耶塔-舞步形態.png"
     }
   ],
   "stats": [
     {
-      "form": "歌声形态",
+      "form": "歌聲形態",
       "data": {
         "hp": "100",
         "attack": "77",
@@ -195,7 +195,7 @@
       }
     },
     {
-      "form": "舞步形态",
+      "form": "舞步形態",
       "data": {
         "hp": "100",
         "attack": "128",
@@ -208,7 +208,7 @@
   ],
   "type_effectiveness": [
     {
-      "form": "歌声",
+      "form": "歌聲",
       "types": [
         "一般",
         "超能力"
@@ -219,11 +219,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -239,15 +239,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "2"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "0"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -263,7 +263,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -275,11 +275,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -292,7 +292,7 @@
       "form": "舞步",
       "types": [
         "一般",
-        "格斗"
+        "格鬥"
       ],
       "data": [
         {
@@ -300,11 +300,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "2"
         },
         {
@@ -320,15 +320,15 @@
           "damage": "0.5"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "0"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -344,7 +344,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -356,11 +356,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "0.5"
         },
         {
@@ -376,13 +376,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "用特殊的发声法唱出的旋律可以自由地操纵听者的情绪。"
+          "group": "寶可夢 黑／白",
+          "text": "用特殊的發聲法唱出的旋律可以自由地操縱聽者的情緒。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "许多名曲的灵感都来自于美洛耶塔演奏的旋律。"
+          "group": "寶可夢 黑／白",
+          "text": "許多名曲的靈感都來自於美洛耶塔演奏的旋律。"
         }
       ]
     },
@@ -391,23 +391,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "美洛耶塔演奏的旋律拥有让周围的宝可梦或悲或喜的力量。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "美洛耶塔演奏的旋律擁有讓周圍的寶可夢或悲或喜的力量。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "用特殊的发声法唱出的旋律可以自由地操纵听者的情绪。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "用特殊的發聲法唱出的旋律可以自由地操縱聽者的情緒。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "美洛耶塔演奏的旋律拥有让周围的宝可梦或悲或喜的力量。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "美洛耶塔演奏的旋律擁有讓周圍的寶可夢或悲或喜的力量。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "用特殊的发声法唱出的旋律可以自由地操纵听者的情绪。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "用特殊的發聲法唱出的旋律可以自由地操縱聽者的情緒。"
         }
       ]
     },
@@ -415,9 +415,9 @@
       "name": "第九世代",
       "versions": [
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "用特殊的发声法唱出的旋律可以自由地操纵听者的情绪。（歌声形态）美洛耶塔找回了被遗忘已久的歌，以魅惑的舞步令众生为之倾倒。（舞步形态）"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "用特殊的發聲法唱出的旋律可以自由地操縱聽者的情緒。（歌聲形態）美洛耶塔找回了被遺忘已久的歌，以魅惑的舞步令眾生為之傾倒。（舞步形態）"
         }
       ]
     }
@@ -426,7 +426,7 @@
     [
       {
         "name": "美洛耶塔",
-        "stage": "不进化",
+        "stage": "不進化",
         "text": null,
         "image": "648Meloetta_Dream.png",
         "back_text": null,
@@ -445,7 +445,7 @@
           "level": "—",
           "name": "唱歌",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "55",
           "pp": "15"
@@ -461,7 +461,7 @@
         },
         {
           "level": "—",
-          "name": "电光一闪",
+          "name": "電光一閃",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -470,7 +470,7 @@
         },
         {
           "level": "—",
-          "name": "轮唱",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -479,17 +479,17 @@
         },
         {
           "level": "21",
-          "name": "摇晃舞",
+          "name": "搖晃舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "26",
-          "name": "杂技",
-          "type": "飞行",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
@@ -497,7 +497,7 @@
         },
         {
           "level": "31",
-          "name": "幻象光线",
+          "name": "幻象光線",
           "type": "超能力",
           "category": "特殊",
           "power": "65",
@@ -506,7 +506,7 @@
         },
         {
           "level": "36",
-          "name": "回声",
+          "name": "回聲",
           "type": "一般",
           "category": "特殊",
           "power": "40",
@@ -516,7 +516,7 @@
         {
           "level": "43",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -533,7 +533,7 @@
         },
         {
           "level": "57",
-          "name": "精神强念",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -542,7 +542,7 @@
         },
         {
           "level": "64",
-          "name": "巨声",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -553,15 +553,15 @@
           "level": "71",
           "name": "扮演",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "78",
-          "name": "近身战",
-          "type": "格斗",
+          "name": "近身戰",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
@@ -569,9 +569,9 @@
         },
         {
           "level": "85",
-          "name": "终焉之歌",
+          "name": "終焉之歌",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -584,53 +584,53 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００２",
-          "name": "撒娇",
+          "machine": "招式學習器００２",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００３",
+          "machine": "招式學習器００３",
           "name": "假哭",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１２",
+          "machine": "招式學習器０１２",
           "name": "踢倒",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１６",
-          "name": "幻象光线",
+          "machine": "招式學習器０１６",
+          "name": "幻象光線",
           "type": "超能力",
           "category": "特殊",
           "power": "65",
@@ -638,8 +638,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１９",
-          "name": "魅惑之声",
+          "machine": "招式學習器０１９",
+          "name": "魅惑之聲",
           "type": "妖精",
           "category": "特殊",
           "power": "40",
@@ -647,8 +647,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -656,7 +656,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -665,53 +665,53 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３９",
-          "name": "下盘踢",
-          "type": "格斗",
+          "machine": "招式學習器０３９",
+          "name": "下盤踢",
+          "type": "格鬥",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５４",
-          "name": "精神冲击",
+          "machine": "招式學習器０５４",
+          "name": "精神衝擊",
           "type": "超能力",
           "category": "特殊",
           "power": "80",
@@ -719,17 +719,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５８",
+          "machine": "招式學習器０５８",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０５９",
-          "name": "意念头锤",
+          "machine": "招式學習器０５９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -737,25 +737,25 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６１",
+          "machine": "招式學習器０６１",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６７",
+          "machine": "招式學習器０６７",
           "name": "火焰拳",
           "type": "火",
           "category": "物理",
@@ -764,17 +764,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６８",
-          "name": "雷电拳",
-          "type": "电",
+          "machine": "招式學習器０６８",
+          "name": "雷電拳",
+          "type": "電",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６９",
-          "name": "冰冻拳",
+          "machine": "招式學習器０６９",
+          "name": "冰凍拳",
           "type": "冰",
           "category": "物理",
           "power": "75",
@@ -782,35 +782,35 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７３",
+          "machine": "招式學習器０７３",
           "name": "吸取拳",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０７９",
-          "name": "魔法闪耀",
+          "machine": "招式學習器０７９",
+          "name": "魔法閃耀",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -818,89 +818,89 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８０",
-          "name": "挥指",
+          "machine": "招式學習器０８０",
+          "name": "揮指",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８１",
-          "name": "打草结",
+          "machine": "招式學習器０８１",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８２",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０８２",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８８",
-          "name": "剑舞",
+          "machine": "招式學習器０８８",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９８",
-          "name": "特性互换",
+          "machine": "招式學習器０９８",
+          "name": "特性互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０９",
-          "name": "戏法",
+          "machine": "招式學習器１０９",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１４",
+          "machine": "招式學習器１１４",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１７",
-          "name": "巨声",
+          "machine": "招式學習器１１７",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -908,7 +908,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１９",
+          "machine": "招式學習器１１９",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -917,8 +917,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２０",
-          "name": "精神强念",
+          "machine": "招式學習器１２０",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -926,17 +926,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２６",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式學習器１２６",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２７",
-          "name": "嬉闹",
+          "machine": "招式學習器１２７",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -944,44 +944,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２９",
+          "machine": "招式學習器１２９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３２",
+          "machine": "招式學習器１３２",
           "name": "接棒",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
         },
         {
-          "machine": "招式学习器１３４",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式學習器１３４",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１５０",
-          "name": "尖石攻击",
+          "machine": "招式學習器１５０",
+          "name": "尖石攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "100",
@@ -989,8 +989,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -998,26 +998,26 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５８",
-          "name": "真气弹",
-          "type": "格斗",
+          "machine": "招式學習器１５８",
+          "name": "真氣彈",
+          "type": "格鬥",
           "category": "特殊",
           "power": "120",
           "accuracy": "70",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６１",
-          "name": "戏法空间",
+          "machine": "招式學習器１６１",
+          "name": "戲法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -1025,26 +1025,26 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６６",
+          "machine": "招式學習器１６６",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６７",
-          "name": "近身战",
-          "type": "格斗",
+          "machine": "招式學習器１６７",
+          "name": "近身戰",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -1052,44 +1052,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７８",
+          "machine": "招式學習器１７８",
           "name": "重力",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１８１",
+          "machine": "招式學習器１８１",
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１９２",
-          "name": "真气拳",
-          "type": "格斗",
+          "machine": "招式學習器１９２",
+          "name": "真氣拳",
+          "type": "格鬥",
           "category": "物理",
           "power": "150",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０３",
+          "machine": "招式學習器２０３",
           "name": "自我暗示",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１２",
-          "name": "三旋击",
+          "machine": "招式學習器２１２",
+          "name": "三旋擊",
           "type": "冰",
           "category": "物理",
           "power": "20",
@@ -1097,17 +1097,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１３",
-          "name": "指导",
-          "type": "格斗",
-          "category": "变化",
+          "machine": "招式學習器２１３",
+          "name": "指導",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２７",
-          "name": "魅诱之声",
+          "machine": "招式學習器２２７",
+          "name": "魅誘之聲",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -1120,14 +1120,14 @@
   "egg_moves": [],
   "home_images": [
     {
-      "name": "美洛耶塔-歌声形态",
-      "image": "0648-美洛耶塔-歌声形态.png",
-      "shiny": "0648-美洛耶塔-歌声形态-shiny.png"
+      "name": "美洛耶塔-歌聲形態",
+      "image": "0648-美洛耶塔-歌聲形態.png",
+      "shiny": "0648-美洛耶塔-歌聲形態-shiny.png"
     },
     {
-      "name": "美洛耶塔-舞步形态",
-      "image": "0648-美洛耶塔-舞步形态.png",
-      "shiny": "0648-美洛耶塔-舞步形态-shiny.png"
+      "name": "美洛耶塔-舞步形態",
+      "image": "0648-美洛耶塔-舞步形態.png",
+      "shiny": "0648-美洛耶塔-舞步形態-shiny.png"
     }
   ]
 }

@@ -1,45 +1,45 @@
 {
-  "name_zh": "花疗环环",
+  "name_zh": "花療環環",
   "name_ja": "キュワワー",
   "name_en": "Comfey",
   "pokedex_id": "0764",
-  "description": "花疗环环（日文︰キュワワー，英文︰Comfey）是妖精属性宝可梦。",
-  "profile": "花疗环环的身体呈绿色，上半部分是橙色的面部，下半部分有两只手。它的面部有两个绿色的眼睛和弧形的嘴。它的头上有一个翼状绒毛，两侧各有一团乳白色绒毛。从翼状绒毛顶端伸出藤蔓，从下方绕过一圈到达手中，藤蔓上穿满花朵。\n花疗环环是散发着迷人香气的宝可梦。它从头上伸出有粘性的藤蔓，用摘下的花朵装饰自己。它的藤蔓富含营养，装饰在上面的花会因此活化，并绽放得十分鲜艳。它采花后会经常携带着这些花朵，没有花就会感到不安。将花用体液粘在它充满营养的藤蔓上便会活化，从花瓣散发出来的香气能够治愈自己和伙伴。由于每只花疗环环身上的花都不一样，所以香味也各不相同。当受到其他宝可梦袭击时，会投掷花朵制造时机，然后趁机逃走或进行反击。如果遇到自己喜欢的对象，会有将用采摘回来的花朵制作的花环送给对方的习惯。花疗环环会在宝可梦中心和医院里利用香气协助治疗人和宝可梦。把藤蔓上附着的花漂浮在浴盆里，泡澡时会有舒缓的效果，在广大女性中极具人气。",
-  "prototype": "花疗环环基于花环，这种设计正好对应了阿罗拉地区的现实原型夏威夷地区献花环的习俗。",
-  "detail": "在动画中的木木枭登场！在阿罗拉收服宝可梦吧!!中可以看出，花环上的花并非花疗环环身体的一部分。",
+  "description": "花療環環（日文︰キュワワー，英文︰Comfey）是妖精屬性寶可夢。",
+  "profile": "花療環環的身體呈綠色，上半部分是橙色的面部，下半部分有兩隻手。它的面部有兩個綠色的眼睛和弧形的嘴。它的頭上有一個翼狀絨毛，兩側各有一團乳白色絨毛。從翼狀絨毛頂端伸出藤蔓，從下方繞過一圈到達手中，藤蔓上穿滿花朵。\n花療環環是散發著迷人香氣的寶可夢。它從頭上伸出有粘性的藤蔓，用摘下的花朵裝飾自己。它的藤蔓富含營養，裝飾在上面的花會因此活化，並綻放得十分鮮豔。它採花後會經常攜帶著這些花朵，沒有花就會感到不安。將花用體液粘在它充滿營養的藤蔓上便會活化，從花瓣散發出來的香氣能夠治癒自己和夥伴。由於每隻花療環環身上的花都不一樣，所以香味也各不相同。當受到其他寶可夢襲擊時，會投擲花朵製造時機，然後趁機逃走或進行反擊。如果遇到自己喜歡的物件，會有將用採摘回來的花朵製作的花環送給對方的習慣。花療環環會在寶可夢中心和醫院裡利用香氣協助治療人和寶可夢。把藤蔓上附著的花漂浮在浴盆裡，泡澡時會有舒緩的效果，在廣大女性中極具人氣。",
+  "prototype": "花療環環基於花環，這種設計正好對應了阿羅拉地區的現實原型夏威夷地區獻花環的習俗。",
+  "detail": "在動畫中的木木梟登場！在阿羅拉收服寶可夢吧!!中可以看出，花環上的花並非花療環環身體的一部分。",
   "names": [
     {
       "language": "日文",
       "name": "キュワワー Cuwawa",
-      "origin": "来自英文 cure（治愈；治疗）、“輪（わ）”（环）和英文 flower（花）。"
+      "origin": "來自英文 cure（治癒；治療）、“輪（わ）”（環）和英文 flower（花）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "花療環環花疗环环",
-      "origin": "来自“花环”和“治疗”。"
+      "name": "花療環環花療環環",
+      "origin": "來自“花環”和“治療”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "花療環環",
-      "origin": "来自“花环”和“治疗”。"
+      "origin": "來自“花環”和“治療”。"
     },
     {
       "language": "英文",
       "name": "Comfey",
-      "origin": "来自 comfy（舒服的）、comfrey（聚合草：一种药草）、fey（妖精）和 lei（夏威夷花环）。"
+      "origin": "來自 comfy（舒服的）、comfrey（聚合草：一種藥草）、fey（妖精）和 lei（夏威夷花環）。"
     },
     {
       "language": "法文",
       "name": "Guérilande",
-      "origin": "来自 guérir（治愈）和 guirlande（花环）。"
+      "origin": "來自 guérir（治癒）和 guirlande（花環）。"
     },
     {
       "language": "德文",
       "name": "Curelei",
-      "origin": "来自英文 cure（治愈；治疗）和 Lei（夏威夷花环）。"
+      "origin": "來自英文 cure（治癒；治療）和 Lei（夏威夷花環）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Comfey",
       "origin": "同英文名。"
     },
@@ -49,35 +49,35 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "큐아링 Curering",
-      "origin": "来自英文 cure（治愈；治疗）和英文 ring（环）。"
+      "origin": "來自英文 cure（治癒；治療）和英文 ring（環）。"
     }
   ],
   "forms": [
     {
-      "name": "花疗环环",
+      "name": "花療環環",
       "types": [
         "妖精"
       ],
-      "category": "摘花宝可梦",
+      "category": "摘花寶可夢",
       "abilities": [
         {
           "name": "花幕",
           "is_hidden": false
         },
         {
-          "name": "先行治疗",
+          "name": "先行治療",
           "is_hidden": false
         },
         {
-          "name": "自然回复",
+          "name": "自然回覆",
           "is_hidden": true
         }
       ],
       "height": "0.1m",
       "weight": "0.3kg",
-      "color": "绿色",
+      "color": "綠色",
       "catch_rate": "60（7.8%）",
       "egg_groups": [
         "植物群"
@@ -115,10 +115,10 @@
         "male": 25,
         "female": 75
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body01.png",
       "footprint": "FUnknown.png",
-      "image": "0764-花疗环环.png"
+      "image": "0764-花療環環.png"
     }
   ],
   "stats": [
@@ -146,11 +146,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -166,15 +166,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -190,7 +190,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -202,11 +202,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "0"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "0.5"
         },
         {
@@ -221,14 +221,14 @@
       "name": "第七世代",
       "versions": [
         {
-          "name": "太阳",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "将花粘在充满营养的藤蔓上。花会活化，芳香也会飘散出来。"
+          "name": "太陽",
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "將花粘在充滿營養的藤蔓上。花會活化，芳香也會飄散出來。"
         },
         {
           "name": "月亮",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "把藤蔓上附着的花漂浮在浴盆里，泡澡时会有舒缓的效果，在广大女性中极具人气。"
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "把藤蔓上附著的花漂浮在浴盆裡，泡澡時會有舒緩的效果，在廣大女性中極具人氣。"
         }
       ]
     },
@@ -236,14 +236,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "用藤蔓摘花来打扮自己。不知为何，附在它身上的花不会枯萎。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "用藤蔓摘花來打扮自己。不知為何，附在它身上的花不會枯萎。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "散发着迷人香气的宝可梦。由于每只花疗环环身上的花都不一样，所以香味也各不相同。"
+          "group": "寶可夢 劍／盾",
+          "text": "散發著迷人香氣的寶可夢。由於每隻花療環環身上的花都不一樣，所以香味也各不相同。"
         }
       ]
     },
@@ -252,13 +252,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "会用藤蔓摘花。附在它身上的花会产生治愈的效果。"
+          "group": "寶可夢 朱／紫",
+          "text": "會用藤蔓摘花。附在它身上的花會產生治癒的效果。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "身上附着花时会很开心，并发挥出治愈的效果。喜欢有很多花的地方。"
+          "group": "寶可夢 朱／紫",
+          "text": "身上附著花時會很開心，並發揮出治癒的效果。喜歡有很多花的地方。"
         }
       ]
     }
@@ -266,8 +266,8 @@
   "evolution_chains": [
     [
       {
-        "name": "花疗环环",
-        "stage": "不进化",
+        "name": "花療環環",
+        "stage": "不進化",
         "text": null,
         "image": "764Comfey_Dream.png",
         "back_text": null,
@@ -284,7 +284,7 @@
       "data": [
         {
           "level": "—",
-          "name": "紧束",
+          "name": "緊束",
           "type": "一般",
           "category": "物理",
           "power": "15",
@@ -293,9 +293,9 @@
         },
         {
           "level": "—",
-          "name": "生长",
+          "name": "生長",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -311,9 +311,9 @@
         },
         {
           "level": "6",
-          "name": "帮助",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -329,16 +329,16 @@
         },
         {
           "level": "12",
-          "name": "撒娇",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "15",
-          "name": "魔法叶",
+          "name": "魔法葉",
           "type": "草",
           "category": "特殊",
           "power": "60",
@@ -349,26 +349,26 @@
           "level": "18",
           "name": "光合作用",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "21",
-          "name": "寄生种子",
+          "name": "寄生種子",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
         },
         {
           "level": "24",
-          "name": "打草结",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
@@ -376,23 +376,23 @@
           "level": "27",
           "name": "天使之吻",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "75",
           "pp": "10"
         },
         {
           "level": "30",
-          "name": "花疗",
+          "name": "花療",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "33",
-          "name": "落英缤纷",
+          "name": "落英繽紛",
           "type": "草",
           "category": "物理",
           "power": "90",
@@ -401,7 +401,7 @@
         },
         {
           "level": "36",
-          "name": "绑紧",
+          "name": "綁緊",
           "type": "一般",
           "category": "物理",
           "power": "15",
@@ -410,7 +410,7 @@
         },
         {
           "level": "39",
-          "name": "嬉闹",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -419,9 +419,9 @@
         },
         {
           "level": "42",
-          "name": "甜甜香气",
+          "name": "甜甜香氣",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -437,9 +437,9 @@
         },
         {
           "level": "48",
-          "name": "青草场地",
+          "name": "青草場地",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -452,44 +452,44 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００２",
-          "name": "撒娇",
+          "machine": "招式學習器００２",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０１９",
-          "name": "魅惑之声",
+          "machine": "招式學習器０１９",
+          "name": "魅惑之聲",
           "type": "妖精",
           "category": "特殊",
           "power": "40",
@@ -497,7 +497,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２０",
+          "machine": "招式學習器０２０",
           "name": "起草",
           "type": "草",
           "category": "物理",
@@ -506,8 +506,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -515,7 +515,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -524,8 +524,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３３",
-          "name": "魔法叶",
+          "machine": "招式學習器０３３",
+          "name": "魔法葉",
           "type": "草",
           "category": "特殊",
           "power": "60",
@@ -533,7 +533,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３７",
+          "machine": "招式學習器０３７",
           "name": "吸取之吻",
           "type": "妖精",
           "category": "特殊",
@@ -542,8 +542,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４１",
-          "name": "辅助力量",
+          "machine": "招式學習器０４１",
+          "name": "輔助力量",
           "type": "超能力",
           "category": "特殊",
           "power": "20",
@@ -551,35 +551,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５６",
-          "name": "种子机关枪",
+          "machine": "招式學習器０５６",
+          "name": "種子機關槍",
           "type": "草",
           "category": "物理",
           "power": "25",
@@ -587,26 +587,26 @@
           "pp": "30"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７１",
-          "name": "种子炸弹",
+          "machine": "招式學習器０７１",
+          "name": "種子炸彈",
           "type": "草",
           "category": "物理",
           "power": "80",
@@ -614,17 +614,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０７９",
-          "name": "魔法闪耀",
+          "machine": "招式學習器０７９",
+          "name": "魔法閃耀",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -632,53 +632,53 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８１",
-          "name": "打草结",
+          "machine": "招式學習器０８１",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０９",
-          "name": "戏法",
+          "machine": "招式學習器１０９",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１１",
-          "name": "终极吸取",
+          "machine": "招式學習器１１１",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -686,16 +686,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１３",
-          "name": "顺风",
-          "type": "飞行",
-          "category": "变化",
+          "machine": "招式學習器１１３",
+          "name": "順風",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１９",
+          "machine": "招式學習器１１９",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -704,17 +704,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２２",
-          "name": "再来一次",
+          "machine": "招式學習器１２２",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１２７",
-          "name": "嬉闹",
+          "machine": "招式學習器１２７",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -722,62 +722,62 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２８",
-          "name": "瞬间失忆",
+          "machine": "招式學習器１２８",
+          "name": "瞬間失憶",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１２９",
+          "machine": "招式學習器１２９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３１",
-          "name": "花粉团",
-          "type": "虫",
+          "machine": "招式學習器１３１",
+          "name": "花粉團",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３７",
-          "name": "青草场地",
+          "machine": "招式學習器１３７",
+          "name": "青草場地",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６１",
-          "name": "戏法空间",
+          "machine": "招式學習器１６１",
+          "name": "戲法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -785,7 +785,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６８",
+          "machine": "招式學習器１６８",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -794,8 +794,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -803,16 +803,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８１",
+          "machine": "招式學習器１８１",
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１９４",
+          "machine": "招式學習器１９４",
           "name": "青草滑梯",
           "type": "草",
           "category": "物理",
@@ -821,26 +821,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０２",
-          "name": "分担痛楚",
+          "machine": "招式學習器２０２",
+          "name": "分擔痛楚",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０３",
+          "machine": "招式學習器２０３",
           "name": "自我暗示",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０６",
-          "name": "落英缤纷",
+          "machine": "招式學習器２０６",
+          "name": "落英繽紛",
           "type": "草",
           "category": "物理",
           "power": "90",
@@ -848,8 +848,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２７",
-          "name": "魅诱之声",
+          "machine": "招式學習器２２７",
+          "name": "魅誘之聲",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -867,7 +867,7 @@
           "parents": [
             {
               "id": "001",
-              "name": "妙蛙种子"
+              "name": "妙蛙種子"
             },
             {
               "id": "002",
@@ -883,15 +883,15 @@
             },
             {
               "id": "103",
-              "name": "椰蛋树"
+              "name": "椰蛋樹"
             },
             {
               "id": "103A",
-              "name": "椰蛋树"
+              "name": "椰蛋樹"
             },
             {
               "id": "191",
-              "name": "向日种子"
+              "name": "向日種子"
             },
             {
               "id": "192",
@@ -903,7 +903,7 @@
             },
             {
               "id": "906",
-              "name": "新叶喵"
+              "name": "新葉喵"
             },
             {
               "id": "907",
@@ -918,9 +918,9 @@
               "name": "狠辣椒"
             }
           ],
-          "name": "烦恼种子",
+          "name": "煩惱種子",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -936,9 +936,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "您先请",
+          "name": "您先請",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -948,9 +948,9 @@
   ],
   "home_images": [
     {
-      "name": "花疗环环",
-      "image": "0764-花疗环环.png",
-      "shiny": "0764-花疗环环-shiny.png"
+      "name": "花療環環",
+      "image": "0764-花療環環.png",
+      "shiny": "0764-花療環環-shiny.png"
     }
   ]
 }

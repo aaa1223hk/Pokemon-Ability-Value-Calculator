@@ -1,40 +1,40 @@
 {
-  "name_zh": "啪嚓海胆",
+  "name_zh": "啪嚓海膽",
   "name_ja": "バチンウニ",
   "name_en": "Pincurchin",
   "pokedex_id": "0871",
-  "description": "啪嚓海胆（日文︰バチンウニ，英文︰Pincurchin）是电属性宝可梦。",
-  "profile": "啪嚓海胆有紫色的身体和许多根刺，刺的尖端是灰色的。它有黄色的眼睛，紫色倒三角形的瞳孔，它的面部两个黄色的嘴唇不会导电。\n啪嚓海胆每根刺里都储存着电力，消化食物时会制造电力。它能从刺的尖端放电，即使是折断的刺也至少能连续放电3小时。它性情胆小，光是碰到碎藻就能让它吓到放电。它还会用锐利的牙齿刮取附在岩石上的海藻吃，5颗坚硬的牙齿能把海藻连根拔起来吃。好坏星时常会因为要吃啪嚓海胆断掉的刺而被电得发麻。",
-  "prototype": "啪嚓海胆基于海胆，而它身上的黄色部分基于海胆的生殖腺，即海胆黄。\n“啪擦海胆的刺掉下来还能放电”可能基于火焰海胆的刺，被扎到的话它会放出像电流一样的毒素麻痹对方。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步啪嚓海胆（Pokémon GO）。\n←\nNo.0870：列阵兵\n宝可梦\nNo.0872：雪吞虫\n→",
+  "description": "啪嚓海膽（日文︰バチンウニ，英文︰Pincurchin）是電屬性寶可夢。",
+  "profile": "啪嚓海膽有紫色的身體和許多根刺，刺的尖端是灰色的。它有黃色的眼睛，紫色倒三角形的瞳孔，它的面部兩個黃色的嘴唇不會導電。\n啪嚓海膽每根刺裡都儲存著電力，消化食物時會製造電力。它能從刺的尖端放電，即使是折斷的刺也至少能連續放電3小時。它性情膽小，光是碰到碎藻就能讓它嚇到放電。它還會用銳利的牙齒刮取附在岩石上的海藻吃，5顆堅硬的牙齒能把海藻連根拔起來吃。好壞星時常會因為要吃啪嚓海膽斷掉的刺而被電得發麻。",
+  "prototype": "啪嚓海膽基於海膽，而它身上的黃色部分基於海膽的生殖腺，即海膽黃。\n“啪擦海膽的刺掉下來還能放電”可能基於火焰海膽的刺，被扎到的話它會放出像電流一樣的毒素麻痺對方。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步啪嚓海膽（Pokémon GO）。\n←\nNo.0870：列陣兵\n寶可夢\nNo.0872：雪吞蟲\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "バチンウニ Bachinuni",
-      "origin": "来自“バチン”（重击声；雷击声）和“海胆（うに）”（海胆）。"
+      "origin": "來自“バチン”（重擊聲；雷擊聲）和“海膽（うに）”（海膽）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "啪嚓海膽啪嚓海胆",
-      "origin": "来自“啪嚓”（形容电击的声音）和“海胆”。"
+      "name": "啪嚓海膽啪嚓海膽",
+      "origin": "來自“啪嚓”（形容電擊的聲音）和“海膽”。"
     },
     {
       "language": "英文",
       "name": "Pincurchin",
-      "origin": "来自 sea urchin（海胆）和 pin（针）及 pincushion（针垫）。"
+      "origin": "來自 sea urchin（海膽）和 pin（針）及 pincushion（針墊）。"
     },
     {
       "language": "法文",
       "name": "Wattapik",
-      "origin": "来自 watt（瓦特：国际单位制的功率单位）和 piquant（棘刺），谐音 à pic（刚好）。"
+      "origin": "來自 watt（瓦特：國際單位制的功率單位）和 piquant（棘刺），諧音 à pic（剛好）。"
     },
     {
       "language": "德文",
       "name": "Britzigel",
-      "origin": "来自 Blitz（闪电）、britzeln（噼啪作响）和 Seeigel（海胆）。"
+      "origin": "來自 Blitz（閃電）、britzeln（噼啪作響）和 Seeigel（海膽）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Pincurchin",
       "origin": "同英文名。"
     },
@@ -44,25 +44,25 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "찌르성게 Jjireuseongge",
-      "origin": "来自“찌르다”（刺、扎）和“성게”（海胆）。"
+      "origin": "來自“찌르다”（刺、扎）和“성게”（海膽）。"
     }
   ],
   "forms": [
     {
-      "name": "啪嚓海胆",
+      "name": "啪嚓海膽",
       "types": [
-        "电"
+        "電"
       ],
-      "category": "海胆宝可梦",
+      "category": "海膽寶可夢",
       "abilities": [
         {
-          "name": "避雷针",
+          "name": "避雷針",
           "is_hidden": false
         },
         {
-          "name": "电气制造者",
+          "name": "電氣製造者",
           "is_hidden": true
         }
       ],
@@ -74,7 +74,7 @@
         "水中1",
         "不定形群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -107,10 +107,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body10.png",
       "footprint": "FUnknown.png",
-      "image": "0871-啪嚓海胆.png"
+      "image": "0871-啪嚓海膽.png"
     }
   ],
   "stats": [
@@ -130,7 +130,7 @@
     {
       "form": "",
       "types": [
-        "电"
+        "電"
       ],
       "data": [
         {
@@ -138,11 +138,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -158,15 +158,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -182,7 +182,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -194,11 +194,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -208,9 +208,9 @@
       ]
     },
     {
-      "form": "(避雷针)",
+      "form": "(避雷針)",
       "types": [
-        "电"
+        "電"
       ],
       "data": [
         {
@@ -218,11 +218,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -238,15 +238,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -262,7 +262,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0"
         },
         {
@@ -274,11 +274,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -293,14 +293,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "能从刺的尖端放电。会用锐利的牙齿刮取附在岩石上的海藻吃。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "能從刺的尖端放電。會用銳利的牙齒刮取附在岩石上的海藻吃。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "每根刺里都储存着电力。即使是折断的刺也至少能连续放电３小时。"
+          "group": "寶可夢 劍／盾",
+          "text": "每根刺裡都儲存著電力。即使是折斷的刺也至少能連續放電３小時。"
         }
       ]
     },
@@ -309,13 +309,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "消化食物时会制造电力。５颗坚硬的牙齿能把海藻连根拔起来吃。"
+          "group": "寶可夢 朱／紫",
+          "text": "消化食物時會製造電力。５顆堅硬的牙齒能把海藻連根拔起來吃。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "性情胆小，光是碰到碎藻就能让它吓到放电。嘴唇不会导电。"
+          "group": "寶可夢 朱／紫",
+          "text": "性情膽小，光是碰到碎藻就能讓它嚇到放電。嘴唇不會導電。"
         }
       ]
     }
@@ -323,8 +323,8 @@
   "evolution_chains": [
     [
       {
-        "name": "啪嚓海胆",
-        "stage": "未进化",
+        "name": "啪嚓海膽",
+        "stage": "未進化",
         "text": null,
         "image": "871Pincurchin_Dream.png",
         "back_text": null,
@@ -342,7 +342,7 @@
         {
           "level": "—",
           "name": "啄",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "35",
           "accuracy": "100",
@@ -350,8 +350,8 @@
         },
         {
           "level": "—",
-          "name": "电击",
-          "type": "电",
+          "name": "電擊",
+          "type": "電",
           "category": "特殊",
           "power": "40",
           "accuracy": "100",
@@ -359,7 +359,7 @@
         },
         {
           "level": "5",
-          "name": "水枪",
+          "name": "水槍",
           "type": "水",
           "category": "特殊",
           "power": "40",
@@ -368,16 +368,16 @@
         },
         {
           "level": "10",
-          "name": "充电",
-          "type": "电",
-          "category": "变化",
+          "name": "充電",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "15",
-          "name": "乱击",
+          "name": "亂擊",
           "type": "一般",
           "category": "物理",
           "power": "15",
@@ -386,8 +386,8 @@
         },
         {
           "level": "20",
-          "name": "电光",
-          "type": "电",
+          "name": "電光",
+          "type": "電",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
@@ -395,7 +395,7 @@
         },
         {
           "level": "25",
-          "name": "泡沫光线",
+          "name": "泡沫光線",
           "type": "水",
           "category": "特殊",
           "power": "65",
@@ -406,32 +406,32 @@
           "level": "30",
           "name": "自我再生",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "35",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "40",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "45",
-          "name": "毒击",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -441,7 +441,7 @@
         {
           "level": "50",
           "name": "麻麻刺刺",
-          "type": "电",
+          "type": "電",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -449,17 +449,17 @@
         },
         {
           "level": "55",
-          "name": "点穴",
+          "name": "點穴",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "60",
-          "name": "放电",
-          "type": "电",
+          "name": "放電",
+          "type": "電",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -473,7 +473,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -482,17 +482,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２２",
-          "name": "泼冷水",
+          "machine": "招式學習器０２２",
+          "name": "潑冷水",
           "type": "水",
           "category": "特殊",
           "power": "50",
@@ -500,17 +500,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２３",
-          "name": "充电光束",
-          "type": "电",
+          "machine": "招式學習器０２３",
+          "name": "充電光束",
+          "type": "電",
           "category": "特殊",
           "power": "50",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -518,16 +518,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２９",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "machine": "招式學習器０２９",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -536,8 +536,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４５",
-          "name": "毒液冲击",
+          "machine": "招式學習器０４５",
+          "name": "毒液衝擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -545,26 +545,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -572,35 +572,35 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７２",
-          "name": "电球",
-          "type": "电",
+          "machine": "招式學習器０７２",
+          "name": "電球",
+          "type": "電",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８２",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０８２",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８３",
-          "name": "毒击",
+          "machine": "招式學習器０８３",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -608,43 +608,43 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９０",
+          "machine": "招式學習器０９０",
           "name": "撒菱",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９１",
+          "machine": "招式學習器０９１",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１０",
+          "machine": "招式學習器１１０",
           "name": "水流裂破",
           "type": "水",
           "category": "物理",
@@ -653,8 +653,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２３",
-          "name": "冲浪",
+          "machine": "招式學習器１２３",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -662,34 +662,34 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２６",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式學習器１２６",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３４",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式學習器１３４",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３６",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１３６",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４２",
+          "machine": "招式學習器１４２",
           "name": "水炮",
           "type": "水",
           "category": "特殊",
@@ -698,17 +698,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４７",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式學習器１４７",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -716,8 +716,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -725,17 +725,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６６",
+          "machine": "招式學習器１６６",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -743,17 +743,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７３",
-          "name": "充电",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１７３",
+          "name": "充電",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１８８",
-          "name": "热水",
+          "machine": "招式學習器１８８",
+          "name": "熱水",
           "type": "水",
           "category": "特殊",
           "power": "80",
@@ -761,17 +761,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２０２",
-          "name": "分担痛楚",
+          "machine": "招式學習器２０２",
+          "name": "分擔痛楚",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０９",
-          "name": "浊流",
+          "machine": "招式學習器２０９",
+          "name": "濁流",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -779,37 +779,37 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１０",
-          "name": "闪电强袭",
-          "type": "电",
+          "machine": "招式學習器２１０",
+          "name": "閃電強襲",
+          "type": "電",
           "category": "物理",
           "power": "100",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１１",
-          "name": "电网",
-          "type": "电",
+          "machine": "招式學習器２１１",
+          "name": "電網",
+          "type": "電",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２１",
-          "name": "深渊突刺",
-          "type": "恶",
+          "machine": "招式學習器２２１",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２４",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器２２４",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -841,44 +841,44 @@
             },
             {
               "id": "0109",
-              "name": "瓦斯弹"
+              "name": "瓦斯彈"
             },
             {
               "id": "0110",
-              "name": "双弹瓦斯"
+              "name": "雙彈瓦斯"
             },
             {
               "id": "0110G",
-              "name": "双弹瓦斯"
+              "name": "雙彈瓦斯"
             },
             {
               "id": "0422",
-              "name": "无壳海兔"
+              "name": "無殼海兔"
             },
             {
               "id": "0423",
-              "name": "海兔兽"
+              "name": "海兔獸"
             },
             {
               "id": "0442",
-              "name": "花岩怪"
+              "name": "花巖怪"
             },
             {
               "id": "0607",
-              "name": "烛光灵"
+              "name": "燭光靈"
             },
             {
               "id": "0608",
-              "name": "灯火幽灵"
+              "name": "燈火幽靈"
             },
             {
               "id": "0609",
-              "name": "水晶灯火灵"
+              "name": "水晶燈火靈"
             }
           ],
-          "name": "临别礼物",
-          "type": "恶",
-          "category": "变化",
+          "name": "臨別禮物",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -903,19 +903,19 @@
             },
             {
               "id": "0354",
-              "name": "诅咒娃娃"
+              "name": "詛咒娃娃"
             },
             {
               "id": "0442",
-              "name": "花岩怪"
+              "name": "花巖怪"
             },
             {
               "id": "0816",
-              "name": "泪眼蜥"
+              "name": "淚眼蜥"
             },
             {
               "id": "0817",
-              "name": "变涩蜥"
+              "name": "變澀蜥"
             },
             {
               "id": "0818",
@@ -927,11 +927,11 @@
             },
             {
               "id": "0939",
-              "name": "电肚蛙"
+              "name": "電肚蛙"
             }
           ],
-          "name": "突袭",
-          "type": "恶",
+          "name": "突襲",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -942,9 +942,9 @@
   ],
   "home_images": [
     {
-      "name": "啪嚓海胆",
-      "image": "0871-啪嚓海胆.png",
-      "shiny": "0871-啪嚓海胆-shiny.png"
+      "name": "啪嚓海膽",
+      "image": "0871-啪嚓海膽.png",
+      "shiny": "0871-啪嚓海膽-shiny.png"
     }
   ]
 }

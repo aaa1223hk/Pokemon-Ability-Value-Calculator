@@ -1,55 +1,55 @@
 {
-  "name_zh": "坚果哑铃",
+  "name_zh": "堅果啞鈴",
   "name_ja": "ナットレイ",
   "name_en": "Ferrothorn",
   "pokedex_id": "0598",
-  "description": "坚果哑铃（日文︰ナットレイ，英文︰Ferrothorn）是草属性／钢属性宝可梦。",
-  "profile": "坚果哑铃是一种外表和扁平的榴莲相似的宝可梦。它金属般的身体上布满着棘刺，有三条黑色的条纹围绕，还有黑色的斑点遍布全身，眼睛下方有着三角形的花纹。它的眼睛有着绿色的轮廓、黄色的眼珠以及黑色的瞳孔。在它的身体顶部有一根绿色的尖刺，围绕着它，有着3根藤蔓一样的长长的绿色附属物，上面倾斜着有尖刺的金属圆盘。\n坚果哑铃拥有比钢铁还坚硬的尖刺，会利用触手上的尖刺攀附在岩壁上移动。用尖刺刺裂岩壁之后，它会用触手的尖端接触裂缝吸收营养。它会贴在洞顶上，朝下方经过的猎物射出铁刺进行袭击。它挥舞三根带刺的触手战斗，然后射出尖刺将对手粉碎，钢铁的尖刺拥有粉碎巨岩的破坏力。",
-  "prototype": "坚果哑铃的身体可能基于蔷薇科缫丝花的果实野刺梨，异色坚果哑铃的配色非常接近成熟的野刺梨。\n坚果哑铃身上长出三条藤蔓的结构类似于榴莲树果实的生长方式。\n支撑身体的三个底座可能基于蒺藜，还有同名武器——蒺藜，它是由金属制成，用来减缓军队的前进速度。\n这可能也是坚果哑铃被设定为钢属性的原因。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步坚果哑铃（Pokémon GO）。\n←\nNo.0597：种子铁球\n宝可梦\nNo.0599：齿轮儿\n→",
+  "description": "堅果啞鈴（日文︰ナットレイ，英文︰Ferrothorn）是草屬性／鋼屬性寶可夢。",
+  "profile": "堅果啞鈴是一種外表和扁平的榴蓮相似的寶可夢。它金屬般的身體上佈滿著棘刺，有三條黑色的條紋圍繞，還有黑色的斑點遍佈全身，眼睛下方有著三角形的花紋。它的眼睛有著綠色的輪廓、黃色的眼珠以及黑色的瞳孔。在它的身體頂部有一根綠色的尖刺，圍繞著它，有著3根藤蔓一樣的長長的綠色附屬物，上面傾斜著有尖刺的金屬圓盤。\n堅果啞鈴擁有比鋼鐵還堅硬的尖刺，會利用觸手上的尖刺攀附在巖壁上移動。用尖刺刺裂巖壁之後，它會用觸手的尖端接觸裂縫吸收營養。它會貼在洞頂上，朝下方經過的獵物射出鐵刺進行襲擊。它揮舞三根帶刺的觸手戰鬥，然後射出尖刺將對手粉碎，鋼鐵的尖刺擁有粉碎巨巖的破壞力。",
+  "prototype": "堅果啞鈴的身體可能基於薔薇科繅絲花的果實野刺梨，異色堅果啞鈴的配色非常接近成熟的野刺梨。\n堅果啞鈴身上長出三條藤蔓的結構類似於榴蓮樹果實的生長方式。\n支撐身體的三個底座可能基於蒺藜，還有同名武器——蒺藜，它是由金屬製成，用來減緩軍隊的前進速度。\n這可能也是堅果啞鈴被設定為鋼屬性的原因。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步堅果啞鈴（Pokémon GO）。\n←\nNo.0597：種子鐵球\n寶可夢\nNo.0599：齒輪兒\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ナットレイ Nutrey",
-      "origin": "来自英文 nut（坚果）和“亜（あ）鈴（れい）”（哑铃）。"
+      "origin": "來自英文 nut（堅果）和“亜（あ）鈴（れい）”（啞鈴）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "堅果啞鈴坚果哑铃",
-      "origin": "来自“坚果”和“哑铃”。"
+      "name": "堅果啞鈴堅果啞鈴",
+      "origin": "來自“堅果”和“啞鈴”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "坚果哑铃",
-      "origin": "来自“坚果”和“哑铃”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "堅果啞鈴",
-      "origin": "来自“坚果”和“哑铃”。"
+      "origin": "來自“堅果”和“啞鈴”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "堅果啞鈴",
+      "origin": "來自“堅果”和“啞鈴”。"
     },
     {
       "language": "中文-香港",
       "name": "堅果啞鈴",
-      "origin": "来自“坚果”和“哑铃”。"
+      "origin": "來自“堅果”和“啞鈴”。"
     },
     {
       "language": "英文",
       "name": "Ferrothorn",
-      "origin": "来自前缀 ferro-（表示“铁”）和 thorn（荆棘）。"
+      "origin": "來自字首 ferro-（表示“鐵”）和 thorn（荊棘）。"
     },
     {
       "language": "法文",
       "name": "Noacier",
-      "origin": "来自 noix（坚果）和 acier（钢）。"
+      "origin": "來自 noix（堅果）和 acier（鋼）。"
     },
     {
       "language": "德文",
       "name": "Tentantel",
-      "origin": "来自 Tentakel（触手）和 Hantel（哑铃）。"
+      "origin": "來自 Tentakel（觸手）和 Hantel（啞鈴）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Ferrothorn",
       "origin": "同英文名。"
     },
@@ -59,26 +59,26 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "너트령 Nutryung",
-      "origin": "来自英文 nut（坚果）和“아령〈啞鈴〉”（哑铃）。"
+      "origin": "來自英文 nut（堅果）和“아령〈啞鈴〉”（啞鈴）。"
     }
   ],
   "forms": [
     {
-      "name": "坚果哑铃",
+      "name": "堅果啞鈴",
       "types": [
         "草",
-        "钢"
+        "鋼"
       ],
-      "category": "刺球宝可梦",
+      "category": "刺球寶可夢",
       "abilities": [
         {
-          "name": "铁刺",
+          "name": "鐵刺",
           "is_hidden": false
         },
         {
-          "name": "危险预知",
+          "name": "危險預知",
           "is_hidden": true
         }
       ],
@@ -88,9 +88,9 @@
       "catch_rate": "90（11.8%）",
       "egg_groups": [
         "植物",
-        "矿物群"
+        "礦物群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -123,10 +123,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body10.png",
       "footprint": "F598.png",
-      "image": "0598-坚果哑铃.png"
+      "image": "0598-堅果啞鈴.png"
     }
   ],
   "stats": [
@@ -147,7 +147,7 @@
       "form": "",
       "types": [
         "草",
-        "钢"
+        "鋼"
       ],
       "data": [
         {
@@ -155,11 +155,11 @@
           "damage": "0.5"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -175,15 +175,15 @@
           "damage": "0.5"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -199,7 +199,7 @@
           "damage": "0.25"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -211,11 +211,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "0.5"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -231,13 +231,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "挥舞三根带刺的触手战斗。钢铁的尖刺进行猛击后，会使出粉碎巨岩的破坏力。"
+          "group": "寶可夢 黑／白",
+          "text": "揮舞三根帶刺的觸手戰鬥。鋼鐵的尖刺進行猛擊後，會使出粉碎巨巖的破壞力。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "贴在洞顶上，朝下方经过的猎物射出铁刺进行袭击。"
+          "group": "寶可夢 黑／白",
+          "text": "貼在洞頂上，朝下方經過的獵物射出鐵刺進行襲擊。"
         }
       ]
     },
@@ -246,23 +246,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "挥打３根触手，然后射出尖刺，将对手粉碎，不留痕迹。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "揮打３根觸手，然後射出尖刺，將對手粉碎，不留痕跡。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "贴在洞顶上，朝下方经过的猎物射出铁刺进行袭击。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "貼在洞頂上，朝下方經過的獵物射出鐵刺進行襲擊。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "挥打３根触手，然后射出尖刺，将对手粉碎，不留痕迹。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "揮打３根觸手，然後射出尖刺，將對手粉碎，不留痕跡。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "贴在洞顶上，朝下方经过的猎物射出铁刺进行袭击。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "貼在洞頂上，朝下方經過的獵物射出鐵刺進行襲擊。"
         }
       ]
     },
@@ -270,14 +270,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "用尖刺刺裂岩壁之后，它会用触手的尖端接触裂缝吸收营养。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "用尖刺刺裂巖壁之後，它會用觸手的尖端接觸裂縫吸收營養。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "拥有比钢铁还坚硬的尖刺。会利用触手上的尖刺攀附在岩壁上移动。"
+          "group": "寶可夢 劍／盾",
+          "text": "擁有比鋼鐵還堅硬的尖刺。會利用觸手上的尖刺攀附在巖壁上移動。"
         }
       ]
     }
@@ -285,8 +285,8 @@
   "evolution_chains": [
     [
       {
-        "name": "种子铁球",
-        "stage": "未进化",
+        "name": "種子鐵球",
+        "stage": "未進化",
         "text": null,
         "image": "597Ferroseed_Dream.png",
         "back_text": null,
@@ -294,12 +294,12 @@
         "form_name": null
       },
       {
-        "name": "坚果哑铃",
-        "stage": "1阶进化",
-        "text": "等级40以上",
+        "name": "堅果啞鈴",
+        "stage": "1階進化",
+        "text": "等級40以上",
         "image": "598Ferrothorn_Dream.png",
         "back_text": null,
-        "from": "种子铁球",
+        "from": "種子鐵球",
         "form_name": null
       }
     ]
@@ -312,7 +312,7 @@
       "data": [
         {
           "level": "—",
-          "name": "强力鞭打",
+          "name": "強力鞭打",
           "type": "草",
           "category": "物理",
           "power": "120",
@@ -321,7 +321,7 @@
         },
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -330,17 +330,17 @@
         },
         {
           "level": "—",
-          "name": "变硬",
+          "name": "變硬",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "—",
-          "name": "金属爪",
-          "type": "钢",
+          "name": "金屬爪",
+          "type": "鋼",
           "category": "物理",
           "power": "50",
           "accuracy": "95",
@@ -348,16 +348,16 @@
         },
         {
           "level": "—",
-          "name": "飞弹针",
-          "type": "虫",
+          "name": "飛彈針",
+          "type": "蟲",
           "category": "物理",
           "power": "25",
           "accuracy": "95",
           "pp": "20"
         },
         {
-          "level": "进化",
-          "name": "强力鞭打",
+          "level": "進化",
+          "name": "強力鞭打",
           "type": "草",
           "category": "物理",
           "power": "120",
@@ -366,17 +366,17 @@
         },
         {
           "level": "15",
-          "name": "扎根",
+          "name": "紮根",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "20",
-          "name": "加农光炮",
-          "type": "钢",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -384,8 +384,8 @@
         },
         {
           "level": "25",
-          "name": "铁头",
-          "type": "钢",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -402,18 +402,18 @@
         },
         {
           "level": "35",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "43",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -421,9 +421,9 @@
         {
           "level": "49",
           "name": "陀螺球",
-          "type": "钢",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
@@ -444,17 +444,17 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０７",
-          "name": "飞弹针",
-          "type": "虫",
+          "machine": "招式學習器０７",
+          "name": "飛彈針",
+          "type": "蟲",
           "category": "物理",
           "power": "25",
           "accuracy": "95",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -462,8 +462,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９",
-          "name": "终极冲击",
+          "machine": "招式學習器０９",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -471,7 +471,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１１",
+          "machine": "招式學習器１１",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -480,16 +480,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１４",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０",
+          "machine": "招式學習器２０",
           "name": "玉石俱碎",
           "type": "一般",
           "category": "物理",
@@ -498,16 +498,16 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -516,17 +516,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２８",
-          "name": "终极吸取",
+          "machine": "招式學習器２８",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -534,35 +534,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３２",
+          "machine": "招式學習器３２",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３４",
+          "machine": "招式學習器３４",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -570,17 +570,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４２",
-          "name": "报复",
-          "type": "格斗",
+          "machine": "招式學習器４２",
+          "name": "報復",
+          "type": "格鬥",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器５０",
-          "name": "种子机关枪",
+          "machine": "招式學習器５０",
+          "name": "種子機關槍",
           "type": "草",
           "category": "物理",
           "power": "25",
@@ -588,35 +588,35 @@
           "pp": "30"
         },
         {
-          "machine": "招式学习器５７",
-          "name": "以牙还牙",
-          "type": "恶",
+          "machine": "招式學習器５７",
+          "name": "以牙還牙",
+          "type": "惡",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器５８",
-          "name": "恶意追击",
-          "type": "恶",
+          "machine": "招式學習器５８",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６５",
+          "machine": "招式學習器６５",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -624,7 +624,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器８１",
+          "machine": "招式學習器８１",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -633,98 +633,98 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器９７",
-          "name": "狂舞挥打",
-          "type": "恶",
+          "machine": "招式學習器９７",
+          "name": "狂舞揮打",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录００",
-          "name": "剑舞",
+          "machine": "招式記錄００",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录０８",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式記錄０８",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录０９",
+          "machine": "招式記錄０９",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２３",
+          "machine": "招式記錄２３",
           "name": "撒菱",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录４６",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式記錄４６",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式记录５２",
+          "machine": "招式記錄５２",
           "name": "陀螺球",
-          "type": "钢",
+          "type": "鋼",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式记录５７",
-          "name": "毒击",
+          "machine": "招式記錄５７",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -732,8 +732,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式记录５９",
-          "name": "种子炸弹",
+          "machine": "招式記錄５９",
+          "name": "種子炸彈",
           "type": "草",
           "category": "物理",
           "power": "80",
@@ -741,7 +741,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录６５",
+          "machine": "招式記錄６５",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -750,17 +750,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录７０",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式記錄７０",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录７２",
-          "name": "强力鞭打",
+          "machine": "招式記錄７２",
+          "name": "強力鞭打",
           "type": "草",
           "category": "物理",
           "power": "120",
@@ -768,26 +768,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录７４",
-          "name": "铁头",
-          "type": "钢",
+          "machine": "招式記錄７４",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录７６",
-          "name": "隐形岩",
+          "machine": "招式記錄７６",
+          "name": "隱形巖",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录７７",
-          "name": "打草结",
+          "machine": "招式記錄７７",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
           "power": "—",
@@ -795,18 +795,18 @@
           "pp": "20"
         },
         {
-          "machine": "招式记录７９",
-          "name": "重磅冲撞",
-          "type": "钢",
+          "machine": "招式記錄７９",
+          "name": "重磅衝撞",
+          "type": "鋼",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录９９",
-          "name": "扑击",
-          "type": "格斗",
+          "machine": "招式記錄９９",
+          "name": "撲擊",
+          "type": "格鬥",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -823,7 +823,7 @@
           "parents": [
             {
               "id": "001",
-              "name": "妙蛙种子"
+              "name": "妙蛙種子"
             },
             {
               "id": "002",
@@ -839,27 +839,27 @@
             },
             {
               "id": "103",
-              "name": "椰蛋树"
+              "name": "椰蛋樹"
             },
             {
               "id": "103A",
-              "name": "椰蛋树"
+              "name": "椰蛋樹"
             },
             {
               "id": "315",
-              "name": "毒蔷薇"
+              "name": "毒薔薇"
             },
             {
               "id": "407",
-              "name": "罗丝雷朵"
+              "name": "羅絲雷朵"
             },
             {
               "id": "420",
-              "name": "樱花宝"
+              "name": "櫻花寶"
             },
             {
               "id": "421",
-              "name": "樱花儿"
+              "name": "櫻花兒"
             },
             {
               "id": "546",
@@ -867,15 +867,15 @@
             },
             {
               "id": "547",
-              "name": "风妖精"
+              "name": "風妖精"
             },
             {
               "id": "556",
-              "name": "沙铃仙人掌"
+              "name": "沙鈴仙人掌"
             },
             {
               "id": "708",
-              "name": "小木灵"
+              "name": "小木靈"
             },
             {
               "id": "709",
@@ -883,20 +883,20 @@
             },
             {
               "id": "764",
-              "name": "花疗环环"
+              "name": "花療環環"
             },
             {
               "id": "841",
-              "name": "苹裹龙"
+              "name": "蘋裹龍"
             },
             {
               "id": "842",
-              "name": "丰蜜龙"
+              "name": "豐蜜龍"
             }
           ],
-          "name": "寄生种子",
+          "name": "寄生種子",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
@@ -910,7 +910,7 @@
           ],
           "name": "重力",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -923,14 +923,14 @@
             },
             {
               "id": "569",
-              "name": "灰尘山"
+              "name": "灰塵山"
             },
             {
               "id": "841",
-              "name": "苹裹龙"
+              "name": "蘋裹龍"
             }
           ],
-          "name": "酸液炸弹",
+          "name": "酸液炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "40",
@@ -953,15 +953,15 @@
             },
             {
               "id": "182",
-              "name": "美丽花"
+              "name": "美麗花"
             },
             {
               "id": "315",
-              "name": "毒蔷薇"
+              "name": "毒薔薇"
             },
             {
               "id": "407",
-              "name": "罗丝雷朵"
+              "name": "羅絲雷朵"
             },
             {
               "id": "568",
@@ -969,7 +969,7 @@
             },
             {
               "id": "569",
-              "name": "灰尘山"
+              "name": "灰塵山"
             },
             {
               "id": "590",
@@ -977,12 +977,12 @@
             },
             {
               "id": null,
-              "name": "败露球菇"
+              "name": "敗露球菇"
             }
           ],
-          "name": "剧毒",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
@@ -995,11 +995,11 @@
             },
             {
               "id": "271",
-              "name": "莲帽小童"
+              "name": "蓮帽小童"
             },
             {
               "id": "272",
-              "name": "乐天河童"
+              "name": "樂天河童"
             },
             {
               "id": "465",
@@ -1015,11 +1015,11 @@
             },
             {
               "id": null,
-              "name": "轰擂金刚猩"
+              "name": "轟擂金剛猩"
             }
           ],
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
@@ -1030,9 +1030,9 @@
   ],
   "home_images": [
     {
-      "name": "坚果哑铃",
-      "image": "0598-坚果哑铃.png",
-      "shiny": "0598-坚果哑铃-shiny.png"
+      "name": "堅果啞鈴",
+      "image": "0598-堅果啞鈴.png",
+      "shiny": "0598-堅果啞鈴-shiny.png"
     }
   ]
 }

@@ -1,55 +1,55 @@
 {
-  "name_zh": "赤面龙",
+  "name_zh": "赤面龍",
   "name_ja": "クリムガン",
   "name_en": "Druddigon",
   "pokedex_id": "0621",
-  "description": "赤面龙（日文︰クリムガン，英文︰Druddigon）是龙属性宝可梦。",
-  "profile": "赤面龙在外表上呈现站立型的模样，身体有很多菱形的结构，长了很多尖角，有两个翅膀。它的头部是红色的，红色脸孔上的皮肤比岩石还要硬。它的腹部呈现分节结构，手臂相对也比较长。\n赤面龙性情凶暴而狡猾，生活在地洞里，会把其他宝可梦挖出的巢穴抢来当做自己的住处。它会在狭小的洞穴里来回奔走，有时在龙头地鼠或大岩蛇挖出的狭窄隧道中穿梭，用锋利的爪子捕获猎物。他也会入侵地鼠或三地鼠挖掘的隧道，静静地等待着猎物的经过。在狭窄的洞窟中，会用脸朝向敌人发动突击。如果它体温下降就会变得无法动弹。所以用翅膀接收阳光的日光浴必不可缺。",
-  "prototype": "赤面龙的原型为非洲的彩虹鬣蜥，红头蓝体的配色和身上的刺都符合其特征。\n赤面龙的身上也被加入了一些石像鬼的元素，原因可能是彩虹鬣蜥夜晚色彩会变得灰暗且行动迟缓，就如同石像鬼白天会变成石像，尽管两者的习性刚好相反。\n异色赤面龙配色基于雌性彩虹鬣蜥，颜色相对于雄性会浅一些。",
-  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步赤面龙（Pokémon GO）。\n←\nNo.0620：师父鼬\n宝可梦\nNo.0622：泥偶小人\n→",
+  "description": "赤面龍（日文︰クリムガン，英文︰Druddigon）是龍屬性寶可夢。",
+  "profile": "赤面龍在外表上呈現站立型的模樣，身體有很多菱形的結構，長了很多尖角，有兩個翅膀。它的頭部是紅色的，紅色臉孔上的皮膚比岩石還要硬。它的腹部呈現分節結構，手臂相對也比較長。\n赤面龍性情兇暴而狡猾，生活在地洞裡，會把其他寶可夢挖出的巢穴搶來當做自己的住處。它會在狹小的洞穴裡來回奔走，有時在龍頭地鼠或大巖蛇挖出的狹窄隧道中穿梭，用鋒利的爪子捕獲獵物。他也會入侵地鼠或三地鼠挖掘的隧道，靜靜地等待著獵物的經過。在狹窄的洞窟中，會用臉朝向敵人發動突擊。如果它體溫下降就會變得無法動彈。所以用翅膀接收陽光的日光浴必不可缺。",
+  "prototype": "赤面龍的原型為非洲的彩虹鬣蜥，紅頭藍體的配色和身上的刺都符合其特徵。\n赤面龍的身上也被加入了一些石像鬼的元素，原因可能是彩虹鬣蜥夜晚色彩會變得灰暗且行動遲緩，就如同石像鬼白天會變成石像，儘管兩者的習性剛好相反。\n異色赤面龍配色基於雌性彩虹鬣蜥，顏色相對於雄性會淺一些。",
+  "detail": "如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步赤面龍（Pokémon GO）。\n←\nNo.0620：師父鼬\n寶可夢\nNo.0622：泥偶小人\n→",
   "names": [
     {
       "language": "日文",
       "name": "クリムガン Crimgan",
-      "origin": "来自英文 crimson（绯红色）和“顏（がん）”（颜：颜面）。"
+      "origin": "來自英文 crimson（緋紅色）和“顏（がん）”（顏：顏面）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "赤面龍赤面龙",
-      "origin": "来自“赤”、“面”和“龙”。"
+      "name": "赤面龍赤面龍",
+      "origin": "來自“赤”、“面”和“龍”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "赤面龙",
-      "origin": "来自“赤”、“面”和“龙”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "赤面龍",
-      "origin": "来自“赤”、“面”和“龙”。"
+      "origin": "來自“赤”、“面”和“龍”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "赤面龍",
+      "origin": "來自“赤”、“面”和“龍”。"
     },
     {
       "language": "中文-香港",
       "name": "赤面龍",
-      "origin": "来自“赤”、“面”和“龙”。"
+      "origin": "來自“赤”、“面”和“龍”。"
     },
     {
       "language": "英文",
       "name": "Druddigon",
-      "origin": "来自 dragon（龙）和  ruddy（红润的）。"
+      "origin": "來自 dragon（龍）和  ruddy（紅潤的）。"
     },
     {
       "language": "法文",
       "name": "Drakkarmin",
-      "origin": "来自 dragon（龙）、drakkar（维京长船）和 carmin（胭脂红）。"
+      "origin": "來自 dragon（龍）、drakkar（維京長船）和 carmin（胭脂紅）。"
     },
     {
       "language": "德文",
       "name": "Shardrago",
-      "origin": "来自 scharlachrot（猩红色的）和英文 dragon（龙）。"
+      "origin": "來自 scharlachrot（猩紅色的）和英文 dragon（龍）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Druddigon",
       "origin": "同英文名。"
     },
@@ -59,25 +59,25 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "크리만 Criman",
-      "origin": "来自英文 crimson（绯红色）和“안〈顏〉”（颜：颜面）。"
+      "origin": "來自英文 crimson（緋紅色）和“안〈顏〉”（顏：顏面）。"
     }
   ],
   "forms": [
     {
-      "name": "赤面龙",
+      "name": "赤面龍",
       "types": [
-        "龙"
+        "龍"
       ],
-      "category": "洞穴宝可梦",
+      "category": "洞穴寶可夢",
       "abilities": [
         {
-          "name": "粗糙皮肤",
+          "name": "粗糙皮膚",
           "is_hidden": false
         },
         {
-          "name": "强行",
+          "name": "強行",
           "is_hidden": false
         },
         {
@@ -87,13 +87,13 @@
       ],
       "height": "1.6m",
       "weight": "139.0kg",
-      "color": "红色",
+      "color": "紅色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "龙",
-        "怪兽群"
+        "龍",
+        "怪獸群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -126,10 +126,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "30 孵化周期（7710步）",
+      "egg_cycles": "30 孵化週期（7710步）",
       "shape": "Body06.png",
       "footprint": "F621.png",
-      "image": "0621-赤面龙.png"
+      "image": "0621-赤面龍.png"
     }
   ],
   "stats": [
@@ -149,7 +149,7 @@
     {
       "form": "",
       "types": [
-        "龙"
+        "龍"
       ],
       "data": [
         {
@@ -157,11 +157,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -177,15 +177,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -201,7 +201,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -213,11 +213,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "2"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -233,13 +233,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "用翅膀接收阳光，温暖身体。如果体温下降就会变得无法动弹。"
+          "group": "寶可夢 黑／白",
+          "text": "用翅膀接收陽光，溫暖身體。如果體溫下降就會變得無法動彈。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "在狭小的洞穴里来回奔走，用锋利的爪子捕获猎物。脸上的皮肤比岩石还硬。"
+          "group": "寶可夢 黑／白",
+          "text": "在狹小的洞穴裡來回奔走，用鋒利的爪子捕獲獵物。臉上的皮膚比岩石還硬。"
         }
       ]
     },
@@ -248,23 +248,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "在狭小的洞穴里来回奔走，用锋利的爪子捕获猎物。脸上的皮肤比岩石还硬。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "在狹小的洞穴裡來回奔走，用鋒利的爪子捕獲獵物。臉上的皮膚比岩石還硬。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "用翅膀接收阳光，温暖身体。如果体温下降就会变得无法动弹。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "用翅膀接收陽光，溫暖身體。如果體溫下降就會變得無法動彈。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "在狭小的洞穴里来回奔走，用锋利的爪子捕获猎物。脸上的皮肤比岩石还硬。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "在狹小的洞穴裡來回奔走，用鋒利的爪子捕獲獵物。臉上的皮膚比岩石還硬。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "用翅膀接收阳光，温暖身体。如果体温下降就会变得无法动弹。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "用翅膀接收陽光，溫暖身體。如果體溫下降就會變得無法動彈。"
         }
       ]
     },
@@ -272,14 +272,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "生活在地洞里。因为身体受凉就会无法动弹，所以日光浴必不可缺。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "生活在地洞裡。因為身體受涼就會無法動彈，所以日光浴必不可缺。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "性情凶暴而狡猾。会把其他宝可梦挖出的巢穴抢来当做自己的住处。"
+          "group": "寶可夢 劍／盾",
+          "text": "性情兇暴而狡猾。會把其他寶可夢挖出的巢穴搶來當做自己的住處。"
         }
       ]
     }
@@ -287,8 +287,8 @@
   "evolution_chains": [
     [
       {
-        "name": "赤面龙",
-        "stage": "不进化",
+        "name": "赤面龍",
+        "stage": "不進化",
         "text": null,
         "image": "621Druddigon_Dream.png",
         "back_text": null,
@@ -316,7 +316,7 @@
           "level": "—",
           "name": "瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
@@ -324,7 +324,7 @@
         {
           "level": "5",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -332,8 +332,8 @@
         },
         {
           "level": "10",
-          "name": "龙尾",
-          "type": "龙",
+          "name": "龍尾",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "90",
@@ -341,8 +341,8 @@
         },
         {
           "level": "15",
-          "name": "金属爪",
-          "type": "钢",
+          "name": "金屬爪",
+          "type": "鋼",
           "category": "物理",
           "power": "50",
           "accuracy": "95",
@@ -352,14 +352,14 @@
           "level": "20",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "25",
-          "name": "劈开",
+          "name": "劈開",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -368,8 +368,8 @@
         },
         {
           "level": "30",
-          "name": "龙爪",
-          "type": "龙",
+          "name": "龍爪",
+          "type": "龍",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -378,8 +378,8 @@
         {
           "level": "35",
           "name": "磨爪",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -387,7 +387,7 @@
         {
           "level": "40",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -395,8 +395,8 @@
         },
         {
           "level": "45",
-          "name": "铁头",
-          "type": "钢",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -404,8 +404,8 @@
         },
         {
           "level": "50",
-          "name": "逆鳞",
-          "type": "龙",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
@@ -413,8 +413,8 @@
         },
         {
           "level": "55",
-          "name": "蛮力",
-          "type": "格斗",
+          "name": "蠻力",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
@@ -428,8 +428,8 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００",
-          "name": "百万吨重拳",
+          "machine": "招式學習器００",
+          "name": "百萬噸重拳",
           "type": "一般",
           "category": "物理",
           "power": "80",
@@ -437,7 +437,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３",
+          "machine": "招式學習器０３",
           "name": "火焰拳",
           "type": "火",
           "category": "物理",
@@ -446,17 +446,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０５",
-          "name": "雷电拳",
-          "type": "电",
+          "machine": "招式學習器０５",
+          "name": "雷電拳",
+          "type": "電",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -464,8 +464,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９",
-          "name": "终极冲击",
+          "machine": "招式學習器０９",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -473,7 +473,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５",
+          "machine": "招式學習器１５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -482,17 +482,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２",
-          "name": "岩崩",
+          "machine": "招式學習器２２",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -500,7 +500,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -509,53 +509,53 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２６",
+          "machine": "招式學習器２６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３４",
+          "machine": "招式學習器３４",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -563,17 +563,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４２",
-          "name": "报复",
-          "type": "格斗",
+          "machine": "招式學習器４２",
+          "name": "報復",
+          "type": "格鬥",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器４８",
-          "name": "岩石封锁",
+          "machine": "招式學習器４８",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -581,43 +581,43 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器５７",
-          "name": "以牙还牙",
-          "type": "恶",
+          "machine": "招式學習器５７",
+          "name": "以牙還牙",
+          "type": "惡",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器５９",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器５９",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６５",
+          "machine": "招式學習器６５",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器６６",
-          "name": "雷电牙",
-          "type": "电",
+          "machine": "招式學習器６６",
+          "name": "雷電牙",
+          "type": "電",
           "category": "物理",
           "power": "65",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器６８",
+          "machine": "招式學習器６８",
           "name": "火焰牙",
           "type": "火",
           "category": "物理",
@@ -626,8 +626,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -635,8 +635,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７９",
-          "name": "报仇",
+          "machine": "招式學習器７９",
+          "name": "報仇",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -644,7 +644,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器８１",
+          "machine": "招式學習器８１",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -653,17 +653,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器８５",
-          "name": "大声咆哮",
-          "type": "恶",
+          "machine": "招式學習器８５",
+          "name": "大聲咆哮",
+          "type": "惡",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器９８",
-          "name": "跺脚",
+          "machine": "招式學習器９８",
+          "name": "跺腳",
           "type": "地面",
           "category": "物理",
           "power": "75",
@@ -671,8 +671,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录０１",
-          "name": "泰山压顶",
+          "machine": "招式記錄０１",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -680,8 +680,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录０２",
-          "name": "喷射火焰",
+          "machine": "招式記錄０２",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -689,8 +689,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录０４",
-          "name": "冲浪",
+          "machine": "招式記錄０４",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -698,7 +698,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录１０",
+          "machine": "招式記錄１０",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -707,17 +707,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２２",
-          "name": "污泥炸弹",
+          "machine": "招式記錄２２",
+          "name": "汙泥炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "90",
@@ -725,53 +725,53 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２４",
-          "name": "逆鳞",
-          "type": "龙",
+          "machine": "招式記錄２４",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３１",
-          "name": "铁尾",
-          "type": "钢",
+          "machine": "招式記錄３１",
+          "name": "鐵尾",
+          "type": "鋼",
           "category": "物理",
           "power": "100",
           "accuracy": "75",
           "pp": "15"
         },
         {
-          "machine": "招式记录３２",
+          "machine": "招式記錄３２",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３６",
-          "name": "热风",
+          "machine": "招式記錄３６",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -779,71 +779,71 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄３７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录３９",
-          "name": "蛮力",
-          "type": "格斗",
+          "machine": "招式記錄３９",
+          "name": "蠻力",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式记录４７",
-          "name": "龙爪",
-          "type": "龙",
+          "machine": "招式記錄４７",
+          "name": "龍爪",
+          "type": "龍",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录５８",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式記錄５８",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录６２",
-          "name": "龙之波动",
-          "type": "龙",
+          "machine": "招式記錄６２",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录６４",
-          "name": "真气弹",
-          "type": "格斗",
+          "machine": "招式記錄６４",
+          "name": "真氣彈",
+          "type": "格鬥",
           "category": "特殊",
           "power": "120",
           "accuracy": "70",
           "pp": "5"
         },
         {
-          "machine": "招式记录７０",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式記錄７０",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录７３",
-          "name": "垃圾射击",
+          "machine": "招式記錄７３",
+          "name": "垃圾射擊",
           "type": "毒",
           "category": "物理",
           "power": "120",
@@ -851,19 +851,19 @@
           "pp": "5"
         },
         {
-          "machine": "招式记录７４",
-          "name": "铁头",
-          "type": "钢",
+          "machine": "招式記錄７４",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录７６",
-          "name": "隐形岩",
+          "machine": "招式記錄７６",
+          "name": "隱形巖",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -879,7 +879,7 @@
           "parents": [
             {
               "id": "252",
-              "name": "木守宫"
+              "name": "木守宮"
             },
             {
               "id": "610",
@@ -887,11 +887,11 @@
             },
             {
               "id": "884",
-              "name": "铝钢龙"
+              "name": "鋁鋼龍"
             }
           ],
-          "name": "暗袭要害*",
-          "type": "恶",
+          "name": "暗襲要害*",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -901,7 +901,7 @@
           "parents": [
             {
               "id": "780",
-              "name": "老翁龙"
+              "name": "老翁龍"
             },
             {
               "id": "843",
@@ -914,7 +914,7 @@
           ],
           "name": "大蛇瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
@@ -927,11 +927,11 @@
             },
             {
               "id": "691",
-              "name": "毒藻龙"
+              "name": "毒藻龍"
             },
             {
               "id": "706",
-              "name": "黏美龙"
+              "name": "黏美龍"
             }
           ],
           "name": "毒尾",
@@ -945,11 +945,11 @@
           "parents": [
             {
               "id": null,
-              "name": "多龙巴鲁托"
+              "name": "多龍巴魯託"
             }
           ],
-          "name": "突袭",
-          "type": "恶",
+          "name": "突襲",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -960,9 +960,9 @@
   ],
   "home_images": [
     {
-      "name": "赤面龙",
-      "image": "0621-赤面龙.png",
-      "shiny": "0621-赤面龙-shiny.png"
+      "name": "赤面龍",
+      "image": "0621-赤面龍.png",
+      "shiny": "0621-赤面龍-shiny.png"
     }
   ]
 }

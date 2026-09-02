@@ -1,62 +1,62 @@
 {
-  "name_zh": "铁包袱",
+  "name_zh": "鐵包袱",
   "name_ja": "テツノツツミ",
   "name_en": "Iron Bundle",
   "pokedex_id": "0991",
-  "description": "铁包袱（日文︰テツノツツミ，英文︰Iron Bundle）是冰属性／水属性悖谬宝可梦。",
-  "profile": "据说铁包袱有与信使鸟相似的形状，会从球体装置中喷射出大量的冰，从而在雪原上移动。它在过去只被目击过两次。关于其真面目虽然众说纷纭，但较为有力的说法认为，铁包袱是超古代文明的产物。根据太古的文献中留下的记录，曾有疑似铁包袱的机械被设计出来并使用。其名取自奇书《紫之书》中所记载的神秘物体。",
-  "prototype": "铁包袱在信使鸟的基础上加入了更多科技的元素。\n其弹出的头部可能参考了玩偶盒等弹簧玩具。\n其修长的足部可能参考了滑雪板。",
+  "description": "鐵包袱（日文︰テツノツツミ，英文︰Iron Bundle）是冰屬性／水屬性悖謬寶可夢。",
+  "profile": "據說鐵包袱有與信使鳥相似的形狀，會從球體裝置中噴射出大量的冰，從而在雪原上移動。它在過去只被目擊過兩次。關於其真面目雖然眾說紛紜，但較為有力的說法認為，鐵包袱是超古代文明的產物。根據太古的文獻中留下的記錄，曾有疑似鐵包袱的機械被設計出來並使用。其名取自奇書《紫之書》中所記載的神秘物體。",
+  "prototype": "鐵包袱在信使鳥的基礎上加入了更多科技的元素。\n其彈出的頭部可能參考了玩偶盒等彈簧玩具。\n其修長的足部可能參考了滑雪板。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "テツノツツミ Tetsunotsutsumi",
-      "origin": "来自“鉄（てつ）の包（つつみ）”（铁的包袱）。"
+      "origin": "來自“鉄（てつ）の包（つつみ）”（鐵的包袱）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "鐵包袱铁包袱",
-      "origin": "来自“铁”和“包袱”。"
+      "name": "鐵包袱鐵包袱",
+      "origin": "來自“鐵”和“包袱”。"
     },
     {
       "language": "英文",
       "name": "Iron Bundle",
-      "origin": "来自 iron（铁）和 bundle（包袱）。"
+      "origin": "來自 iron（鐵）和 bundle（包袱）。"
     },
     {
       "language": "法文",
       "name": "Hotte-de-Fer",
-      "origin": "来自 hotte（背篓，也指圣诞礼物袋）和 de fer（铁的）。"
+      "origin": "來自 hotte（揹簍，也指聖誕禮物袋）和 de fer（鐵的）。"
     },
     {
       "language": "德文",
       "name": "Eisenbündel",
-      "origin": "来自 Eisen（铁）和 Bündel（包裹）。"
+      "origin": "來自 Eisen（鐵）和 Bündel（包裹）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Saccoferreo",
-      "origin": "来自 sacco（袋、包）和 ferreo（铁的）。"
+      "origin": "來自 sacco（袋、包）和 ferreo（鐵的）。"
     },
     {
       "language": "西班牙文",
       "name": "Ferrosaco",
-      "origin": "来自前缀 ferro-（表示“铁”）和 saco（袋、包）。"
+      "origin": "來自字首 ferro-（表示“鐵”）和 saco（袋、包）。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "무쇠보따리 Musoebottari",
-      "origin": "来自“무쇠”（铸铁）和“보따리”（包袱）。"
+      "origin": "來自“무쇠”（鑄鐵）和“보따리”（包袱）。"
     }
   ],
   "forms": [
     {
-      "name": "铁包袱",
+      "name": "鐵包袱",
       "types": [
         "冰",
         "水"
       ],
-      "category": "悖谬宝可梦",
+      "category": "悖謬寶可夢",
       "abilities": [
         {
           "name": "夸克充能",
@@ -65,10 +65,10 @@
       ],
       "height": "0.6m",
       "weight": "11.0kg",
-      "color": "红色",
+      "color": "紅色",
       "catch_rate": "50（6.5%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -103,10 +103,10 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "50 孵化周期*（12850步）",
+      "egg_cycles": "50 孵化週期*（12850步）",
       "shape": "Body06.png",
       "footprint": "FUnknown.png",
-      "image": "0991-铁包袱.png"
+      "image": "0991-鐵包袱.png"
     }
   ],
   "stats": [
@@ -135,11 +135,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -155,15 +155,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -179,7 +179,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -191,11 +191,11 @@
           "damage": "0.25"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -211,13 +211,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "它的外形就像是超自然杂志所报道的诞生于太古文明的机器人。"
+          "group": "寶可夢 朱／紫",
+          "text": "它的外形就像是超自然雜誌所報道的誕生於太古文明的機器人。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "与古老的书籍中记载的神秘物体相似的宝可梦。过去只被目击过２次。"
+          "group": "寶可夢 朱／紫",
+          "text": "與古老的書籍中記載的神秘物體相似的寶可夢。過去只被目擊過２次。"
         }
       ]
     }
@@ -225,8 +225,8 @@
   "evolution_chains": [
     [
       {
-        "name": "铁包袱",
-        "stage": "不进化",
+        "name": "鐵包袱",
+        "stage": "不進化",
         "text": null,
         "image": "991Iron_Bundle_Dream.png",
         "back_text": null,
@@ -243,16 +243,16 @@
       "data": [
         {
           "level": "—",
-          "name": "礼物",
+          "name": "禮物",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "90",
           "pp": "15"
         },
         {
           "level": "7",
-          "name": "细雪",
+          "name": "細雪",
           "type": "冰",
           "category": "特殊",
           "power": "40",
@@ -279,8 +279,8 @@
         },
         {
           "level": "28",
-          "name": "啄钻",
-          "type": "飞行",
+          "name": "啄鑽",
+          "type": "飛行",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -288,16 +288,16 @@
         },
         {
           "level": "35",
-          "name": "帮助",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "42",
-          "name": "冷冻干燥",
+          "name": "冷凍乾燥",
           "type": "冰",
           "category": "特殊",
           "power": "70",
@@ -315,7 +315,7 @@
         },
         {
           "level": "56",
-          "name": "冰冻光束",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -324,9 +324,9 @@
         },
         {
           "level": "63",
-          "name": "高速移动",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -335,7 +335,7 @@
           "level": "70",
           "name": "雪景",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -351,16 +351,16 @@
         },
         {
           "level": "84",
-          "name": "极光幕",
+          "name": "極光幕",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "91",
-          "name": "暴风雪",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -368,10 +368,10 @@
           "pp": "5"
         },
         {
-          "level": "回忆",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "level": "回憶",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -384,7 +384,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -393,26 +393,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００４",
-          "name": "高速移动",
+          "machine": "招式學習器００４",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１１",
-          "name": "水之波动",
+          "machine": "招式學習器０１１",
+          "name": "水之波動",
           "type": "水",
           "category": "特殊",
           "power": "60",
@@ -420,26 +420,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２２",
-          "name": "泼冷水",
+          "machine": "招式學習器０２２",
+          "name": "潑冷水",
           "type": "水",
           "category": "特殊",
           "power": "50",
@@ -447,8 +447,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -456,7 +456,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -465,8 +465,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３４",
-          "name": "冰冻之风",
+          "machine": "招式學習器０３４",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -474,25 +474,25 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４０",
-          "name": "空气利刃",
-          "type": "飞行",
+          "machine": "招式學習器０４０",
+          "name": "空氣利刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "60",
           "accuracy": "95",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４６",
+          "machine": "招式學習器０４６",
           "name": "雪崩",
           "type": "冰",
           "category": "物理",
@@ -501,44 +501,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５２",
+          "machine": "招式學習器０５２",
           "name": "雪景",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -546,8 +546,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６９",
-          "name": "冰冻拳",
+          "machine": "招式學習器０６９",
+          "name": "冰凍拳",
           "type": "冰",
           "category": "物理",
           "power": "75",
@@ -555,52 +555,52 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２２",
-          "name": "再来一次",
+          "machine": "招式學習器１２２",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１２４",
+          "machine": "招式學習器１２４",
           "name": "冰旋",
           "type": "冰",
           "category": "物理",
@@ -609,8 +609,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２７",
-          "name": "嬉闹",
+          "machine": "招式學習器１２７",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -618,17 +618,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３５",
-          "name": "冰冻光束",
+          "machine": "招式學習器１３５",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -636,16 +636,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３６",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１３６",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４２",
+          "machine": "招式學習器１４２",
           "name": "水炮",
           "type": "水",
           "category": "特殊",
@@ -654,8 +654,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４３",
-          "name": "暴风雪",
+          "machine": "招式學習器１４３",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -663,8 +663,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -672,8 +672,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -681,8 +681,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -690,7 +690,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９６",
+          "machine": "招式學習器１９６",
           "name": "快速折返",
           "type": "水",
           "category": "物理",
@@ -699,7 +699,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０８",
+          "machine": "招式學習器２０８",
           "name": "潮旋",
           "type": "水",
           "category": "特殊",
@@ -713,9 +713,9 @@
   "egg_moves": [],
   "home_images": [
     {
-      "name": "铁包袱",
-      "image": "0991-铁包袱.png",
-      "shiny": "0991-铁包袱-shiny.png"
+      "name": "鐵包袱",
+      "image": "0991-鐵包袱.png",
+      "shiny": "0991-鐵包袱-shiny.png"
     }
   ]
 }

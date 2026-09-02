@@ -1,50 +1,50 @@
 {
-  "name_zh": "铳嘴大鸟",
+  "name_zh": "銃嘴大鳥",
   "name_ja": "ドデカバシ",
   "name_en": "Toucannon",
   "pokedex_id": "0733",
-  "description": "铳嘴大鸟（日文︰ドデカバシ，英文︰Toucannon）是一般属性／飞行属性宝可梦。",
-  "profile": "铳嘴大鸟在外形上和没有进化之前的小笃儿有着很大的不同，它有着一个大大的嘴巴，而且嘴巴很长，不过身体配色基本上还是小笃儿以及喇叭啄鸟的配色，它的尾巴也变长了，并且在身体和尾巴的连接处有着红色的羽毛，它依然有着锐利而细长的爪子，眼神相对来说变得成熟不少。\n铳嘴大鸟让鸟嘴发热来战斗，那温度足足超过100度，只要被啄到就会严重灼伤。它会让体内的气体在嘴里爆发，发射出树果的种子，连巨大岩石也能粉碎。它与伙伴互相敲击鸟嘴进行交流。通过敲击的强度和次数来互相传达心情。\t铳嘴大鸟因成双成对感情和睦而闻名，它被视为一种吉祥的象征，常被带到结婚仪式去。它会被甜竹竹的气味诱惑，将其整个吞下。",
-  "prototype": "铳嘴大鸟外观基于鵎鵼科的托哥巨嘴鸟。\n铳嘴大鸟的招式鸟嘴加农炮，基于巨嘴鸟鸟喙中的温度调节系统。\n啄木鸟和巨嘴鸟在生物分类上均属于䴕形目，这可能是小笃儿家族进化链的灵感来源。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步铳嘴大鸟（Pokémon GO）。\n←\nNo.0732：喇叭啄鸟\n宝可梦\nNo.0734：猫鼬少\n→",
+  "description": "銃嘴大鳥（日文︰ドデカバシ，英文︰Toucannon）是一般屬性／飛行屬性寶可夢。",
+  "profile": "銃嘴大鳥在外形上和沒有進化之前的小篤兒有著很大的不同，它有著一個大大的嘴巴，而且嘴巴很長，不過身體配色基本上還是小篤兒以及喇叭啄鳥的配色，它的尾巴也變長了，並且在身體和尾巴的連線處有著紅色的羽毛，它依然有著銳利而細長的爪子，眼神相對來說變得成熟不少。\n銃嘴大鳥讓鳥嘴發熱來戰鬥，那溫度足足超過100度，只要被啄到就會嚴重灼傷。它會讓體內的氣體在嘴裡爆發，發射出樹果的種子，連巨大岩石也能粉碎。它與夥伴互相敲擊鳥嘴進行交流。透過敲擊的強度和次數來互相傳達心情。\t銃嘴大鳥因成雙成對感情和睦而聞名，它被視為一種吉祥的象徵，常被帶到結婚儀式去。它會被甜竹竹的氣味誘惑，將其整個吞下。",
+  "prototype": "銃嘴大鳥外觀基於鵎鵼科的託哥巨嘴鳥。\n銃嘴大鳥的招式鳥嘴加農炮，基於巨嘴鳥鳥喙中的溫度調節系統。\n啄木鳥和巨嘴鳥在生物分類上均屬於鴷形目，這可能是小篤兒家族進化鏈的靈感來源。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步銃嘴大鳥（Pokémon GO）。\n←\nNo.0732：喇叭啄鳥\n寶可夢\nNo.0734：貓鼬少\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ドデカバシ Dodekabashi",
-      "origin": "来自“どでかい”（超大的）和“大嘴（おおはし）”（巨嘴鸟）。"
+      "origin": "來自“どでかい”（超大的）和“大嘴（おおはし）”（巨嘴鳥）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "銃嘴大鳥铳嘴大鸟",
-      "origin": "来自“铳”（旧式的枪械）和“巨嘴鸟”"
+      "name": "銃嘴大鳥銃嘴大鳥",
+      "origin": "來自“銃”（舊式的槍械）和“巨嘴鳥”"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "銃嘴大鳥",
-      "origin": "来自“铳”和“巨嘴鸟”。"
+      "origin": "來自“銃”和“巨嘴鳥”。"
     },
     {
       "language": "中文-香港",
       "name": "銃嘴大鳥",
-      "origin": "来自“铳”和“巨嘴鸟”。"
+      "origin": "來自“銃”和“巨嘴鳥”。"
     },
     {
       "language": "英文",
       "name": "Toucannon",
-      "origin": "来自 toucan（巨嘴鸟）和 cannon（加农炮）。"
+      "origin": "來自 toucan（巨嘴鳥）和 cannon（加農炮）。"
     },
     {
       "language": "法文",
       "name": "Bazoucan",
-      "origin": "来自 bazooka（巴祖卡火箭筒）和 toucan（巨嘴鸟）。"
+      "origin": "來自 bazooka（巴祖卡火箭筒）和 toucan（巨嘴鳥）。"
     },
     {
       "language": "德文",
       "name": "Tukanon",
-      "origin": "来自 Tukan（巨嘴鸟）和 Kanone（加农炮）。"
+      "origin": "來自 Tukan（巨嘴鳥）和 Kanone（加農炮）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Toucannon",
       "origin": "同英文名。"
     },
@@ -54,30 +54,30 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "왕큰부리 Wangkeunburi",
-      "origin": "来自“왕부리새〈王———〉”（巨嘴鸟）和“큰부리새”（巨嘴鸟）。"
+      "origin": "來自“왕부리새〈王———〉”（巨嘴鳥）和“큰부리새”（巨嘴鳥）。"
     }
   ],
   "forms": [
     {
-      "name": "铳嘴大鸟",
+      "name": "銃嘴大鳥",
       "types": [
         "一般",
-        "飞行"
+        "飛行"
       ],
-      "category": "铳炮宝可梦",
+      "category": "銃炮寶可夢",
       "abilities": [
         {
-          "name": "锐利目光",
+          "name": "銳利目光",
           "is_hidden": false
         },
         {
-          "name": "连续攻击",
+          "name": "連續攻擊",
           "is_hidden": false
         },
         {
-          "name": "强行",
+          "name": "強行",
           "is_hidden": true
         }
       ],
@@ -86,9 +86,9 @@
       "color": "黑色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "飞行群"
+        "飛行群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -121,10 +121,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "15 孵化周期（3855步）",
+      "egg_cycles": "15 孵化週期（3855步）",
       "shape": "Body09.png",
       "footprint": "FUnknown.png",
-      "image": "0733-铳嘴大鸟.png"
+      "image": "0733-銃嘴大鳥.png"
     }
   ],
   "stats": [
@@ -145,7 +145,7 @@
       "form": "",
       "types": [
         "一般",
-        "飞行"
+        "飛行"
       ],
       "data": [
         {
@@ -153,11 +153,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -173,15 +173,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "0"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -197,7 +197,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -209,11 +209,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -228,14 +228,14 @@
       "name": "第七世代",
       "versions": [
         {
-          "name": "太阳",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "让鸟嘴发热来战斗。那温度足足超过１００度，只要被啄到就会严重灼伤。"
+          "name": "太陽",
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "讓鳥嘴發熱來戰鬥。那溫度足足超過１００度，只要被啄到就會嚴重灼傷。"
         },
         {
           "name": "月亮",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "让体内的气体在嘴里爆发，发射出树果的种子。是连巨大岩石也能粉碎的力量。"
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "讓體內的氣體在嘴裡爆發，發射出樹果的種子。是連巨大岩石也能粉碎的力量。"
         }
       ]
     },
@@ -244,13 +244,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "利用在鸟嘴中压缩的气体喷射出的树的种子，威力甚至能击碎巨大的岩石。"
+          "group": "寶可夢 朱／紫",
+          "text": "利用在鳥嘴中壓縮的氣體噴射出的樹的種子，威力甚至能擊碎巨大的岩石。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "成双成对的铳嘴大鸟会通过提高鸟嘴的温度来互相取暖，因此被视为是感情好的象征。"
+          "group": "寶可夢 朱／紫",
+          "text": "成雙成對的銃嘴大鳥會透過提高鳥嘴的溫度來互相取暖，因此被視為是感情好的象徵。"
         }
       ]
     }
@@ -258,8 +258,8 @@
   "evolution_chains": [
     [
       {
-        "name": "小笃儿",
-        "stage": "未进化",
+        "name": "小篤兒",
+        "stage": "未進化",
         "text": null,
         "image": "731Pikipek_Dream.png",
         "back_text": null,
@@ -267,21 +267,21 @@
         "form_name": null
       },
       {
-        "name": "喇叭啄鸟",
-        "stage": "1阶进化",
-        "text": "等级14以上",
+        "name": "喇叭啄鳥",
+        "stage": "1階進化",
+        "text": "等級14以上",
         "image": "732Trumbeak_Dream.png",
         "back_text": null,
-        "from": "小笃儿",
+        "from": "小篤兒",
         "form_name": null
       },
       {
-        "name": "铳嘴大鸟",
-        "stage": "2阶进化",
-        "text": "等级28以上",
+        "name": "銃嘴大鳥",
+        "stage": "2階進化",
+        "text": "等級28以上",
         "image": "733Toucannon_Dream.png",
         "back_text": null,
-        "from": "喇叭啄鸟",
+        "from": "喇叭啄鳥",
         "form_name": null
       }
     ]
@@ -293,9 +293,9 @@
       "form": "一般",
       "data": [
         {
-          "level": "进化",
-          "name": "鸟嘴加农炮",
-          "type": "飞行",
+          "level": "進化",
+          "name": "鳥嘴加農炮",
+          "type": "飛行",
           "category": "物理",
           "power": "100",
           "accuracy": "100",
@@ -303,9 +303,9 @@
         },
         {
           "level": "—",
-          "name": "叫声",
+          "name": "叫聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "40"
@@ -313,7 +313,7 @@
         {
           "level": "—",
           "name": "啄",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "35",
           "accuracy": "100",
@@ -321,8 +321,8 @@
         },
         {
           "level": "—",
-          "name": "碎岩",
-          "type": "格斗",
+          "name": "碎巖",
+          "type": "格鬥",
           "category": "物理",
           "power": "40",
           "accuracy": "100",
@@ -330,7 +330,7 @@
         },
         {
           "level": "—",
-          "name": "岩石爆击",
+          "name": "岩石爆擊",
           "type": "岩石",
           "category": "物理",
           "power": "25",
@@ -339,7 +339,7 @@
         },
         {
           "level": "—",
-          "name": "回声",
+          "name": "回聲",
           "type": "一般",
           "category": "特殊",
           "power": "40",
@@ -350,7 +350,7 @@
           "level": "13",
           "name": "超音波",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "55",
           "pp": "20"
@@ -358,7 +358,7 @@
         {
           "level": "16",
           "name": "啄食",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -366,16 +366,16 @@
         },
         {
           "level": "21",
-          "name": "羽栖",
-          "type": "飞行",
-          "category": "变化",
+          "name": "羽棲",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "24",
-          "name": "乱击",
+          "name": "亂擊",
           "type": "一般",
           "category": "物理",
           "power": "15",
@@ -384,17 +384,17 @@
         },
         {
           "level": "30",
-          "name": "刺耳声",
+          "name": "刺耳聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
           "level": "34",
-          "name": "啄钻",
-          "type": "飞行",
+          "name": "啄鑽",
+          "type": "飛行",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -402,7 +402,7 @@
         },
         {
           "level": "40",
-          "name": "种子机关枪",
+          "name": "種子機關槍",
           "type": "草",
           "category": "物理",
           "power": "25",
@@ -412,15 +412,15 @@
         {
           "level": "44",
           "name": "羽毛舞",
-          "type": "飞行",
-          "category": "变化",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "50",
-          "name": "巨声",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -435,7 +435,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -444,44 +444,44 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -489,16 +489,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２７",
+          "machine": "招式學習器０２７",
           "name": "燕返",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -507,8 +507,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３８",
-          "name": "蓄能焰袭",
+          "machine": "招式學習器０３８",
+          "name": "蓄能焰襲",
           "type": "火",
           "category": "物理",
           "power": "50",
@@ -516,35 +516,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４０",
-          "name": "空气利刃",
-          "type": "飞行",
+          "machine": "招式學習器０４０",
+          "name": "空氣利刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "60",
           "accuracy": "95",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５６",
-          "name": "种子机关枪",
+          "machine": "招式學習器０５６",
+          "name": "種子機關槍",
           "type": "草",
           "category": "物理",
           "power": "25",
@@ -552,44 +552,44 @@
           "pp": "30"
         },
         {
-          "machine": "招式学习器０５８",
+          "machine": "招式學習器０５８",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６５",
-          "name": "空气之刃",
-          "type": "飞行",
+          "machine": "招式學習器０６５",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７１",
-          "name": "种子炸弹",
+          "machine": "招式學習器０７１",
+          "name": "種子炸彈",
           "type": "草",
           "category": "物理",
           "power": "80",
@@ -597,8 +597,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７６",
-          "name": "岩石爆击",
+          "machine": "招式學習器０７６",
+          "name": "岩石爆擊",
           "type": "岩石",
           "category": "物理",
           "power": "25",
@@ -606,44 +606,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８８",
-          "name": "剑舞",
+          "machine": "招式學習器０８８",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９３",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式學習器０９３",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９７",
-          "name": "飞翔",
-          "type": "飞行",
+          "machine": "招式學習器０９７",
+          "name": "飛翔",
+          "type": "飛行",
           "category": "物理",
           "power": "90",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０２",
-          "name": "垃圾射击",
+          "machine": "招式學習器１０２",
+          "name": "垃圾射擊",
           "type": "毒",
           "category": "物理",
           "power": "120",
@@ -651,26 +651,26 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１３",
-          "name": "顺风",
-          "type": "飞行",
-          "category": "变化",
+          "machine": "招式學習器１１３",
+          "name": "順風",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１７",
-          "name": "巨声",
+          "machine": "招式學習器１１７",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -678,8 +678,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１８",
-          "name": "热风",
+          "machine": "招式學習器１１８",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -687,26 +687,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２２",
-          "name": "再来一次",
+          "machine": "招式學習器１２２",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -714,8 +714,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５７",
-          "name": "过热",
+          "machine": "招式學習器１５７",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -723,17 +723,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６０",
-          "name": "暴风",
-          "type": "飞行",
+          "machine": "招式學習器１６０",
+          "name": "暴風",
+          "type": "飛行",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -741,17 +741,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６４",
-          "name": "勇鸟猛攻",
-          "type": "飞行",
+          "machine": "招式學習器１６４",
+          "name": "勇鳥猛攻",
+          "type": "飛行",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -759,8 +759,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７９",
-          "name": "击落",
+          "machine": "招式學習器１７９",
+          "name": "擊落",
           "type": "岩石",
           "category": "物理",
           "power": "50",
@@ -768,17 +768,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１８１",
+          "machine": "招式學習器１８１",
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１９１",
-          "name": "吵闹",
+          "machine": "招式學習器１９１",
+          "name": "吵鬧",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -786,34 +786,34 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９７",
-          "name": "双翼",
-          "type": "飞行",
+          "machine": "招式學習器１９７",
+          "name": "雙翼",
+          "type": "飛行",
           "category": "物理",
           "power": "40",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０３",
+          "machine": "招式學習器２０３",
           "name": "自我暗示",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０５",
-          "name": "蛮干",
+          "machine": "招式學習器２０５",
+          "name": "蠻幹",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器２０７",
+          "machine": "招式學習器２０７",
           "name": "豁出去",
           "type": "火",
           "category": "物理",
@@ -822,18 +822,18 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１６",
+          "machine": "招式學習器２１６",
           "name": "羽毛舞",
-          "type": "飞行",
-          "category": "变化",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２１",
-          "name": "深渊突刺",
-          "type": "恶",
+          "machine": "招式學習器２２１",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -850,27 +850,27 @@
           "parents": [
             {
               "id": "0164",
-              "name": "猫头夜鹰"
+              "name": "貓頭夜鷹"
             },
             {
               "id": "334",
-              "name": "七夕青鸟"
+              "name": "七夕青鳥"
             },
             {
               "id": "628",
-              "name": "勇士雄鹰"
+              "name": "勇士雄鷹"
             },
             {
               "id": "0628H",
-              "name": "勇士雄鹰"
+              "name": "勇士雄鷹"
             },
             {
               "id": "0701",
-              "name": "摔角鹰人"
+              "name": "摔角鷹人"
             }
           ],
-          "name": "神鸟猛击",
-          "type": "飞行",
+          "name": "神鳥猛擊",
+          "type": "飛行",
           "category": "物理",
           "power": "140",
           "accuracy": "90",
@@ -887,7 +887,7 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "垃圾射击",
+          "name": "垃圾射擊",
           "type": "毒",
           "category": "物理",
           "power": "120",
@@ -898,7 +898,7 @@
           "parents": [
             {
               "id": null,
-              "name": "音波龙"
+              "name": "音波龍"
             }
           ],
           "name": "爆音波",
@@ -913,9 +913,9 @@
   ],
   "home_images": [
     {
-      "name": "铳嘴大鸟",
-      "image": "0733-铳嘴大鸟.png",
-      "shiny": "0733-铳嘴大鸟-shiny.png"
+      "name": "銃嘴大鳥",
+      "image": "0733-銃嘴大鳥.png",
+      "shiny": "0733-銃嘴大鳥-shiny.png"
     }
   ]
 }

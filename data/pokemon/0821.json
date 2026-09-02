@@ -3,38 +3,38 @@
   "name_ja": "ココガラ",
   "name_en": "Rookidee",
   "pokedex_id": "0821",
-  "description": "稚山雀（日文︰ココガラ，英文︰Rookidee）是飞行属性宝可梦，它的设计者是有贺等。",
-  "profile": "稚山雀外表看起来就像是普通的一只小鸟，其身体的整体形状趋向于圆型。它通体蓝色，但是脸部以及连接胸腹部的毛发是黑色的，这让稚山雀看起来就像是套着一个黑色的面具，稚山雀的腹部是黄色的。它的个子很小，眼睛的毛发会长出来，并高出头部。稚山雀眼睛附近的白色部分是花纹而不是巩膜。\n稚山雀性格勇敢，冒失莽撞，眼睛周围的白色花纹会让懦弱的宝可梦感到畏惧。雌性比雄性更加神经质，一旦羽毛被弄脏了，就会怒火中烧地用鸟嘴猛啄。无论多强的敌人它都勇于挑战，利用攻其不备的战法将体型巨大的对手玩弄于股掌之间。即使在敌人的反击中被打败，也能从中得到锻炼。娇小的体型让它能敏捷地飞翔。稚山雀会捕食强颚鸡母虫。",
-  "prototype": "稚山雀可能基于某种山雀科鸟类，其外观尤其像大山雀和蓝山雀。\n其两颊上的白斑是山雀属的典型特征，一些其他属的山雀科鸟类也有类似的白斑。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步稚山雀（Pokémon GO）。\n←\nNo.0820：藏饱栗鼠\n宝可梦\nNo.0822：蓝鸦\n→",
+  "description": "稚山雀（日文︰ココガラ，英文︰Rookidee）是飛行屬性寶可夢，它的設計者是有賀等。",
+  "profile": "稚山雀外表看起來就像是普通的一隻小鳥，其身體的整體形狀趨向於圓型。它通體藍色，但是臉部以及連線胸腹部的毛髮是黑色的，這讓稚山雀看起來就像是套著一個黑色的面具，稚山雀的腹部是黃色的。它的個子很小，眼睛的毛髮會長出來，並高出頭部。稚山雀眼睛附近的白色部分是花紋而不是鞏膜。\n稚山雀性格勇敢，冒失莽撞，眼睛周圍的白色花紋會讓懦弱的寶可夢感到畏懼。雌性比雄性更加神經質，一旦羽毛被弄髒了，就會怒火中燒地用鳥嘴猛啄。無論多強的敵人它都勇於挑戰，利用攻其不備的戰法將體型巨大的對手玩弄於股掌之間。即使在敵人的反擊中被打敗，也能從中得到鍛鍊。嬌小的體型讓它能敏捷地飛翔。稚山雀會捕食強顎雞母蟲。",
+  "prototype": "稚山雀可能基於某種山雀科鳥類，其外觀尤其像大山雀和藍山雀。\n其兩頰上的白斑是山雀屬的典型特徵，一些其他屬的山雀科鳥類也有類似的白斑。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步稚山雀（Pokémon GO）。\n←\nNo.0820：藏飽栗鼠\n寶可夢\nNo.0822：藍鴉\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ココガラ Kokogara",
-      "origin": "来自“子（こ）”（子）或“小（こ）柄（がら）”（身材短小）和“小（こ）雀（がら）”（褐头山雀）及“烏（からす）”（乌鸦）。"
+      "origin": "來自“子（こ）”（子）或“小（こ）柄（がら）”（身材短小）和“小（こ）雀（がら）”（褐頭山雀）及“烏（からす）”（烏鴉）。"
     },
     {
       "language": "中文-任天堂",
       "name": "稚山雀稚山雀",
-      "origin": "来自“稚”（幼小）和“山雀”。"
+      "origin": "來自“稚”（幼小）和“山雀”。"
     },
     {
       "language": "英文",
       "name": "Rookidee",
-      "origin": "来自 rook（秃鼻乌鸦）、rookie（新手）、kid（小孩）和 chickadee（北美山雀）。"
+      "origin": "來自 rook（禿鼻烏鴉）、rookie（新手）、kid（小孩）和 chickadee（北美山雀）。"
     },
     {
       "language": "法文",
       "name": "Minisange",
-      "origin": "来自 mini（迷你的）和 mésange（山雀）。"
+      "origin": "來自 mini（迷你的）和 mésange（山雀）。"
     },
     {
       "language": "德文",
       "name": "Meikro",
-      "origin": "来自前缀 mikro-（表示“小、微”）和英文 crow（鸦），谐音英文前缀 micro-（表示“小、微”）。"
+      "origin": "來自字首 mikro-（表示“小、微”）和英文 crow（鴉），諧音英文字首 micro-（表示“小、微”）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Rookidee",
       "origin": "同英文名。"
     },
@@ -44,40 +44,40 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "파라꼬 Parakko",
-      "origin": "来自“파랑”（蓝色）和“꼬마”（小孩）。"
+      "origin": "來自“파랑”（藍色）和“꼬마”（小孩）。"
     }
   ],
   "forms": [
     {
       "name": "稚山雀",
       "types": [
-        "飞行"
+        "飛行"
       ],
-      "category": "小鸟宝可梦",
+      "category": "小鳥寶可夢",
       "abilities": [
         {
-          "name": "锐利目光",
+          "name": "銳利目光",
           "is_hidden": false
         },
         {
-          "name": "紧张感",
+          "name": "緊張感",
           "is_hidden": false
         },
         {
-          "name": "健壮胸肌",
+          "name": "健壯胸肌",
           "is_hidden": true
         }
       ],
       "height": "0.2m",
       "weight": "1.8kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "255（33.3%）",
       "egg_groups": [
-        "飞行群"
+        "飛行群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -110,7 +110,7 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "15 孵化周期（3855步）",
+      "egg_cycles": "15 孵化週期（3855步）",
       "shape": "Body09.png",
       "footprint": "FUnknown.png",
       "image": "0821-稚山雀.png"
@@ -133,7 +133,7 @@
     {
       "form": "",
       "types": [
-        "飞行"
+        "飛行"
       ],
       "data": [
         {
@@ -141,11 +141,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -161,15 +161,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -185,7 +185,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -197,11 +197,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -216,14 +216,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "性格勇敢，无论多强的敌人都勇于挑战。即使在敌人的反击中被打败，也能从中得到锻炼。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "性格勇敢，無論多強的敵人都勇於挑戰。即使在敵人的反擊中被打敗，也能從中得到鍛鍊。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "娇小的体型让它能敏捷地飞翔。利用攻其不备的战法将体型巨大的对手玩弄于股掌之间。"
+          "group": "寶可夢 劍／盾",
+          "text": "嬌小的體型讓它能敏捷地飛翔。利用攻其不備的戰法將體型巨大的對手玩弄於股掌之間。"
         }
       ]
     },
@@ -232,18 +232,18 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "性格勇敢，冒失莽撞。眼睛周围的白色花纹会让懦弱的宝可梦感到畏惧。"
+          "group": "寶可夢 朱／紫",
+          "text": "性格勇敢，冒失莽撞。眼睛周圍的白色花紋會讓懦弱的寶可夢感到畏懼。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "雌性比雄性更加神经质。一旦羽毛被弄脏了，就会怒火中烧地用鸟嘴猛啄。"
+          "group": "寶可夢 朱／紫",
+          "text": "雌性比雄性更加神經質。一旦羽毛被弄髒了，就會怒火中燒地用鳥嘴猛啄。"
         },
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "性格勇敢，无论多强的敌人都勇于挑战。即使在敌人的反击中被打败，也能从中得到锻炼。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "性格勇敢，無論多強的敵人都勇於挑戰。即使在敵人的反擊中被打敗，也能從中得到鍛鍊。"
         }
       ]
     }
@@ -252,7 +252,7 @@
     [
       {
         "name": "稚山雀",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "821Rookidee_Dream.png",
         "back_text": null,
@@ -260,21 +260,21 @@
         "form_name": null
       },
       {
-        "name": "蓝鸦",
-        "stage": "1阶进化",
-        "text": "等级18以上",
+        "name": "藍鴉",
+        "stage": "1階進化",
+        "text": "等級18以上",
         "image": "822Corvisquire_Dream.png",
         "back_text": null,
         "from": "稚山雀",
         "form_name": null
       },
       {
-        "name": "钢铠鸦",
-        "stage": "2阶进化",
-        "text": "等级38以上",
+        "name": "鋼鎧鴉",
+        "stage": "2階進化",
+        "text": "等級38以上",
         "image": "823Corviknight_Dream.png",
         "back_text": null,
-        "from": "蓝鸦",
+        "from": "藍鴉",
         "form_name": null
       }
     ]
@@ -289,7 +289,7 @@
           "level": "—",
           "name": "瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
@@ -297,7 +297,7 @@
         {
           "level": "—",
           "name": "啄",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "35",
           "accuracy": "100",
@@ -305,8 +305,8 @@
         },
         {
           "level": "4",
-          "name": "嚣张",
-          "type": "恶",
+          "name": "囂張",
+          "type": "惡",
           "category": "物理",
           "power": "20",
           "accuracy": "100",
@@ -315,15 +315,15 @@
         {
           "level": "8",
           "name": "磨爪",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "12",
-          "name": "乱击",
+          "name": "亂擊",
           "type": "一般",
           "category": "物理",
           "power": "15",
@@ -333,7 +333,7 @@
         {
           "level": "16",
           "name": "啄食",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -341,9 +341,9 @@
         },
         {
           "level": "20",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -352,15 +352,15 @@
           "level": "24",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "28",
-          "name": "啄钻",
-          "type": "飞行",
+          "name": "啄鑽",
+          "type": "飛行",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -368,17 +368,17 @@
         },
         {
           "level": "32",
-          "name": "虚张声势",
+          "name": "虛張聲勢",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
           "level": "36",
-          "name": "勇鸟猛攻",
-          "type": "飞行",
+          "name": "勇鳥猛攻",
+          "type": "飛行",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
@@ -392,7 +392,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -401,53 +401,53 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００３",
+          "machine": "招式學習器００３",
           "name": "假哭",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００４",
-          "name": "高速移动",
+          "machine": "招式學習器００４",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -455,16 +455,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２７",
+          "machine": "招式學習器０２７",
           "name": "燕返",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -473,125 +473,125 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４０",
-          "name": "空气利刃",
-          "type": "飞行",
+          "machine": "招式學習器０４０",
+          "name": "空氣利刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "60",
           "accuracy": "95",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６５",
-          "name": "空气之刃",
-          "type": "飞行",
+          "machine": "招式學習器０６５",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９７",
-          "name": "飞翔",
-          "type": "飞行",
+          "machine": "招式學習器０９７",
+          "name": "飛翔",
+          "type": "飛行",
           "category": "物理",
           "power": "90",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１３",
-          "name": "顺风",
-          "type": "飞行",
-          "category": "变化",
+          "machine": "招式學習器１１３",
+          "name": "順風",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３４",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式學習器１３４",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１４０",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器１４０",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１６４",
-          "name": "勇鸟猛攻",
-          "type": "飞行",
+          "machine": "招式學習器１６４",
+          "name": "勇鳥猛攻",
+          "type": "飛行",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -599,18 +599,18 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７７",
+          "machine": "招式學習器１７７",
           "name": "怨恨",
-          "type": "幽灵",
-          "category": "变化",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９７",
-          "name": "双翼",
-          "type": "飞行",
+          "machine": "招式學習器１９７",
+          "name": "雙翼",
+          "type": "飛行",
           "category": "物理",
           "power": "40",
           "accuracy": "90",
@@ -627,12 +627,12 @@
           "parents": [
             {
               "id": null,
-              "name": "盔甲鸟"
+              "name": "盔甲鳥"
             }
           ],
-          "name": "泼沙",
+          "name": "潑沙",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
@@ -641,27 +641,27 @@
           "parents": [
             {
               "id": "0164",
-              "name": "猫头夜鹰"
+              "name": "貓頭夜鷹"
             },
             {
               "id": "334",
-              "name": "七夕青鸟"
+              "name": "七夕青鳥"
             },
             {
               "id": "628",
-              "name": "勇士雄鹰"
+              "name": "勇士雄鷹"
             },
             {
               "id": "0628H",
-              "name": "勇士雄鹰"
+              "name": "勇士雄鷹"
             },
             {
               "id": "0701",
-              "name": "摔角鹰人"
+              "name": "摔角鷹人"
             }
           ],
-          "name": "神鸟猛击",
-          "type": "飞行",
+          "name": "神鳥猛擊",
+          "type": "飛行",
           "category": "物理",
           "power": "140",
           "accuracy": "90",
@@ -671,12 +671,12 @@
           "parents": [
             {
               "id": null,
-              "name": "狙射树枭"
+              "name": "狙射樹梟"
             }
           ],
           "name": "怨恨",
-          "type": "幽灵",
-          "category": "变化",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -685,19 +685,19 @@
           "parents": [
             {
               "id": "0731",
-              "name": "小笃儿"
+              "name": "小篤兒"
             },
             {
               "id": "0732",
-              "name": "喇叭啄鸟"
+              "name": "喇叭啄鳥"
             },
             {
               "id": "0733",
-              "name": "铳嘴大鸟"
+              "name": "銃嘴大鳥"
             }
           ],
-          "name": "碎岩",
-          "type": "格斗",
+          "name": "碎巖",
+          "type": "格鬥",
           "category": "物理",
           "power": "40",
           "accuracy": "100",
@@ -711,23 +711,23 @@
             },
             {
               "id": "0164",
-              "name": "猫头夜鹰"
+              "name": "貓頭夜鷹"
             },
             {
               "id": "0278",
-              "name": "长翅鸥"
+              "name": "長翅鷗"
             },
             {
               "id": "0279",
-              "name": "大嘴鸥"
+              "name": "大嘴鷗"
             },
             {
               "id": "0580",
-              "name": "鸭宝宝"
+              "name": "鴨寶寶"
             },
             {
               "id": "0581",
-              "name": "舞天鹅"
+              "name": "舞天鵝"
             },
             {
               "id": "0661",
@@ -739,11 +739,11 @@
             },
             {
               "id": "0663",
-              "name": "烈箭鹰"
+              "name": "烈箭鷹"
             },
             {
               "id": "0701",
-              "name": "摔角鹰人"
+              "name": "摔角鷹人"
             },
             {
               "id": "0714",
@@ -751,44 +751,44 @@
             },
             {
               "id": "0715",
-              "name": "音波龙"
+              "name": "音波龍"
             },
             {
               "id": "0731",
-              "name": "小笃儿"
+              "name": "小篤兒"
             },
             {
               "id": "0732",
-              "name": "喇叭啄鸟"
+              "name": "喇叭啄鳥"
             },
             {
               "id": "0733",
-              "name": "铳嘴大鸟"
+              "name": "銃嘴大鳥"
             },
             {
               "id": "0741",
-              "name": "花舞鸟"
+              "name": "花舞鳥"
             },
             {
               "id": "0931",
-              "name": "怒鹦哥"
+              "name": "怒鸚哥"
             },
             {
               "id": "0940",
-              "name": "电海燕"
+              "name": "電海燕"
             },
             {
               "id": "0941",
-              "name": "大电海燕"
+              "name": "大電海燕"
             },
             {
               "id": "0973",
-              "name": "缠红鹤"
+              "name": "纏紅鶴"
             }
           ],
-          "name": "羽栖",
-          "type": "飞行",
-          "category": "变化",
+          "name": "羽棲",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -797,27 +797,27 @@
           "parents": [
             {
               "id": "0279",
-              "name": "大嘴鸥"
+              "name": "大嘴鷗"
             },
             {
               "id": "0580",
-              "name": "鸭宝宝"
+              "name": "鴨寶寶"
             },
             {
               "id": "0581",
-              "name": "舞天鹅"
+              "name": "舞天鵝"
             },
             {
               "id": "0627",
-              "name": "毛头小鹰"
+              "name": "毛頭小鷹"
             },
             {
               "id": "0628",
-              "name": "勇士雄鹰"
+              "name": "勇士雄鷹"
             },
             {
               "id": "0628H",
-              "name": "勇士雄鹰"
+              "name": "勇士雄鷹"
             },
             {
               "id": "0661",
@@ -829,7 +829,7 @@
             },
             {
               "id": "0663",
-              "name": "烈箭鹰"
+              "name": "烈箭鷹"
             },
             {
               "id": "0714",
@@ -837,12 +837,12 @@
             },
             {
               "id": "0715",
-              "name": "音波龙"
+              "name": "音波龍"
             }
           ],
-          "name": "顺风",
-          "type": "飞行",
-          "category": "变化",
+          "name": "順風",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -855,32 +855,32 @@
             },
             {
               "id": "0164",
-              "name": "猫头夜鹰"
+              "name": "貓頭夜鷹"
             },
             {
               "id": "0580",
-              "name": "鸭宝宝"
+              "name": "鴨寶寶"
             },
             {
               "id": "0581",
-              "name": "舞天鹅"
+              "name": "舞天鵝"
             },
             {
               "id": "0627",
-              "name": "毛头小鹰"
+              "name": "毛頭小鷹"
             },
             {
               "id": "0628",
-              "name": "勇士雄鹰"
+              "name": "勇士雄鷹"
             },
             {
               "id": "0628H",
-              "name": "勇士雄鹰"
+              "name": "勇士雄鷹"
             }
           ],
-          "name": "清除浓雾",
-          "type": "飞行",
-          "category": "变化",
+          "name": "清除濃霧",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"

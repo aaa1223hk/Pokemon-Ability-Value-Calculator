@@ -1,55 +1,55 @@
 {
-  "name_zh": "波尔凯尼恩",
+  "name_zh": "波爾凱尼恩",
   "name_ja": "ボルケニオン",
   "name_en": "Volcanion",
   "pokedex_id": "0721",
-  "description": "波尔凯尼恩（日文︰ボルケニオン，英文︰Volcanion）是火属性／水属性幻之宝可梦。",
-  "profile": "波尔凯尼恩两只粗长的手臂平时合闭在一起时看起来就像拱形门，连接着旺盛燃烧的真红身体。不断集中力量于手臂，当手臂张开的时候就会解放出能炸平一座山的能量。它曾用这股力量创造出人类生活的平原，因而在卡洛斯地区西南方流传着波尔凯尼恩建国的传说。波尔凯尼恩没有性别。\n据说波尔凯尼恩住在人类不会进入的山里。它会喷出水蒸气，用浓雾隐藏自己。从背上的手臂里喷射出体内的水蒸气有着把整座山一下子吹飞的威力。",
-  "prototype": "波尔凯尼恩的外形可能基于狮子。结合卡洛斯地区西南的波尔凯尼恩建国传说来看，可能参考了法国西南历史地区阿基坦传统旗帜和纹章上的红底金狮子。\n从类似蒸汽管道的手臂以及火和水的属性来看，波尔凯尼恩也有间歇泉、消防栓和蒸汽机的元素。",
-  "detail": "波尔凯尼恩是有唯一属性组合的宝可梦，火属性／水属性组合。\n根据建国秘闻录记载，在卡洛斯地区的西南部，有着将波尔凯尼恩视为建国的宝可梦并尊崇它的习俗。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步波尔凯尼恩（Pokémon GO）。\n←\nNo.0720：胡帕\n宝可梦\nNo.0722：木木枭\n→",
+  "description": "波爾凱尼恩（日文︰ボルケニオン，英文︰Volcanion）是火屬性／水屬性幻之寶可夢。",
+  "profile": "波爾凱尼恩兩隻粗長的手臂平時合閉在一起時看起來就像拱形門，連線著旺盛燃燒的真紅身體。不斷集中力量於手臂，當手臂張開的時候就會解放出能炸平一座山的能量。它曾用這股力量創造出人類生活的平原，因而在卡洛斯地區西南方流傳著波爾凱尼恩建國的傳說。波爾凱尼恩沒有性別。\n據說波爾凱尼恩住在人類不會進入的山裡。它會噴出水蒸氣，用濃霧隱藏自己。從背上的手臂裡噴射出體內的水蒸氣有著把整座山一下子吹飛的威力。",
+  "prototype": "波爾凱尼恩的外形可能基於獅子。結合卡洛斯地區西南的波爾凱尼恩建國傳說來看，可能參考了法國西南歷史地區阿基坦傳統旗幟和紋章上的紅底金獅子。\n從類似蒸汽管道的手臂以及火和水的屬性來看，波爾凱尼恩也有間歇泉、消防栓和蒸汽機的元素。",
+  "detail": "波爾凱尼恩是有唯一屬性組合的寶可夢，火屬性／水屬性組合。\n根據建國秘聞錄記載，在卡洛斯地區的西南部，有著將波爾凱尼恩視為建國的寶可夢並尊崇它的習俗。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步波爾凱尼恩（Pokémon GO）。\n←\nNo.0720：胡帕\n寶可夢\nNo.0722：木木梟\n→",
   "names": [
     {
       "language": "日文",
       "name": "ボルケニオン Volcanion",
-      "origin": "来自英文 volcano（火山）和 词尾“オン”。"
+      "origin": "來自英文 volcano（火山）和 詞尾“オン”。"
     },
     {
       "language": "中文-任天堂",
-      "name": "波爾凱尼恩波尔凯尼恩",
-      "origin": "来自日文名的音译。"
+      "name": "波爾凱尼恩波爾凱尼恩",
+      "origin": "來自日文名的音譯。"
     },
     {
-      "language": "中文-大陆",
-      "name": "波尔凯尼恩",
-      "origin": "来自日文名的音译。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "波爾凱尼恩",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "波爾凱尼恩",
+      "origin": "來自日文名的音譯。"
     },
     {
       "language": "中文-香港",
       "name": "波爾凱尼恩",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     },
     {
       "language": "英文",
       "name": "Volcanion",
-      "origin": "来自日文名。"
+      "origin": "來自日文名。"
     },
     {
       "language": "法文",
       "name": "Volcanion",
-      "origin": "来自日文名。"
+      "origin": "來自日文名。"
     },
     {
       "language": "德文",
       "name": "Volcanion",
-      "origin": "来自日文名。"
+      "origin": "來自日文名。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Volcanion",
       "origin": "同英文名。"
     },
@@ -59,22 +59,22 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "볼케니온 Volcanion",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     }
   ],
   "forms": [
     {
-      "name": "波尔凯尼恩",
+      "name": "波爾凱尼恩",
       "types": [
         "火",
         "水"
       ],
-      "category": "蒸汽宝可梦",
+      "category": "蒸汽寶可夢",
       "abilities": [
         {
-          "name": "储水",
+          "name": "儲水",
           "is_hidden": false
         }
       ],
@@ -83,7 +83,7 @@
       "color": "褐色",
       "catch_rate": "3（0.4%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -118,10 +118,10 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "121 孵化周期*（31097步）",
+      "egg_cycles": "121 孵化週期*（31097步）",
       "shape": "Body08.png",
       "footprint": "FUnknown.png",
-      "image": "0721-波尔凯尼恩.png"
+      "image": "0721-波爾凱尼恩.png"
     }
   ],
   "stats": [
@@ -139,7 +139,7 @@
   ],
   "type_effectiveness": [
     {
-      "form": "(储水)",
+      "form": "(儲水)",
       "types": [
         "火",
         "水"
@@ -150,11 +150,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -170,15 +170,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.25"
         },
         {
@@ -194,7 +194,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -206,11 +206,11 @@
           "damage": "0.25"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -231,11 +231,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -251,15 +251,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.25"
         },
         {
@@ -275,7 +275,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -287,11 +287,11 @@
           "damage": "0.25"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -307,23 +307,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "喷出水蒸气，用浓雾隐藏自己。据说住在人类不会进入的山里。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "噴出水蒸氣，用濃霧隱藏自己。據說住在人類不會進入的山裡。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "从背上的手臂里喷射出体内的水蒸气。有着把整座山一下子吹飞的威力。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "從背上的手臂裡噴射出體內的水蒸氣。有著把整座山一下子吹飛的威力。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "喷出水蒸气，用浓雾隐藏自己。据说住在人类不会进入的山里。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "噴出水蒸氣，用濃霧隱藏自己。據說住在人類不會進入的山裡。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "从背上的手臂里喷射出体内的水蒸气。有着把整座山一下子吹飞的威力。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "從背上的手臂裡噴射出體內的水蒸氣。有著把整座山一下子吹飛的威力。"
         }
       ]
     },
@@ -331,9 +331,9 @@
       "name": "第九世代",
       "versions": [
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "从背上的手臂里喷射出体内的水蒸气。有着把整座山一下子吹飞的威力。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "從背上的手臂裡噴射出體內的水蒸氣。有著把整座山一下子吹飛的威力。"
         }
       ]
     }
@@ -341,8 +341,8 @@
   "evolution_chains": [
     [
       {
-        "name": "波尔凯尼恩",
-        "stage": "不进化",
+        "name": "波爾凱尼恩",
+        "stage": "不進化",
         "text": null,
         "image": "721Volcanion_Dream.png",
         "back_text": null,
@@ -368,7 +368,7 @@
         },
         {
           "level": "—",
-          "name": "水枪",
+          "name": "水槍",
           "type": "水",
           "category": "特殊",
           "power": "40",
@@ -377,7 +377,7 @@
         },
         {
           "level": "—",
-          "name": "火焰旋涡",
+          "name": "火焰旋渦",
           "type": "火",
           "category": "特殊",
           "power": "35",
@@ -388,14 +388,14 @@
           "level": "6",
           "name": "瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
         },
         {
           "level": "12",
-          "name": "气象球",
+          "name": "氣象球",
           "type": "一般",
           "category": "特殊",
           "power": "50",
@@ -404,7 +404,7 @@
         },
         {
           "level": "18",
-          "name": "蓄能焰袭",
+          "name": "蓄能焰襲",
           "type": "火",
           "category": "物理",
           "power": "50",
@@ -413,7 +413,7 @@
         },
         {
           "level": "24",
-          "name": "水之波动",
+          "name": "水之波動",
           "type": "水",
           "category": "特殊",
           "power": "60",
@@ -424,14 +424,14 @@
           "level": "30",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "36",
-          "name": "烧净",
+          "name": "燒淨",
           "type": "火",
           "category": "特殊",
           "power": "60",
@@ -449,7 +449,7 @@
         },
         {
           "level": "48",
-          "name": "热水",
+          "name": "熱水",
           "type": "水",
           "category": "特殊",
           "power": "80",
@@ -467,18 +467,18 @@
         },
         {
           "level": "60",
-          "name": "白雾",
+          "name": "白霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "60",
-          "name": "黑雾",
+          "name": "黑霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -494,7 +494,7 @@
         },
         {
           "level": "78",
-          "name": "闪焰冲锋",
+          "name": "閃焰衝鋒",
           "type": "火",
           "category": "物理",
           "power": "120",
@@ -503,7 +503,7 @@
         },
         {
           "level": "84",
-          "name": "过热",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -527,7 +527,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -536,25 +536,25 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００８",
+          "machine": "招式學習器００８",
           "name": "火焰牙",
           "type": "火",
           "category": "物理",
@@ -563,17 +563,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器００９",
-          "name": "雷电牙",
-          "type": "电",
+          "machine": "招式學習器００９",
+          "name": "雷電牙",
+          "type": "電",
           "category": "物理",
           "power": "65",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１１",
-          "name": "水之波动",
+          "machine": "招式學習器０１１",
+          "name": "水之波動",
           "type": "水",
           "category": "特殊",
           "power": "60",
@@ -581,8 +581,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２４",
-          "name": "火焰旋涡",
+          "machine": "招式學習器０２４",
+          "name": "火焰旋渦",
           "type": "火",
           "category": "特殊",
           "power": "35",
@@ -590,8 +590,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -599,7 +599,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２８",
+          "machine": "招式學習器０２８",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -608,8 +608,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３５",
-          "name": "泥巴射击",
+          "machine": "招式學習器０３５",
+          "name": "泥巴射擊",
           "type": "地面",
           "category": "特殊",
           "power": "55",
@@ -617,8 +617,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３６",
-          "name": "岩石封锁",
+          "machine": "招式學習器０３６",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -626,8 +626,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３８",
-          "name": "蓄能焰袭",
+          "machine": "招式學習器０３８",
+          "name": "蓄能焰襲",
           "type": "火",
           "category": "物理",
           "power": "50",
@@ -635,52 +635,52 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５１",
+          "machine": "招式學習器０５１",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５５",
+          "machine": "招式學習器０５５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -689,17 +689,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５８",
+          "machine": "招式學習器０５８",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -707,17 +707,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８４",
-          "name": "跺脚",
+          "machine": "招式學習器０８４",
+          "name": "跺腳",
           "type": "地面",
           "category": "物理",
           "power": "75",
@@ -725,17 +725,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８６",
-          "name": "岩崩",
+          "machine": "招式學習器０８６",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -743,52 +743,52 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８９",
-          "name": "扑击",
-          "type": "格斗",
+          "machine": "招式學習器０８９",
+          "name": "撲擊",
+          "type": "格鬥",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９３",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式學習器０９３",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０７",
+          "machine": "招式學習器１０７",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１０",
+          "machine": "招式學習器１１０",
           "name": "水流裂破",
           "type": "水",
           "category": "物理",
@@ -797,8 +797,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１８",
-          "name": "热风",
+          "machine": "招式學習器１１８",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -806,17 +806,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２１",
-          "name": "重磅冲撞",
-          "type": "钢",
+          "machine": "招式學習器１２１",
+          "name": "重磅衝撞",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２５",
-          "name": "喷射火焰",
+          "machine": "招式學習器１２５",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -824,7 +824,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３３",
+          "machine": "招式學習器１３３",
           "name": "大地之力",
           "type": "地面",
           "category": "特殊",
@@ -833,16 +833,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３９",
-          "name": "薄雾场地",
+          "machine": "招式學習器１３９",
+          "name": "薄霧場地",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４１",
+          "machine": "招式學習器１４１",
           "name": "大字爆炎",
           "type": "火",
           "category": "特殊",
@@ -851,7 +851,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４２",
+          "machine": "招式學習器１４２",
           "name": "水炮",
           "type": "水",
           "category": "特殊",
@@ -860,17 +860,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４７",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式學習器１４７",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１４８",
-          "name": "污泥炸弹",
+          "machine": "招式學習器１４８",
+          "name": "汙泥炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "90",
@@ -878,7 +878,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４９",
+          "machine": "招式學習器１４９",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -887,8 +887,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５０",
-          "name": "尖石攻击",
+          "machine": "招式學習器１５０",
+          "name": "尖石攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "100",
@@ -896,8 +896,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -905,8 +905,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５７",
-          "name": "过热",
+          "machine": "招式學習器１５７",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -914,17 +914,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５８",
-          "name": "真气弹",
-          "type": "格斗",
+          "machine": "招式學習器１５８",
+          "name": "真氣彈",
+          "type": "格鬥",
           "category": "特殊",
           "power": "120",
           "accuracy": "70",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -932,8 +932,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６５",
-          "name": "闪焰冲锋",
+          "machine": "招式學習器１６５",
+          "name": "閃焰衝鋒",
           "type": "火",
           "category": "物理",
           "power": "120",
@@ -941,7 +941,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１６８",
+          "machine": "招式學習器１６８",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -950,8 +950,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -959,26 +959,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７２",
+          "machine": "招式學習器１７２",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１７４",
-          "name": "黑雾",
+          "machine": "招式學習器１７４",
+          "name": "黑霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器１７９",
-          "name": "击落",
+          "machine": "招式學習器１７９",
+          "name": "擊落",
           "type": "岩石",
           "category": "物理",
           "power": "50",
@@ -986,17 +986,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１８０",
+          "machine": "招式學習器１８０",
           "name": "陀螺球",
-          "type": "钢",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１８８",
-          "name": "热水",
+          "machine": "招式學習器１８８",
+          "name": "熱水",
           "type": "水",
           "category": "特殊",
           "power": "80",
@@ -1004,17 +1004,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１８９",
-          "name": "高温重压",
+          "machine": "招式學習器１８９",
+          "name": "高溫重壓",
           "type": "火",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９３",
-          "name": "气象球",
+          "machine": "招式學習器１９３",
+          "name": "氣象球",
           "type": "一般",
           "category": "特殊",
           "power": "50",
@@ -1022,8 +1022,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -1031,8 +1031,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１４",
-          "name": "污泥波",
+          "machine": "招式學習器２１４",
+          "name": "汙泥波",
           "type": "毒",
           "category": "特殊",
           "power": "95",
@@ -1040,8 +1040,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１５",
-          "name": "热沙大地",
+          "machine": "招式學習器２１５",
+          "name": "熱沙大地",
           "type": "地面",
           "category": "特殊",
           "power": "70",
@@ -1054,9 +1054,9 @@
   "egg_moves": [],
   "home_images": [
     {
-      "name": "波尔凯尼恩",
-      "image": "0721-波尔凯尼恩.png",
-      "shiny": "0721-波尔凯尼恩-shiny.png"
+      "name": "波爾凱尼恩",
+      "image": "0721-波爾凱尼恩.png",
+      "shiny": "0721-波爾凱尼恩-shiny.png"
     }
   ]
 }

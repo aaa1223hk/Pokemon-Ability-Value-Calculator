@@ -1,55 +1,55 @@
 {
-  "name_zh": "电电虫",
+  "name_zh": "電電蟲",
   "name_ja": "バチュル",
   "name_en": "Joltik",
   "pokedex_id": "0595",
-  "description": "电电虫（日文︰バチュル，英文︰Joltik）是虫属性／电属性宝可梦。",
-  "profile": "电电虫的身体是黄色的，腹部是褐色的。它有四只眼睛，两只大的长在头的两边，两只小的长在两只大眼之间，且小的眼睛中没有瞳仁。有两对蓝色的足，上面长着黄色的毛。\n电电虫生活在街巷中，可以从民家的插座里吸取电力。因为自己不能制造电，所以会附在其它大型宝可梦身上吸取静电，然后把电储存在蓄电袋里。经常会把自己贴在来电汪的屁股上。",
-  "prototype": "电电虫的外形来源于跳蛛，而其附在大型宝可梦身上吸取静电的习性类似汲取的蜱虫，二者同为蛛形纲生物。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步电电虫（Pokémon GO）。\n←\nNo.0594：保姆曼波\n宝可梦\nNo.0596：电蜘蛛\n→",
+  "description": "電電蟲（日文︰バチュル，英文︰Joltik）是蟲屬性／電屬性寶可夢。",
+  "profile": "電電蟲的身體是黃色的，腹部是褐色的。它有四隻眼睛，兩隻大的長在頭的兩邊，兩隻小的長在兩隻大眼之間，且小的眼睛中沒有瞳仁。有兩對藍色的足，上面長著黃色的毛。\n電電蟲生活在街巷中，可以從民家的插座裡吸取電力。因為自己不能製造電，所以會附在其它大型寶可夢身上吸取靜電，然後把電儲存在蓄電袋裡。經常會把自己貼在來電汪的屁股上。",
+  "prototype": "電電蟲的外形來源於跳蛛，而其附在大型寶可夢身上吸取靜電的習性類似汲取的蜱蟲，二者同為蛛形綱生物。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步電電蟲（Pokémon GO）。\n←\nNo.0594：保姆曼波\n寶可夢\nNo.0596：電蜘蛛\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "バチュル Bachuru",
-      "origin": "来自“バチバチ”（劈哩啪啦声）和“ちゅる”（啜啜声、吸吮声）。"
+      "origin": "來自“バチバチ”（劈哩啪啦聲）和“ちゅる”（啜啜聲、吸吮聲）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "電電蟲电电虫",
-      "origin": "来自“电”和“虫”。"
+      "name": "電電蟲電電蟲",
+      "origin": "來自“電”和“蟲”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "电电虫",
-      "origin": "来自“电”和“虫”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "電電蟲",
-      "origin": "来自“电”和“虫”。"
+      "origin": "來自“電”和“蟲”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "電電蟲",
+      "origin": "來自“電”和“蟲”。"
     },
     {
       "language": "中文-香港",
       "name": "電電蟲",
-      "origin": "来自“电”和“虫”。"
+      "origin": "來自“電”和“蟲”。"
     },
     {
       "language": "英文",
       "name": "Joltik",
-      "origin": "来自 jolt（电击）和 tick（蜱）。"
+      "origin": "來自 jolt（電擊）和 tick（蜱）。"
     },
     {
       "language": "法文",
       "name": "Statitik",
-      "origin": "来自 électricité statique（静电）和 tique（蜱）。"
+      "origin": "來自 électricité statique（靜電）和 tique（蜱）。"
     },
     {
       "language": "德文",
       "name": "Wattzapf",
-      "origin": "来自 Watt（瓦特：国际单位制的功率单位）、英文 zap（表示“电击”的拟声词）和 abzapfen（抽取）。"
+      "origin": "來自 Watt（瓦特：國際單位制的功率單位）、英文 zap（表示“電擊”的擬聲詞）和 abzapfen（抽取）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Joltik",
       "origin": "同英文名。"
     },
@@ -59,41 +59,41 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "파쪼옥 Pazzouok",
-      "origin": "来自“바지직”（哧哧声）和“쪼옥”（啜啜声）。"
+      "origin": "來自“바지직”（哧哧聲）和“쪼옥”（啜啜聲）。"
     }
   ],
   "forms": [
     {
-      "name": "电电虫",
+      "name": "電電蟲",
       "types": [
-        "虫",
-        "电"
+        "蟲",
+        "電"
       ],
-      "category": "吸附宝可梦",
+      "category": "吸附寶可夢",
       "abilities": [
         {
-          "name": "复眼",
+          "name": "複眼",
           "is_hidden": false
         },
         {
-          "name": "紧张感",
+          "name": "緊張感",
           "is_hidden": false
         },
         {
-          "name": "虫之预感",
+          "name": "蟲之預感",
           "is_hidden": true
         }
       ],
       "height": "0.1m",
       "weight": "0.6kg",
-      "color": "黄色",
+      "color": "黃色",
       "catch_rate": "190（24.8%）",
       "egg_groups": [
-        "虫群"
+        "蟲群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -126,10 +126,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body14.png",
       "footprint": "F595.png",
-      "image": "0595-电电虫.png"
+      "image": "0595-電電蟲.png"
     }
   ],
   "stats": [
@@ -149,8 +149,8 @@
     {
       "form": "",
       "types": [
-        "虫",
-        "电"
+        "蟲",
+        "電"
       ],
       "data": [
         {
@@ -158,11 +158,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -178,15 +178,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -202,7 +202,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -214,11 +214,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -234,13 +234,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "生活在街上的电电虫学会了从民宅的插座吸取电力的方法。"
+          "group": "寶可夢 黑／白",
+          "text": "生活在街上的電電蟲學會了從民宅的插座吸取電力的方法。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "会附在体型大的宝可梦身上吸取静电，然后把电储存在蓄电袋里。"
+          "group": "寶可夢 黑／白",
+          "text": "會附在體型大的寶可夢身上吸取靜電，然後把電儲存在蓄電袋裡。"
         }
       ]
     },
@@ -249,23 +249,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "因为自己不能制造电，所以会附在其它大型宝可梦身上吸取静电。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "因為自己不能製造電，所以會附在其它大型寶可夢身上吸取靜電。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "会附在体型大的宝可梦身上吸取静电，然后把电储存在蓄电袋里。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "會附在體型大的寶可夢身上吸取靜電，然後把電儲存在蓄電袋裡。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "因为自己不能制造电，所以会附在其它大型宝可梦身上吸取静电。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "因為自己不能製造電，所以會附在其它大型寶可夢身上吸取靜電。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "会附在体型大的宝可梦身上吸取静电，然后把电储存在蓄电袋里。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "會附在體型大的寶可夢身上吸取靜電，然後把電儲存在蓄電袋裡。"
         }
       ]
     },
@@ -273,14 +273,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "会附在宝可梦的身上吸取静电。自身并没有制造电的能力。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "會附在寶可夢的身上吸取靜電。自身並沒有製造電的能力。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "会附在其他宝可梦身上吸取静电。经常会把自己贴在来电汪的屁股上。"
+          "group": "寶可夢 劍／盾",
+          "text": "會附在其他寶可夢身上吸取靜電。經常會把自己貼在來電汪的屁股上。"
         }
       ]
     },
@@ -289,13 +289,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "生活在街上的电电虫学会了从民宅的插座吸取电力的方法。"
+          "group": "寶可夢 朱／紫",
+          "text": "生活在街上的電電蟲學會了從民宅的插座吸取電力的方法。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "因为自己不能制造电，所以会附在其它大型宝可梦身上吸取静电。"
+          "group": "寶可夢 朱／紫",
+          "text": "因為自己不能製造電，所以會附在其它大型寶可夢身上吸取靜電。"
         }
       ]
     }
@@ -303,8 +303,8 @@
   "evolution_chains": [
     [
       {
-        "name": "电电虫",
-        "stage": "未进化",
+        "name": "電電蟲",
+        "stage": "未進化",
         "text": null,
         "image": "595Joltik_Dream.png",
         "back_text": null,
@@ -312,12 +312,12 @@
         "form_name": null
       },
       {
-        "name": "电蜘蛛",
-        "stage": "1阶进化",
-        "text": "等级36以上",
+        "name": "電蜘蛛",
+        "stage": "1階進化",
+        "text": "等級36以上",
         "image": "596Galvantula_Dream.png",
         "back_text": null,
-        "from": "电电虫",
+        "from": "電電蟲",
         "form_name": null
       }
     ]
@@ -339,8 +339,8 @@
         },
         {
           "level": "—",
-          "name": "连斩",
-          "type": "虫",
+          "name": "連斬",
+          "type": "蟲",
           "category": "物理",
           "power": "40",
           "accuracy": "95",
@@ -348,8 +348,8 @@
         },
         {
           "level": "4",
-          "name": "电网",
-          "type": "电",
+          "name": "電網",
+          "type": "電",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
@@ -357,8 +357,8 @@
         },
         {
           "level": "8",
-          "name": "虫咬",
-          "type": "虫",
+          "name": "蟲咬",
+          "type": "蟲",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -366,44 +366,44 @@
         },
         {
           "level": "12",
-          "name": "吐丝",
-          "type": "虫",
-          "category": "变化",
+          "name": "吐絲",
+          "type": "蟲",
+          "category": "變化",
           "power": "—",
           "accuracy": "95",
           "pp": "40"
         },
         {
           "level": "16",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
           "level": "20",
-          "name": "电球",
-          "type": "电",
+          "name": "電球",
+          "type": "電",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "24",
-          "name": "高速移动",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "28",
-          "name": "突袭",
-          "type": "恶",
+          "name": "突襲",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -411,7 +411,7 @@
         },
         {
           "level": "32",
-          "name": "劈开",
+          "name": "劈開",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -420,8 +420,8 @@
         },
         {
           "level": "37",
-          "name": "放电",
-          "type": "电",
+          "name": "放電",
+          "type": "電",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
@@ -429,9 +429,9 @@
         },
         {
           "level": "40",
-          "name": "刺耳声",
+          "name": "刺耳聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
@@ -440,15 +440,15 @@
           "level": "44",
           "name": "胃液",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "48",
-          "name": "虫鸣",
-          "type": "虫",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
@@ -462,62 +462,62 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００４",
-          "name": "高速移动",
+          "machine": "招式學習器００４",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１５",
-          "name": "虫之抵抗",
-          "type": "虫",
+          "machine": "招式學習器０１５",
+          "name": "蟲之抵抗",
+          "type": "蟲",
           "category": "特殊",
           "power": "50",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２１",
-          "name": "虫扑",
-          "type": "虫",
+          "machine": "招式學習器０２１",
+          "name": "蟲撲",
+          "type": "蟲",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２３",
-          "name": "充电光束",
-          "type": "电",
+          "machine": "招式學習器０２３",
+          "name": "充電光束",
+          "type": "電",
           "category": "特殊",
           "power": "50",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -525,7 +525,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -534,71 +534,71 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４８",
-          "name": "伏特替换",
-          "type": "电",
+          "machine": "招式學習器０４８",
+          "name": "伏特替換",
+          "type": "電",
           "category": "特殊",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７２",
-          "name": "电球",
-          "type": "电",
+          "machine": "招式學習器０７２",
+          "name": "電球",
+          "type": "電",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０８２",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０８２",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８３",
-          "name": "毒击",
+          "machine": "招式學習器０８３",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -606,44 +606,44 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９５",
+          "machine": "招式學習器０９５",
           "name": "汲取",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０５",
+          "machine": "招式學習器１０５",
           "name": "十字剪",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１１",
-          "name": "终极吸取",
+          "machine": "招式學習器１１１",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -651,7 +651,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１９",
+          "machine": "招式學習器１１９",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -660,53 +660,53 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２６",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式學習器１２６",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１４７",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式學習器１４７",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１６２",
-          "name": "虫鸣",
-          "type": "虫",
+          "machine": "招式學習器１６２",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６６",
+          "machine": "招式學習器１６６",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -714,36 +714,36 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８２",
-          "name": "虫咬",
-          "type": "虫",
+          "machine": "招式學習器１８２",
+          "name": "蟲咬",
+          "type": "蟲",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１８５",
-          "name": "猛扑",
-          "type": "虫",
+          "machine": "招式學習器１８５",
+          "name": "猛撲",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１１",
-          "name": "电网",
-          "type": "电",
+          "machine": "招式學習器２１１",
+          "name": "電網",
+          "type": "電",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１９",
-          "name": "爬击",
-          "type": "虫",
+          "machine": "招式學習器２１９",
+          "name": "爬擊",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "90",
@@ -760,7 +760,7 @@
           "parents": [
             {
               "id": "0167",
-              "name": "圆丝蛛"
+              "name": "圓絲蛛"
             },
             {
               "id": "0168",
@@ -768,10 +768,10 @@
             },
             {
               "id": "0207",
-              "name": "天蝎"
+              "name": "天蠍"
             }
           ],
-          "name": "毒针",
+          "name": "毒針",
           "type": "毒",
           "category": "物理",
           "power": "15",
@@ -782,7 +782,7 @@
           "parents": [
             {
               "id": "0123",
-              "name": "飞天螳螂"
+              "name": "飛天螳螂"
             },
             {
               "id": "0193",
@@ -790,15 +790,15 @@
             },
             {
               "id": "0212",
-              "name": "巨钳螳螂"
+              "name": "巨鉗螳螂"
             },
             {
               "id": "0313",
-              "name": "电萤虫"
+              "name": "電螢蟲"
             },
             {
               "id": "0469",
-              "name": "远古巨蜓"
+              "name": "遠古巨蜓"
             },
             {
               "id": "0900",
@@ -807,7 +807,7 @@
           ],
           "name": "影子分身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -816,11 +816,11 @@
           "parents": [
             {
               "id": "0313",
-              "name": "电萤虫"
+              "name": "電螢蟲"
             },
             {
               "id": "0401",
-              "name": "圆法师"
+              "name": "圓法師"
             },
             {
               "id": "0415",
@@ -828,19 +828,19 @@
             },
             {
               "id": "0540",
-              "name": "虫宝包"
+              "name": "蟲寶包"
             },
             {
               "id": "0541",
-              "name": "宝包茧"
+              "name": "寶包繭"
             },
             {
               "id": "0542",
-              "name": "保姆虫"
+              "name": "保姆蟲"
             },
             {
               "id": "0636",
-              "name": "燃烧虫"
+              "name": "燃燒蟲"
             },
             {
               "id": "0637",
@@ -856,19 +856,19 @@
             },
             {
               "id": "0743",
-              "name": "蝶结萌虻"
+              "name": "蝶結萌虻"
             },
             {
               "id": "0872",
-              "name": "雪吞虫"
+              "name": "雪吞蟲"
             },
             {
               "id": "0873",
-              "name": "雪绒蛾"
+              "name": "雪絨蛾"
             },
             {
               "id": "0917",
-              "name": "团珠蛛"
+              "name": "團珠蛛"
             },
             {
               "id": "0918",
@@ -884,15 +884,15 @@
             },
             {
               "id": "0953",
-              "name": "虫滚泥"
+              "name": "蟲滾泥"
             },
             {
               "id": "0954",
-              "name": "虫甲圣"
+              "name": "蟲甲聖"
             }
           ],
-          "name": "虫之抵抗",
-          "type": "虫",
+          "name": "蟲之抵抗",
+          "type": "蟲",
           "category": "特殊",
           "power": "50",
           "accuracy": "100",
@@ -902,7 +902,7 @@
           "parents": [
             {
               "id": "0167",
-              "name": "圆丝蛛"
+              "name": "圓絲蛛"
             },
             {
               "id": "0168",
@@ -910,7 +910,7 @@
             },
             {
               "id": "0313",
-              "name": "电萤虫"
+              "name": "電螢蟲"
             },
             {
               "id": "0751",
@@ -922,11 +922,11 @@
             },
             {
               "id": "0873",
-              "name": "雪绒蛾"
+              "name": "雪絨蛾"
             }
           ],
-          "name": "纠缠不休",
-          "type": "虫",
+          "name": "糾纏不休",
+          "type": "蟲",
           "category": "特殊",
           "power": "20",
           "accuracy": "100",
@@ -948,15 +948,15 @@
             },
             {
               "id": "0953",
-              "name": "虫滚泥"
+              "name": "蟲滾泥"
             },
             {
               "id": "0954",
-              "name": "虫甲圣"
+              "name": "蟲甲聖"
             }
           ],
-          "name": "猛扑",
-          "type": "虫",
+          "name": "猛撲",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -967,9 +967,9 @@
   ],
   "home_images": [
     {
-      "name": "电电虫",
-      "image": "0595-电电虫.png",
-      "shiny": "0595-电电虫-shiny.png"
+      "name": "電電蟲",
+      "image": "0595-電電蟲.png",
+      "shiny": "0595-電電蟲-shiny.png"
     }
   ]
 }

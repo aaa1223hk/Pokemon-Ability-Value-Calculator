@@ -1,45 +1,45 @@
 {
-  "name_zh": "花漾海狮",
+  "name_zh": "花漾海獅",
   "name_ja": "オシャマリ",
   "name_en": "Brionne",
   "pokedex_id": "0729",
-  "description": "花漾海狮（日文︰オシャマリ，英文︰Brionne）是水属性的宝可梦。",
-  "profile": "在外观上来看花漾海狮就像是穿着裙子的海狮，而且头上有两个类似辫子的部位，比起球球海狮，花漾海狮的体型变大了，而且身上的颜色也变得丰富起来，它类似裙子的部位分为三层，第一层和第三层颜色相同。\n花漾海狮通过模仿群体的伙伴学习舞蹈，有时也会得到人类的教导。如果看到没见过的舞蹈就会很兴奋，努力的它会拼命练习直到学会为止。它能与即使是初遇见的伙伴一起跳出默契十足的舞蹈。在月亮高挂之夜，可以见到大量的花漾海狮在同一时间跳舞的样子。到了风平浪静的夜晚，它也会配合领队西狮海壬的歌声和伙伴们一起跳舞。在对战中，它会通过舞蹈一边扰乱对手躲避敌人的攻击，一边一个接一个地制作水做的气球扔向敌人，使气球爆炸给予对手伤害。花漾海狮常常保持开朗及积极的态度，即使自己感到悲伤时也不会表露出来。它只会在真正交心的训练家和宝可梦面前才会露出悲伤的表情。它非常关心自己的伙伴，训练家如果情绪低落，就会跳舞给予鼓励。",
-  "prototype": "花漾海狮源于海狮和芭蕾舞演员的组合。\n头上有类似双辫的造型。",
+  "description": "花漾海獅（日文︰オシャマリ，英文︰Brionne）是水屬性的寶可夢。",
+  "profile": "在外觀上來看花漾海獅就像是穿著裙子的海獅，而且頭上有兩個類似辮子的部位，比起球球海獅，花漾海獅的體型變大了，而且身上的顏色也變得豐富起來，它類似裙子的部位分為三層，第一層和第三層顏色相同。\n花漾海獅透過模仿群體的夥伴學習舞蹈，有時也會得到人類的教導。如果看到沒見過的舞蹈就會很興奮，努力的它會拼命練習直到學會為止。它能與即使是初遇見的夥伴一起跳出默契十足的舞蹈。在月亮高掛之夜，可以見到大量的花漾海獅在同一時間跳舞的樣子。到了風平浪靜的夜晚，它也會配合領隊西獅海壬的歌聲和夥伴們一起跳舞。在對戰中，它會透過舞蹈一邊擾亂對手躲避敵人的攻擊，一邊一個接一個地製作水做的氣球扔向敵人，使氣球爆炸給予對手傷害。花漾海獅常常保持開朗及積極的態度，即使自己感到悲傷時也不會表露出來。它只會在真正交心的訓練家和寶可夢面前才會露出悲傷的表情。它非常關心自己的夥伴，訓練家如果情緒低落，就會跳舞給予鼓勵。",
+  "prototype": "花漾海獅源於海獅和芭蕾舞演員的組合。\n頭上有類似雙辮的造型。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "オシャマリ Osyamari",
-      "origin": "来自“お洒（しゃ）落（れ）”（时髦）、“おしゃま”（早熟的孩子）、“鞠（まり）”（球）和英文 marine（海洋的）。"
+      "origin": "來自“お灑（しゃ）落（れ）”（時髦）、“おしゃま”（早熟的孩子）、“鞠（まり）”（球）和英文 marine（海洋的）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "花漾海獅花漾海狮",
-      "origin": "来自“花样”、“荡漾”和“海狮”。"
+      "name": "花漾海獅花漾海獅",
+      "origin": "來自“花樣”、“盪漾”和“海獅”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "花漾海獅",
-      "origin": "来自“花样”、“荡漾”和“海狮”。"
+      "origin": "來自“花樣”、“盪漾”和“海獅”。"
     },
     {
       "language": "英文",
       "name": "Brionne",
-      "origin": "来自 brio（活泼自信）、brine（盐水）、sea lion（海狮）和 undine（温蒂妮：水仙女）。"
+      "origin": "來自 brio（活潑自信）、brine（鹽水）、sea lion（海獅）和 undine（溫蒂妮：水仙女）。"
     },
     {
       "language": "法文",
       "name": "Otarlette",
-      "origin": "来自 otarie（海狮）和 starlette（小女星）。"
+      "origin": "來自 otarie（海獅）和 starlette（小女星）。"
     },
     {
       "language": "德文",
       "name": "Marikeck",
-      "origin": "来自英文 marine（海洋的）和 keck（活泼的；时髦的）。"
+      "origin": "來自英文 marine（海洋的）和 keck（活潑的；時髦的）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Brionne",
       "origin": "同英文名。"
     },
@@ -49,37 +49,37 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "키요공 Kiyogong",
-      "origin": "来自“귀요미”（小可爱）和“공”（球）。"
+      "origin": "來自“귀요미”（小可愛）和“공”（球）。"
     }
   ],
   "forms": [
     {
-      "name": "花漾海狮",
+      "name": "花漾海獅",
       "types": [
         "水"
       ],
-      "category": "偶像宝可梦",
+      "category": "偶像寶可夢",
       "abilities": [
         {
           "name": "激流",
           "is_hidden": false
         },
         {
-          "name": "湿润之声",
+          "name": "溼潤之聲",
           "is_hidden": true
         }
       ],
       "height": "0.6m",
       "weight": "17.5kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
         "水中1",
-        "陆上群"
+        "陸上群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -112,10 +112,10 @@
         "male": 87.5,
         "female": 12.5
       },
-      "egg_cycles": "15 孵化周期（3855步）",
+      "egg_cycles": "15 孵化週期（3855步）",
       "shape": "Body03.png",
       "footprint": "FUnknown.png",
-      "image": "0729-花漾海狮.png"
+      "image": "0729-花漾海獅.png"
     }
   ],
   "stats": [
@@ -143,11 +143,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -163,15 +163,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -187,7 +187,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -199,11 +199,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -217,8 +217,8 @@
   "evolution_chains": [
     [
       {
-        "name": "球球海狮",
-        "stage": "未进化",
+        "name": "球球海獅",
+        "stage": "未進化",
         "text": null,
         "image": "728Popplio_Dream.png",
         "back_text": null,
@@ -226,21 +226,21 @@
         "form_name": null
       },
       {
-        "name": "花漾海狮",
-        "stage": "1阶进化",
-        "text": "等级17以上",
+        "name": "花漾海獅",
+        "stage": "1階進化",
+        "text": "等級17以上",
         "image": "729Brionne_Dream.png",
         "back_text": null,
-        "from": "球球海狮",
+        "from": "球球海獅",
         "form_name": null
       },
       {
-        "name": "西狮海壬",
-        "stage": "2阶进化",
-        "text": "等级34以上",
+        "name": "西獅海壬",
+        "stage": "2階進化",
+        "text": "等級34以上",
         "image": "730Primarina_Dream.png",
         "back_text": null,
-        "from": "花漾海狮",
+        "from": "花漾海獅",
         "form_name": null
       }
     ]
@@ -253,7 +253,7 @@
       "data": [
         {
           "level": "—",
-          "name": "拍击",
+          "name": "拍擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -262,16 +262,16 @@
         },
         {
           "level": "—",
-          "name": "叫声",
+          "name": "叫聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "40"
         },
         {
           "level": "—",
-          "name": "水枪",
+          "name": "水槍",
           "type": "水",
           "category": "特殊",
           "power": "40",
@@ -280,7 +280,7 @@
         },
         {
           "level": "—",
-          "name": "魅惑之声",
+          "name": "魅惑之聲",
           "type": "妖精",
           "category": "特殊",
           "power": "40",
@@ -289,7 +289,7 @@
         },
         {
           "level": "9",
-          "name": "水流喷射",
+          "name": "水流噴射",
           "type": "水",
           "category": "物理",
           "power": "40",
@@ -298,16 +298,16 @@
         },
         {
           "level": "12",
-          "name": "圆瞳",
+          "name": "圓瞳",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
         },
         {
           "level": "15",
-          "name": "冰冻之风",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -318,14 +318,14 @@
           "level": "20",
           "name": "唱歌",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "55",
           "pp": "15"
         },
         {
           "level": "25",
-          "name": "泡沫光线",
+          "name": "泡沫光線",
           "type": "水",
           "category": "特殊",
           "power": "65",
@@ -334,25 +334,25 @@
         },
         {
           "level": "30",
-          "name": "再来一次",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
           "level": "35",
-          "name": "薄雾场地",
+          "name": "薄霧場地",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "40",
-          "name": "巨声",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -385,26 +385,26 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００２",
-          "name": "撒娇",
+          "machine": "招式學習器００２",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１１",
-          "name": "水之波动",
+          "machine": "招式學習器０１１",
+          "name": "水之波動",
           "type": "水",
           "category": "特殊",
           "power": "60",
@@ -412,17 +412,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１９",
-          "name": "魅惑之声",
+          "machine": "招式學習器０１９",
+          "name": "魅惑之聲",
           "type": "妖精",
           "category": "特殊",
           "power": "40",
@@ -430,8 +430,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２２",
-          "name": "泼冷水",
+          "machine": "招式學習器０２２",
+          "name": "潑冷水",
           "type": "水",
           "category": "特殊",
           "power": "50",
@@ -439,8 +439,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -448,7 +448,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -457,8 +457,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３４",
-          "name": "冰冻之风",
+          "machine": "招式學習器０３４",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -466,7 +466,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３７",
+          "machine": "招式學習器０３７",
           "name": "吸取之吻",
           "type": "妖精",
           "category": "特殊",
@@ -475,26 +475,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -502,16 +502,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７７",
+          "machine": "招式學習器０７７",
           "name": "攀瀑",
           "type": "水",
           "category": "物理",
@@ -520,26 +520,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１７",
-          "name": "巨声",
+          "machine": "招式學習器１１７",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -547,17 +547,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２２",
-          "name": "再来一次",
+          "machine": "招式學習器１２２",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１２３",
-          "name": "冲浪",
+          "machine": "招式學習器１２３",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -565,7 +565,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２４",
+          "machine": "招式學習器１２４",
           "name": "冰旋",
           "type": "冰",
           "category": "物理",
@@ -574,8 +574,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２７",
-          "name": "嬉闹",
+          "machine": "招式學習器１２７",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -583,26 +583,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２８",
-          "name": "瞬间失忆",
+          "machine": "招式學習器１２８",
+          "name": "瞬間失憶",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３５",
-          "name": "冰冻光束",
+          "machine": "招式學習器１３５",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -610,16 +610,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３９",
-          "name": "薄雾场地",
+          "machine": "招式學習器１３９",
+          "name": "薄霧場地",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４２",
+          "machine": "招式學習器１４２",
           "name": "水炮",
           "type": "水",
           "category": "特殊",
@@ -628,8 +628,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４３",
-          "name": "暴风雪",
+          "machine": "招式學習器１４３",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -637,8 +637,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４５",
-          "name": "水之誓约",
+          "machine": "招式學習器１４５",
+          "name": "水之誓約",
           "type": "水",
           "category": "特殊",
           "power": "80",
@@ -646,8 +646,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -655,8 +655,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９１",
-          "name": "吵闹",
+          "machine": "招式學習器１９１",
+          "name": "吵鬧",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -664,7 +664,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９６",
+          "machine": "招式學習器１９６",
           "name": "快速折返",
           "type": "水",
           "category": "物理",
@@ -673,7 +673,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０８",
+          "machine": "招式學習器２０８",
           "name": "潮旋",
           "type": "水",
           "category": "特殊",
@@ -682,8 +682,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１２",
-          "name": "三旋击",
+          "machine": "招式學習器２１２",
+          "name": "三旋擊",
           "type": "冰",
           "category": "物理",
           "power": "20",
@@ -704,9 +704,9 @@
               "name": "拉普拉斯"
             }
           ],
-          "name": "终焉之歌",
+          "name": "終焉之歌",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -715,11 +715,11 @@
           "parents": [
             {
               "id": "086",
-              "name": "小海狮"
+              "name": "小海獅"
             },
             {
               "id": "087",
-              "name": "白海狮"
+              "name": "白海獅"
             },
             {
               "id": "0134",
@@ -727,23 +727,23 @@
             },
             {
               "id": "183",
-              "name": "玛力露"
+              "name": "瑪力露"
             },
             {
               "id": "184",
-              "name": "玛力露丽"
+              "name": "瑪力露麗"
             },
             {
               "id": "350",
-              "name": "美纳斯"
+              "name": "美納斯"
             },
             {
               "id": "580",
-              "name": "鸭宝宝"
+              "name": "鴨寶寶"
             },
             {
               "id": "581",
-              "name": "舞天鹅"
+              "name": "舞天鵝"
             },
             {
               "id": "594",
@@ -758,9 +758,9 @@
               "name": "滴蛛霸"
             }
           ],
-          "name": "水流环",
+          "name": "水流環",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -773,16 +773,16 @@
             },
             {
               "id": "350",
-              "name": "美纳斯"
+              "name": "美納斯"
             },
             {
               "id": "0448",
-              "name": "路卡利欧"
+              "name": "路卡利歐"
             }
           ],
           "name": "生命水滴",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -792,9 +792,9 @@
   ],
   "home_images": [
     {
-      "name": "花漾海狮",
-      "image": "0729-花漾海狮.png",
-      "shiny": "0729-花漾海狮-shiny.png"
+      "name": "花漾海獅",
+      "image": "0729-花漾海獅.png",
+      "shiny": "0729-花漾海獅-shiny.png"
     }
   ]
 }

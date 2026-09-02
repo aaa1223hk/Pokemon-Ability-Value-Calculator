@@ -1,55 +1,55 @@
 {
-  "name_zh": "风妖精",
+  "name_zh": "風妖精",
   "name_ja": "エルフーン",
   "name_en": "Whimsicott",
   "pokedex_id": "0547",
-  "description": "风妖精（日文︰エルフーン，英文︰Whimsicott）是草属性／妖精属性宝可梦，在第六世代前是草属性宝可梦。它的设计者是西田敦子。",
-  "profile": "风妖精是体型很小，样子有些像绵羊的宝可梦。它有橙色、椭圆形的眼睛和绿色且卷曲的耳朵。它褐色的身体被棉花覆盖，棉花从头顶延伸至后背膨成一团，就像蓬松的头发。在这一大团棉花后面有一个绿色、星形的梗。\n风妖精并没有特定的栖息地，会乘着旋风到处现身，搞恶作剧。但如果风力过强，头上的棉花就会被风扯掉。棉花沾水之后就会变重而动弹不得，只能听天由命。每当沐浴阳光，身上的棉花就会膨胀。如果膨胀过了头，它就会把棉花扯开到处乱撒。它像风一样无孔不入，无论多细小的缝隙都能穿过。它会乘着风从缝隙中钻进民宅，藏起重要的东西，把家里的家具挪来挪去，或是把房间里弄得满是白色的棉花，然后咯咯咯地笑着离去，是个捣蛋的家伙。",
-  "prototype": "风妖精的外形来自于棉花。\n风妖精的原型具体比较有可能指向淘气鬼以及法国和爱尔兰民间传说中矮精灵。\n还可能来源于植物羊（Vegetable lamb of Tartary）。",
-  "detail": "风妖精是合众十二星座之一，代表了现实中的白羊宫。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步风妖精（Pokémon GO）。\n←\nNo.0546：木棉球\n宝可梦\nNo.0548：百合根娃娃\n→",
+  "description": "風妖精（日文︰エルフーン，英文︰Whimsicott）是草屬性／妖精屬性寶可夢，在第六世代前是草屬性寶可夢。它的設計者是西田敦子。",
+  "profile": "風妖精是體型很小，樣子有些像綿羊的寶可夢。它有橙色、橢圓形的眼睛和綠色且捲曲的耳朵。它褐色的身體被棉花覆蓋，棉花從頭頂延伸至後背膨成一團，就像蓬鬆的頭髮。在這一大團棉花後面有一個綠色、星形的梗。\n風妖精並沒有特定的棲息地，會乘著旋風到處現身，搞惡作劇。但如果風力過強，頭上的棉花就會被風扯掉。棉花沾水之後就會變重而動彈不得，只能聽天由命。每當沐浴陽光，身上的棉花就會膨脹。如果膨脹過了頭，它就會把棉花扯開到處亂撒。它像風一樣無孔不入，無論多細小的縫隙都能穿過。它會乘著風從縫隙中鑽進民宅，藏起重要的東西，把家裡的傢俱挪來挪去，或是把房間裡弄得滿是白色的棉花，然後咯咯咯地笑著離去，是個搗蛋的傢伙。",
+  "prototype": "風妖精的外形來自於棉花。\n風妖精的原型具體比較有可能指向淘氣鬼以及法國和愛爾蘭民間傳說中矮精靈。\n還可能來源於植物羊（Vegetable lamb of Tartary）。",
+  "detail": "風妖精是合眾十二星座之一，代表了現實中的白羊宮。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步風妖精（Pokémon GO）。\n←\nNo.0546：木棉球\n寶可夢\nNo.0548：百合根娃娃\n→",
   "names": [
     {
       "language": "日文",
       "name": "エルフーン Elfuun",
-      "origin": "来自英文 elf（精灵）和“風（ふう）”（风）。"
+      "origin": "來自英文 elf（精靈）和“風（ふう）”（風）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "風妖精风妖精",
-      "origin": "来自“风”和“妖精”。"
+      "name": "風妖精風妖精",
+      "origin": "來自“風”和“妖精”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "风妖精",
-      "origin": "来自“风”和“妖精”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "風妖精",
-      "origin": "来自“风”和“妖精”。"
+      "origin": "來自“風”和“妖精”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "風妖精",
+      "origin": "來自“風”和“妖精”。"
     },
     {
       "language": "中文-香港",
       "name": "風妖精",
-      "origin": "来自“风”和“妖精”。"
+      "origin": "來自“風”和“妖精”。"
     },
     {
       "language": "英文",
       "name": "Whimsicott",
-      "origin": "来自 whimsical（异想天开的）和 cotton（棉花）。"
+      "origin": "來自 whimsical（異想天開的）和 cotton（棉花）。"
     },
     {
       "language": "法文",
       "name": "Farfaduvet",
-      "origin": "来自 farfadet（法国民间传说中的矮精灵）和 duvet（绒羽）及 duveteux（柔和的）。"
+      "origin": "來自 farfadet（法國民間傳說中的矮精靈）和 duvet（絨羽）及 duveteux（柔和的）。"
     },
     {
       "language": "德文",
       "name": "Elfun",
-      "origin": "来自日文名。"
+      "origin": "來自日文名。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Whimsicott",
       "origin": "同英文名。"
     },
@@ -59,22 +59,22 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "엘풍 Elpung",
-      "origin": "来自英文 elf（精灵）和“풍〈風〉”（风）。"
+      "origin": "來自英文 elf（精靈）和“풍〈風〉”（風）。"
     }
   ],
   "forms": [
     {
-      "name": "风妖精",
+      "name": "風妖精",
       "types": [
         "草",
         "妖精"
       ],
-      "category": "风隐宝可梦",
+      "category": "風隱寶可夢",
       "abilities": [
         {
-          "name": "恶作剧之心",
+          "name": "惡作劇之心",
           "is_hidden": false
         },
         {
@@ -82,19 +82,19 @@
           "is_hidden": false
         },
         {
-          "name": "叶绿素",
+          "name": "葉綠素",
           "is_hidden": true
         }
       ],
       "height": "0.7m",
       "weight": "6.6kg",
-      "color": "绿色",
+      "color": "綠色",
       "catch_rate": "75（9.8%）",
       "egg_groups": [
         "植物",
         "妖精群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -127,10 +127,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body12.png",
       "footprint": "F547.png",
-      "image": "0547-风妖精.png"
+      "image": "0547-風妖精.png"
     }
   ],
   "stats": [
@@ -159,11 +159,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "2"
         },
         {
@@ -179,15 +179,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -203,7 +203,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -215,11 +215,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "0"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "0.5"
         },
         {
@@ -235,13 +235,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "像风一样无孔不入，无论多细小的缝隙都能穿过。会留下白色的毛球。"
+          "group": "寶可夢 黑／白",
+          "text": "像風一樣無孔不入，無論多細小的縫隙都能穿過。會留下白色的毛球。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "乘着旋风而来。从缝隙中钻进民宅爱捣乱的宝可梦。"
+          "group": "寶可夢 黑／白",
+          "text": "乘著旋風而來。從縫隙中鑽進民宅愛搗亂的寶可夢。"
         }
       ]
     },
@@ -250,23 +250,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "伴随着旋风出现，把家里的家具挪来挪去，或留下棉花来恶作剧。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "伴隨著旋風出現，把家裡的傢俱挪來挪去，或留下棉花來惡作劇。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "像风一样无孔不入，无论多细小的缝隙都能穿过。会留下白色的毛球。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "像風一樣無孔不入，無論多細小的縫隙都能穿過。會留下白色的毛球。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "伴随着旋风出现，把家里的家具挪来挪去，或留下棉花来恶作剧。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "伴隨著旋風出現，把家裡的傢俱挪來挪去，或留下棉花來惡作劇。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "像风一样无孔不入，无论多细小的缝隙都能穿过。会留下白色的毛球。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "像風一樣無孔不入，無論多細小的縫隙都能穿過。會留下白色的毛球。"
         }
       ]
     },
@@ -274,14 +274,14 @@
       "name": "第七世代",
       "versions": [
         {
-          "name": "太阳",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "乘着风侵入民居。把房间里弄得满是棉花后，咯咯咯地笑着离去。"
+          "name": "太陽",
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "乘著風侵入民居。把房間裡弄得滿是棉花後，咯咯咯地笑著離去。"
         },
         {
           "name": "月亮",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "乘着风出现，但如果风力过强，头上的棉花就会被风扯掉。"
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "乘著風出現，但如果風力過強，頭上的棉花就會被風扯掉。"
         }
       ]
     },
@@ -289,14 +289,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "喜欢到处撒棉花捣蛋。沾水之后就会变重而动弹不得，只能听天由命。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "喜歡到處撒棉花搗蛋。沾水之後就會變重而動彈不得，只能聽天由命。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "每当沐浴阳光，身上的棉花就会膨胀。如果膨胀过了头，它就会把棉花扯开到处乱撒。"
+          "group": "寶可夢 劍／盾",
+          "text": "每當沐浴陽光，身上的棉花就會膨脹。如果膨脹過了頭，它就會把棉花扯開到處亂撒。"
         }
       ]
     },
@@ -305,13 +305,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "像风一样无孔不入，无论多细小的缝隙都能穿过。会留下白色的毛球。"
+          "group": "寶可夢 朱／紫",
+          "text": "像風一樣無孔不入，無論多細小的縫隙都能穿過。會留下白色的毛球。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "乘着风侵入民居。把房间里弄得满是棉花后，咯咯咯地笑着离去。"
+          "group": "寶可夢 朱／紫",
+          "text": "乘著風侵入民居。把房間裡弄得滿是棉花後，咯咯咯地笑著離去。"
         }
       ]
     }
@@ -320,7 +320,7 @@
     [
       {
         "name": "木棉球",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "546Cottonee_Dream.png",
         "back_text": null,
@@ -328,8 +328,8 @@
         "form_name": null
       },
       {
-        "name": "风妖精",
-        "stage": "1阶进化",
+        "name": "風妖精",
+        "stage": "1階進化",
         "text": "使用日之石",
         "image": "547Whimsicott_Dream.png",
         "back_text": null,
@@ -355,8 +355,8 @@
         },
         {
           "level": "—",
-          "name": "暴风",
-          "type": "飞行",
+          "name": "暴風",
+          "type": "飛行",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
@@ -366,7 +366,7 @@
           "level": "—",
           "name": "棉花防守",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -382,36 +382,36 @@
         },
         {
           "level": "—",
-          "name": "顺风",
-          "type": "飞行",
-          "category": "变化",
+          "name": "順風",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "—",
-          "name": "蛮干",
+          "name": "蠻幹",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
           "level": "—",
-          "name": "帮助",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "—",
-          "name": "临别礼物",
-          "type": "恶",
-          "category": "变化",
+          "name": "臨別禮物",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -420,23 +420,23 @@
           "level": "—",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "—",
-          "name": "撒娇",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "—",
-          "name": "终极吸取",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -447,16 +447,16 @@
           "level": "—",
           "name": "棉孢子",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "40"
         },
         {
           "level": "—",
-          "name": "麻痹粉",
+          "name": "麻痺粉",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "75",
           "pp": "30"
@@ -465,7 +465,7 @@
           "level": "—",
           "name": "毒粉",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "75",
           "pp": "35"
@@ -481,7 +481,7 @@
         },
         {
           "level": "—",
-          "name": "飞叶快刀",
+          "name": "飛葉快刀",
           "type": "草",
           "category": "物理",
           "power": "55",
@@ -490,25 +490,25 @@
         },
         {
           "level": "—",
-          "name": "生长",
+          "name": "生長",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "—",
-          "name": "寄生种子",
+          "name": "寄生種子",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
         },
         {
           "level": "—",
-          "name": "超级吸取",
+          "name": "超級吸取",
           "type": "草",
           "category": "特殊",
           "power": "40",
@@ -526,7 +526,7 @@
         },
         {
           "level": "—",
-          "name": "妖精之风",
+          "name": "妖精之風",
           "type": "妖精",
           "category": "特殊",
           "power": "40",
@@ -535,8 +535,8 @@
         },
         {
           "level": "—",
-          "name": "起风",
-          "type": "飞行",
+          "name": "起風",
+          "type": "飛行",
           "category": "特殊",
           "power": "40",
           "accuracy": "100",
@@ -550,44 +550,44 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００２",
-          "name": "撒娇",
+          "machine": "招式學習器００２",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００３",
+          "machine": "招式學習器００３",
           "name": "假哭",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -595,7 +595,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -604,53 +604,53 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７１",
-          "name": "种子炸弹",
+          "machine": "招式學習器０７１",
+          "name": "種子炸彈",
           "type": "草",
           "category": "物理",
           "power": "80",
@@ -658,17 +658,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０７９",
-          "name": "魔法闪耀",
+          "machine": "招式學習器０７９",
+          "name": "魔法閃耀",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -676,44 +676,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８１",
-          "name": "打草结",
+          "machine": "招式學習器０８１",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１１",
-          "name": "终极吸取",
+          "machine": "招式學習器１１１",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -721,25 +721,25 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１３",
-          "name": "顺风",
-          "type": "飞行",
-          "category": "变化",
+          "machine": "招式學習器１１３",
+          "name": "順風",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１４",
+          "machine": "招式學習器１１４",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１９",
+          "machine": "招式學習器１１９",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -748,8 +748,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２０",
-          "name": "精神强念",
+          "machine": "招式學習器１２０",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -757,17 +757,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２２",
-          "name": "再来一次",
+          "machine": "招式學習器１２２",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１２７",
-          "name": "嬉闹",
+          "machine": "招式學習器１２７",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -775,35 +775,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３７",
-          "name": "青草场地",
+          "machine": "招式學習器１３７",
+          "name": "青草場地",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３９",
-          "name": "薄雾场地",
+          "machine": "招式學習器１３９",
+          "name": "薄霧場地",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -811,26 +811,26 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６０",
-          "name": "暴风",
-          "type": "飞行",
+          "machine": "招式學習器１６０",
+          "name": "暴風",
+          "type": "飛行",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６１",
-          "name": "戏法空间",
+          "machine": "招式學習器１６１",
+          "name": "戲法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -838,7 +838,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６８",
+          "machine": "招式學習器１６８",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -847,8 +847,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -856,7 +856,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９４",
+          "machine": "招式學習器１９４",
           "name": "青草滑梯",
           "type": "草",
           "category": "物理",
@@ -865,11 +865,11 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０５",
-          "name": "蛮干",
+          "machine": "招式學習器２０５",
+          "name": "蠻幹",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         }
@@ -891,10 +891,10 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "围攻",
-          "type": "恶",
+          "name": "圍攻",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
@@ -914,12 +914,12 @@
             },
             {
               "id": "0547",
-              "name": "风妖精"
+              "name": "風妖精"
             }
           ],
-          "name": "临别礼物",
-          "type": "恶",
-          "category": "变化",
+          "name": "臨別禮物",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -944,28 +944,28 @@
             },
             {
               "id": "0183",
-              "name": "玛力露"
+              "name": "瑪力露"
             },
             {
               "id": "0270",
-              "name": "莲叶童子"
+              "name": "蓮葉童子"
             },
             {
               "id": "0387",
-              "name": "草苗龟"
+              "name": "草苗龜"
             },
             {
               "id": "0877",
-              "name": "莫鲁贝可"
+              "name": "莫魯貝可"
             },
             {
               "id": "0948",
               "name": "原野水母"
             }
           ],
-          "name": "挠痒*",
+          "name": "撓癢*",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -974,7 +974,7 @@
           "parents": [
             {
               "id": "0001",
-              "name": "妙蛙种子"
+              "name": "妙蛙種子"
             },
             {
               "id": "0002",
@@ -990,15 +990,15 @@
             },
             {
               "id": "0103",
-              "name": "椰蛋树"
+              "name": "椰蛋樹"
             },
             {
               "id": "0103A",
-              "name": "椰蛋树"
+              "name": "椰蛋樹"
             },
             {
               "id": "0191",
-              "name": "向日种子"
+              "name": "向日種子"
             },
             {
               "id": "0192",
@@ -1010,7 +1010,7 @@
             },
             {
               "id": "0906",
-              "name": "新叶喵"
+              "name": "新葉喵"
             },
             {
               "id": "0907",
@@ -1025,9 +1025,9 @@
               "name": "狠辣椒"
             }
           ],
-          "name": "烦恼种子",
+          "name": "煩惱種子",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -1036,11 +1036,11 @@
           "parents": [
             {
               "id": "0311",
-              "name": "正电拍拍"
+              "name": "正電拍拍"
             },
             {
               "id": "0312",
-              "name": "负电拍拍"
+              "name": "負電拍拍"
             },
             {
               "id": "0742",
@@ -1048,12 +1048,12 @@
             },
             {
               "id": "0743",
-              "name": "蝶结萌虻"
+              "name": "蝶結萌虻"
             }
           ],
           "name": "掉包",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -1063,9 +1063,9 @@
   ],
   "home_images": [
     {
-      "name": "风妖精",
-      "image": "0547-风妖精.png",
-      "shiny": "0547-风妖精-shiny.png"
+      "name": "風妖精",
+      "image": "0547-風妖精.png",
+      "shiny": "0547-風妖精-shiny.png"
     }
   ]
 }

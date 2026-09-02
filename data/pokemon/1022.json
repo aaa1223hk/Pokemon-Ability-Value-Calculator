@@ -1,62 +1,62 @@
 {
-  "name_zh": "铁磐岩",
+  "name_zh": "鐵磐巖",
   "name_ja": "テツノイワオ",
   "name_en": "Iron Boulder",
   "pokedex_id": "1022",
-  "description": "铁磐岩（日文︰テツノイワオ，英文︰Iron Boulder）是岩石属性／超能力属性悖谬宝可梦。",
-  "profile": "被认为是金属质地的身体是这种宝可梦的特征。长在头上的角的发光部分形状大变，就像是左右相连的圆形刃器。它与可疑的杂志中提到的由邪恶组织改造代拉基翁而成的宝可梦很相似，而真相并没有定论。\n它的名字来自古书中所记载的神秘物体。",
-  "prototype": "铁磐岩在代拉基翁的基础上融入了机械的要素。攻击时变形的角可能参考了工兵铲。",
-  "detail": "铁磐岩、铁斑叶与铁头壳的部分要素与在《紫之书》上刊登的素描相似。",
+  "description": "鐵磐巖（日文︰テツノイワオ，英文︰Iron Boulder）是岩石屬性／超能力屬性悖謬寶可夢。",
+  "profile": "被認為是金屬質地的身體是這種寶可夢的特徵。長在頭上的角的發光部分形狀大變，就像是左右相連的圓形刃器。它與可疑的雜誌中提到的由邪惡組織改造代拉基翁而成的寶可夢很相似，而真相並沒有定論。\n它的名字來自古書中所記載的神秘物體。",
+  "prototype": "鐵磐巖在代拉基翁的基礎上融入了機械的要素。攻擊時變形的角可能參考了工兵鏟。",
+  "detail": "鐵磐巖、鐵斑葉與鐵頭殼的部分要素與在《紫之書》上刊登的素描相似。",
   "names": [
     {
       "language": "日文",
       "name": "テツノイワオ Tetsunoiwao",
-      "origin": "来自“鉄（てつ）の巌（いわお）”（铁的磐石）。"
+      "origin": "來自“鉄（てつ）の巌（いわお）”（鐵的磐石）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "鐵磐岩铁磐岩",
-      "origin": "来自“铁”、“磐石”和“岩石”。"
+      "name": "鐵磐巖鐵磐巖",
+      "origin": "來自“鐵”、“磐石”和“岩石”。"
     },
     {
       "language": "英文",
       "name": "Iron Boulder",
-      "origin": "来自 iron（铁）和 boulder（巨石）。"
+      "origin": "來自 iron（鐵）和 boulder（巨石）。"
     },
     {
       "language": "法文",
       "name": "Roc-de-Fer",
-      "origin": "来自 roc（岩石）和 de fer（铁的）。"
+      "origin": "來自 roc（岩石）和 de fer（鐵的）。"
     },
     {
       "language": "德文",
       "name": "Eisenfels",
-      "origin": "来自 Eisen（铁）和 Fels（岩石）。"
+      "origin": "來自 Eisen（鐵）和 Fels（岩石）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Massoferreo",
-      "origin": "来自 masso（岩石）和 ferreo（铁的）。"
+      "origin": "來自 masso（岩石）和 ferreo（鐵的）。"
     },
     {
       "language": "西班牙文",
       "name": "Ferromole",
-      "origin": "来自前缀 ferro-（表示“铁”）和 mole（大块）。"
+      "origin": "來自字首 ferro-（表示“鐵”）和 mole（大塊）。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "무쇠암석 Musoeamseok",
-      "origin": "来自“무쇠”（铸铁）和“암석〈岩石〉”（岩石）。"
+      "origin": "來自“무쇠”（鑄鐵）和“암석〈岩石〉”（岩石）。"
     }
   ],
   "forms": [
     {
-      "name": "铁磐岩",
+      "name": "鐵磐巖",
       "types": [
         "岩石",
         "超能力"
       ],
-      "category": "悖谬宝可梦",
+      "category": "悖謬寶可夢",
       "abilities": [
         {
           "name": "夸克充能",
@@ -68,7 +68,7 @@
       "color": "灰色",
       "catch_rate": "10（1.3%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -103,10 +103,10 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "孵化周期（未知步）",
+      "egg_cycles": "孵化週期（未知步）",
       "shape": "Body08.png",
       "footprint": "FUnknown.png",
-      "image": "1022-铁磐岩.png"
+      "image": "1022-鐵磐巖.png"
     }
   ],
   "stats": [
@@ -135,11 +135,11 @@
           "damage": "0.5"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -155,15 +155,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "2"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -179,7 +179,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -191,11 +191,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -211,13 +211,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "与可疑杂志中提到的由邪恶组织改造代拉基翁而成的宝可梦长得很相似。"
+          "group": "寶可夢 朱／紫",
+          "text": "與可疑雜誌中提到的由邪惡組織改造代拉基翁而成的寶可夢長得很相似。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "身体似乎是金属质地。名字来自古书中所记载的神秘物体。"
+          "group": "寶可夢 朱／紫",
+          "text": "身體似乎是金屬質地。名字來自古書中所記載的神秘物體。"
         }
       ]
     }
@@ -225,8 +225,8 @@
   "evolution_chains": [
     [
       {
-        "name": "铁磐岩",
-        "stage": "不进化",
+        "name": "鐵磐巖",
+        "stage": "不進化",
         "text": null,
         "image": "1022Iron_Boulder_Dream.png",
         "back_text": null,
@@ -254,7 +254,7 @@
           "level": "—",
           "name": "瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
@@ -270,16 +270,16 @@
         },
         {
           "level": "—",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "7",
-          "name": "电光一闪",
+          "name": "電光一閃",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -288,7 +288,7 @@
         },
         {
           "level": "14",
-          "name": "劈开",
+          "name": "劈開",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -297,9 +297,9 @@
         },
         {
           "level": "21",
-          "name": "高速移动",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -315,16 +315,16 @@
         },
         {
           "level": "35",
-          "name": "双倍奉还",
-          "type": "格斗",
+          "name": "雙倍奉還",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "42",
-          "name": "岩石封锁",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -333,8 +333,8 @@
         },
         {
           "level": "49",
-          "name": "圣剑",
-          "type": "格斗",
+          "name": "聖劍",
+          "type": "格鬥",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
@@ -342,7 +342,7 @@
         },
         {
           "level": "56",
-          "name": "强刃攻击",
+          "name": "強刃攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "95",
@@ -351,17 +351,17 @@
         },
         {
           "level": "63",
-          "name": "剑舞",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "70",
-          "name": "超级角击",
-          "type": "虫",
+          "name": "超級角擊",
+          "type": "蟲",
           "category": "物理",
           "power": "120",
           "accuracy": "85",
@@ -370,15 +370,15 @@
         {
           "level": "77",
           "name": "快速防守",
-          "type": "格斗",
-          "category": "变化",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "84",
-          "name": "尖石攻击",
+          "name": "尖石攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "100",
@@ -387,7 +387,7 @@
         },
         {
           "level": "91",
-          "name": "终极冲击",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -402,7 +402,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -411,35 +411,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００４",
-          "name": "高速移动",
+          "machine": "招式學習器００４",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -447,16 +447,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２７",
+          "machine": "招式學習器０２７",
           "name": "燕返",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２８",
+          "machine": "招式學習器０２８",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -465,8 +465,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３６",
-          "name": "岩石封锁",
+          "machine": "招式學習器０３６",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -474,26 +474,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５１",
+          "machine": "招式學習器０５１",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５４",
-          "name": "精神冲击",
+          "machine": "招式學習器０５４",
+          "name": "精神衝擊",
           "type": "超能力",
           "category": "特殊",
           "power": "80",
@@ -501,17 +501,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５８",
+          "machine": "招式學習器０５８",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０５９",
-          "name": "意念头锤",
+          "machine": "招式學習器０５９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -519,17 +519,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６５",
-          "name": "空气之刃",
-          "type": "飞行",
+          "machine": "招式學習器０６５",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -537,17 +537,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７６",
-          "name": "岩石爆击",
+          "machine": "招式學習器０７６",
+          "name": "岩石爆擊",
           "type": "岩石",
           "category": "物理",
           "power": "25",
@@ -555,8 +555,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８３",
-          "name": "毒击",
+          "machine": "招式學習器０８３",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -564,71 +564,71 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８８",
-          "name": "剑舞",
+          "machine": "招式學習器０８８",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９９",
-          "name": "铁头",
-          "type": "钢",
+          "machine": "招式學習器０９９",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０４",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式學習器１０４",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０５",
+          "machine": "招式學習器１０５",
           "name": "十字剪",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２０",
-          "name": "精神强念",
+          "machine": "招式學習器１２０",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -636,25 +636,25 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３６",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１３６",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４７",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式學習器１４７",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１４９",
+          "machine": "招式學習器１４９",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -663,8 +663,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５０",
-          "name": "尖石攻击",
+          "machine": "招式學習器１５０",
+          "name": "尖石攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "100",
@@ -672,8 +672,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -681,8 +681,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -690,17 +690,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６７",
-          "name": "近身战",
-          "type": "格斗",
+          "machine": "招式學習器１６７",
+          "name": "近身戰",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -708,7 +708,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９０",
+          "machine": "招式學習器１９０",
           "name": "日光刃",
           "type": "草",
           "category": "物理",
@@ -717,8 +717,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -726,7 +726,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２０",
+          "machine": "招式學習器２２０",
           "name": "流星光束",
           "type": "岩石",
           "category": "特殊",
@@ -735,9 +735,9 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２１",
-          "name": "深渊突刺",
-          "type": "恶",
+          "machine": "招式學習器２２１",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -749,9 +749,9 @@
   "egg_moves": [],
   "home_images": [
     {
-      "name": "铁磐岩",
-      "image": "1022-铁磐岩.png",
-      "shiny": "1022-铁磐岩-shiny.png"
+      "name": "鐵磐巖",
+      "image": "1022-鐵磐巖.png",
+      "shiny": "1022-鐵磐巖-shiny.png"
     }
   ]
 }

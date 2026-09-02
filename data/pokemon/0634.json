@@ -1,55 +1,55 @@
 {
-  "name_zh": "双首暴龙",
+  "name_zh": "雙首暴龍",
   "name_ja": "ジヘッド",
   "name_en": "Zweilous",
   "pokedex_id": "0634",
-  "description": "双首暴龙（日文︰ジヘッド，英文︰Zweilous）是恶属性／龙属性宝可梦。",
-  "profile": "双首暴龙拥有两个脑袋，身体主色为蓝色。它前身有黑色的毛皮覆盖，肚子上有两排紫色的条纹，背上也长出了一对翅。\n双首暴龙两颗脑袋关系很差，会争抢同一个食物，想比对方吃得更多来学会主导权，会因为摄食时经常争夺食物结果一直吃撑。如果没有得到公平对等的疼爱，就会因争风吃醋而开始大吵。明明没有去和别人战斗，却总是遍体鳞伤。由于头之间也互相争斗，因此不靠外力也能变强。它会在自己的领地走来走去寻找食物，两个头各有喜好，时常会为了前进的方向而争吵。如果吃光了领地内的食物，就会向其他土地移动。",
-  "prototype": "主页面：宝可梦诞生秘话 总集篇 → 单首龙家族\n据杉森建透露，双首暴龙一家早期设计的形象是半恐龙半坦克的宝可梦，中途一度废除，直到游戏开发的晚期才重新设计。不过其肚子上的花纹还类似坦克的履带纹路。",
+  "description": "雙首暴龍（日文︰ジヘッド，英文︰Zweilous）是惡屬性／龍屬性寶可夢。",
+  "profile": "雙首暴龍擁有兩個腦袋，身體主色為藍色。它前身有黑色的毛皮覆蓋，肚子上有兩排紫色的條紋，背上也長出了一對翅。\n雙首暴龍兩顆腦袋關係很差，會爭搶同一個食物，想比對方吃得更多來學會主導權，會因為攝食時經常爭奪食物結果一直吃撐。如果沒有得到公平對等的疼愛，就會因爭風吃醋而開始大吵。明明沒有去和別人戰鬥，卻總是遍體鱗傷。由於頭之間也互相爭鬥，因此不靠外力也能變強。它會在自己的領地走來走去尋找食物，兩個頭各有喜好，時常會為了前進的方向而爭吵。如果吃光了領地內的食物，就會向其他土地移動。",
+  "prototype": "主頁面：寶可夢誕生秘話 總集篇 → 單首龍家族\n據杉森建透露，雙首暴龍一家早期設計的形象是半恐龍半坦克的寶可夢，中途一度廢除，直到遊戲開發的晚期才重新設計。不過其肚子上的花紋還類似坦克的履帶紋路。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ジヘッド Dihead",
-      "origin": "来自英文前缀 di-（表示“二”）和英文 head（头）。"
+      "origin": "來自英文字首 di-（表示“二”）和英文 head（頭）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "雙首暴龍双首暴龙",
-      "origin": "来自“双”、“首”、“暴”和“龙”。"
+      "name": "雙首暴龍雙首暴龍",
+      "origin": "來自“雙”、“首”、“暴”和“龍”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "双头龙",
-      "origin": "来自“双”、“头”和“龙”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "雙頭龍",
-      "origin": "来自“双”、“头”和“龙”。"
+      "origin": "來自“雙”、“頭”和“龍”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "雙頭龍",
+      "origin": "來自“雙”、“頭”和“龍”。"
     },
     {
       "language": "中文-香港",
       "name": "雙頭龍",
-      "origin": "来自“双”、“头”和“龙”。"
+      "origin": "來自“雙”、“頭”和“龍”。"
     },
     {
       "language": "英文",
       "name": "Zweilous",
-      "origin": "来自德文 zwei（二）和 jealous（嫉妒的）或 zealous（热心的）。"
+      "origin": "來自德文 zwei（二）和 jealous（嫉妒的）或 zealous（熱心的）。"
     },
     {
       "language": "法文",
       "name": "Diamat",
-      "origin": "来自前缀 di（二）和 Tiamat（迪亚马特：古代巴比伦的母神，常被描绘成龙蛇的形象）。"
+      "origin": "來自字首 di（二）和 Tiamat（迪亞馬特：古代巴比倫的母神，常被描繪成龍蛇的形象）。"
     },
     {
       "language": "德文",
       "name": "Duodino",
-      "origin": "来自口语 Dino（恐龙）和拉丁文 duo（二）。"
+      "origin": "來自口語 Dino（恐龍）和拉丁文 duo（二）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Zweilous",
       "origin": "同英文名。"
     },
@@ -59,19 +59,19 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "디헤드 Dihead",
-      "origin": "来自英文前缀 di-（表示“二”）和英文 head（头）。"
+      "origin": "來自英文字首 di-（表示“二”）和英文 head（頭）。"
     }
   ],
   "forms": [
     {
-      "name": "双首暴龙",
+      "name": "雙首暴龍",
       "types": [
-        "恶",
-        "龙"
+        "惡",
+        "龍"
       ],
-      "category": "粗暴宝可梦",
+      "category": "粗暴寶可夢",
       "abilities": [
         {
           "name": "活力",
@@ -80,10 +80,10 @@
       ],
       "height": "1.4m",
       "weight": "50.0kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "龙群"
+        "龍群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -118,10 +118,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "40 孵化周期（10280步）",
+      "egg_cycles": "40 孵化週期（10280步）",
       "shape": "Body08.png",
       "footprint": "F634.png",
-      "image": "0634-双首暴龙.png"
+      "image": "0634-雙首暴龍.png"
     }
   ],
   "stats": [
@@ -141,8 +141,8 @@
     {
       "form": "",
       "types": [
-        "恶",
-        "龙"
+        "惡",
+        "龍"
       ],
       "data": [
         {
@@ -150,11 +150,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -170,15 +170,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "2"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "0.5"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -194,7 +194,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -206,11 +206,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "2"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "0.5"
         },
         {
@@ -226,13 +226,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "如果吃光了领地内的食物，就会向其他土地移动。２个头之间关系恶劣。"
+          "group": "寶可夢 黑／白",
+          "text": "如果吃光了領地內的食物，就會向其他土地移動。２個頭之間關係惡劣。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "两颗脑袋关系很差，摄食时经常争夺食物结果一直吃撑。"
+          "group": "寶可夢 黑／白",
+          "text": "兩顆腦袋關係很差，攝食時經常爭奪食物結果一直吃撐。"
         }
       ]
     },
@@ -241,23 +241,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "２个头之间关系恶劣，都想比对方吃得更多来学会主导权。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "２個頭之間關係惡劣，都想比對方吃得更多來學會主導權。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "如果吃光了领地内的食物，就会向其他土地移动。２个头之间关系恶劣。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "如果吃光了領地內的食物，就會向其他土地移動。２個頭之間關係惡劣。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "２个头之间关系恶劣，都想比对方吃得更多来学会主导权。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "２個頭之間關係惡劣，都想比對方吃得更多來學會主導權。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "如果吃光了领地内的食物，就会向其他土地移动。２个头之间关系恶劣。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "如果吃光了領地內的食物，就會向其他土地移動。２個頭之間關係惡劣。"
         }
       ]
     },
@@ -265,14 +265,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "在自己的领地走来走去，寻找食物。２个头时常会为了前进的方向而争吵。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "在自己的領地走來走去，尋找食物。２個頭時常會為了前進的方向而爭吵。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "２个头会争抢同一个食物。明明没有去和别人战斗，却总是遍体鳞伤。"
+          "group": "寶可夢 劍／盾",
+          "text": "２個頭會爭搶同一個食物。明明沒有去和別人戰鬥，卻總是遍體鱗傷。"
         }
       ]
     },
@@ -281,13 +281,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "２颗头之间关系的很糟糕。如果没有得到公平对等的疼爱，就会因争风吃醋而开始大吵。"
+          "group": "寶可夢 朱／紫",
+          "text": "２顆頭之間關係的很糟糕。如果沒有得到公平對等的疼愛，就會因爭風吃醋而開始大吵。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "２个头各有喜好。由于头之间也互相争斗，因此不靠外力也能变强。"
+          "group": "寶可夢 朱／紫",
+          "text": "２個頭各有喜好。由於頭之間也互相爭鬥，因此不靠外力也能變強。"
         }
       ]
     }
@@ -295,8 +295,8 @@
   "evolution_chains": [
     [
       {
-        "name": "单首龙",
-        "stage": "未进化",
+        "name": "單首龍",
+        "stage": "未進化",
         "text": null,
         "image": "633Deino_Dream.png",
         "back_text": null,
@@ -304,21 +304,21 @@
         "form_name": null
       },
       {
-        "name": "双首暴龙",
-        "stage": "1阶进化",
-        "text": "等级50以上",
+        "name": "雙首暴龍",
+        "stage": "1階進化",
+        "text": "等級50以上",
         "image": "634Zweilous_Dream.png",
         "back_text": null,
-        "from": "单首龙",
+        "from": "單首龍",
         "form_name": null
       },
       {
-        "name": "三首恶龙",
-        "stage": "2阶进化",
-        "text": "等级64以上",
+        "name": "三首惡龍",
+        "stage": "2階進化",
+        "text": "等級64以上",
         "image": "635Hydreigon_Dream.png",
         "back_text": null,
-        "from": "双首暴龙",
+        "from": "雙首暴龍",
         "form_name": null
       }
     ]
@@ -331,7 +331,7 @@
       "data": [
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -341,7 +341,7 @@
         {
           "level": "—",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -349,17 +349,17 @@
         },
         {
           "level": "—",
-          "name": "聚气",
+          "name": "聚氣",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "—",
-          "name": "龙息",
-          "type": "龙",
+          "name": "龍息",
+          "type": "龍",
           "category": "特殊",
           "power": "60",
           "accuracy": "100",
@@ -367,7 +367,7 @@
         },
         {
           "level": "—",
-          "name": "二连击",
+          "name": "二連擊",
           "type": "一般",
           "category": "物理",
           "power": "35",
@@ -378,15 +378,15 @@
           "level": "12",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "16",
-          "name": "恶意追击",
-          "type": "恶",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -394,7 +394,7 @@
         },
         {
           "level": "20",
-          "name": "头锤",
+          "name": "頭錘",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -403,9 +403,9 @@
         },
         {
           "level": "24",
-          "name": "自我激励",
+          "name": "自我激勵",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -422,7 +422,7 @@
         {
           "level": "32",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -432,15 +432,15 @@
           "level": "36",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "40",
-          "name": "龙之波动",
-          "type": "龙",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
@@ -448,7 +448,7 @@
         },
         {
           "level": "44",
-          "name": "泰山压顶",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -457,7 +457,7 @@
         },
         {
           "level": "48",
-          "name": "巨声",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -466,8 +466,8 @@
         },
         {
           "level": "54",
-          "name": "龙之俯冲",
-          "type": "龙",
+          "name": "龍之俯衝",
+          "type": "龍",
           "category": "物理",
           "power": "100",
           "accuracy": "75",
@@ -475,17 +475,17 @@
         },
         {
           "level": "60",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "66",
-          "name": "逆鳞",
-          "type": "龙",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
@@ -499,7 +499,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -508,25 +508,25 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００８",
+          "machine": "招式學習器００８",
           "name": "火焰牙",
           "type": "火",
           "category": "物理",
@@ -535,17 +535,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器００９",
-          "name": "雷电牙",
-          "type": "电",
+          "machine": "招式學習器００９",
+          "name": "雷電牙",
+          "type": "電",
           "category": "物理",
           "power": "65",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１０",
-          "name": "冰冻牙",
+          "machine": "招式學習器０１０",
+          "name": "冰凍牙",
           "type": "冰",
           "category": "物理",
           "power": "65",
@@ -553,17 +553,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -571,53 +571,53 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３０",
-          "name": "大声咆哮",
-          "type": "恶",
+          "machine": "招式學習器０３０",
+          "name": "大聲咆哮",
+          "type": "惡",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４４",
-          "name": "龙尾",
-          "type": "龙",
+          "machine": "招式學習器０４４",
+          "name": "龍尾",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５９",
-          "name": "意念头锤",
+          "machine": "招式學習器０５９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -625,8 +625,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -634,26 +634,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８２",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０８２",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８４",
-          "name": "跺脚",
+          "machine": "招式學習器０８４",
+          "name": "跺腳",
           "type": "地面",
           "category": "物理",
           "power": "75",
@@ -661,62 +661,62 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９４",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式學習器０９４",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０８",
+          "machine": "招式學習器１０８",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１５",
-          "name": "龙之波动",
-          "type": "龙",
+          "machine": "招式學習器１１５",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１７",
-          "name": "巨声",
+          "machine": "招式學習器１１７",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -724,16 +724,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３３",
+          "machine": "招式學習器１３３",
           "name": "大地之力",
           "type": "地面",
           "category": "特殊",
@@ -742,35 +742,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４０",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器１４０",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１５６",
-          "name": "逆鳞",
-          "type": "龙",
+          "machine": "招式學習器１５６",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６９",
+          "machine": "招式學習器１６９",
           "name": "流星群",
-          "type": "龙",
+          "type": "龍",
           "category": "特殊",
           "power": "130",
           "accuracy": "90",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -778,46 +778,46 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７２",
+          "machine": "招式學習器１７２",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１７７",
+          "machine": "招式學習器１７７",
           "name": "怨恨",
-          "type": "幽灵",
-          "category": "变化",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９９",
-          "name": "泄愤",
-          "type": "恶",
+          "machine": "招式學習器１９９",
+          "name": "洩憤",
+          "type": "惡",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器２０３",
+          "machine": "招式學習器２０３",
           "name": "自我暗示",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２６",
-          "name": "龙声鼓舞",
-          "type": "龙",
-          "category": "变化",
+          "machine": "招式學習器２２６",
+          "name": "龍聲鼓舞",
+          "type": "龍",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -833,43 +833,43 @@
           "parents": [
             {
               "id": "0328",
-              "name": "大颚蚁"
+              "name": "大顎蟻"
             },
             {
               "id": "0840",
-              "name": "啃果虫"
+              "name": "啃果蟲"
             },
             {
               "id": "0841",
-              "name": "苹裹龙"
+              "name": "蘋裹龍"
             },
             {
               "id": "0842",
-              "name": "丰蜜龙"
+              "name": "豐蜜龍"
             },
             {
               "id": "0885",
-              "name": "多龙梅西亚"
+              "name": "多龍梅西亞"
             },
             {
               "id": "0886",
-              "name": "多龙奇"
+              "name": "多龍奇"
             },
             {
               "id": "0887",
-              "name": "多龙巴鲁托"
+              "name": "多龍巴魯託"
             },
             {
               "id": "1011",
-              "name": "裹蜜虫"
+              "name": "裹蜜蟲"
             },
             {
               "id": "1019",
               "name": "蜜集大蛇"
             }
           ],
-          "name": "惊吓",
-          "type": "幽灵",
+          "name": "驚嚇",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -883,10 +883,10 @@
             },
             {
               "id": "0560",
-              "name": "头巾混混"
+              "name": "頭巾混混"
             }
           ],
-          "name": "双刃头锤",
+          "name": "雙刃頭錘",
           "type": "岩石",
           "category": "物理",
           "power": "150",
@@ -897,26 +897,26 @@
           "parents": [
             {
               "id": "0634",
-              "name": "双首暴龙"
+              "name": "雙首暴龍"
             },
             {
               "id": "0635",
-              "name": "三首恶龙"
+              "name": "三首惡龍"
             },
             {
               "id": "0886",
-              "name": "多龙奇"
+              "name": "多龍奇"
             },
             {
               "id": "0887",
-              "name": "多龙巴鲁托"
+              "name": "多龍巴魯託"
             },
             {
               "id": "1011",
-              "name": "裹蜜虫"
+              "name": "裹蜜蟲"
             }
           ],
-          "name": "二连击",
+          "name": "二連擊",
           "type": "一般",
           "category": "物理",
           "power": "35",
@@ -935,7 +935,7 @@
             },
             {
               "id": "0336",
-              "name": "饭匙蛇"
+              "name": "飯匙蛇"
             }
           ],
           "name": "打嗝",
@@ -950,9 +950,9 @@
   ],
   "home_images": [
     {
-      "name": "双首暴龙",
-      "image": "0634-双首暴龙.png",
-      "shiny": "0634-双首暴龙-shiny.png"
+      "name": "雙首暴龍",
+      "image": "0634-雙首暴龍.png",
+      "shiny": "0634-雙首暴龍-shiny.png"
     }
   ]
 }

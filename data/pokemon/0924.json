@@ -1,45 +1,45 @@
 {
-  "name_zh": "一对鼠",
+  "name_zh": "一對鼠",
   "name_ja": "ワッカネズミ",
   "name_en": "Tandemaus",
   "pokedex_id": "0924",
-  "description": "一对鼠（日文︰ワッカネズミ，英文︰Tandemaus）是一般属性宝可梦。它的设计者是水谷惠。",
-  "profile": "一对鼠由独立的两只共同协作生活的鼠组成，就像蛋蛋和列阵兵一样。它们双足直立行走，小小的体型，通体白色，有着圆圆的脑袋和两只大大的耳朵，短粗的四肢和大大的爪子。它们脸部有着黑色的豆豆眼和小鼻子，有短短的胡须，尾巴又长又卷，尾巴末端膨大呈球形。其中一只个体的上半身毛发是浅灰色的，就好像是它的上衣；另一只个体的腿部毛发是浅灰色的，就像是他的裤子。当一对鼠张大嘴巴时，可以发现它们的嘴巴占据了一大半的脑袋，能看到嘴里的上门牙。\n一对鼠无论何时两只都待在一起，会把寻获的食物均分成两半，亲密无间地一起进食。它能凭借默契十足的团队合作，用门牙切断能当作巢穴的材料的东西，并将其搬走。",
-  "prototype": "一对鼠的外形类似于小白鼠，但其习性更像草原田鼠。\n草原田鼠是一夫一妻制动物，且大部分会终生与配偶成对生活，共同觅食筑巢和养育后代。\n同时，它的造型也可能参考了某些老鼠造型的布偶玩具。",
-  "detail": "一对鼠太晶化时，只有站在右侧（即观者的左侧）的一只佩戴太晶宝石。\n若一对鼠进化时，没有位于队伍首位，就不会播放进化动画。因此即使一对鼠进化了，玩家可能也不会察觉。\n一对鼠进化为三只家庭还是四只家庭是由性格值决定的，且只有百分之一的几率进化为三只家庭。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步一对鼠（Pokémon GO）。\n←\nNo.0923：巴布土拨\n宝可梦\nNo.0925：一家鼠\n→",
+  "description": "一對鼠（日文︰ワッカネズミ，英文︰Tandemaus）是一般屬性寶可夢。它的設計者是水谷惠。",
+  "profile": "一對鼠由獨立的兩隻共同協作生活的鼠組成，就像蛋蛋和列陣兵一樣。它們雙足直立行走，小小的體型，通體白色，有著圓圓的腦袋和兩隻大大的耳朵，短粗的四肢和大大的爪子。它們臉部有著黑色的豆豆眼和小鼻子，有短短的鬍鬚，尾巴又長又卷，尾巴末端膨大呈球形。其中一隻個體的上半身毛髮是淺灰色的，就好像是它的上衣；另一隻個體的腿部毛髮是淺灰色的，就像是他的褲子。當一對鼠張大嘴巴時，可以發現它們的嘴巴佔據了一大半的腦袋，能看到嘴裡的上門牙。\n一對鼠無論何時兩隻都待在一起，會把尋獲的食物均分成兩半，親密無間地一起進食。它能憑藉默契十足的團隊合作，用門牙切斷能當作巢穴的材料的東西，並將其搬走。",
+  "prototype": "一對鼠的外形類似於小白鼠，但其習性更像草原田鼠。\n草原田鼠是一夫一妻制動物，且大部分會終生與配偶成對生活，共同覓食築巢和養育後代。\n同時，它的造型也可能參考了某些老鼠造型的布偶玩具。",
+  "detail": "一對鼠太晶化時，只有站在右側（即觀者的左側）的一隻佩戴太晶寶石。\n若一對鼠進化時，沒有位於隊伍首位，就不會播放進化動畫。因此即使一對鼠進化了，玩家可能也不會察覺。\n一對鼠進化為三隻家庭還是四隻家庭是由性格值決定的，且只有百分之一的機率進化為三隻家庭。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步一對鼠（Pokémon GO）。\n←\nNo.0923：巴布土撥\n寶可夢\nNo.0925：一家鼠\n→",
   "names": [
     {
       "language": "日文",
       "name": "ワッカネズミ Wakkanezumi",
-      "origin": "来自“輪（わ）っか”（环儿，圈儿）和“鼠（ねずみ）”（鼠）。"
+      "origin": "來自“輪（わ）っか”（環兒，圈兒）和“鼠（ねずみ）”（鼠）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "一對鼠一对鼠",
-      "origin": "来自“一对”和“鼠”。"
+      "name": "一對鼠一對鼠",
+      "origin": "來自“一對”和“鼠”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "一對鼠",
-      "origin": "来自“一对”和“鼠”。"
+      "origin": "來自“一對”和“鼠”。"
     },
     {
       "language": "英文",
       "name": "Tandemaus",
-      "origin": "来自 tandem（串联的）和 mouse（鼠）及德文 Maus（鼠）。"
+      "origin": "來自 tandem（串聯的）和 mouse（鼠）及德文 Maus（鼠）。"
     },
     {
       "language": "法文",
       "name": "Compagnol",
-      "origin": "来自 compagnon（伴侣）和 campagnol（田鼠）。"
+      "origin": "來自 compagnon（伴侶）和 campagnol（田鼠）。"
     },
     {
       "language": "德文",
       "name": "Zwieps",
-      "origin": "来自 Zwei（二）和 piepsen（吱吱叫）。"
+      "origin": "來自 Zwei（二）和 piepsen（吱吱叫）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Tandemaus",
       "origin": "同英文名。"
     },
@@ -49,25 +49,25 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "두리쥐 Durijwi",
-      "origin": "来自“둘”（二）和“쥐”（鼠）。"
+      "origin": "來自“둘”（二）和“쥐”（鼠）。"
     }
   ],
   "forms": [
     {
-      "name": "一对鼠",
+      "name": "一對鼠",
       "types": [
         "一般"
       ],
-      "category": "成对宝可梦",
+      "category": "成對寶可夢",
       "abilities": [
         {
           "name": "逃跑",
           "is_hidden": false
         },
         {
-          "name": "捡拾",
+          "name": "撿拾",
           "is_hidden": false
         },
         {
@@ -80,7 +80,7 @@
       "color": "白色",
       "catch_rate": "150（19.6%）",
       "egg_groups": [
-        "陆上",
+        "陸上",
         "妖精群"
       ],
       "experience_100": "800,000（快）",
@@ -116,10 +116,10 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "10 孵化周期（2570步）",
+      "egg_cycles": "10 孵化週期（2570步）",
       "shape": "Body11.png",
       "footprint": "FUnknown.png",
-      "image": "0924-一对鼠.png"
+      "image": "0924-一對鼠.png"
     }
   ],
   "stats": [
@@ -147,11 +147,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -167,15 +167,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "0"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -191,7 +191,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -203,11 +203,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -223,13 +223,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "凭借默契十足的团队合作，用门牙切断能当作巢穴的材料的东西，并将其搬走。"
+          "group": "寶可夢 朱／紫",
+          "text": "憑藉默契十足的團隊合作，用門牙切斷能當作巢穴的材料的東西，並將其搬走。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "无论何时２只待都在一起。会把寻获的食物均分成两半，亲密无间地一起进食。"
+          "group": "寶可夢 朱／紫",
+          "text": "無論何時２只待都在一起。會把尋獲的食物均分成兩半，親密無間地一起進食。"
         }
       ]
     }
@@ -237,8 +237,8 @@
   "evolution_chains": [
     [
       {
-        "name": "一对鼠",
-        "stage": "未进化",
+        "name": "一對鼠",
+        "stage": "未進化",
         "text": null,
         "image": "924Tandemaus_Dream.png",
         "back_text": null,
@@ -247,18 +247,18 @@
       },
       {
         "name": "一家鼠",
-        "stage": "1阶进化",
-        "text": "等级通过对战达到25以上（随机）（99%概率）",
+        "stage": "1階進化",
+        "text": "等級透過對戰達到25以上（隨機）（99%機率）",
         "image": "925Maushold-Four_Dream.png",
         "back_text": null,
-        "from": "一对鼠",
-        "form_name": "四只家庭"
+        "from": "一對鼠",
+        "form_name": "四隻家庭"
       }
     ],
     [
       {
-        "name": "一对鼠",
-        "stage": "未进化",
+        "name": "一對鼠",
+        "stage": "未進化",
         "text": null,
         "image": "924Tandemaus_Dream.png",
         "back_text": null,
@@ -267,12 +267,12 @@
       },
       {
         "name": "一家鼠",
-        "stage": "1阶进化",
-        "text": "等级通过对战达到25以上（随机）（1%概率）",
+        "stage": "1階進化",
+        "text": "等級透過對戰達到25以上（隨機）（1%機率）",
         "image": "925Maushold-Three_Dream.png",
         "back_text": null,
-        "from": "一对鼠",
-        "form_name": "三只家庭"
+        "from": "一對鼠",
+        "form_name": "三隻家庭"
       }
     ]
   ],
@@ -284,7 +284,7 @@
       "data": [
         {
           "level": "—",
-          "name": "拍击",
+          "name": "拍擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -293,16 +293,16 @@
         },
         {
           "level": "—",
-          "name": "圆瞳",
+          "name": "圓瞳",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
         },
         {
           "level": "5",
-          "name": "回声",
+          "name": "回聲",
           "type": "一般",
           "category": "特殊",
           "power": "40",
@@ -311,25 +311,25 @@
         },
         {
           "level": "8",
-          "name": "帮助",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "11",
-          "name": "愤怒门牙",
+          "name": "憤怒門牙",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "90",
           "pp": "10"
         },
         {
           "level": "14",
-          "name": "二连击",
+          "name": "二連擊",
           "type": "一般",
           "category": "物理",
           "power": "35",
@@ -338,7 +338,7 @@
         },
         {
           "level": "18",
-          "name": "种子机关枪",
+          "name": "種子機關槍",
           "type": "草",
           "category": "物理",
           "power": "25",
@@ -347,16 +347,16 @@
         },
         {
           "level": "22",
-          "name": "再来一次",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
           "level": "26",
-          "name": "嬉闹",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -365,7 +365,7 @@
         },
         {
           "level": "30",
-          "name": "巨声",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -374,19 +374,19 @@
         },
         {
           "level": "33",
-          "name": "撒娇",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "37",
-          "name": "围攻",
-          "type": "恶",
+          "name": "圍攻",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
@@ -394,14 +394,14 @@
           "level": "41",
           "name": "仿效",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "46",
-          "name": "鼠数儿",
+          "name": "鼠數兒",
           "type": "一般",
           "category": "物理",
           "power": "20",
@@ -416,7 +416,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -425,35 +425,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００２",
-          "name": "撒娇",
+          "machine": "招式學習器００２",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００３",
+          "machine": "招式學習器００３",
           "name": "假哭",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００４",
-          "name": "高速移动",
+          "machine": "招式學習器００４",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器００５",
-          "name": "掷泥",
+          "machine": "招式學習器００５",
+          "name": "擲泥",
           "type": "地面",
           "category": "特殊",
           "power": "20",
@@ -461,17 +461,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１１",
-          "name": "水之波动",
+          "machine": "招式學習器０１１",
+          "name": "水之波動",
           "type": "水",
           "category": "特殊",
           "power": "60",
@@ -479,26 +479,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１２",
+          "machine": "招式學習器０１２",
           "name": "踢倒",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -506,16 +506,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２７",
+          "machine": "招式學習器０２７",
           "name": "燕返",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -524,8 +524,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３５",
-          "name": "泥巴射击",
+          "machine": "招式學習器０３５",
+          "name": "泥巴射擊",
           "type": "地面",
           "category": "特殊",
           "power": "55",
@@ -533,43 +533,43 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３９",
-          "name": "下盘踢",
-          "type": "格斗",
+          "machine": "招式學習器０３９",
+          "name": "下盤踢",
+          "type": "格鬥",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５５",
+          "machine": "招式學習器０５５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -578,8 +578,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５６",
-          "name": "种子机关枪",
+          "machine": "招式學習器０５６",
+          "name": "種子機關槍",
           "type": "草",
           "category": "物理",
           "power": "25",
@@ -587,35 +587,35 @@
           "pp": "30"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６１",
+          "machine": "招式學習器０６１",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７１",
-          "name": "种子炸弹",
+          "machine": "招式學習器０７１",
+          "name": "種子炸彈",
           "type": "草",
           "category": "物理",
           "power": "80",
@@ -623,62 +623,62 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８１",
-          "name": "打草结",
+          "machine": "招式學習器０８１",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８２",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０８２",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０８",
+          "machine": "招式學習器１０８",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１７",
-          "name": "巨声",
+          "machine": "招式學習器１１７",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -686,17 +686,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２２",
-          "name": "再来一次",
+          "machine": "招式學習器１２２",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１２７",
-          "name": "嬉闹",
+          "machine": "招式學習器１２７",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -704,26 +704,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３２",
+          "machine": "招式學習器１３２",
           "name": "接棒",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -731,17 +731,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８３",
-          "name": "愤怒门牙",
+          "machine": "招式學習器１８３",
+          "name": "憤怒門牙",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -767,7 +767,7 @@
             }
           ],
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -786,7 +786,7 @@
           ],
           "name": "接棒",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
@@ -802,9 +802,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "挠痒",
+          "name": "撓癢",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -839,8 +839,8 @@
             }
           ],
           "name": "掉包",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -856,9 +856,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "您先请",
+          "name": "您先請",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -868,9 +868,9 @@
   ],
   "home_images": [
     {
-      "name": "一对鼠",
-      "image": "0924-一对鼠.png",
-      "shiny": "0924-一对鼠-shiny.png"
+      "name": "一對鼠",
+      "image": "0924-一對鼠.png",
+      "shiny": "0924-一對鼠-shiny.png"
     }
   ]
 }

@@ -3,58 +3,58 @@
   "name_ja": "ナゲキ",
   "name_en": "Throh",
   "pokedex_id": "0538",
-  "description": "投摔鬼（日文︰ナゲキ，英文︰Throh）是格斗属性宝可梦，它的设计者是杉森建。",
-  "profile": "投摔鬼是一身红色的宝可梦，拥有黑色的双眸，眉、鼻处有相连的黑色条纹，四肢各有三根手指和三个脚趾。投摔鬼穿著一身白色布料、系有黑色带子、膝前有黑色方块的，形似武术装的服饰。投摔鬼只有雄性。\n投摔鬼5只一组一起努力练习，在练习中掉队的投摔鬼会扔掉带子离开团队。如果遇到比自己大的对手，就忍不住极度想要投摔。它能使出一流的投摔招式。带子被战斗时流下的汗水浸湿，颜色越变越深。如果系紧带子，力量就会提升。野生的投摔鬼会编织藤蔓做成自己的带子，在变强后就会替换带子。",
-  "prototype": "主页面：宝可梦诞生秘话 总集篇 → 投摔鬼、打击鬼\n投摔鬼的设计理念来自柔道，具体形象来自赤鬼，但是鬼角改成了眉毛。\n据此推断投摔鬼的形象可能来自柔道家西乡四郎，其曾经的专用招式山岚摔也得名于西乡四郎发明的格斗技。",
-  "detail": "在《白２》投摔鬼仅出现在颜色较深的草丛，打击鬼仅出现在摇动草丛；但在《黑２》投摔鬼和打击鬼在颜色较深的草丛和摇动草丛都可以发现。两者的设定并不对称。",
+  "description": "投摔鬼（日文︰ナゲキ，英文︰Throh）是格鬥屬性寶可夢，它的設計者是杉森建。",
+  "profile": "投摔鬼是一身紅色的寶可夢，擁有黑色的雙眸，眉、鼻處有相連的黑色條紋，四肢各有三根手指和三個腳趾。投摔鬼穿著一身白色布料、繫有黑色帶子、膝前有黑色方塊的，形似武術裝的服飾。投摔鬼只有雄性。\n投摔鬼5只一組一起努力練習，在練習中掉隊的投摔鬼會扔掉帶子離開團隊。如果遇到比自己大的對手，就忍不住極度想要投摔。它能使出一流的投摔招式。帶子被戰鬥時流下的汗水浸溼，顏色越變越深。如果繫緊帶子，力量就會提升。野生的投摔鬼會編織藤蔓做成自己的帶子，在變強後就會替換帶子。",
+  "prototype": "主頁面：寶可夢誕生秘話 總集篇 → 投摔鬼、打擊鬼\n投摔鬼的設計理念來自柔道，具體形象來自赤鬼，但是鬼角改成了眉毛。\n據此推斷投摔鬼的形象可能來自柔道家西鄉四郎，其曾經的專用招式山嵐摔也得名於西鄉四郎發明的格鬥技。",
+  "detail": "在《白２》投摔鬼僅出現在顏色較深的草叢，打擊鬼僅出現在搖動草叢；但在《黑２》投摔鬼和打擊鬼在顏色較深的草叢和搖動草叢都可以發現。兩者的設定並不對稱。",
   "names": [
     {
       "language": "日文",
       "name": "ナゲキ Nageki",
-      "origin": "来自“投（な）げ”（投摔）和“鬼（き）”（鬼）。"
+      "origin": "來自“投（な）げ”（投摔）和“鬼（き）”（鬼）。"
     },
     {
       "language": "中文-任天堂",
       "name": "投摔鬼",
-      "origin": "来自“投摔”和“鬼”。"
+      "origin": "來自“投摔”和“鬼”。"
     },
     {
-      "language": "中文-大陆",
+      "language": "中文-大陸",
       "name": "投射鬼",
-      "origin": "来自“投射”和“鬼”。"
+      "origin": "來自“投射”和“鬼”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "投射鬼",
-      "origin": "来自“投射”和“鬼”。"
+      "origin": "來自“投射”和“鬼”。"
     },
     {
       "language": "中文-香港",
       "name": "投摔鬼",
-      "origin": "来自“投摔”和“鬼”。"
+      "origin": "來自“投摔”和“鬼”。"
     },
     {
       "language": "中文-香港",
       "name": "投射鬼",
-      "origin": "来自“投射”和“鬼”。"
+      "origin": "來自“投射”和“鬼”。"
     },
     {
       "language": "英文",
       "name": "Throh",
-      "origin": "来自 throw（投掷）。"
+      "origin": "來自 throw（投擲）。"
     },
     {
       "language": "法文",
       "name": "Judokrak",
-      "origin": "来自 judo（柔道）和口语 crack（冠军）。"
+      "origin": "來自 judo（柔道）和口語 crack（冠軍）。"
     },
     {
       "language": "德文",
       "name": "Jiutesto",
-      "origin": "来自 Jiu Jitsu（柔术）和 Testosteron（睾酮）。"
+      "origin": "來自 Jiu Jitsu（柔術）和 Testosteron（睪酮）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Throh",
       "origin": "同英文名。"
     },
@@ -64,18 +64,18 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "던지미 Deonjimi",
-      "origin": "来自“던짐”（投掷）和“귀〈鬼〉”（鬼）。"
+      "origin": "來自“던짐”（投擲）和“귀〈鬼〉”（鬼）。"
     }
   ],
   "forms": [
     {
       "name": "投摔鬼",
       "types": [
-        "格斗"
+        "格鬥"
       ],
-      "category": "柔道宝可梦",
+      "category": "柔道寶可夢",
       "abilities": [
         {
           "name": "毅力",
@@ -92,12 +92,12 @@
       ],
       "height": "1.3m",
       "weight": "55.5kg",
-      "color": "红色",
+      "color": "紅色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
         "人型群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -130,7 +130,7 @@
         "male": 100,
         "female": 0
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body12.png",
       "footprint": "F538.png",
       "image": "0538-投摔鬼.png"
@@ -153,7 +153,7 @@
     {
       "form": "",
       "types": [
-        "格斗"
+        "格鬥"
       ],
       "data": [
         {
@@ -161,11 +161,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "2"
         },
         {
@@ -181,15 +181,15 @@
           "damage": "0.5"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -205,7 +205,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -217,11 +217,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "0.5"
         },
         {
@@ -237,13 +237,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "如果系紧带子，力量就会提升。野生的投摔鬼会编织藤蔓做成自己的带子。"
+          "group": "寶可夢 黑／白",
+          "text": "如果繫緊帶子，力量就會提升。野生的投摔鬼會編織藤蔓做成自己的帶子。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "喜欢把比自己体积大的对手投掷出去。群落必定5只一组。"
+          "group": "寶可夢 黑／白",
+          "text": "喜歡把比自己體積大的對手投擲出去。群落必定5只一組。"
         }
       ]
     },
@@ -252,23 +252,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "如果系紧带子，力量就会提升。野生的投摔鬼会编织藤蔓做成自己的带子。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "如果繫緊帶子，力量就會提升。野生的投摔鬼會編織藤蔓做成自己的帶子。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "如果遇到比自己大的对手，就忍不住极度想要投摔。变强后就会替换带子。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "如果遇到比自己大的對手，就忍不住極度想要投摔。變強後就會替換帶子。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "如果系紧带子，力量就会提升。野生的投摔鬼会编织藤蔓做成自己的带子。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "如果繫緊帶子，力量就會提升。野生的投摔鬼會編織藤蔓做成自己的帶子。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "如果遇到比自己大的对手，就忍不住极度想要投摔。变强后就会替换带子。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "如果遇到比自己大的對手，就忍不住極度想要投摔。變強後就會替換帶子。"
         }
       ]
     },
@@ -276,14 +276,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "能使出一流的投摔招式。带子被战斗时流下的汗水浸湿，颜色越变越深。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "能使出一流的投摔招式。帶子被戰鬥時流下的汗水浸溼，顏色越變越深。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "５只一组一起努力练习。在练习中掉队的投摔鬼会扔掉带子离开团队。"
+          "group": "寶可夢 劍／盾",
+          "text": "５只一組一起努力練習。在練習中掉隊的投摔鬼會扔掉帶子離開團隊。"
         }
       ]
     },
@@ -291,9 +291,9 @@
       "name": "第九世代",
       "versions": [
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "５只一组一起努力练习。在练习中掉队的投摔鬼会扔掉带子离开团队。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "５只一組一起努力練習。在練習中掉隊的投摔鬼會扔掉帶子離開團隊。"
         }
       ]
     }
@@ -302,7 +302,7 @@
     [
       {
         "name": "投摔鬼",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "538Throh_Dream.png",
         "back_text": null,
@@ -319,7 +319,7 @@
       "data": [
         {
           "level": "—",
-          "name": "绑紧",
+          "name": "綁緊",
           "type": "一般",
           "category": "物理",
           "power": "15",
@@ -330,16 +330,16 @@
           "level": "—",
           "name": "瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
         },
         {
           "level": "5",
-          "name": "聚气",
+          "name": "聚氣",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -347,7 +347,7 @@
         {
           "level": "10",
           "name": "巴投",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "60",
           "accuracy": "90",
@@ -355,17 +355,17 @@
         },
         {
           "level": "15",
-          "name": "广域防守",
+          "name": "廣域防守",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "20",
-          "name": "报复",
-          "type": "格斗",
+          "name": "報復",
+          "type": "格鬥",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -374,16 +374,16 @@
         {
           "level": "25",
           "name": "健美",
-          "type": "格斗",
-          "category": "变化",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "30",
-          "name": "山岚摔",
-          "type": "格斗",
+          "name": "山嵐摔",
+          "type": "格鬥",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -392,7 +392,7 @@
         {
           "level": "35",
           "name": "借力摔",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "70",
           "accuracy": "—",
@@ -401,9 +401,9 @@
         {
           "level": "40",
           "name": "地球上投",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
@@ -411,24 +411,24 @@
           "level": "45",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "50",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "55",
-          "name": "蛮力",
-          "type": "格斗",
+          "name": "蠻力",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
@@ -442,8 +442,8 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００",
-          "name": "百万吨重拳",
+          "machine": "招式學習器００",
+          "name": "百萬噸重拳",
           "type": "一般",
           "category": "物理",
           "power": "80",
@@ -451,8 +451,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１",
-          "name": "百万吨重踢",
+          "machine": "招式學習器０１",
+          "name": "百萬噸重踢",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -460,7 +460,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器０３",
+          "machine": "招式學習器０３",
           "name": "火焰拳",
           "type": "火",
           "category": "物理",
@@ -469,8 +469,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４",
-          "name": "冰冻拳",
+          "machine": "招式學習器０４",
+          "name": "冰凍拳",
           "type": "冰",
           "category": "物理",
           "power": "75",
@@ -478,17 +478,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０５",
-          "name": "雷电拳",
-          "type": "电",
+          "machine": "招式學習器０５",
+          "name": "雷電拳",
+          "type": "電",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０９",
-          "name": "终极冲击",
+          "machine": "招式學習器０９",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -496,7 +496,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５",
+          "machine": "招式學習器１５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -505,17 +505,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２",
-          "name": "岩崩",
+          "machine": "招式學習器２２",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -523,7 +523,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -532,53 +532,53 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２６",
+          "machine": "招式學習器２６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３４",
+          "machine": "招式學習器３４",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -586,35 +586,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４１",
-          "name": "帮助",
+          "machine": "招式學習器４１",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器４２",
-          "name": "报复",
-          "type": "格斗",
+          "machine": "招式學習器４２",
+          "name": "報復",
+          "type": "格鬥",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器４３",
+          "machine": "招式學習器４３",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器４８",
-          "name": "岩石封锁",
+          "machine": "招式學習器４８",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -622,35 +622,35 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器５７",
-          "name": "以牙还牙",
-          "type": "恶",
+          "machine": "招式學習器５７",
+          "name": "以牙還牙",
+          "type": "惡",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器５９",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器５９",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７５",
-          "name": "下盘踢",
-          "type": "格斗",
+          "machine": "招式學習器７５",
+          "name": "下盤踢",
+          "type": "格鬥",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -658,8 +658,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７９",
-          "name": "报仇",
+          "machine": "招式學習器７９",
+          "name": "報仇",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -667,7 +667,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器８１",
+          "machine": "招式學習器８１",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -676,8 +676,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器９８",
-          "name": "跺脚",
+          "machine": "招式學習器９８",
+          "name": "跺腳",
           "type": "地面",
           "category": "物理",
           "power": "75",
@@ -685,8 +685,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录０１",
-          "name": "泰山压顶",
+          "machine": "招式記錄０１",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -694,16 +694,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录０７",
+          "machine": "招式記錄０７",
           "name": "踢倒",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录１０",
+          "machine": "招式記錄１０",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -712,80 +712,80 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录１３",
-          "name": "聚气",
+          "machine": "招式記錄１３",
+          "name": "聚氣",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２１",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式記錄２１",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄３７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录３９",
-          "name": "蛮力",
-          "type": "格斗",
+          "machine": "招式記錄３９",
+          "name": "蠻力",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式记录４８",
+          "machine": "招式記錄４８",
           "name": "健美",
-          "type": "格斗",
-          "category": "变化",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录５７",
-          "name": "毒击",
+          "machine": "招式記錄５７",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -793,17 +793,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式记录６４",
-          "name": "真气弹",
-          "type": "格斗",
+          "machine": "招式記錄６４",
+          "name": "真氣彈",
+          "type": "格鬥",
           "category": "特殊",
           "power": "120",
           "accuracy": "70",
           "pp": "5"
         },
         {
-          "machine": "招式记录６９",
-          "name": "意念头锤",
+          "machine": "招式記錄６９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -811,8 +811,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录７５",
-          "name": "尖石攻击",
+          "machine": "招式記錄７５",
+          "name": "尖石攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "100",
@@ -820,8 +820,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式记录７７",
-          "name": "打草结",
+          "machine": "招式記錄７７",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
           "power": "—",
@@ -829,10 +829,10 @@
           "pp": "20"
         },
         {
-          "machine": "招式记录８５",
-          "name": "自我激励",
+          "machine": "招式記錄８５",
+          "name": "自我激勵",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"

@@ -3,38 +3,38 @@
   "name_ja": "ワナイダー",
   "name_en": "Spidops",
   "pokedex_id": "0918",
-  "description": "操陷蛛（日文︰ワナイダー，英文︰Spidops）是虫属性宝可梦。",
-  "profile": "操陷蛛的身体由黄色和绿色组成。它的身体两侧长著八条肢体，前面两对合并成“双手”、后面两对则合并成“双脚”，前肢的尖端可以产生丝线，当制作陷阱等需要精密操作丝线的时候会将合并的肢体分开，用更多只手来控制丝线。它可以用合并成双脚的两对后肢直立。它的身体后端被丝线包裹，末端有一个喇叭型的黄色尾巴。\n操陷蛛会用丝线吸附在树枝或天花板上无声无息地行动。它会在自己的地盘里布下坚固又黏糊糊的丝线，来当做捕捉入侵者的陷阱，在自己被发现之前将猎物打倒。",
-  "prototype": "操陷蛛可能基于鬼面蛛（又称妖面蛛）。这类蜘蛛会将小巧的网挂在前两对肢上，手动操控自己的网捕捉猎物。操陷蛛独特的面部、肢体关节与纺锤形的腹部均与妖面蛛的特征相符。\n其肢体关节的特征可能还融入了提线木偶，腹部可能来源于线轴。\n操陷蛛的拟人化形象可能来自特种部队，其整体配色类似迷彩，面罩类似护目镜或夜视镜，躯干的纹路类似防弹背心，吸附在树枝或天花板上突袭的行为也符合特工的影视形象。\n异色操陷蛛的配色可能基于红外成像和红外伪装。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步操陷蛛（Pokémon GO）。\n←\nNo.0917：团珠蛛\n宝可梦\nNo.0919：豆蟋蟀\n→",
+  "description": "操陷蛛（日文︰ワナイダー，英文︰Spidops）是蟲屬性寶可夢。",
+  "profile": "操陷蛛的身體由黃色和綠色組成。它的身體兩側長著八條肢體，前面兩對合併成“雙手”、後面兩對則合併成“雙腳”，前肢的尖端可以產生絲線，當製作陷阱等需要精密操作絲線的時候會將合併的肢體分開，用更多隻手來控制絲線。它可以用合併成雙腳的兩對後肢直立。它的身體後端被絲線包裹，末端有一個喇叭型的黃色尾巴。\n操陷蛛會用絲線吸附在樹枝或天花板上無聲無息地行動。它會在自己的地盤裡佈下堅固又黏糊糊的絲線，來當做捕捉入侵者的陷阱，在自己被發現之前將獵物打倒。",
+  "prototype": "操陷蛛可能基於鬼面蛛（又稱妖面蛛）。這類蜘蛛會將小巧的網掛在前兩對肢上，手動操控自己的網捕捉獵物。操陷蛛獨特的面部、肢體關節與紡錘形的腹部均與妖面蛛的特徵相符。\n其肢體關節的特徵可能還融入了提線木偶，腹部可能來源於線軸。\n操陷蛛的擬人化形象可能來自特種部隊，其整體配色類似迷彩，面罩類似護目鏡或夜視鏡，軀幹的紋路類似防彈背心，吸附在樹枝或天花板上突襲的行為也符合特工的影視形象。\n異色操陷蛛的配色可能基於紅外成像和紅外偽裝。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步操陷蛛（Pokémon GO）。\n←\nNo.0917：團珠蛛\n寶可夢\nNo.0919：豆蟋蟀\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ワナイダー Wanaider",
-      "origin": "来自“罠（わな）”（陷阱）、英文 spider（蜘蛛）和德文 Schneider（裁缝；盲蛛）。"
+      "origin": "來自“罠（わな）”（陷阱）、英文 spider（蜘蛛）和德文 Schneider（裁縫；盲蛛）。"
     },
     {
       "language": "中文-任天堂",
       "name": "操陷蛛",
-      "origin": "来自“操纵”、“陷阱”和“蜘蛛”。"
+      "origin": "來自“操縱”、“陷阱”和“蜘蛛”。"
     },
     {
       "language": "英文",
       "name": "Spidops",
-      "origin": "来自 spider（蜘蛛）和 spec ops（特种行动：为 special operations 的缩称）。"
+      "origin": "來自 spider（蜘蛛）和 spec ops（特種行動：為 special operations 的縮稱）。"
     },
     {
       "language": "法文",
       "name": "Filentrappe",
-      "origin": "来自 fil（线）和 trappe（陷阱），谐音 philanthrope（慈善家）。"
+      "origin": "來自 fil（線）和 trappe（陷阱），諧音 philanthrope（慈善家）。"
     },
     {
       "language": "德文",
       "name": "Spinsidias",
-      "origin": "来自 Spinne（蜘蛛）和英文 insidious（暗中为害的）。"
+      "origin": "來自 Spinne（蜘蛛）和英文 insidious（暗中為害的）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Spidops",
       "origin": "同英文名。"
     },
@@ -44,18 +44,18 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "트래피더 Teuraepideo",
-      "origin": "来自英文 trap（陷阱）和英文 spider（蜘蛛）。"
+      "origin": "來自英文 trap（陷阱）和英文 spider（蜘蛛）。"
     }
   ],
   "forms": [
     {
       "name": "操陷蛛",
       "types": [
-        "虫"
+        "蟲"
       ],
-      "category": "陷阱宝可梦",
+      "category": "陷阱寶可夢",
       "abilities": [
         {
           "name": "不眠",
@@ -68,10 +68,10 @@
       ],
       "height": "1.0m",
       "weight": "16.5kg",
-      "color": "绿色",
+      "color": "綠色",
       "catch_rate": "120（15.7%）",
       "egg_groups": [
-        "虫群"
+        "蟲群"
       ],
       "experience_100": "600,000（最快）",
       "base_points": [
@@ -106,7 +106,7 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "15 孵化周期（3855步）",
+      "egg_cycles": "15 孵化週期（3855步）",
       "shape": "Body14.png",
       "footprint": "FUnknown.png",
       "image": "0918-操陷蛛.png"
@@ -129,7 +129,7 @@
     {
       "form": "",
       "types": [
-        "虫"
+        "蟲"
       ],
       "data": [
         {
@@ -137,11 +137,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "2"
         },
         {
@@ -157,15 +157,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -181,7 +181,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -193,11 +193,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -213,13 +213,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "用丝线吸附在树枝或天花板上无声无息地行动。会在自己被发现之前将猎物打倒。"
+          "group": "寶可夢 朱／紫",
+          "text": "用絲線吸附在樹枝或天花板上無聲無息地行動。會在自己被發現之前將獵物打倒。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "会在自己的地盘里布下坚固又黏糊糊的丝线，来当做捕捉入侵者的陷阱。"
+          "group": "寶可夢 朱／紫",
+          "text": "會在自己的地盤裡佈下堅固又黏糊糊的絲線，來當做捕捉入侵者的陷阱。"
         }
       ]
     }
@@ -227,8 +227,8 @@
   "evolution_chains": [
     [
       {
-        "name": "团珠蛛",
-        "stage": "未进化",
+        "name": "團珠蛛",
+        "stage": "未進化",
         "text": null,
         "image": "917Tarountula_Dream.png",
         "back_text": null,
@@ -237,11 +237,11 @@
       },
       {
         "name": "操陷蛛",
-        "stage": "1阶进化",
-        "text": "等级15以上",
+        "stage": "1階進化",
+        "text": "等級15以上",
         "image": "918Spidops_Dream.png",
         "back_text": null,
-        "from": "团珠蛛",
+        "from": "團珠蛛",
         "form_name": null
       }
     ]
@@ -253,17 +253,17 @@
       "form": "一般",
       "data": [
         {
-          "level": "进化",
-          "name": "线阱",
-          "type": "虫",
-          "category": "变化",
+          "level": "進化",
+          "name": "線阱",
+          "type": "蟲",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -272,17 +272,17 @@
         },
         {
           "level": "—",
-          "name": "吐丝",
-          "type": "虫",
-          "category": "变化",
+          "name": "吐絲",
+          "type": "蟲",
+          "category": "變化",
           "power": "—",
           "accuracy": "95",
           "pp": "40"
         },
         {
           "level": "5",
-          "name": "虫之抵抗",
-          "type": "虫",
+          "name": "蟲之抵抗",
+          "type": "蟲",
           "category": "特殊",
           "power": "50",
           "accuracy": "100",
@@ -290,8 +290,8 @@
         },
         {
           "level": "8",
-          "name": "恶意追击",
-          "type": "恶",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -308,8 +308,8 @@
         },
         {
           "level": "14",
-          "name": "虫咬",
-          "type": "虫",
+          "name": "蟲咬",
+          "type": "蟲",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -317,25 +317,25 @@
         },
         {
           "level": "19",
-          "name": "挡路",
+          "name": "擋路",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "24",
-          "name": "双倍奉还",
-          "type": "格斗",
+          "name": "雙倍奉還",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "28",
-          "name": "头锤",
+          "name": "頭錘",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -344,9 +344,9 @@
         },
         {
           "level": "33",
-          "name": "黏黏网",
-          "type": "虫",
-          "category": "变化",
+          "name": "黏黏網",
+          "type": "蟲",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -355,7 +355,7 @@
           "level": "37",
           "name": "胃液",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -363,7 +363,7 @@
         {
           "level": "41",
           "name": "巴投",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "60",
           "accuracy": "90",
@@ -371,8 +371,8 @@
         },
         {
           "level": "45",
-          "name": "深渊突刺",
-          "type": "恶",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -380,8 +380,8 @@
         },
         {
           "level": "49",
-          "name": "爬击",
-          "type": "虫",
+          "name": "爬擊",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "90",
@@ -395,7 +395,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -404,52 +404,52 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１２",
+          "machine": "招式學習器０１２",
           "name": "踢倒",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１５",
-          "name": "虫之抵抗",
-          "type": "虫",
+          "machine": "招式學習器０１５",
+          "name": "蟲之抵抗",
+          "type": "蟲",
           "category": "特殊",
           "power": "50",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２０",
+          "machine": "招式學習器０２０",
           "name": "起草",
           "type": "草",
           "category": "物理",
@@ -458,17 +458,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２１",
-          "name": "虫扑",
-          "type": "虫",
+          "machine": "招式學習器０２１",
+          "name": "蟲撲",
+          "type": "蟲",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -476,17 +476,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２７",
+          "machine": "招式學習器０２７",
           "name": "燕返",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３６",
-          "name": "岩石封锁",
+          "machine": "招式學習器０３６",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -494,44 +494,44 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５６",
-          "name": "种子机关枪",
+          "machine": "招式學習器０５６",
+          "name": "種子機關槍",
           "type": "草",
           "category": "物理",
           "power": "25",
@@ -539,8 +539,8 @@
           "pp": "30"
         },
         {
-          "machine": "招式学习器０５７",
-          "name": "点到为止",
+          "machine": "招式學習器０５７",
+          "name": "點到為止",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -548,35 +548,35 @@
           "pp": "40"
         },
         {
-          "machine": "招式学习器０５８",
+          "machine": "招式學習器０５８",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６１",
+          "machine": "招式學習器０６１",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -584,26 +584,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８１",
-          "name": "打草结",
+          "machine": "招式學習器０８１",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８３",
-          "name": "毒击",
+          "machine": "招式學習器０８３",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -611,71 +611,71 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９０",
+          "machine": "招式學習器０９０",
           "name": "撒菱",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９１",
+          "machine": "招式學習器０９１",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９５",
+          "machine": "招式學習器０９５",
           "name": "汲取",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０５",
+          "machine": "招式學習器１０５",
           "name": "十字剪",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１１",
-          "name": "终极吸取",
+          "machine": "招式學習器１１１",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -683,17 +683,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３４",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式學習器１３４",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -701,17 +701,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６２",
-          "name": "虫鸣",
-          "type": "虫",
+          "machine": "招式學習器１６２",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -719,72 +719,72 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８１",
+          "machine": "招式學習器１８１",
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１８２",
-          "name": "虫咬",
-          "type": "虫",
+          "machine": "招式學習器１８２",
+          "name": "蟲咬",
+          "type": "蟲",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１８５",
-          "name": "猛扑",
-          "type": "虫",
+          "machine": "招式學習器１８５",
+          "name": "猛撲",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２０２",
-          "name": "分担痛楚",
+          "machine": "招式學習器２０２",
+          "name": "分擔痛楚",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２１１",
-          "name": "电网",
-          "type": "电",
+          "machine": "招式學習器２１１",
+          "name": "電網",
+          "type": "電",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１９",
-          "name": "爬击",
-          "type": "虫",
+          "machine": "招式學習器２１９",
+          "name": "爬擊",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２１",
-          "name": "深渊突刺",
-          "type": "恶",
+          "machine": "招式學習器２２１",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２９",
-          "name": "快手还击",
-          "type": "格斗",
+          "machine": "招式學習器２２９",
+          "name": "快手還擊",
+          "type": "格鬥",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
@@ -808,9 +808,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "临别礼物",
-          "type": "恶",
-          "category": "变化",
+          "name": "臨別禮物",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -819,7 +819,7 @@
           "parents": [
             {
               "id": "0167",
-              "name": "圆丝蛛"
+              "name": "圓絲蛛"
             },
             {
               "id": "0168",
@@ -827,11 +827,11 @@
             },
             {
               "id": "0595",
-              "name": "电电虫"
+              "name": "電電蟲"
             },
             {
               "id": "0596",
-              "name": "电蜘蛛"
+              "name": "電蜘蛛"
             },
             {
               "id": "0919",
@@ -842,8 +842,8 @@
               "name": "烈腿蝗"
             }
           ],
-          "name": "突袭",
-          "type": "恶",
+          "name": "突襲",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -860,8 +860,8 @@
               "name": "烈腿蝗"
             }
           ],
-          "name": "迎头一击",
-          "type": "虫",
+          "name": "迎頭一擊",
+          "type": "蟲",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
@@ -883,15 +883,15 @@
             },
             {
               "id": "0953",
-              "name": "虫滚泥"
+              "name": "蟲滾泥"
             },
             {
               "id": "0954",
-              "name": "虫甲圣"
+              "name": "蟲甲聖"
             }
           ],
-          "name": "猛扑",
-          "type": "虫",
+          "name": "猛撲",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",

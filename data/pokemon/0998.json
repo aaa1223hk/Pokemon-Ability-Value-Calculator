@@ -1,45 +1,45 @@
 {
-  "name_zh": "戟脊龙",
+  "name_zh": "戟脊龍",
   "name_ja": "セグレイブ",
   "name_en": "Baxcalibur",
   "pokedex_id": "0998",
-  "description": "戟脊龙（日文︰セグレイブ，英文︰Baxcalibur）是龙属性／冰属性宝可梦。超级戟脊龙于2025年11月6日在《传说 Z-A 超次元爆涌》的第二支预告片中首次公开。",
-  "profile": "超级戟脊龙不只是背鳍的大剑变得更加巨大，上腹部也出现了像是剑柄一样的冰柱。\n戟脊龙会倒转身体并从口中吐出冷气，然后靠吐气的作用力猛冲，用尾巴一击粉碎冻住的敌人，用背鳍的剑给予敌人致命一击。从嘴里喷射出的极低温的冷气，即使是灼热的熔岩，也能使其在一瞬间变成冰块。\n通过超级进化，超级戟脊龙的冰能量扩散到了全身，也包括内脏和神经在内。因此，它的反应速度、肌肉爆发力和招式威力均得到了强化。从瞳孔变红这一点可以得知，冰能量也已扩散到了视觉神经。它会集中冰能量后从“上腹部剑柄”释放招式。背鳍的大剑变得更加巨大，导致身体的重心移到了背上。而这个“上腹部剑柄”也发挥着让重心归位的作用。大剑的攻击也因此变得更加强力。它会利用这份重量，将万物一刀两断，或是彻底粉碎。",
-  "prototype": "根据《朱／紫》的取景地，戟脊龙可能基于化石发现于西班牙的昆卡猎龙。昆卡猎龙的背部有一个驼峰状结构、前肢具有羽茎瘤，戟脊龙的特征与其对应。\n也可能基于早期复原的棘龙。其特性热交换可能参考了棘龙的背帆拥有吸收热量、调节体温作用的这一说法。\n其形象可能也参考了某些特摄怪兽，如哥斯拉与雷德基拉。\n其专属招式巨剑突击可能致敬了《哥斯拉对黑多拉》一片当中哥斯拉利用吐息飞行并使用背鳍撞击黑多拉的镜头。",
+  "description": "戟脊龍（日文︰セグレイブ，英文︰Baxcalibur）是龍屬性／冰屬性寶可夢。超級戟脊龍於2025年11月6日在《傳說 Z-A 超次元爆湧》的第二支預告片中首次公開。",
+  "profile": "超級戟脊龍不只是背鰭的大劍變得更加巨大，上腹部也出現了像是劍柄一樣的冰柱。\n戟脊龍會倒轉身體並從口中吐出冷氣，然後靠吐氣的作用力猛衝，用尾巴一擊粉碎凍住的敵人，用背鰭的劍給予敵人致命一擊。從嘴裡噴射出的極低溫的冷氣，即使是灼熱的熔岩，也能使其在一瞬間變成冰塊。\n透過超級進化，超級戟脊龍的冰能量擴散到了全身，也包括內臟和神經在內。因此，它的反應速度、肌肉爆發力和招式威力均得到了強化。從瞳孔變紅這一點可以得知，冰能量也已擴散到了視覺神經。它會集中冰能量後從“上腹部劍柄”釋放招式。背鰭的大劍變得更加巨大，導致身體的重心移到了背上。而這個“上腹部劍柄”也發揮著讓重心歸位的作用。大劍的攻擊也因此變得更加強力。它會利用這份重量，將萬物一刀兩斷，或是徹底粉碎。",
+  "prototype": "根據《朱／紫》的取景地，戟脊龍可能基於化石發現於西班牙的昆卡獵龍。昆卡獵龍的背部有一個駝峰狀結構、前肢具有羽莖瘤，戟脊龍的特徵與其對應。\n也可能基於早期復原的棘龍。其特性熱交換可能參考了棘龍的背帆擁有吸收熱量、調節體溫作用的這一說法。\n其形象可能也參考了某些特攝怪獸，如哥斯拉與雷德基拉。\n其專屬招式巨劍突擊可能致敬了《哥斯拉對黑多拉》一片當中哥斯拉利用吐息飛行並使用背鰭撞擊黑多拉的鏡頭。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "セグレイブ Seglaive",
-      "origin": "来自“背（せ）”（脊背）和英文 glaive（长柄刀、戟刀）或法文 glaive（罗马短剑）。"
+      "origin": "來自“背（せ）”（脊背）和英文 glaive（長柄刀、戟刀）或法文 glaive（羅馬短劍）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "戟脊龍戟脊龙",
-      "origin": "来自“戟”、“脊背”和“龙”。"
+      "name": "戟脊龍戟脊龍",
+      "origin": "來自“戟”、“脊背”和“龍”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "戟脊龍",
-      "origin": "来自“戟”、“脊背”和“龙”。"
+      "origin": "來自“戟”、“脊背”和“龍”。"
     },
     {
       "language": "英文",
       "name": "Baxcalibur",
-      "origin": "来自 back（脊背）、axe（斧）和 Excalibur（王者之剑：亚瑟王传说中的魔法圣剑）。"
+      "origin": "來自 back（脊背）、axe（斧）和 Excalibur（王者之劍：亞瑟王傳說中的魔法聖劍）。"
     },
     {
       "language": "法文",
       "name": "Glaivodo",
-      "origin": "来自 glaive（罗马短剑）和 dragon de Komodo（科莫多巨蜥）。"
+      "origin": "來自 glaive（羅馬短劍）和 dragon de Komodo（科莫多巨蜥）。"
     },
     {
       "language": "德文",
       "name": "Espinodon",
-      "origin": "来自学名 Spinosaurus（棘龙属）或西班牙文 espina（脊骨）和 -don（恐龙名常用的词尾）。"
+      "origin": "來自學名 Spinosaurus（棘龍屬）或西班牙文 espina（脊骨）和 -don（恐龍名常用的詞尾）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Baxcalibur",
       "origin": "同英文名。"
     },
@@ -49,36 +49,36 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "드닐레이브 Deunilleibeu",
-      "origin": "来自“등”（脊背）和英文 glaive（长柄刀、戟刀）或法文 glaive（罗马短剑）。"
+      "origin": "來自“등”（脊背）和英文 glaive（長柄刀、戟刀）或法文 glaive（羅馬短劍）。"
     }
   ],
   "forms": [
     {
-      "name": "戟脊龙",
+      "name": "戟脊龍",
       "types": [
-        "龙",
+        "龍",
         "冰"
       ],
-      "category": "冰龙宝可梦",
+      "category": "冰龍寶可夢",
       "abilities": [
         {
-          "name": "热交换",
+          "name": "熱交換",
           "is_hidden": false
         },
         {
-          "name": "冰冻之躯",
+          "name": "冰凍之軀",
           "is_hidden": true
         }
       ],
       "height": "2.1m",
       "weight": "210.0kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "10（1.3%）",
       "egg_groups": [
-        "龙",
-        "矿物群"
+        "龍",
+        "礦物群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -113,18 +113,18 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "40 孵化周期（10280步）",
+      "egg_cycles": "40 孵化週期（10280步）",
       "shape": "Body06.png",
       "footprint": "FUnknown.png",
-      "image": "0998-戟脊龙.png"
+      "image": "0998-戟脊龍.png"
     },
     {
-      "name": "超级戟脊龙",
+      "name": "超級戟脊龍",
       "types": [
-        "龙",
+        "龍",
         "冰"
       ],
-      "category": "冰龙宝可梦",
+      "category": "冰龍寶可夢",
       "abilities": [
         {
           "name": "未知",
@@ -133,11 +133,11 @@
       ],
       "height": "2.1m",
       "weight": "315.0kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "10（1.3%）",
       "egg_groups": [
-        "龙",
-        "矿物群"
+        "龍",
+        "礦物群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -172,10 +172,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "40 孵化周期（10280步）",
+      "egg_cycles": "40 孵化週期（10280步）",
       "shape": "Body06.png",
       "footprint": "FUnknown.png",
-      "image": "0998-戟脊龙-超级戟脊龙.png"
+      "image": "0998-戟脊龍-超級戟脊龍.png"
     }
   ],
   "stats": [
@@ -191,7 +191,7 @@
       }
     },
     {
-      "form": "超级进化",
+      "form": "超級進化",
       "data": {
         "hp": "115",
         "attack": "175",
@@ -206,7 +206,7 @@
     {
       "form": "",
       "types": [
-        "龙",
+        "龍",
         "冰"
       ],
       "data": [
@@ -215,11 +215,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -235,15 +235,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -259,7 +259,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -271,11 +271,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "2"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -291,18 +291,18 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "从嘴里喷射极低温的冷气。即使是灼热的熔岩，也能使其在一瞬间变成冰块。"
+          "group": "寶可夢 朱／紫",
+          "text": "從嘴裡噴射極低溫的冷氣。即使是灼熱的熔岩，也能使其在一瞬間變成冰塊。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "会倒转身体并从口中吐出冷气，然后靠吐气的作用力猛冲，用背鳍的剑给予敌人致命一击。"
+          "group": "寶可夢 朱／紫",
+          "text": "會倒轉身體並從口中吐出冷氣，然後靠吐氣的作用力猛衝，用背鰭的劍給予敵人致命一擊。"
         },
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "从嘴里吐出连熔岩都能冻结的冷气，再用尾巴一击粉碎冻住的敌人。背鳍的剑因超级进化而变得更加巨大。它会从上腹部的剑柄发射光束招式进行攻击。（超级进化）"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "從嘴裡吐出連熔岩都能凍結的冷氣，再用尾巴一擊粉碎凍住的敵人。背鰭的劍因超級進化而變得更加巨大。它會從上腹部的劍柄發射光束招式進行攻擊。（超級進化）"
         }
       ]
     }
@@ -310,8 +310,8 @@
   "evolution_chains": [
     [
       {
-        "name": "凉脊龙",
-        "stage": "未进化",
+        "name": "涼脊龍",
+        "stage": "未進化",
         "text": null,
         "image": "996Frigibax_Dream.png",
         "back_text": null,
@@ -319,29 +319,29 @@
         "form_name": null
       },
       {
-        "name": "冻脊龙",
-        "stage": "1阶进化",
-        "text": "等级35以上",
+        "name": "凍脊龍",
+        "stage": "1階進化",
+        "text": "等級35以上",
         "image": "997Arctibax_Dream.png",
         "back_text": null,
-        "from": "凉脊龙",
+        "from": "涼脊龍",
         "form_name": null
       },
       {
-        "name": "戟脊龙",
-        "stage": "2阶进化",
-        "text": "等级54以上",
+        "name": "戟脊龍",
+        "stage": "2階進化",
+        "text": "等級54以上",
         "image": "998Baxcalibur_Dream.png",
         "back_text": null,
-        "from": "冻脊龙",
+        "from": "凍脊龍",
         "form_name": null
       }
     ]
   ],
   "mega_evolution": [
     {
-      "name": "戟脊龙",
-      "form_name": "超级戟脊龙",
+      "name": "戟脊龍",
+      "form_name": "超級戟脊龍",
       "image": "998Baxcalibur-Mega.png"
     }
   ],
@@ -351,9 +351,9 @@
       "form": "一般",
       "data": [
         {
-          "level": "进化",
-          "name": "巨剑突击",
-          "type": "龙",
+          "level": "進化",
+          "name": "巨劍突擊",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
@@ -363,15 +363,15 @@
           "level": "—",
           "name": "雪景",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "—",
-          "name": "广域破坏",
-          "type": "龙",
+          "name": "廣域破壞",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -379,8 +379,8 @@
         },
         {
           "level": "—",
-          "name": "龙尾",
-          "type": "龙",
+          "name": "龍尾",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "90",
@@ -388,7 +388,7 @@
         },
         {
           "level": "—",
-          "name": "冰砾",
+          "name": "冰礫",
           "type": "冰",
           "category": "物理",
           "power": "40",
@@ -397,7 +397,7 @@
         },
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -408,14 +408,14 @@
           "level": "—",
           "name": "瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
         },
         {
           "level": "6",
-          "name": "冰冻之风",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -424,8 +424,8 @@
         },
         {
           "level": "12",
-          "name": "龙息",
-          "type": "龙",
+          "name": "龍息",
+          "type": "龍",
           "category": "特殊",
           "power": "60",
           "accuracy": "100",
@@ -433,9 +433,9 @@
         },
         {
           "level": "18",
-          "name": "聚气",
+          "name": "聚氣",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -443,7 +443,7 @@
         {
           "level": "24",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -451,7 +451,7 @@
         },
         {
           "level": "29",
-          "name": "冰冻牙",
+          "name": "冰凍牙",
           "type": "冰",
           "category": "物理",
           "power": "65",
@@ -460,8 +460,8 @@
         },
         {
           "level": "35",
-          "name": "龙爪",
-          "type": "龙",
+          "name": "龍爪",
+          "type": "龍",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -478,7 +478,7 @@
         },
         {
           "level": "48",
-          "name": "冰冻光束",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -488,7 +488,7 @@
         {
           "level": "55",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -496,7 +496,7 @@
         },
         {
           "level": "62",
-          "name": "冰柱坠击",
+          "name": "冰柱墜擊",
           "type": "冰",
           "category": "物理",
           "power": "85",
@@ -511,7 +511,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -520,35 +520,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００９",
-          "name": "雷电牙",
-          "type": "电",
+          "machine": "招式學習器００９",
+          "name": "雷電牙",
+          "type": "電",
           "category": "物理",
           "power": "65",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１０",
-          "name": "冰冻牙",
+          "machine": "招式學習器０１０",
+          "name": "冰凍牙",
           "type": "冰",
           "category": "物理",
           "power": "65",
@@ -556,8 +556,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -565,16 +565,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２７",
+          "machine": "招式學習器０２７",
           "name": "燕返",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２８",
+          "machine": "招式學習器０２８",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -583,8 +583,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３４",
-          "name": "冰冻之风",
+          "machine": "招式學習器０３４",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -592,16 +592,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４４",
-          "name": "龙尾",
-          "type": "龙",
+          "machine": "招式學習器０４４",
+          "name": "龍尾",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４６",
+          "machine": "招式學習器０４６",
           "name": "雪崩",
           "type": "冰",
           "category": "物理",
@@ -610,34 +610,34 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５２",
+          "machine": "招式學習器０５２",
           "name": "雪景",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５５",
+          "machine": "招式學習器０５５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -646,8 +646,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５７",
-          "name": "点到为止",
+          "machine": "招式學習器０５７",
+          "name": "點到為止",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -655,17 +655,17 @@
           "pp": "40"
         },
         {
-          "machine": "招式学习器０５８",
+          "machine": "招式學習器０５８",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０５９",
-          "name": "意念头锤",
+          "machine": "招式學習器０５９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -673,8 +673,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -682,26 +682,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７８",
-          "name": "龙爪",
-          "type": "龙",
+          "machine": "招式學習器０７８",
+          "name": "龍爪",
+          "type": "龍",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８４",
-          "name": "跺脚",
+          "machine": "招式學習器０８４",
+          "name": "跺腳",
           "type": "地面",
           "category": "物理",
           "power": "75",
@@ -709,89 +709,89 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８８",
-          "name": "剑舞",
+          "machine": "招式學習器０８８",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８９",
-          "name": "扑击",
-          "type": "格斗",
+          "machine": "招式學習器０８９",
+          "name": "撲擊",
+          "type": "格鬥",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９９",
-          "name": "铁头",
-          "type": "钢",
+          "machine": "招式學習器０９９",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１００",
-          "name": "龙之舞",
-          "type": "龙",
-          "category": "变化",
+          "machine": "招式學習器１００",
+          "name": "龍之舞",
+          "type": "龍",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０８",
+          "machine": "招式學習器１０８",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１５",
-          "name": "龙之波动",
-          "type": "龙",
+          "machine": "招式學習器１１５",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３５",
-          "name": "冰冻光束",
+          "machine": "招式學習器１３５",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -799,8 +799,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４３",
-          "name": "暴风雪",
+          "machine": "招式學習器１４３",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -808,7 +808,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４９",
+          "machine": "招式學習器１４９",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -817,8 +817,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -826,17 +826,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５６",
-          "name": "逆鳞",
-          "type": "龙",
+          "machine": "招式學習器１５６",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -844,17 +844,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６９",
+          "machine": "招式學習器１６９",
           "name": "流星群",
-          "type": "龙",
+          "type": "龍",
           "category": "特殊",
           "power": "130",
           "accuracy": "90",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -862,8 +862,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８６",
-          "name": "十万马力",
+          "machine": "招式學習器１８６",
+          "name": "十萬馬力",
           "type": "地面",
           "category": "物理",
           "power": "95",
@@ -871,8 +871,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８７",
-          "name": "冰锥",
+          "machine": "招式學習器１８７",
+          "name": "冰錐",
           "type": "冰",
           "category": "物理",
           "power": "25",
@@ -880,17 +880,17 @@
           "pp": "30"
         },
         {
-          "machine": "招式学习器２００",
-          "name": "鳞射",
-          "type": "龙",
+          "machine": "招式學習器２００",
+          "name": "鱗射",
+          "type": "龍",
           "category": "物理",
           "power": "25",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -898,19 +898,19 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２２",
-          "name": "广域破坏",
-          "type": "龙",
+          "machine": "招式學習器２２２",
+          "name": "廣域破壞",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２６",
-          "name": "龙声鼓舞",
-          "type": "龙",
-          "category": "变化",
+          "machine": "招式學習器２２６",
+          "name": "龍聲鼓舞",
+          "type": "龍",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -933,7 +933,7 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "冰锥",
+          "name": "冰錐",
           "type": "冰",
           "category": "物理",
           "power": "25",
@@ -944,23 +944,23 @@
           "parents": [
             {
               "id": "0130",
-              "name": "暴鲤龙"
+              "name": "暴鯉龍"
             },
             {
               "id": "0147",
-              "name": "迷你龙"
+              "name": "迷你龍"
             },
             {
               "id": "0148",
-              "name": "哈克龙"
+              "name": "哈克龍"
             },
             {
               "id": "0149",
-              "name": "快龙"
+              "name": "快龍"
             },
             {
               "id": "0350",
-              "name": "美纳斯"
+              "name": "美納斯"
             },
             {
               "id": "0690",
@@ -968,11 +968,11 @@
             },
             {
               "id": "0691",
-              "name": "毒藻龙"
+              "name": "毒藻龍"
             },
             {
               "id": "0706",
-              "name": "黏美龙"
+              "name": "黏美龍"
             }
           ],
           "name": "水流尾",
@@ -986,19 +986,19 @@
           "parents": [
             {
               "id": "0147",
-              "name": "迷你龙"
+              "name": "迷你龍"
             },
             {
               "id": "0148",
-              "name": "哈克龙"
+              "name": "哈克龍"
             },
             {
               "id": "0149",
-              "name": "快龙"
+              "name": "快龍"
             },
             {
               "id": "0329",
-              "name": "超音波幼虫"
+              "name": "超音波幼蟲"
             },
             {
               "id": "0330",
@@ -1006,43 +1006,43 @@
             },
             {
               "id": "0443",
-              "name": "圆陆鲨"
+              "name": "圓陸鯊"
             },
             {
               "id": "0444",
-              "name": "尖牙陆鲨"
+              "name": "尖牙陸鯊"
             },
             {
               "id": "0445",
-              "name": "烈咬陆鲨"
+              "name": "烈咬陸鯊"
             },
             {
               "id": "0633",
-              "name": "单首龙"
+              "name": "單首龍"
             },
             {
               "id": "0634",
-              "name": "双首暴龙"
+              "name": "雙首暴龍"
             },
             {
               "id": "0635",
-              "name": "三首恶龙"
+              "name": "三首惡龍"
             },
             {
               "id": "0841",
-              "name": "苹裹龙"
+              "name": "蘋裹龍"
             },
             {
               "id": "0886",
-              "name": "多龙奇"
+              "name": "多龍奇"
             },
             {
               "id": "0887",
-              "name": "多龙巴鲁托"
+              "name": "多龍巴魯託"
             }
           ],
-          "name": "龙之俯冲",
-          "type": "龙",
+          "name": "龍之俯衝",
+          "type": "龍",
           "category": "物理",
           "power": "100",
           "accuracy": "75",
@@ -1052,10 +1052,10 @@
           "parents": [
             {
               "id": null,
-              "name": "冰鬼护"
+              "name": "冰鬼護"
             }
           ],
-          "name": "冷冻干燥",
+          "name": "冷凍乾燥",
           "type": "冰",
           "category": "特殊",
           "power": "70",
@@ -1067,9 +1067,9 @@
   ],
   "home_images": [
     {
-      "name": "戟脊龙",
-      "image": "0998-戟脊龙.png",
-      "shiny": "0998-戟脊龙-shiny.png"
+      "name": "戟脊龍",
+      "image": "0998-戟脊龍.png",
+      "shiny": "0998-戟脊龍-shiny.png"
     }
   ]
 }

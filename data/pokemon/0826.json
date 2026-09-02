@@ -1,40 +1,40 @@
 {
-  "name_zh": "以欧路普",
+  "name_zh": "以歐路普",
   "name_ja": "イオルブ",
   "name_en": "Orbeetle",
   "pokedex_id": "0826",
-  "description": "以欧路普（日文︰イオルブ，英文︰Orbeetle）是虫属性／超能力属性宝可梦。",
-  "profile": "以欧路普的外观看起来就像是人形的宝可梦，有着手臂、身体以及腿部，但是它头顶部位有着一个巨大的外壳，这个外壳实际上看起来就像是七星瓢虫的身体，颜色为红色，而且有着圆形的图案分布，外壳实际上可以展开，把翅膀露出来。\n超极巨化之后的以欧路普背后的红色外壳变得非常巨大，其整体形状发生了改变，而且还会发出亮光，让其看起来就像是一个UFO一样。\n以欧路普以头脑聪慧而闻名。大大的脑子是它拥有出众精神力量的证明。它会释放出精神力量来调查周围的情况，侦测范围甚至可以达到方圆10公里。\n超极巨化以欧路普的全身以大脑为中心巨大化。拥有无与伦比的智力，和庞大的精神能量。在它竭尽全力时，能够操纵自己周围一切生物的心灵。",
-  "prototype": "以欧路普的原型可能是基于七星瓢虫，它的头部对应瓢虫的身体。\n超极巨化以欧路普可能是基于不明飞行物（UFO），飞碟的设计元素融入了瓢虫的身体。\n以欧路普整体的形象也像是疯狂科学家，它也有科幻题材作品超级反派的典型特征，比如脑部扩大、拥有高智力、掌握精神控制术等。\n以欧路普可能也融入了一些机器人动画的元素，它的触角可能基于RX-93 ν高达的天线，其巨大的脑部造型与RMS-119侦察型扎古的头部一体化雷达较为相似。",
-  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步以欧路普（Pokémon GO）。\n←\nNo.0825：天罩虫\n宝可梦\nNo.0827：狡小狐\n→",
+  "description": "以歐路普（日文︰イオルブ，英文︰Orbeetle）是蟲屬性／超能力屬性寶可夢。",
+  "profile": "以歐路普的外觀看起來就像是人形的寶可夢，有著手臂、身體以及腿部，但是它頭頂部位有著一個巨大的外殼，這個外殼實際上看起來就像是七星瓢蟲的身體，顏色為紅色，而且有著圓形的圖案分佈，外殼實際上可以展開，把翅膀露出來。\n超極巨化之後的以歐路普背後的紅色外殼變得非常巨大，其整體形狀發生了改變，而且還會發出亮光，讓其看起來就像是一個UFO一樣。\n以歐路普以頭腦聰慧而聞名。大大的腦子是它擁有出眾精神力量的證明。它會釋放出精神力量來調查周圍的情況，偵測範圍甚至可以達到方圓10公里。\n超極巨化以歐路普的全身以大腦為中心巨大化。擁有無與倫比的智力，和龐大的精神能量。在它竭盡全力時，能夠操縱自己周圍一切生物的心靈。",
+  "prototype": "以歐路普的原型可能是基於七星瓢蟲，它的頭部對應瓢蟲的身體。\n超極巨化以歐路普可能是基於不明飛行物（UFO），飛碟的設計元素融入了瓢蟲的身體。\n以歐路普整體的形象也像是瘋狂科學家，它也有科幻題材作品超級反派的典型特徵，比如腦部擴大、擁有高智力、掌握精神控制術等。\n以歐路普可能也融入了一些機器人動畫的元素，它的觸角可能基於RX-93 ν高達的天線，其巨大的腦部造型與RMS-119偵察型扎古的頭部一體化雷達較為相似。",
+  "detail": "如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步以歐路普（Pokémon GO）。\n←\nNo.0825：天罩蟲\n寶可夢\nNo.0827：狡小狐\n→",
   "names": [
     {
       "language": "日文",
       "name": "イオルブ Eolb",
-      "origin": "来自英文 Io（木卫一）和英文 orb（球、天体；环、轨道）。"
+      "origin": "來自英文 Io（木衛一）和英文 orb（球、天體；環、軌道）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "以歐路普以欧路普",
-      "origin": "来自日文名的音译。"
+      "name": "以歐路普以歐路普",
+      "origin": "來自日文名的音譯。"
     },
     {
       "language": "英文",
       "name": "Orbeetle",
-      "origin": "来自 orb（球、天体）、orbital（轨道的）和 lady beetle（瓢虫）。"
+      "origin": "來自 orb（球、天體）、orbital（軌道的）和 lady beetle（瓢蟲）。"
     },
     {
       "language": "法文",
       "name": "Astronelle",
-      "origin": "来自 astronef（宇宙飞船）和 coccinelle（瓢虫）。"
+      "origin": "來自 astronef（宇宙飛船）和 coccinelle（瓢蟲）。"
     },
     {
       "language": "德文",
       "name": "Maritellit",
-      "origin": "来自 Marienkäfer（瓢虫）和 Satellit（人造卫星）。"
+      "origin": "來自 Marienkäfer（瓢蟲）和 Satellit（人造衛星）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Orbeetle",
       "origin": "同英文名。"
     },
@@ -44,41 +44,41 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "이올브 Eolb",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     }
   ],
   "forms": [
     {
-      "name": "以欧路普",
+      "name": "以歐路普",
       "types": [
-        "虫",
+        "蟲",
         "超能力"
       ],
-      "category": "七星宝可梦",
+      "category": "七星寶可夢",
       "abilities": [
         {
-          "name": "虫之预感",
+          "name": "蟲之預感",
           "is_hidden": false
         },
         {
-          "name": "察觉",
+          "name": "察覺",
           "is_hidden": false
         },
         {
-          "name": "心灵感应",
+          "name": "心靈感應",
           "is_hidden": true
         }
       ],
       "height": "0.4m",
       "weight": "40.8kg",
-      "color": "红色",
+      "color": "紅色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "虫群"
+        "蟲群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -111,40 +111,40 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "15 孵化周期（3855步）",
+      "egg_cycles": "15 孵化週期（3855步）",
       "shape": "Body09.png",
       "footprint": "FUnknown.png",
-      "image": "0826-以欧路普.png"
+      "image": "0826-以歐路普.png"
     },
     {
-      "name": "超极巨化以欧路普",
+      "name": "超極巨化以歐路普",
       "types": [
-        "虫",
+        "蟲",
         "超能力"
       ],
-      "category": "七星宝可梦",
+      "category": "七星寶可夢",
       "abilities": [
         {
-          "name": "虫之预感",
+          "name": "蟲之預感",
           "is_hidden": false
         },
         {
-          "name": "察觉",
+          "name": "察覺",
           "is_hidden": false
         },
         {
-          "name": "心灵感应",
+          "name": "心靈感應",
           "is_hidden": true
         }
       ],
       "height": "14.0~??.?m",
       "weight": "???.?kg",
-      "color": "红色",
+      "color": "紅色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "虫群"
+        "蟲群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -177,10 +177,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "15 孵化周期（3855步）",
+      "egg_cycles": "15 孵化週期（3855步）",
       "shape": "Body09.png",
       "footprint": "FUnknown.png",
-      "image": "0826-以欧路普-超极巨化以欧路普.png"
+      "image": "0826-以歐路普-超極巨化以歐路普.png"
     }
   ],
   "stats": [
@@ -200,7 +200,7 @@
     {
       "form": "",
       "types": [
-        "虫",
+        "蟲",
         "超能力"
       ],
       "data": [
@@ -209,11 +209,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.25"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "2"
         },
         {
@@ -229,15 +229,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "2"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -253,7 +253,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -265,11 +265,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -284,14 +284,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "以头脑聪慧而闻名。大大的脑子是它拥有出众精神力量的证明。全身以大脑为中心巨大化。拥有无与伦比的智力，和庞大的精神能量。（超极巨化）"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "以頭腦聰慧而聞名。大大的腦子是它擁有出眾精神力量的證明。全身以大腦為中心巨大化。擁有無與倫比的智力，和龐大的精神能量。（超極巨化）"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "释放出精神力量来调查周围的情况。它的侦测范围甚至可以达到方圆１０公里。在它竭尽全力时，能够操纵自己周围一切生物的心灵。（超极巨化）"
+          "group": "寶可夢 劍／盾",
+          "text": "釋放出精神力量來調查周圍的情況。它的偵測範圍甚至可以達到方圓１０公里。在它竭盡全力時，能夠操縱自己周圍一切生物的心靈。（超極巨化）"
         }
       ]
     }
@@ -299,8 +299,8 @@
   "evolution_chains": [
     [
       {
-        "name": "索侦虫",
-        "stage": "未进化",
+        "name": "索偵蟲",
+        "stage": "未進化",
         "text": null,
         "image": "824Blipbug_Dream.png",
         "back_text": null,
@@ -308,21 +308,21 @@
         "form_name": null
       },
       {
-        "name": "天罩虫",
-        "stage": "1阶进化",
-        "text": "等级10以上",
+        "name": "天罩蟲",
+        "stage": "1階進化",
+        "text": "等級10以上",
         "image": "825Dottler_Dream.png",
         "back_text": null,
-        "from": "索侦虫",
+        "from": "索偵蟲",
         "form_name": null
       },
       {
-        "name": "以欧路普",
-        "stage": "2阶进化",
-        "text": "等级30以上",
+        "name": "以歐路普",
+        "stage": "2階進化",
+        "text": "等級30以上",
         "image": "826Orbeetle_Dream.png",
         "back_text": null,
-        "from": "天罩虫",
+        "from": "天罩蟲",
         "form_name": null
       }
     ]
@@ -330,8 +330,8 @@
   "mega_evolution": [],
   "gigantamax_evolution": [
     {
-      "name": "以欧路普",
-      "form_name": "超极巨化的样子",
+      "name": "以歐路普",
+      "form_name": "超極巨化的樣子",
       "image": "826Orbeetle-Gigantamax_Dream.png"
     }
   ],
@@ -341,8 +341,8 @@
       "data": [
         {
           "level": "—",
-          "name": "虫之抵抗",
-          "type": "虫",
+          "name": "蟲之抵抗",
+          "type": "蟲",
           "category": "特殊",
           "power": "50",
           "accuracy": "100",
@@ -359,9 +359,9 @@
         },
         {
           "level": "—",
-          "name": "光墙",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -370,16 +370,16 @@
           "level": "—",
           "name": "反射壁",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "4",
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -388,23 +388,23 @@
           "level": "8",
           "name": "魔法反射",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "12",
-          "name": "高速移动",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "16",
-          "name": "幻象光线",
+          "name": "幻象光線",
           "type": "超能力",
           "category": "特殊",
           "power": "65",
@@ -413,26 +413,26 @@
         },
         {
           "level": "20",
-          "name": "催眠术",
+          "name": "催眠術",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "60",
           "pp": "20"
         },
         {
           "level": "24",
-          "name": "交换场地",
+          "name": "交換場地",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "28",
-          "name": "虫鸣",
-          "type": "虫",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
@@ -440,16 +440,16 @@
         },
         {
           "level": "32",
-          "name": "镜面反射",
+          "name": "鏡面反射",
           "type": "超能力",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "36",
-          "name": "精神强念",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -458,9 +458,9 @@
         },
         {
           "level": "40",
-          "name": "您先请",
+          "name": "您先請",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -469,16 +469,16 @@
           "level": "44",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "48",
-          "name": "精神场地",
+          "name": "精神場地",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -491,8 +491,8 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -500,8 +500,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９",
-          "name": "终极冲击",
+          "machine": "招式學習器０９",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -509,7 +509,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１１",
+          "machine": "招式學習器１１",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -518,43 +518,43 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７",
-          "name": "光墙",
+          "machine": "招式學習器１７",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器１８",
+          "machine": "招式學習器１８",
           "name": "反射壁",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１９",
-          "name": "神秘守护",
+          "machine": "招式學習器１９",
+          "name": "神秘守護",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -563,17 +563,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２８",
-          "name": "终极吸取",
+          "machine": "招式學習器２８",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -581,17 +581,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -599,61 +599,61 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４１",
-          "name": "帮助",
+          "machine": "招式學習器４１",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器４４",
+          "machine": "招式學習器４４",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器５６",
+          "machine": "招式學習器５６",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器５７",
-          "name": "以牙还牙",
-          "type": "恶",
+          "machine": "招式學習器５７",
+          "name": "以牙還牙",
+          "type": "惡",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６０",
-          "name": "力量互换",
+          "machine": "招式學習器６０",
+          "name": "力量互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６１",
-          "name": "防守互换",
+          "machine": "招式學習器６１",
+          "name": "防守互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６９",
+          "machine": "招式學習器６９",
           "name": "精神利刃",
           "type": "超能力",
           "category": "物理",
@@ -662,35 +662,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器７０",
-          "name": "戏法空间",
+          "machine": "招式學習器７０",
+          "name": "戲法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器７１",
-          "name": "奇妙空间",
+          "machine": "招式學習器７１",
+          "name": "奇妙空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７２",
-          "name": "魔法空间",
+          "machine": "招式學習器７２",
+          "name": "魔法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -698,8 +698,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器９１",
-          "name": "精神场地",
+          "machine": "招式學習器９１",
+          "name": "精神場地",
           "type": "超能力",
           "category": "特殊",
           "power": "—",
@@ -707,8 +707,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录１１",
-          "name": "精神强念",
+          "machine": "招式記錄１１",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -716,35 +716,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录１２",
-          "name": "高速移动",
+          "machine": "招式記錄１２",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式记录１８",
+          "machine": "招式記錄１８",
           "name": "汲取",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２５",
-          "name": "精神冲击",
+          "machine": "招式記錄２５",
+          "name": "精神衝擊",
           "type": "超能力",
           "category": "特殊",
           "power": "80",
@@ -752,44 +752,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２９",
+          "machine": "招式記錄２９",
           "name": "接棒",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
         },
         {
-          "machine": "招式记录３３",
+          "machine": "招式記錄３３",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３４",
-          "name": "预知未来",
+          "machine": "招式記錄３４",
+          "name": "預知未來",
           "type": "超能力",
           "category": "特殊",
           "power": "120",
@@ -797,52 +797,52 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３８",
-          "name": "戏法",
+          "machine": "招式記錄３８",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录４０",
-          "name": "特性互换",
+          "machine": "招式記錄４０",
+          "name": "特性互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录４６",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式記錄４６",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式记录４９",
+          "machine": "招式記錄４９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录６１",
-          "name": "虫鸣",
-          "type": "虫",
+          "machine": "招式記錄６１",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式记录６５",
+          "machine": "招式記錄６５",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -851,8 +851,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录６９",
-          "name": "意念头锤",
+          "machine": "招式記錄６９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -860,8 +860,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录８２",
-          "name": "辅助力量",
+          "machine": "招式記錄８２",
+          "name": "輔助力量",
           "type": "超能力",
           "category": "特殊",
           "power": "20",
@@ -869,18 +869,18 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录８３",
-          "name": "交换场地",
+          "machine": "招式記錄８３",
+          "name": "交換場地",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式记录９９",
-          "name": "扑击",
-          "type": "格斗",
+          "machine": "招式記錄９９",
+          "name": "撲擊",
+          "type": "格鬥",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -905,11 +905,11 @@
             },
             {
               "id": "873",
-              "name": "雪绒蛾"
+              "name": "雪絨蛾"
             }
           ],
-          "name": "纠缠不休",
-          "type": "虫",
+          "name": "糾纏不休",
+          "type": "蟲",
           "category": "特殊",
           "power": "20",
           "accuracy": "100",
@@ -923,7 +923,7 @@
             },
             {
               "id": "329",
-              "name": "超音波幼虫"
+              "name": "超音波幼蟲"
             },
             {
               "id": "330",
@@ -932,7 +932,7 @@
           ],
           "name": "超音波",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "55",
           "pp": "20"
@@ -941,28 +941,28 @@
           "parents": [
             {
               "id": "213",
-              "name": "壶壶"
+              "name": "壺壺"
             },
             {
               "id": "596",
-              "name": "电蜘蛛"
+              "name": "電蜘蛛"
             },
             {
               "id": "736",
-              "name": "强颚鸡母虫"
+              "name": "強顎雞母蟲"
             },
             {
               "id": null,
-              "name": "虫电宝"
+              "name": "蟲電寶"
             },
             {
               "id": null,
-              "name": "锹农炮虫"
+              "name": "鍬農炮蟲"
             }
           ],
-          "name": "黏黏网",
-          "type": "虫",
-          "category": "变化",
+          "name": "黏黏網",
+          "type": "蟲",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -971,16 +971,16 @@
           "parents": [
             {
               "id": null,
-              "name": "小嘴蜗"
+              "name": "小嘴蝸"
             },
             {
               "id": null,
-              "name": "敏捷虫"
+              "name": "敏捷蟲"
             }
           ],
           "name": "自我再生",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -990,14 +990,14 @@
   ],
   "home_images": [
     {
-      "name": "以欧路普",
-      "image": "0826-以欧路普.png",
-      "shiny": "0826-以欧路普-shiny.png"
+      "name": "以歐路普",
+      "image": "0826-以歐路普.png",
+      "shiny": "0826-以歐路普-shiny.png"
     },
     {
-      "name": "以欧路普-超极巨化",
-      "image": "0826-以欧路普-超极巨化.png",
-      "shiny": "0826-以欧路普-超极巨化-shiny.png"
+      "name": "以歐路普-超極巨化",
+      "image": "0826-以歐路普-超極巨化.png",
+      "shiny": "0826-以歐路普-超極巨化-shiny.png"
     }
   ]
 }

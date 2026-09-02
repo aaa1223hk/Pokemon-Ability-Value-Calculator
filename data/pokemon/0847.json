@@ -3,38 +3,38 @@
   "name_ja": "カマスジョー",
   "name_en": "Barraskewda",
   "pokedex_id": "0847",
-  "description": "戽斗尖梭（日文︰カマスジョー，英文︰Barraskewda）是水属性宝可梦。",
-  "profile": "戽斗尖梭的身体基本是米黄色，头部和背部是深棕色。它的身体两侧有鱼骨状花纹，前胸和接近尾部的地方有一对红色的鱼鳍。背部有一段背鳍，尾巴由几片尾鳍组成，可以像螺旋桨一样可以转动。\n戽斗尖梭像长矛一样尖锐的下巴拥有钢铁般的硬度。它会旋转着自己的尾鳍一口气突击，然后以强劲的力道咬住飞在水面附近的长翅鸥。它以超过100节的速度游泳，会为了争夺食物和波普海豚的群体展开激烈的斗争。据说它的肉好吃得惊人。",
-  "prototype": "戽斗尖梭基于梭子鱼，特别是牙齿尖锐且攻击性强的大鳞魣，日本称其为“鬼梭鱼”。\n戽斗尖梭的头部形状类似鱼叉，尾部基于螺旋桨，腹部花纹和鱼鳍部分可能还融入了鱼骨及瓶中船的元素。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步戽斗尖梭（Pokémon GO）。\n←\nNo.0846：刺梭鱼\n宝可梦\nNo.0848：电音婴\n→",
+  "description": "戽斗尖梭（日文︰カマスジョー，英文︰Barraskewda）是水屬性寶可夢。",
+  "profile": "戽斗尖梭的身體基本是米黃色，頭部和背部是深棕色。它的身體兩側有魚骨狀花紋，前胸和接近尾部的地方有一對紅色的魚鰭。背部有一段背鰭，尾巴由幾片尾鰭組成，可以像螺旋槳一樣可以轉動。\n戽斗尖梭像長矛一樣尖銳的下巴擁有鋼鐵般的硬度。它會旋轉著自己的尾鰭一口氣突擊，然後以強勁的力道咬住飛在水面附近的長翅鷗。它以超過100節的速度游泳，會為了爭奪食物和波普海豚的群體展開激烈的鬥爭。據說它的肉好吃得驚人。",
+  "prototype": "戽斗尖梭基於梭子魚，特別是牙齒尖銳且攻擊性強的大鱗魣，日本稱其為“鬼梭魚”。\n戽斗尖梭的頭部形狀類似魚叉，尾部基於螺旋槳，腹部花紋和魚鰭部分可能還融入了魚骨及瓶中船的元素。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步戽斗尖梭（Pokémon GO）。\n←\nNo.0846：刺梭魚\n寶可夢\nNo.0848：電音嬰\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "カマスジョー Kamasujaw",
-      "origin": "来自“カマス”（梭子鱼）和 jaw（颚）。"
+      "origin": "來自“カマス”（梭子魚）和 jaw（顎）。"
     },
     {
       "language": "中文-任天堂",
       "name": "戽斗尖梭",
-      "origin": "来自“戽斗”（下颚突出）和“尖梭鱼”。"
+      "origin": "來自“戽斗”（下顎突出）和“尖梭魚”。"
     },
     {
       "language": "英文",
       "name": "Barraskewda",
-      "origin": "来自 barracuda（梭鱼）和 skewer（刺穿）"
+      "origin": "來自 barracuda（梭魚）和 skewer（刺穿）"
     },
     {
       "language": "法文",
       "name": "Hastacuda",
-      "origin": "来自 hasta（拉丁语的“矛”，现代法语作 hâte ）和 barracuda（梭子鱼）。"
+      "origin": "來自 hasta（拉丁語的“矛”，現代法語作 hâte ）和 barracuda（梭子魚）。"
     },
     {
       "language": "德文",
       "name": "Barrakiefa",
-      "origin": "来自 Barrakuda（梭子鱼）和 Kiefer（下颚）。"
+      "origin": "來自 Barrakuda（梭子魚）和 Kiefer（下顎）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Barraskewda",
       "origin": "同英文名。"
     },
@@ -44,9 +44,9 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "꼬치조 Kkochijo",
-      "origin": "来自“꼬치고기”（梭子鱼）和 jaw（颚）。"
+      "origin": "來自“꼬치고기”（梭子魚）和 jaw（顎）。"
     }
   ],
   "forms": [
@@ -55,14 +55,14 @@
       "types": [
         "水"
       ],
-      "category": "穿刺宝可梦",
+      "category": "穿刺寶可夢",
       "abilities": [
         {
-          "name": "悠游自如",
+          "name": "悠遊自如",
           "is_hidden": false
         },
         {
-          "name": "螺旋尾鳍",
+          "name": "螺旋尾鰭",
           "is_hidden": true
         }
       ],
@@ -106,7 +106,7 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body03.png",
       "footprint": "FUnknown.png",
       "image": "0847-戽斗尖梭.png"
@@ -137,11 +137,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -157,15 +157,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -181,7 +181,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -193,11 +193,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -212,14 +212,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "像长矛一样尖锐的下巴拥有钢铁般的硬度。据说它的肉好吃得惊人。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "像長矛一樣尖銳的下巴擁有鋼鐵般的硬度。據說它的肉好吃得驚人。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "会旋转着自己的尾鳍一口气突击。能够以超过１００节的速度贯穿猎物。"
+          "group": "寶可夢 劍／盾",
+          "text": "會旋轉著自己的尾鰭一口氣突擊。能夠以超過１００節的速度貫穿獵物。"
         }
       ]
     },
@@ -228,13 +228,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "旋转尾鳍猛地跳起，然后以强劲的力道咬住飞在水面附近的长翅鸥。"
+          "group": "寶可夢 朱／紫",
+          "text": "旋轉尾鰭猛地跳起，然後以強勁的力道咬住飛在水面附近的長翅鷗。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "以超过１００节的速度游泳。会为了争夺食物和波普海豚的群体展开激烈的斗争。"
+          "group": "寶可夢 朱／紫",
+          "text": "以超過１００節的速度游泳。會為了爭奪食物和波普海豚的群體展開激烈的鬥爭。"
         }
       ]
     }
@@ -242,8 +242,8 @@
   "evolution_chains": [
     [
       {
-        "name": "刺梭鱼",
-        "stage": "未进化",
+        "name": "刺梭魚",
+        "stage": "未進化",
         "text": null,
         "image": "846Arrokuda_Dream.png",
         "back_text": null,
@@ -252,11 +252,11 @@
       },
       {
         "name": "戽斗尖梭",
-        "stage": "1阶进化",
-        "text": "等级26以上",
+        "stage": "1階進化",
+        "text": "等級26以上",
         "image": "847Barraskewda_Dream.png",
         "back_text": null,
-        "from": "刺梭鱼",
+        "from": "刺梭魚",
         "form_name": null
       }
     ]
@@ -269,7 +269,7 @@
       "data": [
         {
           "level": "—",
-          "name": "乱击",
+          "name": "亂擊",
           "type": "一般",
           "category": "物理",
           "power": "15",
@@ -279,7 +279,7 @@
         {
           "level": "—",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -288,7 +288,7 @@
         {
           "level": "—",
           "name": "啄",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "35",
           "accuracy": "100",
@@ -296,7 +296,7 @@
         },
         {
           "level": "—",
-          "name": "水流喷射",
+          "name": "水流噴射",
           "type": "水",
           "category": "物理",
           "power": "40",
@@ -305,8 +305,8 @@
         },
         {
           "level": "—",
-          "name": "深渊突刺",
-          "type": "恶",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -314,16 +314,16 @@
         },
         {
           "level": "18",
-          "name": "高速移动",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "24",
-          "name": "潜水",
+          "name": "潛水",
           "type": "水",
           "category": "物理",
           "power": "80",
@@ -332,9 +332,9 @@
         },
         {
           "level": "32",
-          "name": "聚气",
+          "name": "聚氣",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -342,7 +342,7 @@
         {
           "level": "40",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -359,7 +359,7 @@
         },
         {
           "level": "56",
-          "name": "舍身冲撞",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -374,7 +374,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -383,35 +383,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００４",
-          "name": "高速移动",
+          "machine": "招式學習器００４",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１０",
-          "name": "冰冻牙",
+          "machine": "招式學習器０１０",
+          "name": "冰凍牙",
           "type": "冰",
           "category": "物理",
           "power": "65",
@@ -419,8 +419,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１１",
-          "name": "水之波动",
+          "machine": "招式學習器０１１",
+          "name": "水之波動",
           "type": "水",
           "category": "特殊",
           "power": "60",
@@ -428,8 +428,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２２",
-          "name": "泼冷水",
+          "machine": "招式學習器０２２",
+          "name": "潑冷水",
           "type": "水",
           "category": "特殊",
           "power": "50",
@@ -437,8 +437,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -446,7 +446,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -455,34 +455,34 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５８",
+          "machine": "招式學習器０５８",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６３",
+          "machine": "招式學習器０６３",
           "name": "精神之牙",
           "type": "超能力",
           "category": "物理",
@@ -491,16 +491,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７７",
+          "machine": "招式學習器０７７",
           "name": "攀瀑",
           "type": "水",
           "category": "物理",
@@ -509,8 +509,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８３",
-          "name": "毒击",
+          "machine": "招式學習器０８３",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -518,26 +518,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０６",
-          "name": "直冲钻",
+          "machine": "招式學習器１０６",
+          "name": "直衝鑽",
           "type": "地面",
           "category": "物理",
           "power": "80",
@@ -545,16 +545,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０８",
+          "machine": "招式學習器１０８",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１０",
+          "machine": "招式學習器１１０",
           "name": "水流裂破",
           "type": "水",
           "category": "物理",
@@ -563,8 +563,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２３",
-          "name": "冲浪",
+          "machine": "招式學習器１２３",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -572,8 +572,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３５",
-          "name": "冰冻光束",
+          "machine": "招式學習器１３５",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -581,7 +581,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４２",
+          "machine": "招式學習器１４２",
           "name": "水炮",
           "type": "水",
           "category": "特殊",
@@ -590,8 +590,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４３",
-          "name": "暴风雪",
+          "machine": "招式學習器１４３",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -599,8 +599,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -608,8 +608,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -617,17 +617,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６７",
-          "name": "近身战",
-          "type": "格斗",
+          "machine": "招式學習器１６７",
+          "name": "近身戰",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -635,7 +635,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９６",
+          "machine": "招式學習器１９６",
           "name": "快速折返",
           "type": "水",
           "category": "物理",
@@ -644,17 +644,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器２００",
-          "name": "鳞射",
-          "type": "龙",
+          "machine": "招式學習器２００",
+          "name": "鱗射",
+          "type": "龍",
           "category": "物理",
           "power": "25",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -662,7 +662,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２０８",
+          "machine": "招式學習器２０８",
           "name": "潮旋",
           "type": "水",
           "category": "特殊",
@@ -671,9 +671,9 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２１",
-          "name": "深渊突刺",
-          "type": "恶",
+          "machine": "招式學習器２２１",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -690,26 +690,26 @@
           "parents": [
             {
               "id": "0130",
-              "name": "暴鲤龙"
+              "name": "暴鯉龍"
             },
             {
               "id": "0340",
-              "name": "鲶鱼王"
+              "name": "鯰魚王"
             },
             {
               "id": "0550",
-              "name": "野蛮鲈鱼"
+              "name": "野蠻鱸魚"
             },
             {
               "id": "0550W",
-              "name": "野蛮鲈鱼"
+              "name": "野蠻鱸魚"
             },
             {
               "id": "0902",
-              "name": "幽尾玄鱼"
+              "name": "幽尾玄魚"
             }
           ],
-          "name": "大闹一番",
+          "name": "大鬧一番",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -720,18 +720,18 @@
           "parents": [
             {
               "id": "0686",
-              "name": "好啦鱿"
+              "name": "好啦魷"
             },
             {
               "id": "0687",
-              "name": "乌贼王"
+              "name": "烏賊王"
             },
             {
               "id": "0976",
-              "name": "轻身鳕"
+              "name": "輕身鱈"
             }
           ],
-          "name": "劈开",
+          "name": "劈開",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -742,20 +742,20 @@
           "parents": [
             {
               "id": "0211",
-              "name": "千针鱼"
+              "name": "千針魚"
             },
             {
               "id": "0211H",
-              "name": "千针鱼"
+              "name": "千針魚"
             },
             {
               "id": "0904",
-              "name": "万针鱼"
+              "name": "萬針魚"
             }
           ],
-          "name": "点穴",
+          "name": "點穴",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -764,19 +764,19 @@
           "parents": [
             {
               "id": "0686",
-              "name": "好啦鱿"
+              "name": "好啦魷"
             },
             {
               "id": "0687",
-              "name": "乌贼王"
+              "name": "烏賊王"
             },
             {
               "id": "0976",
-              "name": "轻身鳕"
+              "name": "輕身鱈"
             }
           ],
-          "name": "暗袭要害",
-          "type": "恶",
+          "name": "暗襲要害",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",

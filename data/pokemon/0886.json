@@ -1,45 +1,45 @@
 {
-  "name_zh": "多龙奇",
+  "name_zh": "多龍奇",
   "name_ja": "ドロンチ",
   "name_en": "Drakloak",
   "pokedex_id": "0886",
-  "description": "多龙奇（日文︰ドロンチ，英文︰Drakloak）是龙属性／幽灵属性宝可梦。",
-  "profile": "多龙奇的体型比多龙梅西亚要大不少，它头部的花纹变得多了起来，线条也变得更加清晰，尾巴出现了尾端透明的情况，多龙奇的头上会固定趴着一只多龙梅西亚。\n多龙奇的飞行速度为每小时200公里，会在肺部储存能量并进行攻击。在多龙梅西亚能独当一面之前，它会与多龙梅西亚一起战斗，到它进化为止都会细心照顾。一旦输了对战，多龙梅西亚会二话不说地消失无踪。要是没让自己在照顾的多龙梅西亚乘在头上就静不下心来，甚至会因此试图把别的宝可梦放到头上。",
-  "prototype": "多龙奇的原型可能是基于笠头螈和隐形战机，它头上的多龙梅西亚可能来自导弹。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步多龙奇（Pokémon GO）。\n←\nNo.0885：多龙梅西亚\n宝可梦\nNo.0887：多龙巴鲁托\n→",
+  "description": "多龍奇（日文︰ドロンチ，英文︰Drakloak）是龍屬性／幽靈屬性寶可夢。",
+  "profile": "多龍奇的體型比多龍梅西亞要大不少，它頭部的花紋變得多了起來，線條也變得更加清晰，尾巴出現了尾端透明的情況，多龍奇的頭上會固定趴著一隻多龍梅西亞。\n多龍奇的飛行速度為每小時200公里，會在肺部儲存能量並進行攻擊。在多龍梅西亞能獨當一面之前，它會與多龍梅西亞一起戰鬥，到它進化為止都會細心照顧。一旦輸了對戰，多龍梅西亞會二話不說地消失無蹤。要是沒讓自己在照顧的多龍梅西亞乘在頭上就靜不下心來，甚至會因此試圖把別的寶可夢放到頭上。",
+  "prototype": "多龍奇的原型可能是基於笠頭螈和隱形戰機，它頭上的多龍梅西亞可能來自導彈。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步多龍奇（Pokémon GO）。\n←\nNo.0885：多龍梅西亞\n寶可夢\nNo.0887：多龍巴魯託\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ドロンチ Doronch",
-      "origin": "来自英文 dragon（龙）和英文 launch（发射）。"
+      "origin": "來自英文 dragon（龍）和英文 launch（發射）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "多龍奇多龙奇",
-      "origin": "来自“龙”和日文名的音译。"
+      "name": "多龍奇多龍奇",
+      "origin": "來自“龍”和日文名的音譯。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "多龍奇",
-      "origin": "来自“龙”和日文名的音译。"
+      "origin": "來自“龍”和日文名的音譯。"
     },
     {
       "language": "英文",
       "name": "Drakloak",
-      "origin": "来自 dragon（龙）和 cloak（斗篷；掩盖、笼罩）。"
+      "origin": "來自 dragon（龍）和 cloak（斗篷；掩蓋、籠罩）。"
     },
     {
       "language": "法文",
       "name": "Dispareptil",
-      "origin": "来自 disparaître（消失）、西班牙文 disparar（射击）和 reptile（爬行动物）。"
+      "origin": "來自 disparaître（消失）、西班牙文 disparar（射擊）和 reptile（爬行動物）。"
     },
     {
       "language": "德文",
       "name": "Phandra",
-      "origin": "来自 Phantom（幽灵、幻影）和 Drache（龙）。"
+      "origin": "來自 Phantom（幽靈、幻影）和 Drache（龍）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Drakloak",
       "origin": "同英文名。"
     },
@@ -49,22 +49,22 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "드래런치 Dralaunch",
-      "origin": "来自英文 dragon（龙）和英文 launch（发射）。"
+      "origin": "來自英文 dragon（龍）和英文 launch（發射）。"
     }
   ],
   "forms": [
     {
-      "name": "多龙奇",
+      "name": "多龍奇",
       "types": [
-        "龙",
-        "幽灵"
+        "龍",
+        "幽靈"
       ],
-      "category": "保姆宝可梦",
+      "category": "保姆寶可夢",
       "abilities": [
         {
-          "name": "恒净之躯",
+          "name": "恆淨之軀",
           "is_hidden": false
         },
         {
@@ -72,17 +72,17 @@
           "is_hidden": false
         },
         {
-          "name": "咒术之躯",
+          "name": "咒術之軀",
           "is_hidden": true
         }
       ],
       "height": "1.4m",
       "weight": "11.0kg",
-      "color": "绿色",
+      "color": "綠色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
         "不定形",
-        "龙群"
+        "龍群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -117,10 +117,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "40 孵化周期（10280步）",
+      "egg_cycles": "40 孵化週期（10280步）",
       "shape": "Body04.png",
       "footprint": "FUnknown.png",
-      "image": "0886-多龙奇.png"
+      "image": "0886-多龍奇.png"
     }
   ],
   "stats": [
@@ -140,8 +140,8 @@
     {
       "form": "",
       "types": [
-        "龙",
-        "幽灵"
+        "龍",
+        "幽靈"
       ],
       "data": [
         {
@@ -149,11 +149,11 @@
           "damage": "0"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -169,15 +169,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -193,7 +193,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -205,11 +205,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "2"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -224,14 +224,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "飞行速度为每小时２００公里。与多龙梅西亚一起战斗，到它进化为止都会细心照顾。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "飛行速度為每小時２００公里。與多龍梅西亞一起戰鬥，到它進化為止都會細心照顧。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "要是没让自己在照顾的多龙梅西亚乘在头上就静不下心来，甚至会因此试图把别的宝可梦放到头上。"
+          "group": "寶可夢 劍／盾",
+          "text": "要是沒讓自己在照顧的多龍梅西亞乘在頭上就靜不下心來，甚至會因此試圖把別的寶可夢放到頭上。"
         }
       ]
     },
@@ -240,13 +240,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "能以时速２００公里四处飞行。一旦输了对战，多龙梅西亚会二话不说地消失无踪。"
+          "group": "寶可夢 朱／紫",
+          "text": "能以時速２００公里四處飛行。一旦輸了對戰，多龍梅西亞會二話不說地消失無蹤。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "会在肺部储存能量并进行攻击。在多龙梅西亚能独当一面之前，会和它一起战斗并照顾它。"
+          "group": "寶可夢 朱／紫",
+          "text": "會在肺部儲存能量並進行攻擊。在多龍梅西亞能獨當一面之前，會和它一起戰鬥並照顧它。"
         }
       ]
     }
@@ -254,8 +254,8 @@
   "evolution_chains": [
     [
       {
-        "name": "多龙梅西亚",
-        "stage": "未进化",
+        "name": "多龍梅西亞",
+        "stage": "未進化",
         "text": null,
         "image": "885Dreepy_Dream.png",
         "back_text": null,
@@ -263,21 +263,21 @@
         "form_name": null
       },
       {
-        "name": "多龙奇",
-        "stage": "1阶进化",
-        "text": "等级50以上",
+        "name": "多龍奇",
+        "stage": "1階進化",
+        "text": "等級50以上",
         "image": "886Drakloak_Dream.png",
         "back_text": null,
-        "from": "多龙梅西亚",
+        "from": "多龍梅西亞",
         "form_name": null
       },
       {
-        "name": "多龙巴鲁托",
-        "stage": "2阶进化",
-        "text": "等级60以上",
+        "name": "多龍巴魯託",
+        "stage": "2階進化",
+        "text": "等級60以上",
         "image": "887Dragapult_Dream.png",
         "back_text": null,
-        "from": "多龙奇",
+        "from": "多龍奇",
         "form_name": null
       }
     ]
@@ -289,9 +289,9 @@
       "form": "一般",
       "data": [
         {
-          "level": "进化",
-          "name": "龙之波动",
-          "type": "龙",
+          "level": "進化",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
@@ -299,8 +299,8 @@
         },
         {
           "level": "—",
-          "name": "纠缠不休",
-          "type": "虫",
+          "name": "糾纏不休",
+          "type": "蟲",
           "category": "特殊",
           "power": "20",
           "accuracy": "100",
@@ -309,7 +309,7 @@
         {
           "level": "—",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -317,7 +317,7 @@
         },
         {
           "level": "—",
-          "name": "电光一闪",
+          "name": "電光一閃",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -326,8 +326,8 @@
         },
         {
           "level": "—",
-          "name": "惊吓",
-          "type": "幽灵",
+          "name": "驚嚇",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -335,17 +335,17 @@
         },
         {
           "level": "6",
-          "name": "锁定",
+          "name": "鎖定",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "12",
-          "name": "恶意追击",
-          "type": "恶",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -353,8 +353,8 @@
         },
         {
           "level": "18",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
@@ -362,16 +362,16 @@
         },
         {
           "level": "24",
-          "name": "高速移动",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "30",
-          "name": "二连击",
+          "name": "二連擊",
           "type": "一般",
           "category": "物理",
           "power": "35",
@@ -381,7 +381,7 @@
         {
           "level": "36",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -389,17 +389,17 @@
         },
         {
           "level": "42",
-          "name": "龙之舞",
-          "type": "龙",
-          "category": "变化",
+          "name": "龍之舞",
+          "type": "龍",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "48",
-          "name": "潜灵奇袭",
-          "type": "幽灵",
+          "name": "潛靈奇襲",
+          "type": "幽靈",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
@@ -416,8 +416,8 @@
         },
         {
           "level": "61",
-          "name": "龙之俯冲",
-          "type": "龙",
+          "name": "龍之俯衝",
+          "type": "龍",
           "category": "物理",
           "power": "100",
           "accuracy": "75",
@@ -425,7 +425,7 @@
         },
         {
           "level": "66",
-          "name": "舍身冲撞",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -449,7 +449,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -458,62 +458,62 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００４",
-          "name": "高速移动",
+          "machine": "招式學習器００４",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１７",
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器０１７",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２１",
-          "name": "虫扑",
-          "type": "虫",
+          "machine": "招式學習器０２１",
+          "name": "蟲撲",
+          "type": "蟲",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -521,16 +521,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２９",
-          "name": "祸不单行",
-          "type": "幽灵",
+          "machine": "招式學習器０２９",
+          "name": "禍不單行",
+          "type": "幽靈",
           "category": "特殊",
           "power": "65",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -539,52 +539,52 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４２",
+          "machine": "招式學習器０４２",
           "name": "黑夜魔影",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４４",
-          "name": "龙尾",
-          "type": "龙",
+          "machine": "招式學習器０４４",
+          "name": "龍尾",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６３",
+          "machine": "招式學習器０６３",
           "name": "精神之牙",
           "type": "超能力",
           "category": "物理",
@@ -593,98 +593,98 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７４",
+          "machine": "招式學習器０７４",
           "name": "反射壁",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０８２",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０８２",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１００",
-          "name": "龙之舞",
-          "type": "龙",
-          "category": "变化",
+          "machine": "招式學習器１００",
+          "name": "龍之舞",
+          "type": "龍",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０７",
+          "machine": "招式學習器１０７",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１４",
+          "machine": "招式學習器１１４",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１５",
-          "name": "龙之波动",
-          "type": "龙",
+          "machine": "招式學習器１１５",
+          "name": "龍之波動",
+          "type": "龍",
           "category": "特殊",
           "power": "85",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２３",
-          "name": "冲浪",
+          "machine": "招式學習器１２３",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -692,8 +692,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２５",
-          "name": "喷射火焰",
+          "machine": "招式學習器１２５",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -701,34 +701,34 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２６",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式學習器１２６",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３２",
+          "machine": "招式學習器１３２",
           "name": "接棒",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
         },
         {
-          "machine": "招式学习器１４１",
+          "machine": "招式學習器１４１",
           "name": "大字爆炎",
           "type": "火",
           "category": "特殊",
@@ -737,7 +737,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４２",
+          "machine": "招式學習器１４２",
           "name": "水炮",
           "type": "水",
           "category": "特殊",
@@ -746,44 +746,44 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５１",
-          "name": "潜灵奇袭",
-          "type": "幽灵",
+          "machine": "招式學習器１５１",
+          "name": "潛靈奇襲",
+          "type": "幽靈",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５６",
-          "name": "逆鳞",
-          "type": "龙",
+          "machine": "招式學習器１５６",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６６",
+          "machine": "招式學習器１６６",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６９",
+          "machine": "招式學習器１６９",
           "name": "流星群",
-          "type": "龙",
+          "type": "龍",
           "category": "特殊",
           "power": "130",
           "accuracy": "90",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -791,8 +791,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -800,28 +800,28 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２２",
-          "name": "广域破坏",
-          "type": "龙",
+          "machine": "招式學習器２２２",
+          "name": "廣域破壞",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２４",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器２２４",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２６",
-          "name": "龙声鼓舞",
-          "type": "龙",
-          "category": "变化",
+          "machine": "招式學習器２２６",
+          "name": "龍聲鼓舞",
+          "type": "龍",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -853,20 +853,20 @@
             },
             {
               "id": "0355",
-              "name": "夜巡灵"
+              "name": "夜巡靈"
             },
             {
               "id": "0356",
-              "name": "彷徨夜灵"
+              "name": "彷徨夜靈"
             },
             {
               "id": "0477",
-              "name": "黑夜魔灵"
+              "name": "黑夜魔靈"
             }
           ],
           "name": "定身法",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -875,7 +875,7 @@
           "parents": [
             {
               "id": "0252",
-              "name": "木守宫"
+              "name": "木守宮"
             },
             {
               "id": "0253",
@@ -887,11 +887,11 @@
             },
             {
               "id": "0280",
-              "name": "拉鲁拉丝"
+              "name": "拉魯拉絲"
             },
             {
               "id": "0281",
-              "name": "奇鲁莉安"
+              "name": "奇魯莉安"
             },
             {
               "id": "0282",
@@ -907,7 +907,7 @@
             },
             {
               "id": "0691",
-              "name": "毒藻龙"
+              "name": "毒藻龍"
             },
             {
               "id": "0714",
@@ -915,16 +915,16 @@
             },
             {
               "id": "0715",
-              "name": "音波龙"
+              "name": "音波龍"
             },
             {
               "id": "0778",
-              "name": "谜拟Ｑ"
+              "name": "謎擬Ｑ"
             }
           ],
           "name": "影子分身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -945,48 +945,48 @@
             },
             {
               "id": "0200",
-              "name": "梦妖"
+              "name": "夢妖"
             },
             {
               "id": "0355",
-              "name": "夜巡灵"
+              "name": "夜巡靈"
             },
             {
               "id": "0356",
-              "name": "彷徨夜灵"
+              "name": "彷徨夜靈"
             },
             {
               "id": "0442",
-              "name": "花岩怪"
+              "name": "花巖怪"
             },
             {
               "id": "0477",
-              "name": "黑夜魔灵"
+              "name": "黑夜魔靈"
             },
             {
               "id": "0607",
-              "name": "烛光灵"
+              "name": "燭光靈"
             },
             {
               "id": "0608",
-              "name": "灯火幽灵"
+              "name": "燈火幽靈"
             },
             {
               "id": "0609",
-              "name": "水晶灯火灵"
+              "name": "水晶燈火靈"
             },
             {
               "id": "0708",
-              "name": "小木灵"
+              "name": "小木靈"
             },
             {
               "id": "0709",
               "name": "朽木妖"
             }
           ],
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -1011,59 +1011,59 @@
             },
             {
               "id": "0354",
-              "name": "诅咒娃娃"
+              "name": "詛咒娃娃"
             },
             {
               "id": "0355",
-              "name": "夜巡灵"
+              "name": "夜巡靈"
             },
             {
               "id": "0356",
-              "name": "彷徨夜灵"
+              "name": "彷徨夜靈"
             },
             {
               "id": "0442",
-              "name": "花岩怪"
+              "name": "花巖怪"
             },
             {
               "id": "0477",
-              "name": "黑夜魔灵"
+              "name": "黑夜魔靈"
             },
             {
               "id": "0607",
-              "name": "烛光灵"
+              "name": "燭光靈"
             },
             {
               "id": "0608",
-              "name": "灯火幽灵"
+              "name": "燈火幽靈"
             },
             {
               "id": "0609",
-              "name": "水晶灯火灵"
+              "name": "水晶燈火靈"
             },
             {
               "id": "0704",
-              "name": "黏黏宝"
+              "name": "黏黏寶"
             },
             {
               "id": "0705",
-              "name": "黏美儿"
+              "name": "黏美兒"
             },
             {
               "id": "0705H",
-              "name": "黏美儿"
+              "name": "黏美兒"
             },
             {
               "id": "0706",
-              "name": "黏美龙"
+              "name": "黏美龍"
             },
             {
               "id": "0706H",
-              "name": "黏美龙"
+              "name": "黏美龍"
             },
             {
               "id": "0708",
-              "name": "小木灵"
+              "name": "小木靈"
             },
             {
               "id": "0709",
@@ -1071,16 +1071,16 @@
             },
             {
               "id": "0842",
-              "name": "丰蜜龙"
+              "name": "豐蜜龍"
             },
             {
               "id": "0871",
-              "name": "啪嚓海胆"
+              "name": "啪嚓海膽"
             }
           ],
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -1105,15 +1105,15 @@
             },
             {
               "id": "0354",
-              "name": "诅咒娃娃"
+              "name": "詛咒娃娃"
             },
             {
               "id": "0442",
-              "name": "花岩怪"
+              "name": "花巖怪"
             }
           ],
-          "name": "突袭",
-          "type": "恶",
+          "name": "突襲",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -1123,19 +1123,19 @@
           "parents": [
             {
               "id": "0147",
-              "name": "迷你龙"
+              "name": "迷你龍"
             },
             {
               "id": "0148",
-              "name": "哈克龙"
+              "name": "哈克龍"
             },
             {
               "id": "0149",
-              "name": "快龙"
+              "name": "快龍"
             },
             {
               "id": "0329",
-              "name": "超音波幼虫"
+              "name": "超音波幼蟲"
             },
             {
               "id": "0330",
@@ -1143,55 +1143,55 @@
             },
             {
               "id": "0350",
-              "name": "美纳斯"
+              "name": "美納斯"
             },
             {
               "id": "0373",
-              "name": "暴飞龙"
+              "name": "暴飛龍"
             },
             {
               "id": "0782",
-              "name": "心鳞宝"
+              "name": "心鱗寶"
             },
             {
               "id": "0783",
-              "name": "鳞甲龙"
+              "name": "鱗甲龍"
             },
             {
               "id": "0784",
-              "name": "杖尾鳞甲龙"
+              "name": "杖尾鱗甲龍"
             },
             {
               "id": "0884",
-              "name": "铝钢龙"
+              "name": "鋁鋼龍"
             },
             {
               "id": "0996",
-              "name": "凉脊龙"
+              "name": "涼脊龍"
             },
             {
               "id": "0997",
-              "name": "冻脊龙"
+              "name": "凍脊龍"
             },
             {
               "id": "0998",
-              "name": "戟脊龙"
+              "name": "戟脊龍"
             },
             {
               "id": "1011",
-              "name": "裹蜜虫"
+              "name": "裹蜜蟲"
             },
             {
               "id": "1018",
-              "name": "铝钢桥龙"
+              "name": "鋁鋼橋龍"
             },
             {
               "id": "1019",
               "name": "蜜集大蛇"
             }
           ],
-          "name": "龙尾",
-          "type": "龙",
+          "name": "龍尾",
+          "type": "龍",
           "category": "物理",
           "power": "60",
           "accuracy": "90",
@@ -1202,9 +1202,9 @@
   ],
   "home_images": [
     {
-      "name": "多龙奇",
-      "image": "0886-多龙奇.png",
-      "shiny": "0886-多龙奇-shiny.png"
+      "name": "多龍奇",
+      "image": "0886-多龍奇.png",
+      "shiny": "0886-多龍奇-shiny.png"
     }
   ]
 }

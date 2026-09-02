@@ -1,55 +1,55 @@
 {
-  "name_zh": "长毛狗",
+  "name_zh": "長毛狗",
   "name_ja": "ムーランド",
   "name_en": "Stoutland",
   "pokedex_id": "0508",
-  "description": "长毛狗（日文︰ムーランド，英文︰Stoutland）是一般属性宝可梦，它的设计者是杉森建。",
-  "profile": "长毛狗面部的浅黄色毛皮就像长长的胡子，鼻子两边长出了黑色短胡。它咖啡色毛皮被更多的毛皮遮掩，身上也覆盖有一些深蓝色毛皮，下半部有浅灰色毛皮，目光更具有威慑力。多亏了那身又长又暖和的毛，抵御寒冷根本不在话下。它以自己气派的胡须为傲。据说每只个体在族群中的地位，就是根据胡须长度来决定的。\n长毛狗聪明温厚而勇敢，是救援队队员们可以信赖的伙伴。它擅长救援海上和山中的遇难者，如果被它长长的体毛包裹着就会变得温暖又舒适，即使是在冬天的山上也能淡定地度过一晚。它似乎喜欢和人类一起生活，就算是野生的长毛狗，捕捉后只要过个三天就能和人亲近。因为不用担心会朝人猛扑过来，所以也有家长会把保护孩子的任务交给它。过去在寒冷的地方，每家都会养一只长毛狗。",
-  "prototype": "长毛狗的长毛外表可能来源于西施犬和马尔济斯，也带有一些约瑟爹利及苏格兰犬的特征。\n它擅长援救在山中遇难的人类这一点与圣伯纳犬相似。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步长毛狗（Pokémon GO）。\n←\nNo.0507：哈约克\n宝可梦\nNo.0509：扒手猫\n→",
+  "description": "長毛狗（日文︰ムーランド，英文︰Stoutland）是一般屬性寶可夢，它的設計者是杉森建。",
+  "profile": "長毛狗面部的淺黃色毛皮就像長長的鬍子，鼻子兩邊長出了黑色短胡。它咖啡色毛皮被更多的毛皮遮掩，身上也覆蓋有一些深藍色毛皮，下半部有淺灰色毛皮，目光更具有威懾力。多虧了那身又長又暖和的毛，抵禦寒冷根本不在話下。它以自己氣派的鬍鬚為傲。據說每隻個體在族群中的地位，就是根據鬍鬚長度來決定的。\n長毛狗聰明溫厚而勇敢，是救援隊隊員們可以信賴的夥伴。它擅長救援海上和山中的遇難者，如果被它長長的體毛包裹著就會變得溫暖又舒適，即使是在冬天的山上也能淡定地度過一晚。它似乎喜歡和人類一起生活，就算是野生的長毛狗，捕捉後只要過個三天就能和人親近。因為不用擔心會朝人猛撲過來，所以也有家長會把保護孩子的任務交給它。過去在寒冷的地方，每家都會養一隻長毛狗。",
+  "prototype": "長毛狗的長毛外表可能來源於西施犬和馬爾濟斯，也帶有一些約瑟爹利及蘇格蘭犬的特徵。\n它擅長援救在山中遇難的人類這一點與聖伯納犬相似。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步長毛狗（Pokémon GO）。\n←\nNo.0507：哈約克\n寶可夢\nNo.0509：扒手貓\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ムーランド Mooland",
-      "origin": "来自“尨（むく）毛（げ）”（动物的长毛）和英文 Newfoundland（纽芬兰犬）。"
+      "origin": "來自“尨（むく）毛（げ）”（動物的長毛）和英文 Newfoundland（紐芬蘭犬）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "長毛狗长毛狗",
-      "origin": "来自“长毛”和“狗”。"
+      "name": "長毛狗長毛狗",
+      "origin": "來自“長毛”和“狗”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "长毛狗",
-      "origin": "来自“长毛”和“狗”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "長毛狗",
-      "origin": "来自“长毛”和“狗”。"
+      "origin": "來自“長毛”和“狗”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "長毛狗",
+      "origin": "來自“長毛”和“狗”。"
     },
     {
       "language": "中文-香港",
       "name": "長毛狗",
-      "origin": "来自“长毛”和“狗”。"
+      "origin": "來自“長毛”和“狗”。"
     },
     {
       "language": "英文",
       "name": "Stoutland",
-      "origin": "来自 stout（粗壮的）和 Newfoundland（纽芬兰犬）。"
+      "origin": "來自 stout（粗壯的）和 Newfoundland（紐芬蘭犬）。"
     },
     {
       "language": "法文",
       "name": "Mastouffe",
-      "origin": "来自 mastiff（獒犬）和 touffe（绺）。"
+      "origin": "來自 mastiff（獒犬）和 touffe（綹）。"
     },
     {
       "language": "德文",
       "name": "Bissbark",
-      "origin": "来自 Biss（咬）、Marke（咬痕），谐音 Bismarck（俾斯麦）。"
+      "origin": "來自 Biss（咬）、Marke（咬痕），諧音 Bismarck（俾斯麥）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Stoutland",
       "origin": "同英文名。"
     },
@@ -59,29 +59,29 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "바랜드 Baland",
-      "origin": "来自“방모〈尨毛〉”和英文 Newfoundland（纽芬兰犬）。"
+      "origin": "來自“방모〈尨毛〉”和英文 Newfoundland（紐芬蘭犬）。"
     }
   ],
   "forms": [
     {
-      "name": "长毛狗",
+      "name": "長毛狗",
       "types": [
         "一般"
       ],
-      "category": "宽大宝可梦",
+      "category": "寬大寶可夢",
       "abilities": [
         {
-          "name": "威吓",
+          "name": "威嚇",
           "is_hidden": false
         },
         {
-          "name": "拨沙",
+          "name": "撥沙",
           "is_hidden": false
         },
         {
-          "name": "胆量",
+          "name": "膽量",
           "is_hidden": true
         }
       ],
@@ -90,9 +90,9 @@
       "color": "灰色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "陆上群"
+        "陸上群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -125,10 +125,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "15 孵化周期（3855步）",
+      "egg_cycles": "15 孵化週期（3855步）",
       "shape": "Body08.png",
       "footprint": "F508.png",
-      "image": "0508-长毛狗.png"
+      "image": "0508-長毛狗.png"
     }
   ],
   "stats": [
@@ -167,11 +167,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -187,15 +187,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "0"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -211,7 +211,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -223,11 +223,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -243,13 +243,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "会进入被暴风雪封锁的山拯救遇难的人。长长的毛发能抵御寒冷。"
+          "group": "寶可夢 黑／白",
+          "text": "會進入被暴風雪封鎖的山拯救遇難的人。長長的毛髮能抵禦寒冷。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "擅长救援海上和山中的遇难者。非常聪明的宝可梦。"
+          "group": "寶可夢 黑／白",
+          "text": "擅長救援海上和山中的遇難者。非常聰明的寶可夢。"
         }
       ]
     },
@@ -258,23 +258,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "会进入被暴风雪封锁的山拯救遇难的人。长长的毛发能抵御寒冷。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "會進入被暴風雪封鎖的山拯救遇難的人。長長的毛髮能抵禦寒冷。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "如果被它长长的体毛包裹着，就会变得温暖又舒适，即使是在冬天的山上也能淡定地度过一晚。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "如果被它長長的體毛包裹著，就會變得溫暖又舒適，即使是在冬天的山上也能淡定地度過一晚。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "会进入被暴风雪封锁的山拯救遇难的人。长长的毛发能抵御寒冷。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "會進入被暴風雪封鎖的山拯救遇難的人。長長的毛髮能抵禦寒冷。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "如果被它长长的体毛包裹着，就会变得温暖又舒适，即使是在冬天的山上也能淡定地度过一晚。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "如果被它長長的體毛包裹著，就會變得溫暖又舒適，即使是在冬天的山上也能淡定地度過一晚。"
         }
       ]
     },
@@ -282,14 +282,14 @@
       "name": "第七世代",
       "versions": [
         {
-          "name": "太阳",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "聪明温厚而勇敢。是救援队队员们可以信赖的伙伴。"
+          "name": "太陽",
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "聰明溫厚而勇敢。是救援隊隊員們可以信賴的夥伴。"
         },
         {
           "name": "月亮",
-          "group": "精灵宝可梦 太阳／月亮",
-          "text": "很聪明，且不用担心会朝人猛扑过来，所以也有家长会把保护孩子的任务交给它。"
+          "group": "精靈寶可夢 太陽／月亮",
+          "text": "很聰明，且不用擔心會朝人猛撲過來，所以也有家長會把保護孩子的任務交給它。"
         }
       ]
     },
@@ -297,14 +297,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "似乎喜欢和人类一起生活。就算是野生的长毛狗，捕捉后只要过个三天就能和人亲近。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "似乎喜歡和人類一起生活。就算是野生的長毛狗，捕捉後只要過個三天就能和人親近。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "以自己气派的胡须为傲。据说，每只个体在族群中的地位，就是根据胡须长度来决定的。"
+          "group": "寶可夢 劍／盾",
+          "text": "以自己氣派的鬍鬚為傲。據說，每隻個體在族群中的地位，就是根據鬍鬚長度來決定的。"
         }
       ]
     }
@@ -312,8 +312,8 @@
   "evolution_chains": [
     [
       {
-        "name": "小约克",
-        "stage": "未进化",
+        "name": "小約克",
+        "stage": "未進化",
         "text": null,
         "image": "506Lillipup_Dream.png",
         "back_text": null,
@@ -321,21 +321,21 @@
         "form_name": null
       },
       {
-        "name": "哈约克",
-        "stage": "1阶进化",
-        "text": "等级16以上",
+        "name": "哈約克",
+        "stage": "1階進化",
+        "text": "等級16以上",
         "image": "507Herdier_Dream.png",
         "back_text": null,
-        "from": "小约克",
+        "from": "小約克",
         "form_name": null
       },
       {
-        "name": "长毛狗",
-        "stage": "2阶进化",
-        "text": "等级32以上",
+        "name": "長毛狗",
+        "stage": "2階進化",
+        "text": "等級32以上",
         "image": "508Stoutland_Dream.png",
         "back_text": null,
-        "from": "哈约克",
+        "from": "哈約克",
         "form_name": null
       }
     ]
@@ -348,7 +348,7 @@
       "data": [
         {
           "level": "—",
-          "name": "冰冻牙",
+          "name": "冰凍牙",
           "type": "冰",
           "category": "物理",
           "power": "65",
@@ -366,8 +366,8 @@
         },
         {
           "level": "—",
-          "name": "雷电牙",
-          "type": "电",
+          "name": "雷電牙",
+          "type": "電",
           "category": "物理",
           "power": "65",
           "accuracy": "95",
@@ -375,7 +375,7 @@
         },
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -386,16 +386,16 @@
           "level": "—",
           "name": "瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
         },
         {
           "level": "—",
-          "name": "自我激励",
+          "name": "自我激勵",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -403,7 +403,7 @@
         {
           "level": "—",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -411,7 +411,7 @@
         },
         {
           "level": "12",
-          "name": "报仇",
+          "name": "報仇",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -420,16 +420,16 @@
         },
         {
           "level": "19",
-          "name": "圆瞳",
+          "name": "圓瞳",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
         },
         {
           "level": "24",
-          "name": "嬉闹",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -439,7 +439,7 @@
         {
           "level": "30",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -456,19 +456,19 @@
         },
         {
           "level": "46",
-          "name": "帮助",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "54",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
@@ -476,7 +476,7 @@
           "level": "62",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -492,7 +492,7 @@
         },
         {
           "level": "78",
-          "name": "终极冲击",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -507,8 +507,8 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０８",
-          "name": "破坏光线",
+          "machine": "招式學習器０８",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -516,8 +516,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９",
-          "name": "终极冲击",
+          "machine": "招式學習器０９",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -525,16 +525,16 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１４",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１５",
+          "machine": "招式學習器１５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -543,16 +543,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -561,53 +561,53 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２９",
-          "name": "撒娇",
+          "machine": "招式學習器２９",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３４",
+          "machine": "招式學習器３４",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -615,17 +615,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４１",
-          "name": "帮助",
+          "machine": "招式學習器４１",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器４８",
-          "name": "岩石封锁",
+          "machine": "招式學習器４８",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -633,26 +633,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器５７",
-          "name": "以牙还牙",
-          "type": "恶",
+          "machine": "招式學習器５７",
+          "name": "以牙還牙",
+          "type": "惡",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６６",
-          "name": "雷电牙",
-          "type": "电",
+          "machine": "招式學習器６６",
+          "name": "雷電牙",
+          "type": "電",
           "category": "物理",
           "power": "65",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器６７",
-          "name": "冰冻牙",
+          "machine": "招式學習器６７",
+          "name": "冰凍牙",
           "type": "冰",
           "category": "物理",
           "power": "65",
@@ -660,7 +660,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器６８",
+          "machine": "招式學習器６８",
           "name": "火焰牙",
           "type": "火",
           "category": "物理",
@@ -669,8 +669,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -678,8 +678,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器７９",
-          "name": "报仇",
+          "machine": "招式學習器７９",
+          "name": "報仇",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -687,17 +687,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器８５",
-          "name": "大声咆哮",
-          "type": "恶",
+          "machine": "招式學習器８５",
+          "name": "大聲咆哮",
+          "type": "惡",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器９８",
-          "name": "跺脚",
+          "machine": "招式學習器９８",
+          "name": "跺腳",
           "type": "地面",
           "category": "物理",
           "power": "75",
@@ -705,8 +705,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录０４",
-          "name": "冲浪",
+          "machine": "招式記錄０４",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -714,80 +714,80 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录０８",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式記錄０８",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录０９",
+          "machine": "招式記錄０９",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２１",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式記錄２１",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３２",
+          "machine": "招式記錄３２",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３３",
+          "machine": "招式記錄３３",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录３５",
-          "name": "吵闹",
+          "machine": "招式記錄３５",
+          "name": "吵鬧",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -795,17 +795,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３９",
-          "name": "蛮力",
-          "type": "格斗",
+          "machine": "招式記錄３９",
+          "name": "蠻力",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式记录４２",
-          "name": "巨声",
+          "machine": "招式記錄４２",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -813,35 +813,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录７４",
-          "name": "铁头",
-          "type": "钢",
+          "machine": "招式記錄７４",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录８５",
-          "name": "自我激励",
+          "machine": "招式記錄８５",
+          "name": "自我激勵",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式记录８６",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式記錄８６",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录９０",
-          "name": "嬉闹",
+          "machine": "招式記錄９０",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -849,7 +849,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录９７",
+          "machine": "招式記錄９７",
           "name": "精神之牙",
           "type": "超能力",
           "category": "物理",
@@ -872,7 +872,7 @@
             },
             {
               "id": "428",
-              "name": "长耳兔"
+              "name": "長耳兔"
             },
             {
               "id": "572",
@@ -880,16 +880,16 @@
             },
             {
               "id": null,
-              "name": "奇诺栗鼠"
+              "name": "奇諾栗鼠"
             },
             {
               "id": null,
-              "name": "智挥猩"
+              "name": "智揮猩"
             }
           ],
-          "name": "您先请",
+          "name": "您先請",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -902,7 +902,7 @@
             },
             {
               "id": "059",
-              "name": "风速狗"
+              "name": "風速狗"
             },
             {
               "id": "293",
@@ -910,7 +910,7 @@
             },
             {
               "id": "294",
-              "name": "吼爆弹"
+              "name": "吼爆彈"
             },
             {
               "id": "295",
@@ -918,24 +918,24 @@
             },
             {
               "id": "309",
-              "name": "落雷兽"
+              "name": "落雷獸"
             },
             {
               "id": "310",
-              "name": "雷电兽"
+              "name": "雷電獸"
             },
             {
               "id": "744",
-              "name": "岩狗狗"
+              "name": "巖狗狗"
             },
             {
               "id": "745",
-              "name": "鬃岩狼人"
+              "name": "鬃巖狼人"
             }
           ],
-          "name": "长嚎",
+          "name": "長嚎",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
@@ -944,15 +944,15 @@
           "parents": [
             {
               "id": "263G",
-              "name": "蛇纹熊"
+              "name": "蛇紋熊"
             },
             {
               "id": "264G",
-              "name": "直冲熊"
+              "name": "直衝熊"
             },
             {
               "id": "631",
-              "name": "熔蚁兽"
+              "name": "熔蟻獸"
             },
             {
               "id": "725",
@@ -960,19 +960,19 @@
             },
             {
               "id": "726",
-              "name": "炎热喵"
+              "name": "炎熱喵"
             },
             {
               "id": "727",
-              "name": "炽焰咆哮虎"
+              "name": "熾焰咆哮虎"
             },
             {
               "id": null,
-              "name": "堵拦熊"
+              "name": "堵攔熊"
             }
           ],
           "name": "舌舔",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -998,27 +998,27 @@
             },
             {
               "id": "206",
-              "name": "土龙弟弟"
+              "name": "土龍弟弟"
             },
             {
               "id": "220",
-              "name": "小山猪"
+              "name": "小山豬"
             },
             {
               "id": "221",
-              "name": "长毛猪"
+              "name": "長毛豬"
             },
             {
               "id": "473",
-              "name": "象牙猪"
+              "name": "象牙豬"
             },
             {
               "id": "529",
-              "name": "螺钉地鼠"
+              "name": "螺釘地鼠"
             },
             {
               "id": "530",
-              "name": "龙头地鼠"
+              "name": "龍頭地鼠"
             },
             {
               "id": "659",
@@ -1030,14 +1030,14 @@
             },
             {
               "id": null,
-              "name": "泥驴仔"
+              "name": "泥驢仔"
             },
             {
               "id": null,
-              "name": "重泥挽马"
+              "name": "重泥挽馬"
             }
           ],
-          "name": "掷泥",
+          "name": "擲泥",
           "type": "地面",
           "category": "特殊",
           "power": "20",
@@ -1048,7 +1048,7 @@
           "parents": [
             {
               "id": "194",
-              "name": "乌波"
+              "name": "烏波"
             },
             {
               "id": "195",
@@ -1056,28 +1056,28 @@
             },
             {
               "id": "206",
-              "name": "土龙弟弟"
+              "name": "土龍弟弟"
             },
             {
               "id": "449",
-              "name": "沙河马"
+              "name": "沙河馬"
             },
             {
               "id": "450",
-              "name": "河马兽"
+              "name": "河馬獸"
             },
             {
               "id": "517",
-              "name": "食梦梦"
+              "name": "食夢夢"
             },
             {
               "id": null,
-              "name": "梦梦蚀"
+              "name": "夢夢蝕"
             }
           ],
           "name": "哈欠",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -1102,7 +1102,7 @@
             },
             {
               "id": "196",
-              "name": "太阳伊布"
+              "name": "太陽伊布"
             },
             {
               "id": "197",
@@ -1110,15 +1110,15 @@
             },
             {
               "id": "263",
-              "name": "蛇纹熊"
+              "name": "蛇紋熊"
             },
             {
               "id": "264",
-              "name": "直冲熊"
+              "name": "直衝熊"
             },
             {
               "id": "470",
-              "name": "叶伊布"
+              "name": "葉伊布"
             },
             {
               "id": "471",
@@ -1138,7 +1138,7 @@
             },
             {
               "id": null,
-              "name": "藏饱栗鼠"
+              "name": "藏飽栗鼠"
             }
           ],
           "name": "渴望",
@@ -1153,9 +1153,9 @@
   ],
   "home_images": [
     {
-      "name": "长毛狗",
-      "image": "0508-长毛狗.png",
-      "shiny": "0508-长毛狗-shiny.png"
+      "name": "長毛狗",
+      "image": "0508-長毛狗.png",
+      "shiny": "0508-長毛狗-shiny.png"
     }
   ]
 }

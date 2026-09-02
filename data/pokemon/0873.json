@@ -1,40 +1,40 @@
 {
-  "name_zh": "雪绒蛾",
+  "name_zh": "雪絨蛾",
   "name_ja": "モスノウ",
   "name_en": "Frosmoth",
   "pokedex_id": "0873",
-  "description": "雪绒蛾（日文︰モスノウ，英文︰Frosmoth）是冰属性／虫属性宝可梦。",
-  "profile": "雪绒蛾有著纯白色的身体，双眼呈蓝色，眉间有一个蓝色的菱形斑点，一对大大羽毛状的触角长在头上。雪绒蛾有一对半透明的翅膀，上头长著类似雪花的斑纹。两只小手抱在胸前，看起来像围著围巾一般。\n雪绒蛾喜欢干净的雪融水。它翅膀的温度为零下180度，触角能够感知大气的流动。当它飞过山野时，带有冷气的鳞粉会像下雪般地飘落下来。它绝不放过破坏山野环境的人，会用能释放寒气的巨大翅膀飞来飞去，引发暴风雪来惩罚他们。",
-  "prototype": "雪绒蛾的原型可能来自长尾水青蛾和姬长尾水青蛾。长尾水青蛾又名“月神蛾”，而姬长尾水青蛾通常栖息于中高海拔的山区，在雪山也能看见这种蛾的身影。\n其整体造型和胸部蓬松的绒毛也类似家蚕蛾和美国白蛾。",
-  "detail": "雪绒蛾家族是有唯一属性组合的宝可梦，冰属性／虫属性组合。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步雪绒蛾（Pokémon GO）。\n←\nNo.0872：雪吞虫\n宝可梦\nNo.0874：巨石丁\n→",
+  "description": "雪絨蛾（日文︰モスノウ，英文︰Frosmoth）是冰屬性／蟲屬性寶可夢。",
+  "profile": "雪絨蛾有著純白色的身體，雙眼呈藍色，眉間有一個藍色的菱形斑點，一對大大羽毛狀的觸角長在頭上。雪絨蛾有一對半透明的翅膀，上頭長著類似雪花的斑紋。兩隻小手抱在胸前，看起來像圍著圍巾一般。\n雪絨蛾喜歡乾淨的雪融水。它翅膀的溫度為零下180度，觸角能夠感知大氣的流動。當它飛過山野時，帶有冷氣的鱗粉會像下雪般地飄落下來。它絕不放過破壞山野環境的人，會用能釋放寒氣的巨大翅膀飛來飛去，引發暴風雪來懲罰他們。",
+  "prototype": "雪絨蛾的原型可能來自長尾水青蛾和姬長尾水青蛾。長尾水青蛾又名“月神蛾”，而姬長尾水青蛾通常棲息於中高海拔的山區，在雪山也能看見這種蛾的身影。\n其整體造型和胸部蓬鬆的絨毛也類似家蠶蛾和美國白蛾。",
+  "detail": "雪絨蛾家族是有唯一屬性組合的寶可夢，冰屬性／蟲屬性組合。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步雪絨蛾（Pokémon GO）。\n←\nNo.0872：雪吞蟲\n寶可夢\nNo.0874：巨石丁\n→",
   "names": [
     {
       "language": "日文",
       "name": "モスノウ Mothnow",
-      "origin": "来自英文 moth（蛾）和英文 snow（雪）。"
+      "origin": "來自英文 moth（蛾）和英文 snow（雪）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "雪绒蛾",
-      "origin": "来自“雪”、“丝绒”和“蛾”或“绒蛾”。"
+      "name": "雪絨蛾",
+      "origin": "來自“雪”、“絲絨”和“蛾”或“絨蛾”。"
     },
     {
       "language": "英文",
       "name": "Frosmoth",
-      "origin": "来自 frost（霜）和 moth（蛾）。"
+      "origin": "來自 frost（霜）和 moth（蛾）。"
     },
     {
       "language": "法文",
       "name": "Beldeneige",
-      "origin": "来自 belle（【阴性】美丽的）和 boule de neige（雪球）。"
+      "origin": "來自 belle（【陰性】美麗的）和 boule de neige（雪球）。"
     },
     {
       "language": "德文",
       "name": "Mottineva",
-      "origin": "来自 Motte（蛾）和意大利文 neve（雪）。"
+      "origin": "來自 Motte（蛾）和義大利文 neve（雪）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Frosmoth",
       "origin": "同英文名。"
     },
@@ -44,26 +44,26 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "모스노우 Mothnow",
-      "origin": "来自英文 moth（蛾）和英文 snow（雪）。"
+      "origin": "來自英文 moth（蛾）和英文 snow（雪）。"
     }
   ],
   "forms": [
     {
-      "name": "雪绒蛾",
+      "name": "雪絨蛾",
       "types": [
         "冰",
-        "虫"
+        "蟲"
       ],
-      "category": "冰蛾宝可梦",
+      "category": "冰蛾寶可夢",
       "abilities": [
         {
-          "name": "鳞粉",
+          "name": "鱗粉",
           "is_hidden": false
         },
         {
-          "name": "冰鳞粉",
+          "name": "冰鱗粉",
           "is_hidden": true
         }
       ],
@@ -72,9 +72,9 @@
       "color": "白色",
       "catch_rate": "75（9.8%）",
       "egg_groups": [
-        "虫群"
+        "蟲群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -107,10 +107,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body13.png",
       "footprint": "FUnknown.png",
-      "image": "0873-雪绒蛾.png"
+      "image": "0873-雪絨蛾.png"
     }
   ],
   "stats": [
@@ -131,7 +131,7 @@
       "form": "",
       "types": [
         "冰",
-        "虫"
+        "蟲"
       ],
       "data": [
         {
@@ -139,11 +139,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "2"
         },
         {
@@ -159,15 +159,15 @@
           "damage": "4"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -183,7 +183,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -195,11 +195,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -214,14 +214,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "翅膀的温度为零下１８０度。当它飞过山野时，带有冷气的鳞粉会像下雪般地飘落下来。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "翅膀的溫度為零下１８０度。當它飛過山野時，帶有冷氣的鱗粉會像下雪般地飄落下來。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "绝不放过破坏山野环境的人。会用冰冷的翅膀四处飞翔，制造出暴风雪来惩罚他们。"
+          "group": "寶可夢 劍／盾",
+          "text": "絕不放過破壞山野環境的人。會用冰冷的翅膀四處飛翔，製造出暴風雪來懲罰他們。"
         }
       ]
     },
@@ -230,13 +230,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "触角能够感知大气的流动。会把冷气混入鳞粉之中，然后如同降雪般地撒下。"
+          "group": "寶可夢 朱／紫",
+          "text": "觸角能夠感知大氣的流動。會把冷氣混入鱗粉之中，然後如同降雪般地撒下。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "会用能释放寒气的巨大翅膀飞来飞去，引发暴风雪。喜欢干净的雪融水。"
+          "group": "寶可夢 朱／紫",
+          "text": "會用能釋放寒氣的巨大翅膀飛來飛去，引發暴風雪。喜歡乾淨的雪融水。"
         }
       ]
     }
@@ -244,8 +244,8 @@
   "evolution_chains": [
     [
       {
-        "name": "雪吞虫",
-        "stage": "未进化",
+        "name": "雪吞蟲",
+        "stage": "未進化",
         "text": null,
         "image": "872Snom_Dream.png",
         "back_text": null,
@@ -253,12 +253,12 @@
         "form_name": null
       },
       {
-        "name": "雪绒蛾",
-        "stage": "1阶进化",
-        "text": "友好度158以上提升等级（夜晚）",
+        "name": "雪絨蛾",
+        "stage": "1階進化",
+        "text": "友好度158以上提升等級（夜晚）",
         "image": "873Frosmoth_Dream.png",
         "back_text": null,
-        "from": "雪吞虫",
+        "from": "雪吞蟲",
         "form_name": null
       }
     ]
@@ -270,8 +270,8 @@
       "form": "一般",
       "data": [
         {
-          "level": "进化",
-          "name": "冰冻之风",
+          "level": "進化",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -280,8 +280,8 @@
         },
         {
           "level": "—",
-          "name": "虫之抵抗",
-          "type": "虫",
+          "name": "蟲之抵抗",
+          "type": "蟲",
           "category": "特殊",
           "power": "50",
           "accuracy": "100",
@@ -289,7 +289,7 @@
         },
         {
           "level": "—",
-          "name": "细雪",
+          "name": "細雪",
           "type": "冰",
           "category": "特殊",
           "power": "40",
@@ -300,33 +300,33 @@
           "level": "—",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "—",
-          "name": "帮助",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "4",
-          "name": "麻痹粉",
+          "name": "麻痺粉",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "75",
           "pp": "30"
         },
         {
           "level": "8",
-          "name": "纠缠不休",
-          "type": "虫",
+          "name": "糾纏不休",
+          "type": "蟲",
           "category": "特殊",
           "power": "20",
           "accuracy": "100",
@@ -334,18 +334,18 @@
         },
         {
           "level": "12",
-          "name": "白雾",
+          "name": "白霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "16",
-          "name": "清除浓雾",
-          "type": "飞行",
-          "category": "变化",
+          "name": "清除濃霧",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -353,15 +353,15 @@
         {
           "level": "21",
           "name": "羽毛舞",
-          "type": "飞行",
-          "category": "变化",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "24",
-          "name": "极光束",
+          "name": "極光束",
           "type": "冰",
           "category": "特殊",
           "power": "65",
@@ -372,15 +372,15 @@
           "level": "28",
           "name": "雪景",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "32",
-          "name": "虫鸣",
-          "type": "虫",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
@@ -388,16 +388,16 @@
         },
         {
           "level": "36",
-          "name": "极光幕",
+          "name": "極光幕",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "40",
-          "name": "暴风雪",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -406,18 +406,18 @@
         },
         {
           "level": "44",
-          "name": "顺风",
-          "type": "飞行",
-          "category": "变化",
+          "name": "順風",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "48",
-          "name": "广域防守",
+          "name": "廣域防守",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -425,8 +425,8 @@
         {
           "level": "52",
           "name": "蝶舞",
-          "type": "虫",
-          "category": "变化",
+          "type": "蟲",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -439,7 +439,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -448,44 +448,44 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１５",
-          "name": "虫之抵抗",
-          "type": "虫",
+          "machine": "招式學習器０１５",
+          "name": "蟲之抵抗",
+          "type": "蟲",
           "category": "特殊",
           "power": "50",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２１",
-          "name": "虫扑",
-          "type": "虫",
+          "machine": "招式學習器０２１",
+          "name": "蟲撲",
+          "type": "蟲",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -493,7 +493,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -502,8 +502,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３４",
-          "name": "冰冻之风",
+          "machine": "招式學習器０３４",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -511,7 +511,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４６",
+          "machine": "招式學習器０４６",
           "name": "雪崩",
           "type": "冰",
           "category": "物理",
@@ -520,71 +520,71 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５２",
+          "machine": "招式學習器０５２",
           "name": "雪景",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６５",
-          "name": "空气之刃",
-          "type": "飞行",
+          "machine": "招式學習器０６５",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７４",
+          "machine": "招式學習器０７４",
           "name": "反射壁",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０７９",
-          "name": "魔法闪耀",
+          "machine": "招式學習器０７９",
+          "name": "魔法閃耀",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -592,44 +592,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９２",
+          "machine": "招式學習器０９２",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９５",
+          "machine": "招式學習器０９５",
           "name": "汲取",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１１",
-          "name": "终极吸取",
+          "machine": "招式學習器１１１",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -637,16 +637,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１３",
-          "name": "顺风",
-          "type": "飞行",
-          "category": "变化",
+          "machine": "招式學習器１１３",
+          "name": "順風",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２４",
+          "machine": "招式學習器１２４",
           "name": "冰旋",
           "type": "冰",
           "category": "物理",
@@ -655,8 +655,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２７",
-          "name": "嬉闹",
+          "machine": "招式學習器１２７",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -664,26 +664,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２９",
+          "machine": "招式學習器１２９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３５",
-          "name": "冰冻光束",
+          "machine": "招式學習器１３５",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -691,8 +691,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４３",
-          "name": "暴风雪",
+          "machine": "招式學習器１４３",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -700,8 +700,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -709,26 +709,26 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６０",
-          "name": "暴风",
-          "type": "飞行",
+          "machine": "招式學習器１６０",
+          "name": "暴風",
+          "type": "飛行",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６２",
-          "name": "虫鸣",
-          "type": "虫",
+          "machine": "招式學習器１６２",
+          "name": "蟲鳴",
+          "type": "蟲",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -736,8 +736,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -745,26 +745,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８２",
-          "name": "虫咬",
-          "type": "虫",
+          "machine": "招式學習器１８２",
+          "name": "蟲咬",
+          "type": "蟲",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１８５",
-          "name": "猛扑",
-          "type": "虫",
+          "machine": "招式學習器１８５",
+          "name": "猛撲",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１８７",
-          "name": "冰锥",
+          "machine": "招式學習器１８７",
+          "name": "冰錐",
           "type": "冰",
           "category": "物理",
           "power": "25",
@@ -772,8 +772,8 @@
           "pp": "30"
         },
         {
-          "machine": "招式学习器１９３",
-          "name": "气象球",
+          "machine": "招式學習器１９３",
+          "name": "氣象球",
           "type": "一般",
           "category": "特殊",
           "power": "50",
@@ -781,8 +781,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１２",
-          "name": "三旋击",
+          "machine": "招式學習器２１２",
+          "name": "三旋擊",
           "type": "冰",
           "category": "物理",
           "power": "20",
@@ -790,18 +790,18 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１６",
+          "machine": "招式學習器２１６",
           "name": "羽毛舞",
-          "type": "飞行",
-          "category": "变化",
+          "type": "飛行",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１９",
-          "name": "爬击",
-          "type": "虫",
+          "machine": "招式學習器２１９",
+          "name": "爬擊",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "90",
@@ -825,10 +825,10 @@
               "name": "滴蛛霸"
             }
           ],
-          "name": "镜面反射",
+          "name": "鏡面反射",
           "type": "超能力",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
@@ -848,11 +848,11 @@
             },
             {
               "id": "205",
-              "name": "佛烈托斯"
+              "name": "佛烈託斯"
             },
             {
               "id": "401",
-              "name": "圆法师"
+              "name": "圓法師"
             },
             {
               "id": "415",
@@ -860,23 +860,23 @@
             },
             {
               "id": "469",
-              "name": "远古巨蜓"
+              "name": "遠古巨蜓"
             },
             {
               "id": "540",
-              "name": "虫宝包"
+              "name": "蟲寶包"
             },
             {
               "id": "541",
-              "name": "宝包茧"
+              "name": "寶包繭"
             },
             {
               "id": "595",
-              "name": "电电虫"
+              "name": "電電蟲"
             },
             {
               "id": "596",
-              "name": "电蜘蛛"
+              "name": "電蜘蛛"
             },
             {
               "id": "637",
@@ -884,15 +884,15 @@
             },
             {
               "id": "664",
-              "name": "粉蝶虫"
+              "name": "粉蝶蟲"
             },
             {
               "id": "736",
-              "name": "强颚鸡母虫"
+              "name": "強顎雞母蟲"
             },
             {
               "id": "737",
-              "name": "虫电宝"
+              "name": "蟲電寶"
             },
             {
               "id": "751",
@@ -904,7 +904,7 @@
             },
             {
               "id": "917",
-              "name": "团珠蛛"
+              "name": "團珠蛛"
             },
             {
               "id": "918",
@@ -920,15 +920,15 @@
             },
             {
               "id": "953",
-              "name": "虫滚泥"
+              "name": "蟲滾泥"
             },
             {
               "id": "954",
-              "name": "虫甲圣"
+              "name": "蟲甲聖"
             }
           ],
-          "name": "虫咬",
-          "type": "虫",
+          "name": "蟲咬",
+          "type": "蟲",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -942,10 +942,10 @@
             },
             {
               "id": "0743",
-              "name": "蝶结萌虻"
+              "name": "蝶結萌虻"
             }
           ],
-          "name": "妖精之风",
+          "name": "妖精之風",
           "type": "妖精",
           "category": "特殊",
           "power": "40",
@@ -957,9 +957,9 @@
   ],
   "home_images": [
     {
-      "name": "雪绒蛾",
-      "image": "0873-雪绒蛾.png",
-      "shiny": "0873-雪绒蛾-shiny.png"
+      "name": "雪絨蛾",
+      "image": "0873-雪絨蛾.png",
+      "shiny": "0873-雪絨蛾-shiny.png"
     }
   ]
 }

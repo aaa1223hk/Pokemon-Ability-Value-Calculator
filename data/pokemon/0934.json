@@ -1,45 +1,45 @@
 {
-  "name_zh": "盐石巨灵",
+  "name_zh": "鹽石巨靈",
   "name_ja": "キョジオーン",
   "name_en": "Garganacl",
   "pokedex_id": "0934",
-  "description": "盐石巨灵（日文︰キョジオーン，英文︰Garganacl）是岩石属性宝可梦，它的设计者是有贺等。",
-  "profile": "盐石巨灵的周围总会有大量的宝可梦聚集而来，为了一舔它那富含矿物质的盐。从盐石巨灵身上采集的岩盐富含回复成分，对维持健康很有帮助。只要它摩擦指尖，搓出盐来撒在受伤的宝可梦身上，无论再重的伤都能瞬间愈合。",
-  "prototype": "盐石巨灵可能基于堡垒和岩盐，其头顶基于金字塔，尤其是西班牙加那利群岛的砌石建筑，例如拉帕尔马岛的万达马金字塔（Pirámide de Vandama）。盐石巨灵的外型也可能基于金字塔型的盐结晶，下半身的配色和花纹基于盐场挖掘盐时的横切面。\n盐石巨灵家族的专属特性洁净之盐会让幽灵属性的招式伤害减半，这可能来源于世界各地对盐能驱逐不净的认知。在科学不发达的时候，人们认为死亡是不净的，所以要用盐来驱逐这种不净。西方国家也有认为盐能够驱除恶魔，鬼魂等。\n盐石巨灵的图鉴描述，其能利用盐治愈受伤的宝可梦，此可能参考自腌渍盐的英文“curing salt”，“curing”同时有“腌渍”和“治愈”的双重字义。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步盐石巨灵（Pokémon GO）。\n←\nNo.0933：盐石垒\n宝可梦\nNo.0935：炭小侍\n→",
+  "description": "鹽石巨靈（日文︰キョジオーン，英文︰Garganacl）是岩石屬性寶可夢，它的設計者是有賀等。",
+  "profile": "鹽石巨靈的周圍總會有大量的寶可夢聚集而來，為了一舔它那富含礦物質的鹽。從鹽石巨靈身上採集的岩鹽富含回覆成分，對維持健康很有幫助。只要它摩擦指尖，搓出鹽來撒在受傷的寶可夢身上，無論再重的傷都能瞬間癒合。",
+  "prototype": "鹽石巨靈可能基於堡壘和岩鹽，其頭頂基於金字塔，尤其是西班牙加那利群島的砌石建築，例如拉帕爾馬島的萬達馬金字塔（Pirámide de Vandama）。鹽石巨靈的外型也可能基於金字塔型的鹽結晶，下半身的配色和花紋基於鹽場挖掘鹽時的橫切面。\n鹽石巨靈家族的專屬特性潔淨之鹽會讓幽靈屬性的招式傷害減半，這可能來源於世界各地對鹽能驅逐不淨的認知。在科學不發達的時候，人們認為死亡是不淨的，所以要用鹽來驅逐這種不淨。西方國家也有認為鹽能夠驅除惡魔，鬼魂等。\n鹽石巨靈的圖鑑描述，其能利用鹽治癒受傷的寶可夢，此可能參考自醃漬鹽的英文“curing salt”，“curing”同時有“醃漬”和“治癒”的雙重字義。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步鹽石巨靈（Pokémon GO）。\n←\nNo.0933：鹽石壘\n寶可夢\nNo.0935：炭小侍\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "キョジオーン Kyojiohn",
-      "origin": "来自“巨人（きょじん）”（巨人）、“塩（しお）”（盐）、和英文前缀 geo-（表示“地”）。"
+      "origin": "來自“巨人（きょじん）”（巨人）、“塩（しお）”（鹽）、和英文字首 geo-（表示“地”）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "鹽石巨靈盐石巨灵",
-      "origin": "来自“石盐”和“巨灵”。"
+      "name": "鹽石巨靈鹽石巨靈",
+      "origin": "來自“石鹽”和“巨靈”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "鹽石巨靈",
-      "origin": "来自“石盐”和“巨灵”。"
+      "origin": "來自“石鹽”和“巨靈”。"
     },
     {
       "language": "英文",
       "name": "Garganacl",
-      "origin": "来自 gargantuan（庞大的）和化学式 NaCl （氯化钠：食盐的主要成分）。"
+      "origin": "來自 gargantuan（龐大的）和化學式 NaCl （氯化鈉：食鹽的主要成分）。"
     },
     {
       "language": "法文",
       "name": "Gigansel",
-      "origin": "来自 gigantesque（巨大的）和 sel（盐）。"
+      "origin": "來自 gigantesque（巨大的）和 sel（鹽）。"
     },
     {
       "language": "德文",
       "name": "Saltigant",
-      "origin": "来自 Salz（盐）和 Gigant（巨人）。"
+      "origin": "來自 Salz（鹽）和 Gigant（巨人）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Garganacl",
       "origin": "同英文名。"
     },
@@ -49,29 +49,29 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "콜로솔트 Kollosolteu",
-      "origin": "来自英文 colossal（巨大的）和英文 salt（盐）。"
+      "origin": "來自英文 colossal（巨大的）和英文 salt（鹽）。"
     }
   ],
   "forms": [
     {
-      "name": "盐石巨灵",
+      "name": "鹽石巨靈",
       "types": [
         "岩石"
       ],
-      "category": "岩盐宝可梦",
+      "category": "岩鹽寶可夢",
       "abilities": [
         {
-          "name": "洁净之盐",
+          "name": "潔淨之鹽",
           "is_hidden": false
         },
         {
-          "name": "结实",
+          "name": "結實",
           "is_hidden": false
         },
         {
-          "name": "恒净之躯",
+          "name": "恆淨之軀",
           "is_hidden": true
         }
       ],
@@ -80,9 +80,9 @@
       "color": "褐色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "矿物群"
+        "礦物群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -115,10 +115,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body12.png",
       "footprint": "FUnknown.png",
-      "image": "0934-盐石巨灵.png"
+      "image": "0934-鹽石巨靈.png"
     }
   ],
   "stats": [
@@ -146,11 +146,11 @@
           "damage": "0.5"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -166,15 +166,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -190,7 +190,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -202,11 +202,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "form": "洁净之盐",
+      "form": "潔淨之鹽",
       "types": [
         "岩石"
       ],
@@ -226,11 +226,11 @@
           "damage": "0.5"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -246,15 +246,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "0.5"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -270,7 +270,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -282,11 +282,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -302,18 +302,18 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "只要它摩擦指尖，搓出盐来撒在受伤的宝可梦身上，无论再重的伤都能瞬间愈合。"
+          "group": "寶可夢 朱／紫",
+          "text": "只要它摩擦指尖，搓出鹽來撒在受傷的寶可夢身上，無論再重的傷都能瞬間癒合。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "盐石巨灵的周围总会有大量的宝可梦聚集而来，为了一舔它那富含矿物质的盐。"
+          "group": "寶可夢 朱／紫",
+          "text": "鹽石巨靈的周圍總會有大量的寶可夢聚集而來，為了一舔它那富含礦物質的鹽。"
         },
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "从盐石巨灵身上采集的岩盐富含回复成分，对维持健康很有帮助。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "從鹽石巨靈身上採集的岩鹽富含回覆成分，對維持健康很有幫助。"
         }
       ]
     }
@@ -321,8 +321,8 @@
   "evolution_chains": [
     [
       {
-        "name": "盐石宝",
-        "stage": "未进化",
+        "name": "鹽石寶",
+        "stage": "未進化",
         "text": null,
         "image": "932Nacli_Dream.png",
         "back_text": null,
@@ -330,21 +330,21 @@
         "form_name": null
       },
       {
-        "name": "盐石垒",
-        "stage": "1阶进化",
-        "text": "等级24以上",
+        "name": "鹽石壘",
+        "stage": "1階進化",
+        "text": "等級24以上",
         "image": "933Naclstack_Dream.png",
         "back_text": null,
-        "from": "盐石宝",
+        "from": "鹽石寶",
         "form_name": null
       },
       {
-        "name": "盐石巨灵",
-        "stage": "2阶进化",
-        "text": "等级38以上",
+        "name": "鹽石巨靈",
+        "stage": "2階進化",
+        "text": "等級38以上",
         "image": "934Garganacl_Dream.png",
         "back_text": null,
-        "from": "盐石垒",
+        "from": "鹽石壘",
         "form_name": null
       }
     ]
@@ -356,9 +356,9 @@
       "form": "一般",
       "data": [
         {
-          "level": "进化",
-          "name": "臂锤",
-          "type": "格斗",
+          "level": "進化",
+          "name": "臂錘",
+          "type": "格鬥",
           "category": "物理",
           "power": "100",
           "accuracy": "90",
@@ -366,16 +366,16 @@
         },
         {
           "level": "—",
-          "name": "挡路",
+          "name": "擋路",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -384,25 +384,25 @@
         },
         {
           "level": "—",
-          "name": "广域防守",
+          "name": "廣域防守",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "—",
-          "name": "变硬",
+          "name": "變硬",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "—",
-          "name": "岩石爆击",
+          "name": "岩石爆擊",
           "type": "岩石",
           "category": "物理",
           "power": "25",
@@ -420,7 +420,7 @@
         },
         {
           "level": "7",
-          "name": "泥巴射击",
+          "name": "泥巴射擊",
           "type": "地面",
           "category": "特殊",
           "power": "55",
@@ -429,7 +429,7 @@
         },
         {
           "level": "10",
-          "name": "岩石封锁",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -440,14 +440,14 @@
           "level": "13",
           "name": "岩石打磨",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "16",
-          "name": "头锤",
+          "name": "頭錘",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -456,7 +456,7 @@
         },
         {
           "level": "24",
-          "name": "盐腌",
+          "name": "鹽醃",
           "type": "岩石",
           "category": "物理",
           "power": "40",
@@ -467,14 +467,14 @@
           "level": "30",
           "name": "自我再生",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "34",
-          "name": "岩崩",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -483,19 +483,19 @@
         },
         {
           "level": "40",
-          "name": "隐形岩",
+          "name": "隱形巖",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "44",
-          "name": "重磅冲撞",
-          "type": "钢",
+          "name": "重磅衝撞",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
@@ -510,7 +510,7 @@
         },
         {
           "level": "54",
-          "name": "尖石攻击",
+          "name": "尖石攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "100",
@@ -534,7 +534,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -543,17 +543,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -561,7 +561,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２８",
+          "machine": "招式學習器０２８",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -570,8 +570,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３５",
-          "name": "泥巴射击",
+          "machine": "招式學習器０３５",
+          "name": "泥巴射擊",
           "type": "地面",
           "category": "特殊",
           "power": "55",
@@ -579,8 +579,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３６",
-          "name": "岩石封锁",
+          "machine": "招式學習器０３６",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -588,16 +588,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４６",
+          "machine": "招式學習器０４６",
           "name": "雪崩",
           "type": "冰",
           "category": "物理",
@@ -606,43 +606,43 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５１",
+          "machine": "招式學習器０５１",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５５",
+          "machine": "招式學習器０５５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -651,17 +651,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５８",
+          "machine": "招式學習器０５８",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０５９",
-          "name": "意念头锤",
+          "machine": "招式學習器０５９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -669,8 +669,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -678,7 +678,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６７",
+          "machine": "招式學習器０６７",
           "name": "火焰拳",
           "type": "火",
           "category": "物理",
@@ -687,17 +687,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６８",
-          "name": "雷电拳",
-          "type": "电",
+          "machine": "招式學習器０６８",
+          "name": "雷電拳",
+          "type": "電",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６９",
-          "name": "冰冻拳",
+          "machine": "招式學習器０６９",
+          "name": "冰凍拳",
           "type": "冰",
           "category": "物理",
           "power": "75",
@@ -705,17 +705,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７６",
-          "name": "岩石爆击",
+          "machine": "招式學習器０７６",
+          "name": "岩石爆擊",
           "type": "岩石",
           "category": "物理",
           "power": "25",
@@ -723,8 +723,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８４",
-          "name": "跺脚",
+          "machine": "招式學習器０８４",
+          "name": "跺腳",
           "type": "地面",
           "category": "物理",
           "power": "75",
@@ -732,17 +732,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８６",
-          "name": "岩崩",
+          "machine": "招式學習器０８６",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -750,35 +750,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８９",
-          "name": "扑击",
-          "type": "格斗",
+          "machine": "招式學習器０８９",
+          "name": "撲擊",
+          "type": "格鬥",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９３",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式學習器０９３",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９９",
-          "name": "铁头",
-          "type": "钢",
+          "machine": "招式學習器０９９",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０１",
-          "name": "力量宝石",
+          "machine": "招式學習器１０１",
+          "name": "力量寶石",
           "type": "岩石",
           "category": "特殊",
           "power": "80",
@@ -786,52 +786,52 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０４",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式學習器１０４",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１６",
-          "name": "隐形岩",
+          "machine": "招式學習器１１６",
+          "name": "隱形巖",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１２１",
-          "name": "重磅冲撞",
-          "type": "钢",
+          "machine": "招式學習器１２１",
+          "name": "重磅衝撞",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３３",
+          "machine": "招式學習器１３３",
           "name": "大地之力",
           "type": "地面",
           "category": "特殊",
@@ -840,7 +840,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４９",
+          "machine": "招式學習器１４９",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -849,8 +849,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５０",
-          "name": "尖石攻击",
+          "machine": "招式學習器１５０",
+          "name": "尖石攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "100",
@@ -858,8 +858,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -867,8 +867,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -876,8 +876,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -885,17 +885,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７８",
+          "machine": "招式學習器１７８",
           "name": "重力",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７９",
-          "name": "击落",
+          "machine": "招式學習器１７９",
+          "name": "擊落",
           "type": "岩石",
           "category": "物理",
           "power": "50",
@@ -903,17 +903,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１９２",
-          "name": "真气拳",
-          "type": "格斗",
+          "machine": "招式學習器１９２",
+          "name": "真氣拳",
+          "type": "格鬥",
           "category": "物理",
           "power": "150",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -921,7 +921,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２０",
+          "machine": "招式學習器２２０",
           "name": "流星光束",
           "type": "岩石",
           "category": "特殊",
@@ -930,20 +930,20 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２４",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器２２４",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２５",
-          "name": "硬压",
-          "type": "钢",
+          "machine": "招式學習器２２５",
+          "name": "硬壓",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         }
@@ -958,13 +958,13 @@
           "parents": [
             {
               "id": null,
-              "name": "铜象"
+              "name": "銅象"
             }
           ],
           "name": "地裂*",
           "type": "地面",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "30",
           "pp": "5"
         },
@@ -972,7 +972,7 @@
           "parents": [
             {
               "id": "712",
-              "name": "冰宝"
+              "name": "冰寶"
             },
             {
               "id": "713",
@@ -983,9 +983,9 @@
               "name": "冰岩怪"
             }
           ],
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -998,7 +998,7 @@
             },
             {
               "id": "0838",
-              "name": "大炭车"
+              "name": "大炭車"
             },
             {
               "id": "0839",
@@ -1039,7 +1039,7 @@
               "name": "晶光花"
             }
           ],
-          "name": "力量宝石",
+          "name": "力量寶石",
           "type": "岩石",
           "category": "特殊",
           "power": "80",
@@ -1051,9 +1051,9 @@
   ],
   "home_images": [
     {
-      "name": "盐石巨灵",
-      "image": "0934-盐石巨灵.png",
-      "shiny": "0934-盐石巨灵-shiny.png"
+      "name": "鹽石巨靈",
+      "image": "0934-鹽石巨靈.png",
+      "shiny": "0934-鹽石巨靈-shiny.png"
     }
   ]
 }

@@ -3,38 +3,38 @@
   "name_ja": "レジエレキ",
   "name_en": "Regieleki",
   "pokedex_id": "0894",
-  "description": "雷吉艾勒奇（日文︰レジエレキ，英文︰Regieleki）是电属性的传说的宝可梦。它是传说的巨人之一。",
-  "profile": "雷吉艾勒奇是通体黄色的宝可梦，全身由电离子组成。两肩各有一个蓝色的圆环，腹部也有着三个依次变小的圆环。它的头上有七个粉橙色的圆点，四个尖角。双臂共由十二个黄色长条组成一个充斥着电离子的长条状椭圆锥形肢体，两条腿上各有两个尖角，双腿在弹跳时会弯曲成闪电形，正常时为倒三角形。它是靠吸收电子为生的宝可梦，身体的绝大部分都是由电能构成的，整个身体都是制造电能的器官。可以制造出伽勒尔全域所需的电力。\n据说，雷吉艾勒奇使出的电属性招式的威力，在所有电属性宝可梦中首屈一指。科学家经调查后得知，雷吉艾勒奇的身上装有某种使电流无法通过的特殊器具。有种说法认为，雷吉艾勒奇的力量曽在古代给人们造成了灾祸，为了限制它的能力，古代的人们便在它身上安装了这种器具。据说在解开身上的圆环后会释放出隐藏的力量。",
-  "prototype": "雷吉艾勒奇基于希伯来人传说中的魔像。\n传说中魔像是用秘术制造出来的泥人，只会听从制作者的命令来行事。要消灭魔像的唯一方法就是将写在其身上的“EMETH(真理)”的“E”去掉变为“METH(死亡)”。\n雷吉艾勒奇可能在传说中的魔像中代表“第二次工业革命”，即电气革命时期。\n从造型来看，雷吉艾勒奇的躯干形似电灯泡，双臂形似特斯拉线圈和具象化的电弧，身上的圆环形似电灯泡的灯头，而头部圆点的形状可能参考了电灯泡的灯丝 。\n由于雷吉艾勒奇是被封印在古代遗迹中的可控发电装置，其设计概念可能来自欧帕兹（又名年代错误文物），例如瓮形的巴格达电池。",
+  "description": "雷吉艾勒奇（日文︰レジエレキ，英文︰Regieleki）是電屬性的傳說的寶可夢。它是傳說的巨人之一。",
+  "profile": "雷吉艾勒奇是通體黃色的寶可夢，全身由電離子組成。兩肩各有一個藍色的圓環，腹部也有著三個依次變小的圓環。它的頭上有七個粉橙色的圓點，四個尖角。雙臂共由十二個黃色長條組成一個充斥著電離子的長條狀橢圓錐形肢體，兩條腿上各有兩個尖角，雙腿在彈跳時會彎曲成閃電形，正常時為倒三角形。它是靠吸收電子為生的寶可夢，身體的絕大部分都是由電能構成的，整個身體都是製造電能的器官。可以製造出伽勒爾全域所需的電力。\n據說，雷吉艾勒奇使出的電屬性招式的威力，在所有電屬性寶可夢中首屈一指。科學家經調查後得知，雷吉艾勒奇的身上裝有某種使電流無法透過的特殊器具。有種說法認為，雷吉艾勒奇的力量曽在古代給人們造成了災禍，為了限制它的能力，古代的人們便在它身上安裝了這種器具。據說在解開身上的圓環後會釋放出隱藏的力量。",
+  "prototype": "雷吉艾勒奇基於希伯來人傳說中的魔像。\n傳說中魔像是用秘術製造出來的泥人，只會聽從製作者的命令來行事。要消滅魔像的唯一方法就是將寫在其身上的“EMETH(真理)”的“E”去掉變為“METH(死亡)”。\n雷吉艾勒奇可能在傳說中的魔像中代表“第二次工業革命”，即電氣革命時期。\n從造型來看，雷吉艾勒奇的軀幹形似電燈泡，雙臂形似特斯拉線圈和具象化的電弧，身上的圓環形似電燈泡的燈頭，而頭部圓點的形狀可能參考了電燈泡的燈絲 。\n由於雷吉艾勒奇是被封印在古代遺蹟中的可控發電裝置，其設計概念可能來自歐帕茲（又名年代錯誤文物），例如甕形的巴格達電池。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "レジエレキ Regieleki",
-      "origin": "来自英文 register（电子设备的寄存器）和英文 electric（电的）。"
+      "origin": "來自英文 register（電子裝置的暫存器）和英文 electric（電的）。"
     },
     {
       "language": "中文-任天堂",
       "name": "雷吉艾勒奇",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     },
     {
       "language": "英文",
       "name": "Regieleki",
-      "origin": "来自日文名。"
+      "origin": "來自日文名。"
     },
     {
       "language": "法文",
       "name": "Regieleki",
-      "origin": "来自日文名。"
+      "origin": "來自日文名。"
     },
     {
       "language": "德文",
       "name": "Regieleki",
-      "origin": "来自日文名。"
+      "origin": "來自日文名。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Regieleki",
       "origin": "同英文名。"
     },
@@ -44,30 +44,30 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "레지에레키 Regieleki",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     }
   ],
   "forms": [
     {
       "name": "雷吉艾勒奇",
       "types": [
-        "电"
+        "電"
       ],
-      "category": "电子宝可梦",
+      "category": "電子寶可夢",
       "abilities": [
         {
-          "name": "电晶体",
+          "name": "電晶體",
           "is_hidden": false
         }
       ],
       "height": "1.2m",
       "weight": "145.0kg",
-      "color": "黄色",
+      "color": "黃色",
       "catch_rate": "3（0.4%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -102,7 +102,7 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "120 孵化周期（30840步）",
+      "egg_cycles": "120 孵化週期（30840步）",
       "shape": "Body12.png",
       "footprint": "FUnknown.png",
       "image": "0894-雷吉艾勒奇.png"
@@ -125,7 +125,7 @@
     {
       "form": "",
       "types": [
-        "电"
+        "電"
       ],
       "data": [
         {
@@ -133,11 +133,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -153,15 +153,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -177,7 +177,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -189,11 +189,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -208,14 +208,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "由电能聚集而成。据说在解开身上的圆环后会释放出隐藏的力量。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "由電能聚集而成。據說在解開身上的圓環後會釋放出隱藏的力量。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "整个身体是制造电能的器官。可以制造出伽勒尔全域所需的电力。"
+          "group": "寶可夢 劍／盾",
+          "text": "整個身體是製造電能的器官。可以製造出伽勒爾全域所需的電力。"
         }
       ]
     }
@@ -224,7 +224,7 @@
     [
       {
         "name": "雷吉艾勒奇",
-        "stage": "不进化",
+        "stage": "不進化",
         "text": null,
         "image": "894Regieleki_Dream.png",
         "back_text": null,
@@ -241,8 +241,8 @@
       "data": [
         {
           "level": "—",
-          "name": "电击",
-          "type": "电",
+          "name": "電擊",
+          "type": "電",
           "category": "特殊",
           "power": "40",
           "accuracy": "100",
@@ -250,7 +250,7 @@
         },
         {
           "level": "—",
-          "name": "高速旋转",
+          "name": "高速旋轉",
           "type": "一般",
           "category": "物理",
           "power": "50",
@@ -259,8 +259,8 @@
         },
         {
           "level": "6",
-          "name": "电网",
-          "type": "电",
+          "name": "電網",
+          "type": "電",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
@@ -277,8 +277,8 @@
         },
         {
           "level": "18",
-          "name": "电击波",
-          "type": "电",
+          "name": "電擊波",
+          "type": "電",
           "category": "特殊",
           "power": "60",
           "accuracy": "—",
@@ -286,9 +286,9 @@
         },
         {
           "level": "24",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
@@ -304,8 +304,8 @@
         },
         {
           "level": "36",
-          "name": "雷电囚笼",
-          "type": "电",
+          "name": "雷電囚籠",
+          "type": "電",
           "category": "特殊",
           "power": "80",
           "accuracy": "90",
@@ -313,8 +313,8 @@
         },
         {
           "level": "42",
-          "name": "十万伏特",
-          "type": "电",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
@@ -322,16 +322,16 @@
         },
         {
           "level": "48",
-          "name": "电磁飘浮",
-          "type": "电",
-          "category": "变化",
+          "name": "電磁飄浮",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "54",
-          "name": "大闹一番",
+          "name": "大鬧一番",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -340,17 +340,17 @@
         },
         {
           "level": "60",
-          "name": "锁定",
+          "name": "鎖定",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
           "level": "66",
-          "name": "电磁炮",
-          "type": "电",
+          "name": "電磁炮",
+          "type": "電",
           "category": "特殊",
           "power": "120",
           "accuracy": "50",
@@ -358,7 +358,7 @@
         },
         {
           "level": "72",
-          "name": "破坏光线",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -382,7 +382,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -391,44 +391,44 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００４",
-          "name": "高速移动",
+          "machine": "招式學習器００４",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２３",
-          "name": "充电光束",
-          "type": "电",
+          "machine": "招式學習器０２３",
+          "name": "充電光束",
+          "type": "電",
           "category": "特殊",
           "power": "50",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -436,7 +436,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -445,35 +445,35 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４８",
-          "name": "伏特替换",
-          "type": "电",
+          "machine": "招式學習器０４８",
+          "name": "伏特替換",
+          "type": "電",
           "category": "特殊",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -481,107 +481,107 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７２",
-          "name": "电球",
-          "type": "电",
+          "machine": "招式學習器０７２",
+          "name": "電球",
+          "type": "電",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７４",
+          "machine": "招式學習器０７４",
           "name": "反射壁",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０８２",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０８２",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９６",
-          "name": "怪异电波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０９６",
+          "name": "怪異電波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２６",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式學習器１２６",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３６",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１３６",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４７",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式學習器１４７",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -589,8 +589,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -598,17 +598,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６６",
+          "machine": "招式學習器１６６",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -616,27 +616,27 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７３",
-          "name": "充电",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１７３",
+          "name": "充電",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２１０",
-          "name": "闪电强袭",
-          "type": "电",
+          "machine": "招式學習器２１０",
+          "name": "閃電強襲",
+          "type": "電",
           "category": "物理",
           "power": "100",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１１",
-          "name": "电网",
-          "type": "电",
+          "machine": "招式學習器２１１",
+          "name": "電網",
+          "type": "電",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",

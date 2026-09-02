@@ -1,62 +1,62 @@
 {
-  "name_zh": "铁斑叶",
+  "name_zh": "鐵斑葉",
   "name_ja": "テツノイサハ",
   "name_en": "Iron Leaves",
   "pokedex_id": "1010",
-  "description": "铁斑叶（日文︰テツノイサハ，英文︰Iron Leaves）是草属性／超能力属性悖谬宝可梦。",
-  "profile": "铁斑叶与刊登在《紫之书》上，由当时的第零区观测队所描绘的素描有相似之处，与超自然杂志中介绍过的未来的毕力吉翁的样子有多个特征相吻合。它拥有光滑透亮，质感如金属般的身体，额头与颈部发光的部位似乎有时能变形成像长剑一样。\n根据极少的目击报告，铁斑叶用散发着光辉的剑将大树和大石头切成了丝。",
-  "prototype": "铁斑叶在毕力吉翁的基础上融入了机械的要素，比如仿生马等动物机械。",
-  "detail": "铁斑叶、铁磐岩与铁头壳的部分要素与在《紫之书》上刊登的素描相似。",
+  "description": "鐵斑葉（日文︰テツノイサハ，英文︰Iron Leaves）是草屬性／超能力屬性悖謬寶可夢。",
+  "profile": "鐵斑葉與刊登在《紫之書》上，由當時的第零區觀測隊所描繪的素描有相似之處，與超自然雜誌中介紹過的未來的畢力吉翁的樣子有多個特徵相吻合。它擁有光滑透亮，質感如金屬般的身體，額頭與頸部發光的部位似乎有時能變形成像長劍一樣。\n根據極少的目擊報告，鐵斑葉用散發著光輝的劍將大樹和大石頭切成了絲。",
+  "prototype": "鐵斑葉在畢力吉翁的基礎上融入了機械的要素，比如仿生馬等動物機械。",
+  "detail": "鐵斑葉、鐵磐巖與鐵頭殼的部分要素與在《紫之書》上刊登的素描相似。",
   "names": [
     {
       "language": "日文",
       "name": "テツノイサハ Tetsunoisaha",
-      "origin": "来自“鉄（てつ）の斑（いさ）葉（は）”（铁的斑叶）。"
+      "origin": "來自“鉄（てつ）の斑（いさ）葉（は）”（鐵的斑葉）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "鐵斑葉铁斑叶",
-      "origin": "来自“铁”和“斑叶”。"
+      "name": "鐵斑葉鐵斑葉",
+      "origin": "來自“鐵”和“斑葉”。"
     },
     {
       "language": "英文",
       "name": "Iron Leaves",
-      "origin": "来自 iron（铁）和 leaf（叶子）。"
+      "origin": "來自 iron（鐵）和 leaf（葉子）。"
     },
     {
       "language": "法文",
       "name": "Vert-de-Fer",
-      "origin": "来自 vert（绿色）和 de fer（铁的）。"
+      "origin": "來自 vert（綠色）和 de fer（鐵的）。"
     },
     {
       "language": "德文",
       "name": "Eisenblatt",
-      "origin": "来自 Eisen（铁）和 Blatt（叶子）。"
+      "origin": "來自 Eisen（鐵）和 Blatt（葉子）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Fogliaferrea",
-      "origin": "来自 foglia（叶子）和 ferreo（铁的）。"
+      "origin": "來自 foglia（葉子）和 ferreo（鐵的）。"
     },
     {
       "language": "西班牙文",
       "name": "Ferroverdor",
-      "origin": "来自前缀 ferro-（表示“铁”）和 verdor（绿意）。"
+      "origin": "來自字首 ferro-（表示“鐵”）和 verdor（綠意）。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "무쇠잎새 Musoeipsae",
-      "origin": "来自“무쇠”（铸铁）和“잎새”（叶子）。"
+      "origin": "來自“무쇠”（鑄鐵）和“잎새”（葉子）。"
     }
   ],
   "forms": [
     {
-      "name": "铁斑叶",
+      "name": "鐵斑葉",
       "types": [
         "草",
         "超能力"
       ],
-      "category": "悖谬宝可梦",
+      "category": "悖謬寶可夢",
       "abilities": [
         {
           "name": "夸克充能",
@@ -65,10 +65,10 @@
       ],
       "height": "1.5m",
       "weight": "125.0kg",
-      "color": "绿色",
+      "color": "綠色",
       "catch_rate": "5（0.7%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -103,10 +103,10 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "50 孵化周期*（12850步）",
+      "egg_cycles": "50 孵化週期*（12850步）",
       "shape": "Body08.png",
       "footprint": "FUnknown.png",
-      "image": "1010-铁斑叶.png"
+      "image": "1010-鐵斑葉.png"
     }
   ],
   "stats": [
@@ -135,11 +135,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "2"
         },
         {
@@ -155,15 +155,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "4"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -179,7 +179,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "0.5"
         },
         {
@@ -191,11 +191,11 @@
           "damage": "2"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -211,13 +211,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "与超自然杂志中介绍过的未来的毕力吉翁的样子有多个特征相吻合。"
+          "group": "寶可夢 朱／紫",
+          "text": "與超自然雜誌中介紹過的未來的畢力吉翁的樣子有多個特徵相吻合。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "根据极少的目击报告，它用散发着光辉的剑将大树和大石头切成了丝。"
+          "group": "寶可夢 朱／紫",
+          "text": "根據極少的目擊報告，它用散發著光輝的劍將大樹和大石頭切成了絲。"
         }
       ]
     }
@@ -225,8 +225,8 @@
   "evolution_chains": [
     [
       {
-        "name": "铁斑叶",
-        "stage": "不进化",
+        "name": "鐵斑葉",
+        "stage": "不進化",
         "text": null,
         "image": "1010Iron_Leaves.png",
         "back_text": null,
@@ -245,14 +245,14 @@
           "level": "—",
           "name": "瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
         },
         {
           "level": "—",
-          "name": "电光一闪",
+          "name": "電光一閃",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -261,25 +261,25 @@
         },
         {
           "level": "—",
-          "name": "帮助",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "—",
-          "name": "自我激励",
+          "name": "自我激勵",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "7",
-          "name": "魔法叶",
+          "name": "魔法葉",
           "type": "草",
           "category": "特殊",
           "power": "60",
@@ -288,7 +288,7 @@
         },
         {
           "level": "14",
-          "name": "报仇",
+          "name": "報仇",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -298,16 +298,16 @@
         {
           "level": "21",
           "name": "快速防守",
-          "type": "格斗",
-          "category": "变化",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "28",
-          "name": "暗袭要害",
-          "type": "恶",
+          "name": "暗襲要害",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -315,17 +315,17 @@
         },
         {
           "level": "35",
-          "name": "剑舞",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "42",
-          "name": "圣剑",
-          "type": "格斗",
+          "name": "聖劍",
+          "type": "格鬥",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
@@ -333,7 +333,7 @@
         },
         {
           "level": "49",
-          "name": "叶刃",
+          "name": "葉刃",
           "type": "草",
           "category": "物理",
           "power": "90",
@@ -342,7 +342,7 @@
         },
         {
           "level": "56",
-          "name": "精神剑",
+          "name": "精神劍",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -351,8 +351,8 @@
         },
         {
           "level": "63",
-          "name": "近身战",
-          "type": "格斗",
+          "name": "近身戰",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
@@ -362,15 +362,15 @@
           "level": "70",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "77",
-          "name": "超级角击",
-          "type": "虫",
+          "name": "超級角擊",
+          "type": "蟲",
           "category": "物理",
           "power": "120",
           "accuracy": "85",
@@ -378,9 +378,9 @@
         },
         {
           "level": "84",
-          "name": "交换场地",
+          "name": "交換場地",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -395,19 +395,19 @@
           "pp": "10"
         },
         {
-          "level": "回忆",
-          "name": "延后",
-          "type": "恶",
-          "category": "变化",
+          "level": "回憶",
+          "name": "延後",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "level": "回忆",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "level": "回憶",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -420,7 +420,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -429,34 +429,34 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００４",
-          "name": "高速移动",
+          "machine": "招式學習器００４",
+          "name": "高速移動",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２０",
+          "machine": "招式學習器０２０",
           "name": "起草",
           "type": "草",
           "category": "物理",
@@ -465,8 +465,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -474,16 +474,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２７",
+          "machine": "招式學習器０２７",
           "name": "燕返",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -492,8 +492,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３３",
-          "name": "魔法叶",
+          "machine": "招式學習器０３３",
+          "name": "魔法葉",
           "type": "草",
           "category": "特殊",
           "power": "60",
@@ -501,26 +501,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５３",
-          "name": "修长之角",
-          "type": "钢",
+          "machine": "招式學習器０５３",
+          "name": "修長之角",
+          "type": "鋼",
           "category": "物理",
           "power": "70",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５７",
-          "name": "点到为止",
+          "machine": "招式學習器０５７",
+          "name": "點到為止",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -528,107 +528,107 @@
           "pp": "40"
         },
         {
-          "machine": "招式学习器０５８",
+          "machine": "招式學習器０５８",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６５",
-          "name": "空气之刃",
-          "type": "飞行",
+          "machine": "招式學習器０６５",
+          "name": "空氣之刃",
+          "type": "飛行",
           "category": "特殊",
           "power": "75",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８１",
-          "name": "打草结",
+          "machine": "招式學習器０８１",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８８",
-          "name": "剑舞",
+          "machine": "招式學習器０８８",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９２",
+          "machine": "招式學習器０９２",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０４",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式學習器１０４",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０５",
+          "machine": "招式學習器１０５",
           "name": "十字剪",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１１",
-          "name": "终极吸取",
+          "machine": "招式學習器１１１",
+          "name": "終極吸取",
           "type": "草",
           "category": "特殊",
           "power": "75",
@@ -636,7 +636,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１９",
+          "machine": "招式學習器１１９",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -645,71 +645,71 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２９",
+          "machine": "招式學習器１２９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３４",
-          "name": "绝处逢生",
-          "type": "格斗",
+          "machine": "招式學習器１３４",
+          "name": "絕處逢生",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３６",
-          "name": "电气场地",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器１３６",
+          "name": "電氣場地",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３７",
-          "name": "青草场地",
+          "machine": "招式學習器１３７",
+          "name": "青草場地",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３８",
-          "name": "精神场地",
+          "machine": "招式學習器１３８",
+          "name": "精神場地",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４７",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式學習器１４７",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -717,17 +717,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５８",
-          "name": "真气弹",
-          "type": "格斗",
+          "machine": "招式學習器１５８",
+          "name": "真氣彈",
+          "type": "格鬥",
           "category": "特殊",
           "power": "120",
           "accuracy": "70",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５９",
-          "name": "飞叶风暴",
+          "machine": "招式學習器１５９",
+          "name": "飛葉風暴",
           "type": "草",
           "category": "特殊",
           "power": "130",
@@ -735,8 +735,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -744,16 +744,16 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６７",
-          "name": "近身战",
-          "type": "格斗",
+          "machine": "招式學習器１６７",
+          "name": "近身戰",
+          "type": "格鬥",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６８",
+          "machine": "招式學習器１６８",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -762,8 +762,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -771,16 +771,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７８",
+          "machine": "招式學習器１７８",
           "name": "重力",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１９０",
+          "machine": "招式學習器１９０",
           "name": "日光刃",
           "type": "草",
           "category": "物理",
@@ -789,8 +789,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -798,28 +798,28 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１３",
-          "name": "指导",
-          "type": "格斗",
-          "category": "变化",
+          "machine": "招式學習器２１３",
+          "name": "指導",
+          "type": "格鬥",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２１",
-          "name": "深渊突刺",
-          "type": "恶",
+          "machine": "招式學習器２２１",
+          "name": "深淵突刺",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２３",
-          "name": "金属音",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式學習器２２３",
+          "name": "金屬音",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
@@ -830,9 +830,9 @@
   "egg_moves": [],
   "home_images": [
     {
-      "name": "铁斑叶",
-      "image": "1010-铁斑叶.png",
-      "shiny": "1010-铁斑叶-shiny.png"
+      "name": "鐵斑葉",
+      "image": "1010-鐵斑葉.png",
+      "shiny": "1010-鐵斑葉-shiny.png"
     }
   ]
 }

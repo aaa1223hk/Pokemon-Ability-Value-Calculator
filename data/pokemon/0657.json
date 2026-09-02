@@ -1,55 +1,55 @@
 {
-  "name_zh": "呱头蛙",
+  "name_zh": "呱頭蛙",
   "name_ja": "ゲコガシラ",
   "name_en": "Frogadier",
   "pokedex_id": "0657",
-  "description": "呱头蛙（日文︰ゲコガシラ，英文︰Frogadier）是水属性宝可梦。",
-  "profile": "呱头蛙背部的颜色变深，身形也变得高大纤细起来，它有两条长长的手臂，头部有凸起的部位，而鼻子的部位有两个白点，呱头蛙脖子的部位依然被泡沫所包裹着，看起来就像是套着白色的围巾一般。\n呱头蛙有着不输给任何人的灵巧身体，擅长活用地形的战术。它有绝佳的跳跃力，指尖能紧贴垂直的墙壁，就算是600公尺的高塔也能一分钟登顶。在对战里擅长在树木、天花板间跳跃，进行扰乱对手的战法。还会丢出泡沫包覆的小石头攻击。它的控制力很强，可以击中30米外的空罐子。",
-  "prototype": "呱头蛙的原型为树蛙或雨蛙。\n其脖子上的泡沫来源于雨蛙产卵时以泡沫筑卵房的习性，或来自于背负蛙卵的扩角蛙（一般认为其为雨蛙的一种）的形象。\n它眼上的突状物来源于角蟾和角蛙。\n它的习性和动作，以及围巾状的泡沫基于忍者。忍者与无尾目动物之间的联系可能源自日本江户时代著名的虚构忍者儿雷也（又名自来也），他因蛤蟆妖术而闻名。",
+  "description": "呱頭蛙（日文︰ゲコガシラ，英文︰Frogadier）是水屬性寶可夢。",
+  "profile": "呱頭蛙背部的顏色變深，身形也變得高大纖細起來，它有兩條長長的手臂，頭部有凸起的部位，而鼻子的部位有兩個白點，呱頭蛙脖子的部位依然被泡沫所包裹著，看起來就像是套著白色的圍巾一般。\n呱頭蛙有著不輸給任何人的靈巧身體，擅長活用地形的戰術。它有絕佳的跳躍力，指尖能緊貼垂直的牆壁，就算是600公尺的高塔也能一分鐘登頂。在對戰裡擅長在樹木、天花板間跳躍，進行擾亂對手的戰法。還會丟出泡沫包覆的小石頭攻擊。它的控制力很強，可以擊中30米外的空罐子。",
+  "prototype": "呱頭蛙的原型為樹蛙或雨蛙。\n其脖子上的泡沫來源於雨蛙產卵時以泡沫築卵房的習性，或來自於揹負蛙卵的擴角蛙（一般認為其為雨蛙的一種）的形象。\n它眼上的突狀物來源於角蟾和角蛙。\n它的習性和動作，以及圍巾狀的泡沫基於忍者。忍者與無尾目動物之間的聯絡可能源自日本江戶時代著名的虛構忍者兒雷也（又名自來也），他因蛤蟆妖術而聞名。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "ゲコガシラ Gekogashira",
-      "origin": "来自“ゲコゲコ”（蛙叫声）和“小（こ）頭（がしら）”（小头目）。"
+      "origin": "來自“ゲコゲコ”（蛙叫聲）和“小（こ）頭（がしら）”（小頭目）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "呱頭蛙呱头蛙",
-      "origin": "来自“呱”（蛙叫声）、“头目”和“蛙”。"
+      "name": "呱頭蛙呱頭蛙",
+      "origin": "來自“呱”（蛙叫聲）、“頭目”和“蛙”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "呱头蛙",
-      "origin": "来“呱”、“头目”和“蛙”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "呱頭蛙",
-      "origin": "来自“呱”、“头目”和“蛙”。"
+      "origin": "來“呱”、“頭目”和“蛙”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "呱頭蛙",
+      "origin": "來自“呱”、“頭目”和“蛙”。"
     },
     {
       "language": "中文-香港",
       "name": "呱頭蛙",
-      "origin": "来自“呱”、“头目”和“蛙”。"
+      "origin": "來自“呱”、“頭目”和“蛙”。"
     },
     {
       "language": "英文",
       "name": "Frogadier",
-      "origin": "来自 frog（蛙）和 brigadier（准将）。"
+      "origin": "來自 frog（蛙）和 brigadier（准將）。"
     },
     {
       "language": "法文",
       "name": "Croâporal",
-      "origin": "来自 croâ（蛙叫声）、crapaud（蟾蜍）和 caporal（下士）。"
+      "origin": "來自 croâ（蛙叫聲）、crapaud（蟾蜍）和 caporal（下士）。"
     },
     {
       "language": "德文",
       "name": "Amphizel",
-      "origin": "来自 Amphibie（两栖动物）和 Spitzel（特务）。"
+      "origin": "來自 Amphibie（兩棲動物）和 Spitzel（特務）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Frogadier",
       "origin": "同英文名。"
     },
@@ -59,36 +59,36 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "개굴반장 Gaegulbanjang",
-      "origin": "来自“개굴개굴”（蛙叫声）和“반장〈班長〉”（班长）。"
+      "origin": "來自“개굴개굴”（蛙叫聲）和“반장〈班長〉”（班長）。"
     }
   ],
   "forms": [
     {
-      "name": "呱头蛙",
+      "name": "呱頭蛙",
       "types": [
         "水"
       ],
-      "category": "泡蛙宝可梦",
+      "category": "泡蛙寶可夢",
       "abilities": [
         {
           "name": "激流",
           "is_hidden": false
         },
         {
-          "name": "变幻自如",
+          "name": "變幻自如",
           "is_hidden": true
         }
       ],
       "height": "0.6m",
       "weight": "10.9kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
         "水中1群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -121,10 +121,10 @@
         "male": 87.5,
         "female": 12.5
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body12.png",
       "footprint": "FUnknown.png",
-      "image": "0657-呱头蛙.png"
+      "image": "0657-呱頭蛙.png"
     }
   ],
   "stats": [
@@ -152,11 +152,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -172,15 +172,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -196,7 +196,7 @@
           "damage": "2"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -208,11 +208,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -228,23 +228,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "使用投掷被泡泡包着的小石头的招式。控制力很强，可以击中３０米外的空罐子。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "使用投擲被泡泡包著的小石頭的招式。控制力很強，可以擊中３０米外的空罐子。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "灵巧的身体不输给任何人。只需１分钟就能登上超过６００米高的塔顶。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "靈巧的身體不輸給任何人。只需１分鐘就能登上超過６００米高的塔頂。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "使用投掷被泡泡包着的小石头的招式。控制力很强，可以击中３０米外的空罐子。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "使用投擲被泡泡包著的小石頭的招式。控制力很強，可以擊中３０米外的空罐子。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "灵巧的身体不输给任何人。只需１分钟就能登上超过６００米高的塔顶。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "靈巧的身體不輸給任何人。只需１分鐘就能登上超過６００米高的塔頂。"
         }
       ]
     },
@@ -253,18 +253,18 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "擅长活用地形的战术。投掷被泡泡包着的小石头时百发百中。"
+          "group": "寶可夢 朱／紫",
+          "text": "擅長活用地形的戰術。投擲被泡泡包著的小石頭時百發百中。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "指尖能紧贴垂直的墙壁，即使是高楼大厦，它也能轻松登顶。"
+          "group": "寶可夢 朱／紫",
+          "text": "指尖能緊貼垂直的牆壁，即使是高樓大廈，它也能輕鬆登頂。"
         },
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "灵巧的身体不输给任何人。只需１分钟就能登上超过６００米高的塔顶。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "靈巧的身體不輸給任何人。只需１分鐘就能登上超過６００米高的塔頂。"
         }
       ]
     }
@@ -273,7 +273,7 @@
     [
       {
         "name": "呱呱泡蛙",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "656Froakie_Dream.png",
         "back_text": null,
@@ -281,21 +281,21 @@
         "form_name": null
       },
       {
-        "name": "呱头蛙",
-        "stage": "1阶进化",
-        "text": "等级16以上",
+        "name": "呱頭蛙",
+        "stage": "1階進化",
+        "text": "等級16以上",
         "image": "657Frogadier_Dream.png",
         "back_text": null,
         "from": "呱呱泡蛙",
         "form_name": null
       },
       {
-        "name": "甲贺忍蛙",
-        "stage": "2阶进化",
-        "text": "等级36以上",
+        "name": "甲賀忍蛙",
+        "stage": "2階進化",
+        "text": "等級36以上",
         "image": "658Greninja_Dream.png",
         "back_text": null,
-        "from": "呱头蛙",
+        "from": "呱頭蛙",
         "form_name": null
       }
     ]
@@ -308,7 +308,7 @@
       "data": [
         {
           "level": "—",
-          "name": "拍击",
+          "name": "拍擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -317,16 +317,16 @@
         },
         {
           "level": "—",
-          "name": "叫声",
+          "name": "叫聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "40"
         },
         {
           "level": "—",
-          "name": "水枪",
+          "name": "水槍",
           "type": "水",
           "category": "特殊",
           "power": "40",
@@ -335,7 +335,7 @@
         },
         {
           "level": "8",
-          "name": "电光一闪",
+          "name": "電光一閃",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -345,7 +345,7 @@
         {
           "level": "10",
           "name": "舌舔",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -353,7 +353,7 @@
         },
         {
           "level": "14",
-          "name": "水之波动",
+          "name": "水之波動",
           "type": "水",
           "category": "特殊",
           "power": "60",
@@ -362,16 +362,16 @@
         },
         {
           "level": "19",
-          "name": "烟幕",
+          "name": "煙幕",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "23",
-          "name": "轮唱",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -380,16 +380,16 @@
         },
         {
           "level": "28",
-          "name": "投掷",
-          "type": "恶",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
           "level": "33",
-          "name": "击落",
+          "name": "擊落",
           "type": "岩石",
           "category": "物理",
           "power": "50",
@@ -400,15 +400,15 @@
           "level": "40",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "45",
-          "name": "弹跳",
-          "type": "飞行",
+          "name": "彈跳",
+          "type": "飛行",
           "category": "物理",
           "power": "85",
           "accuracy": "85",
@@ -418,7 +418,7 @@
           "level": "50",
           "name": "影子分身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -440,7 +440,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -449,8 +449,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００５",
-          "name": "掷泥",
+          "machine": "招式學習器００５",
+          "name": "擲泥",
           "type": "地面",
           "category": "特殊",
           "power": "20",
@@ -458,17 +458,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１１",
-          "name": "水之波动",
+          "machine": "招式學習器０１１",
+          "name": "水之波動",
           "type": "水",
           "category": "特殊",
           "power": "60",
@@ -476,34 +476,34 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１２",
+          "machine": "招式學習器０１２",
           "name": "踢倒",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２０",
+          "machine": "招式學習器０２０",
           "name": "起草",
           "type": "草",
           "category": "物理",
@@ -512,8 +512,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２２",
-          "name": "泼冷水",
+          "machine": "招式學習器０２２",
+          "name": "潑冷水",
           "type": "水",
           "category": "特殊",
           "power": "50",
@@ -521,8 +521,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -530,16 +530,16 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２７",
+          "machine": "招式學習器０２７",
           "name": "燕返",
-          "type": "飞行",
+          "type": "飛行",
           "category": "物理",
           "power": "60",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -548,8 +548,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３４",
-          "name": "冰冻之风",
+          "machine": "招式學習器０３４",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -557,8 +557,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３５",
-          "name": "泥巴射击",
+          "machine": "招式學習器０３５",
+          "name": "泥巴射擊",
           "type": "地面",
           "category": "特殊",
           "power": "55",
@@ -566,8 +566,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３６",
-          "name": "岩石封锁",
+          "machine": "招式學習器０３６",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -575,43 +575,43 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５２",
+          "machine": "招式學習器０５２",
           "name": "雪景",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５５",
+          "machine": "招式學習器０５５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -620,8 +620,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５７",
-          "name": "点到为止",
+          "machine": "招式學習器０５７",
+          "name": "點到為止",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -629,17 +629,17 @@
           "pp": "40"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６９",
-          "name": "冰冻拳",
+          "machine": "招式學習器０６９",
+          "name": "冰凍拳",
           "type": "冰",
           "category": "物理",
           "power": "75",
@@ -647,16 +647,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７７",
+          "machine": "招式學習器０７７",
           "name": "攀瀑",
           "type": "水",
           "category": "物理",
@@ -665,26 +665,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８１",
-          "name": "打草结",
+          "machine": "招式學習器０８１",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８６",
-          "name": "岩崩",
+          "machine": "招式學習器０８６",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -692,44 +692,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８８",
-          "name": "剑舞",
+          "machine": "招式學習器０８８",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９０",
+          "machine": "招式學習器０９０",
           "name": "撒菱",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９１",
+          "machine": "招式學習器０９１",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１０２",
-          "name": "垃圾射击",
+          "machine": "招式學習器１０２",
+          "name": "垃圾射擊",
           "type": "毒",
           "category": "物理",
           "power": "120",
@@ -737,16 +737,16 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１０",
+          "machine": "招式學習器１１０",
           "name": "水流裂破",
           "type": "水",
           "category": "物理",
@@ -755,8 +755,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２３",
-          "name": "冲浪",
+          "machine": "招式學習器１２３",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -764,17 +764,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３５",
-          "name": "冰冻光束",
+          "machine": "招式學習器１３５",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -782,7 +782,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４２",
+          "machine": "招式學習器１４２",
           "name": "水炮",
           "type": "水",
           "category": "特殊",
@@ -791,8 +791,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４３",
-          "name": "暴风雪",
+          "machine": "招式學習器１４３",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -800,8 +800,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４５",
-          "name": "水之誓约",
+          "machine": "招式學習器１４５",
+          "name": "水之誓約",
           "type": "水",
           "category": "特殊",
           "power": "80",
@@ -809,8 +809,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -818,8 +818,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７９",
-          "name": "击落",
+          "machine": "招式學習器１７９",
+          "name": "擊落",
           "type": "岩石",
           "category": "物理",
           "power": "50",
@@ -837,17 +837,17 @@
           "parents": [
             {
               "id": "0833",
-              "name": "咬咬龟"
+              "name": "咬咬龜"
             },
             {
               "id": "0834",
-              "name": "暴噬龟"
+              "name": "暴噬龜"
             }
           ],
-          "name": "双倍奉还",
-          "type": "格斗",
+          "name": "雙倍奉還",
+          "type": "格鬥",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
@@ -855,12 +855,12 @@
           "parents": [
             {
               "id": null,
-              "name": "甲贺忍蛙"
+              "name": "甲賀忍蛙"
             }
           ],
           "name": "撒菱",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -869,15 +869,15 @@
           "parents": [
             {
               "id": "0194P",
-              "name": "乌波"
+              "name": "烏波"
             },
             {
               "id": "0747",
-              "name": "好坏星"
+              "name": "好壞星"
             },
             {
               "id": "0748",
-              "name": "超坏星"
+              "name": "超壞星"
             },
             {
               "id": "0980",
@@ -886,7 +886,7 @@
           ],
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -895,16 +895,16 @@
           "parents": [
             {
               "id": "0686",
-              "name": "好啦鱿"
+              "name": "好啦魷"
             },
             {
               "id": "0687",
-              "name": "乌贼王"
+              "name": "烏賊王"
             }
           ],
           "name": "掉包",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -920,7 +920,7 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "报仇",
+          "name": "報仇",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -932,9 +932,9 @@
   ],
   "home_images": [
     {
-      "name": "呱头蛙",
-      "image": "0657-呱头蛙.png",
-      "shiny": "0657-呱头蛙-shiny.png"
+      "name": "呱頭蛙",
+      "image": "0657-呱頭蛙.png",
+      "shiny": "0657-呱頭蛙-shiny.png"
     }
   ]
 }

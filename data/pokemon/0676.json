@@ -1,40 +1,40 @@
 {
-  "name_zh": "多丽米亚",
+  "name_zh": "多麗米亞",
   "name_ja": "トリミアン",
   "name_en": "Furfrou",
   "pokedex_id": "0676",
-  "description": "多丽米亚（日文︰トリミアン，英文︰Furfrou）是一般属性宝可梦。",
-  "profile": "多丽米亚看起来像一只有着厚厚的皮毛的狗，他们的发型可通过修剪做改变。利用修剪改变的发型有许多种类；在修剪多次后，可选择的发型也会增加。\n多丽米亚在遥远过去的卡洛斯地区是被授予了护卫国王职责的宝可梦。曾有过一个时代，贵族之间会比赛如何把它的体毛修剪得美丽。如果修剪好乱蓬蓬的体毛，不只是样子变美，身体也会变得更敏捷。如果置之不理，体毛会不断地长长，但它只允许信赖的人修剪。\n卡洛斯地区密阿雷市春天大道的宝可美容沙龙馆XY或琼黄６号街区 南东的秀简LZA、丰缘地区凯那市的宝可梦发烧友俱乐部ΩRαS、阿罗拉地区马利埃静市SMUSUM和好奥乐市USUM的美发沙龙有提供修剪多丽米亚的服务，每次花费$500，有9种造型（日文︰カット，英文︰Cut）可以选择，也可以选择恢复野生的样子。若将已改变造型的多丽米亚放进宝可梦寄放系统第七世代以前/从宝可梦寄放系统取出第七世代、上传至宝可梦虚拟银行、放进培育屋/宝可梦寄放屋，或修剪后五天不予理会第九世代以前，则毛发又会变长，恢复为原先野生的样子。在Pokémon GO中捕捉并修剪的多丽米亚，可以在转移至Pokémon HOME后维持修剪后的造型。\n在Pokémon GO中捕捉的多丽米亚存在地区限定的修剪造型。其中淑女造型为美洲限定；菱形造型为欧洲、中东及非洲限定；星形造型为亚太地区限定；女王造型为法国限定；歌舞伎造型为日本限定；国王造型为埃及限定。心形造型为情人节限时活动限定。而贵妇与绅士造型无地区限定。",
-  "prototype": "设计理念可能基于贵宾犬和羊驼。",
+  "description": "多麗米亞（日文︰トリミアン，英文︰Furfrou）是一般屬性寶可夢。",
+  "profile": "多麗米亞看起來像一隻有著厚厚的皮毛的狗，他們的髮型可透過修剪做改變。利用修剪改變的髮型有許多種類；在修剪多次後，可選擇的髮型也會增加。\n多麗米亞在遙遠過去的卡洛斯地區是被授予了護衛國王職責的寶可夢。曾有過一個時代，貴族之間會比賽如何把它的體毛修剪得美麗。如果修剪好亂蓬蓬的體毛，不只是樣子變美，身體也會變得更敏捷。如果置之不理，體毛會不斷地長長，但它只允許信賴的人修剪。\n卡洛斯地區密阿雷市春天大道的寶可美容沙龍館XY或瓊黃６號街區 南東的秀簡LZA、豐緣地區凱那市的寶可夢發燒友俱樂部ΩRαS、阿羅拉地區馬利埃靜市SMUSUM和好奧樂市USUM的美髮沙龍有提供修剪多麗米亞的服務，每次花費$500，有9種造型（日文︰カット，英文︰Cut）可以選擇，也可以選擇恢復野生的樣子。若將已改變造型的多麗米亞放進寶可夢寄放系統第七世代以前/從寶可夢寄放系統取出第七世代、上傳至寶可夢虛擬銀行、放進培育屋/寶可夢寄放屋，或修剪後五天不予理會第九世代以前，則毛髮又會變長，恢復為原先野生的樣子。在Pokémon GO中捕捉並修剪的多麗米亞，可以在轉移至Pokémon HOME後維持修剪後的造型。\n在Pokémon GO中捕捉的多麗米亞存在地區限定的修剪造型。其中淑女造型為美洲限定；菱形造型為歐洲、中東及非洲限定；星形造型為亞太地區限定；女王造型為法國限定；歌舞伎造型為日本限定；國王造型為埃及限定。心形造型為情人節限時活動限定。而貴婦與紳士造型無地區限定。",
+  "prototype": "設計理念可能基於貴賓犬和羊駝。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "トリミアン Trimmien",
-      "origin": "来自英文 trimming（修剪）和法文 chien（狗）。"
+      "origin": "來自英文 trimming（修剪）和法文 chien（狗）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "多麗米亞多丽米亚",
-      "origin": "来自日文名的音译，也包含“丽”。"
+      "name": "多麗米亞多麗米亞",
+      "origin": "來自日文名的音譯，也包含“麗”。"
     },
     {
       "language": "英文",
       "name": "Furfrou",
-      "origin": "来自 fur（毛）和法文 frou-frou（华丽装饰，源自法文的“女子衣服的沙沙声”）。"
+      "origin": "來自 fur（毛）和法文 frou-frou（華麗裝飾，源自法文的“女子衣服的沙沙聲”）。"
     },
     {
       "language": "法文",
       "name": "Couafarel",
-      "origin": "来自 coiffure（发型）、ouaf（汪汪声）和 aquarelle（水彩画）。"
+      "origin": "來自 coiffure（髮型）、ouaf（汪汪聲）和 aquarelle（水彩畫）。"
     },
     {
       "language": "德文",
       "name": "Coiffwaff",
-      "origin": "来自 Coiffure（理发）或法艾 coiffure（发型）和 wuff（汪汪声）。"
+      "origin": "來自 Coiffure（理髮）或法艾 coiffure（髮型）和 wuff（汪汪聲）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Furfrou",
       "origin": "同英文名。"
     },
@@ -44,18 +44,18 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "트리미앙 Teurimiang",
-      "origin": "来自英文 trimming（修剪）和法文 chien（狗）。"
+      "origin": "來自英文 trimming（修剪）和法文 chien（狗）。"
     }
   ],
   "forms": [
     {
-      "name": "多丽米亚",
+      "name": "多麗米亞",
       "types": [
         "一般"
       ],
-      "category": "贵宾犬宝可梦",
+      "category": "貴賓犬寶可夢",
       "abilities": [
         {
           "name": "毛皮大衣",
@@ -67,9 +67,9 @@
       "color": "白色",
       "catch_rate": "160（20.9%）",
       "egg_groups": [
-        "陆上群"
+        "陸上群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -102,10 +102,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body08.png",
       "footprint": "FUnknown.png",
-      "image": "0676-多丽米亚.png"
+      "image": "0676-多麗米亞.png"
     }
   ],
   "stats": [
@@ -133,11 +133,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -153,15 +153,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "0"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -177,7 +177,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -189,11 +189,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -209,23 +209,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "如果修剪好乱蓬蓬的体毛，不只是样子变美，身体也会变得更敏捷。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "如果修剪好亂蓬蓬的體毛，不只是樣子變美，身體也會變得更敏捷。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "在遥远过去的卡洛斯地区，被授予了护卫国王职责的宝可梦。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "在遙遠過去的卡洛斯地區，被授予了護衛國王職責的寶可夢。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "如果修剪好乱蓬蓬的体毛，不只是样子变美，身体也会变得更敏捷。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "如果修剪好亂蓬蓬的體毛，不只是樣子變美，身體也會變得更敏捷。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "在遥远过去的卡洛斯地区，被授予了护卫国王职责的宝可梦。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "在遙遠過去的卡洛斯地區，被授予了護衛國王職責的寶可夢。"
         }
       ]
     },
@@ -233,9 +233,9 @@
       "name": "第九世代",
       "versions": [
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "在遥远过去的卡洛斯地区，被授予了护卫国王职责的宝可梦。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "在遙遠過去的卡洛斯地區，被授予了護衛國王職責的寶可夢。"
         }
       ]
     }
@@ -243,8 +243,8 @@
   "evolution_chains": [
     [
       {
-        "name": "多丽米亚",
-        "stage": "不进化",
+        "name": "多麗米亞",
+        "stage": "不進化",
         "text": null,
         "image": "676Furfrou_Dream.png",
         "back_text": null,
@@ -261,7 +261,7 @@
       "data": [
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -270,34 +270,34 @@
         },
         {
           "level": "—",
-          "name": "叫声",
+          "name": "叫聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "40"
         },
         {
           "level": "5",
-          "name": "泼沙",
+          "name": "潑沙",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "9",
-          "name": "圆瞳",
+          "name": "圓瞳",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
         },
         {
           "level": "12",
-          "name": "头锤",
+          "name": "頭錘",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -306,9 +306,9 @@
         },
         {
           "level": "15",
-          "name": "摇尾巴",
+          "name": "搖尾巴",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
@@ -316,7 +316,7 @@
         {
           "level": "22",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -324,16 +324,16 @@
         },
         {
           "level": "27",
-          "name": "气味侦测",
+          "name": "氣味偵測",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
         },
         {
           "level": "33",
-          "name": "报仇",
+          "name": "報仇",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -351,17 +351,17 @@
         },
         {
           "level": "38",
-          "name": "撒娇",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "42",
-          "name": "突袭",
-          "type": "恶",
+          "name": "突襲",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -371,7 +371,7 @@
           "level": "48",
           "name": "棉花防守",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -384,35 +384,35 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器０１",
-          "name": "自我激励",
+          "machine": "招式學習器０１",
+          "name": "自我激勵",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０５",
+          "machine": "招式學習器０５",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６",
-          "name": "剧毒",
+          "machine": "招式學習器０６",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０",
-          "name": "觉醒力量",
+          "machine": "招式學習器１０",
+          "name": "覺醒力量",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -420,35 +420,35 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１",
+          "machine": "招式學習器１１",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７",
+          "machine": "招式學習器１７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８",
+          "machine": "招式學習器１８",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "迁怒",
+          "machine": "招式學習器２１",
+          "name": "遷怒",
           "type": "一般",
           "category": "物理",
           "power": "—",
@@ -456,8 +456,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器２７",
-          "name": "报恩",
+          "machine": "招式學習器２７",
+          "name": "報恩",
           "type": "一般",
           "category": "物理",
           "power": "—",
@@ -465,17 +465,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器３２",
+          "machine": "招式學習器３２",
           "name": "影子分身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器４２",
-          "name": "硬撑",
+          "machine": "招式學習器４２",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -483,26 +483,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４４",
-          "name": "睡觉",
+          "machine": "招式學習器４４",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器４５",
+          "machine": "招式學習器４５",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器４８",
-          "name": "轮唱",
+          "machine": "招式學習器４８",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -510,8 +510,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器４９",
-          "name": "回声",
+          "machine": "招式學習器４９",
+          "name": "回聲",
           "type": "一般",
           "category": "特殊",
           "power": "40",
@@ -519,17 +519,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器５７",
-          "name": "充电光束",
-          "type": "电",
+          "machine": "招式學習器５７",
+          "name": "充電光束",
+          "type": "電",
           "category": "特殊",
           "power": "50",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６８",
-          "name": "终极冲击",
+          "machine": "招式學習器６８",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -537,17 +537,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器７３",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器７３",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器８６",
-          "name": "打草结",
+          "machine": "招式學習器８６",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
           "power": "—",
@@ -555,53 +555,53 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器８７",
-          "name": "虚张声势",
+          "machine": "招式學習器８７",
+          "name": "虛張聲勢",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
-          "machine": "招式学习器８８",
-          "name": "梦话",
+          "machine": "招式學習器８８",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器８９",
+          "machine": "招式學習器８９",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器９０",
+          "machine": "招式學習器９０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器９３",
-          "name": "疯狂伏特",
-          "type": "电",
+          "machine": "招式學習器９３",
+          "name": "瘋狂伏特",
+          "type": "電",
           "category": "物理",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器９４",
-          "name": "冲浪",
+          "machine": "招式學習器９４",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -609,28 +609,28 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器９５",
-          "name": "大声咆哮",
-          "type": "恶",
+          "machine": "招式學習器９５",
+          "name": "大聲咆哮",
+          "type": "惡",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器９７",
-          "name": "恶之波动",
-          "type": "恶",
+          "machine": "招式學習器９７",
+          "name": "惡之波動",
+          "type": "惡",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１００",
-          "name": "密语",
+          "machine": "招式學習器１００",
+          "name": "密語",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -650,7 +650,7 @@
             },
             {
               "id": "033",
-              "name": "尼多力诺"
+              "name": "尼多力諾"
             },
             {
               "id": "037",
@@ -670,15 +670,15 @@
             },
             {
               "id": "053",
-              "name": "猫老大"
+              "name": "貓老大"
             },
             {
               "id": "053A",
-              "name": "猫老大"
+              "name": "貓老大"
             },
             {
               "id": "234",
-              "name": "惊角鹿"
+              "name": "驚角鹿"
             },
             {
               "id": "300",
@@ -690,11 +690,11 @@
             },
             {
               "id": "432",
-              "name": "东施喵"
+              "name": "東施喵"
             },
             {
               "id": "509",
-              "name": "扒手猫"
+              "name": "扒手貓"
             },
             {
               "id": "572",
@@ -702,20 +702,20 @@
             },
             {
               "id": "728",
-              "name": "球球海狮"
+              "name": "球球海獅"
             },
             {
               "id": null,
-              "name": "花漾海狮"
+              "name": "花漾海獅"
             },
             {
               "id": null,
-              "name": "西狮海壬"
+              "name": "西獅海壬"
             }
           ],
-          "name": "诱惑",
+          "name": "誘惑",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
@@ -724,12 +724,12 @@
           "parents": [
             {
               "id": null,
-              "name": "布鲁"
+              "name": "布魯"
             }
           ],
           "name": "模仿*",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -741,9 +741,9 @@
               "name": "伊布"
             }
           ],
-          "name": "焕然一新",
+          "name": "煥然一新",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -752,11 +752,11 @@
           "parents": [
             {
               "id": "234",
-              "name": "惊角鹿"
+              "name": "驚角鹿"
             },
             {
               "id": "655",
-              "name": "妖火红狐"
+              "name": "妖火紅狐"
             },
             {
               "id": "678",
@@ -765,7 +765,7 @@
           ],
           "name": "扮演",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -774,7 +774,7 @@
           "parents": [
             {
               "id": "128",
-              "name": "肯泰罗"
+              "name": "肯泰羅"
             },
             {
               "id": "504",
@@ -782,44 +782,44 @@
             },
             {
               "id": "506",
-              "name": "小约克"
+              "name": "小約克"
             },
             {
               "id": "507",
-              "name": "哈约克"
+              "name": "哈約克"
             },
             {
               "id": "508",
-              "name": "长毛狗"
+              "name": "長毛狗"
             },
             {
               "id": "554",
-              "name": "火红不倒翁"
+              "name": "火紅不倒翁"
             },
             {
               "id": "555",
-              "name": "达摩狒狒"
+              "name": "達摩狒狒"
             },
             {
               "id": "667",
-              "name": "小狮狮"
+              "name": "小獅獅"
             },
             {
               "id": "668",
-              "name": "火炎狮"
+              "name": "火炎獅"
             },
             {
               "id": null,
-              "name": "顽皮熊猫"
+              "name": "頑皮熊貓"
             },
             {
               "id": null,
-              "name": "霸道熊猫"
+              "name": "霸道熊貓"
             }
           ],
-          "name": "自我激励",
+          "name": "自我激勵",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -829,54 +829,54 @@
   ],
   "home_images": [
     {
-      "name": "多丽米亚-野生的样子",
-      "image": "0676-多丽米亚-野生的样子.png",
-      "shiny": "0676-多丽米亚-野生的样子-shiny.png"
+      "name": "多麗米亞-野生的樣子",
+      "image": "0676-多麗米亞-野生的樣子.png",
+      "shiny": "0676-多麗米亞-野生的樣子-shiny.png"
     },
     {
-      "name": "多丽米亚-心形造型",
-      "image": "0676-多丽米亚-心形造型.png",
-      "shiny": "0676-多丽米亚-心形造型-shiny.png"
+      "name": "多麗米亞-心形造型",
+      "image": "0676-多麗米亞-心形造型.png",
+      "shiny": "0676-多麗米亞-心形造型-shiny.png"
     },
     {
-      "name": "多丽米亚-星形造型",
-      "image": "0676-多丽米亚-星形造型.png",
-      "shiny": "0676-多丽米亚-星形造型-shiny.png"
+      "name": "多麗米亞-星形造型",
+      "image": "0676-多麗米亞-星形造型.png",
+      "shiny": "0676-多麗米亞-星形造型-shiny.png"
     },
     {
-      "name": "多丽米亚-菱形造型",
-      "image": "0676-多丽米亚-菱形造型.png",
-      "shiny": "0676-多丽米亚-菱形造型-shiny.png"
+      "name": "多麗米亞-菱形造型",
+      "image": "0676-多麗米亞-菱形造型.png",
+      "shiny": "0676-多麗米亞-菱形造型-shiny.png"
     },
     {
-      "name": "多丽米亚-淑女造型",
-      "image": "0676-多丽米亚-淑女造型.png",
-      "shiny": "0676-多丽米亚-淑女造型-shiny.png"
+      "name": "多麗米亞-淑女造型",
+      "image": "0676-多麗米亞-淑女造型.png",
+      "shiny": "0676-多麗米亞-淑女造型-shiny.png"
     },
     {
-      "name": "多丽米亚-贵妇造型",
-      "image": "0676-多丽米亚-贵妇造型.png",
-      "shiny": "0676-多丽米亚-贵妇造型-shiny.png"
+      "name": "多麗米亞-貴婦造型",
+      "image": "0676-多麗米亞-貴婦造型.png",
+      "shiny": "0676-多麗米亞-貴婦造型-shiny.png"
     },
     {
-      "name": "多丽米亚-绅士造型",
-      "image": "0676-多丽米亚-绅士造型.png",
-      "shiny": "0676-多丽米亚-绅士造型-shiny.png"
+      "name": "多麗米亞-紳士造型",
+      "image": "0676-多麗米亞-紳士造型.png",
+      "shiny": "0676-多麗米亞-紳士造型-shiny.png"
     },
     {
-      "name": "多丽米亚-女王造型",
-      "image": "0676-多丽米亚-女王造型.png",
-      "shiny": "0676-多丽米亚-女王造型-shiny.png"
+      "name": "多麗米亞-女王造型",
+      "image": "0676-多麗米亞-女王造型.png",
+      "shiny": "0676-多麗米亞-女王造型-shiny.png"
     },
     {
-      "name": "多丽米亚-歌舞伎造型",
-      "image": "0676-多丽米亚-歌舞伎造型.png",
-      "shiny": "0676-多丽米亚-歌舞伎造型-shiny.png"
+      "name": "多麗米亞-歌舞伎造型",
+      "image": "0676-多麗米亞-歌舞伎造型.png",
+      "shiny": "0676-多麗米亞-歌舞伎造型-shiny.png"
     },
     {
-      "name": "多丽米亚-国王造型",
-      "image": "0676-多丽米亚-国王造型.png",
-      "shiny": "0676-多丽米亚-国王造型-shiny.png"
+      "name": "多麗米亞-國王造型",
+      "image": "0676-多麗米亞-國王造型.png",
+      "shiny": "0676-多麗米亞-國王造型-shiny.png"
     }
   ]
 }

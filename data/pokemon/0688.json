@@ -1,40 +1,40 @@
 {
-  "name_zh": "龟脚脚",
+  "name_zh": "龜腳腳",
   "name_ja": "カメテテ‎",
   "name_en": "Binacle",
   "pokedex_id": "0688",
-  "description": "龟脚脚（日文︰カメテテ，英文︰Binacle）是岩石属性／水属性宝可梦。",
-  "profile": "龟脚脚看上去就是一只爪子的造型，有四个指甲，中间两个并在一起。龟脚脚的身体是橙色的，有白色环带，头部基本是棕色的“外壳”，有橙色的“脸颊”。它的表情看上去一直很生气，平常都将身体固定在海边的岩石上。两只龟脚脚生活在一块岩石上，如果吵架了，就会有某只转移到其他岩石上去。\n龟脚脚利用拉伸身体的反作用力提着岩石走路，在波浪拍打的海滩上吃冲上来的海藻。两只龟脚脚会在海边找一块大小合适的岩石，附在上面一起生活。涨潮的时候会互相合作寻找食物。如果两只龟脚脚配合得不好，不但无法有效地攻击和防御，甚至没办法生存下去。",
-  "prototype": "龟脚脚的外形源自节肢动物鞘甲纲的龟足（又称佛手贝）。\n龟脚脚的外形来源也可能来自海葵或藤壶。",
+  "description": "龜腳腳（日文︰カメテテ，英文︰Binacle）是岩石屬性／水屬性寶可夢。",
+  "profile": "龜腳腳看上去就是一隻爪子的造型，有四個指甲，中間兩個並在一起。龜腳腳的身體是橙色的，有白色環帶，頭部基本是棕色的“外殼”，有橙色的“臉頰”。它的表情看上去一直很生氣，平常都將身體固定在海邊的岩石上。兩隻龜腳腳生活在一塊岩石上，如果吵架了，就會有某隻轉移到其他岩石上去。\n龜腳腳利用拉伸身體的反作用力提著岩石走路，在波浪拍打的海灘上吃衝上來的海藻。兩隻龜腳腳會在海邊找一塊大小合適的岩石，附在上面一起生活。漲潮的時候會互相合作尋找食物。如果兩隻龜腳腳配合得不好，不但無法有效地攻擊和防禦，甚至沒辦法生存下去。",
+  "prototype": "龜腳腳的外形源自節肢動物鞘甲綱的龜足（又稱佛手貝）。\n龜腳腳的外形來源也可能來自海葵或藤壺。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "カメテテ Kametete",
-      "origin": "来自“亀（かめ）の手（て）”（龟足：铠茗荷科的海产动物）。"
+      "origin": "來自“亀（かめ）の手（て）”（龜足：鎧茗荷科的海產動物）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "龜腳腳龟脚脚",
-      "origin": "来自“龟足”和“脚”。"
+      "name": "龜腳腳龜腳腳",
+      "origin": "來自“龜足”和“腳”。"
     },
     {
       "language": "英文",
       "name": "Binacle",
-      "origin": "来自前缀 bi-（双）和 barnacle（藤壶）。"
+      "origin": "來自字首 bi-（雙）和 barnacle（藤壺）。"
     },
     {
       "language": "法文",
       "name": "Opermine",
-      "origin": "来自 opercule（螺厣；覆盖）和 vermine（害虫）。"
+      "origin": "來自 opercule（螺厴；覆蓋）和 vermine（害蟲）。"
     },
     {
       "language": "德文",
       "name": "Bithora",
-      "origin": "来自前缀 bi-（双）和 Thoracica（围胸下纲，包括铠茗荷科的下纲）。"
+      "origin": "來自字首 bi-（雙）和 Thoracica（圍胸下綱，包括鎧茗荷科的下綱）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Binacle",
       "origin": "同英文名。"
     },
@@ -44,30 +44,30 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "거북손손 Geoboksonson",
-      "origin": "来自“거북손”（龟足）和“손”（手）。"
+      "origin": "來自“거북손”（龜足）和“손”（手）。"
     }
   ],
   "forms": [
     {
-      "name": "龟脚脚",
+      "name": "龜腳腳",
       "types": [
         "岩石",
         "水"
       ],
-      "category": "双手宝可梦",
+      "category": "雙手寶可夢",
       "abilities": [
         {
           "name": "硬爪",
           "is_hidden": false
         },
         {
-          "name": "狙击手",
+          "name": "狙擊手",
           "is_hidden": false
         },
         {
-          "name": "顺手牵羊",
+          "name": "順手牽羊",
           "is_hidden": true
         }
       ],
@@ -78,7 +78,7 @@
       "egg_groups": [
         "水中3群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -111,10 +111,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body11.png",
       "footprint": "FUnknown.png",
-      "image": "0688-龟脚脚.png"
+      "image": "0688-龜腳腳.png"
     }
   ],
   "stats": [
@@ -143,11 +143,11 @@
           "damage": "0.5"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -163,15 +163,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -187,7 +187,7 @@
           "damage": "4"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "2"
         },
         {
@@ -199,11 +199,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -219,23 +219,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "２只龟脚脚生活在一块岩石上。如果吵架了，就会有某只转移到其他岩石上去。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "２只龜腳腳生活在一塊岩石上。如果吵架了，就會有某隻轉移到其他岩石上去。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "利用拉伸身体的反作用力提着岩石走路。在波浪拍打的海滩上吃冲上来的海藻。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "利用拉伸身體的反作用力提著岩石走路。在波浪拍打的海灘上吃衝上來的海藻。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "２只龟脚脚生活在一块岩石上。如果吵架了，就会有某只转移到其他岩石上去。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "２只龜腳腳生活在一塊岩石上。如果吵架了，就會有某隻轉移到其他岩石上去。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "利用拉伸身体的反作用力提着岩石走路。在波浪拍打的海滩上吃冲上来的海藻。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "利用拉伸身體的反作用力提著岩石走路。在波浪拍打的海灘上吃衝上來的海藻。"
         }
       ]
     },
@@ -243,14 +243,14 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "２只龟脚脚会在海边找一块大小合适的岩石，附在上面一起生活。涨潮的时候会互相合作寻找食物。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "２只龜腳腳會在海邊找一塊大小合適的岩石，附在上面一起生活。漲潮的時候會互相合作尋找食物。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "如果２只龟脚脚配合得不好，不但无法有效地攻击和防御，甚至没办法生存下去。"
+          "group": "寶可夢 劍／盾",
+          "text": "如果２只龜腳腳配合得不好，不但無法有效地攻擊和防禦，甚至沒辦法生存下去。"
         }
       ]
     },
@@ -258,9 +258,9 @@
       "name": "第九世代",
       "versions": [
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "２只龟脚脚生活在一块岩石上。如果吵架了，就会有某只转移到其他岩石上去。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "２只龜腳腳生活在一塊岩石上。如果吵架了，就會有某隻轉移到其他岩石上去。"
         }
       ]
     }
@@ -268,8 +268,8 @@
   "evolution_chains": [
     [
       {
-        "name": "龟脚脚",
-        "stage": "未进化",
+        "name": "龜腳腳",
+        "stage": "未進化",
         "text": null,
         "image": "688Binacle_Dream.png",
         "back_text": null,
@@ -277,12 +277,12 @@
         "form_name": null
       },
       {
-        "name": "龟足巨铠",
-        "stage": "1阶进化",
-        "text": "等级39以上",
+        "name": "龜足巨鎧",
+        "stage": "1階進化",
+        "text": "等級39以上",
         "image": "689Barbaracle_Dream.png",
         "back_text": null,
-        "from": "龟脚脚",
+        "from": "龜腳腳",
         "form_name": null
       }
     ]
@@ -295,7 +295,7 @@
       "data": [
         {
           "level": "—",
-          "name": "掷泥",
+          "name": "擲泥",
           "type": "地面",
           "category": "特殊",
           "power": "20",
@@ -313,16 +313,16 @@
         },
         {
           "level": "4",
-          "name": "缩入壳中",
+          "name": "縮入殼中",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
         },
         {
           "level": "8",
-          "name": "水枪",
+          "name": "水槍",
           "type": "水",
           "category": "特殊",
           "power": "40",
@@ -331,8 +331,8 @@
         },
         {
           "level": "12",
-          "name": "连斩",
-          "type": "虫",
+          "name": "連斬",
+          "type": "蟲",
           "category": "物理",
           "power": "40",
           "accuracy": "95",
@@ -340,7 +340,7 @@
         },
         {
           "level": "16",
-          "name": "乱抓",
+          "name": "亂抓",
           "type": "一般",
           "category": "物理",
           "power": "18",
@@ -360,14 +360,14 @@
           "level": "24",
           "name": "岩石打磨",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "28",
-          "name": "劈开",
+          "name": "劈開",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -377,15 +377,15 @@
         {
           "level": "32",
           "name": "磨爪",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
           "level": "36",
-          "name": "贝壳刃",
+          "name": "貝殼刃",
           "type": "水",
           "category": "物理",
           "power": "75",
@@ -394,9 +394,9 @@
         },
         {
           "level": "40",
-          "name": "破壳",
+          "name": "破殼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -404,7 +404,7 @@
         {
           "level": "44",
           "name": "十字劈",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "100",
           "accuracy": "80",
@@ -418,7 +418,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器１５",
+          "machine": "招式學習器１５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -427,35 +427,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１６",
-          "name": "刺耳声",
+          "machine": "招式學習器１６",
+          "name": "刺耳聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
-          "machine": "招式学习器１９",
-          "name": "神秘守护",
+          "machine": "招式學習器１９",
+          "name": "神秘守護",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２１",
-          "name": "睡觉",
+          "machine": "招式學習器２１",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２",
-          "name": "岩崩",
+          "machine": "招式學習器２２",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -463,16 +463,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２３",
+          "machine": "招式學習器２３",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器２４",
+          "machine": "招式學習器２４",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -481,17 +481,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２５",
+          "machine": "招式學習器２５",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２７",
-          "name": "冰冻之风",
+          "machine": "招式學習器２７",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -499,44 +499,44 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器３１",
+          "machine": "招式學習器３１",
           "name": "迷人",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器３２",
+          "machine": "招式學習器３２",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３３",
+          "machine": "招式學習器３３",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器３７",
-          "name": "围攻",
-          "type": "恶",
+          "machine": "招式學習器３７",
+          "name": "圍攻",
+          "type": "惡",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器３９",
-          "name": "硬撑",
+          "machine": "招式學習器３９",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -544,26 +544,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器４１",
-          "name": "帮助",
+          "machine": "招式學習器４１",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器４３",
+          "machine": "招式學習器４３",
           "name": "劈瓦",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器４８",
-          "name": "岩石封锁",
+          "machine": "招式學習器４８",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -571,8 +571,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器５３",
-          "name": "泥巴射击",
+          "machine": "招式學習器５３",
+          "name": "泥巴射擊",
           "type": "地面",
           "category": "特殊",
           "power": "55",
@@ -580,8 +580,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器５４",
-          "name": "岩石爆击",
+          "machine": "招式學習器５４",
+          "name": "岩石爆擊",
           "type": "岩石",
           "category": "物理",
           "power": "25",
@@ -589,44 +589,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器５７",
-          "name": "以牙还牙",
-          "type": "恶",
+          "machine": "招式學習器５７",
+          "name": "以牙還牙",
+          "type": "惡",
           "category": "物理",
           "power": "50",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器５８",
-          "name": "恶意追击",
-          "type": "恶",
+          "machine": "招式學習器５８",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器５９",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器５９",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器６５",
+          "machine": "招式學習器６５",
           "name": "暗影爪",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器７６",
-          "name": "轮唱",
+          "machine": "招式學習器７６",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -634,7 +634,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器８１",
+          "machine": "招式學習器８１",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -643,8 +643,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器８３",
-          "name": "贝壳刃",
+          "machine": "招式學習器８３",
+          "name": "貝殼刃",
           "type": "水",
           "category": "物理",
           "power": "75",
@@ -652,8 +652,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器９４",
-          "name": "点到为止",
+          "machine": "招式學習器９４",
+          "name": "點到為止",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -661,17 +661,17 @@
           "pp": "40"
         },
         {
-          "machine": "招式记录００",
-          "name": "剑舞",
+          "machine": "招式記錄００",
+          "name": "劍舞",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录０４",
-          "name": "冲浪",
+          "machine": "招式記錄０４",
+          "name": "衝浪",
           "type": "水",
           "category": "特殊",
           "power": "90",
@@ -679,8 +679,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录０５",
-          "name": "冰冻光束",
+          "machine": "招式記錄０５",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -688,8 +688,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录０６",
-          "name": "暴风雪",
+          "machine": "招式記錄０６",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -697,7 +697,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式记录１０",
+          "machine": "招式記錄１０",
           "name": "地震",
           "type": "地面",
           "category": "物理",
@@ -706,17 +706,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２０",
+          "machine": "招式記錄２０",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２２",
-          "name": "污泥炸弹",
+          "machine": "招式記錄２２",
+          "name": "汙泥炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "90",
@@ -724,26 +724,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录２６",
+          "machine": "招式記錄２６",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录２７",
-          "name": "梦话",
+          "machine": "招式記錄２７",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式记录３５",
-          "name": "吵闹",
+          "machine": "招式記錄３５",
+          "name": "吵鬧",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -751,26 +751,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录３７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式記錄３７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式记录４６",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式記錄４６",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式记录５７",
-          "name": "毒击",
+          "machine": "招式記錄５７",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -778,17 +778,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式记录６０",
+          "machine": "招式記錄６０",
           "name": "十字剪",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式记录７５",
-          "name": "尖石攻击",
+          "machine": "招式記錄７５",
+          "name": "尖石攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "100",
@@ -796,17 +796,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式记录７６",
-          "name": "隐形岩",
+          "machine": "招式記錄７６",
+          "name": "隱形巖",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式记录７７",
-          "name": "打草结",
+          "machine": "招式記錄７７",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
           "power": "—",
@@ -814,8 +814,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式记录７８",
-          "name": "污泥波",
+          "machine": "招式記錄７８",
+          "name": "汙泥波",
           "type": "毒",
           "category": "特殊",
           "power": "95",
@@ -823,8 +823,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式记录８４",
-          "name": "热水",
+          "machine": "招式記錄８４",
+          "name": "熱水",
           "type": "水",
           "category": "特殊",
           "power": "80",
@@ -832,7 +832,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式记录９８",
+          "machine": "招式記錄９８",
           "name": "水流裂破",
           "type": "水",
           "category": "物理",
@@ -851,16 +851,16 @@
           "parents": [
             {
               "id": null,
-              "name": "龙虾小兵"
+              "name": "龍蝦小兵"
             },
             {
               "id": null,
-              "name": "始祖小鸟"
+              "name": "始祖小鳥"
             }
           ],
           "name": "掉包*",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
@@ -869,27 +869,27 @@
           "parents": [
             {
               "id": "141",
-              "name": "镰刀盔"
+              "name": "鐮刀盔"
             },
             {
               "id": "341",
-              "name": "龙虾小兵"
+              "name": "龍蝦小兵"
             },
             {
               "id": "342",
-              "name": "铁螯龙虾"
+              "name": "鐵螯龍蝦"
             },
             {
               "id": null,
-              "name": "钳尾蝎"
+              "name": "鉗尾蠍"
             },
             {
               "id": null,
-              "name": "龙王蝎"
+              "name": "龍王蠍"
             }
           ],
-          "name": "暗袭要害",
-          "type": "恶",
+          "name": "暗襲要害",
+          "type": "惡",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
@@ -899,11 +899,11 @@
           "parents": [
             {
               "id": "138",
-              "name": "菊石兽"
+              "name": "菊石獸"
             },
             {
               "id": "139",
-              "name": "多刺菊石兽"
+              "name": "多刺菊石獸"
             },
             {
               "id": "140",
@@ -911,20 +911,20 @@
             },
             {
               "id": "141",
-              "name": "镰刀盔"
+              "name": "鐮刀盔"
             },
             {
               "id": "767",
-              "name": "胆小虫"
+              "name": "膽小蟲"
             },
             {
               "id": "768",
               "name": "具甲武者"
             }
           ],
-          "name": "泼沙",
+          "name": "潑沙",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
@@ -934,9 +934,9 @@
   ],
   "home_images": [
     {
-      "name": "龟脚脚",
-      "image": "0688-龟脚脚.png",
-      "shiny": "0688-龟脚脚-shiny.png"
+      "name": "龜腳腳",
+      "image": "0688-龜腳腳.png",
+      "shiny": "0688-龜腳腳-shiny.png"
     }
   ]
 }

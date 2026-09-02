@@ -1,45 +1,45 @@
 {
-  "name_zh": "炙烫鳄",
+  "name_zh": "炙燙鱷",
   "name_ja": "アチゲータ",
   "name_en": "Crocalor",
   "pokedex_id": "0910",
-  "description": "炙烫鳄（日文︰アチゲータ，英文︰Crocalor）是火属性宝可梦。",
-  "profile": "炙烫鳄形似鳄鱼，身体大部分是红色的，面部和腹部是白色的，四肢是黑色的。它的背和尾巴上有黄色的矩形鳞片，胸前有黑黄色相间的条纹。它有长长的吻，脸颊上有红色的方形图案，鼻尖则是三角形的。\n由于火之能量与炙烫鳄过剩的生命力相互结合，形成了蛋状的火球并驻留在了它的头上。在对战时，它能将蛋状的火球作为招式自由自在地使出。它的声带和火囊的阀紧邻在一起，具有在喷出火焰的同时发出声音的习性，但那个声音实在称不上悦耳。当它准备喷出强烈的火焰时，就会发出更具破坏力的声音，有的对手会因此受到伤害。",
-  "prototype": "炙烫鳄基于鳄鱼，携带着“蛋”的设计可能参考了许多种类的鳄鱼具有筑巢并护卵的行为，也为骨纹巨声鳄鼻尖的火鸟形象做铺垫。\n炙烫鳄的拟人化元素可能来自西班牙南部安达卢西亚与埃斯特雷马杜拉的传统服装，其头上的部分可能参考了安达卢西亚宽檐帽，腹部的鳞片和花纹可能参考了科尔多瓦式短衣（西班牙语：traje cordobés）。\n结合其进化型的幽灵属性来看，顶着火焰蛋的造型也可能参考了古埃及神索贝克。在古埃及后期，索贝克融入了太阳神的神格，掌管太阳升降和生命轮回，在浮雕中常被塑造成头顶火球的形象。",
+  "description": "炙燙鱷（日文︰アチゲータ，英文︰Crocalor）是火屬性寶可夢。",
+  "profile": "炙燙鱷形似鱷魚，身體大部分是紅色的，面部和腹部是白色的，四肢是黑色的。它的背和尾巴上有黃色的矩形鱗片，胸前有黑黃色相間的條紋。它有長長的吻，臉頰上有紅色的方形圖案，鼻尖則是三角形的。\n由於火之能量與炙燙鱷過剩的生命力相互結合，形成了蛋狀的火球並駐留在了它的頭上。在對戰時，它能將蛋狀的火球作為招式自由自在地使出。它的聲帶和火囊的閥緊鄰在一起，具有在噴出火焰的同時發出聲音的習性，但那個聲音實在稱不上悅耳。當它準備噴出強烈的火焰時，就會發出更具破壞力的聲音，有的對手會因此受到傷害。",
+  "prototype": "炙燙鱷基於鱷魚，攜帶著“蛋”的設計可能參考了許多種類的鱷魚具有築巢並護卵的行為，也為骨紋巨聲鱷鼻尖的火鳥形象做鋪墊。\n炙燙鱷的擬人化元素可能來自西班牙南部安達盧西亞與埃斯特雷馬杜拉的傳統服裝，其頭上的部分可能參考了安達盧西亞寬簷帽，腹部的鱗片和花紋可能參考了科爾多瓦式短衣（西班牙語：traje cordobés）。\n結合其進化型的幽靈屬性來看，頂著火焰蛋的造型也可能參考了古埃及神索貝克。在古埃及後期，索貝克融入了太陽神的神格，掌管太陽昇降和生命輪迴，在浮雕中常被塑造成頭頂火球的形象。",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "アチゲータ Achigator",
-      "origin": "来自“アチチ”（好热，感到热或烫的时候会说的话）和英文 alligator（短吻鳄）。"
+      "origin": "來自“アチチ”（好熱，感到熱或燙的時候會說的話）和英文 alligator（短吻鱷）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "炙燙鱷炙烫鳄",
-      "origin": "来自“炙热”、“烫”和“鳄鱼”。"
+      "name": "炙燙鱷炙燙鱷",
+      "origin": "來自“炙熱”、“燙”和“鱷魚”。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "炙燙鱷",
-      "origin": "来自“炙热”、“烫”和“鳄鱼”。"
+      "origin": "來自“炙熱”、“燙”和“鱷魚”。"
     },
     {
       "language": "英文",
       "name": "Crocalor",
-      "origin": "来自 crocodile（鳄鱼）和 calor（热量）。"
+      "origin": "來自 crocodile（鱷魚）和 calor（熱量）。"
     },
     {
       "language": "法文",
       "name": "Crocogril",
-      "origin": "来自 crocodile（鳄鱼）和 griller（烤）。"
+      "origin": "來自 crocodile（鱷魚）和 griller（烤）。"
     },
     {
       "language": "德文",
       "name": "Lokroko",
-      "origin": "来自 Lohe（火焰的古称）和 Krokodil（鳄鱼）。"
+      "origin": "來自 Lohe（火焰的古稱）和 Krokodil（鱷魚）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Crocalor",
       "origin": "同英文名。"
     },
@@ -49,36 +49,36 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "악뜨거 Aktteugeo",
-      "origin": "来自“악어〈鰐魚〉”（鳄鱼）和“뜨겁다”（热的）。"
+      "origin": "來自“악어〈鰐魚〉”（鱷魚）和“뜨겁다”（熱的）。"
     }
   ],
   "forms": [
     {
-      "name": "炙烫鳄",
+      "name": "炙燙鱷",
       "types": [
         "火"
       ],
-      "category": "火鳄宝可梦",
+      "category": "火鱷寶可夢",
       "abilities": [
         {
           "name": "猛火",
           "is_hidden": false
         },
         {
-          "name": "纯朴",
+          "name": "純樸",
           "is_hidden": true
         }
       ],
       "height": "1.0m",
       "weight": "30.7kg",
-      "color": "红色",
+      "color": "紅色",
       "catch_rate": "45（5.9%）",
       "egg_groups": [
-        "陆上群"
+        "陸上群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -111,10 +111,10 @@
         "male": 87.5,
         "female": 12.5
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body06.png",
       "footprint": "FUnknown.png",
-      "image": "0910-炙烫鳄.png"
+      "image": "0910-炙燙鱷.png"
     }
   ],
   "stats": [
@@ -142,11 +142,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -162,15 +162,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -186,7 +186,7 @@
           "damage": "0.5"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -198,11 +198,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -218,13 +218,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "由于火之能量与过剩的生命力相互结合，使它头上出现了蛋状的火球。"
+          "group": "寶可夢 朱／紫",
+          "text": "由於火之能量與過剩的生命力相互結合，使它頭上出現了蛋狀的火球。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "声带和火囊的阀紧邻在一起。会一边发出嘶哑的声音，一边喷洒火焰。"
+          "group": "寶可夢 朱／紫",
+          "text": "聲帶和火囊的閥緊鄰在一起。會一邊發出嘶啞的聲音，一邊噴灑火焰。"
         }
       ]
     }
@@ -232,8 +232,8 @@
   "evolution_chains": [
     [
       {
-        "name": "呆火鳄",
-        "stage": "未进化",
+        "name": "呆火鱷",
+        "stage": "未進化",
         "text": null,
         "image": "909Fuecoco_Dream.png",
         "back_text": null,
@@ -241,21 +241,21 @@
         "form_name": null
       },
       {
-        "name": "炙烫鳄",
-        "stage": "1阶进化",
-        "text": "等级16以上",
+        "name": "炙燙鱷",
+        "stage": "1階進化",
+        "text": "等級16以上",
         "image": "910Crocalor_Dream.png",
         "back_text": null,
-        "from": "呆火鳄",
+        "from": "呆火鱷",
         "form_name": null
       },
       {
-        "name": "骨纹巨声鳄",
-        "stage": "2阶进化",
-        "text": "等级36以上",
+        "name": "骨紋巨聲鱷",
+        "stage": "2階進化",
+        "text": "等級36以上",
         "image": "911Skeledirge_Dream.png",
         "back_text": null,
-        "from": "炙烫鳄",
+        "from": "炙燙鱷",
         "form_name": null
       }
     ]
@@ -268,7 +268,7 @@
       "data": [
         {
           "level": "—",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -279,7 +279,7 @@
           "level": "—",
           "name": "瞪眼",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "30"
@@ -296,7 +296,7 @@
         {
           "level": "7",
           "name": "舌舔",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -304,7 +304,7 @@
         },
         {
           "level": "10",
-          "name": "轮唱",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -314,7 +314,7 @@
         {
           "level": "12",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -324,14 +324,14 @@
           "level": "15",
           "name": "哈欠",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "17",
-          "name": "烧净",
+          "name": "燒淨",
           "type": "火",
           "category": "特殊",
           "power": "60",
@@ -340,8 +340,8 @@
         },
         {
           "level": "24",
-          "name": "大声咆哮",
-          "type": "恶",
+          "name": "大聲咆哮",
+          "type": "惡",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
@@ -351,14 +351,14 @@
           "level": "28",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "32",
-          "name": "喷射火焰",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -367,7 +367,7 @@
         },
         {
           "level": "38",
-          "name": "巨声",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -378,7 +378,7 @@
           "level": "42",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
@@ -400,7 +400,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -409,8 +409,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００５",
-          "name": "掷泥",
+          "machine": "招式學習器００５",
+          "name": "擲泥",
           "type": "地面",
           "category": "特殊",
           "power": "20",
@@ -418,16 +418,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００８",
+          "machine": "招式學習器００８",
           "name": "火焰牙",
           "type": "火",
           "category": "物理",
@@ -436,17 +436,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器００９",
-          "name": "雷电牙",
-          "type": "电",
+          "machine": "招式學習器００９",
+          "name": "雷電牙",
+          "type": "電",
           "category": "物理",
           "power": "65",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１９",
-          "name": "魅惑之声",
+          "machine": "招式學習器０１９",
+          "name": "魅惑之聲",
           "type": "妖精",
           "category": "特殊",
           "power": "40",
@@ -454,8 +454,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２４",
-          "name": "火焰旋涡",
+          "machine": "招式學習器０２４",
+          "name": "火焰旋渦",
           "type": "火",
           "category": "特殊",
           "power": "35",
@@ -463,8 +463,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -472,17 +472,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３０",
-          "name": "大声咆哮",
-          "type": "恶",
+          "machine": "招式學習器０３０",
+          "name": "大聲咆哮",
+          "type": "惡",
           "category": "特殊",
           "power": "55",
           "accuracy": "95",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３８",
-          "name": "蓄能焰袭",
+          "machine": "招式學習器０３８",
+          "name": "蓄能焰襲",
           "type": "火",
           "category": "物理",
           "power": "50",
@@ -490,25 +490,25 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５５",
+          "machine": "招式學習器０５５",
           "name": "挖洞",
           "type": "地面",
           "category": "物理",
@@ -517,8 +517,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５９",
-          "name": "意念头锤",
+          "machine": "招式學習器０５９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -526,8 +526,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -535,17 +535,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７１",
-          "name": "种子炸弹",
+          "machine": "招式學習器０７１",
+          "name": "種子炸彈",
           "type": "草",
           "category": "物理",
           "power": "80",
@@ -553,8 +553,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０８４",
-          "name": "跺脚",
+          "machine": "招式學習器０８４",
+          "name": "跺腳",
           "type": "地面",
           "category": "物理",
           "power": "75",
@@ -562,44 +562,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０７",
+          "machine": "招式學習器１０７",
           "name": "磷火",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０８",
+          "machine": "招式學習器１０８",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１７",
-          "name": "巨声",
+          "machine": "招式學習器１１７",
+          "name": "巨聲",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -607,8 +607,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１８",
-          "name": "热风",
+          "machine": "招式學習器１１８",
+          "name": "熱風",
           "type": "火",
           "category": "特殊",
           "power": "95",
@@ -616,17 +616,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２２",
-          "name": "再来一次",
+          "machine": "招式學習器１２２",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１２５",
-          "name": "喷射火焰",
+          "machine": "招式學習器１２５",
+          "name": "噴射火焰",
           "type": "火",
           "category": "特殊",
           "power": "90",
@@ -634,16 +634,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１４１",
+          "machine": "招式學習器１４１",
           "name": "大字爆炎",
           "type": "火",
           "category": "特殊",
@@ -652,8 +652,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１４４",
-          "name": "火之誓约",
+          "machine": "招式學習器１４４",
+          "name": "火之誓約",
           "type": "火",
           "category": "特殊",
           "power": "80",
@@ -661,17 +661,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５６",
-          "name": "逆鳞",
-          "type": "龙",
+          "machine": "招式學習器１５６",
+          "name": "逆鱗",
+          "type": "龍",
           "category": "物理",
           "power": "120",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５７",
-          "name": "过热",
+          "machine": "招式學習器１５７",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -679,8 +679,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６５",
-          "name": "闪焰冲锋",
+          "machine": "招式學習器１６５",
+          "name": "閃焰衝鋒",
           "type": "火",
           "category": "物理",
           "power": "120",
@@ -688,8 +688,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -697,16 +697,16 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７２",
+          "machine": "招式學習器１７２",
           "name": "吼叫",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０７",
+          "machine": "招式學習器２０７",
           "name": "豁出去",
           "type": "火",
           "category": "物理",
@@ -715,10 +715,10 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２４",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器２２４",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -734,28 +734,28 @@
           "parents": [
             {
               "id": "322",
-              "name": "呆火驼"
+              "name": "呆火駝"
             },
             {
               "id": "323",
-              "name": "喷火驼"
+              "name": "噴火駝"
             },
             {
               "id": "324",
-              "name": "煤炭龟"
+              "name": "煤炭龜"
             },
             {
               "id": "570H",
-              "name": "索罗亚"
+              "name": "索羅亞"
             },
             {
               "id": "571H",
-              "name": "索罗亚克"
+              "name": "索羅亞克"
             }
           ],
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -764,39 +764,39 @@
           "parents": [
             {
               "id": "086",
-              "name": "小海狮"
+              "name": "小海獅"
             },
             {
               "id": "087",
-              "name": "白海狮"
+              "name": "白海獅"
             },
             {
               "id": "287",
-              "name": "懒人獭"
+              "name": "懶人獺"
             },
             {
               "id": "288",
-              "name": "过动猿"
+              "name": "過動猿"
             },
             {
               "id": "289",
-              "name": "请假王"
+              "name": "請假王"
             },
             {
               "id": "501",
-              "name": "水水獭"
+              "name": "水水獺"
             },
             {
               "id": "502",
-              "name": "双刃丸"
+              "name": "雙刃丸"
             },
             {
               "id": "503",
-              "name": "大剑鬼"
+              "name": "大劍鬼"
             },
             {
               "id": "503H",
-              "name": "大剑鬼"
+              "name": "大劍鬼"
             },
             {
               "id": "572",
@@ -804,15 +804,15 @@
             },
             {
               "id": "728",
-              "name": "球球海狮"
+              "name": "球球海獅"
             },
             {
               "id": "729",
-              "name": "花漾海狮"
+              "name": "花漾海獅"
             },
             {
               "id": "730",
-              "name": "西狮海壬"
+              "name": "西獅海壬"
             },
             {
               "id": "0963",
@@ -820,12 +820,12 @@
             },
             {
               "id": "0964",
-              "name": "海豚侠"
+              "name": "海豚俠"
             }
           ],
-          "name": "再来一次",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
@@ -834,11 +834,11 @@
           "parents": [
             {
               "id": "0287",
-              "name": "懒人獭"
+              "name": "懶人獺"
             },
             {
               "id": "0289",
-              "name": "请假王"
+              "name": "請假王"
             },
             {
               "id": "0390",
@@ -850,16 +850,16 @@
             },
             {
               "id": "0449",
-              "name": "沙河马"
+              "name": "沙河馬"
             },
             {
               "id": "0450",
-              "name": "河马兽"
+              "name": "河馬獸"
             }
           ],
-          "name": "偷懒",
+          "name": "偷懶",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -876,11 +876,11 @@
             },
             {
               "id": "0326",
-              "name": "噗噗猪"
+              "name": "噗噗豬"
             },
             {
               "id": "0336",
-              "name": "饭匙蛇"
+              "name": "飯匙蛇"
             },
             {
               "id": "0434",
@@ -892,15 +892,15 @@
             },
             {
               "id": "0819",
-              "name": "贪心栗鼠"
+              "name": "貪心栗鼠"
             },
             {
               "id": "0820",
-              "name": "藏饱栗鼠"
+              "name": "藏飽栗鼠"
             },
             {
               "id": "0916",
-              "name": "飘香豚"
+              "name": "飄香豚"
             }
           ],
           "name": "打嗝",
@@ -915,9 +915,9 @@
   ],
   "home_images": [
     {
-      "name": "炙烫鳄",
-      "image": "0910-炙烫鳄.png",
-      "shiny": "0910-炙烫鳄-shiny.png"
+      "name": "炙燙鱷",
+      "image": "0910-炙燙鱷.png",
+      "shiny": "0910-炙燙鱷-shiny.png"
     }
   ]
 }

@@ -3,38 +3,38 @@
   "name_ja": "ブロロローム",
   "name_en": "Revavroom",
   "pokedex_id": "0966",
-  "description": "普隆隆姆（日文︰ブロロローム，英文︰Revavroom）是钢属性／毒属性宝可梦，它的设计者是小崎祐介[1]。",
-  "profile": "普隆隆姆通过增加到8个之多的汽缸里诱爆混有毒素和岩石成分的气体来制造能量。它会用排气的声音猛烈地威吓对手，会从圆筒形的嘴巴吐出舌头并喷洒毒液。\n天星队的奥尔迪加活用家族的设计才能，将普隆隆姆改造成了各帮班的天星队车。",
-  "prototype": "普隆隆姆可能基于多气缸汽车发动机，加之身体下方的岩石轮子，整体造型可能也参考了卡丁车。",
-  "detail": "普隆隆姆是有唯一属性组合的宝可梦，钢属性／毒属性。\n尽管位于普隆隆姆眼睛上方的圆筒状“嘴巴”是一个实体圆柱而非口腔，它仍然能从那里伸出舌头。",
+  "description": "普隆隆姆（日文︰ブロロローム，英文︰Revavroom）是鋼屬性／毒屬性寶可夢，它的設計者是小崎祐介[1]。",
+  "profile": "普隆隆姆透過增加到8個之多的汽缸裡誘爆混有毒素和岩石成分的氣體來製造能量。它會用排氣的聲音猛烈地威嚇對手，會從圓筒形的嘴巴吐出舌頭並噴灑毒液。\n天星隊的奧爾迪加活用家族的設計才能，將普隆隆姆改造成了各幫班的天星隊車。",
+  "prototype": "普隆隆姆可能基於多氣缸汽車發動機，加之身體下方的岩石輪子，整體造型可能也參考了卡丁車。",
+  "detail": "普隆隆姆是有唯一屬性組合的寶可夢，鋼屬性／毒屬性。\n儘管位於普隆隆姆眼睛上方的圓筒狀“嘴巴”是一個實體圓柱而非口腔，它仍然能從那裡伸出舌頭。",
   "names": [
     {
       "language": "日文",
       "name": "ブロロローム Burororoom",
-      "origin": "来自“ブロロロ”（汽车引擎发动的拟声词）。"
+      "origin": "來自“ブロロロ”（汽車引擎發動的擬聲詞）。"
     },
     {
       "language": "中文-任天堂",
       "name": "普隆隆姆",
-      "origin": "来自日文名的音译，包括“隆隆”。"
+      "origin": "來自日文名的音譯，包括“隆隆”。"
     },
     {
       "language": "英文",
       "name": "Revavroom",
-      "origin": "来自 rev（【口语】发动机的旋转；使加速）和 vroom（引擎隆隆声）。"
+      "origin": "來自 rev（【口語】發動機的旋轉；使加速）和 vroom（引擎隆隆聲）。"
     },
     {
       "language": "法文",
       "name": "Vrombotor",
-      "origin": "来自 vrombir（发出隆隆声）和 moteur（马达）。"
+      "origin": "來自 vrombir（發出隆隆聲）和 moteur（馬達）。"
     },
     {
       "language": "德文",
       "name": "Knattatox",
-      "origin": "来自 knattern（发出哒哒声）、 Toxin（毒素）和 Attacke（攻击）。"
+      "origin": "來自 knattern（發出噠噠聲）、 Toxin（毒素）和 Attacke（攻擊）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Revavroom",
       "origin": "同英文名。"
     },
@@ -44,26 +44,26 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "부르르룸 Bureureurum",
-      "origin": "来自“부르릉”（轰隆隆地）和日文名的音译。"
+      "origin": "來自“부르릉”（轟隆隆地）和日文名的音譯。"
     }
   ],
   "forms": [
     {
       "name": "普隆隆姆",
       "types": [
-        "钢",
+        "鋼",
         "毒"
       ],
-      "category": "多汽缸宝可梦",
+      "category": "多汽缸寶可夢",
       "abilities": [
         {
-          "name": "防尘",
+          "name": "防塵",
           "is_hidden": false
         },
         {
-          "name": "过滤",
+          "name": "過濾",
           "is_hidden": true
         }
       ],
@@ -72,9 +72,9 @@
       "color": "灰色",
       "catch_rate": "75（9.8%）",
       "egg_groups": [
-        "矿物群"
+        "礦物群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -107,7 +107,7 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body01.png",
       "footprint": "FUnknown.png",
       "image": "0966-普隆隆姆.png"
@@ -130,7 +130,7 @@
     {
       "form": "",
       "types": [
-        "钢",
+        "鋼",
         "毒"
       ],
       "data": [
@@ -139,11 +139,11 @@
           "damage": "0.5"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -159,15 +159,15 @@
           "damage": "0.5"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.25"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -183,7 +183,7 @@
           "damage": "0.25"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -195,11 +195,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "0.5"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -209,9 +209,9 @@
       ]
     },
     {
-      "form": "过滤",
+      "form": "過濾",
       "types": [
-        "钢",
+        "鋼",
         "毒"
       ],
       "data": [
@@ -220,11 +220,11 @@
           "damage": "0.5"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -240,15 +240,15 @@
           "damage": "0.5"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.25"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "0.5"
         },
         {
@@ -264,7 +264,7 @@
           "damage": "0.25"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -276,11 +276,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "0.5"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -296,13 +296,13 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "在增加到８个之多的汽缸里引爆混有毒素和岩石成分的气体来制造能量。"
+          "group": "寶可夢 朱／紫",
+          "text": "在增加到８個之多的汽缸裡引爆混有毒素和岩石成分的氣體來製造能量。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "用排气的声音猛烈地威吓对手。会从圆筒形的嘴巴吐出舌头并喷洒毒液。"
+          "group": "寶可夢 朱／紫",
+          "text": "用排氣的聲音猛烈地威嚇對手。會從圓筒形的嘴巴吐出舌頭並噴灑毒液。"
         }
       ]
     }
@@ -311,7 +311,7 @@
     [
       {
         "name": "噗隆隆",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "965Varoom_Dream.png",
         "back_text": null,
@@ -320,8 +320,8 @@
       },
       {
         "name": "普隆隆姆",
-        "stage": "1阶进化",
-        "text": "等级40以上",
+        "stage": "1階進化",
+        "text": "等級40以上",
         "image": "966Revavroom_Dream.png",
         "back_text": null,
         "from": "噗隆隆",
@@ -336,19 +336,19 @@
       "form": "一般",
       "data": [
         {
-          "level": "进化",
-          "name": "换档",
-          "type": "钢",
-          "category": "变化",
+          "level": "進化",
+          "name": "換檔",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "—",
-          "name": "电磁飘浮",
-          "type": "电",
-          "category": "变化",
+          "name": "電磁飄浮",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -356,7 +356,7 @@
         {
           "level": "—",
           "name": "舌舔",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "物理",
           "power": "30",
           "accuracy": "100",
@@ -366,14 +366,14 @@
           "level": "—",
           "name": "毒瓦斯",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "40"
         },
         {
           "level": "4",
-          "name": "浊雾",
+          "name": "濁霧",
           "type": "毒",
           "category": "特殊",
           "power": "30",
@@ -382,17 +382,17 @@
         },
         {
           "level": "7",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "10",
-          "name": "恶意追击",
-          "type": "恶",
+          "name": "惡意追擊",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -400,7 +400,7 @@
         },
         {
           "level": "13",
-          "name": "污泥攻击",
+          "name": "汙泥攻擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -410,15 +410,15 @@
         {
           "level": "17",
           "name": "陀螺球",
-          "type": "钢",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
           "level": "21",
-          "name": "头锤",
+          "name": "頭錘",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -427,17 +427,17 @@
         },
         {
           "level": "25",
-          "name": "刺耳声",
+          "name": "刺耳聲",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
           "level": "28",
-          "name": "铁头",
-          "type": "钢",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -445,16 +445,16 @@
         },
         {
           "level": "32",
-          "name": "虚张声势",
+          "name": "虛張聲勢",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "15"
         },
         {
           "level": "36",
-          "name": "毒击",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -463,7 +463,7 @@
         },
         {
           "level": "46",
-          "name": "吵闹",
+          "name": "吵鬧",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -472,8 +472,8 @@
         },
         {
           "level": "52",
-          "name": "疾速转轮",
-          "type": "钢",
+          "name": "疾速轉輪",
+          "type": "鋼",
           "category": "物理",
           "power": "100",
           "accuracy": "100",
@@ -481,7 +481,7 @@
         },
         {
           "level": "58",
-          "name": "垃圾射击",
+          "name": "垃圾射擊",
           "type": "毒",
           "category": "物理",
           "power": "120",
@@ -496,7 +496,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -505,26 +505,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００６",
+          "machine": "招式學習器００６",
           "name": "可怕面孔",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１３",
-          "name": "酸液炸弹",
+          "machine": "招式學習器０１３",
+          "name": "酸液炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "40",
@@ -532,17 +532,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１８",
+          "machine": "招式學習器０１８",
           "name": "小偷",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
           "pp": "25"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -550,7 +550,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２８",
+          "machine": "招式學習器０２８",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -559,8 +559,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０４５",
-          "name": "毒液冲击",
+          "machine": "招式學習器０４５",
+          "name": "毒液衝擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -568,44 +568,44 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５１",
+          "machine": "招式學習器０５１",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５９",
-          "name": "意念头锤",
+          "machine": "招式學習器０５９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -613,8 +613,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -622,17 +622,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８３",
-          "name": "毒击",
+          "machine": "招式學習器０８３",
+          "name": "毒擊",
           "type": "毒",
           "category": "物理",
           "power": "80",
@@ -640,53 +640,53 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８７",
-          "name": "挑衅",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器０８７",
+          "name": "挑釁",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９１",
+          "machine": "招式學習器０９１",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９３",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式學習器０９３",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９９",
-          "name": "铁头",
-          "type": "钢",
+          "machine": "招式學習器０９９",
+          "name": "鐵頭",
+          "type": "鋼",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０２",
-          "name": "垃圾射击",
+          "machine": "招式學習器１０２",
+          "name": "垃圾射擊",
           "type": "毒",
           "category": "物理",
           "power": "120",
@@ -694,35 +694,35 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０４",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式學習器１０４",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２１",
-          "name": "重磅冲撞",
-          "type": "钢",
+          "machine": "招式學習器１２１",
+          "name": "重磅衝撞",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４８",
-          "name": "污泥炸弹",
+          "machine": "招式學習器１４８",
+          "name": "汙泥炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "90",
@@ -730,8 +730,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -739,8 +739,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５７",
-          "name": "过热",
+          "machine": "招式學習器１５７",
+          "name": "過熱",
           "type": "火",
           "category": "特殊",
           "power": "130",
@@ -748,8 +748,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -757,17 +757,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７０",
-          "name": "铁蹄光线",
-          "type": "钢",
+          "machine": "招式學習器１７０",
+          "name": "鐵蹄光線",
+          "type": "鋼",
           "category": "特殊",
           "power": "140",
           "accuracy": "95",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -775,35 +775,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７４",
-          "name": "黑雾",
+          "machine": "招式學習器１７４",
+          "name": "黑霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器１７５",
-          "name": "剧毒",
+          "machine": "招式學習器１７５",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８０",
+          "machine": "招式學習器１８０",
           "name": "陀螺球",
-          "type": "钢",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１８６",
-          "name": "十万马力",
+          "machine": "招式學習器１８６",
+          "name": "十萬馬力",
           "type": "地面",
           "category": "物理",
           "power": "95",
@@ -811,8 +811,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９１",
-          "name": "吵闹",
+          "machine": "招式學習器１９１",
+          "name": "吵鬧",
           "type": "一般",
           "category": "特殊",
           "power": "90",
@@ -820,17 +820,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１９９",
-          "name": "泄愤",
-          "type": "恶",
+          "machine": "招式學習器１９９",
+          "name": "洩憤",
+          "type": "惡",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -838,16 +838,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２０５",
-          "name": "蛮干",
+          "machine": "招式學習器２０５",
+          "name": "蠻幹",
           "type": "一般",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器２０７",
+          "machine": "招式學習器２０７",
           "name": "豁出去",
           "type": "火",
           "category": "物理",
@@ -856,8 +856,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１４",
-          "name": "污泥波",
+          "machine": "招式學習器２１４",
+          "name": "汙泥波",
           "type": "毒",
           "category": "特殊",
           "power": "95",
@@ -865,29 +865,29 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２３",
-          "name": "金属音",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式學習器２２３",
+          "name": "金屬音",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "85",
           "pp": "40"
         },
         {
-          "machine": "招式学习器２２４",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器２２４",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２５",
-          "name": "硬压",
-          "type": "钢",
+          "machine": "招式學習器２２５",
+          "name": "硬壓",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         }
@@ -909,9 +909,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "剧毒",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
@@ -927,9 +927,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "黑雾",
+          "name": "黑霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -954,11 +954,11 @@
             },
             {
               "id": "0076",
-              "name": "隆隆岩"
+              "name": "隆隆巖"
             },
             {
               "id": "0076A",
-              "name": "隆隆岩"
+              "name": "隆隆巖"
             },
             {
               "id": "0969",
@@ -980,12 +980,12 @@
           "parents": [
             {
               "id": null,
-              "name": "钥圈儿"
+              "name": "鑰圈兒"
             }
           ],
-          "name": "无理取闹",
-          "type": "恶",
-          "category": "变化",
+          "name": "無理取鬧",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
@@ -1001,9 +1001,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "抛下狠话",
-          "type": "恶",
-          "category": "变化",
+          "name": "拋下狠話",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"

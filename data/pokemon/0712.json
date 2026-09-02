@@ -1,55 +1,55 @@
 {
-  "name_zh": "冰宝",
+  "name_zh": "冰寶",
   "name_ja": "カチコール",
   "name_en": "Bergmite",
   "pokedex_id": "0712",
-  "description": "冰宝（日文︰カチコール，英文︰Bergmite）是冰属性宝可梦。",
-  "profile": "冰宝布满棱角，眼睛是紫色加黄色的，生有四肢。它戴着将大气中的水分冷冻后形成的冰盔来保护自己。\n冰宝栖息在万年积雪覆盖的山区极其寒冷的地域，会把自己的脚冻在冰岩怪的背上固定起来。它偶尔也会乘坐在冰岩怪背上越过大海，更换居处。它会用零下100度的冷气把敌人冰封起来。覆盖着身体的冰可以抵御敌人的攻击，即使被打破也能立即用冷气结起冰。如果遇上凉脊龙就会大打出手。",
-  "prototype": "根据其形象，冰宝的原型可能为冰块或冰山。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步冰宝（Pokémon GO）。\n←\nNo.0711：南瓜怪人\n宝可梦\nNo.0713：冰岩怪\n→",
+  "description": "冰寶（日文︰カチコール，英文︰Bergmite）是冰屬性寶可夢。",
+  "profile": "冰寶佈滿稜角，眼睛是紫色加黃色的，生有四肢。它戴著將大氣中的水分冷凍後形成的冰盔來保護自己。\n冰寶棲息在萬年積雪覆蓋的山區極其寒冷的地域，會把自己的腳凍在冰岩怪的背上固定起來。它偶爾也會乘坐在冰岩怪背上越過大海，更換居處。它會用零下100度的冷氣把敵人冰封起來。覆蓋著身體的冰可以抵禦敵人的攻擊，即使被打破也能立即用冷氣結起冰。如果遇上涼脊龍就會大打出手。",
+  "prototype": "根據其形象，冰寶的原型可能為冰塊或冰山。\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步冰寶（Pokémon GO）。\n←\nNo.0711：南瓜怪人\n寶可夢\nNo.0713：冰岩怪\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "カチコール Kachikohru",
-      "origin": "来自“カチカチに凍る”（冻得硬邦邦）。"
+      "origin": "來自“カチカチに凍る”（凍得硬邦邦）。"
     },
     {
       "language": "中文-任天堂",
-      "name": "冰寶冰宝",
-      "origin": "来自“冰”和“宝宝”。"
+      "name": "冰寶冰寶",
+      "origin": "來自“冰”和“寶寶”。"
     },
     {
-      "language": "中文-大陆",
-      "name": "冰宝",
-      "origin": "来自“冰”和“宝宝”。"
-    },
-    {
-      "language": "中文-台湾",
+      "language": "中文-大陸",
       "name": "冰寶",
-      "origin": "来自“冰”和“宝宝”。"
+      "origin": "來自“冰”和“寶寶”。"
+    },
+    {
+      "language": "中文-臺灣",
+      "name": "冰寶",
+      "origin": "來自“冰”和“寶寶”。"
     },
     {
       "language": "中文-香港",
       "name": "冰寶",
-      "origin": "来自“冰”和“宝宝”。"
+      "origin": "來自“冰”和“寶寶”。"
     },
     {
       "language": "英文",
       "name": "Bergmite",
-      "origin": "来自 iceberg（冰山）和 mite（小孩）或 stalagmite（石笋）。"
+      "origin": "來自 iceberg（冰山）和 mite（小孩）或 stalagmite（石筍）。"
     },
     {
       "language": "法文",
       "name": "Grelaçon",
-      "origin": "来自 grêle（冰雹）或 grelotter（寒颤）和 glaçon（冰）。"
+      "origin": "來自 grêle（冰雹）或 grelotter（寒顫）和 glaçon（冰）。"
     },
     {
       "language": "德文",
       "name": "Arktip",
-      "origin": "来自 Arktis（北极地区）和 Tip（尖端）。"
+      "origin": "來自 Arktis（北極地區）和 Tip（尖端）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Bergmite",
       "origin": "同英文名。"
     },
@@ -59,41 +59,41 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "꽁어름 Kkong'eoreum",
-      "origin": "来自“꽁꽁”（冻得硬邦邦）和“얼음”（冰）。"
+      "origin": "來自“꽁꽁”（凍得硬邦邦）和“얼음”（冰）。"
     }
   ],
   "forms": [
     {
-      "name": "冰宝",
+      "name": "冰寶",
       "types": [
         "冰"
       ],
-      "category": "冰块宝可梦",
+      "category": "冰塊寶可夢",
       "abilities": [
         {
           "name": "我行我素",
           "is_hidden": false
         },
         {
-          "name": "冰冻之躯",
+          "name": "冰凍之軀",
           "is_hidden": false
         },
         {
-          "name": "结实",
+          "name": "結實",
           "is_hidden": true
         }
       ],
       "height": "1.0m",
       "weight": "99.5kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "255（33.3%）",
       "egg_groups": [
-        "怪兽",
-        "矿物群"
+        "怪獸",
+        "礦物群"
       ],
-      "experience_100": "1,000,000（较快）",
+      "experience_100": "1,000,000（較快）",
       "base_points": [
         {
           "stat": "hp",
@@ -126,10 +126,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "20 孵化周期（5140步）",
+      "egg_cycles": "20 孵化週期（5140步）",
       "shape": "Body08.png",
       "footprint": "FUnknown.png",
-      "image": "0712-冰宝.png"
+      "image": "0712-冰寶.png"
     }
   ],
   "stats": [
@@ -157,11 +157,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "2"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -177,15 +177,15 @@
           "damage": "2"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "1"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -201,7 +201,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -213,11 +213,11 @@
           "damage": "0.5"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -233,23 +233,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "覆盖着身体的冰可以抵御敌人的攻击。即使被打破也能立即用冷气结起冰。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "覆蓋著身體的冰可以抵禦敵人的攻擊。即使被打破也能立即用冷氣結起冰。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "用零下１００度的冷气把敌人冰封起来。在被万年积雪覆盖的山里集结成群。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "用零下１００度的冷氣把敵人冰封起來。在被萬年積雪覆蓋的山裡集結成群。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "覆盖着身体的冰可以抵御敌人的攻击。即使被打破也能立即用冷气结起冰。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "覆蓋著身體的冰可以抵禦敵人的攻擊。即使被打破也能立即用冷氣結起冰。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "用零下１００度的冷气把敌人冰封起来。在被万年积雪覆盖的山里集结成群。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "用零下１００度的冷氣把敵人冰封起來。在被萬年積雪覆蓋的山裡集結成群。"
         }
       ]
     },
@@ -257,19 +257,19 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "剑",
-          "group": "宝可梦 剑／盾",
-          "text": "用零下１００度的冷气冻住空气中的水分，用冰之装甲保护自身。"
+          "name": "劍",
+          "group": "寶可夢 劍／盾",
+          "text": "用零下１００度的冷氣凍住空氣中的水分，用冰之裝甲保護自身。"
         },
         {
           "name": "盾",
-          "group": "宝可梦 剑／盾",
-          "text": "栖息在极其寒冷的地域。会把自己的脚冻在冰岩怪的背上固定起来。"
+          "group": "寶可夢 劍／盾",
+          "text": "棲息在極其寒冷的地域。會把自己的腳凍在冰岩怪的背上固定起來。"
         },
         {
-          "name": "传说 阿尔宙斯",
-          "group": "宝可梦传说 阿尔宙斯",
-          "text": "栖息在万年积雪覆盖的山区。戴着将大气中的水分冷冻后形成的冰盔，借此保护自己。"
+          "name": "傳說 阿爾宙斯",
+          "group": "寶可夢傳說 阿爾宙斯",
+          "text": "棲息在萬年積雪覆蓋的山區。戴著將大氣中的水分冷凍後形成的冰盔，藉此保護自己。"
         }
       ]
     },
@@ -278,18 +278,18 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "栖息在严寒的山岳地带。偶尔会乘坐在冰岩怪背上越过大海，更换居处。"
+          "group": "寶可夢 朱／紫",
+          "text": "棲息在嚴寒的山嶽地帶。偶爾會乘坐在冰岩怪背上越過大海，更換居處。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "会用零下１００度的寒气制冰来覆盖在身上保护自己。如果遇上凉脊龙就会大打出手。"
+          "group": "寶可夢 朱／紫",
+          "text": "會用零下１００度的寒氣製冰來覆蓋在身上保護自己。如果遇上涼脊龍就會大打出手。"
         },
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "覆盖着身体的冰可以抵御敌人的攻击。即使被打破也能立即用冷气结起冰。"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "覆蓋著身體的冰可以抵禦敵人的攻擊。即使被打破也能立即用冷氣結起冰。"
         }
       ]
     }
@@ -297,8 +297,8 @@
   "evolution_chains": [
     [
       {
-        "name": "冰宝",
-        "stage": "未进化",
+        "name": "冰寶",
+        "stage": "未進化",
         "text": null,
         "image": "712Bergmite_Dream.png",
         "back_text": null,
@@ -307,18 +307,18 @@
       },
       {
         "name": "冰岩怪",
-        "stage": "1阶进化",
-        "text": "等级37以上（在其他地区）",
+        "stage": "1階進化",
+        "text": "等級37以上（在其他地區）",
         "image": "713Avalugg_Dream.png",
         "back_text": null,
-        "from": "冰宝",
+        "from": "冰寶",
         "form_name": null
       }
     ],
     [
       {
-        "name": "冰宝",
-        "stage": "未进化",
+        "name": "冰寶",
+        "stage": "未進化",
         "text": null,
         "image": "712Bergmite_Dream.png",
         "back_text": null,
@@ -327,12 +327,12 @@
       },
       {
         "name": "冰岩怪",
-        "stage": "1阶进化",
-        "text": "等级37以上（在洗翠地区）",
+        "stage": "1階進化",
+        "text": "等級37以上（在洗翠地區）",
         "image": "713Avalugg-Hisui_Dream.png",
         "back_text": null,
-        "from": "冰宝",
-        "form_name": "洗翠的样子"
+        "from": "冰寶",
+        "form_name": "洗翠的樣子"
       }
     ]
   ],
@@ -344,16 +344,16 @@
       "data": [
         {
           "level": "—",
-          "name": "变硬",
+          "name": "變硬",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "—",
-          "name": "高速旋转",
+          "name": "高速旋轉",
           "type": "一般",
           "category": "物理",
           "power": "50",
@@ -362,7 +362,7 @@
         },
         {
           "level": "3",
-          "name": "撞击",
+          "name": "撞擊",
           "type": "一般",
           "category": "物理",
           "power": "40",
@@ -371,7 +371,7 @@
         },
         {
           "level": "6",
-          "name": "细雪",
+          "name": "細雪",
           "type": "冰",
           "category": "特殊",
           "power": "40",
@@ -380,16 +380,16 @@
         },
         {
           "level": "9",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "12",
-          "name": "冰冻之风",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -400,7 +400,7 @@
           "level": "15",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -417,7 +417,7 @@
         {
           "level": "21",
           "name": "咬住",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "60",
           "accuracy": "100",
@@ -425,7 +425,7 @@
         },
         {
           "level": "24",
-          "name": "冰冻牙",
+          "name": "冰凍牙",
           "type": "冰",
           "category": "物理",
           "power": "65",
@@ -434,9 +434,9 @@
         },
         {
           "level": "27",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
@@ -445,7 +445,7 @@
           "level": "30",
           "name": "自我再生",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -453,7 +453,7 @@
         {
           "level": "33",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
@@ -470,7 +470,7 @@
         },
         {
           "level": "39",
-          "name": "暴风雪",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -479,7 +479,7 @@
         },
         {
           "level": "42",
-          "name": "舍身冲撞",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -494,7 +494,7 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００１",
+          "machine": "招式學習器００１",
           "name": "猛撞",
           "type": "一般",
           "category": "物理",
@@ -503,17 +503,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１０",
-          "name": "冰冻牙",
+          "machine": "招式學習器０１０",
+          "name": "冰凍牙",
           "type": "冰",
           "category": "物理",
           "power": "65",
@@ -521,8 +521,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０２２",
-          "name": "泼冷水",
+          "machine": "招式學習器０２２",
+          "name": "潑冷水",
           "type": "水",
           "category": "特殊",
           "power": "50",
@@ -530,8 +530,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -539,7 +539,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０２８",
+          "machine": "招式學習器０２８",
           "name": "重踏",
           "type": "地面",
           "category": "物理",
@@ -548,8 +548,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３４",
-          "name": "冰冻之风",
+          "machine": "招式學習器０３４",
+          "name": "冰凍之風",
           "type": "冰",
           "category": "特殊",
           "power": "55",
@@ -557,8 +557,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３６",
-          "name": "岩石封锁",
+          "machine": "招式學習器０３６",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -566,7 +566,7 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４６",
+          "machine": "招式學習器０４６",
           "name": "雪崩",
           "type": "冰",
           "category": "物理",
@@ -575,35 +575,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５２",
+          "machine": "招式學習器０５２",
           "name": "雪景",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０６６",
-          "name": "泰山压顶",
+          "machine": "招式學習器０６６",
+          "name": "泰山壓頂",
           "type": "一般",
           "category": "物理",
           "power": "85",
@@ -611,26 +611,26 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８６",
-          "name": "岩崩",
+          "machine": "招式學習器０８６",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -638,34 +638,34 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０４",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式學習器１０４",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１０８",
+          "machine": "招式學習器１０８",
           "name": "咬碎",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２４",
+          "machine": "招式學習器１２４",
           "name": "冰旋",
           "type": "冰",
           "category": "物理",
@@ -674,8 +674,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１３５",
-          "name": "冰冻光束",
+          "machine": "招式學習器１３５",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -683,8 +683,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４３",
-          "name": "暴风雪",
+          "machine": "招式學習器１４３",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -692,8 +692,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５０",
-          "name": "尖石攻击",
+          "machine": "招式學習器１５０",
+          "name": "尖石攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "100",
@@ -701,8 +701,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -710,17 +710,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８０",
+          "machine": "招式學習器１８０",
           "name": "陀螺球",
-          "type": "钢",
+          "type": "鋼",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１８７",
-          "name": "冰锥",
+          "machine": "招式學習器１８７",
+          "name": "冰錐",
           "type": "冰",
           "category": "物理",
           "power": "25",
@@ -728,8 +728,8 @@
           "pp": "30"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -737,10 +737,10 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２２４",
-          "name": "咒术",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器２２４",
+          "name": "咒術",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -767,9 +767,9 @@
               "name": "暴雪王"
             }
           ],
-          "name": "白雾",
+          "name": "白霧",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
@@ -778,21 +778,21 @@
           "parents": [
             {
               "id": "0007",
-              "name": "杰尼龟"
+              "name": "傑尼龜"
             },
             {
               "id": "0258",
-              "name": "水跃鱼"
+              "name": "水躍魚"
             },
             {
               "id": "0884",
-              "name": "铝钢龙"
+              "name": "鋁鋼龍"
             }
           ],
-          "name": "镜面反射*",
+          "name": "鏡面反射*",
           "type": "超能力",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
@@ -803,9 +803,9 @@
               "name": "暴雪王"
             }
           ],
-          "name": "极光幕",
+          "name": "極光幕",
           "type": "冰",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -815,9 +815,9 @@
   ],
   "home_images": [
     {
-      "name": "冰宝",
-      "image": "0712-冰宝.png",
-      "shiny": "0712-冰宝-shiny.png"
+      "name": "冰寶",
+      "image": "0712-冰寶.png",
+      "shiny": "0712-冰寶-shiny.png"
     }
   ]
 }

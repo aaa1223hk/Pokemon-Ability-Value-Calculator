@@ -3,53 +3,53 @@
   "name_ja": "エムリット",
   "name_en": "Mesprit",
   "pokedex_id": "0481",
-  "description": "艾姆利多（日文︰エムリット，英文︰Mesprit）是超能力属性传说的宝可梦。它是湖之传说的宝可梦之一。",
-  "profile": "艾姆利多是一只小小的灰色妖精状的宝可梦，它有两条尾巴，每一条都有一个红色的宝石在末端。艾姆利多有一部分是紫红色的脸，有四只长的附属物，和另外一颗红宝石在前额。\n人们认为，由克希、艾姆利多和亚克诺姆是从同一个蛋里出生的宝可梦。艾姆利多沉睡在湖底，但据说会灵魂出窍后在水面上飞来飞去。当艾姆利多四处飞行时，人们获得了生活中的喜悦和悲伤之类的“情感”，它教会了人们悲伤的痛苦和快乐的宝贵。它有着感情之神的别名，传说它会令对其不敬之人的感情失控，因而受到人们畏惧。据《神奥传说》记载：“凡是触碰此宝可梦的生物，３天后必会失去情感。”",
-  "prototype": "艾姆利多基于西方传说故事中的精灵和颜料三原色中的红色。\n湖之传说的宝可梦可能象征日本三神器，其中艾姆利多为八尺琼勾玉，体现为仁慈。",
-  "detail": "艾姆利多没有性别，但在《时之探险队／暗之探险队／空之探险队》中登场的艾姆利多被提及是雌性。",
+  "description": "艾姆利多（日文︰エムリット，英文︰Mesprit）是超能力屬性傳說的寶可夢。它是湖之傳說的寶可夢之一。",
+  "profile": "艾姆利多是一隻小小的灰色妖精狀的寶可夢，它有兩條尾巴，每一條都有一個紅色的寶石在末端。艾姆利多有一部分是紫紅色的臉，有四隻長的附屬物，和另外一顆紅寶石在前額。\n人們認為，由克希、艾姆利多和亞克諾姆是從同一個蛋裡出生的寶可夢。艾姆利多沉睡在湖底，但據說會靈魂出竅後在水面上飛來飛去。當艾姆利多四處飛行時，人們獲得了生活中的喜悅和悲傷之類的“情感”，它教會了人們悲傷的痛苦和快樂的寶貴。它有著感情之神的別名，傳說它會令對其不敬之人的感情失控，因而受到人們畏懼。據《神奧傳說》記載：“凡是觸碰此寶可夢的生物，３天后必會失去情感。”",
+  "prototype": "艾姆利多基於西方傳說故事中的精靈和顏料三原色中的紅色。\n湖之傳說的寶可夢可能象徵日本三神器，其中艾姆利多為八尺瓊勾玉，體現為仁慈。",
+  "detail": "艾姆利多沒有性別，但在《時之探險隊／暗之探險隊／空之探險隊》中登場的艾姆利多被提及是雌性。",
   "names": [
     {
       "language": "日文",
       "name": "エムリット Emrit",
-      "origin": "来自 UMA（未确认动物的简称；艾姆利多的日文名中的“エム”对应“M”）和英文 sprite（精灵）。"
+      "origin": "來自 UMA（未確認動物的簡稱；艾姆利多的日文名中的“エム”對應“M”）和英文 sprite（精靈）。"
     },
     {
       "language": "中文-任天堂",
       "name": "艾姆利多",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     },
     {
-      "language": "中文-大陆",
+      "language": "中文-大陸",
       "name": "艾姆利多",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     },
     {
-      "language": "中文-台湾",
+      "language": "中文-臺灣",
       "name": "艾姆利多",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     },
     {
       "language": "中文-香港",
       "name": "艾姆利多",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     },
     {
       "language": "英文",
       "name": "Mesprit",
-      "origin": "来自 UMA（未确认动物的简称）和 sprite（精灵）。"
+      "origin": "來自 UMA（未確認動物的簡稱）和 sprite（精靈）。"
     },
     {
       "language": "法文",
       "name": "Créfollet",
-      "origin": "来自 créature（生物）和古语 follet（精灵）。"
+      "origin": "來自 créature（生物）和古語 follet（精靈）。"
     },
     {
       "language": "德文",
       "name": "Vesprit",
-      "origin": "来自 Studie von versteckten Tieren（神秘动物学）中的“V”和 Esprit（精灵）。"
+      "origin": "來自 Studie von versteckten Tieren（神秘動物學）中的“V”和 Esprit（精靈）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Mesprit",
       "origin": "同英文名。"
     },
@@ -59,9 +59,9 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "엠라이트 Emrite",
-      "origin": "来自日文名的音译。"
+      "origin": "來自日文名的音譯。"
     }
   ],
   "forms": [
@@ -70,19 +70,19 @@
       "types": [
         "超能力"
       ],
-      "category": "感情宝可梦",
+      "category": "感情寶可夢",
       "abilities": [
         {
-          "name": "飘浮",
+          "name": "飄浮",
           "is_hidden": false
         }
       ],
       "height": "0.3m",
       "weight": "0.3kg",
-      "color": "粉红色",
+      "color": "粉紅色",
       "catch_rate": "3（0.4%）",
       "egg_groups": [
-        "未发现群"
+        "未發現群"
       ],
       "experience_100": "1,250,000（慢）",
       "base_points": [
@@ -117,7 +117,7 @@
         "male": 0,
         "female": 0
       },
-      "egg_cycles": "80 孵化周期（20560步）",
+      "egg_cycles": "80 孵化週期（20560步）",
       "shape": "Body06.png",
       "footprint": "F481.png",
       "image": "0481-艾姆利多.png"
@@ -138,7 +138,7 @@
   ],
   "type_effectiveness": [
     {
-      "form": "(飘浮)",
+      "form": "(飄浮)",
       "types": [
         "超能力"
       ],
@@ -148,11 +148,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -168,15 +168,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "2"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -192,7 +192,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -204,11 +204,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -228,11 +228,11 @@
           "damage": "1"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "0.5"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "1"
         },
         {
@@ -248,15 +248,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "2"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "2"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "1"
         },
         {
@@ -272,7 +272,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -284,11 +284,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "2"
         },
         {
@@ -303,29 +303,29 @@
       "name": "第四世代",
       "versions": [
         {
-          "name": "钻石",
-          "group": "宝可梦 钻石／珍珠",
-          "text": "教会了人们悲伤的痛苦和快乐的宝贵。被称为感情之神。"
+          "name": "鑽石",
+          "group": "寶可夢 鑽石／珍珠",
+          "text": "教會了人們悲傷的痛苦和快樂的寶貴。被稱為感情之神。"
         },
         {
           "name": "珍珠",
-          "group": "宝可梦 钻石／珍珠",
-          "text": "沉睡在湖底，但据说会灵魂出窍，在水面上飞来飞去。"
+          "group": "寶可夢 鑽石／珍珠",
+          "text": "沉睡在湖底，但據說會靈魂出竅，在水面上飛來飛去。"
         },
         {
           "name": "白金",
-          "group": "宝可梦 白金",
-          "text": "艾姆利多四处飞行时，人们获得了生活中的喜悦和悲伤之类的“情感”。"
+          "group": "寶可夢 白金",
+          "text": "艾姆利多四處飛行時，人們獲得了生活中的喜悅和悲傷之類的“情感”。"
         },
         {
           "name": "心金",
-          "group": "宝可梦 心金／魂银",
-          "text": "据说是给人们心灵带来了欢乐悲伤等情感的宝可梦。"
+          "group": "寶可夢 心金／魂銀",
+          "text": "據說是給人們心靈帶來了歡樂悲傷等情感的寶可夢。"
         },
         {
-          "name": "魂银",
-          "group": "宝可梦 心金／魂银",
-          "text": "据说是给人们心灵带来了欢乐悲伤等情感的宝可梦。"
+          "name": "魂銀",
+          "group": "寶可夢 心金／魂銀",
+          "text": "據說是給人們心靈帶來了歡樂悲傷等情感的寶可夢。"
         }
       ]
     },
@@ -334,13 +334,13 @@
       "versions": [
         {
           "name": "黑",
-          "group": "宝可梦 黑／白",
-          "text": "艾姆利多四处飞行时，人们获得了生活中的喜悦和悲伤之类的“情感”。"
+          "group": "寶可夢 黑／白",
+          "text": "艾姆利多四處飛行時，人們獲得了生活中的喜悅和悲傷之類的“情感”。"
         },
         {
           "name": "白",
-          "group": "宝可梦 黑／白",
-          "text": "艾姆利多四处飞行时，人们获得了生活中的喜悦和悲伤之类的“情感”。"
+          "group": "寶可夢 黑／白",
+          "text": "艾姆利多四處飛行時，人們獲得了生活中的喜悅和悲傷之類的“情感”。"
         }
       ]
     },
@@ -349,23 +349,23 @@
       "versions": [
         {
           "name": "Ｘ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "教会了人们悲伤的痛苦和快乐的宝贵。被称为感情之神。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "教會了人們悲傷的痛苦和快樂的寶貴。被稱為感情之神。"
         },
         {
           "name": "Ｙ",
-          "group": "宝可梦 Ｘ／Ｙ",
-          "text": "沉睡在湖底，但据说会灵魂出窍，在水面上飞来飞去。"
+          "group": "寶可夢 Ｘ／Ｙ",
+          "text": "沉睡在湖底，但據說會靈魂出竅，在水面上飛來飛去。"
         },
         {
-          "name": "欧米伽红宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "教会了人们悲伤的痛苦和快乐的宝贵。被称为感情之神。"
+          "name": "歐米伽紅寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "教會了人們悲傷的痛苦和快樂的寶貴。被稱為感情之神。"
         },
         {
-          "name": "阿尔法蓝宝石",
-          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-          "text": "沉睡在湖底，但据说会灵魂出窍，在水面上飞来飞去。"
+          "name": "阿爾法藍寶石",
+          "group": "寶可夢 歐米伽紅寶石／阿爾法藍寶石",
+          "text": "沉睡在湖底，但據說會靈魂出竅，在水面上飛來飛去。"
         }
       ]
     },
@@ -373,19 +373,19 @@
       "name": "第八世代",
       "versions": [
         {
-          "name": "晶灿钻石",
-          "group": "宝可梦 晶灿钻石／明亮珍珠",
-          "text": "教会了人们悲伤的痛苦和快乐的宝贵。被称为感情之神。"
+          "name": "晶燦鑽石",
+          "group": "寶可夢 晶燦鑽石／明亮珍珠",
+          "text": "教會了人們悲傷的痛苦和快樂的寶貴。被稱為感情之神。"
         },
         {
           "name": "明亮珍珠",
-          "group": "宝可梦 晶灿钻石／明亮珍珠",
-          "text": "沉睡在湖底，但据说会灵魂出窍，在水面上飞来飞去。"
+          "group": "寶可夢 晶燦鑽石／明亮珍珠",
+          "text": "沉睡在湖底，但據說會靈魂出竅，在水面上飛來飛去。"
         },
         {
-          "name": "传说 阿尔宙斯",
-          "group": "宝可梦传说 阿尔宙斯",
-          "text": "有着感情之神别名的宝可梦。传说它会令对其不敬之人的感情失控，因而受到人们畏惧。"
+          "name": "傳說 阿爾宙斯",
+          "group": "寶可夢傳說 阿爾宙斯",
+          "text": "有著感情之神別名的寶可夢。傳說它會令對其不敬之人的感情失控，因而受到人們畏懼。"
         }
       ]
     }
@@ -394,7 +394,7 @@
     [
       {
         "name": "艾姆利多",
-        "stage": "不进化",
+        "stage": "不進化",
         "text": null,
         "image": "481Mesprit_Dream.png",
         "back_text": null,
@@ -420,9 +420,9 @@
         },
         {
           "level": "—",
-          "name": "睡觉",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
@@ -440,14 +440,14 @@
           "level": "14",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
           "level": "21",
-          "name": "幻象光线",
+          "name": "幻象光線",
           "type": "超能力",
           "category": "特殊",
           "power": "65",
@@ -458,7 +458,7 @@
           "level": "28",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -474,16 +474,16 @@
         },
         {
           "level": "42",
-          "name": "撒娇",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
           "level": "49",
-          "name": "精神强念",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -493,15 +493,15 @@
         {
           "level": "56",
           "name": "吹捧",
-          "type": "恶",
-          "category": "变化",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "15"
         },
         {
           "level": "63",
-          "name": "预知未来",
+          "name": "預知未來",
           "type": "超能力",
           "category": "特殊",
           "power": "120",
@@ -512,16 +512,16 @@
           "level": "70",
           "name": "仿效",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "77",
-          "name": "治愈之愿",
+          "name": "治癒之願",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -536,8 +536,8 @@
           "pp": "10"
         },
         {
-          "level": "回忆",
-          "name": "三重攻击",
+          "level": "回憶",
+          "name": "三重攻擊",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -545,7 +545,7 @@
           "pp": "10"
         },
         {
-          "level": "回忆",
+          "level": "回憶",
           "name": "打鼾",
           "type": "一般",
           "category": "特殊",
@@ -554,25 +554,25 @@
           "pp": "15"
         },
         {
-          "level": "回忆",
-          "name": "神秘守护",
+          "level": "回憶",
+          "name": "神秘守護",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "25"
         },
         {
-          "level": "回忆",
-          "name": "铁尾",
-          "type": "钢",
+          "level": "回憶",
+          "name": "鐵尾",
+          "type": "鋼",
           "category": "物理",
           "power": "100",
           "accuracy": "75",
           "pp": "15"
         },
         {
-          "level": "回忆",
+          "level": "回憶",
           "name": "精神利刃",
           "type": "超能力",
           "category": "物理",
@@ -581,26 +581,26 @@
           "pp": "20"
         },
         {
-          "level": "回忆",
-          "name": "奇妙空间",
+          "level": "回憶",
+          "name": "奇妙空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "level": "回忆",
-          "name": "魔法空间",
+          "level": "回憶",
+          "name": "魔法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "level": "回忆",
-          "name": "轮唱",
+          "level": "回憶",
+          "name": "輪唱",
           "type": "一般",
           "category": "特殊",
           "power": "60",
@@ -608,17 +608,17 @@
           "pp": "15"
         },
         {
-          "level": "回忆",
-          "name": "交换场地",
+          "level": "回憶",
+          "name": "交換場地",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "level": "回忆",
-          "name": "广域战力",
+          "level": "回憶",
+          "name": "廣域戰力",
           "type": "超能力",
           "category": "特殊",
           "power": "80",
@@ -633,26 +633,26 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００２",
-          "name": "撒娇",
+          "machine": "招式學習器００２",
+          "name": "撒嬌",
           "type": "妖精",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１１",
-          "name": "水之波动",
+          "machine": "招式學習器０１１",
+          "name": "水之波動",
           "type": "水",
           "category": "特殊",
           "power": "60",
@@ -660,17 +660,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１４",
-          "name": "杂技",
-          "type": "飞行",
+          "machine": "招式學習器０１４",
+          "name": "雜技",
+          "type": "飛行",
           "category": "物理",
           "power": "55",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０１６",
-          "name": "幻象光线",
+          "machine": "招式學習器０１６",
+          "name": "幻象光線",
           "type": "超能力",
           "category": "特殊",
           "power": "65",
@@ -678,26 +678,26 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１７",
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器０１７",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２３",
-          "name": "充电光束",
-          "type": "电",
+          "machine": "招式學習器０２３",
+          "name": "充電光束",
+          "type": "電",
           "category": "特殊",
           "power": "50",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -705,7 +705,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３２",
+          "machine": "招式學習器０３２",
           "name": "高速星星",
           "type": "一般",
           "category": "特殊",
@@ -714,7 +714,7 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３７",
+          "machine": "招式學習器０３７",
           "name": "吸取之吻",
           "type": "妖精",
           "category": "特殊",
@@ -723,8 +723,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４１",
-          "name": "辅助力量",
+          "machine": "招式學習器０４１",
+          "name": "輔助力量",
           "type": "超能力",
           "category": "特殊",
           "power": "20",
@@ -732,53 +732,53 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４３",
-          "name": "投掷",
-          "type": "恶",
+          "machine": "招式學習器０４３",
+          "name": "投擲",
+          "type": "惡",
           "category": "物理",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５１",
+          "machine": "招式學習器０５１",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５４",
-          "name": "精神冲击",
+          "machine": "招式學習器０５４",
+          "name": "精神衝擊",
           "type": "超能力",
           "category": "特殊",
           "power": "80",
@@ -786,8 +786,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０５９",
-          "name": "意念头锤",
+          "machine": "招式學習器０５９",
+          "name": "意念頭錘",
           "type": "超能力",
           "category": "物理",
           "power": "80",
@@ -795,16 +795,16 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６０",
+          "machine": "招式學習器０６０",
           "name": "急速折返",
-          "type": "虫",
+          "type": "蟲",
           "category": "物理",
           "power": "70",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０６７",
+          "machine": "招式學習器０６７",
           "name": "火焰拳",
           "type": "火",
           "category": "物理",
@@ -813,17 +813,17 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６８",
-          "name": "雷电拳",
-          "type": "电",
+          "machine": "招式學習器０６８",
+          "name": "雷電拳",
+          "type": "電",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器０６９",
-          "name": "冰冻拳",
+          "machine": "招式學習器０６９",
+          "name": "冰凍拳",
           "type": "冰",
           "category": "物理",
           "power": "75",
@@ -831,44 +831,44 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７３",
+          "machine": "招式學習器０７３",
           "name": "吸取拳",
-          "type": "格斗",
+          "type": "格鬥",
           "category": "物理",
           "power": "75",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７４",
+          "machine": "招式學習器０７４",
           "name": "反射壁",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０７９",
-          "name": "魔法闪耀",
+          "machine": "招式學習器０７９",
+          "name": "魔法閃耀",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -876,97 +876,97 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８０",
-          "name": "挥指",
+          "machine": "招式學習器０８０",
+          "name": "揮指",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８１",
-          "name": "打草结",
+          "machine": "招式學習器０８１",
+          "name": "打草結",
           "type": "草",
           "category": "特殊",
-          "power": "变化",
+          "power": "變化",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８２",
-          "name": "电磁波",
-          "type": "电",
-          "category": "变化",
+          "machine": "招式學習器０８２",
+          "name": "電磁波",
+          "type": "電",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０９２",
+          "machine": "招式學習器０９２",
           "name": "封印",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９８",
-          "name": "特性互换",
+          "machine": "招式學習器０９８",
+          "name": "特性互換",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０９",
-          "name": "戏法",
+          "machine": "招式學習器１０９",
+          "name": "戲法",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１１４",
+          "machine": "招式學習器１１４",
           "name": "暗影球",
-          "type": "幽灵",
+          "type": "幽靈",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１６",
-          "name": "隐形岩",
+          "machine": "招式學習器１１６",
+          "name": "隱形巖",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１１９",
+          "machine": "招式學習器１１９",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -975,8 +975,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２０",
-          "name": "精神强念",
+          "machine": "招式學習器１２０",
+          "name": "精神強念",
           "type": "超能力",
           "category": "特殊",
           "power": "90",
@@ -984,26 +984,26 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２２",
-          "name": "再来一次",
+          "machine": "招式學習器１２２",
+          "name": "再來一次",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１２６",
-          "name": "十万伏特",
-          "type": "电",
+          "machine": "招式學習器１２６",
+          "name": "十萬伏特",
+          "type": "電",
           "category": "特殊",
           "power": "90",
           "accuracy": "100",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１２７",
-          "name": "嬉闹",
+          "machine": "招式學習器１２７",
+          "name": "嬉鬧",
           "type": "妖精",
           "category": "物理",
           "power": "90",
@@ -1011,35 +1011,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１２９",
+          "machine": "招式學習器１２９",
           "name": "冥想",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３０",
-          "name": "帮助",
+          "machine": "招式學習器１３０",
+          "name": "幫助",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１３２",
+          "machine": "招式學習器１３２",
           "name": "接棒",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "40"
         },
         {
-          "machine": "招式学习器１３５",
-          "name": "冰冻光束",
+          "machine": "招式學習器１３５",
+          "name": "冰凍光束",
           "type": "冰",
           "category": "特殊",
           "power": "90",
@@ -1047,17 +1047,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４０",
-          "name": "诡计",
-          "type": "恶",
-          "category": "变化",
+          "machine": "招式學習器１４０",
+          "name": "詭計",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１４３",
-          "name": "暴风雪",
+          "machine": "招式學習器１４３",
+          "name": "暴風雪",
           "type": "冰",
           "category": "特殊",
           "power": "110",
@@ -1065,8 +1065,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -1074,17 +1074,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６１",
-          "name": "戏法空间",
+          "machine": "招式學習器１６１",
+          "name": "戲法空間",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -1092,17 +1092,17 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６６",
+          "machine": "招式學習器１６６",
           "name": "打雷",
-          "type": "电",
+          "type": "電",
           "category": "特殊",
           "power": "110",
           "accuracy": "70",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -1110,35 +1110,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１８１",
+          "machine": "招式學習器１８１",
           "name": "拍落",
-          "type": "恶",
+          "type": "惡",
           "category": "物理",
           "power": "65",
           "accuracy": "100",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０２",
-          "name": "分担痛楚",
+          "machine": "招式學習器２０２",
+          "name": "分擔痛楚",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器２０３",
+          "machine": "招式學習器２０３",
           "name": "自我暗示",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器２０４",
-          "name": "舍身冲撞",
+          "machine": "招式學習器２０４",
+          "name": "捨身衝撞",
           "type": "一般",
           "category": "物理",
           "power": "120",
@@ -1146,8 +1146,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１７",
-          "name": "预知未来",
+          "machine": "招式學習器２１７",
+          "name": "預知未來",
           "type": "超能力",
           "category": "特殊",
           "power": "120",
@@ -1155,8 +1155,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２１８",
-          "name": "广域战力",
+          "machine": "招式學習器２１８",
+          "name": "廣域戰力",
           "type": "超能力",
           "category": "特殊",
           "power": "80",
@@ -1164,7 +1164,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２８",
+          "machine": "招式學習器２２８",
           "name": "精神噪音",
           "type": "超能力",
           "category": "特殊",

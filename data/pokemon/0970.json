@@ -3,38 +3,38 @@
   "name_ja": "キラフロル",
   "name_en": "Glimmora",
   "pokedex_id": "0970",
-  "description": "晶光花（日文︰キラフロル，英文︰Glimmora）是岩石属性／毒属性宝可梦。",
-  "profile": "只要感应到危险，晶光花就会张开结晶的花瓣，与晶光芽们互相配合一起击退敌人。它会绽放出大朵由毒成分构成的花，从圆锥形的身体发射光束。最近发现它的毒之能量结晶化之后所形成的花瓣与太晶的宝石类似。\n超级晶光花花瓣变大并分离开来。会一边保护本体并旋转，一边播撒有毒的碎片。",
-  "prototype": "从属性和颜色来看，晶光花可能基于胆矾，即蓝绿色的硫酸铜水合物晶体，其中的铜离子具有毒性。\n其似花的外形可能是因为硫酸铜晶体在地中海沿岸曾被称为“青铜之花”（古希腊语：χάλκανθον）的缘故。\n晶光花绽放时的造型从背面看也可能基于埃及蓝睡莲，其毒属性可能反映了埃及蓝睡莲具有致幻性生物碱。\n超级进化宝可梦\n首次出现于《Ｘ／Ｙ》\n首次出现于《欧米伽红宝石／阿尔法蓝宝石》\n首次出现于《传说 Z-A》\n首次出现于《传说 Z-A 超次元爆涌》\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步晶光花（Pokémon GO）。\n←\nNo.0969：晶光芽\n宝可梦\nNo.0971：墓仔狗\n→",
+  "description": "晶光花（日文︰キラフロル，英文︰Glimmora）是岩石屬性／毒屬性寶可夢。",
+  "profile": "只要感應到危險，晶光花就會張開結晶的花瓣，與晶光芽們互相配合一起擊退敵人。它會綻放出大朵由毒成分構成的花，從圓錐形的身體發射光束。最近發現它的毒之能量結晶化之後所形成的花瓣與太晶的寶石類似。\n超級晶光花花瓣變大並分離開來。會一邊保護本體並旋轉，一邊播撒有毒的碎片。",
+  "prototype": "從屬性和顏色來看，晶光花可能基於膽礬，即藍綠色的硫酸銅水合物晶體，其中的銅離子具有毒性。\n其似花的外形可能是因為硫酸銅晶體在地中海沿岸曾被稱為“青銅之花”（古希臘語：χάλκανθον）的緣故。\n晶光花綻放時的造型從背面看也可能基於埃及藍睡蓮，其毒屬性可能反映了埃及藍睡蓮具有致幻性生物鹼。\n超級進化寶可夢\n首次出現於《Ｘ／Ｙ》\n首次出現於《歐米伽紅寶石／阿爾法藍寶石》\n首次出現於《傳說 Z-A》\n首次出現於《傳說 Z-A 超次元爆湧》\n如果您在尋找此寶可夢在Pokémon GO裡的資料，請移步晶光花（Pokémon GO）。\n←\nNo.0969：晶光芽\n寶可夢\nNo.0971：墓仔狗\n→",
   "detail": "",
   "names": [
     {
       "language": "日文",
       "name": "キラフロル Kiraflor",
-      "origin": "来自“キラキラ”（亮晶晶）、英文 killer（致命的）、西班牙文 flor（花）和英文 roll（转动）。"
+      "origin": "來自“キラキラ”（亮晶晶）、英文 killer（致命的）、西班牙文 flor（花）和英文 roll（轉動）。"
     },
     {
       "language": "中文-任天堂",
       "name": "晶光花",
-      "origin": "来自“水晶”及“亮晶晶”、“光”和“花”。"
+      "origin": "來自“水晶”及“亮晶晶”、“光”和“花”。"
     },
     {
       "language": "英文",
       "name": "Glimmora",
-      "origin": "来自 glimmer（微光）、mortal（致命的）和 flora（植物群）及 floral（花的）。"
+      "origin": "來自 glimmer（微光）、mortal（致命的）和 flora（植物群）及 floral（花的）。"
     },
     {
       "language": "法文",
       "name": "Floréclat",
-      "origin": "来自 flore（植物群）和 éclat（光彩；碎片）。"
+      "origin": "來自 flore（植物群）和 éclat（光彩；碎片）。"
     },
     {
       "language": "德文",
       "name": "Lumiflora",
-      "origin": "来自 luminös（发光的）和 Flora（植物群）及 floral（花的）。"
+      "origin": "來自 luminös（發光的）和 Flora（植物群）及 floral（花的）。"
     },
     {
-      "language": "意大利文",
+      "language": "義大利文",
       "name": "Glimmora",
       "origin": "同英文名。"
     },
@@ -44,9 +44,9 @@
       "origin": "同英文名。"
     },
     {
-      "language": "韩文",
+      "language": "韓文",
       "name": "킬라플로르 Killapeulloreu",
-      "origin": "来自英文 killer（致命的）和西班牙文 flor（花）。"
+      "origin": "來自英文 killer（致命的）和西班牙文 flor（花）。"
     }
   ],
   "forms": [
@@ -56,25 +56,25 @@
         "岩石",
         "毒"
       ],
-      "category": "矿石宝可梦",
+      "category": "礦石寶可夢",
       "abilities": [
         {
-          "name": "毒满地",
+          "name": "毒滿地",
           "is_hidden": false
         },
         {
-          "name": "腐蚀",
+          "name": "腐蝕",
           "is_hidden": true
         }
       ],
       "height": "1.5m",
       "weight": "45.0kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "25（3.3%）",
       "egg_groups": [
-        "矿物群"
+        "礦物群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -107,18 +107,18 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "30 孵化周期（7710步）",
+      "egg_cycles": "30 孵化週期（7710步）",
       "shape": "Body01.png",
       "footprint": "FUnknown.png",
       "image": "0970-晶光花.png"
     },
     {
-      "name": "超级晶光花",
+      "name": "超級晶光花",
       "types": [
         "岩石",
         "毒"
       ],
-      "category": "矿石宝可梦",
+      "category": "礦石寶可夢",
       "abilities": [
         {
           "name": "未知",
@@ -127,12 +127,12 @@
       ],
       "height": "2.8m",
       "weight": "77.0kg",
-      "color": "蓝色",
+      "color": "藍色",
       "catch_rate": "25（3.3%）",
       "egg_groups": [
-        "矿物群"
+        "礦物群"
       ],
-      "experience_100": "1,059,860（较慢）",
+      "experience_100": "1,059,860（較慢）",
       "base_points": [
         {
           "stat": "hp",
@@ -165,10 +165,10 @@
         "male": 50,
         "female": 50
       },
-      "egg_cycles": "30 孵化周期（7710步）",
+      "egg_cycles": "30 孵化週期（7710步）",
       "shape": "Body01.png",
       "footprint": "FUnknown.png",
-      "image": "0970-晶光花-超级晶光花.png"
+      "image": "0970-晶光花-超級晶光花.png"
     }
   ],
   "stats": [
@@ -184,7 +184,7 @@
       }
     },
     {
-      "form": "超级进化",
+      "form": "超級進化",
       "data": {
         "hp": "83",
         "attack": "90",
@@ -208,11 +208,11 @@
           "damage": "0.5"
         },
         {
-          "type": "格斗",
+          "type": "格鬥",
           "damage": "1"
         },
         {
-          "type": "飞行",
+          "type": "飛行",
           "damage": "0.5"
         },
         {
@@ -228,15 +228,15 @@
           "damage": "1"
         },
         {
-          "type": "虫",
+          "type": "蟲",
           "damage": "0.5"
         },
         {
-          "type": "幽灵",
+          "type": "幽靈",
           "damage": "1"
         },
         {
-          "type": "钢",
+          "type": "鋼",
           "damage": "2"
         },
         {
@@ -252,7 +252,7 @@
           "damage": "1"
         },
         {
-          "type": "电",
+          "type": "電",
           "damage": "1"
         },
         {
@@ -264,11 +264,11 @@
           "damage": "1"
         },
         {
-          "type": "龙",
+          "type": "龍",
           "damage": "1"
         },
         {
-          "type": "恶",
+          "type": "惡",
           "damage": "1"
         },
         {
@@ -284,18 +284,18 @@
       "versions": [
         {
           "name": "朱",
-          "group": "宝可梦 朱／紫",
-          "text": "只要感应到危险，就会张开结晶的花瓣，从圆锥形的身体发射光束。"
+          "group": "寶可夢 朱／紫",
+          "text": "只要感應到危險，就會張開結晶的花瓣，從圓錐形的身體發射光束。"
         },
         {
           "name": "紫",
-          "group": "宝可梦 朱／紫",
-          "text": "最近发现它的毒之能量结晶化之后所形成的花瓣与太晶的宝石类似。"
+          "group": "寶可夢 朱／紫",
+          "text": "最近發現它的毒之能量結晶化之後所形成的花瓣與太晶的寶石類似。"
         },
         {
-          "name": "传说 Z-A",
-          "group": "宝可梦传说 Z-A",
-          "text": "绽放出大朵由毒成分构成的花。会与晶光芽们互相配合一起击退敌人。花瓣变大并分离开来。会一边保护本体并旋转，一边播撒有毒的碎片。（超级进化）"
+          "name": "傳說 Z-A",
+          "group": "寶可夢傳說 Z-A",
+          "text": "綻放出大朵由毒成分構成的花。會與晶光芽們互相配合一起擊退敵人。花瓣變大並分離開來。會一邊保護本體並旋轉，一邊播撒有毒的碎片。（超級進化）"
         }
       ]
     }
@@ -304,7 +304,7 @@
     [
       {
         "name": "晶光芽",
-        "stage": "未进化",
+        "stage": "未進化",
         "text": null,
         "image": "969Glimmet_Dream.png",
         "back_text": null,
@@ -313,8 +313,8 @@
       },
       {
         "name": "晶光花",
-        "stage": "1阶进化",
-        "text": "等级35以上",
+        "stage": "1階進化",
+        "text": "等級35以上",
         "image": "970Glimmora_Dream.png",
         "back_text": null,
         "from": "晶光芽",
@@ -325,7 +325,7 @@
   "mega_evolution": [
     {
       "name": "晶光花",
-      "form_name": "超级晶光花",
+      "form_name": "超級晶光花",
       "image": "970Glimmora-Mega.png"
     }
   ],
@@ -335,8 +335,8 @@
       "form": "一般",
       "data": [
         {
-          "level": "进化",
-          "name": "晶光转转",
+          "level": "進化",
+          "name": "晶光轉轉",
           "type": "毒",
           "category": "物理",
           "power": "30",
@@ -345,7 +345,7 @@
         },
         {
           "level": "—",
-          "name": "击落",
+          "name": "擊落",
           "type": "岩石",
           "category": "物理",
           "power": "50",
@@ -356,7 +356,7 @@
           "level": "—",
           "name": "尖刺防守",
           "type": "草",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -365,7 +365,7 @@
           "level": "—",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
@@ -381,16 +381,16 @@
         },
         {
           "level": "—",
-          "name": "变硬",
+          "name": "變硬",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
           "level": "7",
-          "name": "酸液炸弹",
+          "name": "酸液炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "40",
@@ -410,23 +410,23 @@
           "level": "15",
           "name": "岩石打磨",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "18",
-          "name": "隐形岩",
+          "name": "隱形巖",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "22",
-          "name": "毒液冲击",
+          "name": "毒液衝擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -437,7 +437,7 @@
           "level": "26",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
@@ -453,7 +453,7 @@
         },
         {
           "level": "33",
-          "name": "岩崩",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -462,7 +462,7 @@
         },
         {
           "level": "39",
-          "name": "力量宝石",
+          "name": "力量寶石",
           "type": "岩石",
           "category": "特殊",
           "power": "80",
@@ -473,14 +473,14 @@
           "level": "44",
           "name": "溶化",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
           "level": "50",
-          "name": "污泥波",
+          "name": "汙泥波",
           "type": "毒",
           "category": "特殊",
           "power": "95",
@@ -495,17 +495,17 @@
       "form": "一般",
       "data": [
         {
-          "machine": "招式学习器００７",
+          "machine": "招式學習器００７",
           "name": "守住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０１３",
-          "name": "酸液炸弹",
+          "machine": "招式學習器０１３",
+          "name": "酸液炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "40",
@@ -513,17 +513,17 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０１７",
-          "name": "奇异之光",
-          "type": "幽灵",
-          "category": "变化",
+          "machine": "招式學習器０１７",
+          "name": "奇異之光",
+          "type": "幽靈",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０２５",
-          "name": "硬撑",
+          "machine": "招式學習器０２５",
+          "name": "硬撐",
           "type": "一般",
           "category": "物理",
           "power": "70",
@@ -531,8 +531,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器０３５",
-          "name": "泥巴射击",
+          "machine": "招式學習器０３５",
+          "name": "泥巴射擊",
           "type": "地面",
           "category": "特殊",
           "power": "55",
@@ -540,8 +540,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０３６",
-          "name": "岩石封锁",
+          "machine": "招式學習器０３６",
+          "name": "岩石封鎖",
           "type": "岩石",
           "category": "物理",
           "power": "60",
@@ -549,8 +549,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器０４５",
-          "name": "毒液冲击",
+          "machine": "招式學習器０４５",
+          "name": "毒液衝擊",
           "type": "毒",
           "category": "特殊",
           "power": "65",
@@ -558,71 +558,71 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４７",
+          "machine": "招式學習器０４７",
           "name": "挺住",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０４９",
+          "machine": "招式學習器０４９",
           "name": "大晴天",
           "type": "火",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５０",
+          "machine": "招式學習器０５０",
           "name": "求雨",
           "type": "水",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０５１",
+          "machine": "招式學習器０５１",
           "name": "沙暴",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７０",
-          "name": "梦话",
+          "machine": "招式學習器０７０",
+          "name": "夢話",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７４",
+          "machine": "招式學習器０７４",
           "name": "反射壁",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０７５",
-          "name": "光墙",
+          "machine": "招式學習器０７５",
+          "name": "光牆",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "30"
         },
         {
-          "machine": "招式学习器０７６",
-          "name": "岩石爆击",
+          "machine": "招式學習器０７６",
+          "name": "岩石爆擊",
           "type": "岩石",
           "category": "物理",
           "power": "25",
@@ -630,8 +630,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０７９",
-          "name": "魔法闪耀",
+          "machine": "招式學習器０７９",
+          "name": "魔法閃耀",
           "type": "妖精",
           "category": "特殊",
           "power": "80",
@@ -639,17 +639,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０８５",
-          "name": "睡觉",
+          "machine": "招式學習器０８５",
+          "name": "睡覺",
           "type": "超能力",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "5"
         },
         {
-          "machine": "招式学习器０８６",
-          "name": "岩崩",
+          "machine": "招式學習器０８６",
+          "name": "巖崩",
           "type": "岩石",
           "category": "物理",
           "power": "75",
@@ -657,35 +657,35 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器０９０",
+          "machine": "招式學習器０９０",
           "name": "撒菱",
           "type": "地面",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９１",
+          "machine": "招式學習器０９１",
           "name": "毒菱",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器０９３",
-          "name": "加农光炮",
-          "type": "钢",
+          "machine": "招式學習器０９３",
+          "name": "加農光炮",
+          "type": "鋼",
           "category": "特殊",
           "power": "80",
           "accuracy": "100",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０１",
-          "name": "力量宝石",
+          "machine": "招式學習器１０１",
+          "name": "力量寶石",
           "type": "岩石",
           "category": "特殊",
           "power": "80",
@@ -693,8 +693,8 @@
           "pp": "20"
         },
         {
-          "machine": "招式学习器１０２",
-          "name": "垃圾射击",
+          "machine": "招式學習器１０２",
+          "name": "垃圾射擊",
           "type": "毒",
           "category": "物理",
           "power": "120",
@@ -702,34 +702,34 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１０３",
+          "machine": "招式學習器１０３",
           "name": "替身",
           "type": "一般",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１０４",
-          "name": "铁壁",
-          "type": "钢",
-          "category": "变化",
+          "machine": "招式學習器１０４",
+          "name": "鐵壁",
+          "type": "鋼",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "15"
         },
         {
-          "machine": "招式学习器１１６",
-          "name": "隐形岩",
+          "machine": "招式學習器１１６",
+          "name": "隱形巖",
           "type": "岩石",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "—",
           "pp": "20"
         },
         {
-          "machine": "招式学习器１１９",
+          "machine": "招式學習器１１９",
           "name": "能量球",
           "type": "草",
           "category": "特殊",
@@ -738,7 +738,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１３３",
+          "machine": "招式學習器１３３",
           "name": "大地之力",
           "type": "地面",
           "category": "特殊",
@@ -747,8 +747,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１４８",
-          "name": "污泥炸弹",
+          "machine": "招式學習器１４８",
+          "name": "汙泥炸彈",
           "type": "毒",
           "category": "特殊",
           "power": "90",
@@ -756,8 +756,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１５０",
-          "name": "尖石攻击",
+          "machine": "招式學習器１５０",
+          "name": "尖石攻擊",
           "type": "岩石",
           "category": "物理",
           "power": "100",
@@ -765,8 +765,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１５２",
-          "name": "终极冲击",
+          "machine": "招式學習器１５２",
+          "name": "終極衝擊",
           "type": "一般",
           "category": "物理",
           "power": "150",
@@ -774,8 +774,8 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６３",
-          "name": "破坏光线",
+          "machine": "招式學習器１６３",
+          "name": "破壞光線",
           "type": "一般",
           "category": "特殊",
           "power": "150",
@@ -783,7 +783,7 @@
           "pp": "5"
         },
         {
-          "machine": "招式学习器１６８",
+          "machine": "招式學習器１６８",
           "name": "日光束",
           "type": "草",
           "category": "特殊",
@@ -792,8 +792,8 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７１",
-          "name": "太晶爆发",
+          "machine": "招式學習器１７１",
+          "name": "太晶爆發",
           "type": "一般",
           "category": "特殊",
           "power": "80",
@@ -801,17 +801,17 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７５",
-          "name": "剧毒",
+          "machine": "招式學習器１７５",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
         },
         {
-          "machine": "招式学习器１７６",
-          "name": "流沙深渊",
+          "machine": "招式學習器１７６",
+          "name": "流沙深淵",
           "type": "地面",
           "category": "物理",
           "power": "35",
@@ -819,8 +819,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器１７９",
-          "name": "击落",
+          "machine": "招式學習器１７９",
+          "name": "擊落",
           "type": "岩石",
           "category": "物理",
           "power": "50",
@@ -828,8 +828,8 @@
           "pp": "15"
         },
         {
-          "machine": "招式学习器２１４",
-          "name": "污泥波",
+          "machine": "招式學習器２１４",
+          "name": "汙泥波",
           "type": "毒",
           "category": "特殊",
           "power": "95",
@@ -837,7 +837,7 @@
           "pp": "10"
         },
         {
-          "machine": "招式学习器２２０",
+          "machine": "招式學習器２２０",
           "name": "流星光束",
           "type": "岩石",
           "category": "特殊",
@@ -863,9 +863,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "剧毒",
+          "name": "劇毒",
           "type": "毒",
-          "category": "变化",
+          "category": "變化",
           "power": "—",
           "accuracy": "90",
           "pp": "10"
@@ -890,15 +890,15 @@
             },
             {
               "id": "0076",
-              "name": "隆隆岩"
+              "name": "隆隆巖"
             },
             {
               "id": "0076A",
-              "name": "隆隆岩"
+              "name": "隆隆巖"
             },
             {
               "id": "0934",
-              "name": "盐石巨灵"
+              "name": "鹽石巨靈"
             }
           ],
           "name": "大爆炸",
@@ -919,9 +919,9 @@
               "name": "模仿香草（道具）"
             }
           ],
-          "name": "临别礼物",
-          "type": "恶",
-          "category": "变化",
+          "name": "臨別禮物",
+          "type": "惡",
+          "category": "變化",
           "power": "—",
           "accuracy": "100",
           "pp": "10"
