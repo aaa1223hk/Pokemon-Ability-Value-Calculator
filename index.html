@@ -132,30 +132,67 @@
     }
     .calc-controls label { display: flex; align-items: center; gap: 0.4rem; }
     .calc-controls input[type="number"] {
-      width: 4.5rem; padding: 0.3rem 0.4rem; border: 1px solid var(--border);
+      width: 4.2rem; padding: 0.3rem 0.4rem; border: 1px solid var(--border);
       border-radius: 6px; font-size: 0.9rem;
     }
     .calc-controls select {
       padding: 0.3rem 0.5rem; border: 1px solid var(--border);
-      border-radius: 6px; font-size: 0.85rem; max-width: 220px;
+      border-radius: 6px; font-size: 0.85rem; max-width: 240px;
     }
-    .calc-results {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem;
+    .calc-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr auto;
+      gap: 0.75rem 1rem;
+      align-items: start;
     }
-    @media (min-width: 520px) {
-      .calc-results { grid-template-columns: repeat(6, 1fr); }
+    @media (max-width: 640px) {
+      .calc-grid { grid-template-columns: 1fr; }
+      .calc-col-result { order: -1; }
     }
-    .calc-stat {
-      text-align: center; padding: 0.5rem 0.3rem; background: #f1f5f9;
-      border-radius: 8px;
+    .calc-col {
+      display: flex; flex-direction: column; gap: 0.45rem;
     }
-    .calc-stat .label { font-size: 0.7rem; color: var(--muted); }
-    .calc-stat .value { font-size: 1.15rem; font-weight: 700; }
-    .calc-stat.boost { background: #ecfdf5; }
-    .calc-stat.boost .value { color: #059669; }
-    .calc-stat.nerf { background: #fef2f2; }
-    .calc-stat.nerf .value { color: #dc2626; }
-    .calc-note { font-size: 0.75rem; color: var(--muted); margin-top: 0.6rem; }
+    .calc-col-title {
+      font-size: 0.75rem; font-weight: 600; color: var(--muted);
+      text-align: center; margin-bottom: 0.2rem;
+    }
+    .calc-row {
+      display: flex; align-items: center; gap: 0.5rem;
+      background: #f8fafc; border-radius: 10px; padding: 0.35rem 0.5rem;
+    }
+    .calc-row .stat-name {
+      flex: 0 0 2.6rem; font-size: 0.8rem; font-weight: 600; text-align: center;
+    }
+    .calc-row input[type="range"] {
+      flex: 1; min-width: 0; height: 6px; accent-color: var(--accent);
+    }
+    .calc-row input[type="number"] {
+      width: 3.2rem; padding: 0.2rem 0.25rem; border: 1px solid var(--border);
+      border-radius: 6px; font-size: 0.85rem; text-align: center;
+    }
+    .calc-col-result {
+      min-width: 110px;
+      background: #f1f5f9; border-radius: 12px; padding: 0.5rem;
+      border: 1px solid var(--border);
+    }
+    .calc-result-item {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 0.35rem 0.5rem; border-radius: 8px; margin-bottom: 0.3rem;
+      background: #fff;
+    }
+    .calc-result-item:last-child { margin-bottom: 0; }
+    .calc-result-item .r-label { font-size: 0.8rem; color: var(--muted); }
+    .calc-result-item .r-value { font-size: 1.05rem; font-weight: 700; }
+    .calc-result-item.boost { background: #ecfdf5; }
+    .calc-result-item.boost .r-value { color: #059669; }
+    .calc-result-item.nerf { background: #fef2f2; }
+    .calc-result-item.nerf .r-value { color: #dc2626; }
+    .ev-total {
+      font-size: 0.8rem; text-align: center; margin-top: 0.4rem;
+      color: var(--muted);
+    }
+    .ev-total.over { color: #dc2626; font-weight: 600; }
+    .calc-note { font-size: 0.75rem; color: var(--muted); margin-top: 0.75rem; }
   </style>
 </head>
 <body>
@@ -262,6 +299,7 @@ const searchInput = document.getElementById('pokemon-search');
     });
 
     
+    
     // ===== 性格與能力值計算 =====
     const NATURES = [
       { name: "勤奮", boost: null, nerf: null },
@@ -299,8 +337,13 @@ const searchInput = document.getElementById('pokemon-search');
       return `${n.name} (+${STAT_LABELS[n.boost]} -${STAT_LABELS[n.nerf]})`;
     }
 
+    function buildNatureOptions() {
+      return NATURES.map((n, i) =>
+        `<option value="${i}">${natureOptionText(n)}</option>`
+      ).join("");
+    }
+
     function calcStat(base, iv, ev, level, isHP, natureMod) {
-      // 公式對應圖片
       const term = Math.floor((base * 2 + iv + Math.floor(ev / 4)) * level / 100);
       if (isHP) return term + level + 10;
       return Math.floor((term + 5) * natureMod);
@@ -313,21 +356,102 @@ const searchInput = document.getElementById('pokemon-search');
       return 1.0;
     }
 
+    function getIv(key) {
+      const el = document.getElementById("iv-" + key);
+      if (!el) return 31;
+      let v = parseInt(el.value, 10);
+      if (isNaN(v)) v = 31;
+      return Math.max(0, Math.min(31, v));
+    }
+
+    function getEv(key) {
+      const el = document.getElementById("ev-" + key);
+      if (!el) return 0;
+      let v = parseInt(el.value, 10);
+      if (isNaN(v)) v = 0;
+      return Math.max(0, Math.min(252, v));
+    }
+
+    function updateEvTotalDisplay() {
+      const total = STAT_KEYS.reduce((s, k) => s + getEv(k), 0);
+      const el = document.getElementById("ev-total");
+      if (!el) return;
+      el.textContent = `努力值合計：${total} / 510`;
+      el.classList.toggle("over", total > 510);
+    }
+
+    function onIvChange(key) {
+      const num = document.getElementById("iv-" + key);
+      const range = document.getElementById("iv-range-" + key);
+      if (!num) return;
+      let v = parseInt(num.value, 10);
+      if (isNaN(v)) v = 31;
+      v = Math.max(0, Math.min(31, v));
+      num.value = v;
+      if (range) range.value = v;
+      updateCalcResults();
+    }
+
+    function onIvRange(key) {
+      const num = document.getElementById("iv-" + key);
+      const range = document.getElementById("iv-range-" + key);
+      if (!range || !num) return;
+      num.value = range.value;
+      updateCalcResults();
+    }
+
+    function onEvChange(key) {
+      const num = document.getElementById("ev-" + key);
+      const range = document.getElementById("ev-range-" + key);
+      if (!num) return;
+      let v = parseInt(num.value, 10);
+      if (isNaN(v)) v = 0;
+      v = Math.max(0, Math.min(252, v));
+
+      // 總和限制 510
+      const others = STAT_KEYS.filter(k => k !== key).reduce((s, k) => s + getEv(k), 0);
+      if (others + v > 510) {
+        v = Math.max(0, 510 - others);
+      }
+      num.value = v;
+      if (range) range.value = v;
+      updateEvTotalDisplay();
+      updateCalcResults();
+    }
+
+    function onEvRange(key) {
+      const num = document.getElementById("ev-" + key);
+      const range = document.getElementById("ev-range-" + key);
+      if (!range || !num) return;
+      let v = parseInt(range.value, 10);
+      const others = STAT_KEYS.filter(k => k !== key).reduce((s, k) => s + getEv(k), 0);
+      if (others + v > 510) {
+        v = Math.max(0, 510 - others);
+        range.value = v;
+      }
+      num.value = v;
+      updateEvTotalDisplay();
+      updateCalcResults();
+    }
+
     function updateCalcResults() {
       if (!currentData || !currentData.stats) return;
       const baseMap = (currentData.stats[0] && currentData.stats[0].data) || {};
-      const level = Math.max(1, Math.min(100, parseInt(document.getElementById("calc-level")?.value, 10) || 50));
+      const levelEl = document.getElementById("calc-level");
+      const level = Math.max(1, Math.min(100, parseInt(levelEl?.value, 10) || 50));
       const natureIdx = parseInt(document.getElementById("calc-nature")?.value, 10) || 0;
       const nature = NATURES[natureIdx];
-      const iv = 31; // 預設滿個體
-      const ev = 0;  // 預設無努力值
-      const isShedinja = (currentData.name_zh || "").includes("脫殼忍者") || (currentData.pokedex_id === "0292");
+      const isShedinja = (currentData.name_zh || "").includes("脫殼忍者") ||
+                         (currentData.pokedex_id === "0292") ||
+                         (currentData.name_en || "").toLowerCase() === "shedinja";
 
       const area = document.getElementById("calc-results");
       if (!area) return;
 
       area.innerHTML = STAT_KEYS.map(key => {
         const base = parseInt(baseMap[key], 10) || 0;
+        const iv = getIv(key);
+        const ev = getEv(key);
         let val;
         if (key === "hp" && isShedinja) {
           val = 1;
@@ -335,17 +459,30 @@ const searchInput = document.getElementById('pokemon-search');
           const mod = key === "hp" ? 1.0 : getNatureMod(nature, key);
           val = calcStat(base, iv, ev, level, key === "hp", mod);
         }
-        let cls = "calc-stat";
+        let cls = "calc-result-item";
         if (key !== "hp" && nature.boost === key) cls += " boost";
         if (key !== "hp" && nature.nerf === key) cls += " nerf";
-        return `<div class="${cls}"><div class="label">${STAT_LABELS[key]}</div><div class="value">${val}</div></div>`;
+        return `<div class="${cls}"><span class="r-label">${STAT_LABELS[key]}</span><span class="r-value">${val}</span></div>`;
       }).join("");
+      updateEvTotalDisplay();
     }
 
-    function buildNatureOptions() {
-      return NATURES.map((n, i) =>
-        `<option value="${i}">${natureOptionText(n)}</option>`
-      ).join("");
+    function buildIvEvRows() {
+      return STAT_KEYS.map(key => {
+        const label = STAT_LABELS[key];
+        return {
+          iv: `<div class="calc-row">
+            <span class="stat-name">${label}</span>
+            <input type="range" id="iv-range-${key}" min="0" max="31" value="31" oninput="onIvRange('${key}')">
+            <input type="number" id="iv-${key}" min="0" max="31" value="31" onchange="onIvChange('${key}')" oninput="onIvChange('${key}')">
+          </div>`,
+          ev: `<div class="calc-row">
+            <span class="stat-name">${label}</span>
+            <input type="range" id="ev-range-${key}" min="0" max="252" value="0" oninput="onEvRange('${key}')">
+            <input type="number" id="ev-${key}" min="0" max="252" value="0" onchange="onEvChange('${key}')" oninput="onEvChange('${key}')">
+          </div>`
+        };
+      });
     }
 
 function typeClass(t) { return 'type-' + t; }
@@ -452,8 +589,22 @@ function typeClass(t) { return 'type-' + t; }
                 </select>
               </label>
             </div>
-            <div class="calc-results" id="calc-results"></div>
-            <div class="calc-note">預設：個體值 31、努力值 0。脫殼忍者 HP 固定為 1。</div>
+            <div class="calc-grid">
+              <div class="calc-col">
+                <div class="calc-col-title">個體值 (0–31)</div>
+                ${buildIvEvRows().map(r => r.iv).join("")}
+              </div>
+              <div class="calc-col">
+                <div class="calc-col-title">努力值 (0–252)</div>
+                ${buildIvEvRows().map(r => r.ev).join("")}
+                <div class="ev-total" id="ev-total">努力值合計：0 / 510</div>
+              </div>
+              <div class="calc-col calc-col-result">
+                <div class="calc-col-title">結果</div>
+                <div id="calc-results"></div>
+              </div>
+            </div>
+            <div class="calc-note">努力值總和上限 510。脫殼忍者 HP 固定為 1。</div>
           </div>
           <div class="card">
             <div class="section-title">招式表</div>
