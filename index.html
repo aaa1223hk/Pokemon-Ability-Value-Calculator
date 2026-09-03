@@ -1103,20 +1103,75 @@ function typeClass(t) { return 'type-' + t; }
       return 0;
     }
 
-    function getMovesSource(tab) {
+    // 將升級習得、招式機、遺傳招式合併成同一張表。
+    // 同一招式只保留一列，學習方式依序合併到「等級」欄。
+    function getUnifiedMovesList() {
       if (!currentData) return [];
-      if (tab === 'learnable') return currentData.learnable_moves || [];
-      if (tab === 'machine') return currentData.machine_moves || [];
-      return currentData.egg_moves || [];
+
+      const sources = [
+        { key: 'learnable_moves', label: 'level' },
+        { key: 'machine_moves', label: 'machine' },
+        { key: 'egg_moves', label: 'egg' }
+      ];
+
+      const merged = new Map();
+
+      for (const source of sources) {
+        const arr = currentData[source.key] || [];
+        const formIdx = findMovesFormIndex(arr, currentFormLabel);
+        const list = (arr[formIdx] && arr[formIdx].data)
+          ? arr[formIdx].data
+          : (Array.isArray(arr) ? arr : []);
+
+        for (const move of list) {
+          const name = move && move.name;
+          if (!name) continue;
+
+          if (!merged.has(name)) {
+            merged.set(name, {
+              ...move,
+              _learnMethods: []
+            });
+          }
+
+          const item = merged.get(name);
+
+          if (source.label === 'level') {
+            const level = move.level ?? '—';
+            if (level !== '—' && level !== '' && level !== null && level !== undefined) {
+              item._learnMethods.push(String(level));
+            }
+          } else if (source.label === 'machine') {
+            item._learnMethods.push('招式機');
+          } else if (source.label === 'egg') {
+            item._learnMethods.push('遺傳');
+          }
+
+          // 優先保留已有完整的招式資料；缺少時再用其他來源補上。
+          for (const key of ['type', 'category', 'power', 'accuracy', 'pp']) {
+            if ((item[key] === undefined || item[key] === null || item[key] === '' || item[key] === '—')
+                && move[key] !== undefined && move[key] !== null && move[key] !== '') {
+              item[key] = move[key];
+            }
+          }
+        }
+      }
+
+      for (const item of merged.values()) {
+        // 去除同一來源重複資料，並依「等級 → 招式機 → 遺傳」順序顯示。
+        item._learnMethods = [...new Set(item._learnMethods)];
+        // 沒有升級／招式機／遺傳資料的預設招式，等級欄顯示「--」。
+        item.level = item._learnMethods.length ? item._learnMethods.join('/') : '--';
+      }
+
+      return [...merged.values()];
     }
 
     function refreshMovesTable() {
       const area = document.getElementById('moves-area');
       if (!area || !currentData) return;
-      const src = getMovesSource(currentMovesTab);
-      const formIdx = findMovesFormIndex(src, currentFormLabel);
-      currentMovesSort = { key: null, dir: 1 }; // 換形態時重置排序
-      area.innerHTML = renderMovesTable(src, formIdx);
+      currentMovesSort = { key: null, dir: 1 };
+      area.innerHTML = renderMovesTable(getUnifiedMovesList());
     }
 
     function normalizeFormIdentity(name, data) {
@@ -1269,9 +1324,10 @@ function typeClass(t) { return 'type-' + t; }
     }
 
 
-    function renderMovesTable(moves, formIndex = 0, sortKey = null, sortDir = 1) {
+    function renderMovesTable(moves, sortKey = null, sortDir = 1) {
       if (!moves || !moves.length) return '<p class="placeholder">無招式資料</p>';
-      let list = (moves[formIndex] && moves[formIndex].data) ? moves[formIndex].data : (Array.isArray(moves) ? moves : []);
+
+      let list = Array.isArray(moves) ? moves : [];
       if (!list.length) return '<p class="placeholder">無招式</p>';
 
       // 保存原始列表供排序
@@ -1313,19 +1369,9 @@ function typeClass(t) { return 'type-' + t; }
       }
       const area = document.getElementById('moves-area');
       if (!area || !currentData) return;
-      const src = getMovesSource(currentMovesTab);
-      const formIdx = findMovesFormIndex(src, currentFormLabel);
-      area.innerHTML = renderMovesTable(src, formIdx, currentMovesSort.key, currentMovesSort.dir);
+      area.innerHTML = renderMovesTable(getUnifiedMovesList(), currentMovesSort.key, currentMovesSort.dir);
     }
 
-
-    function switchTab(tab) {
-      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-      document.querySelector(`[data-tab="${tab}"]`)?.classList.add('active');
-      currentMovesTab = tab;
-      currentMovesSort = { key: null, dir: 1 }; // 換 tab 重置排序
-      refreshMovesTable();
-    }
 
     async function loadPokemon(index) {
       if (!index) {
@@ -1405,12 +1451,7 @@ function typeClass(t) { return 'type-' + t; }
                     <div id="calc-container"></div>
 <div class="card">
             <div class="section-title">招式表</div>
-            <div class="moves-tabs">
-              <button class="tab-btn active" data-tab="learnable" onclick="switchTab('learnable')">升級習得</button>
-              <button class="tab-btn" data-tab="machine" onclick="switchTab('machine')">招式機</button>
-              <button class="tab-btn" data-tab="egg" onclick="switchTab('egg')">遺傳招式</button>
-            </div>
-            <div id="moves-area">${renderMovesTable(data.learnable_moves)}</div>
+            <div id="moves-area">${renderMovesTable(getUnifiedMovesList())}</div>
           </div>
         `;
         updateBaseStatTotal(currentBaseStats);
