@@ -1,0 +1,3231 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>寶可夢數值計算器</title>
+  <style>
+    :root {
+      --bg: #f7f9fc;
+      --card: #ffffff;
+      --text: #1a1a2e;
+      --muted: #5c6b7a;
+      --accent: #3b82f6;
+      --border: #e2e8f0;
+      --weak-2: #ef4444;
+      --weak-4: #b91c1c;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+      padding: 1rem;
+    }
+    .container { max-width: 900px; margin: 0 auto; }
+    h1 { text-align: center; font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700; }
+    .main-info {
+      display: flex;
+      gap: 1.25rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .info-left {
+      flex: 1 1 280px;
+      min-width: 0;
+    }
+    .info-right {
+      flex: 0 0 240px;
+      text-align: center;
+    }
+    @media (max-width: 640px) {
+      .info-right { flex: 1 1 100%; order: -1; }
+      .info-left { flex: 1 1 100%; }
+    }
+    .search-wrap { position: relative; margin-bottom: 1.25rem; }
+    .search-input {
+      width: 100%; padding: 0.75rem 1rem; font-size: 1rem;
+      border: 1px solid var(--border); border-radius: 10px;
+      background: var(--card); color: var(--text);
+    }
+    .search-input:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .dropdown-list {
+      display: none; position: absolute; left: 0; right: 0; top: calc(100% + 4px);
+      max-height: 360px; overflow-y: auto; background: var(--card);
+      border: 1px solid var(--border); border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12); z-index: 50;
+    }
+    .dropdown-list.open { display: block; }
+    .dropdown-item { padding: 0.55rem 1rem; cursor: pointer; font-size: 0.95rem; }
+    .dropdown-item:hover, .dropdown-item.active { background: #eff6ff; color: var(--accent); }
+    .dropdown-empty { padding: 0.75rem 1rem; color: var(--muted); font-size: 0.9rem; }
+    .card {
+      background: var(--card); border-radius: 14px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06); padding: 1.25rem; margin-bottom: 1rem;
+    }
+    .image-area {
+      text-align: center; min-height: 160px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .image-area img { max-width: 220px; max-height: 220px; object-fit: contain; }
+
+    .form-btns {
+      display: flex; flex-wrap: wrap; gap: 0.35rem; justify-content: center;
+      margin-top: 0.75rem;
+    }
+    .form-btn {
+      padding: 0.3rem 0.7rem; border: 1px solid var(--border); border-radius: 8px;
+      background: #fff; cursor: pointer; font-size: 0.8rem; color: var(--text);
+    }
+    .form-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .form-btn.active {
+      background: var(--accent); color: #fff; border-color: var(--accent);
+    }
+    .shiny-toggle {
+      margin-top: 0.5rem; display: flex; justify-content: center;
+    }
+    .shiny-btn {
+      padding: 0.3rem 0.9rem; border: 1px solid var(--border); border-radius: 8px;
+      background: #fff; cursor: pointer; font-size: 0.8rem; color: var(--text);
+    }
+    .shiny-btn:hover { border-color: #a855f7; color: #7e22ce; }
+    .shiny-btn.active {
+      background: linear-gradient(135deg, #c084fc, #a855f7);
+      color: #fff; border-color: #9333ea;
+    }
+    .ability-badge {
+      display: inline-block; padding: 0.25rem 0.7rem; border-radius: 8px;
+      font-size: 0.85rem; font-weight: 600; margin: 0.15rem 0.25rem 0.15rem 0;
+      background: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd;
+    }
+    .ability-badge.ability-hidden {
+      background: #f3e8ff; color: #7e22ce; border-color: #e9d5ff;
+    }
+    #abilities-area { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+    .ability-badge { cursor: help; position: relative; }
+    .ability-tooltip {
+      position: fixed; z-index: 9999; max-width: 320px;
+      background: #1e293b; color: #f1f5f9; padding: 0.75rem 1rem;
+      border-radius: 10px; font-size: 0.85rem; line-height: 1.5;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25); pointer-events: none;
+      white-space: pre-wrap; display: none;
+    }
+    .ability-tooltip .tip-name {
+      font-weight: 700; margin-bottom: 0.35rem; color: #93c5fd;
+    }
+    .ability-tooltip .tip-loading { color: #94a3b8; font-style: italic; }
+
+    .info-right .image-area { min-height: 200px; }
+    .placeholder { color: var(--muted); font-size: 0.95rem; }
+    .section-title {
+      font-size: 0.85rem; font-weight: 600; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.6rem;
+    }
+    .types { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
+    .type-badge {
+      padding: 0.25rem 0.7rem; border-radius: 999px; font-size: 0.85rem;
+      font-weight: 600; color: #fff; background: #64748b;
+    }
+    .type-一般 { background: #a8a878; }
+    .type-火 { background: #f08030; }
+    .type-水 { background: #6890f0; }
+    .type-草 { background: #78c850; }
+    .type-電, .type-电 { background: #f8d030; color: #333; }
+    .type-冰 { background: #98d8d8; color: #333; }
+    .type-格鬥, .type-格斗 { background: #c03028; }
+    .type-毒 { background: #a040a0; }
+    .type-地面 { background: #e0c068; color: #333; }
+    .type-飛行, .type-飞行 { background: #a890f0; }
+    .type-超能力 { background: #f85888; }
+    .type-蟲, .type-虫 { background: #a8b820; }
+    .type-岩石 { background: #b8a038; }
+    .type-幽靈, .type-幽灵 { background: #705898; }
+    .type-龍, .type-龙 { background: #7038f8; }
+    .type-惡 { background: #705848; }
+    .type-鋼, .type-钢 { background: #b8b8d0; color: #333; }
+    .type-妖精 { background: #ee99ac; color: #333; }
+    .weakness-grid { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .weak-item {
+      font-size: 0.8rem; padding: 0.2rem 0.5rem; border-radius: 6px;
+      background: #fef2f2; color: var(--weak-2); border: 1px solid #fecaca;
+    }
+    .weak-item.x4 { background: #fee2e2; color: var(--weak-4); font-weight: 700; border-color: #fca5a5; }
+    .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem; }
+    @media (min-width: 480px) { .stats-grid { grid-template-columns: repeat(6, 1fr); } }
+    .stat-box { text-align: center; padding: 0.5rem; background: #f1f5f9; border-radius: 8px; }
+    .stat-label { font-size: 0.7rem; color: var(--muted); margin-bottom: 0.15rem; }
+    .stat-value { font-size: 1.1rem; font-weight: 700; }
+    .moves-tabs { display: flex; gap: 0.4rem; margin-bottom: 0.75rem; flex-wrap: wrap; }
+    .tab-btn {
+      padding: 0.35rem 0.8rem; border: 1px solid var(--border); border-radius: 8px;
+      background: #fff; cursor: pointer; font-size: 0.85rem;
+    }
+    .tab-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .moves-table-wrap { overflow-x: auto; max-height: 360px; overflow-y: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    th, td { padding: 0.4rem 0.5rem; text-align: left; border-bottom: 1px solid var(--border); }
+    th { position: sticky; top: 0; background: #f8fafc; font-weight: 600; color: var(--muted); font-size: 0.75rem; }
+    .loading { text-align: center; padding: 2rem; color: var(--muted); }
+    .error { color: #dc2626; text-align: center; padding: 1rem; }
+    .name-line { text-align: center; margin-bottom: 0.5rem; }
+    .name-zh { font-size: 1.35rem; font-weight: 700; }
+    .name-sub { font-size: 0.85rem; color: var(--muted); }
+    .note { font-size: 0.8rem; color: var(--muted); text-align: center; margin-top: 0.5rem; }
+    .calc-controls {
+      display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; align-items: center;
+      margin-bottom: 1rem; font-size: 0.9rem;
+    }
+    .calc-controls label { display: flex; align-items: center; gap: 0.4rem; }
+    .calc-controls input[type="number"] {
+      width: 4.2rem; padding: 0.3rem 0.4rem; border: 1px solid var(--border);
+      border-radius: 6px; font-size: 0.9rem;
+    }
+    .calc-controls select {
+      padding: 0.3rem 0.5rem; border: 1px solid var(--border);
+      border-radius: 6px; font-size: 0.85rem; max-width: 240px;
+    }
+    .calc-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr auto;
+      gap: 0.75rem 1rem;
+      align-items: start;
+    }
+    @media (max-width: 640px) {
+      .calc-grid { grid-template-columns: 1fr; }
+      .calc-col-result { order: -1; }
+    }
+    .calc-col {
+      display: flex; flex-direction: column; gap: 0.45rem;
+    }
+    .calc-col-title {
+      font-size: 0.75rem; font-weight: 600; color: var(--muted);
+      text-align: center; margin-bottom: 0.2rem;
+    }
+    .calc-row {
+      display: flex; align-items: center; gap: 0.5rem;
+      background: #f8fafc; border-radius: 10px; padding: 0.35rem 0.5rem;
+    }
+    .calc-row .stat-name {
+      flex: 0 0 2.6rem; font-size: 0.8rem; font-weight: 600; text-align: center;
+    }
+    .calc-row input[type="range"] {
+      flex: 1; min-width: 0; height: 6px; accent-color: var(--accent);
+    }
+    .calc-row input[type="number"] {
+      width: 3.2rem; padding: 0.2rem 0.25rem; border: 1px solid var(--border);
+      border-radius: 6px; font-size: 0.85rem; text-align: center;
+    }
+    .calc-col-result {
+      min-width: 110px;
+      background: #f1f5f9; border-radius: 12px; padding: 0.5rem;
+      border: 1px solid var(--border);
+    }
+    .calc-result-item {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 0.35rem 0.5rem; border-radius: 8px; margin-bottom: 0.3rem;
+      background: #fff;
+    }
+    .calc-result-item:last-child { margin-bottom: 0; }
+    .calc-result-item .r-label { font-size: 0.8rem; color: var(--muted); }
+    .calc-result-item .r-value { font-size: 1.05rem; font-weight: 700; }
+    .calc-result-item.boost { background: #ecfdf5; }
+    .calc-result-item.boost .r-value { color: #059669; }
+    .calc-result-item.nerf { background: #fef2f2; }
+    .calc-result-item.nerf .r-value { color: #dc2626; }
+    .ev-total {
+      font-size: 0.8rem; text-align: center; margin-top: 0.4rem;
+      color: var(--muted);
+    }
+    .ev-total.over { color: #dc2626; font-weight: 600; }
+    .calc-note { font-size: 0.75rem; color: var(--muted); margin-top: 0.75rem; }
+    .calc-header {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-bottom: 0.75rem;
+    }
+    .calc-header .section-title { margin-bottom: 0; }
+    .calc-actions { display: flex; gap: 0.4rem; }
+    .calc-btn {
+      padding: 0.3rem 0.7rem; border: 1px solid var(--border); border-radius: 8px;
+      background: #fff; cursor: pointer; font-size: 0.85rem; line-height: 1.2;
+    }
+    .calc-btn:hover { background: #f1f5f9; }
+    .calc-btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .calc-btn.primary:hover { filter: brightness(1.05); }
+    .calc-btn.danger { color: #dc2626; }
+    #calc-container { display: flex; flex-direction: column; gap: 1rem; }
+    .calc-card-extra { border: 1px dashed #cbd5e1; }
+    th.sortable { cursor: pointer; user-select: none; }
+    th.sortable:hover { color: var(--accent); }
+    th.sortable .sort-ind { font-size: 0.7em; opacity: 0.6; margin-left: 2px; }
+
+    .base-stat-total {
+      margin-left: 0.5rem;
+      font-size: 0.8em;
+      font-weight: 500;
+      color: #64748b;
+    }
+    /* 傷害計算：獨立拉寬並把雙方欄位固定對齊，避免滑桿、數值與標籤互相擠壓 */
+    .damage-card { width: min(1200px, calc(100vw - 2rem)); margin-left: 50%; transform: translateX(-50%); }
+    .damage-card .section-title { margin-bottom: 1rem; }
+    .damage-controls { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.8rem 1.5rem; align-items: center; margin-bottom: 1.15rem; font-size: 0.9rem; }
+    .damage-controls label { display: flex; align-items: center; gap: 0.45rem; }
+    .damage-controls select, .damage-controls input[type="number"] { padding: 0.42rem 0.6rem; border: 1px solid var(--border); border-radius: 8px; font-size: 0.88rem; background: #fff; }
+    .damage-controls select { width: 260px; max-width: 70vw; }
+    .damage-controls input[type="number"] { width: 4.2rem; text-align: center; }
+    .damage-sides { display: grid; grid-template-columns: minmax(0, 1fr) 72px minmax(0, 1fr); gap: 1rem; align-items: stretch; }
+    .damage-side { background: #f8fafc; border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.05rem 0.9rem; min-width: 0; }
+    .damage-copy-btn {
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--text);
+      border-radius: 8px;
+      padding: 0.38rem 0.7rem;
+      font-size: 0.84rem;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .damage-copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    .damage-side-title { text-align: center; font-weight: 800; color: var(--text); margin-bottom: 0.6rem; font-size: 1.08rem; }
+    .damage-side-head { text-align: center; margin-bottom: 0.9rem; }
+    .damage-level-nature { display:flex; justify-content:center; align-items:center; gap:0.7rem; flex-wrap:wrap; margin:0.75rem 0 1rem; }
+    .damage-level-nature label { display:flex; align-items:center; gap:0.4rem; font-size:0.9rem; font-weight:600; }
+    .damage-level-nature input, .damage-level-nature select { padding:0.42rem 0.55rem; border:1px solid var(--border); border-radius:7px; background:#fff; font-size:0.9rem; }
+    .damage-level-nature input { width:78px; }
+    .damage-side-image { width: 175px; height: 175px; object-fit: contain; display: block; margin: 0 auto 0.25rem; }
+    .damage-side-name { text-align: center; font-size: 1.12rem; font-weight: 800; margin-bottom: 0.15rem; }
+    .damage-side-sub { text-align: center; font-size: 0.84rem; color: var(--muted); min-height: 1.25em; }
+    .damage-form-btns { display: flex; flex-wrap: wrap; gap: 0.35rem; justify-content: center; margin-top: 0.55rem; }
+    .damage-form-btns .form-btn { padding: 0.3rem 0.7rem; font-size: 0.8rem; }
+    .damage-adjust-grid { display: grid; grid-template-columns: 2.9rem minmax(65px, 1fr) 3.3rem minmax(65px, 1fr) 3.3rem 4.2rem 4.7rem; gap: 0.55rem 0.55rem; align-items: center; }
+    .damage-adjust-title { font-size: 0.76rem; font-weight: 700; color: var(--muted); text-align: center; white-space: nowrap; }
+    .damage-adjust-label { font-size: 0.82rem; font-weight: 700; text-align: left; white-space: nowrap; }
+    .damage-adjust-grid input[type="range"] { width: 100%; min-width: 0; height: 6px; accent-color: var(--accent); margin: 0; cursor: grab; touch-action: none; user-select: none; }
+    .damage-adjust-grid input[type="range"]:active { cursor: grabbing; }
+    .damage-adjust-grid input[type="number"] { width: 100%; min-width: 0; box-sizing: border-box; padding: 0.36rem 0.25rem; border: 1px solid var(--border); border-radius: 8px; font-size: 0.82rem; text-align: center; background: #fff; }
+    .damage-stat-current { display: inline-flex; justify-content: center; align-items: center; min-width: 0; width: 100%; padding: 0.36rem 0.35rem; border-radius: 8px; background: #fff; border: 1px solid var(--border); text-align: center; font-size: 0.84rem; font-weight: 800; }
+    .damage-stat-stage { width: 100%; min-width: 0; box-sizing: border-box; padding: 0.36rem 0.2rem; border: 1px solid var(--border); border-radius: 8px; background:#fff; font-size:0.78rem; text-align:center; }
+    .damage-ev-total { margin-top: 0.8rem; text-align: right; padding-right: 0.1rem; font-size: 0.78rem; color: var(--muted); }
+    .damage-ev-total.over { color: #dc2626; font-weight: 700; }
+    .damage-current-hp { display:flex; flex-direction:column; gap:0.4rem; margin-top:0.55rem; }
+    .damage-current-hp-slider-row { display:flex; align-items:center; gap:0.6rem; }
+    .damage-current-hp-slider-row input[type="range"] { flex:1; min-width:0; }
+    .damage-current-hp-number { width:4.5rem; padding:0.32rem 0.4rem; border:1px solid var(--border); border-radius:6px; text-align:center; background:#fff; box-sizing:border-box; }
+    .damage-current-hp { margin-top: 0.75rem; padding: 0.55rem 0.7rem; border: 1px solid var(--border); border-radius: 9px; background: #fff; }
+    .damage-current-hp-head { display:flex; justify-content:space-between; align-items:center; gap:0.6rem; font-size:0.8rem; font-weight:700; margin-bottom:0.35rem; }
+    .damage-current-hp-value { font-size:0.9rem; }
+    .damage-current-hp input[type=range] { width:100%; margin:0; accent-color:var(--accent); cursor:grab; touch-action:none; }
+    .damage-current-hp input[type=range]:active { cursor:grabbing; }
+    .damage-swap { display: flex; justify-content: center; align-items: center; }
+    .damage-swap button { width: 58px; height: 58px; border: 1px solid var(--border); border-radius: 50%; background: #fff; color: var(--text); cursor: pointer; font-size: 1.65rem; line-height: 1; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    .damage-swap button:hover { border-color: var(--accent); color: var(--accent); }
+    .damage-move-controls { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 0.7rem; margin-top: 1rem; }
+    .damage-move-controls label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.88rem; }
+    .damage-move-controls select { max-width: 360px; padding: 0.35rem 0.5rem; border: 1px solid var(--border); border-radius: 6px; background: #fff; }
+    .damage-move-controls input[type="number"] { width: 4.5rem; padding: 0.35rem 0.45rem; border: 1px solid var(--border); border-radius: 6px; text-align: center; }
+    .damage-bonus-wrap { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 1.2rem; margin-top: 0.85rem; }
+    .damage-crit-inline, .damage-other-bonus { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.88rem; }
+    .damage-other-bonus input[type="number"] { width: 4.8rem; padding: 0.35rem 0.45rem; border: 1px solid var(--border); border-radius: 6px; text-align: center; background: #fff; }
+    .damage-calc-wrap { display: flex; justify-content: center; margin-top: 0.85rem; }
+    .damage-calc-btn { border: 1px solid var(--border); border-radius: 8px; background: #fff; color: var(--text); cursor: pointer; padding: 0.5rem 2.4rem; font-size: 0.9rem; }
+    .damage-calc-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .damage-result { margin-top: 1rem; text-align: center; background: #f1f5f9; border: 1px solid var(--border); border-radius: 12px; padding: 0.8rem; }
+    .damage-result-label { color: var(--muted); font-size: 0.8rem; }
+    .damage-result-value { font-size: 1.55rem; font-weight: 800; margin-top: 0.15rem; }
+    .damage-result-detail { font-size: 0.78rem; color: var(--muted); margin-top: 0.35rem; }
+    .damage-hp-bar-wrap { margin-top: 1.15rem; }
+    .damage-hp-bar-labels { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem; padding: 0 0.1rem; font-size: 0.9rem; font-weight: 700; color: var(--text); }
+    .damage-hp-bar { position: relative; width: 100%; height: 28px; border: 1px solid #111827; border-radius: 9px; background: #fff; overflow: visible; box-sizing: border-box; }
+    .damage-hp-bar::before { content: ""; position: absolute; inset: 0; border-radius: 8px; overflow: hidden; pointer-events: none; }
+    .damage-hp-range { position: absolute; top: 0; bottom: 0; }
+    .damage-hp-range-max { background: #f5b7b7; }
+    .damage-hp-range-min { background: #b9efbf; }
+    .damage-guaranteed-hits { position:absolute; top:-1.55rem; transform:translateX(50%); width:32px; height:32px; display:flex; align-items:center; justify-content:center; font-size:0.82rem; line-height:1; font-weight:800; white-space:nowrap; color:var(--text); pointer-events:none; z-index:6; }
+    .damage-guaranteed-hits::before { content:""; position:absolute; width:30px; height:30px; border:2px solid currentColor; border-radius:50%; background:var(--card, #fff); box-sizing:border-box; z-index:-1; }
+    .damage-guaranteed-dot { display:none; }
+    .damage-hp-bar-caption { display: flex; justify-content: space-between; gap: 0.75rem; margin-top: 0.35rem; font-size: 0.75rem; color: var(--muted); }
+    .damage-note { font-size: 0.75rem; color: var(--muted); margin-top: 0.65rem; text-align: center; }
+    @media (max-width: 1050px) {
+      .damage-sides { grid-template-columns: 1fr; }
+      .damage-swap { padding: 0.2rem 0; }
+      .damage-swap button { transform: rotate(90deg); }
+    }
+    @media (max-width: 560px) {
+      .damage-card { width: calc(100vw - 1rem); }
+      .damage-side { padding-left: 0.65rem; padding-right: 0.65rem; }
+      .damage-side-image { width: 145px; height: 145px; }
+      .damage-adjust-grid { grid-template-columns: 2.6rem minmax(48px, 1fr) 2.9rem minmax(48px, 1fr) 2.9rem 3.6rem 3.9rem; gap: 0.45rem 0.35rem; }
+      .damage-adjust-title { font-size: 0.68rem; }
+      .damage-adjust-label { font-size: 0.75rem; }
+      .damage-adjust-grid input[type="number"], .damage-stat-current { font-size: 0.75rem; }
+    }
+    .discord-footer {
+      text-align: center;
+      margin-top: 1.25rem;
+      padding: 0.75rem 0 0.25rem;
+    }
+    .discord-link {
+      display: inline-block;
+      padding: 0.3rem 0.65rem;
+      border-radius: 6px;
+      background: #5865F2;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.75rem;
+      line-height: 1.2;
+      font-weight: 600;
+      transition: filter 0.15s ease, transform 0.15s ease;
+    }
+    .discord-link:hover {
+      filter: brightness(1.08);
+      transform: translateY(-1px);
+    }
+    .discord-link:focus-visible {
+      outline: 2px solid #5865F2;
+      outline-offset: 2px;
+    }
+  
+    .damage-controls { display:flex; justify-content:center; align-items:center; gap:18px; flex-wrap:wrap; }
+    .damage-controls label { display:flex; align-items:center; gap:8px; }
+
+    /* 對象選單與下方左右兩個區塊使用完全相同的三欄網格，
+       讓攻擊方選單正對攻擊方卡片、防禦方選單正對防禦方卡片。 */
+    .damage-object-controls {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 72px minmax(0, 1fr);
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 1.15rem;
+      font-size: 0.9rem;
+    }
+    .damage-object-controls label {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      min-width: 0;
+    }
+    .damage-object-controls label:first-child { justify-content: flex-end; }
+    .damage-object-controls label:last-child { justify-content: flex-start; }
+    .damage-object-controls select,
+    .damage-pokemon-input {
+      flex: 1 1 auto;
+      min-width: 0;
+      width: 100%;
+      padding: 0.55rem 0.7rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+      font-size: 0.9rem;
+      box-sizing: border-box;
+    }
+    .damage-pokemon-search { position:relative; flex:1 1 auto; min-width:0; }
+    .damage-pokemon-dropdown {
+      display:none; position:absolute; z-index:1000; left:0; right:0; top:calc(100% + 4px);
+      max-height:260px; overflow-y:auto; background:#fff; border:1px solid var(--border);
+      border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,.12);
+    }
+    .damage-pokemon-dropdown.open { display:block; }
+    .damage-pokemon-item { padding:0.55rem 0.7rem; cursor:pointer; font-size:0.9rem; }
+    .damage-pokemon-item:hover { background:var(--surface); }
+    .damage-pokemon-empty { padding:0.55rem 0.7rem; color:var(--muted); font-size:0.85rem; }
+    @media (max-width: 760px) {
+      .damage-object-controls {
+        grid-template-columns: 1fr;
+        gap: 0.65rem;
+      }
+      .damage-object-controls > div { display:none; }
+      .damage-object-controls label:first-child,
+      .damage-object-controls label:last-child {
+        justify-content: flex-start;
+      }
+    }
+    .damage-crit-inline { display:inline-flex; align-items:center; gap:8px; margin-left:16px; font-weight:600; }
+    .damage-weather-controls { display:flex; justify-content:center; align-items:center; gap:0.7rem; margin-top:0.9rem; flex-wrap:wrap; }
+    .damage-weather-controls label { display:flex; align-items:center; gap:0.55rem; font-size:0.95rem; font-weight:600; }
+    .damage-weather-controls select { min-width:180px; padding:0.55rem 0.7rem; border:1px solid var(--border); border-radius:8px; background:#fff; font-size:0.95rem; }
+    .damage-calc-wrap { display:flex; justify-content:center; align-items:center; gap:14px; margin-top:18px; }
+    .damage-calc-wrap .damage-calc-btn { margin:0; }
+
+    /* ===== 全站 UI 美化 ===== */
+    :root {
+      --bg: #eef3f8;
+      --card: rgba(255,255,255,.96);
+      --text: #172033;
+      --muted: #64748b;
+      --accent: #4f7cff;
+      --accent-2: #7c5cff;
+      --border: #dbe3ee;
+      --surface: #f6f8fc;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      background:
+        radial-gradient(circle at 8% 0%, rgba(79,124,255,.10), transparent 28%),
+        radial-gradient(circle at 92% 8%, rgba(124,92,255,.08), transparent 24%),
+        linear-gradient(180deg, #f7f9fc 0%, var(--bg) 100%);
+      padding: 1.25rem;
+    }
+    .container { max-width: 1080px; }
+    h1 {
+      font-size: clamp(1.65rem, 3vw, 2.15rem);
+      letter-spacing: .02em;
+      margin: .35rem 0 1.35rem;
+      background: linear-gradient(135deg, #294a9b, #6d4bdc);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .card {
+      position: relative;
+      background: var(--card);
+      border: 1px solid rgba(219,227,238,.9);
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(31,48,78,.07), 0 2px 8px rgba(31,48,78,.04);
+      padding: 1.35rem;
+      margin-bottom: 1.15rem;
+      backdrop-filter: blur(8px);
+    }
+    .card::before {
+      content: ''; position: absolute; left: 0; top: 18px; bottom: 18px; width: 3px;
+      border-radius: 0 4px 4px 0; background: linear-gradient(180deg, var(--accent), var(--accent-2));
+      opacity: .75;
+    }
+    .section-title {
+      color: #334155; font-size: .88rem; font-weight: 800; letter-spacing: .06em;
+      text-transform: none; padding-bottom: .55rem; margin-bottom: .85rem;
+      border-bottom: 1px solid #e8edf4;
+    }
+    .search-wrap { margin-bottom: 1.35rem; }
+    .search-input, select, input[type="number"] {
+      transition: border-color .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+    .search-input {
+      border: 1px solid #d5deea; border-radius: 12px;
+      padding: .8rem 1rem; box-shadow: 0 4px 12px rgba(31,48,78,.04);
+    }
+    .search-input:hover { border-color: #b8c7dc; }
+    .search-input:focus, select:focus, input[type="number"]:focus {
+      outline: none; border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(79,124,255,.13);
+    }
+    .dropdown-list, .damage-pokemon-dropdown {
+      border-color: #d6dfeb; border-radius: 12px;
+      box-shadow: 0 18px 40px rgba(22,34,56,.14);
+    }
+    .dropdown-item, .damage-pokemon-item { transition: background .12s ease, padding-left .12s ease; }
+    .dropdown-item:hover, .dropdown-item.active, .damage-pokemon-item:hover {
+      background: #f0f5ff; color: #315fd1; padding-left: 1.05rem;
+    }
+    .image-area { min-height: 175px; }
+    .info-right .image-area { min-height: 215px; }
+    .image-area img { filter: drop-shadow(0 12px 12px rgba(36,52,80,.13)); transition: transform .2s ease; }
+    .image-area img:hover { transform: translateY(-3px) scale(1.02); }
+    .name-zh { font-size: 1.45rem; letter-spacing: .02em; }
+    .name-sub { color: #7b8798; }
+    .type-badge { box-shadow: inset 0 1px 0 rgba(255,255,255,.22), 0 2px 5px rgba(0,0,0,.08); }
+    .stats-grid { gap: .7rem; }
+    .stat-box {
+      background: linear-gradient(180deg, #f8faff, #f0f4f9);
+      border: 1px solid #e3eaf3; border-radius: 11px; padding: .62rem .45rem;
+    }
+    .stat-value { color: #1f2f4d; }
+    .form-btn, .shiny-btn, .tab-btn, .calc-btn, .damage-copy-btn {
+      border-color: #d6dfeb; border-radius: 9px;
+      box-shadow: 0 1px 2px rgba(31,48,78,.03);
+      transition: all .16s ease;
+    }
+    .form-btn:hover, .shiny-btn:hover, .tab-btn:hover, .calc-btn:hover, .damage-copy-btn:hover {
+      transform: translateY(-1px); box-shadow: 0 4px 10px rgba(31,48,78,.08);
+    }
+    .form-btn.active, .tab-btn.active {
+      background: linear-gradient(135deg, #4f7cff, #667eea);
+      border-color: #4f7cff; box-shadow: 0 5px 12px rgba(79,124,255,.2);
+    }
+    .calc-btn.primary, .damage-calc-btn {
+      background: linear-gradient(135deg, #4f7cff, #6c63e8);
+      color: #fff; border-color: transparent;
+      box-shadow: 0 6px 14px rgba(79,124,255,.22);
+    }
+    .calc-btn.primary:hover, .damage-calc-btn:hover {
+      filter: brightness(1.04); transform: translateY(-1px);
+    }
+    .calc-row, .damage-side {
+      background: linear-gradient(180deg, #f9fbfd, #f4f7fb);
+      border-color: #e0e7f0;
+    }
+    .calc-result-item, .damage-current-hp {
+      border: 1px solid #e3e9f1; box-shadow: 0 2px 6px rgba(31,48,78,.035);
+    }
+    .damage-card {
+      border-radius: 20px;
+      box-shadow: 0 14px 38px rgba(31,48,78,.09);
+    }
+    .damage-side { border-radius: 16px; padding: 1.05rem 1.1rem .95rem; }
+    .damage-swap button {
+      background: linear-gradient(145deg, #fff, #f1f5fb);
+      border-color: #d4deeb; box-shadow: 0 8px 18px rgba(31,48,78,.09);
+      transition: all .18s ease;
+    }
+    .damage-swap button:hover { transform: scale(1.06); color: #4f7cff; border-color: #aebfe0; }
+    .damage-side-image { filter: drop-shadow(0 10px 12px rgba(31,48,78,.12)); }
+    .damage-adjust-grid input[type="range"], .damage-current-hp input[type="range"] {
+      accent-color: #5b7ff5;
+    }
+    .damage-stat-stage, .damage-stat-current, .damage-adjust-grid input[type="number"],
+    .damage-current-hp-number, .damage-move-controls select, .damage-move-controls input[type="number"] {
+      border-color: #d5dfeb; background: #fff;
+    }
+    .damage-hp-bar {
+      height: 30px; border: 1px solid #cbd5e1; border-radius: 10px;
+      box-shadow: inset 0 1px 3px rgba(15,23,42,.10), 0 3px 8px rgba(31,48,78,.05);
+    }
+    .damage-hp-range-min { background: linear-gradient(90deg, #9ee7a8, #bff2c5); }
+    .damage-hp-range-max { background: linear-gradient(90deg, #f2aaaa, #f8c5c5); }
+    .damage-guaranteed-hits::before {
+      background: #fff; border-color: #334155; box-shadow: 0 2px 6px rgba(31,48,78,.16);
+    }
+    .damage-result {
+      background: linear-gradient(135deg, #f4f7ff, #f7f5ff);
+      border-color: #dfe5f1; box-shadow: inset 0 1px 0 rgba(255,255,255,.8);
+    }
+    .damage-result-value { color: #243b78; }
+    .moves-table-wrap { border: 1px solid #e2e8f0; border-radius: 11px; }
+    th { background: #f4f7fb; }
+    tr:hover td { background: #fafcff; }
+    .discord-link { border-radius: 9px; box-shadow: 0 4px 10px rgba(88,101,242,.2); }
+    @media (max-width: 760px) {
+      body { padding: .7rem; }
+      .card { padding: 1rem; border-radius: 15px; }
+      .damage-card { width: calc(100vw - 1rem); }
+    }
+
+
+    /* ===== 深色模式 ===== */
+    body.dark-theme {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #60a5fa;
+      --border: #334155;
+      --weak-2: #f87171;
+      --weak-4: #fb7185;
+    }
+    body.dark-theme .theme-toggle {
+      background: #1e293b; color: #f8fafc; border-color: #475569;
+      box-shadow: 0 5px 18px rgba(0,0,0,.28);
+    }
+    body.dark-theme .theme-toggle:hover { background: #334155; border-color: #60a5fa; }
+    body.dark-theme .form-btn,
+    body.dark-theme .shiny-btn,
+    body.dark-theme input,
+    body.dark-theme select,
+    body.dark-theme textarea {
+      background: #0f172a; color: #e5e7eb; border-color: #475569;
+    }
+    body.dark-theme .dropdown-item:hover,
+    body.dark-theme .dropdown-item.active { background: #1e3a5f; color: #93c5fd; }
+    body.dark-theme th { background: #273449; color: #e5e7eb; }
+    body.dark-theme tr:hover td { background: #243247; }
+    body.dark-theme .moves-table-wrap { border-color: #334155; }
+    body.dark-theme .ability-badge { background: #12324a; color: #7dd3fc; border-color: #164e63; }
+    body.dark-theme .ability-badge.ability-hidden { background: #35204f; color: #d8b4fe; border-color: #581c87; }
+    body.dark-theme .damage-result-value { color: #bfdbfe; }
+    body.dark-theme .placeholder { color: #94a3b8; }
+    body.dark-theme .damage-stat-row,
+    body.dark-theme .damage-condition-row { border-color: #334155; }
+    body.dark-theme .stat-box { border-color: #334155; background: #182235; }
+    body.dark-theme .type-badge { filter: brightness(.9); }
+    body.dark-theme .discord-link { box-shadow: 0 5px 16px rgba(0,0,0,.3); }
+
+    /* 深色模式：近黑色漸變，避免白底造成刺眼感 */
+    body.dark-theme {
+      --bg: #080b12;
+      --card: #111722;
+      --text: #e7ebf3;
+      --muted: #8d98aa;
+      --accent: #6ea8ff;
+      --border: #293241;
+      background: radial-gradient(circle at 15% 0%, #151b28 0%, #0b0f17 42%, #05070b 100%);
+      background-attachment: fixed;
+    }
+    body.dark-theme .card,
+    body.dark-theme .damage-card,
+    body.dark-theme .calc-row,
+    body.dark-theme .damage-side,
+    body.dark-theme .calc-result-item,
+    body.dark-theme .damage-current-hp,
+    body.dark-theme .damage-condition-row,
+    body.dark-theme .damage-stat-row {
+      background: linear-gradient(145deg, #151b27 0%, #0e131d 100%);
+      border-color: #293241;
+      color: #e7ebf3;
+    }
+    body.dark-theme .calc-row,
+    body.dark-theme .damage-side {
+      background: linear-gradient(155deg, #171e2b 0%, #0d121b 100%);
+    }
+    body.dark-theme .stat-box {
+      background: linear-gradient(155deg, #1b2331 0%, #10151f 100%);
+      border-color: #303a4a;
+    }
+    body.dark-theme .damage-result {
+      background: linear-gradient(135deg, #171d2d 0%, #0d111b 52%, #171126 100%);
+      border-color: #343d51;
+    }
+    body.dark-theme .damage-hp-bar { background: #080c13; border-color: #303a4a; }
+    body.dark-theme .damage-guaranteed-hits::before { background: #111722; border-color: #596477; }
+    body.dark-theme input,
+    body.dark-theme select,
+    body.dark-theme textarea,
+    body.dark-theme .damage-stat-stage,
+    body.dark-theme .damage-stat-current,
+    body.dark-theme .damage-adjust-grid input[type="number"],
+    .damage-stat-locked { font-size:0.72rem; opacity:0.8; }
+    .damage-stat-locked-value { font-weight:800; }
+    input:disabled { cursor:not-allowed; opacity:0.65; }
+
+    body.dark-theme .damage-current-hp-number,
+    body.dark-theme .damage-move-controls select,
+    body.dark-theme .damage-move-controls input[type="number"],
+    body.dark-theme .damage-weather-controls select {
+      background: linear-gradient(180deg, #0e141e 0%, #090d14 100%);
+      color: #e7ebf3;
+      border-color: #303a4a;
+    }
+    body.dark-theme th { background: #171e2a; color: #e7ebf3; }
+    body.dark-theme tr:nth-child(even) td { background: #111720; }
+    body.dark-theme tr:hover td { background: #1a2230; }
+    body.dark-theme .moves-table-wrap,
+    body.dark-theme table,
+    body.dark-theme .dropdown,
+    body.dark-theme .search-dropdown,
+    body.dark-theme .pokemon-dropdown {
+      background: #0d131c;
+      border-color: #293241;
+    }
+    body.dark-theme .damage-swap button,
+    body.dark-theme .damage-copy-btn,
+    body.dark-theme .damage-calc-btn:not(.primary) {
+      background: linear-gradient(145deg, #202938, #111720);
+      color: #e7ebf3;
+      border-color: #354052;
+    }
+    body.dark-theme .theme-toggle {
+      background: linear-gradient(145deg, #1c2432, #0c1119);
+      color: #e7ebf3;
+      border-color: #354052;
+    }
+    /* 深色模式：降低純白區塊，提升層次與可讀性 */
+    body.dark-theme .card,
+    body.dark-theme .damage-card,
+    body.dark-theme .calc-row,
+    body.dark-theme .damage-side,
+    body.dark-theme .calc-result-item,
+    body.dark-theme .damage-current-hp,
+    body.dark-theme .damage-condition-row,
+    body.dark-theme .damage-stat-row {
+      background: #1b2638;
+      border-color: #334155;
+      color: #e5e7eb;
+    }
+    body.dark-theme .calc-row,
+    body.dark-theme .damage-side {
+      background: linear-gradient(180deg, #1c293c, #172235);
+    }
+    body.dark-theme .stat-box {
+      background: linear-gradient(180deg, #202f45, #1a2739);
+    }
+    body.dark-theme .damage-result {
+      background: linear-gradient(135deg, #1d2942, #25203d);
+      border-color: #3b4a67;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
+    }
+    body.dark-theme .damage-hp-bar {
+      background: #0f172a;
+      border-color: #475569;
+    }
+    body.dark-theme .damage-guaranteed-hits::before {
+      background: #1b2638;
+      border-color: #64748b;
+      box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    }
+    body.dark-theme .damage-stat-stage,
+    body.dark-theme .damage-stat-current,
+    body.dark-theme .damage-adjust-grid input[type="number"],
+    body.dark-theme .damage-current-hp-number,
+    body.dark-theme .damage-move-controls select,
+    body.dark-theme .damage-move-controls input[type="number"],
+    body.dark-theme .damage-weather-controls select {
+      background: #0f172a;
+      color: #e5e7eb;
+      border-color: #475569;
+    }
+    body.dark-theme .damage-swap button {
+      background: linear-gradient(145deg, #26364d, #182437);
+      color: #e5e7eb;
+      border-color: #475569;
+    }
+    body.dark-theme .damage-swap button:hover {
+      color: #93c5fd;
+      border-color: #60a5fa;
+    }
+    body.dark-theme .damage-copy-btn,
+    body.dark-theme .damage-calc-btn:not(.primary) {
+      background: #263449;
+      color: #e5e7eb;
+      border-color: #475569;
+    }
+    body.dark-theme .dropdown,
+    body.dark-theme .search-dropdown,
+    body.dark-theme .pokemon-dropdown {
+      background: #172235;
+      border-color: #475569;
+      box-shadow: 0 12px 28px rgba(0,0,0,.4);
+    }
+    body.dark-theme .dropdown-item {
+      color: #e5e7eb;
+      border-color: #334155;
+    }
+    body.dark-theme .dropdown-item:hover,
+    body.dark-theme .dropdown-item.active {
+      background: #243b5a;
+      color: #bfdbfe;
+    }
+    body.dark-theme .moves-table-wrap {
+      background: #172235;
+      border-color: #334155;
+    }
+    body.dark-theme table {
+      background: #172235;
+      color: #e5e7eb;
+    }
+    body.dark-theme td {
+      border-color: #334155;
+    }
+    body.dark-theme tr:nth-child(even) td {
+      background: #1a2739;
+    }
+    body.dark-theme tr:hover td {
+      background: #243247;
+    }
+    body.dark-theme .info-left,
+    body.dark-theme .info-right,
+    body.dark-theme .image-area {
+      color: #e5e7eb;
+    }
+    body.dark-theme .placeholder,
+    body.dark-theme .name-sub,
+    body.dark-theme .muted,
+    body.dark-theme small {
+      color: #94a3b8;
+    }
+    body.dark-theme hr {
+      border-color: #334155;
+    }
+
+    .theme-toggle {
+      position: fixed; top: 1rem; right: 1rem; z-index: 1000;
+      display: inline-flex; align-items: center; gap: .4rem;
+      padding: .5rem .8rem; border: 1px solid var(--border); border-radius: 999px;
+      background: var(--card); color: var(--text); cursor: pointer;
+      font: inherit; font-size: .85rem; font-weight: 700;
+      box-shadow: 0 4px 14px rgba(15,23,42,.08);
+      transition: background .2s, border-color .2s, transform .2s, box-shadow .2s;
+    }
+    .theme-toggle:hover { transform: translateY(-1px); border-color: var(--accent); }
+    .theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .theme-toggle-icon { font-size: 1rem; line-height: 1; }
+    @media (max-width: 640px) {
+      .theme-toggle { top: .65rem; right: .65rem; padding: .42rem .65rem; }
+      h1 { padding-right: 4.2rem; }
+    }
+
+    /* 最終深色覆寫：近黑色背景與近黑色漸變 */
+    body.dark-theme {
+      --bg:#080b12; --card:#111722; --text:#e7ebf3; --muted:#8d98aa; --border:#293241;
+      background:radial-gradient(circle at 15% 0%,#151b28 0%,#0b0f17 42%,#05070b 100%);
+      background-attachment:fixed;
+    }
+    body.dark-theme .card,body.dark-theme .damage-card,body.dark-theme .calc-row,body.dark-theme .damage-side,body.dark-theme .calc-result-item,body.dark-theme .damage-current-hp,body.dark-theme .damage-condition-row,body.dark-theme .damage-stat-row { background:linear-gradient(145deg,#151b27 0%,#0e131d 100%); border-color:#293241; color:#e7ebf3; }
+    body.dark-theme .calc-row,body.dark-theme .damage-side { background:linear-gradient(155deg,#171e2b 0%,#0d121b 100%); }
+    body.dark-theme .stat-box { background:linear-gradient(155deg,#1b2331 0%,#10151f 100%); border-color:#303a4a; }
+    body.dark-theme .damage-result { background:linear-gradient(135deg,#171d2d 0%,#0d111b 52%,#171126 100%); border-color:#343d51; }
+    body.dark-theme input,body.dark-theme select,body.dark-theme textarea,body.dark-theme .damage-stat-stage,body.dark-theme .damage-stat-current,body.dark-theme .damage-adjust-grid input[type="number"],body.dark-theme .damage-current-hp-number,body.dark-theme .damage-move-controls select,body.dark-theme .damage-move-controls input[type="number"],body.dark-theme .damage-weather-controls select { background:linear-gradient(180deg,#0e141e 0%,#090d14 100%); color:#e7ebf3; border-color:#303a4a; }
+    body.dark-theme .damage-hp-bar { background:#080c13; border-color:#303a4a; }
+    body.dark-theme .damage-guaranteed-hits::before { background:#111722; border-color:#596477; }
+    body.dark-theme th { background:#171e2a; color:#e7ebf3; }
+    body.dark-theme tr:nth-child(even) td { background:#111720; }
+    body.dark-theme tr:hover td { background:#1a2230; }
+    body.dark-theme .moves-table-wrap,body.dark-theme table { background:#0d131c; border-color:#293241; }
+    body.dark-theme .damage-swap button,body.dark-theme .damage-copy-btn,body.dark-theme .damage-calc-btn:not(.primary),body.dark-theme .theme-toggle { background:linear-gradient(145deg,#202938,#111720); color:#e7ebf3; border-color:#354052; }
+
+
+    /* 深色模式：區塊標題提高對比，避免與背景融在一起 */
+    body.dark-theme .section-title {
+      color: #f8fafc;
+      background: linear-gradient(90deg, #f8fafc 0%, #c7d2fe 55%, #93c5fd 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 18px rgba(96,165,250,.10);
+      border-bottom-color: #3b475a;
+    }
+    body.dark-theme .calc-header .section-title {
+      color: #f8fafc;
+      -webkit-text-fill-color: #f8fafc;
+    }
+    body.dark-theme .damage-card > .section-title {
+      font-size: .95rem;
+      font-weight: 900;
+      color: #ffffff;
+      -webkit-text-fill-color: #ffffff;
+      border-bottom-color: #46536a;
+    }
+    body.dark-theme .base-stat-total {
+      color: #a5b4fc;
+      -webkit-text-fill-color: #a5b4fc;
+    }
+    /* 深色模式：種族值數字提高亮度與對比 */
+    body.dark-theme .stat-value {
+      color: #f8fafc;
+      -webkit-text-fill-color: #f8fafc;
+      text-shadow: 0 0 10px rgba(147,197,253,.10);
+      font-weight: 800;
+    }
+    body.dark-theme .stat-label {
+      color: #cbd5e1;
+      -webkit-text-fill-color: #cbd5e1;
+    }
+
+
+
+    /* 深色模式：徹底隔離招式表與上方傷害計算的圖層，避免屬性徽章穿透 */
+    body.dark-theme #damage-card {
+      position: relative !important;
+      z-index: 100 !important;
+      isolation: isolate;
+      background-color: #111722 !important;
+    }
+    body.dark-theme #damage-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(145deg, #151b27 0%, #0e131d 100%);
+      z-index: -1;
+      pointer-events: none;
+    }
+    body.dark-theme #damage-card + .card {
+      position: relative !important;
+      z-index: 0 !important;
+      isolation: isolate;
+    }
+    body.dark-theme #damage-card + .card .moves-table-wrap,
+    body.dark-theme #damage-card + .card table,
+    body.dark-theme #damage-card + .card .type-badge {
+      position: relative;
+      z-index: 0 !important;
+    }
+
+    /* 深色模式：招式表內容不得穿出到上方區塊，避免屬性標籤覆蓋傷害計算 */
+    body.dark-theme .damage-card {
+      position: relative;
+      z-index: 3;
+    }
+    body.dark-theme .moves-table-wrap {
+      position: relative;
+      z-index: 0;
+      isolation: isolate;
+      overflow: auto;
+    }
+    body.dark-theme .moves-table-wrap table {
+      position: relative;
+      z-index: 0;
+    }
+    body.dark-theme .moves-table-wrap .type-badge {
+      position: relative;
+      z-index: 0;
+    }
+
+    /* 深色模式：能力值結果欄與其它加成輸入進一步降低亮度 */
+    body.dark-theme .calc-col-result {
+      background: linear-gradient(155deg, #111925 0%, #0a0f17 100%);
+      border-color: #2d394b;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.025);
+    }
+    body.dark-theme .calc-result-item {
+      background: linear-gradient(145deg, #182131 0%, #101722 100%);
+      border-color: #2b3749;
+      color: #e7ebf3;
+    }
+    body.dark-theme .calc-result-item.boost {
+      background: linear-gradient(145deg, #123128 0%, #0d211c 100%);
+    }
+    body.dark-theme .calc-result-item.nerf {
+      background: linear-gradient(145deg, #351b24 0%, #241219 100%);
+    }
+    body.dark-theme .calc-result-item .r-label {
+      color: #aeb9c9;
+    }
+    body.dark-theme .calc-result-item .r-value {
+      color: #f1f5f9;
+    }
+    body.dark-theme .calc-result-item.boost .r-value {
+      color: #6ee7b7;
+    }
+    body.dark-theme .calc-result-item.nerf .r-value {
+      color: #fda4af;
+    }
+    body.dark-theme .damage-bonus-wrap .damage-other-bonus {
+      color: #cbd5e1;
+      background: linear-gradient(145deg, #141d2b 0%, #0b111a 100%);
+      border-color: #2f3b4e;
+      border-radius: 10px;
+      padding: .38rem .55rem;
+    }
+    body.dark-theme .damage-other-bonus input#damage-other-bonus {
+      background: linear-gradient(180deg, #0b111a 0%, #070b11 100%);
+      color: #f1f5f9;
+      border-color: #3b475a;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,.35);
+    }
+    body.dark-theme .damage-other-bonus span {
+      color: #94a3b8;
+    }
+
+    /* 深色模式：傷害計算所有下拉選單 */
+    body.dark-theme .damage-card select,
+    body.dark-theme .damage-section select,
+    body.dark-theme .damage-move-controls select,
+    body.dark-theme .damage-weather-controls select,
+    body.dark-theme .damage-side select,
+    body.dark-theme .damage-pokemon-panel select {
+      appearance: auto;
+      -webkit-appearance: auto;
+      background-color: #111827 !important;
+      background-image: none;
+      color: #f8fafc !important;
+      border: 1px solid #3b4a61 !important;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,.45), 0 0 0 1px rgba(255,255,255,.02);
+    }
+    body.dark-theme .damage-card select:focus,
+    body.dark-theme .damage-section select:focus,
+    body.dark-theme .damage-move-controls select:focus,
+    body.dark-theme .damage-weather-controls select:focus,
+    body.dark-theme .damage-side select:focus,
+    body.dark-theme .damage-pokemon-panel select:focus {
+      background-color: #172033 !important;
+      border-color: #60a5fa !important;
+      color: #ffffff !important;
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(96,165,250,.18);
+    }
+    body.dark-theme select option,
+    body.dark-theme select optgroup {
+      background: #111827 !important;
+      color: #f8fafc !important;
+    }
+    body.dark-theme select option:checked,
+    body.dark-theme select option:hover {
+      background: #26364f !important;
+      color: #ffffff !important;
+    }
+
+
+    /* 深色模式：傷害計算的攻擊方／防禦方對象搜尋框與結果下拉 */
+    body.dark-theme .damage-object-controls .damage-pokemon-input {
+      background: linear-gradient(180deg, #0b111a 0%, #070b11 100%) !important;
+      color: #f1f5f9 !important;
+      border-color: #3b475a !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.025);
+    }
+    body.dark-theme .damage-object-controls .damage-pokemon-input::placeholder {
+      color: #7f8da3 !important;
+      opacity: 1;
+    }
+    body.dark-theme .damage-pokemon-dropdown {
+      background: #0b111a !important;
+      color: #e7ebf3 !important;
+      border-color: #3b475a !important;
+      box-shadow: 0 12px 28px rgba(0,0,0,.55);
+    }
+    body.dark-theme .damage-pokemon-dropdown .damage-pokemon-item {
+      background: transparent !important;
+      color: #e7ebf3 !important;
+    }
+    body.dark-theme .damage-pokemon-dropdown .damage-pokemon-item:hover,
+    body.dark-theme .damage-pokemon-dropdown .damage-pokemon-item.active {
+      background: #1b3555 !important;
+      color: #bfdbfe !important;
+    }
+    body.dark-theme .damage-pokemon-dropdown .damage-pokemon-empty {
+      background: #0b111a !important;
+      color: #94a3b8 !important;
+    }
+    body.dark-theme .damage-object-controls .damage-pokemon-input:focus {
+      background: #0b111a !important;
+      border-color: #60a5fa !important;
+      box-shadow: 0 0 0 3px rgba(96,165,250,.16), inset 0 1px 0 rgba(255,255,255,.025);
+      outline: none;
+    }
+
+/* Fix: light theme damage calculation button keeps white text on hover/focus */
+body:not(.dark-theme) .damage-calc-btn,
+body:not(.dark-theme) .damage-calc-btn:hover,
+body:not(.dark-theme) .damage-calc-btn:focus,
+body:not(.dark-theme) .damage-calc-btn:active {
+  color: #fff !important;
+}
+</style>
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切換深色模式" title="切換深色模式">
+    <span class="theme-toggle-icon">🌙</span><span class="theme-toggle-text">深色</span>
+  </button>
+  <div class="container">
+    <h1>寶可夢數值計算器</h1>
+    <div class="search-wrap">
+      <input type="text" id="pokemon-search" class="search-input"
+             placeholder="輸入編號或名稱搜尋，例如 009 或 妙蛙" autocomplete="off" spellcheck="false">
+      <div id="dropdown-list" class="dropdown-list"></div>
+    </div>
+    <div id="content">
+      <div class="card image-area">
+        <p class="placeholder">輸入或選擇寶可夢以顯示資料</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="discord-footer">
+    <a class="discord-link"
+       href="https://discord.gg/bRBH6PHGFe"
+       target="_blank"
+       rel="noopener noreferrer">Discord</a>
+  </div>
+
+  <script>
+    // ===== 內嵌資料（不依賴 fetch，下拉與映射在 file:// 也能用）=====
+    const EMBEDDED_POKEDEX = [{"index": "0001", "name_zh": "妙蛙種子"}, {"index": "0002", "name_zh": "妙蛙草"}, {"index": "0003", "name_zh": "妙蛙花"}, {"index": "0004", "name_zh": "小火龍"}, {"index": "0005", "name_zh": "火恐龍"}, {"index": "0006", "name_zh": "噴火龍"}, {"index": "0007", "name_zh": "傑尼龜"}, {"index": "0008", "name_zh": "卡咪龜"}, {"index": "0009", "name_zh": "水箭龜"}, {"index": "0010", "name_zh": "綠毛蟲"}, {"index": "0011", "name_zh": "鐵甲蛹"}, {"index": "0012", "name_zh": "巴大蝶"}, {"index": "0013", "name_zh": "獨角蟲"}, {"index": "0014", "name_zh": "鐵殼蛹"}, {"index": "0015", "name_zh": "大針蜂"}, {"index": "0016", "name_zh": "波波"}, {"index": "0017", "name_zh": "比比鳥"}, {"index": "0018", "name_zh": "大比鳥"}, {"index": "0019", "name_zh": "小拉達"}, {"index": "0020", "name_zh": "拉達"}, {"index": "0021", "name_zh": "烈雀"}, {"index": "0022", "name_zh": "大嘴雀"}, {"index": "0023", "name_zh": "阿柏蛇"}, {"index": "0024", "name_zh": "阿柏怪"}, {"index": "0025", "name_zh": "皮卡丘"}, {"index": "0026", "name_zh": "雷丘"}, {"index": "0027", "name_zh": "穿山鼠"}, {"index": "0028", "name_zh": "穿山王"}, {"index": "0029", "name_zh": "尼多蘭"}, {"index": "0030", "name_zh": "尼多娜"}, {"index": "0031", "name_zh": "尼多後"}, {"index": "0032", "name_zh": "尼多朗"}, {"index": "0033", "name_zh": "尼多力諾"}, {"index": "0034", "name_zh": "尼多王"}, {"index": "0035", "name_zh": "皮皮"}, {"index": "0036", "name_zh": "皮可西"}, {"index": "0037", "name_zh": "六尾"}, {"index": "0038", "name_zh": "九尾"}, {"index": "0039", "name_zh": "胖丁"}, {"index": "0040", "name_zh": "胖可丁"}, {"index": "0041", "name_zh": "超音蝠"}, {"index": "0042", "name_zh": "大嘴蝠"}, {"index": "0043", "name_zh": "走路草"}, {"index": "0044", "name_zh": "臭臭花"}, {"index": "0045", "name_zh": "霸王花"}, {"index": "0046", "name_zh": "派拉斯"}, {"index": "0047", "name_zh": "派拉斯特"}, {"index": "0048", "name_zh": "毛球"}, {"index": "0049", "name_zh": "摩魯蛾"}, {"index": "0050", "name_zh": "地鼠"}, {"index": "0051", "name_zh": "三地鼠"}, {"index": "0052", "name_zh": "喵喵"}, {"index": "0053", "name_zh": "貓老大"}, {"index": "0054", "name_zh": "可達鴨"}, {"index": "0055", "name_zh": "哥達鴨"}, {"index": "0056", "name_zh": "猴怪"}, {"index": "0057", "name_zh": "火暴猴"}, {"index": "0058", "name_zh": "卡蒂狗"}, {"index": "0059", "name_zh": "風速狗"}, {"index": "0060", "name_zh": "蚊香蝌蚪"}, {"index": "0061", "name_zh": "蚊香君"}, {"index": "0062", "name_zh": "蚊香泳士"}, {"index": "0063", "name_zh": "凱西"}, {"index": "0064", "name_zh": "勇基拉"}, {"index": "0065", "name_zh": "胡地"}, {"index": "0066", "name_zh": "腕力"}, {"index": "0067", "name_zh": "豪力"}, {"index": "0068", "name_zh": "怪力"}, {"index": "0069", "name_zh": "喇叭芽"}, {"index": "0070", "name_zh": "口呆花"}, {"index": "0071", "name_zh": "大食花"}, {"index": "0072", "name_zh": "瑪瑙水母"}, {"index": "0073", "name_zh": "毒刺水母"}, {"index": "0074", "name_zh": "小拳石"}, {"index": "0075", "name_zh": "隆隆石"}, {"index": "0076", "name_zh": "隆隆巖"}, {"index": "0077", "name_zh": "小火馬"}, {"index": "0078", "name_zh": "烈焰馬"}, {"index": "0079", "name_zh": "呆呆獸"}, {"index": "0080", "name_zh": "呆殼獸"}, {"index": "0081", "name_zh": "小磁怪"}, {"index": "0082", "name_zh": "三合一磁怪"}, {"index": "0083", "name_zh": "大蔥鴨"}, {"index": "0084", "name_zh": "嘟嘟"}, {"index": "0085", "name_zh": "嘟嘟利"}, {"index": "0086", "name_zh": "小海獅"}, {"index": "0087", "name_zh": "白海獅"}, {"index": "0088", "name_zh": "臭泥"}, {"index": "0089", "name_zh": "臭臭泥"}, {"index": "0090", "name_zh": "大舌貝"}, {"index": "0091", "name_zh": "刺甲貝"}, {"index": "0092", "name_zh": "鬼斯"}, {"index": "0093", "name_zh": "鬼斯通"}, {"index": "0094", "name_zh": "耿鬼"}, {"index": "0095", "name_zh": "大巖蛇"}, {"index": "0096", "name_zh": "催眠貘"}, {"index": "0097", "name_zh": "引夢貘人"}, {"index": "0098", "name_zh": "大鉗蟹"}, {"index": "0099", "name_zh": "巨鉗蟹"}, {"index": "0100", "name_zh": "霹靂電球"}, {"index": "0101", "name_zh": "頑皮雷彈"}, {"index": "0102", "name_zh": "蛋蛋"}, {"index": "0103", "name_zh": "椰蛋樹"}, {"index": "0104", "name_zh": "卡拉卡拉"}, {"index": "0105", "name_zh": "嘎啦嘎啦"}, {"index": "0106", "name_zh": "飛腿郎"}, {"index": "0107", "name_zh": "快拳郎"}, {"index": "0108", "name_zh": "大舌頭"}, {"index": "0109", "name_zh": "瓦斯彈"}, {"index": "0110", "name_zh": "雙彈瓦斯"}, {"index": "0111", "name_zh": "獨角犀牛"}, {"index": "0112", "name_zh": "鑽角犀獸"}, {"index": "0113", "name_zh": "吉利蛋"}, {"index": "0114", "name_zh": "蔓藤怪"}, {"index": "0115", "name_zh": "袋獸"}, {"index": "0116", "name_zh": "墨海馬"}, {"index": "0117", "name_zh": "海刺龍"}, {"index": "0118", "name_zh": "角金魚"}, {"index": "0119", "name_zh": "金魚王"}, {"index": "0120", "name_zh": "海星星"}, {"index": "0121", "name_zh": "寶石海星"}, {"index": "0122", "name_zh": "魔牆人偶"}, {"index": "0123", "name_zh": "飛天螳螂"}, {"index": "0124", "name_zh": "迷唇姐"}, {"index": "0125", "name_zh": "電擊獸"}, {"index": "0126", "name_zh": "鴨嘴火獸"}, {"index": "0127", "name_zh": "凱羅斯"}, {"index": "0128", "name_zh": "肯泰羅"}, {"index": "0129", "name_zh": "鯉魚王"}, {"index": "0130", "name_zh": "暴鯉龍"}, {"index": "0131", "name_zh": "拉普拉斯"}, {"index": "0132", "name_zh": "百變怪"}, {"index": "0133", "name_zh": "伊布"}, {"index": "0134", "name_zh": "水伊布"}, {"index": "0135", "name_zh": "雷伊布"}, {"index": "0136", "name_zh": "火伊布"}, {"index": "0137", "name_zh": "多邊獸"}, {"index": "0138", "name_zh": "菊石獸"}, {"index": "0139", "name_zh": "多刺菊石獸"}, {"index": "0140", "name_zh": "化石盔"}, {"index": "0141", "name_zh": "鐮刀盔"}, {"index": "0142", "name_zh": "化石翼龍"}, {"index": "0143", "name_zh": "卡比獸"}, {"index": "0144", "name_zh": "急凍鳥"}, {"index": "0145", "name_zh": "閃電鳥"}, {"index": "0146", "name_zh": "火焰鳥"}, {"index": "0147", "name_zh": "迷你龍"}, {"index": "0148", "name_zh": "哈克龍"}, {"index": "0149", "name_zh": "快龍"}, {"index": "0150", "name_zh": "超夢"}, {"index": "0151", "name_zh": "夢幻"}, {"index": "0152", "name_zh": "菊草葉"}, {"index": "0153", "name_zh": "月桂葉"}, {"index": "0154", "name_zh": "大竺葵"}, {"index": "0155", "name_zh": "火球鼠"}, {"index": "0156", "name_zh": "火巖鼠"}, {"index": "0157", "name_zh": "火暴獸"}, {"index": "0158", "name_zh": "小鋸鱷"}, {"index": "0159", "name_zh": "藍鱷"}, {"index": "0160", "name_zh": "大力鱷"}, {"index": "0161", "name_zh": "尾立"}, {"index": "0162", "name_zh": "大尾立"}, {"index": "0163", "name_zh": "咕咕"}, {"index": "0164", "name_zh": "貓頭夜鷹"}, {"index": "0165", "name_zh": "芭瓢蟲"}, {"index": "0166", "name_zh": "安瓢蟲"}, {"index": "0167", "name_zh": "圓絲蛛"}, {"index": "0168", "name_zh": "阿利多斯"}, {"index": "0169", "name_zh": "叉字蝠"}, {"index": "0170", "name_zh": "燈籠魚"}, {"index": "0171", "name_zh": "電燈怪"}, {"index": "0172", "name_zh": "皮丘"}, {"index": "0173", "name_zh": "皮寶寶"}, {"index": "0174", "name_zh": "寶寶丁"}, {"index": "0175", "name_zh": "波克比"}, {"index": "0176", "name_zh": "波克基古"}, {"index": "0177", "name_zh": "天然雀"}, {"index": "0178", "name_zh": "天然鳥"}, {"index": "0179", "name_zh": "咩利羊"}, {"index": "0180", "name_zh": "茸茸羊"}, {"index": "0181", "name_zh": "電龍"}, {"index": "0182", "name_zh": "美麗花"}, {"index": "0183", "name_zh": "瑪力露"}, {"index": "0184", "name_zh": "瑪力露麗"}, {"index": "0185", "name_zh": "樹才怪"}, {"index": "0186", "name_zh": "蚊香蛙皇"}, {"index": "0187", "name_zh": "毽子草"}, {"index": "0188", "name_zh": "毽子花"}, {"index": "0189", "name_zh": "毽子棉"}, {"index": "0190", "name_zh": "長尾怪手"}, {"index": "0191", "name_zh": "向日種子"}, {"index": "0192", "name_zh": "向日花怪"}, {"index": "0193", "name_zh": "蜻蜻蜓"}, {"index": "0194", "name_zh": "烏波"}, {"index": "0195", "name_zh": "沼王"}, {"index": "0196", "name_zh": "太陽伊布"}, {"index": "0197", "name_zh": "月亮伊布"}, {"index": "0198", "name_zh": "黑暗鴉"}, {"index": "0199", "name_zh": "呆呆王"}, {"index": "0200", "name_zh": "夢妖"}, {"index": "0201", "name_zh": "未知圖騰"}, {"index": "0202", "name_zh": "果然翁"}, {"index": "0203", "name_zh": "麒麟奇"}, {"index": "0204", "name_zh": "榛果球"}, {"index": "0205", "name_zh": "佛烈託斯"}, {"index": "0206", "name_zh": "土龍弟弟"}, {"index": "0207", "name_zh": "天蠍"}, {"index": "0208", "name_zh": "大鋼蛇"}, {"index": "0209", "name_zh": "布魯"}, {"index": "0210", "name_zh": "布魯皇"}, {"index": "0211", "name_zh": "千針魚"}, {"index": "0212", "name_zh": "巨鉗螳螂"}, {"index": "0213", "name_zh": "壺壺"}, {"index": "0214", "name_zh": "赫拉克羅斯"}, {"index": "0215", "name_zh": "狃拉"}, {"index": "0216", "name_zh": "熊寶寶"}, {"index": "0217", "name_zh": "圈圈熊"}, {"index": "0218", "name_zh": "熔岩蟲"}, {"index": "0219", "name_zh": "熔岩蝸牛"}, {"index": "0220", "name_zh": "小山豬"}, {"index": "0221", "name_zh": "長毛豬"}, {"index": "0222", "name_zh": "太陽珊瑚"}, {"index": "0223", "name_zh": "鐵炮魚"}, {"index": "0224", "name_zh": "章魚桶"}, {"index": "0225", "name_zh": "信使鳥"}, {"index": "0226", "name_zh": "巨翅飛魚"}, {"index": "0227", "name_zh": "盔甲鳥"}, {"index": "0228", "name_zh": "戴魯比"}, {"index": "0229", "name_zh": "黑魯加"}, {"index": "0230", "name_zh": "刺龍王"}, {"index": "0231", "name_zh": "小小象"}, {"index": "0232", "name_zh": "頓甲"}, {"index": "0233", "name_zh": "多邊獸Ⅱ"}, {"index": "0234", "name_zh": "驚角鹿"}, {"index": "0235", "name_zh": "圖圖犬"}, {"index": "0236", "name_zh": "無畏小子"}, {"index": "0237", "name_zh": "戰舞郎"}, {"index": "0238", "name_zh": "迷唇娃"}, {"index": "0239", "name_zh": "電擊怪"}, {"index": "0240", "name_zh": "鴨嘴寶寶"}, {"index": "0241", "name_zh": "大奶罐"}, {"index": "0242", "name_zh": "幸福蛋"}, {"index": "0243", "name_zh": "雷公"}, {"index": "0244", "name_zh": "炎帝"}, {"index": "0245", "name_zh": "水君"}, {"index": "0246", "name_zh": "幼基拉斯"}, {"index": "0247", "name_zh": "沙基拉斯"}, {"index": "0248", "name_zh": "班基拉斯"}, {"index": "0249", "name_zh": "洛奇亞"}, {"index": "0250", "name_zh": "鳳王"}, {"index": "0251", "name_zh": "時拉比"}, {"index": "0252", "name_zh": "木守宮"}, {"index": "0253", "name_zh": "森林蜥蜴"}, {"index": "0254", "name_zh": "蜥蜴王"}, {"index": "0255", "name_zh": "火稚雞"}, {"index": "0256", "name_zh": "力壯雞"}, {"index": "0257", "name_zh": "火焰雞"}, {"index": "0258", "name_zh": "水躍魚"}, {"index": "0259", "name_zh": "沼躍魚"}, {"index": "0260", "name_zh": "巨沼怪"}, {"index": "0261", "name_zh": "土狼犬"}, {"index": "0262", "name_zh": "大狼犬"}, {"index": "0263", "name_zh": "蛇紋熊"}, {"index": "0264", "name_zh": "直衝熊"}, {"index": "0265", "name_zh": "刺尾蟲"}, {"index": "0266", "name_zh": "甲殼繭"}, {"index": "0267", "name_zh": "狩獵鳳蝶"}, {"index": "0268", "name_zh": "盾甲繭"}, {"index": "0269", "name_zh": "毒粉蛾"}, {"index": "0270", "name_zh": "蓮葉童子"}, {"index": "0271", "name_zh": "蓮帽小童"}, {"index": "0272", "name_zh": "樂天河童"}, {"index": "0273", "name_zh": "橡實果"}, {"index": "0274", "name_zh": "長鼻葉"}, {"index": "0275", "name_zh": "狡猾天狗"}, {"index": "0276", "name_zh": "傲骨燕"}, {"index": "0277", "name_zh": "大王燕"}, {"index": "0278", "name_zh": "長翅鷗"}, {"index": "0279", "name_zh": "大嘴鷗"}, {"index": "0280", "name_zh": "拉魯拉絲"}, {"index": "0281", "name_zh": "奇魯莉安"}, {"index": "0282", "name_zh": "沙奈朵"}, {"index": "0283", "name_zh": "溜溜糖球"}, {"index": "0284", "name_zh": "雨翅蛾"}, {"index": "0285", "name_zh": "蘑蘑菇"}, {"index": "0286", "name_zh": "斗笠菇"}, {"index": "0287", "name_zh": "懶人獺"}, {"index": "0288", "name_zh": "過動猿"}, {"index": "0289", "name_zh": "請假王"}, {"index": "0290", "name_zh": "土居忍士"}, {"index": "0291", "name_zh": "鐵面忍者"}, {"index": "0292", "name_zh": "脫殼忍者"}, {"index": "0293", "name_zh": "咕妞妞"}, {"index": "0294", "name_zh": "吼爆彈"}, {"index": "0295", "name_zh": "爆音怪"}, {"index": "0296", "name_zh": "幕下力士"}, {"index": "0297", "name_zh": "鐵掌力士"}, {"index": "0298", "name_zh": "露力麗"}, {"index": "0299", "name_zh": "朝北鼻"}, {"index": "0300", "name_zh": "向尾喵"}, {"index": "0301", "name_zh": "優雅貓"}, {"index": "0302", "name_zh": "勾魂眼"}, {"index": "0303", "name_zh": "大嘴娃"}, {"index": "0304", "name_zh": "可可多拉"}, {"index": "0305", "name_zh": "可多拉"}, {"index": "0306", "name_zh": "波士可多拉"}, {"index": "0307", "name_zh": "瑪沙那"}, {"index": "0308", "name_zh": "恰雷姆"}, {"index": "0309", "name_zh": "落雷獸"}, {"index": "0310", "name_zh": "雷電獸"}, {"index": "0311", "name_zh": "正電拍拍"}, {"index": "0312", "name_zh": "負電拍拍"}, {"index": "0313", "name_zh": "電螢蟲"}, {"index": "0314", "name_zh": "甜甜螢"}, {"index": "0315", "name_zh": "毒薔薇"}, {"index": "0316", "name_zh": "溶食獸"}, {"index": "0317", "name_zh": "吞食獸"}, {"index": "0318", "name_zh": "利牙魚"}, {"index": "0319", "name_zh": "巨牙鯊"}, {"index": "0320", "name_zh": "吼吼鯨"}, {"index": "0321", "name_zh": "吼鯨王"}, {"index": "0322", "name_zh": "呆火駝"}, {"index": "0323", "name_zh": "噴火駝"}, {"index": "0324", "name_zh": "煤炭龜"}, {"index": "0325", "name_zh": "跳跳豬"}, {"index": "0326", "name_zh": "噗噗豬"}, {"index": "0327", "name_zh": "晃晃斑"}, {"index": "0328", "name_zh": "大顎蟻"}, {"index": "0329", "name_zh": "超音波幼蟲"}, {"index": "0330", "name_zh": "沙漠蜻蜓"}, {"index": "0331", "name_zh": "刺球仙人掌"}, {"index": "0332", "name_zh": "夢歌仙人掌"}, {"index": "0333", "name_zh": "青綿鳥"}, {"index": "0334", "name_zh": "七夕青鳥"}, {"index": "0335", "name_zh": "貓鼬斬"}, {"index": "0336", "name_zh": "飯匙蛇"}, {"index": "0337", "name_zh": "月石"}, {"index": "0338", "name_zh": "太陽巖"}, {"index": "0339", "name_zh": "泥泥鰍"}, {"index": "0340", "name_zh": "鯰魚王"}, {"index": "0341", "name_zh": "龍蝦小兵"}, {"index": "0342", "name_zh": "鐵螯龍蝦"}, {"index": "0343", "name_zh": "天秤偶"}, {"index": "0344", "name_zh": "念力土偶"}, {"index": "0345", "name_zh": "觸手百合"}, {"index": "0346", "name_zh": "搖籃百合"}, {"index": "0347", "name_zh": "太古羽蟲"}, {"index": "0348", "name_zh": "太古盔甲"}, {"index": "0349", "name_zh": "醜醜魚"}, {"index": "0350", "name_zh": "美納斯"}, {"index": "0351", "name_zh": "飄浮泡泡"}, {"index": "0352", "name_zh": "變隱龍"}, {"index": "0353", "name_zh": "怨影娃娃"}, {"index": "0354", "name_zh": "詛咒娃娃"}, {"index": "0355", "name_zh": "夜巡靈"}, {"index": "0356", "name_zh": "彷徨夜靈"}, {"index": "0357", "name_zh": "熱帶龍"}, {"index": "0358", "name_zh": "風鈴鈴"}, {"index": "0359", "name_zh": "阿勃梭魯"}, {"index": "0360", "name_zh": "小果然"}, {"index": "0361", "name_zh": "雪童子"}, {"index": "0362", "name_zh": "冰鬼護"}, {"index": "0363", "name_zh": "海豹球"}, {"index": "0364", "name_zh": "海魔獅"}, {"index": "0365", "name_zh": "帝牙海獅"}, {"index": "0366", "name_zh": "珍珠貝"}, {"index": "0367", "name_zh": "獵斑魚"}, {"index": "0368", "name_zh": "櫻花魚"}, {"index": "0369", "name_zh": "古空棘魚"}, {"index": "0370", "name_zh": "愛心魚"}, {"index": "0371", "name_zh": "寶貝龍"}, {"index": "0372", "name_zh": "甲殼龍"}, {"index": "0373", "name_zh": "暴飛龍"}, {"index": "0374", "name_zh": "鐵啞鈴"}, {"index": "0375", "name_zh": "金屬怪"}, {"index": "0376", "name_zh": "巨金怪"}, {"index": "0377", "name_zh": "雷吉洛克"}, {"index": "0378", "name_zh": "雷吉艾斯"}, {"index": "0379", "name_zh": "雷吉斯奇魯"}, {"index": "0380", "name_zh": "拉帝亞斯"}, {"index": "0381", "name_zh": "拉帝歐斯"}, {"index": "0382", "name_zh": "蓋歐卡"}, {"index": "0383", "name_zh": "固拉多"}, {"index": "0384", "name_zh": "烈空坐"}, {"index": "0385", "name_zh": "基拉祈"}, {"index": "0386", "name_zh": "代歐奇希斯"}, {"index": "0387", "name_zh": "草苗龜"}, {"index": "0388", "name_zh": "樹林龜"}, {"index": "0389", "name_zh": "土臺龜"}, {"index": "0390", "name_zh": "小火焰猴"}, {"index": "0391", "name_zh": "猛火猴"}, {"index": "0392", "name_zh": "烈焰猴"}, {"index": "0393", "name_zh": "波加曼"}, {"index": "0394", "name_zh": "波皇子"}, {"index": "0395", "name_zh": "帝王拿波"}, {"index": "0396", "name_zh": "姆克兒"}, {"index": "0397", "name_zh": "姆克鳥"}, {"index": "0398", "name_zh": "姆克鷹"}, {"index": "0399", "name_zh": "大牙狸"}, {"index": "0400", "name_zh": "大尾狸"}, {"index": "0401", "name_zh": "圓法師"}, {"index": "0402", "name_zh": "音箱蟀"}, {"index": "0403", "name_zh": "小貓怪"}, {"index": "0404", "name_zh": "勒克貓"}, {"index": "0405", "name_zh": "倫琴貓"}, {"index": "0406", "name_zh": "含羞苞"}, {"index": "0407", "name_zh": "羅絲雷朵"}, {"index": "0408", "name_zh": "頭蓋龍"}, {"index": "0409", "name_zh": "戰槌龍"}, {"index": "0410", "name_zh": "盾甲龍"}, {"index": "0411", "name_zh": "護城龍"}, {"index": "0412", "name_zh": "結草兒"}, {"index": "0413", "name_zh": "結草貴婦"}, {"index": "0414", "name_zh": "紳士蛾"}, {"index": "0415", "name_zh": "三蜜蜂"}, {"index": "0416", "name_zh": "蜂女王"}, {"index": "0417", "name_zh": "帕奇利茲"}, {"index": "0418", "name_zh": "泳圈鼬"}, {"index": "0419", "name_zh": "浮潛鼬"}, {"index": "0420", "name_zh": "櫻花寶"}, {"index": "0421", "name_zh": "櫻花兒"}, {"index": "0422", "name_zh": "無殼海兔"}, {"index": "0423", "name_zh": "海兔獸"}, {"index": "0424", "name_zh": "雙尾怪手"}, {"index": "0425", "name_zh": "飄飄球"}, {"index": "0426", "name_zh": "隨風球"}, {"index": "0427", "name_zh": "卷卷耳"}, {"index": "0428", "name_zh": "長耳兔"}, {"index": "0429", "name_zh": "夢妖魔"}, {"index": "0430", "name_zh": "烏鴉頭頭"}, {"index": "0431", "name_zh": "魅力喵"}, {"index": "0432", "name_zh": "東施喵"}, {"index": "0433", "name_zh": "鈴鐺響"}, {"index": "0434", "name_zh": "臭鼬噗"}, {"index": "0435", "name_zh": "坦克臭鼬"}, {"index": "0436", "name_zh": "銅鏡怪"}, {"index": "0437", "name_zh": "青銅鐘"}, {"index": "0438", "name_zh": "盆才怪"}, {"index": "0439", "name_zh": "魔尼尼"}, {"index": "0440", "name_zh": "小福蛋"}, {"index": "0441", "name_zh": "聒噪鳥"}, {"index": "0442", "name_zh": "花巖怪"}, {"index": "0443", "name_zh": "圓陸鯊"}, {"index": "0444", "name_zh": "尖牙陸鯊"}, {"index": "0445", "name_zh": "烈咬陸鯊"}, {"index": "0446", "name_zh": "小卡比獸"}, {"index": "0447", "name_zh": "利歐路"}, {"index": "0448", "name_zh": "路卡利歐"}, {"index": "0449", "name_zh": "沙河馬"}, {"index": "0450", "name_zh": "河馬獸"}, {"index": "0451", "name_zh": "鉗尾蠍"}, {"index": "0452", "name_zh": "龍王蠍"}, {"index": "0453", "name_zh": "不良蛙"}, {"index": "0454", "name_zh": "毒骷蛙"}, {"index": "0455", "name_zh": "尖牙籠"}, {"index": "0456", "name_zh": "熒光魚"}, {"index": "0457", "name_zh": "霓虹魚"}, {"index": "0458", "name_zh": "小球飛魚"}, {"index": "0459", "name_zh": "雪笠怪"}, {"index": "0460", "name_zh": "暴雪王"}, {"index": "0461", "name_zh": "瑪狃拉"}, {"index": "0462", "name_zh": "自爆磁怪"}, {"index": "0463", "name_zh": "大舌舔"}, {"index": "0464", "name_zh": "超甲狂犀"}, {"index": "0465", "name_zh": "巨蔓藤"}, {"index": "0466", "name_zh": "電擊魔獸"}, {"index": "0467", "name_zh": "鴨嘴炎獸"}, {"index": "0468", "name_zh": "波克基斯"}, {"index": "0469", "name_zh": "遠古巨蜓"}, {"index": "0470", "name_zh": "葉伊布"}, {"index": "0471", "name_zh": "冰伊布"}, {"index": "0472", "name_zh": "天蠍王"}, {"index": "0473", "name_zh": "象牙豬"}, {"index": "0474", "name_zh": "多邊獸Ｚ"}, {"index": "0475", "name_zh": "艾路雷朵"}, {"index": "0476", "name_zh": "大朝北鼻"}, {"index": "0477", "name_zh": "黑夜魔靈"}, {"index": "0478", "name_zh": "雪妖女"}, {"index": "0479", "name_zh": "洛託姆"}, {"index": "0480", "name_zh": "由克希"}, {"index": "0481", "name_zh": "艾姆利多"}, {"index": "0482", "name_zh": "亞克諾姆"}, {"index": "0483", "name_zh": "帝牙盧卡"}, {"index": "0484", "name_zh": "帕路奇亞"}, {"index": "0485", "name_zh": "席多藍恩"}, {"index": "0486", "name_zh": "雷吉奇卡斯"}, {"index": "0487", "name_zh": "騎拉帝納"}, {"index": "0488", "name_zh": "克雷色利亞"}, {"index": "0489", "name_zh": "霏歐納"}, {"index": "0490", "name_zh": "瑪納霏"}, {"index": "0491", "name_zh": "達克萊伊"}, {"index": "0492", "name_zh": "謝米"}, {"index": "0493", "name_zh": "阿爾宙斯"}, {"index": "0494", "name_zh": "比克提尼"}, {"index": "0495", "name_zh": "藤藤蛇"}, {"index": "0496", "name_zh": "青藤蛇"}, {"index": "0497", "name_zh": "君主蛇"}, {"index": "0498", "name_zh": "暖暖豬"}, {"index": "0499", "name_zh": "炒炒豬"}, {"index": "0500", "name_zh": "炎武王"}, {"index": "0501", "name_zh": "水水獺"}, {"index": "0502", "name_zh": "雙刃丸"}, {"index": "0503", "name_zh": "大劍鬼"}, {"index": "0504", "name_zh": "探探鼠"}, {"index": "0505", "name_zh": "步哨鼠"}, {"index": "0506", "name_zh": "小約克"}, {"index": "0507", "name_zh": "哈約克"}, {"index": "0508", "name_zh": "長毛狗"}, {"index": "0509", "name_zh": "扒手貓"}, {"index": "0510", "name_zh": "酷豹"}, {"index": "0511", "name_zh": "花椰猴"}, {"index": "0512", "name_zh": "花椰猿"}, {"index": "0513", "name_zh": "爆香猴"}, {"index": "0514", "name_zh": "爆香猿"}, {"index": "0515", "name_zh": "冷水猴"}, {"index": "0516", "name_zh": "冷水猿"}, {"index": "0517", "name_zh": "食夢夢"}, {"index": "0518", "name_zh": "夢夢蝕"}, {"index": "0519", "name_zh": "豆豆鴿"}, {"index": "0520", "name_zh": "咕咕鴿"}, {"index": "0521", "name_zh": "高傲雉雞"}, {"index": "0522", "name_zh": "斑斑馬"}, {"index": "0523", "name_zh": "雷電斑馬"}, {"index": "0524", "name_zh": "石丸子"}, {"index": "0525", "name_zh": "地幔巖"}, {"index": "0526", "name_zh": "龐巖怪"}, {"index": "0527", "name_zh": "滾滾蝙蝠"}, {"index": "0528", "name_zh": "心蝙蝠"}, {"index": "0529", "name_zh": "螺釘地鼠"}, {"index": "0530", "name_zh": "龍頭地鼠"}, {"index": "0531", "name_zh": "差不多娃娃"}, {"index": "0532", "name_zh": "搬運小匠"}, {"index": "0533", "name_zh": "鐵骨土人"}, {"index": "0534", "name_zh": "修建老匠"}, {"index": "0535", "name_zh": "圓蝌蚪"}, {"index": "0536", "name_zh": "藍蟾蜍"}, {"index": "0537", "name_zh": "蟾蜍王"}, {"index": "0538", "name_zh": "投摔鬼"}, {"index": "0539", "name_zh": "打擊鬼"}, {"index": "0540", "name_zh": "蟲寶包"}, {"index": "0541", "name_zh": "寶包繭"}, {"index": "0542", "name_zh": "保姆蟲"}, {"index": "0543", "name_zh": "百足蜈蚣"}, {"index": "0544", "name_zh": "車輪球"}, {"index": "0545", "name_zh": "蜈蚣王"}, {"index": "0546", "name_zh": "木棉球"}, {"index": "0547", "name_zh": "風妖精"}, {"index": "0548", "name_zh": "百合根娃娃"}, {"index": "0549", "name_zh": "裙兒小姐"}, {"index": "0550", "name_zh": "野蠻鱸魚"}, {"index": "0551", "name_zh": "黑眼鱷"}, {"index": "0552", "name_zh": "混混鱷"}, {"index": "0553", "name_zh": "流氓鱷"}, {"index": "0554", "name_zh": "火紅不倒翁"}, {"index": "0555", "name_zh": "達摩狒狒"}, {"index": "0556", "name_zh": "沙鈴仙人掌"}, {"index": "0557", "name_zh": "石居蟹"}, {"index": "0558", "name_zh": "巖殿居蟹"}, {"index": "0559", "name_zh": "滑滑小子"}, {"index": "0560", "name_zh": "頭巾混混"}, {"index": "0561", "name_zh": "象徵鳥"}, {"index": "0562", "name_zh": "哭哭面具"}, {"index": "0563", "name_zh": "死神棺"}, {"index": "0564", "name_zh": "原蓋海龜"}, {"index": "0565", "name_zh": "肋骨海龜"}, {"index": "0566", "name_zh": "始祖小鳥"}, {"index": "0567", "name_zh": "始祖大鳥"}, {"index": "0568", "name_zh": "破破袋"}, {"index": "0569", "name_zh": "灰塵山"}, {"index": "0570", "name_zh": "索羅亞"}, {"index": "0571", "name_zh": "索羅亞克"}, {"index": "0572", "name_zh": "泡沫栗鼠"}, {"index": "0573", "name_zh": "奇諾栗鼠"}, {"index": "0574", "name_zh": "哥德寶寶"}, {"index": "0575", "name_zh": "哥德小童"}, {"index": "0576", "name_zh": "哥德小姐"}, {"index": "0577", "name_zh": "單卵細胞球"}, {"index": "0578", "name_zh": "雙卵細胞球"}, {"index": "0579", "name_zh": "人造細胞卵"}, {"index": "0580", "name_zh": "鴨寶寶"}, {"index": "0581", "name_zh": "舞天鵝"}, {"index": "0582", "name_zh": "迷你冰"}, {"index": "0583", "name_zh": "多多冰"}, {"index": "0584", "name_zh": "雙倍多多冰"}, {"index": "0585", "name_zh": "四季鹿"}, {"index": "0586", "name_zh": "萌芽鹿"}, {"index": "0587", "name_zh": "電飛鼠"}, {"index": "0588", "name_zh": "蓋蓋蟲"}, {"index": "0589", "name_zh": "騎士蝸牛"}, {"index": "0590", "name_zh": "哎呀球菇"}, {"index": "0591", "name_zh": "敗露球菇"}, {"index": "0592", "name_zh": "輕飄飄"}, {"index": "0593", "name_zh": "胖嘟嘟"}, {"index": "0594", "name_zh": "保姆曼波"}, {"index": "0595", "name_zh": "電電蟲"}, {"index": "0596", "name_zh": "電蜘蛛"}, {"index": "0597", "name_zh": "種子鐵球"}, {"index": "0598", "name_zh": "堅果啞鈴"}, {"index": "0599", "name_zh": "齒輪兒"}, {"index": "0600", "name_zh": "齒輪組"}, {"index": "0601", "name_zh": "齒輪怪"}, {"index": "0602", "name_zh": "麻麻小魚"}, {"index": "0603", "name_zh": "麻麻鰻"}, {"index": "0604", "name_zh": "麻麻鰻魚王"}, {"index": "0605", "name_zh": "小灰怪"}, {"index": "0606", "name_zh": "大宇怪"}, {"index": "0607", "name_zh": "燭光靈"}, {"index": "0608", "name_zh": "燈火幽靈"}, {"index": "0609", "name_zh": "水晶燈火靈"}, {"index": "0610", "name_zh": "牙牙"}, {"index": "0611", "name_zh": "斧牙龍"}, {"index": "0612", "name_zh": "雙斧戰龍"}, {"index": "0613", "name_zh": "噴嚏熊"}, {"index": "0614", "name_zh": "凍原熊"}, {"index": "0615", "name_zh": "幾何雪花"}, {"index": "0616", "name_zh": "小嘴蝸"}, {"index": "0617", "name_zh": "敏捷蟲"}, {"index": "0618", "name_zh": "泥巴魚"}, {"index": "0619", "name_zh": "功夫鼬"}, {"index": "0620", "name_zh": "師父鼬"}, {"index": "0621", "name_zh": "赤面龍"}, {"index": "0622", "name_zh": "泥偶小人"}, {"index": "0623", "name_zh": "泥偶巨人"}, {"index": "0624", "name_zh": "駒刀小兵"}, {"index": "0625", "name_zh": "劈斬司令"}, {"index": "0626", "name_zh": "爆炸頭水牛"}, {"index": "0627", "name_zh": "毛頭小鷹"}, {"index": "0628", "name_zh": "勇士雄鷹"}, {"index": "0629", "name_zh": "禿鷹丫頭"}, {"index": "0630", "name_zh": "禿鷹娜"}, {"index": "0631", "name_zh": "熔蟻獸"}, {"index": "0632", "name_zh": "鐵蟻"}, {"index": "0633", "name_zh": "單首龍"}, {"index": "0634", "name_zh": "雙首暴龍"}, {"index": "0635", "name_zh": "三首惡龍"}, {"index": "0636", "name_zh": "燃燒蟲"}, {"index": "0637", "name_zh": "火神蛾"}, {"index": "0638", "name_zh": "勾帕路翁"}, {"index": "0639", "name_zh": "代拉基翁"}, {"index": "0640", "name_zh": "畢力吉翁"}, {"index": "0641", "name_zh": "龍捲雲"}, {"index": "0642", "name_zh": "雷電雲"}, {"index": "0643", "name_zh": "萊希拉姆"}, {"index": "0644", "name_zh": "捷克羅姆"}, {"index": "0645", "name_zh": "土地雲"}, {"index": "0646", "name_zh": "酋雷姆"}, {"index": "0647", "name_zh": "凱路迪歐"}, {"index": "0648", "name_zh": "美洛耶塔"}, {"index": "0649", "name_zh": "蓋諾賽克特"}, {"index": "0650", "name_zh": "哈力慄"}, {"index": "0651", "name_zh": "胖胖哈力"}, {"index": "0652", "name_zh": "布里卡隆"}, {"index": "0653", "name_zh": "火狐狸"}, {"index": "0654", "name_zh": "長尾火狐"}, {"index": "0655", "name_zh": "妖火紅狐"}, {"index": "0656", "name_zh": "呱呱泡蛙"}, {"index": "0657", "name_zh": "呱頭蛙"}, {"index": "0658", "name_zh": "甲賀忍蛙"}, {"index": "0659", "name_zh": "掘掘兔"}, {"index": "0660", "name_zh": "掘地兔"}, {"index": "0661", "name_zh": "小箭雀"}, {"index": "0662", "name_zh": "火箭雀"}, {"index": "0663", "name_zh": "烈箭鷹"}, {"index": "0664", "name_zh": "粉蝶蟲"}, {"index": "0665", "name_zh": "粉蝶蛹"}, {"index": "0666", "name_zh": "彩粉蝶"}, {"index": "0667", "name_zh": "小獅獅"}, {"index": "0668", "name_zh": "火炎獅"}, {"index": "0669", "name_zh": "花蓓蓓"}, {"index": "0670", "name_zh": "花葉蒂"}, {"index": "0671", "name_zh": "花潔夫人"}, {"index": "0672", "name_zh": "坐騎小羊"}, {"index": "0673", "name_zh": "坐騎山羊"}, {"index": "0674", "name_zh": "頑皮熊貓"}, {"index": "0675", "name_zh": "流氓熊貓"}, {"index": "0676", "name_zh": "多麗米亞"}, {"index": "0677", "name_zh": "妙喵"}, {"index": "0678", "name_zh": "超能妙喵"}, {"index": "0679", "name_zh": "獨劍鞘"}, {"index": "0680", "name_zh": "雙劍鞘"}, {"index": "0681", "name_zh": "堅盾劍怪"}, {"index": "0682", "name_zh": "粉香香"}, {"index": "0683", "name_zh": "芳香精"}, {"index": "0684", "name_zh": "綿綿泡芙"}, {"index": "0685", "name_zh": "胖甜妮"}, {"index": "0686", "name_zh": "好啦魷"}, {"index": "0687", "name_zh": "烏賊王"}, {"index": "0688", "name_zh": "龜腳腳"}, {"index": "0689", "name_zh": "龜足巨鎧"}, {"index": "0690", "name_zh": "垃垃藻"}, {"index": "0691", "name_zh": "毒藻龍"}, {"index": "0692", "name_zh": "鐵臂槍蝦"}, {"index": "0693", "name_zh": "鋼炮臂蝦"}, {"index": "0694", "name_zh": "傘電蜥"}, {"index": "0695", "name_zh": "光電傘蜥"}, {"index": "0696", "name_zh": "寶寶暴龍"}, {"index": "0697", "name_zh": "怪顎龍"}, {"index": "0698", "name_zh": "冰雪龍"}, {"index": "0699", "name_zh": "冰雪巨龍"}, {"index": "0700", "name_zh": "仙子伊布"}, {"index": "0701", "name_zh": "摔角鷹人"}, {"index": "0702", "name_zh": "咚咚鼠"}, {"index": "0703", "name_zh": "小碎鑽"}, {"index": "0704", "name_zh": "黏黏寶"}, {"index": "0705", "name_zh": "黏美兒"}, {"index": "0706", "name_zh": "黏美龍"}, {"index": "0707", "name_zh": "鑰圈兒"}, {"index": "0708", "name_zh": "小木靈"}, {"index": "0709", "name_zh": "朽木妖"}, {"index": "0710", "name_zh": "南瓜精"}, {"index": "0711", "name_zh": "南瓜怪人"}, {"index": "0712", "name_zh": "冰寶"}, {"index": "0713", "name_zh": "冰岩怪"}, {"index": "0714", "name_zh": "嗡蝠"}, {"index": "0715", "name_zh": "音波龍"}, {"index": "0716", "name_zh": "哲爾尼亞斯"}, {"index": "0717", "name_zh": "伊裴爾塔爾"}, {"index": "0718", "name_zh": "基格爾德"}, {"index": "0719", "name_zh": "蒂安希"}, {"index": "0720", "name_zh": "胡帕"}, {"index": "0721", "name_zh": "波爾凱尼恩"}, {"index": "0722", "name_zh": "木木梟"}, {"index": "0723", "name_zh": "投羽梟"}, {"index": "0724", "name_zh": "狙射樹梟"}, {"index": "0725", "name_zh": "火斑喵"}, {"index": "0726", "name_zh": "炎熱喵"}, {"index": "0727", "name_zh": "熾焰咆哮虎"}, {"index": "0728", "name_zh": "球球海獅"}, {"index": "0729", "name_zh": "花漾海獅"}, {"index": "0730", "name_zh": "西獅海壬"}, {"index": "0731", "name_zh": "小篤兒"}, {"index": "0732", "name_zh": "喇叭啄鳥"}, {"index": "0733", "name_zh": "銃嘴大鳥"}, {"index": "0734", "name_zh": "貓鼬少"}, {"index": "0735", "name_zh": "貓鼬探長"}, {"index": "0736", "name_zh": "強顎雞母蟲"}, {"index": "0737", "name_zh": "蟲電寶"}, {"index": "0738", "name_zh": "鍬農炮蟲"}, {"index": "0739", "name_zh": "好勝蟹"}, {"index": "0740", "name_zh": "好勝毛蟹"}, {"index": "0741", "name_zh": "花舞鳥"}, {"index": "0742", "name_zh": "萌虻"}, {"index": "0743", "name_zh": "蝶結萌虻"}, {"index": "0744", "name_zh": "巖狗狗"}, {"index": "0745", "name_zh": "鬃巖狼人"}, {"index": "0746", "name_zh": "弱丁魚"}, {"index": "0747", "name_zh": "好壞星"}, {"index": "0748", "name_zh": "超壞星"}, {"index": "0749", "name_zh": "泥驢仔"}, {"index": "0750", "name_zh": "重泥挽馬"}, {"index": "0751", "name_zh": "滴蛛"}, {"index": "0752", "name_zh": "滴蛛霸"}, {"index": "0753", "name_zh": "偽螳草"}, {"index": "0754", "name_zh": "蘭螳花"}, {"index": "0755", "name_zh": "睡睡菇"}, {"index": "0756", "name_zh": "燈罩夜菇"}, {"index": "0757", "name_zh": "夜盜火蜥"}, {"index": "0758", "name_zh": "焰後蜥"}, {"index": "0759", "name_zh": "童偶熊"}, {"index": "0760", "name_zh": "穿著熊"}, {"index": "0761", "name_zh": "甜竹竹"}, {"index": "0762", "name_zh": "甜舞妮"}, {"index": "0763", "name_zh": "甜冷美后"}, {"index": "0764", "name_zh": "花療環環"}, {"index": "0765", "name_zh": "智揮猩"}, {"index": "0766", "name_zh": "投擲猴"}, {"index": "0767", "name_zh": "膽小蟲"}, {"index": "0768", "name_zh": "具甲武者"}, {"index": "0769", "name_zh": "沙丘娃"}, {"index": "0770", "name_zh": "噬沙堡爺"}, {"index": "0771", "name_zh": "拳海參"}, {"index": "0772", "name_zh": "屬性：空"}, {"index": "0773", "name_zh": "銀伴戰獸"}, {"index": "0774", "name_zh": "小隕星"}, {"index": "0775", "name_zh": "樹枕尾熊"}, {"index": "0776", "name_zh": "爆焰龜獸"}, {"index": "0777", "name_zh": "託戈德瑪爾"}, {"index": "0778", "name_zh": "謎擬Ｑ"}, {"index": "0779", "name_zh": "磨牙彩皮魚"}, {"index": "0780", "name_zh": "老翁龍"}, {"index": "0781", "name_zh": "破破舵輪"}, {"index": "0782", "name_zh": "心鱗寶"}, {"index": "0783", "name_zh": "鱗甲龍"}, {"index": "0784", "name_zh": "杖尾鱗甲龍"}, {"index": "0785", "name_zh": "卡璞・鳴鳴"}, {"index": "0786", "name_zh": "卡璞・蝶蝶"}, {"index": "0787", "name_zh": "卡璞・哞哞"}, {"index": "0788", "name_zh": "卡璞・鰭鰭"}, {"index": "0789", "name_zh": "科斯莫古"}, {"index": "0790", "name_zh": "科斯莫姆"}, {"index": "0791", "name_zh": "索爾迦雷歐"}, {"index": "0792", "name_zh": "露奈雅拉"}, {"index": "0793", "name_zh": "虛吾伊德"}, {"index": "0794", "name_zh": "爆肌蚊"}, {"index": "0795", "name_zh": "費洛美螂"}, {"index": "0796", "name_zh": "電束木"}, {"index": "0797", "name_zh": "鐵火輝夜"}, {"index": "0798", "name_zh": "紙御劍"}, {"index": "0799", "name_zh": "惡食大王"}, {"index": "0800", "name_zh": "奈克洛茲瑪"}, {"index": "0801", "name_zh": "瑪機雅娜"}, {"index": "0802", "name_zh": "瑪夏多"}, {"index": "0803", "name_zh": "毒貝比"}, {"index": "0804", "name_zh": "四顎針龍"}, {"index": "0805", "name_zh": "壘磊石"}, {"index": "0806", "name_zh": "砰頭小丑"}, {"index": "0807", "name_zh": "捷拉奧拉"}, {"index": "0808", "name_zh": "美錄坦"}, {"index": "0809", "name_zh": "美錄梅塔"}, {"index": "0810", "name_zh": "敲音猴"}, {"index": "0811", "name_zh": "啪咚猴"}, {"index": "0812", "name_zh": "轟擂金剛猩"}, {"index": "0813", "name_zh": "炎兔兒"}, {"index": "0814", "name_zh": "騰蹴小將"}, {"index": "0815", "name_zh": "閃焰王牌"}, {"index": "0816", "name_zh": "淚眼蜥"}, {"index": "0817", "name_zh": "變澀蜥"}, {"index": "0818", "name_zh": "千面避役"}, {"index": "0819", "name_zh": "貪心栗鼠"}, {"index": "0820", "name_zh": "藏飽栗鼠"}, {"index": "0821", "name_zh": "稚山雀"}, {"index": "0822", "name_zh": "藍鴉"}, {"index": "0823", "name_zh": "鋼鎧鴉"}, {"index": "0824", "name_zh": "索偵蟲"}, {"index": "0825", "name_zh": "天罩蟲"}, {"index": "0826", "name_zh": "以歐路普"}, {"index": "0827", "name_zh": "偷兒狐"}, {"index": "0828", "name_zh": "狐大盜"}, {"index": "0829", "name_zh": "幼棉棉"}, {"index": "0830", "name_zh": "白蓬蓬"}, {"index": "0831", "name_zh": "毛辮羊"}, {"index": "0832", "name_zh": "毛毛角羊"}, {"index": "0833", "name_zh": "咬咬龜"}, {"index": "0834", "name_zh": "暴噬龜"}, {"index": "0835", "name_zh": "來電汪"}, {"index": "0836", "name_zh": "逐電犬"}, {"index": "0837", "name_zh": "小炭仔"}, {"index": "0838", "name_zh": "大炭車"}, {"index": "0839", "name_zh": "巨炭山"}, {"index": "0840", "name_zh": "啃果蟲"}, {"index": "0841", "name_zh": "蘋裹龍"}, {"index": "0842", "name_zh": "豐蜜龍"}, {"index": "0843", "name_zh": "沙包蛇"}, {"index": "0844", "name_zh": "沙螺蟒"}, {"index": "0845", "name_zh": "古月鳥"}, {"index": "0846", "name_zh": "刺梭魚"}, {"index": "0847", "name_zh": "戽斗尖梭"}, {"index": "0848", "name_zh": "毒電嬰"}, {"index": "0849", "name_zh": "顫弦蠑螈"}, {"index": "0850", "name_zh": "燒火蚣"}, {"index": "0851", "name_zh": "焚焰蚣"}, {"index": "0852", "name_zh": "拳拳蛸"}, {"index": "0853", "name_zh": "八爪武師"}, {"index": "0854", "name_zh": "來悲茶"}, {"index": "0855", "name_zh": "怖思壺"}, {"index": "0856", "name_zh": "迷布莉姆"}, {"index": "0857", "name_zh": "提布莉姆"}, {"index": "0858", "name_zh": "布莉姆溫"}, {"index": "0859", "name_zh": "搗蛋小妖"}, {"index": "0860", "name_zh": "詐唬魔"}, {"index": "0861", "name_zh": "長毛巨魔"}, {"index": "0862", "name_zh": "堵攔熊"}, {"index": "0863", "name_zh": "喵頭目"}, {"index": "0864", "name_zh": "魔靈珊瑚"}, {"index": "0865", "name_zh": "蔥遊兵"}, {"index": "0866", "name_zh": "踏冰人偶"}, {"index": "0867", "name_zh": "死神板"}, {"index": "0868", "name_zh": "小仙奶"}, {"index": "0869", "name_zh": "霜奶仙"}, {"index": "0870", "name_zh": "列陣兵"}, {"index": "0871", "name_zh": "啪嚓海膽"}, {"index": "0872", "name_zh": "雪吞蟲"}, {"index": "0873", "name_zh": "雪絨蛾"}, {"index": "0874", "name_zh": "巨石丁"}, {"index": "0875", "name_zh": "冰砌鵝"}, {"index": "0876", "name_zh": "愛管侍"}, {"index": "0877", "name_zh": "莫魯貝可"}, {"index": "0878", "name_zh": "銅象"}, {"index": "0879", "name_zh": "大王銅象"}, {"index": "0880", "name_zh": "雷鳥龍"}, {"index": "0881", "name_zh": "雷鳥海獸"}, {"index": "0882", "name_zh": "鰓魚龍"}, {"index": "0883", "name_zh": "鰓魚海獸"}, {"index": "0884", "name_zh": "鋁鋼龍"}, {"index": "0885", "name_zh": "多龍梅西亞"}, {"index": "0886", "name_zh": "多龍奇"}, {"index": "0887", "name_zh": "多龍巴魯託"}, {"index": "0888", "name_zh": "蒼響"}, {"index": "0889", "name_zh": "藏瑪然特"}, {"index": "0890", "name_zh": "無極汰那"}, {"index": "0891", "name_zh": "熊徒弟"}, {"index": "0892", "name_zh": "武道熊師"}, {"index": "0893", "name_zh": "薩戮德"}, {"index": "0894", "name_zh": "雷吉艾勒奇"}, {"index": "0895", "name_zh": "雷吉鐸拉戈"}, {"index": "0896", "name_zh": "雪暴馬"}, {"index": "0897", "name_zh": "靈幽馬"}, {"index": "0898", "name_zh": "蕾冠王"}, {"index": "0899", "name_zh": "詭角鹿"}, {"index": "0900", "name_zh": "劈斧螳螂"}, {"index": "0901", "name_zh": "月月熊"}, {"index": "0902", "name_zh": "幽尾玄魚"}, {"index": "0903", "name_zh": "大狃拉"}, {"index": "0904", "name_zh": "萬針魚"}, {"index": "0905", "name_zh": "眷戀雲"}, {"index": "0906", "name_zh": "新葉喵"}, {"index": "0907", "name_zh": "蒂蕾喵"}, {"index": "0908", "name_zh": "魔幻假面喵"}, {"index": "0909", "name_zh": "呆火鱷"}, {"index": "0910", "name_zh": "炙燙鱷"}, {"index": "0911", "name_zh": "骨紋巨聲鱷"}, {"index": "0912", "name_zh": "潤水鴨"}, {"index": "0913", "name_zh": "湧躍鴨"}, {"index": "0914", "name_zh": "狂歡浪舞鴨"}, {"index": "0915", "name_zh": "愛吃豚"}, {"index": "0916", "name_zh": "飄香豚"}, {"index": "0917", "name_zh": "團珠蛛"}, {"index": "0918", "name_zh": "操陷蛛"}, {"index": "0919", "name_zh": "豆蟋蟀"}, {"index": "0920", "name_zh": "烈腿蝗"}, {"index": "0921", "name_zh": "布撥"}, {"index": "0922", "name_zh": "布土撥"}, {"index": "0923", "name_zh": "巴布土撥"}, {"index": "0924", "name_zh": "一對鼠"}, {"index": "0925", "name_zh": "一家鼠"}, {"index": "0926", "name_zh": "狗仔包"}, {"index": "0927", "name_zh": "麻花犬"}, {"index": "0928", "name_zh": "迷你芙"}, {"index": "0929", "name_zh": "奧利紐"}, {"index": "0930", "name_zh": "奧利瓦"}, {"index": "0931", "name_zh": "怒鸚哥"}, {"index": "0932", "name_zh": "鹽石寶"}, {"index": "0933", "name_zh": "鹽石壘"}, {"index": "0934", "name_zh": "鹽石巨靈"}, {"index": "0935", "name_zh": "炭小侍"}, {"index": "0936", "name_zh": "紅蓮鎧騎"}, {"index": "0937", "name_zh": "蒼炎刃鬼"}, {"index": "0938", "name_zh": "光蚪仔"}, {"index": "0939", "name_zh": "電肚蛙"}, {"index": "0940", "name_zh": "電海燕"}, {"index": "0941", "name_zh": "大電海燕"}, {"index": "0942", "name_zh": "偶叫獒"}, {"index": "0943", "name_zh": "獒教父"}, {"index": "0944", "name_zh": "滋汁鼴"}, {"index": "0945", "name_zh": "塗標客"}, {"index": "0946", "name_zh": "納噬草"}, {"index": "0947", "name_zh": "怖納噬草"}, {"index": "0948", "name_zh": "原野水母"}, {"index": "0949", "name_zh": "陸地水母"}, {"index": "0950", "name_zh": "毛崖蟹"}, {"index": "0951", "name_zh": "熱辣娃"}, {"index": "0952", "name_zh": "狠辣椒"}, {"index": "0953", "name_zh": "蟲滾泥"}, {"index": "0954", "name_zh": "蟲甲聖"}, {"index": "0955", "name_zh": "飄飄雛"}, {"index": "0956", "name_zh": "超能豔鴕"}, {"index": "0957", "name_zh": "小鍛匠"}, {"index": "0958", "name_zh": "巧鍛匠"}, {"index": "0959", "name_zh": "巨鍛匠"}, {"index": "0960", "name_zh": "海地鼠"}, {"index": "0961", "name_zh": "三海地鼠"}, {"index": "0962", "name_zh": "下石鳥"}, {"index": "0963", "name_zh": "波普海豚"}, {"index": "0964", "name_zh": "海豚俠"}, {"index": "0965", "name_zh": "噗隆隆"}, {"index": "0966", "name_zh": "普隆隆姆"}, {"index": "0967", "name_zh": "摩托蜥"}, {"index": "0968", "name_zh": "拖拖蚓"}, {"index": "0969", "name_zh": "晶光芽"}, {"index": "0970", "name_zh": "晶光花"}, {"index": "0971", "name_zh": "墓仔狗"}, {"index": "0972", "name_zh": "墓揚犬"}, {"index": "0973", "name_zh": "纏紅鶴"}, {"index": "0974", "name_zh": "走鯨"}, {"index": "0975", "name_zh": "浩大鯨"}, {"index": "0976", "name_zh": "輕身鱈"}, {"index": "0977", "name_zh": "吃吼霸"}, {"index": "0978", "name_zh": "米立龍"}, {"index": "0979", "name_zh": "棄世猴"}, {"index": "0980", "name_zh": "土王"}, {"index": "0981", "name_zh": "奇麒麟"}, {"index": "0982", "name_zh": "土龍節節"}, {"index": "0983", "name_zh": "僕斬將軍"}, {"index": "0984", "name_zh": "雄偉牙"}, {"index": "0985", "name_zh": "吼叫尾"}, {"index": "0986", "name_zh": "猛惡菇"}, {"index": "0987", "name_zh": "振翼發"}, {"index": "0988", "name_zh": "爬地翅"}, {"index": "0989", "name_zh": "沙鐵皮"}, {"index": "0990", "name_zh": "鐵轍跡"}, {"index": "0991", "name_zh": "鐵包袱"}, {"index": "0992", "name_zh": "鐵臂膀"}, {"index": "0993", "name_zh": "鐵脖頸"}, {"index": "0994", "name_zh": "鐵毒蛾"}, {"index": "0995", "name_zh": "鐵荊棘"}, {"index": "0996", "name_zh": "涼脊龍"}, {"index": "0997", "name_zh": "凍脊龍"}, {"index": "0998", "name_zh": "戟脊龍"}, {"index": "0999", "name_zh": "索財靈"}, {"index": "1000", "name_zh": "賽富豪"}, {"index": "1001", "name_zh": "古簡蝸"}, {"index": "1002", "name_zh": "古劍豹"}, {"index": "1003", "name_zh": "古鼎鹿"}, {"index": "1004", "name_zh": "古玉魚"}, {"index": "1005", "name_zh": "轟鳴月"}, {"index": "1006", "name_zh": "鐵武者"}, {"index": "1007", "name_zh": "故勒頓"}, {"index": "1008", "name_zh": "密勒頓"}, {"index": "1009", "name_zh": "波盪水"}, {"index": "1010", "name_zh": "鐵斑葉"}, {"index": "1011", "name_zh": "裹蜜蟲"}, {"index": "1012", "name_zh": "斯魔茶"}, {"index": "1013", "name_zh": "來悲粗茶"}, {"index": "1014", "name_zh": "夠贊狗"}, {"index": "1015", "name_zh": "願增猿"}, {"index": "1016", "name_zh": "吉雉雞"}, {"index": "1017", "name_zh": "厄詭椪"}, {"index": "1018", "name_zh": "鋁鋼橋龍"}, {"index": "1019", "name_zh": "蜜集大蛇"}, {"index": "1020", "name_zh": "破空焰"}, {"index": "1021", "name_zh": "猛雷鼓"}, {"index": "1022", "name_zh": "鐵磐巖"}, {"index": "1023", "name_zh": "鐵頭殼"}, {"index": "1024", "name_zh": "太樂巴戈斯"}, {"index": "1025", "name_zh": "桃歹郎"}];
+const searchInput = document.getElementById('pokemon-search');
+    const dropdownList = document.getElementById('dropdown-list');
+    const contentEl = document.getElementById('content');
+
+    // ===== 深色 / 淺色模式 =====
+    const themeToggle = document.getElementById('theme-toggle');
+    function applyTheme(theme) {
+      const dark = theme === 'dark';
+      document.body.classList.toggle('dark-theme', dark);
+      if (themeToggle) {
+        themeToggle.querySelector('.theme-toggle-icon').textContent = dark ? '☀️' : '🌙';
+        themeToggle.querySelector('.theme-toggle-text').textContent = dark ? '淺色' : '深色';
+        themeToggle.setAttribute('aria-label', dark ? '切換淺色模式' : '切換深色模式');
+        themeToggle.title = dark ? '切換淺色模式' : '切換深色模式';
+      }
+    }
+    const savedTheme = localStorage.getItem('pokemon-calc-theme');
+    applyTheme(savedTheme === 'dark' ? 'dark' : 'light');
+    if (themeToggle) {
+      themeToggle.addEventListener('click', () => {
+        const next = document.body.classList.contains('dark-theme') ? 'light' : 'dark';
+        applyTheme(next);
+        localStorage.setItem('pokemon-calc-theme', next);
+      });
+    }
+
+    const pokedex = EMBEDDED_POKEDEX;
+            let selectedIndex = null;
+    let activeIdx = -1;
+    let currentData = null;
+    let currentBaseStats = {};   // 目前選中的 form 種族值（給計算用）
+    let currentFormLabel = '一般';
+    let currentShiny = false;    // 異色開關
+
+    function buildDropdownItems(filterText = '') {
+      const q = (filterText || '').trim().toLowerCase();
+      let matched = pokedex;
+      if (q) {
+        matched = pokedex.filter(p => {
+          const idx = p.index.toLowerCase();
+          const name = (p.name_zh || '').toLowerCase();
+          return idx.includes(q) || name.includes(q) ||
+                 idx.replace(/^0+/, '').startsWith(q.replace(/^0+/, ''));
+        });
+      }
+      // 直接渲染全部匹配結果（目前約 1025 隻），由 CSS max-height + overflow 控制
+      // 之後若資料量增加，仍會自動顯示全部，無需再改上限
+      if (!matched.length) {
+        dropdownList.innerHTML = '<div class="dropdown-empty">沒有符合的寶可夢</div>';
+        return;
+      }
+      let html = matched.map((p, i) =>
+        `<div class="dropdown-item" data-index="${p.index}" data-i="${i}">${p.index} - ${p.name_zh}</div>`
+      ).join('');
+      if (!q && matched.length > 80) {
+        html += `<div class="dropdown-empty">共 ${matched.length} 隻 · 可輸入編號或名稱快速篩選</div>`;
+      } else if (q && matched.length > 80) {
+        html += `<div class="dropdown-empty">找到 ${matched.length} 隻</div>`;
+      }
+      dropdownList.innerHTML = html;
+    }
+
+    function openDropdown() { dropdownList.classList.add('open'); activeIdx = -1; }
+    function closeDropdown() { dropdownList.classList.remove('open'); activeIdx = -1; }
+
+    function selectPokemon(index) {
+      const p = pokedex.find(x => x.index === index);
+      if (!p) return;
+      selectedIndex = index;
+      searchInput.value = `${p.index} - ${p.name_zh}`;
+      closeDropdown();
+      loadPokemon(index);
+    }
+
+    searchInput.addEventListener('input', () => {
+      selectedIndex = null;
+      buildDropdownItems(searchInput.value);
+      openDropdown();
+    });
+    searchInput.addEventListener('focus', () => {
+      buildDropdownItems(searchInput.value);
+      openDropdown();
+    });
+    searchInput.addEventListener('keydown', (e) => {
+      const items = [...dropdownList.querySelectorAll('.dropdown-item')];
+      if (!items.length) return;
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        activeIdx = Math.min(activeIdx + 1, items.length - 1);
+        items.forEach((el, i) => el.classList.toggle('active', i === activeIdx));
+        items[activeIdx]?.scrollIntoView({ block: 'nearest' });
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        activeIdx = Math.max(activeIdx - 1, 0);
+        items.forEach((el, i) => el.classList.toggle('active', i === activeIdx));
+        items[activeIdx]?.scrollIntoView({ block: 'nearest' });
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (activeIdx >= 0 && items[activeIdx]) selectPokemon(items[activeIdx].dataset.index);
+        else if (items.length === 1) selectPokemon(items[0].dataset.index);
+      } else if (e.key === 'Escape') closeDropdown();
+    });
+    dropdownList.addEventListener('click', (e) => {
+      const item = e.target.closest('.dropdown-item');
+      if (item) selectPokemon(item.dataset.index);
+    });
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.search-wrap')) closeDropdown();
+    });
+
+    
+    
+    
+    // ===== 性格與能力值計算（支援多實例比較）=====
+    const NATURES = [
+      { name: "勤奮", boost: null, nerf: null },
+      { name: "怕寂寞", boost: "attack", nerf: "defense" },
+      { name: "固執", boost: "attack", nerf: "sp_attack" },
+      { name: "頑皮", boost: "attack", nerf: "sp_defense" },
+      { name: "勇敢", boost: "attack", nerf: "speed" },
+      { name: "大膽", boost: "defense", nerf: "attack" },
+      { name: "坦率", boost: null, nerf: null },
+      { name: "淘氣", boost: "defense", nerf: "sp_attack" },
+      { name: "樂天", boost: "defense", nerf: "sp_defense" },
+      { name: "悠閒", boost: "defense", nerf: "speed" },
+      { name: "內斂", boost: "sp_attack", nerf: "attack" },
+      { name: "慢吞吞", boost: "sp_attack", nerf: "defense" },
+      { name: "害羞", boost: null, nerf: null },
+      { name: "馬虎", boost: "sp_attack", nerf: "sp_defense" },
+      { name: "冷靜", boost: "sp_attack", nerf: "speed" },
+      { name: "溫和", boost: "sp_defense", nerf: "attack" },
+      { name: "溫順", boost: "sp_defense", nerf: "defense" },
+      { name: "慎重", boost: "sp_defense", nerf: "sp_attack" },
+      { name: "浮躁", boost: null, nerf: null },
+      { name: "自大", boost: "sp_defense", nerf: "speed" },
+      { name: "膽小", boost: "speed", nerf: "attack" },
+      { name: "急躁", boost: "speed", nerf: "defense" },
+      { name: "爽朗", boost: "speed", nerf: "sp_attack" },
+      { name: "天真", boost: "speed", nerf: "sp_defense" },
+      { name: "認真", boost: null, nerf: null },
+    ];
+
+    const STAT_LABELS = { hp: "HP", attack: "攻擊", defense: "防禦", sp_attack: "特攻", sp_defense: "特防", speed: "速度" };
+    const STAT_KEYS = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed"];
+
+    let calcIdCounter = 0;
+
+    function natureOptionText(n) {
+      if (!n.boost) return n.name + " (±0)";
+      return `${n.name} (+${STAT_LABELS[n.boost]} -${STAT_LABELS[n.nerf]})`;
+    }
+
+    function buildNatureOptions(selected = 0) {
+      return NATURES.map((n, i) =>
+        `<option value="${i}" ${i === selected ? "selected" : ""}>${natureOptionText(n)}</option>`
+      ).join("");
+    }
+
+    function calcStat(base, iv, ev, level, isHP, natureMod) {
+      const term = Math.floor((base * 2 + iv + Math.floor(ev / 4)) * level / 100);
+      if (isHP) return term + level + 10;
+      return Math.floor((term + 5) * natureMod);
+    }
+
+    function getNatureMod(nature, key) {
+      if (!nature || !nature.boost) return 1.0;
+      if (key === nature.boost) return 1.1;
+      if (key === nature.nerf) return 0.9;
+      return 1.0;
+    }
+
+    function getNum(id, def, min, max) {
+      const el = document.getElementById(id);
+      if (!el) return def;
+      let v = parseInt(el.value, 10);
+      if (isNaN(v)) v = def;
+      return Math.max(min, Math.min(max, v));
+    }
+
+    function updateCalcResults(cid) {
+      if (!currentData || !currentData.stats) return;
+      const baseMap = currentBaseStats && Object.keys(currentBaseStats).length
+        ? currentBaseStats
+        : ((currentData.stats[0] && currentData.stats[0].data) || {});
+      const level = getNum(`calc-level-${cid}`, 50, 1, 100);
+      const natureIdx = getNum(`calc-nature-${cid}`, 0, 0, NATURES.length - 1);
+      const nature = NATURES[natureIdx];
+      const isShedinja = (currentData.name_zh || "").includes("脫殼忍者") ||
+                         (currentData.pokedex_id === "0292") ||
+                         (currentData.name_en || "").toLowerCase() === "shedinja";
+
+      const area = document.getElementById(`calc-results-${cid}`);
+      if (!area) return;
+
+      area.innerHTML = STAT_KEYS.map(key => {
+        const base = parseInt(baseMap[key], 10) || 0;
+        const iv = getNum(`iv-${cid}-${key}`, 31, 0, 31);
+        const ev = getNum(`ev-${cid}-${key}`, 0, 0, 252);
+        let val;
+        if (key === "hp" && isShedinja) {
+          val = 1;
+        } else {
+          const mod = key === "hp" ? 1.0 : getNatureMod(nature, key);
+          val = calcStat(base, iv, ev, level, key === "hp", mod);
+        }
+        let cls = "calc-result-item";
+        if (key !== "hp" && nature.boost === key) cls += " boost";
+        if (key !== "hp" && nature.nerf === key) cls += " nerf";
+        return `<div class="${cls}"><span class="r-label">${STAT_LABELS[key]}</span><span class="r-value">${val}</span></div>`;
+      }).join("");
+
+      // EV total
+      const total = STAT_KEYS.reduce((s, k) => s + getNum(`ev-${cid}-${k}`, 0, 0, 252), 0);
+      const tel = document.getElementById(`ev-total-${cid}`);
+      if (tel) {
+        tel.textContent = `努力值合計：${total} / 510`;
+        tel.classList.toggle("over", total > 510);
+      }
+    }
+
+    function onIvChange(cid, key) {
+      const num = document.getElementById(`iv-${cid}-${key}`);
+      const range = document.getElementById(`iv-range-${cid}-${key}`);
+      if (!num) return;
+      let v = parseInt(num.value, 10);
+      if (isNaN(v)) v = 31;
+      v = Math.max(0, Math.min(31, v));
+      num.value = v;
+      if (range) range.value = v;
+      updateCalcResults(cid);
+    }
+
+    function onIvRange(cid, key) {
+      const num = document.getElementById(`iv-${cid}-${key}`);
+      const range = document.getElementById(`iv-range-${cid}-${key}`);
+      if (!range || !num) return;
+      num.value = range.value;
+      updateCalcResults(cid);
+    }
+
+    function onEvChange(cid, key) {
+      const num = document.getElementById(`ev-${cid}-${key}`);
+      const range = document.getElementById(`ev-range-${cid}-${key}`);
+      if (!num) return;
+      let v = parseInt(num.value, 10);
+      if (isNaN(v)) v = 0;
+      v = Math.max(0, Math.min(252, v));
+      const others = STAT_KEYS.filter(k => k !== key).reduce((s, k) => s + getNum(`ev-${cid}-${k}`, 0, 0, 252), 0);
+      if (others + v > 510) v = Math.max(0, 510 - others);
+      num.value = v;
+      if (range) range.value = v;
+      updateCalcResults(cid);
+    }
+
+    function onEvRange(cid, key) {
+      const num = document.getElementById(`ev-${cid}-${key}`);
+      const range = document.getElementById(`ev-range-${cid}-${key}`);
+      if (!range || !num) return;
+      let v = parseInt(range.value, 10);
+      const others = STAT_KEYS.filter(k => k !== key).reduce((s, k) => s + getNum(`ev-${cid}-${k}`, 0, 0, 252), 0);
+      if (others + v > 510) {
+        v = Math.max(0, 510 - others);
+        range.value = v;
+      }
+      num.value = v;
+      updateCalcResults(cid);
+    }
+
+    function resetCalc(cid) {
+      const levelEl = document.getElementById(`calc-level-${cid}`);
+      if (levelEl) levelEl.value = 50;
+      const natureEl = document.getElementById(`calc-nature-${cid}`);
+      if (natureEl) natureEl.value = 0;
+      STAT_KEYS.forEach(key => {
+        const ivn = document.getElementById(`iv-${cid}-${key}`);
+        const ivr = document.getElementById(`iv-range-${cid}-${key}`);
+        const evn = document.getElementById(`ev-${cid}-${key}`);
+        const evr = document.getElementById(`ev-range-${cid}-${key}`);
+        if (ivn) ivn.value = 31;
+        if (ivr) ivr.value = 31;
+        if (evn) evn.value = 0;
+        if (evr) evr.value = 0;
+      });
+      updateCalcResults(cid);
+    }
+
+    function getFinalStat(cid, key) {
+      if (!currentData || !currentData.stats) return 0;
+      const baseMap = currentBaseStats && Object.keys(currentBaseStats).length
+        ? currentBaseStats
+        : ((currentData.stats[0] && currentData.stats[0].data) || {});
+      const base = parseInt(baseMap[key], 10) || 0;
+      const level = getNum(`calc-level-${cid}`, 50, 1, 100);
+      const natureIdx = getNum(`calc-nature-${cid}`, 0, 0, NATURES.length - 1);
+      const nature = NATURES[natureIdx];
+      const iv = getNum(`iv-${cid}-${key}`, 31, 0, 31);
+      const ev = getNum(`ev-${cid}-${key}`, 0, 0, 252);
+      const isShedinja = (currentData.name_zh || "").includes("脫殼忍者") ||
+                         (currentData.pokedex_id === "0292") ||
+                         (currentData.name_en || "").toLowerCase() === "shedinja";
+      if (key === "hp" && isShedinja) return 1;
+      const mod = key === "hp" ? 1.0 : getNatureMod(nature, key);
+      return calcStat(base, iv, ev, level, key === "hp", mod);
+    }
+
+    // 自動血防調整：把剩餘努力值（以4為單位）分配到 HP / 防禦 / 特防
+    // 目標：最大化「物理耐久 + 特殊耐久」= HP×Def + HP×SpD
+    // （參考傷害公式中 攻擊/防禦 與 特攻/特防 的對稱性，讓兩邊 bulk 都提升）
+    function autoBulk(cid) {
+      if (!currentData) return;
+      const isShedinja = (currentData.name_zh || "").includes("脫殼忍者") ||
+                         (currentData.pokedex_id === "0292") ||
+                         (currentData.name_en || "").toLowerCase() === "shedinja";
+      if (isShedinja) {
+        // 脫殼忍者 HP 固定，只把剩餘點分給 Def / SpD
+        // 仍用相同邏輯
+      }
+
+      // 先讀取目前非血防的 EV，計算剩餘
+      let used = 0;
+      STAT_KEYS.forEach(k => { used += getNum(`ev-${cid}-${k}`, 0, 0, 252); });
+      let remaining = 510 - used;
+      if (remaining < 4) {
+        alert("剩餘努力值不足 4 點，無法再分配。");
+        return;
+      }
+
+      // 貪心：每次加 4 點到能讓 score = HP*(Def + SpD) 提升最多的那個
+      const targets = isShedinja ? ["defense", "sp_defense"] : ["hp", "defense", "sp_defense"];
+
+      while (remaining >= 4) {
+        // 讀取「當前」已調整後的最終能力值（包含使用者手動拉過的 EV）
+        const curHp = getFinalStat(cid, "hp");
+        const curDef = getFinalStat(cid, "defense");
+        const curSpd = getFinalStat(cid, "sp_defense");
+        const phys = curHp * curDef;   // 物理耐久
+        const spec = curHp * curSpd;   // 特殊耐久
+
+        // 根據目前哪邊較弱，決定優先加的方向
+        // 若物理較弱 → 優先考慮防禦或 HP
+        // 若特殊較弱 → 優先考慮特防或 HP
+        // 若相等 → 三者都可
+        let preferred;
+        if (phys < spec) {
+          preferred = ["defense", "hp", "sp_defense"];
+        } else if (spec < phys) {
+          preferred = ["sp_defense", "hp", "defense"];
+        } else {
+          preferred = ["hp", "defense", "sp_defense"];
+        }
+
+        // 只保留實際還能加的目標
+        preferred = preferred.filter(k => {
+          const ev = getNum(`ev-${cid}-${k}`, 0, 0, 252);
+          return targets.includes(k) && ev + 4 <= 252;
+        });
+
+        if (preferred.length === 0) break;
+
+        let bestKey = null;
+        let bestMin = -1;
+        let bestSum = -1;
+        let bestEv = 0;
+
+        for (const key of preferred) {
+          const curEv = getNum(`ev-${cid}-${key}`, 0, 0, 252);
+
+          // 暫時加 4 並計算新耐久
+          const el = document.getElementById(`ev-${cid}-${key}`);
+          const range = document.getElementById(`ev-range-${cid}-${key}`);
+          if (!el) continue;
+          el.value = curEv + 4;
+          if (range) range.value = curEv + 4;
+
+          const newHp = getFinalStat(cid, "hp");
+          const newDef = getFinalStat(cid, "defense");
+          const newSpd = getFinalStat(cid, "sp_defense");
+          const newPhys = newHp * newDef;
+          const newSpec = newHp * newSpd;
+          const newMin = Math.min(newPhys, newSpec);
+          const newSum = newPhys + newSpec;
+
+          // 還原
+          el.value = curEv;
+          if (range) range.value = curEv;
+
+          if (newMin > bestMin || (newMin === bestMin && newSum > bestSum)) {
+            bestMin = newMin;
+            bestSum = newSum;
+            bestKey = key;
+            bestEv = curEv + 4;
+          }
+        }
+
+        // 若因 flooring 導致分數都沒變，仍強制選第一個可加的（確保剩餘點數會被用完）
+        if (!bestKey) {
+          bestKey = preferred[0];
+          bestEv = getNum(`ev-${cid}-${bestKey}`, 0, 0, 252) + 4;
+        }
+
+        // 真正加上
+        const el = document.getElementById(`ev-${cid}-${bestKey}`);
+        const range = document.getElementById(`ev-range-${cid}-${bestKey}`);
+        if (el) el.value = bestEv;
+        if (range) range.value = bestEv;
+        remaining -= 4;
+      }
+
+      updateCalcResults(cid);
+    }
+
+
+
+    function removeCalc(cid) {
+      const card = document.getElementById(`calc-card-${cid}`);
+      if (card) card.remove();
+    }
+
+    function buildCalcCardHtml(cid, isPrimary = false) {
+      const ivRows = STAT_KEYS.map(key => {
+        const label = STAT_LABELS[key];
+        return `<div class="calc-row">
+          <span class="stat-name">${label}</span>
+          <input type="range" id="iv-range-${cid}-${key}" min="0" max="31" value="31" oninput="onIvRange(${cid}, '${key}')">
+          <input type="number" id="iv-${cid}-${key}" min="0" max="31" value="31" onchange="onIvChange(${cid}, '${key}')" oninput="onIvChange(${cid}, '${key}')">
+        </div>`;
+      }).join("");
+
+      const evRows = STAT_KEYS.map(key => {
+        const label = STAT_LABELS[key];
+        return `<div class="calc-row">
+          <span class="stat-name">${label}</span>
+          <input type="range" id="ev-range-${cid}-${key}" min="0" max="252" value="0" oninput="onEvRange(${cid}, '${key}')">
+          <input type="number" id="ev-${cid}-${key}" min="0" max="252" value="0" onchange="onEvChange(${cid}, '${key}')" oninput="onEvChange(${cid}, '${key}')">
+        </div>`;
+      }).join("");
+
+      const title = isPrimary ? "能力值計算" : `能力值計算（比較 #${cid}）`;
+      const extraClass = isPrimary ? "" : " calc-card-extra";
+      const removeBtn = isPrimary ? "" : `<button type="button" class="calc-btn danger" onclick="removeCalc(${cid})">刪除</button>`;
+
+      return `
+        <div class="card${extraClass}" id="calc-card-${cid}">
+          <div class="calc-header">
+            <div class="section-title">${title}</div>
+            <div class="calc-actions">
+              <button type="button" class="calc-btn" onclick="autoBulk(${cid})" title="把剩餘努力值自動分配到HP/防禦/特防，以最大化物理+特殊耐久">自動血防</button>
+              <button type="button" class="calc-btn" onclick="resetCalc(${cid})">重設</button>
+              ${isPrimary ? `<button type="button" class="calc-btn primary" onclick="addCalc()">＋</button>` : ""}
+              ${removeBtn}
+            </div>
+          </div>
+          <div class="calc-controls">
+            <label>等級 <input type="number" id="calc-level-${cid}" value="50" min="1" max="100" oninput="updateCalcResults(${cid})"></label>
+            <label>性格
+              <select id="calc-nature-${cid}" onchange="updateCalcResults(${cid})">
+                ${buildNatureOptions(0)}
+              </select>
+            </label>
+          </div>
+          <div class="calc-grid">
+            <div class="calc-col">
+              <div class="calc-col-title">個體值 (0–31)</div>
+              ${ivRows}
+            </div>
+            <div class="calc-col">
+              <div class="calc-col-title">努力值 (0–252)</div>
+              ${evRows}
+              <div class="ev-total" id="ev-total-${cid}">努力值合計：0 / 510</div>
+            </div>
+            <div class="calc-col calc-col-result">
+              <div class="calc-col-title">結果</div>
+              <div id="calc-results-${cid}"></div>
+            </div>
+          </div>
+          <div class="calc-note">努力值總和上限 510。脫殼忍者 HP 固定為 1。</div>
+        </div>`;
+    }
+
+    function addCalc() {
+      const container = document.getElementById("calc-container");
+      if (!container) return;
+      calcIdCounter += 1;
+      const cid = calcIdCounter;
+      container.insertAdjacentHTML("beforeend", buildCalcCardHtml(cid, false));
+      updateCalcResults(cid);
+    }
+
+    function initPrimaryCalc() {
+      const container = document.getElementById("calc-container");
+      if (!container) return;
+      calcIdCounter = 0;
+      container.innerHTML = buildCalcCardHtml(0, true);
+      updateCalcResults(0);
+    }
+
+function typeClass(t) { return 'type-' + t; }
+
+    function renderWeaknesses(teData, formLabel = null) {
+      if (!teData || !teData.length) return '<p class="placeholder">無弱點資料</p>';
+      let entry = teData[0];
+      if (formLabel && !isBaseFormLabel(formLabel, currentData)) {
+        const key = extractFormKey(formLabel);
+        entry = teData.find(t => t.form === formLabel)
+            || (key ? teData.find(t => t.form && t.form.includes(key)) : null)
+            || teData.find(t => t.form && (formLabel.includes(t.form) || t.form.includes(formLabel)))
+            || teData.find(t => !t.form || t.form === '')
+            || teData[0];
+      } else {
+        // 一般形態：優先用空 form，避開特性變體如「(引火)」
+        entry = teData.find(t => !t.form || t.form === '')
+            || teData.find(t => t.form && !t.form.startsWith('('))
+            || teData[0];
+      }
+      const data = (entry && entry.data) || [];
+      const weak = data.filter(d => parseFloat(d.damage) > 1);
+      if (!weak.length) return '<p class="placeholder">無特別弱點</p>';
+      return `<div class="weakness-grid">${weak.map(d => {
+        const mul = parseFloat(d.damage);
+        const cls = mul >= 4 ? 'x4' : 'x2';
+        return `<span class="weak-item ${cls}">${d.type} ×${mul}</span>`;
+      }).join('')}</div>`;
+    }
+
+    function renderTypes(types) {
+      if (!types || !types.length) return '<span class="placeholder">—</span>';
+      return types.map(t => `<span class="type-badge ${typeClass(t)}">${t}</span>`).join('');
+    }
+
+    function getFormTypes(formLabel, data) {
+      if (!data || !data.forms) return [];
+      const f = data.forms.find(x => x.name === formLabel)
+             || data.forms.find(x => formLabel && x.name && (formLabel.includes(x.name) || x.name.includes(formLabel)))
+             || data.forms[0];
+      return (f && f.types) || [];
+    }
+
+    function getFormAbilities(formLabel, data) {
+      if (!data || !data.forms) return [];
+      const f = data.forms.find(x => x.name === formLabel)
+             || data.forms.find(x => formLabel && x.name && (formLabel.includes(x.name) || x.name.includes(formLabel)))
+             || data.forms[0];
+      return (f && f.abilities) || [];
+    }
+
+    function renderAbilities(abilities) {
+      if (!abilities || !abilities.length) return '<span class="placeholder">—</span>';
+      return abilities.map(a => {
+        const name = typeof a === 'string' ? a : (a.name || '');
+        const hidden = typeof a === 'object' && a.is_hidden;
+        const cls = hidden ? 'ability-badge ability-hidden' : 'ability-badge';
+        const label = hidden ? `${name}（隱藏）` : name;
+        const safe = name.replace(/"/g, '&quot;');
+        return `<span class="${cls}" data-ability="${safe}" onmouseenter="showAbilityTip(event)" onmouseleave="hideAbilityTip()">${label}</span>`;
+      }).join('');
+    }
+
+    // 特性效果快取與 tooltip
+    const abilityCache = {};
+    let tipEl = null;
+
+    function ensureTipEl() {
+      if (tipEl) return tipEl;
+      tipEl = document.createElement('div');
+      tipEl.className = 'ability-tooltip';
+      tipEl.id = 'ability-tooltip';
+      document.body.appendChild(tipEl);
+      return tipEl;
+    }
+
+    function positionTip(e) {
+      const el = ensureTipEl();
+      const pad = 12;
+      let x = e.clientX + pad;
+      let y = e.clientY + pad;
+      el.style.display = 'block';
+      const rect = el.getBoundingClientRect();
+      if (x + rect.width > window.innerWidth - 8) x = e.clientX - rect.width - pad;
+      if (y + rect.height > window.innerHeight - 8) y = e.clientY - rect.height - pad;
+      el.style.left = Math.max(8, x) + 'px';
+      el.style.top = Math.max(8, y) + 'px';
+    }
+
+    async function showAbilityTip(e) {
+      const name = e.currentTarget.getAttribute('data-ability');
+      if (!name) return;
+      const el = ensureTipEl();
+      el.innerHTML = `<div class="tip-name">${name}</div><div class="tip-loading">載入中…</div>`;
+      positionTip(e);
+
+      // 跟隨滑鼠
+      const moveHandler = (ev) => positionTip(ev);
+      e.currentTarget._tipMove = moveHandler;
+      document.addEventListener('mousemove', moveHandler);
+
+      try {
+        let data = abilityCache[name];
+        if (!data) {
+          const res = await fetch(`data/abilities/${encodeURIComponent(name)}.json`);
+          if (!res.ok) throw new Error('not found');
+          data = await res.json();
+          abilityCache[name] = data;
+        }
+        const effect = data.effect || data.introduction || '（無效果說明）';
+        el.innerHTML = `<div class="tip-name">${data.name_zh || name}</div><div>${effect}</div>`;
+        // 重新定位（內容高度可能變了）
+        positionTip(e);
+      } catch (err) {
+        el.innerHTML = `<div class="tip-name">${name}</div><div class="tip-loading">找不到特性資料</div>`;
+      }
+    }
+
+    function hideAbilityTip() {
+      if (tipEl) tipEl.style.display = 'none';
+      // 移除可能殘留的 mousemove
+      document.querySelectorAll('.ability-badge').forEach(b => {
+        if (b._tipMove) {
+          document.removeEventListener('mousemove', b._tipMove);
+          b._tipMove = null;
+        }
+      });
+    }
+
+    function updateBaseStatTotal(statsOrData) {
+      let s = statsOrData || {};
+      if (Array.isArray(statsOrData)) {
+        s = (statsOrData[0] && statsOrData[0].data) || {};
+      }
+      const total = ['hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed']
+        .reduce((sum, key) => sum + (Number(s[key]) || 0), 0);
+      const totalEl = document.getElementById('base-stat-total');
+      if (totalEl) totalEl.textContent = `（總和：${total}）`;
+    }
+
+    function renderStats(statsOrData, formLabel = null) {
+      let s = {};
+      if (Array.isArray(statsOrData)) {
+        if (!statsOrData.length) return '<p class="placeholder">無種族值</p>';
+        // 若有指定 formLabel 就找對應，否則用第一筆
+        if (formLabel) {
+          const found = statsOrData.find(x => x.form === formLabel);
+          s = (found && found.data) || (statsOrData[0] && statsOrData[0].data) || {};
+        } else {
+          s = (statsOrData[0] && statsOrData[0].data) || {};
+        }
+      } else if (statsOrData && typeof statsOrData === 'object') {
+        s = statsOrData;
+      } else {
+        return '<p class="placeholder">無種族值</p>';
+      }
+      const labels = { hp: 'HP', attack: '攻擊', defense: '防禦', sp_attack: '特攻', sp_defense: '特防', speed: '速度' };
+      return `<div class="stats-grid" id="stats-grid">${Object.entries(labels).map(([k, lab]) =>
+        `<div class="stat-box"><div class="stat-label">${lab}</div><div class="stat-value" data-stat="${k}">${s[k] ?? '—'}</div></div>`
+      ).join('')}</div>`;
+    }
+
+        // 招式表排序狀態
+    let currentMovesSort = { key: null, dir: 1 }; // dir: 1 asc, -1 desc
+    let currentMovesList = [];
+    let currentMovesTab = 'learnable';
+
+    const TYPE_ORDER = ['一般','火','水','草','電','冰','格鬥','毒','地面','飛行','超能力','蟲','岩石','幽靈','龍','惡','鋼','妖精'];
+    const CAT_ORDER = { '物理': 0, '特殊': 1, '變化': 2 };
+
+    function numOrNeg(v) {
+      if (v === null || v === undefined || v === '' || v === '—' || v === '-') return -1;
+      const n = parseFloat(v);
+      return isNaN(n) ? -1 : n;
+    }
+
+    function sortMovesList(list, key, dir) {
+      const arr = list.slice();
+      arr.sort((a, b) => {
+        let va, vb;
+        if (key === 'type') {
+          va = TYPE_ORDER.indexOf(a.type || '');
+          vb = TYPE_ORDER.indexOf(b.type || '');
+          if (va < 0) va = 999;
+          if (vb < 0) vb = 999;
+        } else if (key === 'category') {
+          va = CAT_ORDER[a.category] ?? 9;
+          vb = CAT_ORDER[b.category] ?? 9;
+        } else if (key === 'power') {
+          va = numOrNeg(a.power);
+          vb = numOrNeg(b.power);
+          // 高威力優先 → 我們用 desc 為預設
+        } else if (key === 'accuracy') {
+          va = numOrNeg(a.accuracy);
+          vb = numOrNeg(b.accuracy);
+        } else if (key === 'level') {
+          va = numOrNeg(a.level);
+          vb = numOrNeg(b.level);
+        } else {
+          return 0;
+        }
+        if (va < vb) return -1 * dir;
+        if (va > vb) return 1 * dir;
+        // 次要：等級
+        const la = numOrNeg(a.level), lb = numOrNeg(b.level);
+        return la - lb;
+      });
+      return arr;
+    }
+
+
+    // ===== 傷害計算 =====
+    let damageTargetCache = {};
+    let damageState = {
+      targetIndex: null, targetData: null, targetForm: null,
+      sides: null, result: null, weather: '無', terrain: '無', unknownMoveType: '一般', currentHpPercent: 100
+    };
+
+    function damageSafeText(s) {
+      return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+
+    function getBaseStatsForForm(data, formLabel) {
+      const entry = findStatsEntry(formLabel, data);
+      return { ...((entry && entry.data) || (data && data.stats && data.stats[0] && data.stats[0].data) || {}) };
+    }
+
+    function getNeutralNature() { return NATURES.find(n => !n.boost) || NATURES[0]; }
+
+    function cloneStatMap(src, fallback) {
+      const out = {};
+      STAT_KEYS.forEach(k => out[k] = Number.isFinite(Number(src?.[k])) ? Number(src[k]) : fallback);
+      return out;
+    }
+
+    function calcSideStats(side) {
+      const base = side.baseStats || {};
+      const level = Math.max(1, Math.min(100, parseInt(side.level, 10) || 50));
+      const nature = side.nature || getNeutralNature();
+      const isShedinja = (side.name || side.data?.name_zh || '').includes('脫殼忍者') ||
+                         (side.index || side.data?.pokedex_id || '') === '0292' ||
+                         (side.data?.name_en || '').toLowerCase() === 'shedinja';
+      const stats = {};
+      STAT_KEYS.forEach(k => {
+        // 與上方「能力值計算」一致：脫殼忍者 HP 永遠固定為 1。
+        if (k === 'hp' && isShedinja) {
+          stats[k] = 1;
+          return;
+        }
+        const iv = Math.max(0, Math.min(31, parseInt((side.iv || {})[k], 10) || 0));
+        const ev = Math.max(0, Math.min(252, parseInt((side.ev || {})[k], 10) || 0));
+        const mod = k === 'hp' ? 1 : getNatureMod(nature, k);
+        stats[k] = calcStat(parseInt(base[k], 10) || 0, iv, ev, level, k === 'hp', mod);
+      });
+      return stats;
+    }
+
+    function readCalcSideInputs() {
+      const iv = {}, ev = {};
+      STAT_KEYS.forEach(k => {
+        iv[k] = getNum(`iv-0-${k}`, 31, 0, 31);
+        ev[k] = getNum(`ev-0-${k}`, 0, 0, 252);
+      });
+      return { iv, ev };
+    }
+
+    function makeCurrentCalcSide() {
+      const base = { ...(currentBaseStats || {}) };
+      const level = getNum('calc-level-0', 50, 1, 100);
+      const natureIdx = getNum('calc-nature-0', 0, 0, NATURES.length - 1);
+      const nature = NATURES[natureIdx] || getNeutralNature();
+      const inputs = readCalcSideInputs();
+      const side = {
+        index: currentData?.pokedex_id || selectedIndex || '',
+        data: currentData,
+        form: currentFormLabel,
+        name: currentData?.name_zh || '攻擊方',
+        level, nature, baseStats: base,
+        iv: inputs.iv, ev: inputs.ev,
+        stages: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
+        source: 'calc'
+      };
+      side.stats = calcSideStats(side);
+      return side;
+    }
+
+    function makeDefaultTargetSide(data, index, formLabel) {
+      const base = getBaseStatsForForm(data, formLabel);
+      const side = {
+        index, data, form: formLabel || (data?.forms?.[0]?.name || data?.name_zh || '一般'),
+        name: data?.name_zh || index || '防禦方', level: 50, nature: getNeutralNature(),
+        baseStats: base,
+        iv: { hp:31, attack:31, defense:31, sp_attack:31, sp_defense:31, speed:31 },
+        ev: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
+        stages: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
+        source: 'target'
+      };
+      side.stats = calcSideStats(side);
+      return side;
+    }
+
+    function buildDamagePokemonOptions(selected) {
+      return pokedex.map(p => `<option value="${p.index}" ${p.index === selected ? 'selected' : ''}>${p.index} - ${damageSafeText(p.name_zh)}</option>`).join('');
+    }
+
+    // 傷害計算的攻擊／防禦方對象：和最上方搜尋框一樣，可直接輸入圖鑑編號或名稱。
+    function buildDamagePokemonSearch(sideKey, selected) {
+      const p = pokedex.find(x => x.index === selected);
+      const value = p ? `${p.index} - ${p.name_zh}` : '';
+      return `<div class="damage-pokemon-search">
+        <input type="text" id="damage-${sideKey}-search" class="damage-pokemon-input"
+          value="${damageSafeText(value)}" placeholder="輸入編號或名稱搜尋，例如 009 或 妙蛙"
+          autocomplete="off" spellcheck="false"
+          oninput="filterDamagePokemon('${sideKey}', this.value)"
+          onfocus="filterDamagePokemon('${sideKey}', this.value); openDamagePokemonDropdown('${sideKey}')"
+          onkeydown="damagePokemonKeydown(event, '${sideKey}')">
+        <div id="damage-${sideKey}-dropdown" class="damage-pokemon-dropdown"></div>
+      </div>`;
+    }
+
+    function filterDamagePokemon(sideKey, text) {
+      const box = document.getElementById(`damage-${sideKey}-dropdown`);
+      if (!box) return;
+      const q = String(text || '').trim().toLowerCase();
+      let matched = pokedex;
+      if (q) {
+        matched = pokedex.filter(p => {
+          const idx = String(p.index || '').toLowerCase();
+          const name = String(p.name_zh || '').toLowerCase();
+          const strippedQ = q.replace(/^0+/, '');
+          return idx.includes(q) || name.includes(q) ||
+            idx.replace(/^0+/, '').startsWith(strippedQ);
+        });
+      }
+      if (!matched.length) {
+        box.innerHTML = '<div class="damage-pokemon-empty">沒有符合的寶可夢</div>';
+      } else {
+        box.innerHTML = matched.slice(0, 100).map(p =>
+          `<div class="damage-pokemon-item" data-index="${p.index}" onclick="selectDamagePokemon('${sideKey}', '${p.index}')">${p.index} - ${damageSafeText(p.name_zh)}</div>`
+        ).join('') + (matched.length > 100 ? `<div class="damage-pokemon-empty">找到 ${matched.length} 隻，請再輸入關鍵字縮小範圍</div>` : '');
+      }
+      openDamagePokemonDropdown(sideKey);
+    }
+
+    function openDamagePokemonDropdown(sideKey) {
+      document.getElementById(`damage-${sideKey}-dropdown`)?.classList.add('open');
+    }
+
+    function closeDamagePokemonDropdown(sideKey) {
+      document.getElementById(`damage-${sideKey}-dropdown`)?.classList.remove('open');
+    }
+
+    function selectDamagePokemon(sideKey, index) {
+      const p = pokedex.find(x => x.index === index);
+      const input = document.getElementById(`damage-${sideKey}-search`);
+      if (!p || !input) return;
+      input.value = `${p.index} - ${p.name_zh}`;
+      closeDamagePokemonDropdown(sideKey);
+      if (sideKey === 'atk') loadDamageAttacker(index);
+      else loadDamageTarget(index);
+    }
+
+    function damagePokemonKeydown(e, sideKey) {
+      const box = document.getElementById(`damage-${sideKey}-dropdown`);
+      if (!box) return;
+      const items = [...box.querySelectorAll('.damage-pokemon-item')];
+      if (e.key === 'Escape') { closeDamagePokemonDropdown(sideKey); return; }
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        if (items.length === 1) items[0].click();
+      }
+    }
+
+    document.addEventListener('click', e => {
+      if (!e.target.closest('.damage-pokemon-search')) {
+        closeDamagePokemonDropdown('atk');
+        closeDamagePokemonDropdown('def');
+      }
+    });
+
+    function getDamageMoves(side) {
+      if (!side || !side.data) return [];
+      const sources = [
+        { key:'learnable_moves', label:'level' }, { key:'machine_moves', label:'machine' }, { key:'egg_moves', label:'egg' }
+      ];
+      const merged = new Map();
+      for (const source of sources) {
+        const arr = side.data[source.key] || [];
+        // 與下方招式表使用相同的形態匹配邏輯（findMovesFormIndex）
+        const formIdx = findMovesFormIndex(arr, side.form || '', side.data);
+        const list = (arr[formIdx] && arr[formIdx].data) ? arr[formIdx].data : (Array.isArray(arr) ? arr : []);
+        for (const m of list) {
+          if (!m?.name) continue;
+          if (!merged.has(m.name)) merged.set(m.name, { ...m, _methods: [] });
+          const x = merged.get(m.name);
+          if (source.label === 'level') {
+            if (m.level !== undefined && m.level !== null && m.level !== '' && m.level !== '—') x._methods.push(String(m.level));
+          } else x._methods.push(source.label === 'machine' ? '招式機' : '遺傳');
+          ['type','category','power','accuracy','pp'].forEach(k => {
+            if ((x[k] === undefined || x[k] === null || x[k] === '' || x[k] === '—') && m[k] !== undefined) x[k] = m[k];
+          });
+        }
+      }
+      return [...merged.values()];
+    }
+
+    function getDamageTargetTypes(side) {
+      if (!side?.data) return [];
+      return getFormTypes(side.form || side.data?.forms?.[0]?.name || '', side.data);
+    }
+
+    function getDamageImageSrc(side) {
+      if (!side?.data) return '';
+      return resolveFormImage(side.form || '一般', side.index || side.data.pokedex_id || '', side.data);
+    }
+
+    function getDamageFormNames(side) {
+      if (!side?.data?.forms) return [];
+      return side.data.forms.map(f => f?.name).filter(Boolean);
+    }
+
+    function renderDamageFormButtons(sideKey, side) {
+      const forms = getDamageFormNames(side);
+      if (forms.length <= 1) return '';
+      return `<div class="damage-form-btns">${forms.map(form => {
+        const active = form === side.form ? ' active' : '';
+        const arg = JSON.stringify(form).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+        return `<button type="button" class="form-btn${active}" onclick="switchDamageForm('${sideKey}', ${arg})">${damageSafeText(form)}</button>`;
+      }).join('')}</div>`;
+    }
+
+    function ensureDamageSides(force = false) {
+      if (!currentData) return null;
+      if (!force && damageState.sides) return damageState.sides;
+      const idx = damageState.targetIndex || selectedIndex || currentData?.pokedex_id;
+      const data = damageState.targetData || currentData;
+      const form = damageState.targetForm || (data === currentData ? currentFormLabel : data?.forms?.[0]?.name);
+      // 傷害計算區塊獨立保存雙方數值，不再自動從上方「能力值計算」複製。
+      // 初始僅使用各自預設值，使用者可透過「複製能力值計算」按鈕手動帶入。
+      const atk = makeDefaultTargetSide(currentData, currentData?.pokedex_id || selectedIndex || '', currentFormLabel);
+      atk.name = currentData?.name_zh || '攻擊方';
+      const def = makeDefaultTargetSide(data, idx, form);
+      damageState.sides = { atk, def };
+      return damageState.sides;
+    }
+
+    async function loadDamageAttacker(index) {
+      if (!index) return;
+      const el = document.getElementById('damage-attacker');
+      if (el) el.disabled = true;
+      try {
+        let data = damageTargetCache[index];
+        if (!data) {
+          const res = await fetch(`data/pokemon/${index}.json`);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          data = await res.json();
+          damageTargetCache[index] = data;
+        }
+        const sides = ensureDamageSides(false);
+        if (!sides) return;
+        const oldAtk = sides.atk || makeDefaultTargetSide(data, index, data?.forms?.[0]?.name);
+        const form = (data?.forms?.[0]?.name) || data?.name_zh || '一般';
+        sides.atk = {
+          ...oldAtk,
+          index, data, form,
+          name: data?.name_zh || index || '攻擊方',
+          baseStats: getBaseStatsForForm(data, form)
+        };
+        sides.atk.stats = calcSideStats(sides.atk);
+        damageState.result = null;
+        refreshDamageUI();
+      } catch (err) {
+        console.error('載入攻擊方失敗', err);
+      } finally {
+        if (el) el.disabled = false;
+      }
+    }
+
+    async function loadDamageTarget(index) {
+      if (!index) return;
+      const targetEl = document.getElementById('damage-target');
+      if (targetEl) targetEl.disabled = true;
+      try {
+        let data = damageTargetCache[index];
+        if (!data) {
+          const res = await fetch(`data/pokemon/${index}.json`);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          data = await res.json();
+          damageTargetCache[index] = data;
+        }
+        damageState.targetIndex = index;
+        damageState.targetData = data;
+        damageState.targetForm = (data.forms && data.forms[0] && data.forms[0].name) || data.name_zh || '一般';
+
+        // 更換防禦方時，只更換寶可夢／型態，不再把上方「能力值計算」數值帶下來。
+        // 保留目前防禦方已調整的 Lv／性格／個體值／努力值。
+        const sides = ensureDamageSides(false);
+        if (sides) {
+          const oldDef = sides.def || makeDefaultTargetSide(data, index, damageState.targetForm);
+          const def = {
+            ...oldDef,
+            index, data, form: damageState.targetForm,
+            name: data?.name_zh || index || '防禦方',
+            baseStats: getBaseStatsForForm(data, damageState.targetForm)
+          };
+          def.stats = calcSideStats(def);
+          sides.def = def;
+        } else {
+          damageState.sides = {
+            atk: makeDefaultTargetSide(currentData, currentData?.pokedex_id || selectedIndex || '', currentFormLabel),
+            def: makeDefaultTargetSide(data, index, damageState.targetForm)
+          };
+        }
+        damageState.result = null;
+        refreshDamageUI();
+      } catch (e) {
+        const result = document.getElementById('damage-result');
+        if (result) result.innerHTML = '<div class="damage-result-label">找不到防禦方資料</div>';
+      } finally {
+        if (targetEl) targetEl.disabled = false;
+      }
+    }
+
+    function getDamageSides() {
+      return ensureDamageSides(false);
+    }
+
+    const DAMAGE_STAGE_MULTIPLIERS = {
+      '-6': 0.25, '-5': 0.29, '-4': 0.33, '-3': 0.40, '-2': 0.50, '-1': 0.67,
+      '0': 1, '1': 1.5, '2': 2, '3': 2.5, '4': 3, '5': 3.5, '6': 4
+    };
+    function getDamageStageMultiplier(stage) {
+      return DAMAGE_STAGE_MULTIPLIERS[String(stage ?? 0)] ?? 1;
+    }
+    function buildDamageStageOptions(value) {
+      const v = Math.max(-6, Math.min(6, parseInt(value, 10) || 0));
+      const stageOrder = [6,5,4,3,2,1,0,-1,-2,-3,-4,-5,-6];
+      return stageOrder.map(n => { const k = String(n); return `<option value=\"${k}\" ${n===v?'selected':''}>${n>0?'+':''}${n}</option>`; }).join('');
+    }
+
+    function renderDamageSide(sideKey, side) {
+      const title = sideKey === 'atk' ? '攻擊方' : '防守方';
+      const imgSrc = getDamageImageSrc(side);
+      const typeText = getDamageTargetTypes(side).join('／') || '—';
+      const totalEv = STAT_KEYS.reduce((sum, k) => sum + Number(side.ev?.[k] || 0), 0);
+      const isShedinja = (side.name || side.data?.name_zh || '').includes('脫殼忍者') ||
+                         (side.index || side.data?.pokedex_id || '') === '0292' ||
+                         (side.data?.name_en || '').toLowerCase() === 'shedinja';
+      const rows = STAT_KEYS.map(key => {
+        const label = STAT_LABELS[key], iv = Number(side.iv?.[key] ?? 31), ev = Number(side.ev?.[key] ?? 0), stat = Number(side.stats?.[key] ?? 0);
+        const hpLocked = key === 'hp' && isShedinja;
+        return `<div class="damage-adjust-label">${label}${hpLocked ? ' <span class="damage-stat-locked">🔒</span>' : ''}</div>
+          <input type="range" id="damage-iv-range-${sideKey}-${key}" min="0" max="31" value="${iv}" ${hpLocked ? 'disabled' : ''} oninput="onDamageIv('${sideKey}','${key}',this.value)">
+          <input type="number" id="damage-iv-${sideKey}-${key}" min="0" max="31" value="${iv}" ${hpLocked ? 'disabled' : ''} oninput="onDamageIv('${sideKey}','${key}',this.value)">
+          <input type="range" id="damage-ev-range-${sideKey}-${key}" min="0" max="252" value="${ev}" ${hpLocked ? 'disabled' : ''} oninput="onDamageEv('${sideKey}','${key}',this.value)">
+          <input type="number" id="damage-ev-${sideKey}-${key}" min="0" max="252" value="${ev}" ${hpLocked ? 'disabled' : ''} oninput="onDamageEv('${sideKey}','${key}',this.value)">
+          ${key === 'hp' ? '<span></span>' : `<select class="damage-stat-stage" id="damage-stage-${sideKey}-${key}" onchange="onDamageStageChange('${sideKey}','${key}',this.value)">${buildDamageStageOptions(side.stages?.[key] ?? 0)}</select>`}
+          <span class="damage-stat-current${hpLocked ? ' damage-stat-locked-value' : ''}">${stat}</span>`;
+      }).join('');
+      return `<div class="damage-side-title"><span>${title}</span><button type="button" class="damage-copy-btn" onclick="copyCalcValuesToDamageSide('${sideKey}')">複製能力值計算</button></div>
+        <div class="damage-side-head">
+          <img class="damage-side-image" src="${damageSafeText(imgSrc)}" alt="${damageSafeText(side.name)}" onerror="this.style.visibility='hidden';">
+          <div class="damage-side-name">${damageSafeText(side.name)}${side.form && side.form !== side.name ? `（${damageSafeText(side.form)}）` : ''}</div>
+          <div class="damage-side-sub">Lv.${side.level}　${damageSafeText(typeText)}</div>
+          ${renderDamageFormButtons(sideKey, side)}
+        </div>
+        <div class="damage-level-nature">
+          <label>等級 <input type="number" min="1" max="100" value="${side.level}" oninput="onDamageLevelChange('${sideKey}', this.value)"></label>
+          <label>性格 <select onchange="onDamageNatureChange('${sideKey}', this.value)">${buildNatureOptions(Math.max(0, NATURES.indexOf(side.nature)))}</select></label>
+        </div>
+        <div class="damage-adjust-grid">
+          <div></div><div class="damage-adjust-title">個體值滑桿</div><div></div><div class="damage-adjust-title">努力值滑桿</div><div></div><div class="damage-adjust-title">能力變化</div><div class="damage-adjust-title">現在數值</div>
+          ${rows}
+        </div>
+        <div class="damage-ev-total ${totalEv > 510 ? 'over' : ''}">努力值合計：${totalEv} / 510</div>
+        ${sideKey === 'def' ? `<div class="damage-current-hp">
+          <div class="damage-current-hp-head"><span>現在 HP</span><span class="damage-current-hp-value" id="damage-current-hp-value">${Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)))}%</span></div>
+          <div class="damage-current-hp-slider-row">
+            <input type="range" id="damage-current-hp-range" min="0" max="100" step="1" value="${Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)))}" oninput="onDamageCurrentHp(this.value)" aria-label="防守方目前 HP 百分比">
+            <input type="number" id="damage-current-hp-number" class="damage-current-hp-number" min="0" max="100" step="1" value="${Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)))}" oninput="onDamageCurrentHp(this.value)" aria-label="防守方目前 HP 百分比數值">
+            <span>%</span>
+          </div>
+        </div>` : ''}`;
+    }
+
+    function switchDamageForm(sideKey, formLabel) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side?.data) return;
+      const forms = getDamageFormNames(side);
+      if (!forms.includes(formLabel)) return;
+
+      side.form = formLabel;
+      side.baseStats = getBaseStatsForForm(side.data, formLabel);
+      side.stats = calcSideStats(side);
+
+      if (sideKey === 'def') {
+        damageState.targetIndex = side.index;
+        damageState.targetData = side.data;
+        damageState.targetForm = formLabel;
+      }
+      damageState.result = null;
+      refreshDamageUI();
+    }
+
+    function onDamageLevelChange(sideKey, value) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      let v = parseInt(value, 10); if (isNaN(v)) v = 50;
+      side.level = Math.max(1, Math.min(100, v));
+      side.stats = calcSideStats(side);
+      updateAllDamageStatDisplays(sideKey);
+      damageState.result = null;
+    }
+
+    function onDamageNatureChange(sideKey, value) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      const idx = Math.max(0, Math.min(NATURES.length - 1, parseInt(value, 10) || 0));
+      side.nature = NATURES[idx] || getNeutralNature();
+      side.stats = calcSideStats(side);
+      updateAllDamageStatDisplays(sideKey);
+      damageState.result = null;
+    }
+
+    function onDamageStageChange(sideKey, key, value) {
+      if (key === 'hp') return;
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      if (!side.stages) side.stages = { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 };
+      let v = parseInt(value, 10);
+      if (isNaN(v)) v = 0;
+      side.stages[key] = Math.max(-6, Math.min(6, v));
+      damageState.result = null;
+    }
+
+    function updateAllDamageStatDisplays(sideKey) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      STAT_KEYS.forEach(key => {
+        const iv = Number(side.iv?.[key] ?? 31), ev = Number(side.ev?.[key] ?? 0);
+        const ivRange = document.getElementById(`damage-iv-range-${sideKey}-${key}`);
+        const ivNum = document.getElementById(`damage-iv-${sideKey}-${key}`);
+        const evRange = document.getElementById(`damage-ev-range-${sideKey}-${key}`);
+        const evNum = document.getElementById(`damage-ev-${sideKey}-${key}`);
+        const statEls = document.querySelectorAll(`#damage-${sideKey}-side .damage-stat-current`);
+        const statEl = statEls[STAT_KEYS.indexOf(key)];
+        if (ivRange) ivRange.value = iv; if (ivNum) ivNum.value = iv;
+        if (evRange) evRange.value = ev; if (evNum) evNum.value = ev;
+        if (statEl) statEl.textContent = side.stats[key];
+      });
+    }
+
+    // 只更新目前這一列的數值，不重新 render 整個攻守方區塊。
+    // 這點很重要：如果在 range 的 input 事件中重建 DOM，滑鼠按住拖曳時會立刻失去原本的滑桿，
+    // 看起來就會變成「只能點、不能拉」。
+    function updateDamageStatRow(sideKey, key) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      side.stats = calcSideStats(side);
+
+      const iv = Number(side.iv?.[key] ?? 31);
+      const ev = Number(side.ev?.[key] ?? 0);
+      const ivRange = document.getElementById(`damage-iv-range-${sideKey}-${key}`);
+      const ivNum = document.getElementById(`damage-iv-${sideKey}-${key}`);
+      const evRange = document.getElementById(`damage-ev-range-${sideKey}-${key}`);
+      const evNum = document.getElementById(`damage-ev-${sideKey}-${key}`);
+      const current = document.querySelector(`#damage-${sideKey}-side .damage-adjust-grid .damage-stat-current`);
+
+      if (ivRange) ivRange.value = iv;
+      if (ivNum) ivNum.value = iv;
+      if (evRange) evRange.value = ev;
+      if (evNum) evNum.value = ev;
+
+      // 這裡的六個能力共用同一個 CSS Grid，不要用 parentElement 找「列」，
+      // 否則會永遠抓到第一個（HP）的現在數值。改用能力順序精準定位。
+      const statEls = document.querySelectorAll(`#damage-${sideKey}-side .damage-stat-current`);
+      const statIndex = STAT_KEYS.indexOf(key);
+      const currentEl = statIndex >= 0 ? statEls[statIndex] : null;
+      if (currentEl) currentEl.textContent = side.stats[key];
+
+      const totalEv = STAT_KEYS.reduce((sum, k) => sum + Number(side.ev?.[k] || 0), 0);
+      const totalEl = document.querySelector(`#damage-${sideKey}-side .damage-ev-total`);
+      if (totalEl) {
+        totalEl.textContent = `努力值合計：${totalEv} / 510`;
+        totalEl.classList.toggle('over', totalEv > 510);
+      }
+    }
+
+    function onDamageCurrentHp(value) {
+      let v = parseInt(value, 10);
+      if (!Number.isFinite(v)) v = 100;
+      v = Math.max(0, Math.min(100, v));
+      damageState.currentHpPercent = v;
+      const label = document.getElementById('damage-current-hp-value');
+      if (label) label.textContent = `${v}%`;
+      const slider = document.getElementById('damage-current-hp-range');
+      if (slider && slider.value !== String(v)) slider.value = String(v);
+      const number = document.getElementById('damage-current-hp-number');
+      if (number && number.value !== String(v)) number.value = String(v);
+      damageState.result = null;
+    }
+
+    function onDamageIv(sideKey, key, value) {
+      const sides = getDamageSides();
+      if (!sides?.[sideKey]) return;
+      let v = parseInt(value, 10); if (isNaN(v)) v = 31;
+      v = Math.max(0, Math.min(31, v));
+      sides[sideKey].iv[key] = v;
+      updateDamageStatRow(sideKey, key);
+      damageState.result = null;
+    }
+
+    function onDamageEv(sideKey, key, value) {
+      const sides = getDamageSides();
+      if (!sides?.[sideKey]) return;
+      let v = parseInt(value, 10); if (isNaN(v)) v = 0;
+      v = Math.max(0, Math.min(252, v));
+      const others = STAT_KEYS.filter(k => k !== key).reduce((sum, k) => sum + Number(sides[sideKey].ev?.[k] || 0), 0);
+      v = Math.min(v, Math.max(0, 510 - others));
+      sides[sideKey].ev[key] = v;
+      updateDamageStatRow(sideKey, key);
+      damageState.result = null;
+    }
+
+    function refreshDamageSideOnly(sideKey) {
+      const sides = getDamageSides();
+      const el = document.getElementById(`damage-${sideKey}-side`);
+      if (el && sides?.[sideKey]) el.innerHTML = renderDamageSide(sideKey, sides[sideKey]);
+    }
+
+    function refreshDamageUI() {
+      const card = document.getElementById('damage-card');
+      if (!card || !currentData) return;
+      const sides = ensureDamageSides(false);
+      if (!sides) return;
+      const atk = sides.atk, def = sides.def;
+      const atkMoveEl = document.getElementById('damage-move');
+      const moves = getDamageMoves(atk).filter(m => parseFloat(m.power) > 0);
+      const oldMove = atkMoveEl?.value;
+      if (atkMoveEl) {
+        atkMoveEl.innerHTML = `<option value="__unknown__">(未知技能)</option>` + (moves.length
+          ? moves.map((m,i) => `<option value="${i}">${damageSafeText(m.name)}（${damageSafeText(m.type || '—')}・${damageSafeText(m.category || '—')}・${m.power}）</option>`).join('')
+          : '');
+        if (oldMove === '__unknown__') atkMoveEl.value = '__unknown__';
+        else if (oldMove !== undefined && moves[Number(oldMove)]) atkMoveEl.value = oldMove;
+        else atkMoveEl.value = moves.length ? '0' : '__unknown__';
+      }
+      updateUnknownMoveTypeUI();
+      const powerEl = document.getElementById('damage-power');
+      if (powerEl && moves.length) {
+        const move = moves[Number(atkMoveEl.value) || 0];
+        if (move) powerEl.value = parseInt(getConditionAdjustedMove(move).power, 10) || 0;
+      }
+      const attacker = document.getElementById('damage-attacker');
+      if (attacker && atk.index) attacker.value = atk.index;
+      const target = document.getElementById('damage-target');
+      if (target && def.index) target.value = def.index;
+      const weatherEl = document.getElementById('damage-weather');
+      if (weatherEl) weatherEl.value = damageState.weather || '無';
+      const terrainEl = document.getElementById('damage-terrain');
+      if (terrainEl) terrainEl.value = damageState.terrain || '無';
+      const atkEl = document.getElementById('damage-atk-side');
+      const defEl = document.getElementById('damage-def-side');
+      if (atkEl) atkEl.innerHTML = renderDamageSide('atk', atk);
+      if (defEl) defEl.innerHTML = renderDamageSide('def', def);
+      if (damageState.result) renderDamageResult(damageState.result);
+      else {
+        const r = document.getElementById('damage-result');
+        if (r) r.innerHTML = '<div class="damage-result-label">設定雙方個體／努力值與招式後，按「計算」查看傷害範圍</div>';
+      }
+    }
+
+    const DAMAGE_TYPES = ['一般','火','水','草','電','冰','格鬥','毒','地面','飛行','超能力','蟲','岩石','幽靈','龍','惡','鋼','妖精'];
+
+    function updateUnknownMoveTypeUI() {
+      const moveEl = document.getElementById('damage-move');
+      const typeWrap = document.getElementById('damage-unknown-type-wrap');
+      const typeEl = document.getElementById('damage-unknown-type');
+      if (!moveEl || !typeWrap || !typeEl) return;
+      const isUnknown = moveEl.value === '__unknown__';
+      typeWrap.style.display = isUnknown ? '' : 'none';
+      if (isUnknown) typeEl.value = damageState.unknownMoveType || '一般';
+    }
+
+    function onDamageUnknownTypeChange(value) {
+      damageState.unknownMoveType = DAMAGE_TYPES.includes(value) ? value : '一般';
+      damageState.result = null;
+    }
+
+    function onDamageMoveChange() {
+      const sides = getDamageSides();
+      const moves = getDamageMoves(sides.atk).filter(m => parseFloat(m.power) > 0);
+      const moveEl = document.getElementById('damage-move');
+      const idx = Number(moveEl?.value || 0);
+      const powerEl = document.getElementById('damage-power');
+      if (moveEl?.value === '__unknown__') {
+        if (powerEl) powerEl.value = 100;
+        updateUnknownMoveTypeUI();
+      } else if (powerEl && moves[idx]) {
+        powerEl.value = parseInt(getConditionAdjustedMove(moves[idx]).power, 10) || 0;
+        updateUnknownMoveTypeUI();
+      }
+      damageState.result = null;
+    }
+
+    function onDamageWeatherChange(value) {
+      damageState.weather = ['無','大晴天','下雨','冰雹','沙暴'].includes(value) ? value : '無';
+      damageState.result = null;
+      updateDamagePowerForConditions();
+    }
+
+    function onDamageTerrainChange(value) {
+      damageState.terrain = ['無','電氣場地','青草場地','薄霧場地','精神場地'].includes(value) ? value : '無';
+      damageState.result = null;
+      updateDamagePowerForConditions();
+    }
+
+    function getWeatherAdjustedMove(move, weather) {
+      const out = { ...move };
+      const name = String(move?.name || '');
+      if (weather !== '無' && name.includes('氣象球')) {
+        const map = { '大晴天':'火', '下雨':'水', '冰雹':'冰', '沙暴':'岩石' };
+        out.type = map[weather] || out.type;
+        out.power = 100;
+      }
+      return out;
+    }
+
+    function getTerrainAdjustedMove(move, terrain) {
+      const out = { ...move };
+      const name = String(move?.name || '');
+      if (terrain === '電氣場地') {
+        if (name.includes('自然之力')) { out.name = '十萬伏特'; out.type = '電'; out.power = 90; }
+        else if (name.includes('大地波動')) { out.type = '電'; out.power = 100; }
+      } else if (terrain === '青草場地') {
+        if (name.includes('自然之力')) { out.name = '能量球'; out.type = '草'; out.power = 90; }
+        else if (name.includes('大地波動')) { out.type = '草'; out.power = 100; }
+      } else if (terrain === '薄霧場地') {
+        if (name.includes('大地波動')) { out.type = '妖精'; out.power = 100; }
+      } else if (terrain === '精神場地') {
+        if (name.includes('大地波動')) { out.type = '超能力'; out.power = 100; }
+      }
+      return out;
+    }
+
+    function getConditionAdjustedMove(move) {
+      const weather = damageState.weather || document.getElementById('damage-weather')?.value || '無';
+      const terrain = damageState.terrain || document.getElementById('damage-terrain')?.value || '無';
+      return getTerrainAdjustedMove(getWeatherAdjustedMove(move, weather), terrain);
+    }
+
+    function getWeatherAttackMultiplier(weather, moveType, moveName) {
+      if (weather === '大晴天') {
+        if (moveType === '火') return 1.5;
+        if (moveType === '水') return String(moveName || '').includes('水蒸氣') ? 1.5 : 0.5;
+      } else if (weather === '下雨') {
+        if (moveType === '水') return 1.5;
+        if (moveType === '火') return 0.5;
+      }
+      return 1;
+    }
+
+    function getWeatherDefenseMultiplier(weather, side, moveCategory) {
+      const types = getDamageTargetTypes(side);
+      if (weather === '冰雹' && types.includes('冰') && !String(moveCategory || '').includes('特殊')) return 1;
+      if (weather === '冰雹' && types.includes('冰') && String(moveCategory || '').includes('特殊')) return 1.5;
+      if (weather === '沙暴' && types.includes('岩石') && String(moveCategory || '').includes('特殊')) return 1.5;
+      return 1;
+    }
+
+    function getTerrainAttackMultiplier(terrain, moveType, moveName) {
+      const name = String(moveName || '');
+      let multiplier = 1;
+      if (terrain === '電氣場地') {
+        if (moveType === '電') multiplier *= 1.3;
+        if (name.includes('電力上升')) multiplier *= 2;
+        if (name.includes('精神劍')) multiplier *= 1.5;
+      } else if (terrain === '青草場地') {
+        if (moveType === '草') multiplier *= 1.3;
+      } else if (terrain === '薄霧場地') {
+        // 薄霧場地沒有一般屬性招式加成；特殊招式效果在型態轉換／威力處理時套用。
+      } else if (terrain === '精神場地') {
+        if (moveType === '超能力') multiplier *= 1.3;
+        if (name.includes('廣域戰力')) multiplier *= 1.5;
+      }
+      return multiplier;
+    }
+
+    function getTerrainLabel(terrain) {
+      return terrain && terrain !== '無' ? terrain : '無場地';
+    }
+
+    function getWeatherLabel(weather) {
+      return weather && weather !== '無' ? weather : '無天氣';
+    }
+
+    function updateDamagePowerForConditions() {
+      const sides = getDamageSides();
+      const moves = sides ? getDamageMoves(sides.atk).filter(m => parseFloat(m.power) > 0) : [];
+      const moveEl = document.getElementById('damage-move');
+      const powerEl = document.getElementById('damage-power');
+      if (!moveEl || !powerEl) return;
+      if (moveEl.value === '__unknown__') {
+        updateUnknownMoveTypeUI();
+        return;
+      }
+      if (!moves.length) return;
+      const move = moves[Number(moveEl.value) || 0];
+      if (move) {
+        const adjusted = getConditionAdjustedMove(move);
+        powerEl.value = parseInt(adjusted.power, 10) || 0;
+      }
+    }
+
+    function roundHalfUp(n) { return Math.floor(n + 0.5); }
+
+    function typeEffectiveness(moveType, targetTypes) {
+      const chart = {
+        '一般': {'岩石':0.5,'鋼':0.5,'幽靈':0}, '火':{'火':0.5,'水':0.5,'草':2,'冰':2,'蟲':2,'岩石':0.5,'龍':0.5,'鋼':2},
+        '水':{'火':2,'水':0.5,'草':0.5,'地面':2,'岩石':2,'龍':0.5}, '電':{'水':2,'草':0.5,'電':0.5,'地面':0,'飛行':2,'龍':0.5},
+        '草':{'火':0.5,'水':2,'草':0.5,'毒':0.5,'地面':2,'飛行':0.5,'蟲':0.5,'岩石':2,'龍':0.5,'鋼':0.5},
+        '冰':{'火':0.5,'水':0.5,'草':2,'冰':0.5,'地面':2,'飛行':2,'龍':2,'鋼':0.5},
+        '格鬥':{'一般':2,'冰':2,'毒':0.5,'飛行':0.5,'超能力':0.5,'蟲':0.5,'岩石':2,'幽靈':0,'惡':2,'鋼':2,'妖精':0.5},
+        '毒':{'草':2,'毒':0.5,'地面':0.5,'岩石':0.5,'幽靈':0.5,'鋼':0,'妖精':2},
+        '地面':{'火':2,'草':0.5,'電':2,'毒':2,'飛行':0,'蟲':0.5,'岩石':2,'鋼':2},
+        '飛行':{'電':0.5,'草':2,'格鬥':2,'蟲':2,'岩石':0.5,'鋼':0.5},
+        '超能力':{'格鬥':2,'毒':2,'超能力':0.5,'鋼':0.5,'惡':0},
+        '蟲':{'火':0.5,'草':2,'格鬥':0.5,'毒':0.5,'飛行':0.5,'超能力':2,'幽靈':0.5,'鋼':0.5,'妖精':0.5},
+        '岩石':{'火':2,'冰':2,'格鬥':0.5,'地面':0.5,'飛行':2,'蟲':2,'鋼':0.5},
+        '幽靈':{'一般':0,'超能力':2,'幽靈':2,'惡':0.5}, '龍':{'龍':2,'鋼':0.5,'妖精':0},
+        '惡':{'格鬥':0.5,'超能力':2,'幽靈':2,'惡':0.5,'妖精':0.5},
+        '鋼':{'火':0.5,'水':0.5,'電':0.5,'冰':2,'岩石':2,'鋼':0.5,'妖精':2},
+        '妖精':{'火':0.5,'格鬥':2,'毒':0.5,'龍':2,'惡':2,'鋼':0.5}
+      };
+      return (targetTypes || []).reduce((m,t) => m * (chart[moveType]?.[t] ?? 1), 1);
+    }
+
+    function calculateDamage() {
+      const sides = getDamageSides();
+      const moves = getDamageMoves(sides.atk).filter(m => parseFloat(m.power) > 0);
+      const moveEl = document.getElementById('damage-move');
+      const idx = Number(moveEl?.value || 0);
+      let move;
+      if (moveEl?.value === '__unknown__') {
+        move = { name: '(未知技能)', type: damageState.unknownMoveType || document.getElementById('damage-unknown-type')?.value || '一般', category: '物理', power: 100 };
+      } else {
+        move = moves[idx];
+      }
+      if (!move) {
+        renderDamageResult({ error: '請先選擇攻擊招式。' });
+        return;
+      }
+      const weather = damageState.weather || document.getElementById('damage-weather')?.value || '無';
+      const terrain = damageState.terrain || document.getElementById('damage-terrain')?.value || '無';
+      const adjustedMove = getConditionAdjustedMove(move);
+      const level = sides.atk.level;
+      const isSpecial = String(adjustedMove.category || '').includes('特殊');
+      const attackKey = isSpecial ? 'sp_attack' : 'attack';
+      const defenseKey = isSpecial ? 'sp_defense' : 'defense';
+      // 能力變化必須實際套用在傷害公式中的攻擊／防禦數值。
+      // 注意：能力變化不是只顯示在 UI；這裡會先將「現在能力值」乘上對應倍率，再帶入公式。
+      const attackStage = Number(sides.atk.stages?.[attackKey] ?? 0);
+      const defenseStage = Number(sides.def.stages?.[defenseKey] ?? 0);
+      const attack = Math.floor(Number(sides.atk.stats?.[attackKey] || 0) * getDamageStageMultiplier(attackStage));
+      const defenseBase = Math.floor(Number(sides.def.stats?.[defenseKey] || 0) * getDamageStageMultiplier(defenseStage));
+      const defenseWeather = getWeatherDefenseMultiplier(weather, sides.def, adjustedMove.category);
+      const defense = Math.floor(defenseBase * defenseWeather);
+      const customPower = parseInt(document.getElementById('damage-power')?.value, 10);
+      const power = Math.max(1, Number.isFinite(customPower) && customPower > 0 ? customPower : (parseInt(adjustedMove.power,10) || 0));
+      const base = Math.floor(Math.floor(Math.floor((2 * level) / 5 + 2) * power * attack / Math.max(1, defense)) / 50) + 2;
+      const stab = (sides.atk.data && getFormTypes(sides.atk.form, sides.atk.data).includes(adjustedMove.type)) ? 1.5 : 1;
+      const effectiveness = typeEffectiveness(adjustedMove.type, getDamageTargetTypes(sides.def));
+      const crit = document.getElementById('damage-crit')?.checked ? 1.5 : 1;
+      const weatherAttack = getWeatherAttackMultiplier(weather, adjustedMove.type, adjustedMove.name);
+      const terrainAttack = getTerrainAttackMultiplier(terrain, adjustedMove.type, adjustedMove.name);
+      const otherBonusPercentRaw = parseFloat(document.getElementById('damage-other-bonus')?.value || '0');
+      const otherBonusPercent = Number.isFinite(otherBonusPercentRaw) ? otherBonusPercentRaw : 0;
+      const otherBonus = 1 + otherBonusPercent / 100;
+      const values = [];
+      for (let r=85; r<=100; r++) {
+        let v = Math.floor(base * crit);
+        v = Math.floor(v * (r / 100));
+        v = roundHalfUp(v * stab);
+        v = Math.floor(v * effectiveness);
+        v = Math.floor(v * weatherAttack);
+        v = Math.floor(v * terrainAttack);
+        v = Math.floor(v * otherBonus);
+        values.push(effectiveness === 0 ? 0 : Math.max(1, v));
+      }
+      const maxHp = Number(sides.def.stats?.hp || 0);
+      const currentHpPercent = Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)));
+      const targetHp = Math.floor(maxHp * currentHpPercent / 100);
+      // 傷害條改以「防守方目前剩餘 HP」為基準，讓上方 HP 滑桿會直接反映在下方讀條。
+      // 例如目前 HP 50%，同樣造成最大 HP 的 10% 傷害，讀條會顯示為目前血量的 20%。
+      const hpBasis = targetHp > 0 ? targetHp : maxHp;
+      const minPercent = hpBasis > 0 ? (Math.min(...values) / hpBasis) * 100 : 0;
+      const maxPercent = hpBasis > 0 ? (Math.max(...values) / hpBasis) * 100 : 0;
+      const result = { attackKey, defenseKey, attackStage, defenseStage, attackBaseStat: Number(sides.atk.stats?.[attackKey] || 0), defenseBaseStat: Number(sides.def.stats?.[defenseKey] || 0), min: Math.min(...values), max: Math.max(...values), move: adjustedMove, originalMove: move, power, attack, defense, base, stab, effectiveness, crit, otherBonus, otherBonusPercent, weather, weatherAttack, terrain, terrainAttack, defenseWeather, values, maxHp, targetHp, currentHpPercent, minPercent, maxPercent };
+      damageState.result = result;
+      renderDamageResult(result);
+    }
+
+    function renderDamageResult(result) {
+      const el = document.getElementById('damage-result');
+      if (!el) return;
+      if (result?.error) { el.innerHTML = `<div class="damage-result-label">${damageSafeText(result.error)}</div>`; return; }
+      const effText = result.effectiveness === 0 ? '沒有效果' : `屬性相性 ×${result.effectiveness}`;
+      const minPct = Math.min(100, Math.max(0, Number(result.minPercent || 0)));
+      const maxPct = Math.min(100, Math.max(0, Number(result.maxPercent || 0)));
+      // 血條方向固定為左 100% → 右 0%；受傷區域從右側開始。
+      const greenWidth = minPct;
+      const redWidth = Math.max(0, maxPct - minPct);
+      const redRight = minPct;
+      // 「確N」顯示在綠色區域最前端，表示以傷害範圍的最小值估算需要幾次。
+      // 若單次最小傷害已達到／超過 100%，直接顯示確1。
+      const currentHp = Number(result.targetHp || 0);
+      const guaranteedHits = currentHp <= 0 ? null : (result.min >= currentHp ? 1 : (result.min > 0 ? Math.ceil(currentHp / result.min) : null));
+      const guaranteedText = guaranteedHits ? `確${guaranteedHits}` : '確—';
+      el.innerHTML = `<div class="damage-result-label">傷害範圍</div><div class="damage-result-value">${result.min} ～ ${result.max}</div><div class="damage-result-detail">${damageSafeText(result.move.name)}　｜　威力 ${result.power}　｜　防守方目前 HP ${result.targetHp} / ${result.maxHp}（${result.currentHpPercent}%）　｜　攻擊 ${result.attack}${result.attackStage ? `（基礎 ${result.attackBaseStat} × 能力 ${result.attackStage > 0 ? '+' : ''}${result.attackStage} ×${getDamageStageMultiplier(result.attackStage)}）` : ''}　防禦 ${result.defense}${result.defenseStage ? `（基礎 ${result.defenseBaseStat} × 能力 ${result.defenseStage > 0 ? '+' : ''}${result.defenseStage} ×${getDamageStageMultiplier(result.defenseStage)}）` : ''}　｜　STAB ×${result.stab}　｜　${effText}${result.crit !== 1 ? '　｜　擊中要害 ×1.5' : ''}${result.otherBonus !== 1 ? `　｜　其它加成 ×${result.otherBonus.toFixed(2)}` : ''}　｜　${getWeatherLabel(result.weather)}${result.weatherAttack !== 1 ? `　×${result.weatherAttack}` : ''}　｜　${getTerrainLabel(result.terrain)}${result.terrainAttack !== 1 ? `　×${result.terrainAttack}` : ''}${result.defenseWeather !== 1 ? `　｜　防禦方特防 ×${result.defenseWeather}` : ''}</div>
+        <div class="damage-hp-bar-wrap">
+          <div class="damage-hp-bar-labels"><span>100%</span><span>0%</span></div>
+          <div class="damage-hp-bar" aria-label="傷害佔防禦方最大 HP 的比例">
+            <span class="damage-hp-range damage-hp-range-max" style="width:${redWidth}%; right:${redRight}%;"></span>
+            <span class="damage-hp-range damage-hp-range-min" style="width:${greenWidth}%; right:0;"></span>
+            <span class="damage-guaranteed-hits" style="right:${Math.min(100, Math.max(0, minPct))}%;">${guaranteedText}<span class="damage-guaranteed-dot"></span></span>
+          </div>
+          <div class="damage-hp-bar-caption"><span>最大傷害 ${maxPct.toFixed(1)}%</span><span>最小傷害 ${minPct.toFixed(1)}%</span></div>
+        </div>`;
+    }
+
+    function copyCalcValuesToDamageSide(sideKey) {
+      const sides = getDamageSides();
+      if (!sides?.[sideKey] || !currentData) return;
+
+      const source = makeCurrentCalcSide();
+      const target = sides[sideKey];
+
+      // 手動複製上方能力值計算：包含寶可夢／型態、等級、性格、IV、EV。
+      target.index = source.index;
+      target.data = source.data;
+      target.form = source.form;
+      target.name = source.name;
+      target.level = source.level;
+      target.nature = source.nature;
+      target.baseStats = { ...source.baseStats };
+      target.iv = { ...source.iv };
+      target.ev = { ...source.ev };
+      target.stats = calcSideStats(target);
+
+      if (sideKey === 'def') {
+        damageState.targetIndex = target.index;
+        damageState.targetData = target.data;
+        damageState.targetForm = target.form;
+      }
+      damageState.result = null;
+      refreshDamageUI();
+    }
+
+    function swapDamageSides() {
+      const sides = getDamageSides();
+      if (!sides) return;
+      const tmp = sides.atk;
+      sides.atk = sides.def;
+      sides.def = tmp;
+      damageState.targetIndex = sides.def.index;
+      damageState.targetData = sides.def.data;
+      damageState.targetForm = sides.def.form;
+      damageState.result = null;
+      refreshDamageUI();
+    }
+
+    function buildDamageCalcHtml() {
+      const idx = selectedIndex || currentData?.pokedex_id || '';
+      damageState.targetIndex = idx;
+      damageState.targetData = currentData;
+      damageState.targetForm = currentFormLabel;
+      damageState.sides = null;
+      return `<div class="card damage-card" id="damage-card">
+        <div class="section-title">傷害計算</div>
+        <div class="damage-object-controls">
+          <label>攻擊方對象${buildDamagePokemonSearch('atk', idx)}</label>
+          <div></div>
+          <label>防禦方對象${buildDamagePokemonSearch('def', idx)}</label>
+        </div>
+        <div class="damage-sides">
+          <div class="damage-side" id="damage-atk-side"></div>
+          <div class="damage-swap"><button type="button" onclick="swapDamageSides()" title="左右調換攻守方數據">↔</button></div>
+          <div class="damage-side" id="damage-def-side"></div>
+        </div>
+        <div class="damage-move-controls">
+          <label>攻擊招式
+            <select id="damage-move" onchange="onDamageMoveChange()"></select>
+          </label>
+          <label id="damage-unknown-type-wrap">屬性
+            <select id="damage-unknown-type" onchange="onDamageUnknownTypeChange(this.value)">${DAMAGE_TYPES.map(t => `<option value="${t}">${t}</option>`).join('')}</select>
+          </label>
+          <label>招式威力 <input type="number" id="damage-power" min="1" max="1000" value="100"></label>
+        </div>
+        <div class="damage-weather-controls">
+          <label>天氣
+            <select id="damage-weather" onchange="onDamageWeatherChange(this.value)">
+              <option value="無">(無)</option>
+              <option value="大晴天">大晴天</option>
+              <option value="下雨">下雨</option>
+              <option value="冰雹">冰雹</option>
+              <option value="沙暴">沙暴</option>
+            </select>
+          </label>
+          <label>場地
+            <select id="damage-terrain" onchange="onDamageTerrainChange(this.value)">
+              <option value="無">(無)</option>
+              <option value="電氣場地">電氣場地</option>
+              <option value="青草場地">青草場地</option>
+              <option value="薄霧場地">薄霧場地</option>
+              <option value="精神場地">精神場地</option>
+            </select>
+          </label>
+        </div>
+        <div class="damage-bonus-wrap">
+          <label class="damage-crit-inline"><input type="checkbox" id="damage-crit"> 擊中要害</label>
+          <label class="damage-other-bonus">其它加成：<input type="number" id="damage-other-bonus" min="-100" max="1000" step="0.1" value="0"><span>%</span></label>
+        </div>
+        <div class="damage-calc-wrap"><button type="button" class="damage-calc-btn" onclick="calculateDamage()">計算</button></div>
+        <div class="damage-result" id="damage-result"><div class="damage-result-label">設定雙方個體／努力值與招式後，按「計算」查看傷害範圍</div></div>
+        <div class="damage-note">雙方的個體值與努力值可獨立調整；努力值總和各自上限 510。上方「能力值計算」不會自動帶入，請按攻擊方或防禦方的「複製能力值計算」手動帶入。</div>
+      </div>`;
+    }
+
+    /** 切換型態：更新種族值顯示、圖片、以及計算用的 base stats */
+    function switchForm(formLabel) {
+      if (!currentData) return;
+
+      currentFormLabel = formLabel;
+
+      // 種族值：用強化後的 form 對應
+      const entry = findStatsEntry(formLabel, currentData);
+      currentBaseStats = { ...((entry && entry.data) || {}) };
+
+      // 更新種族值數字
+      const area = document.getElementById('stats-area');
+      if (area) area.innerHTML = renderStats(currentBaseStats);
+      updateBaseStatTotal(currentBaseStats);
+
+      // 更新屬性
+      const typesEl = document.getElementById('types-area');
+      if (typesEl) {
+        const formTypes = getFormTypes(formLabel, currentData);
+        typesEl.innerHTML = renderTypes(formTypes);
+      }
+
+      // 更新弱點
+      const weakEl = document.getElementById('weakness-area');
+      if (weakEl && currentData.type_effectiveness) {
+        weakEl.innerHTML = renderWeaknesses(currentData.type_effectiveness, formLabel);
+      }
+
+      // 更新特性
+      const abEl = document.getElementById('abilities-area');
+      if (abEl) {
+        abEl.innerHTML = renderAbilities(getFormAbilities(formLabel, currentData));
+      }
+
+      // 更新按鈕 active 狀態
+      document.querySelectorAll('.form-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.form === formLabel);
+      });
+
+      // 更新圖片
+      updatePokeImage();
+
+      // 更新招式表（地區形態可能有不同招式）
+      refreshMovesTable();
+
+      // 型態切換不再自動改動傷害計算雙方；需要同步上方數值時，請按雙方各自的「複製能力值計算」。
+      refreshDamageUI();
+
+      // 重新計算所有已開啟的能力值區塊
+      document.querySelectorAll('[id^="calc-results-"]').forEach(el => {
+        const cid = el.id.replace('calc-results-', '');
+        if (typeof updateCalcResults === 'function') updateCalcResults(cid);
+      });
+    }
+
+    /** 地區／形態關鍵字，用於 forms ↔ stats ↔ 檔名 對應 */
+    const FORM_KEYWORDS = ['阿羅拉', '洗翠', '伽勒爾', '帕底亞', '祂夏', '白波動', '黑波動',
+      '超級', '超極巨化', '太晶', '起源', '加熱', '清洗', '冰冷', '普通形態', '攻擊形態',
+      '防禦形態', '速度形態', '陽光', '雨水', '雪花', '砂土', '晴天', '陰天'];
+
+    function extractFormKey(name) {
+      if (!name) return '';
+      for (const kw of FORM_KEYWORDS) {
+        if (name.includes(kw)) return kw;
+      }
+      return name;
+    }
+
+    function isBaseFormLabel(formLabel, data) {
+      const species = (data && data.name_zh) || '';
+      const forms = (data && data.forms) || [];
+      const firstFormName = forms.length ? (forms[0].name || '') : species;
+      return !formLabel
+          || formLabel === firstFormName
+          || formLabel === species
+          || formLabel === '一般' || formLabel === '普通'
+          || formLabel.includes('一般') || formLabel === '普通的樣子'
+          || formLabel === '普通形態' || formLabel === '一般的樣子';
+    }
+
+    /** 從 stats 找對應 form 的種族值 */
+    /** 從 learnable_moves / machine_moves / egg_moves 陣列找出對應 form 的 index */
+    function findMovesFormIndex(movesArr, formLabel, data = currentData) {
+      if (!movesArr || !movesArr.length) return 0;
+      if (isBaseFormLabel(formLabel, data)) {
+        // 優先「一般」或空 form
+        const i = movesArr.findIndex(m => !m.form || m.form === '一般' || m.form === '普通' || m.form.includes('一般'));
+        return i >= 0 ? i : 0;
+      }
+      // 完全相符
+      let i = movesArr.findIndex(m => m.form === formLabel);
+      if (i >= 0) return i;
+      // 關鍵字（阿羅拉九尾 → 阿羅拉的樣子）
+      const key = extractFormKey(formLabel);
+      if (key) {
+        i = movesArr.findIndex(m => m.form && m.form.includes(key));
+        if (i >= 0) return i;
+      }
+      // 互相包含
+      i = movesArr.findIndex(m => m.form && (formLabel.includes(m.form) || m.form.includes(formLabel)));
+      if (i >= 0) return i;
+      return 0;
+    }
+
+    // 將升級習得、招式機、遺傳招式合併成同一張表。
+    // 同一招式只保留一列，學習方式依序合併到「等級」欄。
+    function getUnifiedMovesList() {
+      if (!currentData) return [];
+
+      const sources = [
+        { key: 'learnable_moves', label: 'level' },
+        { key: 'machine_moves', label: 'machine' },
+        { key: 'egg_moves', label: 'egg' }
+      ];
+
+      const merged = new Map();
+
+      for (const source of sources) {
+        const arr = currentData[source.key] || [];
+        const formIdx = findMovesFormIndex(arr, currentFormLabel);
+        const list = (arr[formIdx] && arr[formIdx].data)
+          ? arr[formIdx].data
+          : (Array.isArray(arr) ? arr : []);
+
+        for (const move of list) {
+          const name = move && move.name;
+          if (!name) continue;
+
+          if (!merged.has(name)) {
+            merged.set(name, {
+              ...move,
+              _learnMethods: []
+            });
+          }
+
+          const item = merged.get(name);
+
+          if (source.label === 'level') {
+            const level = move.level ?? '—';
+            if (level !== '—' && level !== '' && level !== null && level !== undefined) {
+              item._learnMethods.push(String(level));
+            }
+          } else if (source.label === 'machine') {
+            item._learnMethods.push('招式機');
+          } else if (source.label === 'egg') {
+            item._learnMethods.push('遺傳');
+          }
+
+          // 優先保留已有完整的招式資料；缺少時再用其他來源補上。
+          for (const key of ['type', 'category', 'power', 'accuracy', 'pp']) {
+            if ((item[key] === undefined || item[key] === null || item[key] === '' || item[key] === '—')
+                && move[key] !== undefined && move[key] !== null && move[key] !== '') {
+              item[key] = move[key];
+            }
+          }
+        }
+      }
+
+      for (const item of merged.values()) {
+        // 去除同一來源重複資料，並依「等級 → 招式機 → 遺傳」順序顯示。
+        item._learnMethods = [...new Set(item._learnMethods)];
+        // 沒有升級／招式機／遺傳資料的預設招式，等級欄顯示「--」。
+        item.level = item._learnMethods.length ? item._learnMethods.join('/') : '--';
+      }
+
+      return [...merged.values()];
+    }
+
+    function refreshMovesTable() {
+      const area = document.getElementById('moves-area');
+      if (!area || !currentData) return;
+      currentMovesSort = { key: null, dir: 1 };
+      area.innerHTML = renderMovesTable(getUnifiedMovesList());
+    }
+
+    function normalizeFormIdentity(name, data) {
+      let s = String(name || '').trim().replace(/[\-－—]/g, '').replace(/\s+/g, '');
+      const species = (data && data.name_zh) || '';
+      if (species) s = s.split(species).join('');
+      // 不同資料來源可能寫「超級雷丘Ｙ」/「超級進化Ｙ」，統一成同一個識別鍵
+      s = s.replace(/超級進化/g, '超級');
+      s = s.replace(/的樣子$/g, '');
+      return s;
+    }
+
+    function findStatsEntry(formLabel, data) {
+      const stats = (data && data.stats) || [];
+      if (!stats.length) return null;
+      if (isBaseFormLabel(formLabel, data)) return stats[0];
+
+      // 1. 原始名稱完全相符
+      let entry = stats.find(s => s.form === formLabel);
+      if (entry) return entry;
+
+      // 2. 正規化後精確對應：例如「超級雷丘Ｙ」 ↔ 「超級進化Ｙ」
+      const identity = normalizeFormIdentity(formLabel, data);
+      if (identity) {
+        entry = stats.find(s => normalizeFormIdentity(s.form, data) === identity);
+        if (entry) return entry;
+      }
+
+      // 3. 關鍵字相符（阿羅拉九尾 ↔ 阿羅拉的樣子等）
+      const key = extractFormKey(formLabel);
+      if (key) {
+        entry = stats.find(s => s.form && s.form.includes(key));
+        if (entry) return entry;
+      }
+
+      // 4. 互相包含
+      entry = stats.find(s => s.form && (formLabel.includes(s.form) || s.form.includes(formLabel)));
+      if (entry) return entry;
+
+      // 5. 極巨化等無獨立 stats → 用一般
+      return stats[0];
+    }
+
+    /** 依 forms 名稱解析圖片路徑 */
+
+    function applyShinyPath(src) {
+      if (!currentShiny || !src) return src;
+      // xxx.png → xxx-shiny.png ；已是 -shiny.png 則不變
+      if (src.endsWith('-shiny.png')) return src;
+      if (src.endsWith('.png')) return src.slice(0, -4) + '-shiny.png';
+      return src;
+    }
+
+    function updatePokeImage() {
+      const img = document.getElementById('poke-img');
+      if (!img || !currentData) return;
+      const index = currentData.pokedex_id || selectedIndex || '';
+      let src = resolveFormImage(currentFormLabel, index, currentData);
+      src = applyShinyPath(src);
+      img.style.display = '';
+      img.src = src;
+      const errP = img.nextElementSibling;
+      if (errP) errP.style.display = 'none';
+      img.onerror = function() {
+        // 異色圖不存在 → 退回非異色；再不行退回一般 home 圖
+        if (currentShiny && this.src.includes('-shiny.png')) {
+          this.src = this.src.replace('-shiny.png', '.png');
+          this.onerror = function() {
+            this.src = `data/images/home/${index}.png`;
+            this.onerror = function() {
+              this.style.display = 'none';
+              if (this.nextElementSibling) this.nextElementSibling.style.display = 'block';
+            };
+          };
+        } else {
+          this.src = `data/images/home/${index}.png`;
+          this.onerror = function() {
+            this.style.display = 'none';
+            if (this.nextElementSibling) this.nextElementSibling.style.display = 'block';
+          };
+        }
+      };
+    }
+
+    function toggleShiny() {
+      currentShiny = !currentShiny;
+      const btn = document.getElementById('shiny-btn');
+      if (btn) btn.classList.toggle('active', currentShiny);
+      updatePokeImage();
+    }
+
+    function resolveFormImage(formLabel, index, data) {
+      const species = (data && data.name_zh) ? data.name_zh : '';
+
+      if (isBaseFormLabel(formLabel, data)) {
+        return `data/images/home/${index}.png`;
+      }
+
+      // 1. 優先用 home_images 裡的對應檔名
+      const himgs = (data && data.home_images) || [];
+      if (himgs.length) {
+        const identity = normalizeFormIdentity(formLabel, data);
+        const key = extractFormKey(formLabel);
+
+        // 先用「正規化後的形態識別鍵」精確配對，避免 X/Y 都只剩「超級」時誤抓第一筆
+        let match = himgs.find(h =>
+          h.name && normalizeFormIdentity(h.name, data) === identity
+        );
+
+        // 舊有的原始名稱完全相符作為第二層保險
+        if (!match) match = himgs.find(h => h.name === formLabel);
+
+        // 最後才使用寬鬆關鍵字匹配
+        if (!match && key) {
+          match = himgs.find(h => h.name && h.name.includes(key));
+        }
+        if (!match) {
+          match = himgs.find(h => h.name && (h.name.includes(formLabel) || formLabel.includes(h.name)));
+        }
+        // 跳過純種族名那一筆
+        if (match && match.image && match.name !== species && match.name !== formLabel.split('-')[0]) {
+          // home_images 的 image 多半已是完整檔名
+          const imgName = match.image;
+          // 一般圖在 home/，形態圖在 other/
+          if (imgName === `${index}.png` || imgName === `${index}-${species}.png`) {
+            return `data/images/home/${imgName}`;
+          }
+          return `data/images/home/other/${imgName}`;
+        }
+      }
+
+      // 2. 依關鍵字組檔名
+      let suffix = formLabel;
+      if (formLabel.includes('超極巨化')) {
+        suffix = '超極巨化';
+      } else {
+        const key = extractFormKey(formLabel);
+        // 阿羅拉九尾 → 阿羅拉的樣子（檔名慣例）
+        if (key === '阿羅拉') suffix = '阿羅拉的樣子';
+        else if (key === '洗翠') suffix = '洗翠的樣子';
+        else if (key === '伽勒爾') suffix = '伽勒爾的樣子';
+        else if (key === '帕底亞') suffix = '帕底亞的樣子';
+        else if (key) suffix = key;
+      }
+
+      if (species) {
+        return `data/images/home/other/${index}-${species}-${suffix}.png`;
+      }
+      return `data/images/home/other/${index}-${suffix}.png`;
+    }
+
+
+    function renderMovesTable(moves, sortKey = null, sortDir = 1) {
+      if (!moves || !moves.length) return '<p class="placeholder">無招式資料</p>';
+
+      let list = Array.isArray(moves) ? moves : [];
+      if (!list.length) return '<p class="placeholder">無招式</p>';
+
+      // 保存原始列表供排序
+      currentMovesList = list;
+
+      if (sortKey) {
+        list = sortMovesList(list, sortKey, sortDir);
+      }
+
+      const ind = (k) => {
+        if (currentMovesSort.key !== k) return '';
+        return currentMovesSort.dir === 1 ? ' ↑' : ' ↓';
+      };
+
+      return `<div class="moves-table-wrap"><table>
+        <thead><tr>
+          <th class="sortable" onclick="sortMoves('level')">等級<span class="sort-ind">${ind('level')}</span></th>
+          <th>招式</th>
+          <th class="sortable" onclick="sortMoves('type')">屬性<span class="sort-ind">${ind('type')}</span></th>
+          <th class="sortable" onclick="sortMoves('category')">分類<span class="sort-ind">${ind('category')}</span></th>
+          <th class="sortable" onclick="sortMoves('power')">威力<span class="sort-ind">${ind('power')}</span></th>
+          <th class="sortable" onclick="sortMoves('accuracy')">命中<span class="sort-ind">${ind('accuracy')}</span></th>
+          <th>PP</th>
+        </tr></thead>
+        <tbody>${list.map(m => `<tr>
+          <td>${m.level ?? '—'}</td><td>${m.name ?? '—'}</td>
+          <td><span class="type-badge ${typeClass(m.type || '')}" style="font-size:0.75rem;padding:0.1rem 0.4rem">${m.type || '—'}</span></td>
+          <td>${m.category ?? '—'}</td><td>${m.power ?? '—'}</td><td>${m.accuracy ?? '—'}</td><td>${m.pp ?? '—'}</td>
+        </tr>`).join('')}</tbody></table></div>`;
+    }
+
+    function sortMoves(key) {
+      if (currentMovesSort.key === key) {
+        currentMovesSort.dir *= -1;
+      } else {
+        currentMovesSort.key = key;
+        // 威力、命中預設由高到低；其他由低到高
+        currentMovesSort.dir = (key === 'power' || key === 'accuracy') ? -1 : 1;
+      }
+      const area = document.getElementById('moves-area');
+      if (!area || !currentData) return;
+      area.innerHTML = renderMovesTable(getUnifiedMovesList(), currentMovesSort.key, currentMovesSort.dir);
+    }
+
+
+    async function loadPokemon(index) {
+      if (!index) {
+        contentEl.innerHTML = `<div class="card image-area"><p class="placeholder">輸入或選擇寶可夢以顯示資料</p></div>`;
+        return;
+      }
+
+      contentEl.innerHTML = `<div class="card loading">載入中…</div>`;
+
+      // 改名後的簡單規則：0001.json / 0001.png
+      const pokeFile = index + '.json';
+      const imgFile = index + '.png';
+      const imgSrc = `data/images/home/${imgFile}`;
+
+      try {
+        const res = await fetch(`data/pokemon/${pokeFile}`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        currentData = data;
+
+        // 預設用第一筆 stats 作為目前種族值；form 標籤用 forms[0]
+        const firstStats = (data.stats && data.stats[0] && data.stats[0].data) || {};
+        currentBaseStats = { ...firstStats };
+        const formNames = (data.forms || []).map(f => f.name).filter(Boolean);
+        currentFormLabel = formNames[0] || data.name_zh || '一般';
+        currentShiny = false;
+
+        const nameZh = data.name_zh || (pokedex.find(p => p.index === index) || {}).name_zh || index;
+        const nameEn = data.name_en || '';
+        const nameJa = data.name_ja || data.name_jp || '';
+        // 初始屬性優先用 forms[0].types（比 type_effectiveness 順序更可靠）
+        const types = (data.forms && data.forms[0] && data.forms[0].types)
+                   || (data.type_effectiveness && data.type_effectiveness.find(t => !t.form || t.form === '') || {}).types
+                   || (data.type_effectiveness && data.type_effectiveness[0] && data.type_effectiveness[0].types)
+                   || [];
+
+        // 產生 form 切換按鈕（以 forms 為準，可含超極巨化等）
+        let formButtonsHtml = '';
+        if (formNames.length > 1) {
+          formButtonsHtml = formNames.map((f, i) => {
+            const active = i === 0 ? ' active' : '';
+            const safe = f.replace(/'/g, "\\'");
+            return `<button class="form-btn${active}" data-form="${f}" onclick="switchForm('${safe}')">${f}</button>`;
+          }).join('');
+        }
+
+        contentEl.innerHTML = `
+          <div class="card main-info">
+            <div class="info-left">
+              <div class="name-line" style="text-align:left; margin-bottom:0.75rem">
+                <div class="name-zh">${nameZh}</div>
+                <div class="name-sub">${nameEn}${nameJa ? ' / ' + nameJa : ''}</div>
+              </div>
+              <div class="section-title">屬性</div>
+              <div class="types" id="types-area">
+                ${types.length ? renderTypes(types) : '<span class="placeholder">—</span>'}
+              </div>
+              <div class="section-title" style="margin-top:1rem">種族值 <span id="base-stat-total" class="base-stat-total"></span></div>
+              <div id="stats-area">${renderStats(data.stats)}</div>
+              <div class="section-title" style="margin-top:1rem">弱點（受到傷害倍率）</div>
+              <div id="weakness-area">${renderWeaknesses(data.type_effectiveness)}</div>
+              <div class="section-title" style="margin-top:1rem">特性</div>
+              <div id="abilities-area">${renderAbilities(getFormAbilities(currentFormLabel, data))}</div>
+            </div>
+            <div class="info-right">
+              <div class="image-area">
+                <img id="poke-img" src="${imgSrc}" alt="${nameZh}"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                <p class="placeholder" style="display:none">圖片載入失敗（${imgFile}）</p>
+              </div>
+              <div class="form-btns" id="form-btns">${formButtonsHtml}</div>
+              <div class="shiny-toggle">
+                <button type="button" class="shiny-btn" id="shiny-btn" onclick="toggleShiny()">異色</button>
+              </div>
+            </div>
+          </div>
+                    <div id="calc-container"></div>
+          ${buildDamageCalcHtml()}
+<div class="card">
+            <div class="section-title">招式表</div>
+            <div id="moves-area">${renderMovesTable(getUnifiedMovesList())}</div>
+          </div>
+        `;
+        updateBaseStatTotal(currentBaseStats);
+        // 初始計算
+        setTimeout(() => {
+          initPrimaryCalc();
+          refreshDamageUI();
+        }, 0);
+      } catch (e) {
+        // 即使詳細資料載入失敗，仍嘗試顯示圖片 + 名稱
+        const p = pokedex.find(x => x.index === index) || {};
+        contentEl.innerHTML = `
+          <div class="card main-info">
+            <div class="info-left">
+              <div class="name-line" style="text-align:left">
+                <div class="name-zh">${p.name_zh || index}</div>
+              </div>
+            </div>
+            <div class="info-right">
+              <div class="image-area">
+                <img src="${imgSrc}" alt="${p.name_zh || index}"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                <p class="placeholder" style="display:none">圖片載入失敗</p>
+              </div>
+            </div>
+          </div>
+          <div class="card error">
+            載入詳細資料失敗：${e.message}<br>
+            <span class="note">請用本地伺服器開啟（VS Code Live Server 或 python -m http.server），file:// 無法 fetch JSON。</span>
+          </div>
+        `;
+      }
+    }
+
+    buildDropdownItems('');
+  </script>
+</body>
+</html>
+
