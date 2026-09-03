@@ -92,6 +92,18 @@
       background: #f3e8ff; color: #7e22ce; border-color: #e9d5ff;
     }
     #abilities-area { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+    .ability-badge { cursor: help; position: relative; }
+    .ability-tooltip {
+      position: fixed; z-index: 9999; max-width: 320px;
+      background: #1e293b; color: #f1f5f9; padding: 0.75rem 1rem;
+      border-radius: 10px; font-size: 0.85rem; line-height: 1.5;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25); pointer-events: none;
+      white-space: pre-wrap; display: none;
+    }
+    .ability-tooltip .tip-name {
+      font-weight: 700; margin-bottom: 0.35rem; color: #93c5fd;
+    }
+    .ability-tooltip .tip-loading { color: #94a3b8; font-style: italic; }
 
     .info-right .image-area { min-height: 200px; }
     .placeholder { color: var(--muted); font-size: 0.95rem; }
@@ -784,8 +796,75 @@ function typeClass(t) { return 'type-' + t; }
         const hidden = typeof a === 'object' && a.is_hidden;
         const cls = hidden ? 'ability-badge ability-hidden' : 'ability-badge';
         const label = hidden ? `${name}（隱藏）` : name;
-        return `<span class="${cls}">${label}</span>`;
+        const safe = name.replace(/"/g, '&quot;');
+        return `<span class="${cls}" data-ability="${safe}" onmouseenter="showAbilityTip(event)" onmouseleave="hideAbilityTip()">${label}</span>`;
       }).join('');
+    }
+
+    // 特性效果快取與 tooltip
+    const abilityCache = {};
+    let tipEl = null;
+
+    function ensureTipEl() {
+      if (tipEl) return tipEl;
+      tipEl = document.createElement('div');
+      tipEl.className = 'ability-tooltip';
+      tipEl.id = 'ability-tooltip';
+      document.body.appendChild(tipEl);
+      return tipEl;
+    }
+
+    function positionTip(e) {
+      const el = ensureTipEl();
+      const pad = 12;
+      let x = e.clientX + pad;
+      let y = e.clientY + pad;
+      el.style.display = 'block';
+      const rect = el.getBoundingClientRect();
+      if (x + rect.width > window.innerWidth - 8) x = e.clientX - rect.width - pad;
+      if (y + rect.height > window.innerHeight - 8) y = e.clientY - rect.height - pad;
+      el.style.left = Math.max(8, x) + 'px';
+      el.style.top = Math.max(8, y) + 'px';
+    }
+
+    async function showAbilityTip(e) {
+      const name = e.currentTarget.getAttribute('data-ability');
+      if (!name) return;
+      const el = ensureTipEl();
+      el.innerHTML = `<div class="tip-name">${name}</div><div class="tip-loading">載入中…</div>`;
+      positionTip(e);
+
+      // 跟隨滑鼠
+      const moveHandler = (ev) => positionTip(ev);
+      e.currentTarget._tipMove = moveHandler;
+      document.addEventListener('mousemove', moveHandler);
+
+      try {
+        let data = abilityCache[name];
+        if (!data) {
+          const res = await fetch(`data/abilities/${encodeURIComponent(name)}.json`);
+          if (!res.ok) throw new Error('not found');
+          data = await res.json();
+          abilityCache[name] = data;
+        }
+        const effect = data.effect || data.introduction || '（無效果說明）';
+        el.innerHTML = `<div class="tip-name">${data.name_zh || name}</div><div>${effect}</div>`;
+        // 重新定位（內容高度可能變了）
+        positionTip(e);
+      } catch (err) {
+        el.innerHTML = `<div class="tip-name">${name}</div><div class="tip-loading">找不到特性資料</div>`;
+      }
+    }
+
+    function hideAbilityTip() {
+      if (tipEl) tipEl.style.display = 'none';
+      // 移除可能殘留的 mousemove
+      document.querySelectorAll('.ability-badge').forEach(b => {
+        if (b._tipMove) {
+          document.removeEventListener('mousemove', b._tipMove);
+          b._tipMove = null;
+        }
+      });
     }
 
     function renderStats(statsOrData, formLabel = null) {
