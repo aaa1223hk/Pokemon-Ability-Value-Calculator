@@ -140,7 +140,7 @@
       "category": "魔像寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "無形拳",
           "is_hidden": false
         }
       ],
@@ -400,7 +400,7 @@
     {
       "name": "泥偶巨人",
       "form_name": "超級泥偶巨人",
-      "image": "623Golurk-Mega.png"
+      "image": "0623-泥偶巨人-超級泥偶巨人.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1216,6 +1216,11 @@
       "name": "泥偶巨人",
       "image": "0623-泥偶巨人.png",
       "shiny": "0623-泥偶巨人-shiny.png"
+    },
+	{
+      "name": "泥偶巨人-超級泥偶巨人",
+      "image": "0623-泥偶巨人-超級泥偶巨人.png",
+      "shiny": "0623-泥偶巨人-超級泥偶巨人-shiny.png"
     }
   ]
 }

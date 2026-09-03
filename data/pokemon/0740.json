@@ -125,7 +125,7 @@
       "category": "毛蟹寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "鐵拳",
           "is_hidden": false
         }
       ],
@@ -1050,6 +1050,11 @@
       "name": "好勝毛蟹",
       "image": "0740-好勝毛蟹.png",
       "shiny": "0740-好勝毛蟹-shiny.png"
+    },
+	{
+      "name": "好勝毛蟹-超級好勝毛蟹",
+      "image": "0740-好勝毛蟹-超級好勝毛蟹.png",
+      "shiny": "0740-好勝毛蟹-超級好勝毛蟹-shiny.png"
     }
   ]
 }

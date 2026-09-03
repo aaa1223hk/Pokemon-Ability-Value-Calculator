@@ -3419,5 +3419,16 @@
     "hidden_count": 0,
     "generation": 9,
     "caption": ""
+  },
+  {
+    "id": "0448",
+    "name_zh": "波導防護",
+    "name_ja": "はどうのぼうご",
+    "name_en": "Aura Guard",
+    "description": "擁有該特性的寶可夢在受到接觸類招式的攻擊時，受到的傷害減少50%。",
+    "common_count": 1,
+    "hidden_count": 0,
+    "generation": 9,
+    "caption": ""
   }
 ]

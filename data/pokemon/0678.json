@@ -188,7 +188,7 @@
       "category": "千里眼寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "複製",
           "is_hidden": false
         }
       ],
@@ -1789,6 +1789,11 @@
       "name": "超能妙喵-雌性",
       "image": "0678-超能妙喵-雌性.png",
       "shiny": "0678-超能妙喵-雌性-shiny.png"
+    },
+    {
+      "name": "超能妙喵-超級超能妙喵",
+      "image": "0678-超能妙喵-超級超能妙喵.png",
+      "shiny": "0678-超能妙喵-超級超能妙喵-shiny.png"
     }
   ]
 }

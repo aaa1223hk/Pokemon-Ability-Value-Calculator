@@ -121,7 +121,7 @@
       "category": "礦石寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "適應力",
           "is_hidden": false
         }
       ],
@@ -934,6 +934,11 @@
       "name": "晶光花",
       "image": "0970-晶光花.png",
       "shiny": "0970-晶光花-shiny.png"
+    },
+	{
+      "name": "晶光花-超級晶光花",
+      "image": "0970-晶光花-超級晶光花.png",
+      "shiny": "0970-晶光花-超級晶光花-shiny.png"
     }
   ]
 }

@@ -125,7 +125,7 @@
       "category": "熱辣寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "辣椒噴發",
           "is_hidden": false
         }
       ],
@@ -1174,6 +1174,11 @@
       "name": "狠辣椒",
       "image": "0952-狠辣椒.png",
       "shiny": "0952-狠辣椒-shiny.png"
+    },
+	{
+      "name": "狠辣椒-超級狠辣椒",
+      "image": "0952-狠辣椒-超級狠辣椒.png",
+      "shiny": "0952-狠辣椒-超級狠辣椒-shiny.png"
     }
   ]
 }

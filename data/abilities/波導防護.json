@@ -14,17 +14,18 @@
   "effect": "擁有該特性的寶可夢在受到接觸類招式的攻擊時，受到的傷害減少50%。",
   "pokemon_list": [
     {
-      "id": "0448
+      "id": "0448",
       "name": "超級路卡利歐Ｚ",
       "form": "",
       "types": [
         "格鬥",
         "鋼"
       ],
-      "first_ability": "ＡＲ系統",
+      "first_ability": "波導防護",
       "second_ability": "",
       "hidden_ability": ""
+    
     }
-    }
-  ]
+  ],
+  "id": "0448"
 }
