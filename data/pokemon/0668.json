@@ -191,7 +191,7 @@
       "category": "王者寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "火焰鬃毛",
           "is_hidden": false
         }
       ],
@@ -375,7 +375,7 @@
     {
       "name": "火炎獅",
       "form_name": "超級火炎獅",
-      "image": "668Pyroar-Mega.png"
+      "image": "0668-火炎獅-超級火炎獅.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1182,6 +1182,11 @@
       "name": "火炎獅-雌性",
       "image": "0668-火炎獅-雌性.png",
       "shiny": "0668-火炎獅-雌性-shiny.png"
+    },
+    {
+      "name": "火炎獅-超級火炎獅",
+      "image": "0668-火炎獅-超級火炎獅.png",
+      "shiny": "0668-火炎獅-超級火炎獅-shiny.png"
     }
   ]
 }

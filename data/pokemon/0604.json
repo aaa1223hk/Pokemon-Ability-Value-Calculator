@@ -463,7 +463,7 @@
     {
       "name": "麻麻鰻魚王",
       "form_name": "超級麻麻鰻魚王",
-      "image": "604Eelektross-Mega.png"
+      "image": "0604-麻麻鰻魚王-超級麻麻鰻魚王.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1135,6 +1135,11 @@
       "name": "麻麻鰻魚王",
       "image": "0604-麻麻鰻魚王.png",
       "shiny": "0604-麻麻鰻魚王-shiny.png"
+    },
+    {
+      "name": "麻麻鰻魚王-超級麻麻鰻魚王",
+      "image": "0604-麻麻鰻魚王-超級麻麻鰻魚王.png",
+      "shiny": "0604-麻麻鰻魚王-超級麻麻鰻魚王-shiny.png"
     }
   ]
 }

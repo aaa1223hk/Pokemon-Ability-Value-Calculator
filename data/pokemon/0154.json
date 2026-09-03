@@ -136,7 +136,7 @@
       "category": "芳草寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "精神力",
           "is_hidden": false
         }
       ],
@@ -1400,6 +1400,11 @@
       "name": "大竺葵-雌性",
       "image": "0154-大竺葵-雌性.png",
       "shiny": "0154-大竺葵-雌性-shiny.png"
+    },
+    {
+      "name": "大竺葵-超級大竺葵",
+      "image": "0154-大竺葵-超級大竺葵.png",
+      "shiny": "0154-大竺葵-超級大竺葵-shiny.png"
     }
   ]
 }

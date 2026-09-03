@@ -140,7 +140,7 @@
       "category": "地底寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "破格",
           "is_hidden": false
         }
       ],
@@ -400,7 +400,7 @@
     {
       "name": "龍頭地鼠",
       "form_name": "超級龍頭地鼠",
-      "image": "530Excadrill-Mega.png"
+      "image": "0530-龍頭地鼠-超級龍頭地鼠.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1148,6 +1148,11 @@
       "name": "龍頭地鼠",
       "image": "0530-龍頭地鼠.png",
       "shiny": "0530-龍頭地鼠-shiny.png"
+    },
+    {
+      "name": "龍頭地鼠-超級龍頭地鼠",
+      "image": "0530-龍頭地鼠-超級龍頭地鼠.png",
+      "shiny": "0530-龍頭地鼠-超級龍頭地鼠-shiny.png"
     }
   ]
 }

@@ -142,7 +142,7 @@
       "category": "龍寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "多重鱗片",
           "is_hidden": false
         }
       ],
@@ -1925,6 +1925,11 @@
       "name": "快龍",
       "image": "0149-快龍.png",
       "shiny": "0149-快龍-shiny.png"
+    },
+    {
+      "name": "快龍-超級快龍",
+      "image": "0149-快龍-超級快龍.png",
+      "shiny": "0149-快龍-超級快龍-shiny.png"
     }
   ]
 }

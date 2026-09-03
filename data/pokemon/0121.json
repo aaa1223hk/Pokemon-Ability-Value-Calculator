@@ -140,7 +140,7 @@
       "category": "謎寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "大力士",
           "is_hidden": false
         }
       ],
@@ -1103,6 +1103,11 @@
       "name": "寶石海星",
       "image": "0121-寶石海星.png",
       "shiny": "0121-寶石海星-shiny.png"
+    },
+    {
+      "name": "寶石海星-超級寶石海星",
+      "image": "0121-寶石海星-超級寶石海星.png",
+      "shiny": "0121-寶石海星-超級寶石海星-shiny.png"
     }
   ]
 }

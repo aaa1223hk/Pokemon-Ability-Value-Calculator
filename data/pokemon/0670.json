@@ -180,7 +180,7 @@
       "category": "單朵寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "妖精氣場",
           "is_hidden": false
         }
       ],
@@ -434,7 +434,7 @@
     {
       "name": "花葉蒂",
       "form_name": "超級花葉蒂",
-      "image": "670Floette-Mega.png"
+      "image": "0670-花葉蒂-超級花葉蒂.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1005,6 +1005,11 @@
       "name": "花葉蒂-黃花",
       "image": "0670-花葉蒂-黃花.png",
       "shiny": "0670-花葉蒂-黃花-shiny.png"
+    },
+    {
+      "name": "花葉蒂-超級花葉蒂",
+      "image": "0670-花葉蒂-超級花葉蒂.png",
+      "shiny": "0670-花葉蒂-超級花葉蒂-shiny.png"
     }
   ]
 }

@@ -140,7 +140,7 @@
       "category": "引誘寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "穿透",
           "is_hidden": false
         }
       ],
@@ -490,7 +490,7 @@
     {
       "name": "水晶燈火靈",
       "form_name": "超級水晶燈火靈",
-      "image": "609Chandelure-Mega.png"
+      "image": "0609-水晶燈火靈-超級水晶燈火靈.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1147,6 +1147,11 @@
       "name": "水晶燈火靈",
       "image": "0609-水晶燈火靈.png",
       "shiny": "0609-水晶燈火靈-shiny.png"
+    },
+    {
+      "name": "水晶燈火靈-超級水晶燈火靈",
+      "image": "0609-水晶燈火靈-超級水晶燈火靈.png",
+      "shiny": "0609-水晶燈火靈-超級水晶燈火靈-shiny.png"
     }
   ]
 }

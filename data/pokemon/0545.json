@@ -140,7 +140,7 @@
       "category": "巨蜈蚣寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "硬殼盔甲",
           "is_hidden": false
         }
       ],
@@ -410,7 +410,7 @@
     {
       "name": "蜈蚣王",
       "form_name": "超級蜈蚣王",
-      "image": "545Scolipede-Mega.png"
+      "image": "0545-蜈蚣王-超級蜈蚣王.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1078,6 +1078,11 @@
       "name": "蜈蚣王",
       "image": "0545-蜈蚣王.png",
       "shiny": "0545-蜈蚣王-shiny.png"
+    },
+    {
+      "name": "蜈蚣王-超級蜈蚣王",
+      "image": "0545-蜈蚣王-超級蜈蚣王.png",
+      "shiny": "0545-蜈蚣王-超級蜈蚣王-shiny.png"
     }
   ]
 }

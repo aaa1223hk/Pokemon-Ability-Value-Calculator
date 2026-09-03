@@ -144,7 +144,7 @@
       "category": "妖精寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "魔法鏡",
           "is_hidden": false
         }
       ],
@@ -1648,6 +1648,11 @@
       "name": "皮可西",
       "image": "0036-皮可西.png",
       "shiny": "0036-皮可西-shiny.png"
-    }
+    },
+	{
+    "name": "皮可西-超級皮可西",
+    "image": "0036-皮可西-超級皮可西.png",
+    "shiny": "0036-皮可西-超級皮可西-shiny.png"
+  }
   ]
 }

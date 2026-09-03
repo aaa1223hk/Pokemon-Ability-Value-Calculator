@@ -136,7 +136,7 @@
       "category": "捕蠅寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "飛出的內在物",
           "is_hidden": false
         }
       ],
@@ -1331,6 +1331,11 @@
       "name": "大食花",
       "image": "0071-大食花.png",
       "shiny": "0071-大食花-shiny.png"
+    },
+    {
+      "name": "大食花-超級大食花",
+      "image": "0071-大食花-超級大食花.png",
+      "shiny": "0071-大食花-超級大食花-shiny.png"
     }
   ]
 }

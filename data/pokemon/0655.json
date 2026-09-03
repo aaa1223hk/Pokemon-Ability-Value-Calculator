@@ -136,7 +136,7 @@
       "category": "狐狸寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "飄浮",
           "is_hidden": false
         }
       ],
@@ -375,7 +375,7 @@
     {
       "name": "妖火紅狐",
       "form_name": "超級妖火紅狐",
-      "image": "655Delphox-Mega_Dream.png"
+      "image": "0655-妖火紅狐-超級妖火紅狐.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1279,6 +1279,11 @@
       "name": "妖火紅狐",
       "image": "0655-妖火紅狐.png",
       "shiny": "0655-妖火紅狐-shiny.png"
+    },
+    {
+      "name": "妖火紅狐-超級妖火紅狐",
+      "image": "0655-妖火紅狐-超級妖火紅狐.png",
+      "shiny": "0655-妖火紅狐-超級妖火紅狐-shiny.png"
     }
   ]
 }

@@ -125,7 +125,7 @@
       "category": "集合寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "硬爪",
           "is_hidden": false
         }
       ],
@@ -441,7 +441,7 @@
     {
       "name": "龜足巨鎧",
       "form_name": "超級龜足巨鎧",
-      "image": "689Barbaracle-Mega.png"
+      "image": "0689-龜足巨鎧-超級龜足巨鎧.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1219,6 +1219,11 @@
       "name": "龜足巨鎧",
       "image": "0689-龜足巨鎧.png",
       "shiny": "0689-龜足巨鎧-shiny.png"
+    },
+    {
+      "name": "龜足巨鎧-超級龜足巨鎧",
+      "image": "0689-龜足巨鎧-超級龜足巨鎧.png",
+      "shiny": "0689-龜足巨鎧-超級龜足巨鎧-shiny.png"
     }
   ]
 }

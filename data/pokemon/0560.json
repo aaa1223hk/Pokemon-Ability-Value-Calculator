@@ -141,7 +141,7 @@
       "category": "惡黨寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "威嚇",
           "is_hidden": false
         }
       ],
@@ -402,7 +402,7 @@
     {
       "name": "頭巾混混",
       "form_name": "超級頭巾混混",
-      "image": "560Scrafty-Mega.png"
+      "image": "0560-頭巾混混-超級頭巾混混.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1404,6 +1404,11 @@
       "name": "頭巾混混",
       "image": "0560-頭巾混混.png",
       "shiny": "0560-頭巾混混-shiny.png"
+    },
+    {
+      "name": "頭巾混混-超級頭巾混混",
+      "image": "0560-頭巾混混-超級頭巾混混.png",
+      "shiny": "0560-頭巾混混-超級頭巾混混-shiny.png"
     }
   ]
 }

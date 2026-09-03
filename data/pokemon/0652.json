@@ -136,7 +136,7 @@
       "category": "刺鎧寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "防彈",
           "is_hidden": false
         }
       ],
@@ -329,7 +329,7 @@
     {
       "name": "布里卡隆",
       "form_name": "超級布里卡隆",
-      "image": "652Chesnaught-Mega_Dream.png"
+      "image": "0652-布里卡隆-超級布里卡隆.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1373,6 +1373,11 @@
       "name": "布里卡隆",
       "image": "0652-布里卡隆.png",
       "shiny": "0652-布里卡隆-shiny.png"
+    },
+    {
+      "name": "布里卡隆-超級布里卡隆",
+      "image": "0652-布里卡隆-超級布里卡隆.png",
+      "shiny": "0652-布里卡隆-超級布里卡隆-shiny.png"
     }
   ]
 }

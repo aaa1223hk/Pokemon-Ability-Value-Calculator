@@ -126,7 +126,7 @@
       "category": "大火豬寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "破格",
           "is_hidden": false
         }
       ],
@@ -1494,6 +1494,11 @@
       "name": "炎武王",
       "image": "0500-炎武王.png",
       "shiny": "0500-炎武王-shiny.png"
+    },
+    {
+      "name": "炎武王-超級炎武王",
+      "image": "0500-炎武王-超級炎武王.png",
+      "shiny": "0500-炎武王-超級炎武王-shiny.png"
     }
   ]
 }
