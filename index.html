@@ -83,6 +83,18 @@
     .form-btn.active {
       background: var(--accent); color: #fff; border-color: var(--accent);
     }
+    .shiny-toggle {
+      margin-top: 0.5rem; display: flex; justify-content: center;
+    }
+    .shiny-btn {
+      padding: 0.3rem 0.9rem; border: 1px solid var(--border); border-radius: 8px;
+      background: #fff; cursor: pointer; font-size: 0.8rem; color: var(--text);
+    }
+    .shiny-btn:hover { border-color: #a855f7; color: #7e22ce; }
+    .shiny-btn.active {
+      background: linear-gradient(135deg, #c084fc, #a855f7);
+      color: #fff; border-color: #9333ea;
+    }
     .ability-badge {
       display: inline-block; padding: 0.25rem 0.7rem; border-radius: 8px;
       font-size: 0.85rem; font-weight: 600; margin: 0.15rem 0.25rem 0.15rem 0;
@@ -277,6 +289,7 @@ const searchInput = document.getElementById('pokemon-search');
     let currentData = null;
     let currentBaseStats = {};   // 目前選中的 form 種族值（給計算用）
     let currentFormLabel = '一般';
+    let currentShiny = false;    // 異色開關
 
     function buildDropdownItems(filterText = '') {
       const q = (filterText || '').trim().toLowerCase();
@@ -977,22 +990,7 @@ function typeClass(t) { return 'type-' + t; }
       });
 
       // 更新圖片
-      const img = document.getElementById('poke-img');
-      if (img) {
-        const index = currentData.pokedex_id || selectedIndex || '';
-        const newSrc = resolveFormImage(formLabel, index, currentData);
-        img.style.display = '';
-        img.src = newSrc;
-        const errP = img.nextElementSibling;
-        if (errP) errP.style.display = 'none';
-        img.onerror = function() {
-          this.src = `data/images/home/${index}.png`;
-          this.onerror = function() {
-            this.style.display = 'none';
-            if (this.nextElementSibling) this.nextElementSibling.style.display = 'block';
-          };
-        };
-      }
+      updatePokeImage();
 
       // 重新計算所有已開啟的能力值區塊
       document.querySelectorAll('[id^="calc-results-"]').forEach(el => {
@@ -1052,6 +1050,53 @@ function typeClass(t) { return 'type-' + t; }
     }
 
     /** 依 forms 名稱解析圖片路徑 */
+
+    function applyShinyPath(src) {
+      if (!currentShiny || !src) return src;
+      // xxx.png → xxx-shiny.png ；已是 -shiny.png 則不變
+      if (src.endsWith('-shiny.png')) return src;
+      if (src.endsWith('.png')) return src.slice(0, -4) + '-shiny.png';
+      return src;
+    }
+
+    function updatePokeImage() {
+      const img = document.getElementById('poke-img');
+      if (!img || !currentData) return;
+      const index = currentData.pokedex_id || selectedIndex || '';
+      let src = resolveFormImage(currentFormLabel, index, currentData);
+      src = applyShinyPath(src);
+      img.style.display = '';
+      img.src = src;
+      const errP = img.nextElementSibling;
+      if (errP) errP.style.display = 'none';
+      img.onerror = function() {
+        // 異色圖不存在 → 退回非異色；再不行退回一般 home 圖
+        if (currentShiny && this.src.includes('-shiny.png')) {
+          this.src = this.src.replace('-shiny.png', '.png');
+          this.onerror = function() {
+            this.src = `data/images/home/${index}.png`;
+            this.onerror = function() {
+              this.style.display = 'none';
+              if (this.nextElementSibling) this.nextElementSibling.style.display = 'block';
+            };
+          };
+        } else {
+          this.src = `data/images/home/${index}.png`;
+          this.onerror = function() {
+            this.style.display = 'none';
+            if (this.nextElementSibling) this.nextElementSibling.style.display = 'block';
+          };
+        }
+      };
+    }
+
+    function toggleShiny() {
+      currentShiny = !currentShiny;
+      const btn = document.getElementById('shiny-btn');
+      if (btn) btn.classList.toggle('active', currentShiny);
+      updatePokeImage();
+    }
+
     function resolveFormImage(formLabel, index, data) {
       const species = (data && data.name_zh) ? data.name_zh : '';
 
@@ -1192,6 +1237,7 @@ function typeClass(t) { return 'type-' + t; }
         currentBaseStats = { ...firstStats };
         const formNames = (data.forms || []).map(f => f.name).filter(Boolean);
         currentFormLabel = formNames[0] || data.name_zh || '一般';
+        currentShiny = false;
 
         const nameZh = data.name_zh || (pokedex.find(p => p.index === index) || {}).name_zh || index;
         const nameEn = data.name_en || '';
@@ -1237,6 +1283,9 @@ function typeClass(t) { return 'type-' + t; }
                 <p class="placeholder" style="display:none">圖片載入失敗（${imgFile}）</p>
               </div>
               <div class="form-btns" id="form-btns">${formButtonsHtml}</div>
+              <div class="shiny-toggle">
+                <button type="button" class="shiny-btn" id="shiny-btn" onclick="toggleShiny()">異色</button>
+              </div>
             </div>
           </div>
                     <div id="calc-container"></div>
