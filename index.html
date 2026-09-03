@@ -266,6 +266,88 @@
       font-weight: 500;
       color: #64748b;
     }
+    /* 傷害計算：獨立拉寬並把雙方欄位固定對齊，避免滑桿、數值與標籤互相擠壓 */
+    .damage-card { width: min(1200px, calc(100vw - 2rem)); margin-left: 50%; transform: translateX(-50%); }
+    .damage-card .section-title { margin-bottom: 1rem; }
+    .damage-controls { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.8rem 1.5rem; align-items: center; margin-bottom: 1.15rem; font-size: 0.9rem; }
+    .damage-controls label { display: flex; align-items: center; gap: 0.45rem; }
+    .damage-controls select, .damage-controls input[type="number"] { padding: 0.42rem 0.6rem; border: 1px solid var(--border); border-radius: 8px; font-size: 0.88rem; background: #fff; }
+    .damage-controls select { width: 260px; max-width: 70vw; }
+    .damage-controls input[type="number"] { width: 4.2rem; text-align: center; }
+    .damage-sides { display: grid; grid-template-columns: minmax(0, 1fr) 72px minmax(0, 1fr); gap: 1rem; align-items: stretch; }
+    .damage-side { background: #f8fafc; border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.05rem 0.9rem; min-width: 0; }
+    .damage-copy-btn {
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--text);
+      border-radius: 8px;
+      padding: 0.38rem 0.7rem;
+      font-size: 0.84rem;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .damage-copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    .damage-side-title { text-align: center; font-weight: 800; color: var(--text); margin-bottom: 0.6rem; font-size: 1.08rem; }
+    .damage-side-head { text-align: center; margin-bottom: 0.9rem; }
+    .damage-level-nature { display:flex; justify-content:center; align-items:center; gap:0.7rem; flex-wrap:wrap; margin:0.75rem 0 1rem; }
+    .damage-level-nature label { display:flex; align-items:center; gap:0.4rem; font-size:0.9rem; font-weight:600; }
+    .damage-level-nature input, .damage-level-nature select { padding:0.42rem 0.55rem; border:1px solid var(--border); border-radius:7px; background:#fff; font-size:0.9rem; }
+    .damage-level-nature input { width:78px; }
+    .damage-side-image { width: 175px; height: 175px; object-fit: contain; display: block; margin: 0 auto 0.25rem; }
+    .damage-side-name { text-align: center; font-size: 1.12rem; font-weight: 800; margin-bottom: 0.15rem; }
+    .damage-side-sub { text-align: center; font-size: 0.84rem; color: var(--muted); min-height: 1.25em; }
+    .damage-form-btns { display: flex; flex-wrap: wrap; gap: 0.35rem; justify-content: center; margin-top: 0.55rem; }
+    .damage-form-btns .form-btn { padding: 0.3rem 0.7rem; font-size: 0.8rem; }
+    .damage-adjust-grid { display: grid; grid-template-columns: 2.9rem minmax(65px, 1fr) 3.3rem minmax(65px, 1fr) 3.3rem 4.2rem 4.7rem; gap: 0.55rem 0.55rem; align-items: center; }
+    .damage-adjust-title { font-size: 0.76rem; font-weight: 700; color: var(--muted); text-align: center; white-space: nowrap; }
+    .damage-adjust-label { font-size: 0.82rem; font-weight: 700; text-align: left; white-space: nowrap; }
+    .damage-adjust-grid input[type="range"] { width: 100%; min-width: 0; height: 6px; accent-color: var(--accent); margin: 0; cursor: grab; touch-action: none; user-select: none; }
+    .damage-adjust-grid input[type="range"]:active { cursor: grabbing; }
+    .damage-adjust-grid input[type="number"] { width: 100%; min-width: 0; box-sizing: border-box; padding: 0.36rem 0.25rem; border: 1px solid var(--border); border-radius: 8px; font-size: 0.82rem; text-align: center; background: #fff; }
+    .damage-stat-current { display: inline-flex; justify-content: center; align-items: center; min-width: 0; width: 100%; padding: 0.36rem 0.35rem; border-radius: 8px; background: #fff; border: 1px solid var(--border); text-align: center; font-size: 0.84rem; font-weight: 800; }
+    .damage-stat-stage { width: 100%; min-width: 0; box-sizing: border-box; padding: 0.36rem 0.2rem; border: 1px solid var(--border); border-radius: 8px; background:#fff; font-size:0.78rem; text-align:center; }
+    .damage-ev-total { margin-top: 0.8rem; text-align: right; padding-right: 0.1rem; font-size: 0.78rem; color: var(--muted); }
+    .damage-ev-total.over { color: #dc2626; font-weight: 700; }
+    .damage-swap { display: flex; justify-content: center; align-items: center; }
+    .damage-swap button { width: 58px; height: 58px; border: 1px solid var(--border); border-radius: 50%; background: #fff; color: var(--text); cursor: pointer; font-size: 1.65rem; line-height: 1; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    .damage-swap button:hover { border-color: var(--accent); color: var(--accent); }
+    .damage-move-controls { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 0.7rem; margin-top: 1rem; }
+    .damage-move-controls label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.88rem; }
+    .damage-move-controls select { max-width: 360px; padding: 0.35rem 0.5rem; border: 1px solid var(--border); border-radius: 6px; background: #fff; }
+    .damage-move-controls input[type="number"] { width: 4.5rem; padding: 0.35rem 0.45rem; border: 1px solid var(--border); border-radius: 6px; text-align: center; }
+    .damage-bonus-wrap { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 1.2rem; margin-top: 0.85rem; }
+    .damage-crit-inline, .damage-other-bonus { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.88rem; }
+    .damage-other-bonus input[type="number"] { width: 4.8rem; padding: 0.35rem 0.45rem; border: 1px solid var(--border); border-radius: 6px; text-align: center; background: #fff; }
+    .damage-calc-wrap { display: flex; justify-content: center; margin-top: 0.85rem; }
+    .damage-calc-btn { border: 1px solid var(--border); border-radius: 8px; background: #fff; color: var(--text); cursor: pointer; padding: 0.5rem 2.4rem; font-size: 0.9rem; }
+    .damage-calc-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .damage-result { margin-top: 1rem; text-align: center; background: #f1f5f9; border: 1px solid var(--border); border-radius: 12px; padding: 0.8rem; }
+    .damage-result-label { color: var(--muted); font-size: 0.8rem; }
+    .damage-result-value { font-size: 1.55rem; font-weight: 800; margin-top: 0.15rem; }
+    .damage-result-detail { font-size: 0.78rem; color: var(--muted); margin-top: 0.35rem; }
+    .damage-hp-bar-wrap { margin-top: 1.15rem; }
+    .damage-hp-bar-labels { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem; padding: 0 0.1rem; font-size: 0.9rem; font-weight: 700; color: var(--text); }
+    .damage-hp-bar { position: relative; width: 100%; height: 28px; border: 1px solid #111827; border-radius: 9px; background: #fff; overflow: hidden; box-sizing: border-box; }
+    .damage-hp-range { position: absolute; top: 0; bottom: 0; }
+    .damage-hp-range-max { background: #f5b7b7; }
+    .damage-hp-range-min { background: #b9efbf; }
+    .damage-hp-bar-caption { display: flex; justify-content: space-between; gap: 0.75rem; margin-top: 0.35rem; font-size: 0.75rem; color: var(--muted); }
+    .damage-note { font-size: 0.75rem; color: var(--muted); margin-top: 0.65rem; text-align: center; }
+    @media (max-width: 1050px) {
+      .damage-sides { grid-template-columns: 1fr; }
+      .damage-swap { padding: 0.2rem 0; }
+      .damage-swap button { transform: rotate(90deg); }
+    }
+    @media (max-width: 560px) {
+      .damage-card { width: calc(100vw - 1rem); }
+      .damage-side { padding-left: 0.65rem; padding-right: 0.65rem; }
+      .damage-side-image { width: 145px; height: 145px; }
+      .damage-adjust-grid { grid-template-columns: 2.6rem minmax(48px, 1fr) 2.9rem minmax(48px, 1fr) 2.9rem 3.6rem 3.9rem; gap: 0.45rem 0.35rem; }
+      .damage-adjust-title { font-size: 0.68rem; }
+      .damage-adjust-label { font-size: 0.75rem; }
+      .damage-adjust-grid input[type="number"], .damage-stat-current { font-size: 0.75rem; }
+    }
     .discord-footer {
       text-align: center;
       margin-top: 1.25rem;
@@ -291,7 +373,56 @@
       outline: 2px solid #5865F2;
       outline-offset: 2px;
     }
-  </style>
+  
+    .damage-controls { display:flex; justify-content:center; align-items:center; gap:18px; flex-wrap:wrap; }
+    .damage-controls label { display:flex; align-items:center; gap:8px; }
+
+    /* 對象選單與下方左右兩個區塊使用完全相同的三欄網格，
+       讓攻擊方選單正對攻擊方卡片、防禦方選單正對防禦方卡片。 */
+    .damage-object-controls {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 72px minmax(0, 1fr);
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 1.15rem;
+      font-size: 0.9rem;
+    }
+    .damage-object-controls label {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      min-width: 0;
+    }
+    .damage-object-controls label:first-child { justify-content: flex-end; }
+    .damage-object-controls label:last-child { justify-content: flex-start; }
+    .damage-object-controls select {
+      flex: 1 1 auto;
+      min-width: 0;
+      width: 100%;
+      padding: 0.55rem 0.7rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 760px) {
+      .damage-object-controls {
+        grid-template-columns: 1fr;
+        gap: 0.65rem;
+      }
+      .damage-object-controls > div { display:none; }
+      .damage-object-controls label:first-child,
+      .damage-object-controls label:last-child {
+        justify-content: flex-start;
+      }
+    }
+    .damage-crit-inline { display:inline-flex; align-items:center; gap:8px; margin-left:16px; font-weight:600; }
+    .damage-weather-controls { display:flex; justify-content:center; align-items:center; gap:0.7rem; margin-top:0.9rem; flex-wrap:wrap; }
+    .damage-weather-controls label { display:flex; align-items:center; gap:0.55rem; font-size:0.95rem; font-weight:600; }
+    .damage-weather-controls select { min-width:180px; padding:0.55rem 0.7rem; border:1px solid var(--border); border-radius:8px; background:#fff; font-size:0.95rem; }
+    .damage-calc-wrap { display:flex; justify-content:center; align-items:center; gap:14px; margin-top:18px; }
+    .damage-calc-wrap .damage-calc-btn { margin:0; }
+</style>
 </head>
 <body>
   <div class="container">
@@ -1002,6 +1133,816 @@ function typeClass(t) { return 'type-' + t; }
     }
 
 
+    // ===== 傷害計算 =====
+    let damageTargetCache = {};
+    let damageState = {
+      targetIndex: null, targetData: null, targetForm: null,
+      sides: null, result: null, weather: '無', terrain: '無', unknownMoveType: '一般'
+    };
+
+    function damageSafeText(s) {
+      return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+
+    function getBaseStatsForForm(data, formLabel) {
+      const entry = findStatsEntry(formLabel, data);
+      return { ...((entry && entry.data) || (data && data.stats && data.stats[0] && data.stats[0].data) || {}) };
+    }
+
+    function getNeutralNature() { return NATURES.find(n => !n.boost) || NATURES[0]; }
+
+    function cloneStatMap(src, fallback) {
+      const out = {};
+      STAT_KEYS.forEach(k => out[k] = Number.isFinite(Number(src?.[k])) ? Number(src[k]) : fallback);
+      return out;
+    }
+
+    function calcSideStats(side) {
+      const base = side.baseStats || {};
+      const level = Math.max(1, Math.min(100, parseInt(side.level, 10) || 50));
+      const nature = side.nature || getNeutralNature();
+      const stats = {};
+      STAT_KEYS.forEach(k => {
+        const iv = Math.max(0, Math.min(31, parseInt((side.iv || {})[k], 10) || 0));
+        const ev = Math.max(0, Math.min(252, parseInt((side.ev || {})[k], 10) || 0));
+        const mod = k === 'hp' ? 1 : getNatureMod(nature, k);
+        stats[k] = calcStat(parseInt(base[k], 10) || 0, iv, ev, level, k === 'hp', mod);
+      });
+      return stats;
+    }
+
+    function readCalcSideInputs() {
+      const iv = {}, ev = {};
+      STAT_KEYS.forEach(k => {
+        iv[k] = getNum(`iv-0-${k}`, 31, 0, 31);
+        ev[k] = getNum(`ev-0-${k}`, 0, 0, 252);
+      });
+      return { iv, ev };
+    }
+
+    function makeCurrentCalcSide() {
+      const base = { ...(currentBaseStats || {}) };
+      const level = getNum('calc-level-0', 50, 1, 100);
+      const natureIdx = getNum('calc-nature-0', 0, 0, NATURES.length - 1);
+      const nature = NATURES[natureIdx] || getNeutralNature();
+      const inputs = readCalcSideInputs();
+      const side = {
+        index: currentData?.pokedex_id || selectedIndex || '',
+        data: currentData,
+        form: currentFormLabel,
+        name: currentData?.name_zh || '攻擊方',
+        level, nature, baseStats: base,
+        iv: inputs.iv, ev: inputs.ev,
+        stages: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
+        source: 'calc'
+      };
+      side.stats = calcSideStats(side);
+      return side;
+    }
+
+    function makeDefaultTargetSide(data, index, formLabel) {
+      const base = getBaseStatsForForm(data, formLabel);
+      const side = {
+        index, data, form: formLabel || (data?.forms?.[0]?.name || data?.name_zh || '一般'),
+        name: data?.name_zh || index || '防禦方', level: 50, nature: getNeutralNature(),
+        baseStats: base,
+        iv: { hp:31, attack:31, defense:31, sp_attack:31, sp_defense:31, speed:31 },
+        ev: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
+        stages: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
+        source: 'target'
+      };
+      side.stats = calcSideStats(side);
+      return side;
+    }
+
+    function buildDamagePokemonOptions(selected) {
+      return pokedex.map(p => `<option value="${p.index}" ${p.index === selected ? 'selected' : ''}>${p.index} - ${damageSafeText(p.name_zh)}</option>`).join('');
+    }
+
+    function getDamageMoves(side) {
+      if (!side || !side.data) return [];
+      const sources = [
+        { key:'learnable_moves', label:'level' }, { key:'machine_moves', label:'machine' }, { key:'egg_moves', label:'egg' }
+      ];
+      const merged = new Map();
+      for (const source of sources) {
+        const arr = side.data[source.key] || [];
+        let formIdx = 0;
+        if (side.form) {
+          const idx = arr.findIndex(x => x.form === side.form);
+          if (idx >= 0) formIdx = idx;
+        }
+        const list = (arr[formIdx] && arr[formIdx].data) ? arr[formIdx].data : (Array.isArray(arr) ? arr : []);
+        for (const m of list) {
+          if (!m?.name) continue;
+          if (!merged.has(m.name)) merged.set(m.name, { ...m, _methods: [] });
+          const x = merged.get(m.name);
+          if (source.label === 'level') {
+            if (m.level !== undefined && m.level !== null && m.level !== '' && m.level !== '—') x._methods.push(String(m.level));
+          } else x._methods.push(source.label === 'machine' ? '招式機' : '遺傳');
+          ['type','category','power','accuracy','pp'].forEach(k => {
+            if ((x[k] === undefined || x[k] === null || x[k] === '' || x[k] === '—') && m[k] !== undefined) x[k] = m[k];
+          });
+        }
+      }
+      return [...merged.values()];
+    }
+
+    function getDamageTargetTypes(side) {
+      if (!side?.data) return [];
+      return getFormTypes(side.form || side.data?.forms?.[0]?.name || '', side.data);
+    }
+
+    function getDamageImageSrc(side) {
+      if (!side?.data) return '';
+      return resolveFormImage(side.form || '一般', side.index || side.data.pokedex_id || '', side.data);
+    }
+
+    function getDamageFormNames(side) {
+      if (!side?.data?.forms) return [];
+      return side.data.forms.map(f => f?.name).filter(Boolean);
+    }
+
+    function renderDamageFormButtons(sideKey, side) {
+      const forms = getDamageFormNames(side);
+      if (forms.length <= 1) return '';
+      return `<div class="damage-form-btns">${forms.map(form => {
+        const active = form === side.form ? ' active' : '';
+        const arg = JSON.stringify(form).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+        return `<button type="button" class="form-btn${active}" onclick="switchDamageForm('${sideKey}', ${arg})">${damageSafeText(form)}</button>`;
+      }).join('')}</div>`;
+    }
+
+    function ensureDamageSides(force = false) {
+      if (!currentData) return null;
+      if (!force && damageState.sides) return damageState.sides;
+      const idx = damageState.targetIndex || selectedIndex || currentData?.pokedex_id;
+      const data = damageState.targetData || currentData;
+      const form = damageState.targetForm || (data === currentData ? currentFormLabel : data?.forms?.[0]?.name);
+      // 傷害計算區塊獨立保存雙方數值，不再自動從上方「能力值計算」複製。
+      // 初始僅使用各自預設值，使用者可透過「複製能力值計算」按鈕手動帶入。
+      const atk = makeDefaultTargetSide(currentData, currentData?.pokedex_id || selectedIndex || '', currentFormLabel);
+      atk.name = currentData?.name_zh || '攻擊方';
+      const def = makeDefaultTargetSide(data, idx, form);
+      damageState.sides = { atk, def };
+      return damageState.sides;
+    }
+
+    async function loadDamageAttacker(index) {
+      if (!index) return;
+      const el = document.getElementById('damage-attacker');
+      if (el) el.disabled = true;
+      try {
+        let data = damageTargetCache[index];
+        if (!data) {
+          const res = await fetch(`data/pokemon/${index}.json`);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          data = await res.json();
+          damageTargetCache[index] = data;
+        }
+        const sides = ensureDamageSides(false);
+        if (!sides) return;
+        const oldAtk = sides.atk || makeDefaultTargetSide(data, index, data?.forms?.[0]?.name);
+        const form = (data?.forms?.[0]?.name) || data?.name_zh || '一般';
+        sides.atk = {
+          ...oldAtk,
+          index, data, form,
+          name: data?.name_zh || index || '攻擊方',
+          baseStats: getBaseStatsForForm(data, form)
+        };
+        sides.atk.stats = calcSideStats(sides.atk);
+        damageState.result = null;
+        refreshDamageUI();
+      } catch (err) {
+        console.error('載入攻擊方失敗', err);
+      } finally {
+        if (el) el.disabled = false;
+      }
+    }
+
+    async function loadDamageTarget(index) {
+      if (!index) return;
+      const targetEl = document.getElementById('damage-target');
+      if (targetEl) targetEl.disabled = true;
+      try {
+        let data = damageTargetCache[index];
+        if (!data) {
+          const res = await fetch(`data/pokemon/${index}.json`);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          data = await res.json();
+          damageTargetCache[index] = data;
+        }
+        damageState.targetIndex = index;
+        damageState.targetData = data;
+        damageState.targetForm = (data.forms && data.forms[0] && data.forms[0].name) || data.name_zh || '一般';
+
+        // 更換防禦方時，只更換寶可夢／型態，不再把上方「能力值計算」數值帶下來。
+        // 保留目前防禦方已調整的 Lv／性格／個體值／努力值。
+        const sides = ensureDamageSides(false);
+        if (sides) {
+          const oldDef = sides.def || makeDefaultTargetSide(data, index, damageState.targetForm);
+          const def = {
+            ...oldDef,
+            index, data, form: damageState.targetForm,
+            name: data?.name_zh || index || '防禦方',
+            baseStats: getBaseStatsForForm(data, damageState.targetForm)
+          };
+          def.stats = calcSideStats(def);
+          sides.def = def;
+        } else {
+          damageState.sides = {
+            atk: makeDefaultTargetSide(currentData, currentData?.pokedex_id || selectedIndex || '', currentFormLabel),
+            def: makeDefaultTargetSide(data, index, damageState.targetForm)
+          };
+        }
+        damageState.result = null;
+        refreshDamageUI();
+      } catch (e) {
+        const result = document.getElementById('damage-result');
+        if (result) result.innerHTML = '<div class="damage-result-label">找不到防禦方資料</div>';
+      } finally {
+        if (targetEl) targetEl.disabled = false;
+      }
+    }
+
+    function getDamageSides() {
+      return ensureDamageSides(false);
+    }
+
+    const DAMAGE_STAGE_MULTIPLIERS = {
+      '-6': 0.25, '-5': 0.29, '-4': 0.33, '-3': 0.40, '-2': 0.50, '-1': 0.67,
+      '0': 1, '1': 1.5, '2': 2, '3': 2.5, '4': 3, '5': 3.5, '6': 4
+    };
+    function getDamageStageMultiplier(stage) {
+      return DAMAGE_STAGE_MULTIPLIERS[String(stage ?? 0)] ?? 1;
+    }
+    function buildDamageStageOptions(value) {
+      const v = Math.max(-6, Math.min(6, parseInt(value, 10) || 0));
+      const stageOrder = [6,5,4,3,2,1,0,-1,-2,-3,-4,-5,-6];
+      return stageOrder.map(n => { const k = String(n); return `<option value=\"${k}\" ${n===v?'selected':''}>${n>0?'+':''}${n}</option>`; }).join('');
+    }
+
+    function renderDamageSide(sideKey, side) {
+      const title = sideKey === 'atk' ? '攻擊方' : '防守方';
+      const imgSrc = getDamageImageSrc(side);
+      const typeText = getDamageTargetTypes(side).join('／') || '—';
+      const totalEv = STAT_KEYS.reduce((sum, k) => sum + Number(side.ev?.[k] || 0), 0);
+      const rows = STAT_KEYS.map(key => {
+        const label = STAT_LABELS[key], iv = Number(side.iv?.[key] ?? 31), ev = Number(side.ev?.[key] ?? 0), stat = Number(side.stats?.[key] ?? 0);
+        return `<div class="damage-adjust-label">${label}</div>
+          <input type="range" id="damage-iv-range-${sideKey}-${key}" min="0" max="31" value="${iv}" oninput="onDamageIv('${sideKey}','${key}',this.value)">
+          <input type="number" id="damage-iv-${sideKey}-${key}" min="0" max="31" value="${iv}" oninput="onDamageIv('${sideKey}','${key}',this.value)">
+          <input type="range" id="damage-ev-range-${sideKey}-${key}" min="0" max="252" value="${ev}" oninput="onDamageEv('${sideKey}','${key}',this.value)">
+          <input type="number" id="damage-ev-${sideKey}-${key}" min="0" max="252" value="${ev}" oninput="onDamageEv('${sideKey}','${key}',this.value)">
+          ${key === 'hp' ? '<span></span>' : `<select class="damage-stat-stage" id="damage-stage-${sideKey}-${key}" onchange="onDamageStageChange('${sideKey}','${key}',this.value)">${buildDamageStageOptions(side.stages?.[key] ?? 0)}</select>`}
+          <span class="damage-stat-current">${stat}</span>`;
+      }).join('');
+      return `<div class="damage-side-title"><span>${title}</span><button type="button" class="damage-copy-btn" onclick="copyCalcValuesToDamageSide('${sideKey}')">複製能力值計算</button></div>
+        <div class="damage-side-head">
+          <img class="damage-side-image" src="${damageSafeText(imgSrc)}" alt="${damageSafeText(side.name)}" onerror="this.style.visibility='hidden';">
+          <div class="damage-side-name">${damageSafeText(side.name)}${side.form && side.form !== side.name ? `（${damageSafeText(side.form)}）` : ''}</div>
+          <div class="damage-side-sub">Lv.${side.level}　${damageSafeText(typeText)}</div>
+          ${renderDamageFormButtons(sideKey, side)}
+        </div>
+        <div class="damage-level-nature">
+          <label>等級 <input type="number" min="1" max="100" value="${side.level}" oninput="onDamageLevelChange('${sideKey}', this.value)"></label>
+          <label>性格 <select onchange="onDamageNatureChange('${sideKey}', this.value)">${buildNatureOptions(Math.max(0, NATURES.indexOf(side.nature)))}</select></label>
+        </div>
+        <div class="damage-adjust-grid">
+          <div></div><div class="damage-adjust-title">個體值滑桿</div><div></div><div class="damage-adjust-title">努力值滑桿</div><div></div><div class="damage-adjust-title">能力變化</div><div class="damage-adjust-title">現在數值</div>
+          ${rows}
+        </div>
+        <div class="damage-ev-total ${totalEv > 510 ? 'over' : ''}">努力值合計：${totalEv} / 510</div>`;
+    }
+
+    function switchDamageForm(sideKey, formLabel) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side?.data) return;
+      const forms = getDamageFormNames(side);
+      if (!forms.includes(formLabel)) return;
+
+      side.form = formLabel;
+      side.baseStats = getBaseStatsForForm(side.data, formLabel);
+      side.stats = calcSideStats(side);
+
+      if (sideKey === 'def') {
+        damageState.targetIndex = side.index;
+        damageState.targetData = side.data;
+        damageState.targetForm = formLabel;
+      }
+      damageState.result = null;
+      refreshDamageUI();
+    }
+
+    function onDamageLevelChange(sideKey, value) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      let v = parseInt(value, 10); if (isNaN(v)) v = 50;
+      side.level = Math.max(1, Math.min(100, v));
+      side.stats = calcSideStats(side);
+      updateAllDamageStatDisplays(sideKey);
+      damageState.result = null;
+    }
+
+    function onDamageNatureChange(sideKey, value) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      const idx = Math.max(0, Math.min(NATURES.length - 1, parseInt(value, 10) || 0));
+      side.nature = NATURES[idx] || getNeutralNature();
+      side.stats = calcSideStats(side);
+      updateAllDamageStatDisplays(sideKey);
+      damageState.result = null;
+    }
+
+    function onDamageStageChange(sideKey, key, value) {
+      if (key === 'hp') return;
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      if (!side.stages) side.stages = { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 };
+      let v = parseInt(value, 10);
+      if (isNaN(v)) v = 0;
+      side.stages[key] = Math.max(-6, Math.min(6, v));
+      damageState.result = null;
+    }
+
+    function updateAllDamageStatDisplays(sideKey) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      STAT_KEYS.forEach(key => {
+        const iv = Number(side.iv?.[key] ?? 31), ev = Number(side.ev?.[key] ?? 0);
+        const ivRange = document.getElementById(`damage-iv-range-${sideKey}-${key}`);
+        const ivNum = document.getElementById(`damage-iv-${sideKey}-${key}`);
+        const evRange = document.getElementById(`damage-ev-range-${sideKey}-${key}`);
+        const evNum = document.getElementById(`damage-ev-${sideKey}-${key}`);
+        const statEls = document.querySelectorAll(`#damage-${sideKey}-side .damage-stat-current`);
+        const statEl = statEls[STAT_KEYS.indexOf(key)];
+        if (ivRange) ivRange.value = iv; if (ivNum) ivNum.value = iv;
+        if (evRange) evRange.value = ev; if (evNum) evNum.value = ev;
+        if (statEl) statEl.textContent = side.stats[key];
+      });
+    }
+
+    // 只更新目前這一列的數值，不重新 render 整個攻守方區塊。
+    // 這點很重要：如果在 range 的 input 事件中重建 DOM，滑鼠按住拖曳時會立刻失去原本的滑桿，
+    // 看起來就會變成「只能點、不能拉」。
+    function updateDamageStatRow(sideKey, key) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      side.stats = calcSideStats(side);
+
+      const iv = Number(side.iv?.[key] ?? 31);
+      const ev = Number(side.ev?.[key] ?? 0);
+      const ivRange = document.getElementById(`damage-iv-range-${sideKey}-${key}`);
+      const ivNum = document.getElementById(`damage-iv-${sideKey}-${key}`);
+      const evRange = document.getElementById(`damage-ev-range-${sideKey}-${key}`);
+      const evNum = document.getElementById(`damage-ev-${sideKey}-${key}`);
+      const current = document.querySelector(`#damage-${sideKey}-side .damage-adjust-grid .damage-stat-current`);
+
+      if (ivRange) ivRange.value = iv;
+      if (ivNum) ivNum.value = iv;
+      if (evRange) evRange.value = ev;
+      if (evNum) evNum.value = ev;
+
+      // 這裡的六個能力共用同一個 CSS Grid，不要用 parentElement 找「列」，
+      // 否則會永遠抓到第一個（HP）的現在數值。改用能力順序精準定位。
+      const statEls = document.querySelectorAll(`#damage-${sideKey}-side .damage-stat-current`);
+      const statIndex = STAT_KEYS.indexOf(key);
+      const currentEl = statIndex >= 0 ? statEls[statIndex] : null;
+      if (currentEl) currentEl.textContent = side.stats[key];
+
+      const totalEv = STAT_KEYS.reduce((sum, k) => sum + Number(side.ev?.[k] || 0), 0);
+      const totalEl = document.querySelector(`#damage-${sideKey}-side .damage-ev-total`);
+      if (totalEl) {
+        totalEl.textContent = `努力值合計：${totalEv} / 510`;
+        totalEl.classList.toggle('over', totalEv > 510);
+      }
+    }
+
+    function onDamageIv(sideKey, key, value) {
+      const sides = getDamageSides();
+      if (!sides?.[sideKey]) return;
+      let v = parseInt(value, 10); if (isNaN(v)) v = 31;
+      v = Math.max(0, Math.min(31, v));
+      sides[sideKey].iv[key] = v;
+      updateDamageStatRow(sideKey, key);
+      damageState.result = null;
+    }
+
+    function onDamageEv(sideKey, key, value) {
+      const sides = getDamageSides();
+      if (!sides?.[sideKey]) return;
+      let v = parseInt(value, 10); if (isNaN(v)) v = 0;
+      v = Math.max(0, Math.min(252, v));
+      const others = STAT_KEYS.filter(k => k !== key).reduce((sum, k) => sum + Number(sides[sideKey].ev?.[k] || 0), 0);
+      v = Math.min(v, Math.max(0, 510 - others));
+      sides[sideKey].ev[key] = v;
+      updateDamageStatRow(sideKey, key);
+      damageState.result = null;
+    }
+
+    function refreshDamageSideOnly(sideKey) {
+      const sides = getDamageSides();
+      const el = document.getElementById(`damage-${sideKey}-side`);
+      if (el && sides?.[sideKey]) el.innerHTML = renderDamageSide(sideKey, sides[sideKey]);
+    }
+
+    function refreshDamageUI() {
+      const card = document.getElementById('damage-card');
+      if (!card || !currentData) return;
+      const sides = ensureDamageSides(false);
+      if (!sides) return;
+      const atk = sides.atk, def = sides.def;
+      const atkMoveEl = document.getElementById('damage-move');
+      const moves = getDamageMoves(atk).filter(m => parseFloat(m.power) > 0);
+      const oldMove = atkMoveEl?.value;
+      if (atkMoveEl) {
+        atkMoveEl.innerHTML = `<option value="__unknown__">(未知技能)</option>` + (moves.length
+          ? moves.map((m,i) => `<option value="${i}">${damageSafeText(m.name)}（${damageSafeText(m.type || '—')}・${damageSafeText(m.category || '—')}・${m.power}）</option>`).join('')
+          : '');
+        if (oldMove === '__unknown__') atkMoveEl.value = '__unknown__';
+        else if (oldMove !== undefined && moves[Number(oldMove)]) atkMoveEl.value = oldMove;
+        else atkMoveEl.value = moves.length ? '0' : '__unknown__';
+      }
+      updateUnknownMoveTypeUI();
+      const powerEl = document.getElementById('damage-power');
+      if (powerEl && moves.length) {
+        const move = moves[Number(atkMoveEl.value) || 0];
+        if (move) powerEl.value = parseInt(getConditionAdjustedMove(move).power, 10) || 0;
+      }
+      const attacker = document.getElementById('damage-attacker');
+      if (attacker && atk.index) attacker.value = atk.index;
+      const target = document.getElementById('damage-target');
+      if (target && def.index) target.value = def.index;
+      const weatherEl = document.getElementById('damage-weather');
+      if (weatherEl) weatherEl.value = damageState.weather || '無';
+      const terrainEl = document.getElementById('damage-terrain');
+      if (terrainEl) terrainEl.value = damageState.terrain || '無';
+      const atkEl = document.getElementById('damage-atk-side');
+      const defEl = document.getElementById('damage-def-side');
+      if (atkEl) atkEl.innerHTML = renderDamageSide('atk', atk);
+      if (defEl) defEl.innerHTML = renderDamageSide('def', def);
+      if (damageState.result) renderDamageResult(damageState.result);
+      else {
+        const r = document.getElementById('damage-result');
+        if (r) r.innerHTML = '<div class="damage-result-label">設定雙方個體／努力值與招式後，按「計算」查看傷害範圍</div>';
+      }
+    }
+
+    const DAMAGE_TYPES = ['一般','火','水','草','電','冰','格鬥','毒','地面','飛行','超能力','蟲','岩石','幽靈','龍','惡','鋼','妖精'];
+
+    function updateUnknownMoveTypeUI() {
+      const moveEl = document.getElementById('damage-move');
+      const typeWrap = document.getElementById('damage-unknown-type-wrap');
+      const typeEl = document.getElementById('damage-unknown-type');
+      if (!moveEl || !typeWrap || !typeEl) return;
+      const isUnknown = moveEl.value === '__unknown__';
+      typeWrap.style.display = isUnknown ? '' : 'none';
+      if (isUnknown) typeEl.value = damageState.unknownMoveType || '一般';
+    }
+
+    function onDamageUnknownTypeChange(value) {
+      damageState.unknownMoveType = DAMAGE_TYPES.includes(value) ? value : '一般';
+      damageState.result = null;
+    }
+
+    function onDamageMoveChange() {
+      const sides = getDamageSides();
+      const moves = getDamageMoves(sides.atk).filter(m => parseFloat(m.power) > 0);
+      const moveEl = document.getElementById('damage-move');
+      const idx = Number(moveEl?.value || 0);
+      const powerEl = document.getElementById('damage-power');
+      if (moveEl?.value === '__unknown__') {
+        if (powerEl) powerEl.value = 100;
+        updateUnknownMoveTypeUI();
+      } else if (powerEl && moves[idx]) {
+        powerEl.value = parseInt(getConditionAdjustedMove(moves[idx]).power, 10) || 0;
+        updateUnknownMoveTypeUI();
+      }
+      damageState.result = null;
+    }
+
+    function onDamageWeatherChange(value) {
+      damageState.weather = ['無','大晴天','下雨','冰雹','沙暴'].includes(value) ? value : '無';
+      damageState.result = null;
+      updateDamagePowerForConditions();
+    }
+
+    function onDamageTerrainChange(value) {
+      damageState.terrain = ['無','電氣場地','青草場地','薄霧場地','精神場地'].includes(value) ? value : '無';
+      damageState.result = null;
+      updateDamagePowerForConditions();
+    }
+
+    function getWeatherAdjustedMove(move, weather) {
+      const out = { ...move };
+      const name = String(move?.name || '');
+      if (weather !== '無' && name.includes('氣象球')) {
+        const map = { '大晴天':'火', '下雨':'水', '冰雹':'冰', '沙暴':'岩石' };
+        out.type = map[weather] || out.type;
+        out.power = 100;
+      }
+      return out;
+    }
+
+    function getTerrainAdjustedMove(move, terrain) {
+      const out = { ...move };
+      const name = String(move?.name || '');
+      if (terrain === '電氣場地') {
+        if (name.includes('自然之力')) { out.name = '十萬伏特'; out.type = '電'; out.power = 90; }
+        else if (name.includes('大地波動')) { out.type = '電'; out.power = 100; }
+      } else if (terrain === '青草場地') {
+        if (name.includes('自然之力')) { out.name = '能量球'; out.type = '草'; out.power = 90; }
+        else if (name.includes('大地波動')) { out.type = '草'; out.power = 100; }
+      } else if (terrain === '薄霧場地') {
+        if (name.includes('大地波動')) { out.type = '妖精'; out.power = 100; }
+      } else if (terrain === '精神場地') {
+        if (name.includes('大地波動')) { out.type = '超能力'; out.power = 100; }
+      }
+      return out;
+    }
+
+    function getConditionAdjustedMove(move) {
+      const weather = damageState.weather || document.getElementById('damage-weather')?.value || '無';
+      const terrain = damageState.terrain || document.getElementById('damage-terrain')?.value || '無';
+      return getTerrainAdjustedMove(getWeatherAdjustedMove(move, weather), terrain);
+    }
+
+    function getWeatherAttackMultiplier(weather, moveType, moveName) {
+      if (weather === '大晴天') {
+        if (moveType === '火') return 1.5;
+        if (moveType === '水') return String(moveName || '').includes('水蒸氣') ? 1.5 : 0.5;
+      } else if (weather === '下雨') {
+        if (moveType === '水') return 1.5;
+        if (moveType === '火') return 0.5;
+      }
+      return 1;
+    }
+
+    function getWeatherDefenseMultiplier(weather, side, moveCategory) {
+      const types = getDamageTargetTypes(side);
+      if (weather === '冰雹' && types.includes('冰') && !String(moveCategory || '').includes('特殊')) return 1;
+      if (weather === '冰雹' && types.includes('冰') && String(moveCategory || '').includes('特殊')) return 1.5;
+      if (weather === '沙暴' && types.includes('岩石') && String(moveCategory || '').includes('特殊')) return 1.5;
+      return 1;
+    }
+
+    function getTerrainAttackMultiplier(terrain, moveType, moveName) {
+      const name = String(moveName || '');
+      let multiplier = 1;
+      if (terrain === '電氣場地') {
+        if (moveType === '電') multiplier *= 1.3;
+        if (name.includes('電力上升')) multiplier *= 2;
+        if (name.includes('精神劍')) multiplier *= 1.5;
+      } else if (terrain === '青草場地') {
+        if (moveType === '草') multiplier *= 1.3;
+      } else if (terrain === '薄霧場地') {
+        // 薄霧場地沒有一般屬性招式加成；特殊招式效果在型態轉換／威力處理時套用。
+      } else if (terrain === '精神場地') {
+        if (moveType === '超能力') multiplier *= 1.3;
+        if (name.includes('廣域戰力')) multiplier *= 1.5;
+      }
+      return multiplier;
+    }
+
+    function getTerrainLabel(terrain) {
+      return terrain && terrain !== '無' ? terrain : '無場地';
+    }
+
+    function getWeatherLabel(weather) {
+      return weather && weather !== '無' ? weather : '無天氣';
+    }
+
+    function updateDamagePowerForConditions() {
+      const sides = getDamageSides();
+      const moves = sides ? getDamageMoves(sides.atk).filter(m => parseFloat(m.power) > 0) : [];
+      const moveEl = document.getElementById('damage-move');
+      const powerEl = document.getElementById('damage-power');
+      if (!moveEl || !powerEl) return;
+      if (moveEl.value === '__unknown__') {
+        updateUnknownMoveTypeUI();
+        return;
+      }
+      if (!moves.length) return;
+      const move = moves[Number(moveEl.value) || 0];
+      if (move) {
+        const adjusted = getConditionAdjustedMove(move);
+        powerEl.value = parseInt(adjusted.power, 10) || 0;
+      }
+    }
+
+    function roundHalfUp(n) { return Math.floor(n + 0.5); }
+
+    function typeEffectiveness(moveType, targetTypes) {
+      const chart = {
+        '一般': {'岩石':0.5,'鋼':0.5,'幽靈':0}, '火':{'火':0.5,'水':0.5,'草':2,'冰':2,'蟲':2,'岩石':0.5,'龍':0.5,'鋼':2},
+        '水':{'火':2,'水':0.5,'草':0.5,'地面':2,'岩石':2,'龍':0.5}, '電':{'水':2,'草':0.5,'電':0.5,'地面':0,'飛行':2,'龍':0.5},
+        '草':{'火':0.5,'水':2,'草':0.5,'毒':0.5,'地面':2,'飛行':0.5,'蟲':0.5,'岩石':2,'龍':0.5,'鋼':0.5},
+        '冰':{'火':0.5,'水':0.5,'草':2,'冰':0.5,'地面':2,'飛行':2,'龍':2,'鋼':0.5},
+        '格鬥':{'一般':2,'冰':2,'毒':0.5,'飛行':0.5,'超能力':0.5,'蟲':0.5,'岩石':2,'幽靈':0,'惡':2,'鋼':2,'妖精':0.5},
+        '毒':{'草':2,'毒':0.5,'地面':0.5,'岩石':0.5,'幽靈':0.5,'鋼':0,'妖精':2},
+        '地面':{'火':2,'草':0.5,'電':2,'毒':2,'飛行':0,'蟲':0.5,'岩石':2,'鋼':2},
+        '飛行':{'電':0.5,'草':2,'格鬥':2,'蟲':2,'岩石':0.5,'鋼':0.5},
+        '超能力':{'格鬥':2,'毒':2,'超能力':0.5,'鋼':0.5,'惡':0},
+        '蟲':{'火':0.5,'草':2,'格鬥':0.5,'毒':0.5,'飛行':0.5,'超能力':2,'幽靈':0.5,'鋼':0.5,'妖精':0.5},
+        '岩石':{'火':2,'冰':2,'格鬥':0.5,'地面':0.5,'飛行':2,'蟲':2,'鋼':0.5},
+        '幽靈':{'一般':0,'超能力':2,'幽靈':2,'惡':0.5}, '龍':{'龍':2,'鋼':0.5,'妖精':0},
+        '惡':{'格鬥':0.5,'超能力':2,'幽靈':2,'惡':0.5,'妖精':0.5},
+        '鋼':{'火':0.5,'水':0.5,'電':0.5,'冰':2,'岩石':2,'鋼':0.5,'妖精':2},
+        '妖精':{'火':0.5,'格鬥':2,'毒':0.5,'龍':2,'惡':2,'鋼':0.5}
+      };
+      return (targetTypes || []).reduce((m,t) => m * (chart[moveType]?.[t] ?? 1), 1);
+    }
+
+    function calculateDamage() {
+      const sides = getDamageSides();
+      const moves = getDamageMoves(sides.atk).filter(m => parseFloat(m.power) > 0);
+      const moveEl = document.getElementById('damage-move');
+      const idx = Number(moveEl?.value || 0);
+      let move;
+      if (moveEl?.value === '__unknown__') {
+        move = { name: '(未知技能)', type: damageState.unknownMoveType || document.getElementById('damage-unknown-type')?.value || '一般', category: '物理', power: 100 };
+      } else {
+        move = moves[idx];
+      }
+      if (!move) {
+        renderDamageResult({ error: '請先選擇攻擊招式。' });
+        return;
+      }
+      const weather = damageState.weather || document.getElementById('damage-weather')?.value || '無';
+      const terrain = damageState.terrain || document.getElementById('damage-terrain')?.value || '無';
+      const adjustedMove = getConditionAdjustedMove(move);
+      const level = sides.atk.level;
+      const isSpecial = String(adjustedMove.category || '').includes('特殊');
+      const attackKey = isSpecial ? 'sp_attack' : 'attack';
+      const defenseKey = isSpecial ? 'sp_defense' : 'defense';
+      // 能力變化必須實際套用在傷害公式中的攻擊／防禦數值。
+      // 注意：能力變化不是只顯示在 UI；這裡會先將「現在能力值」乘上對應倍率，再帶入公式。
+      const attackStage = Number(sides.atk.stages?.[attackKey] ?? 0);
+      const defenseStage = Number(sides.def.stages?.[defenseKey] ?? 0);
+      const attack = Math.floor(Number(sides.atk.stats?.[attackKey] || 0) * getDamageStageMultiplier(attackStage));
+      const defenseBase = Math.floor(Number(sides.def.stats?.[defenseKey] || 0) * getDamageStageMultiplier(defenseStage));
+      const defenseWeather = getWeatherDefenseMultiplier(weather, sides.def, adjustedMove.category);
+      const defense = Math.floor(defenseBase * defenseWeather);
+      const customPower = parseInt(document.getElementById('damage-power')?.value, 10);
+      const power = Math.max(1, Number.isFinite(customPower) && customPower > 0 ? customPower : (parseInt(adjustedMove.power,10) || 0));
+      const base = Math.floor(Math.floor(Math.floor((2 * level) / 5 + 2) * power * attack / Math.max(1, defense)) / 50) + 2;
+      const stab = (sides.atk.data && getFormTypes(sides.atk.form, sides.atk.data).includes(adjustedMove.type)) ? 1.5 : 1;
+      const effectiveness = typeEffectiveness(adjustedMove.type, getDamageTargetTypes(sides.def));
+      const crit = document.getElementById('damage-crit')?.checked ? 1.5 : 1;
+      const weatherAttack = getWeatherAttackMultiplier(weather, adjustedMove.type, adjustedMove.name);
+      const terrainAttack = getTerrainAttackMultiplier(terrain, adjustedMove.type, adjustedMove.name);
+      const otherBonusPercentRaw = parseFloat(document.getElementById('damage-other-bonus')?.value || '0');
+      const otherBonusPercent = Number.isFinite(otherBonusPercentRaw) ? otherBonusPercentRaw : 0;
+      const otherBonus = 1 + otherBonusPercent / 100;
+      const values = [];
+      for (let r=85; r<=100; r++) {
+        let v = Math.floor(base * crit);
+        v = Math.floor(v * (r / 100));
+        v = roundHalfUp(v * stab);
+        v = Math.floor(v * effectiveness);
+        v = Math.floor(v * weatherAttack);
+        v = Math.floor(v * terrainAttack);
+        v = Math.floor(v * otherBonus);
+        values.push(effectiveness === 0 ? 0 : Math.max(1, v));
+      }
+      const targetHp = Number(sides.def.stats?.hp || 0);
+      const minPercent = targetHp > 0 ? (Math.min(...values) / targetHp) * 100 : 0;
+      const maxPercent = targetHp > 0 ? (Math.max(...values) / targetHp) * 100 : 0;
+      const result = { attackKey, defenseKey, attackStage, defenseStage, attackBaseStat: Number(sides.atk.stats?.[attackKey] || 0), defenseBaseStat: Number(sides.def.stats?.[defenseKey] || 0), min: Math.min(...values), max: Math.max(...values), move: adjustedMove, originalMove: move, power, attack, defense, base, stab, effectiveness, crit, otherBonus, otherBonusPercent, weather, weatherAttack, terrain, terrainAttack, defenseWeather, values, targetHp, minPercent, maxPercent };
+      damageState.result = result;
+      renderDamageResult(result);
+    }
+
+    function renderDamageResult(result) {
+      const el = document.getElementById('damage-result');
+      if (!el) return;
+      if (result?.error) { el.innerHTML = `<div class="damage-result-label">${damageSafeText(result.error)}</div>`; return; }
+      const effText = result.effectiveness === 0 ? '沒有效果' : `屬性相性 ×${result.effectiveness}`;
+      const minPct = Math.min(100, Math.max(0, Number(result.minPercent || 0)));
+      const maxPct = Math.min(100, Math.max(0, Number(result.maxPercent || 0)));
+      // 血條方向固定為左 100% → 右 0%；受傷區域從右側開始。
+      const greenWidth = minPct;
+      const redWidth = Math.max(0, maxPct - minPct);
+      const redRight = minPct;
+      el.innerHTML = `<div class="damage-result-label">傷害範圍</div><div class="damage-result-value">${result.min} ～ ${result.max}</div><div class="damage-result-detail">${damageSafeText(result.move.name)}　｜　威力 ${result.power}　｜　攻擊 ${result.attack}${result.attackStage ? `（基礎 ${result.attackBaseStat} × 能力 ${result.attackStage > 0 ? '+' : ''}${result.attackStage} ×${getDamageStageMultiplier(result.attackStage)}）` : ''}　防禦 ${result.defense}${result.defenseStage ? `（基礎 ${result.defenseBaseStat} × 能力 ${result.defenseStage > 0 ? '+' : ''}${result.defenseStage} ×${getDamageStageMultiplier(result.defenseStage)}）` : ''}　｜　STAB ×${result.stab}　｜　${effText}${result.crit !== 1 ? '　｜　擊中要害 ×1.5' : ''}${result.otherBonus !== 1 ? `　｜　其它加成 ×${result.otherBonus.toFixed(2)}` : ''}　｜　${getWeatherLabel(result.weather)}${result.weatherAttack !== 1 ? `　×${result.weatherAttack}` : ''}　｜　${getTerrainLabel(result.terrain)}${result.terrainAttack !== 1 ? `　×${result.terrainAttack}` : ''}${result.defenseWeather !== 1 ? `　｜　防禦方特防 ×${result.defenseWeather}` : ''}</div>
+        <div class="damage-hp-bar-wrap">
+          <div class="damage-hp-bar-labels"><span>100%</span><span>0%</span></div>
+          <div class="damage-hp-bar" aria-label="傷害佔防禦方最大 HP 的比例">
+            <span class="damage-hp-range damage-hp-range-max" style="width:${redWidth}%; right:${redRight}%;"></span>
+            <span class="damage-hp-range damage-hp-range-min" style="width:${greenWidth}%; right:0;"></span>
+          </div>
+          <div class="damage-hp-bar-caption"><span>最大傷害 ${maxPct.toFixed(1)}%</span><span>最小傷害 ${minPct.toFixed(1)}%</span></div>
+        </div>`;
+    }
+
+    function copyCalcValuesToDamageSide(sideKey) {
+      const sides = getDamageSides();
+      if (!sides?.[sideKey] || !currentData) return;
+
+      const source = makeCurrentCalcSide();
+      const target = sides[sideKey];
+
+      // 手動複製上方能力值計算：包含寶可夢／型態、等級、性格、IV、EV。
+      target.index = source.index;
+      target.data = source.data;
+      target.form = source.form;
+      target.name = source.name;
+      target.level = source.level;
+      target.nature = source.nature;
+      target.baseStats = { ...source.baseStats };
+      target.iv = { ...source.iv };
+      target.ev = { ...source.ev };
+      target.stats = calcSideStats(target);
+
+      if (sideKey === 'def') {
+        damageState.targetIndex = target.index;
+        damageState.targetData = target.data;
+        damageState.targetForm = target.form;
+      }
+      damageState.result = null;
+      refreshDamageUI();
+    }
+
+    function swapDamageSides() {
+      const sides = getDamageSides();
+      if (!sides) return;
+      const tmp = sides.atk;
+      sides.atk = sides.def;
+      sides.def = tmp;
+      damageState.targetIndex = sides.def.index;
+      damageState.targetData = sides.def.data;
+      damageState.targetForm = sides.def.form;
+      damageState.result = null;
+      refreshDamageUI();
+    }
+
+    function buildDamageCalcHtml() {
+      const idx = selectedIndex || currentData?.pokedex_id || '';
+      damageState.targetIndex = idx;
+      damageState.targetData = currentData;
+      damageState.targetForm = currentFormLabel;
+      damageState.sides = null;
+      return `<div class="card damage-card" id="damage-card">
+        <div class="section-title">傷害計算</div>
+        <div class="damage-object-controls">
+          <label>攻擊方對象
+            <select id="damage-attacker" onchange="loadDamageAttacker(this.value)">${buildDamagePokemonOptions(idx)}</select>
+          </label>
+          <div></div>
+          <label>防禦方對象
+            <select id="damage-target" onchange="loadDamageTarget(this.value)">${buildDamagePokemonOptions(idx)}</select>
+          </label>
+        </div>
+        <div class="damage-sides">
+          <div class="damage-side" id="damage-atk-side"></div>
+          <div class="damage-swap"><button type="button" onclick="swapDamageSides()" title="左右調換攻守方數據">↔</button></div>
+          <div class="damage-side" id="damage-def-side"></div>
+        </div>
+        <div class="damage-move-controls">
+          <label>攻擊招式
+            <select id="damage-move" onchange="onDamageMoveChange()"></select>
+          </label>
+          <label id="damage-unknown-type-wrap">屬性
+            <select id="damage-unknown-type" onchange="onDamageUnknownTypeChange(this.value)">${DAMAGE_TYPES.map(t => `<option value="${t}">${t}</option>`).join('')}</select>
+          </label>
+          <label>招式威力 <input type="number" id="damage-power" min="1" max="1000" value="100"></label>
+        </div>
+        <div class="damage-weather-controls">
+          <label>天氣
+            <select id="damage-weather" onchange="onDamageWeatherChange(this.value)">
+              <option value="無">(無)</option>
+              <option value="大晴天">大晴天</option>
+              <option value="下雨">下雨</option>
+              <option value="冰雹">冰雹</option>
+              <option value="沙暴">沙暴</option>
+            </select>
+          </label>
+          <label>場地
+            <select id="damage-terrain" onchange="onDamageTerrainChange(this.value)">
+              <option value="無">(無)</option>
+              <option value="電氣場地">電氣場地</option>
+              <option value="青草場地">青草場地</option>
+              <option value="薄霧場地">薄霧場地</option>
+              <option value="精神場地">精神場地</option>
+            </select>
+          </label>
+        </div>
+        <div class="damage-bonus-wrap">
+          <label class="damage-crit-inline"><input type="checkbox" id="damage-crit"> 擊中要害</label>
+          <label class="damage-other-bonus">其它加成：<input type="number" id="damage-other-bonus" min="-100" max="1000" step="0.1" value="0"><span>%</span></label>
+        </div>
+        <div class="damage-calc-wrap"><button type="button" class="damage-calc-btn" onclick="calculateDamage()">計算</button></div>
+        <div class="damage-result" id="damage-result"><div class="damage-result-label">設定雙方個體／努力值與招式後，按「計算」查看傷害範圍</div></div>
+        <div class="damage-note">雙方的個體值與努力值可獨立調整；努力值總和各自上限 510。上方「能力值計算」不會自動帶入，請按攻擊方或防禦方的「複製能力值計算」手動帶入。</div>
+      </div>`;
+    }
+
     /** 切換型態：更新種族值顯示、圖片、以及計算用的 base stats */
     function switchForm(formLabel) {
       if (!currentData) return;
@@ -1046,6 +1987,9 @@ function typeClass(t) { return 'type-' + t; }
 
       // 更新招式表（地區形態可能有不同招式）
       refreshMovesTable();
+
+      // 型態切換不再自動改動傷害計算雙方；需要同步上方數值時，請按雙方各自的「複製能力值計算」。
+      refreshDamageUI();
 
       // 重新計算所有已開啟的能力值區塊
       document.querySelectorAll('[id^="calc-results-"]').forEach(el => {
@@ -1449,6 +2393,7 @@ function typeClass(t) { return 'type-' + t; }
             </div>
           </div>
                     <div id="calc-container"></div>
+          ${buildDamageCalcHtml()}
 <div class="card">
             <div class="section-title">招式表</div>
             <div id="moves-area">${renderMovesTable(getUnifiedMovesList())}</div>
@@ -1456,7 +2401,10 @@ function typeClass(t) { return 'type-' + t; }
         `;
         updateBaseStatTotal(currentBaseStats);
         // 初始計算
-        setTimeout(initPrimaryCalc, 0);
+        setTimeout(() => {
+          initPrimaryCalc();
+          refreshDamageUI();
+        }, 0);
       } catch (e) {
         // 即使詳細資料載入失敗，仍嘗試顯示圖片 + 名稱
         const p = pokedex.find(x => x.index === index) || {};
