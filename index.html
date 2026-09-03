@@ -681,6 +681,10 @@
     body.dark-theme .damage-stat-stage,
     body.dark-theme .damage-stat-current,
     body.dark-theme .damage-adjust-grid input[type="number"],
+    .damage-stat-locked { font-size:0.72rem; opacity:0.8; }
+    .damage-stat-locked-value { font-weight:800; }
+    input:disabled { cursor:not-allowed; opacity:0.65; }
+
     body.dark-theme .damage-current-hp-number,
     body.dark-theme .damage-move-controls select,
     body.dark-theme .damage-move-controls input[type="number"],
@@ -894,6 +898,55 @@
       -webkit-text-fill-color: #cbd5e1;
     }
 
+
+
+    /* 深色模式：徹底隔離招式表與上方傷害計算的圖層，避免屬性徽章穿透 */
+    body.dark-theme #damage-card {
+      position: relative !important;
+      z-index: 100 !important;
+      isolation: isolate;
+      background-color: #111722 !important;
+    }
+    body.dark-theme #damage-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(145deg, #151b27 0%, #0e131d 100%);
+      z-index: -1;
+      pointer-events: none;
+    }
+    body.dark-theme #damage-card + .card {
+      position: relative !important;
+      z-index: 0 !important;
+      isolation: isolate;
+    }
+    body.dark-theme #damage-card + .card .moves-table-wrap,
+    body.dark-theme #damage-card + .card table,
+    body.dark-theme #damage-card + .card .type-badge {
+      position: relative;
+      z-index: 0 !important;
+    }
+
+    /* 深色模式：招式表內容不得穿出到上方區塊，避免屬性標籤覆蓋傷害計算 */
+    body.dark-theme .damage-card {
+      position: relative;
+      z-index: 3;
+    }
+    body.dark-theme .moves-table-wrap {
+      position: relative;
+      z-index: 0;
+      isolation: isolate;
+      overflow: auto;
+    }
+    body.dark-theme .moves-table-wrap table {
+      position: relative;
+      z-index: 0;
+    }
+    body.dark-theme .moves-table-wrap .type-badge {
+      position: relative;
+      z-index: 0;
+    }
 
     /* 深色模式：能力值結果欄與其它加成輸入進一步降低亮度 */
     body.dark-theme .calc-col-result {
@@ -1788,8 +1841,16 @@ function typeClass(t) { return 'type-' + t; }
       const base = side.baseStats || {};
       const level = Math.max(1, Math.min(100, parseInt(side.level, 10) || 50));
       const nature = side.nature || getNeutralNature();
+      const isShedinja = (side.name || side.data?.name_zh || '').includes('脫殼忍者') ||
+                         (side.index || side.data?.pokedex_id || '') === '0292' ||
+                         (side.data?.name_en || '').toLowerCase() === 'shedinja';
       const stats = {};
       STAT_KEYS.forEach(k => {
+        // 與上方「能力值計算」一致：脫殼忍者 HP 永遠固定為 1。
+        if (k === 'hp' && isShedinja) {
+          stats[k] = 1;
+          return;
+        }
         const iv = Math.max(0, Math.min(31, parseInt((side.iv || {})[k], 10) || 0));
         const ev = Math.max(0, Math.min(252, parseInt((side.ev || {})[k], 10) || 0));
         const mod = k === 'hp' ? 1 : getNatureMod(nature, k);
@@ -2089,15 +2150,19 @@ function typeClass(t) { return 'type-' + t; }
       const imgSrc = getDamageImageSrc(side);
       const typeText = getDamageTargetTypes(side).join('／') || '—';
       const totalEv = STAT_KEYS.reduce((sum, k) => sum + Number(side.ev?.[k] || 0), 0);
+      const isShedinja = (side.name || side.data?.name_zh || '').includes('脫殼忍者') ||
+                         (side.index || side.data?.pokedex_id || '') === '0292' ||
+                         (side.data?.name_en || '').toLowerCase() === 'shedinja';
       const rows = STAT_KEYS.map(key => {
         const label = STAT_LABELS[key], iv = Number(side.iv?.[key] ?? 31), ev = Number(side.ev?.[key] ?? 0), stat = Number(side.stats?.[key] ?? 0);
-        return `<div class="damage-adjust-label">${label}</div>
-          <input type="range" id="damage-iv-range-${sideKey}-${key}" min="0" max="31" value="${iv}" oninput="onDamageIv('${sideKey}','${key}',this.value)">
-          <input type="number" id="damage-iv-${sideKey}-${key}" min="0" max="31" value="${iv}" oninput="onDamageIv('${sideKey}','${key}',this.value)">
-          <input type="range" id="damage-ev-range-${sideKey}-${key}" min="0" max="252" value="${ev}" oninput="onDamageEv('${sideKey}','${key}',this.value)">
-          <input type="number" id="damage-ev-${sideKey}-${key}" min="0" max="252" value="${ev}" oninput="onDamageEv('${sideKey}','${key}',this.value)">
+        const hpLocked = key === 'hp' && isShedinja;
+        return `<div class="damage-adjust-label">${label}${hpLocked ? ' <span class="damage-stat-locked">🔒</span>' : ''}</div>
+          <input type="range" id="damage-iv-range-${sideKey}-${key}" min="0" max="31" value="${iv}" ${hpLocked ? 'disabled' : ''} oninput="onDamageIv('${sideKey}','${key}',this.value)">
+          <input type="number" id="damage-iv-${sideKey}-${key}" min="0" max="31" value="${iv}" ${hpLocked ? 'disabled' : ''} oninput="onDamageIv('${sideKey}','${key}',this.value)">
+          <input type="range" id="damage-ev-range-${sideKey}-${key}" min="0" max="252" value="${ev}" ${hpLocked ? 'disabled' : ''} oninput="onDamageEv('${sideKey}','${key}',this.value)">
+          <input type="number" id="damage-ev-${sideKey}-${key}" min="0" max="252" value="${ev}" ${hpLocked ? 'disabled' : ''} oninput="onDamageEv('${sideKey}','${key}',this.value)">
           ${key === 'hp' ? '<span></span>' : `<select class="damage-stat-stage" id="damage-stage-${sideKey}-${key}" onchange="onDamageStageChange('${sideKey}','${key}',this.value)">${buildDamageStageOptions(side.stages?.[key] ?? 0)}</select>`}
-          <span class="damage-stat-current">${stat}</span>`;
+          <span class="damage-stat-current${hpLocked ? ' damage-stat-locked-value' : ''}">${stat}</span>`;
       }).join('');
       return `<div class="damage-side-title"><span>${title}</span><button type="button" class="damage-copy-btn" onclick="copyCalcValuesToDamageSide('${sideKey}')">複製能力值計算</button></div>
         <div class="damage-side-head">
