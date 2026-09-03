@@ -493,11 +493,6 @@
   "mega_evolution": [
     {
       "name": "基格爾德",
-      "form_name": "超級完全體形態",
-      "image": "718Zygarde-Complete_Dream.png"
-    },
-    {
-      "name": "基格爾德",
       "form_name": "超級基格爾德",
       "image": "718Zygarde-Mega.png"
     }
@@ -1046,6 +1041,11 @@
       "name": "基格爾德-完全體形態",
       "image": "0718-基格爾德-完全體形態.png",
       "shiny": "0718-基格爾德-完全體形態-shiny.png"
+    },
+    {
+      "name": "基格爾德-超級基格爾德",
+      "image": "0718-基格爾德-超級基格爾德.png",
+      "shiny": "0718-基格爾德-超級基格爾德-shiny.png"
     }
   ]
 }

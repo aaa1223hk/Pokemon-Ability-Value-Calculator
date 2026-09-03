@@ -199,7 +199,7 @@
       "category": "鼠寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "電氣製造者",
           "is_hidden": false
         }
       ],
@@ -257,7 +257,7 @@
       "category": "鼠寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "無防守",
           "is_hidden": false
         }
       ],
@@ -2922,19 +2922,24 @@
   ],
   "home_images": [
     {
-      "name": "雷丘-雄性",
-      "image": "0026-雷丘-雄性.png",
-      "shiny": "0026-雷丘-雄性-shiny.png"
+      "name": "雷丘",
+      "image": "0026-雷丘.png",
+      "shiny": "0026-雷丘-shiny.png"
     },
     {
-      "name": "雷丘-雌性",
-      "image": "0026-雷丘-雌性.png",
-      "shiny": "0026-雷丘-雌性-shiny.png"
+      "name": "阿羅拉雷丘",
+      "image": "0026-雷丘-阿羅拉雷丘.png",
+      "shiny": "0026-雷丘-阿羅拉雷丘-shiny.png"
     },
     {
-      "name": "雷丘-阿羅拉的樣子",
-      "image": "0026-雷丘-阿羅拉的樣子.png",
-      "shiny": "0026-雷丘-阿羅拉的樣子-shiny.png"
+      "name": "雷丘-超級雷丘Ｘ",
+      "image": "0026-雷丘-超級雷丘Ｘ.png",
+      "shiny": "0026-雷丘-超級雷丘Ｘ-shiny.png"
+    },
+    {
+      "name": "雷丘-超級雷丘Ｙ",
+      "image": "0026-雷丘-超級雷丘Ｙ.png",
+      "shiny": "0026-雷丘-超級雷丘Ｙ-shiny.png"
     }
   ]
 }

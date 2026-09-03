@@ -141,7 +141,7 @@
       "category": "似草寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "再生力",
           "is_hidden": false
         }
       ],
@@ -387,7 +387,7 @@
     {
       "name": "毒藻龍",
       "form_name": "超級毒藻龍",
-      "image": "691Dragalge-Mega.png"
+      "image": "0691-毒藻龍-超級毒藻龍.png"
     }
   ],
   "gigantamax_evolution": [],
@@ -1137,6 +1137,11 @@
       "name": "毒藻龍",
       "image": "0691-毒藻龍.png",
       "shiny": "0691-毒藻龍-shiny.png"
+    },
+    {
+      "name": "毒藻龍-超級毒藻龍",
+      "image": "0691-毒藻龍-超級毒藻龍.png",
+      "shiny": "0691-毒藻龍-超級毒藻龍-shiny.png"
     }
   ]
 }

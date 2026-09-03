@@ -1067,27 +1067,44 @@ function typeClass(t) { return 'type-' + t; }
       area.innerHTML = renderMovesTable(src, formIdx);
     }
 
+    function normalizeFormIdentity(name, data) {
+      let s = String(name || '').trim().replace(/[\-－—]/g, '').replace(/\s+/g, '');
+      const species = (data && data.name_zh) || '';
+      if (species) s = s.split(species).join('');
+      // 不同資料來源可能寫「超級雷丘Ｙ」/「超級進化Ｙ」，統一成同一個識別鍵
+      s = s.replace(/超級進化/g, '超級');
+      s = s.replace(/的樣子$/g, '');
+      return s;
+    }
+
     function findStatsEntry(formLabel, data) {
       const stats = (data && data.stats) || [];
       if (!stats.length) return null;
       if (isBaseFormLabel(formLabel, data)) return stats[0];
 
-      // 1. 完全相符
+      // 1. 原始名稱完全相符
       let entry = stats.find(s => s.form === formLabel);
       if (entry) return entry;
 
-      // 2. 關鍵字相符（阿羅拉九尾 ↔ 阿羅拉的樣子）
+      // 2. 正規化後精確對應：例如「超級雷丘Ｙ」 ↔ 「超級進化Ｙ」
+      const identity = normalizeFormIdentity(formLabel, data);
+      if (identity) {
+        entry = stats.find(s => normalizeFormIdentity(s.form, data) === identity);
+        if (entry) return entry;
+      }
+
+      // 3. 關鍵字相符（阿羅拉九尾 ↔ 阿羅拉的樣子等）
       const key = extractFormKey(formLabel);
       if (key) {
         entry = stats.find(s => s.form && s.form.includes(key));
         if (entry) return entry;
       }
 
-      // 3. 互相包含
+      // 4. 互相包含
       entry = stats.find(s => s.form && (formLabel.includes(s.form) || s.form.includes(formLabel)));
       if (entry) return entry;
 
-      // 4. 極巨化等無獨立 stats → 用一般
+      // 5. 極巨化等無獨立 stats → 用一般
       return stats[0];
     }
 
@@ -1149,8 +1166,18 @@ function typeClass(t) { return 'type-' + t; }
       // 1. 優先用 home_images 裡的對應檔名
       const himgs = (data && data.home_images) || [];
       if (himgs.length) {
+        const identity = normalizeFormIdentity(formLabel, data);
         const key = extractFormKey(formLabel);
-        let match = himgs.find(h => h.name === formLabel);
+
+        // 先用「正規化後的形態識別鍵」精確配對，避免 X/Y 都只剩「超級」時誤抓第一筆
+        let match = himgs.find(h =>
+          h.name && normalizeFormIdentity(h.name, data) === identity
+        );
+
+        // 舊有的原始名稱完全相符作為第二層保險
+        if (!match) match = himgs.find(h => h.name === formLabel);
+
+        // 最後才使用寬鬆關鍵字匹配
         if (!match && key) {
           match = himgs.find(h => h.name && h.name.includes(key));
         }

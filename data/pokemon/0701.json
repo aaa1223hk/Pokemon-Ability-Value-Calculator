@@ -151,7 +151,7 @@
       "category": "摔角寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "無防守",
           "is_hidden": false
         }
       ],
@@ -1268,6 +1268,11 @@
       "name": "摔角鷹人",
       "image": "0701-摔角鷹人.png",
       "shiny": "0701-摔角鷹人-shiny.png"
+    },
+    {
+      "name": "摔角鷹人-超級摔角鷹人",
+      "image": "0701-摔角鷹人-超級摔角鷹人.png",
+      "shiny": "0701-摔角鷹人-超級摔角鷹人-shiny.png"
     }
   ]
 }
