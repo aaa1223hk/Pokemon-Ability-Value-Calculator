@@ -136,7 +136,7 @@
       "category": "猛禽寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "唱反調",
           "is_hidden": false
         }
       ],
@@ -1209,14 +1209,14 @@
   ],
   "home_images": [
     {
-      "name": "姆克鷹-雄性",
-      "image": "0398-姆克鷹-雄性.png",
-      "shiny": "0398-姆克鷹-雄性-shiny.png"
+      "name": "姆克鷹",
+      "image": "0398-姆克鷹.png",
+      "shiny": "0398-姆克鷹-shiny.png"
     },
     {
-      "name": "姆克鷹-雌性",
-      "image": "0398-姆克鷹-雌性.png",
-      "shiny": "0398-姆克鷹-雌性-shiny.png"
+      "name": "姆克鷹-超級姆克鷹",
+      "image": "0398-姆克鷹-超級姆克鷹.png",
+      "shiny": "0398-姆克鷹-超級姆克鷹-shiny.png"
     }
   ]
 }

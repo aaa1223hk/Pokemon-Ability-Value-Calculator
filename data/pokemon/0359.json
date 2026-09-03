@@ -196,7 +196,7 @@
       "category": "災禍寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "魔法鏡",
           "is_hidden": false
         }
       ],
@@ -612,7 +612,7 @@
   "mega_evolution": [
     {
       "name": "阿勃梭魯",
-      "form_name": "超級阿勃梭",
+      "form_name": "超級阿勃梭魯",
       "image": "359Absol-Mega_Dream.png"
     },
     {
@@ -1720,6 +1720,11 @@
       "name": "阿勃梭魯-超級阿勃梭魯",
       "image": "0359-阿勃梭魯-超級阿勃梭魯.png",
       "shiny": "0359-阿勃梭魯-超級阿勃梭魯-shiny.png"
+    },
+    {
+      "name": "阿勃梭魯-超級阿勃梭魯Ｚ",
+      "image": "0359-阿勃梭魯-超級阿勃梭魯Ｚ.png",
+      "shiny": "0359-阿勃梭魯-超級阿勃梭魯Ｚ-shiny.png"
     }
   ]
 }
