@@ -447,9 +447,589 @@
     .damage-weather-controls select { min-width:180px; padding:0.55rem 0.7rem; border:1px solid var(--border); border-radius:8px; background:#fff; font-size:0.95rem; }
     .damage-calc-wrap { display:flex; justify-content:center; align-items:center; gap:14px; margin-top:18px; }
     .damage-calc-wrap .damage-calc-btn { margin:0; }
+
+    /* ===== 全站 UI 美化 ===== */
+    :root {
+      --bg: #eef3f8;
+      --card: rgba(255,255,255,.96);
+      --text: #172033;
+      --muted: #64748b;
+      --accent: #4f7cff;
+      --accent-2: #7c5cff;
+      --border: #dbe3ee;
+      --surface: #f6f8fc;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      background:
+        radial-gradient(circle at 8% 0%, rgba(79,124,255,.10), transparent 28%),
+        radial-gradient(circle at 92% 8%, rgba(124,92,255,.08), transparent 24%),
+        linear-gradient(180deg, #f7f9fc 0%, var(--bg) 100%);
+      padding: 1.25rem;
+    }
+    .container { max-width: 1080px; }
+    h1 {
+      font-size: clamp(1.65rem, 3vw, 2.15rem);
+      letter-spacing: .02em;
+      margin: .35rem 0 1.35rem;
+      background: linear-gradient(135deg, #294a9b, #6d4bdc);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .card {
+      position: relative;
+      background: var(--card);
+      border: 1px solid rgba(219,227,238,.9);
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(31,48,78,.07), 0 2px 8px rgba(31,48,78,.04);
+      padding: 1.35rem;
+      margin-bottom: 1.15rem;
+      backdrop-filter: blur(8px);
+    }
+    .card::before {
+      content: ''; position: absolute; left: 0; top: 18px; bottom: 18px; width: 3px;
+      border-radius: 0 4px 4px 0; background: linear-gradient(180deg, var(--accent), var(--accent-2));
+      opacity: .75;
+    }
+    .section-title {
+      color: #334155; font-size: .88rem; font-weight: 800; letter-spacing: .06em;
+      text-transform: none; padding-bottom: .55rem; margin-bottom: .85rem;
+      border-bottom: 1px solid #e8edf4;
+    }
+    .search-wrap { margin-bottom: 1.35rem; }
+    .search-input, select, input[type="number"] {
+      transition: border-color .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+    .search-input {
+      border: 1px solid #d5deea; border-radius: 12px;
+      padding: .8rem 1rem; box-shadow: 0 4px 12px rgba(31,48,78,.04);
+    }
+    .search-input:hover { border-color: #b8c7dc; }
+    .search-input:focus, select:focus, input[type="number"]:focus {
+      outline: none; border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(79,124,255,.13);
+    }
+    .dropdown-list, .damage-pokemon-dropdown {
+      border-color: #d6dfeb; border-radius: 12px;
+      box-shadow: 0 18px 40px rgba(22,34,56,.14);
+    }
+    .dropdown-item, .damage-pokemon-item { transition: background .12s ease, padding-left .12s ease; }
+    .dropdown-item:hover, .dropdown-item.active, .damage-pokemon-item:hover {
+      background: #f0f5ff; color: #315fd1; padding-left: 1.05rem;
+    }
+    .image-area { min-height: 175px; }
+    .info-right .image-area { min-height: 215px; }
+    .image-area img { filter: drop-shadow(0 12px 12px rgba(36,52,80,.13)); transition: transform .2s ease; }
+    .image-area img:hover { transform: translateY(-3px) scale(1.02); }
+    .name-zh { font-size: 1.45rem; letter-spacing: .02em; }
+    .name-sub { color: #7b8798; }
+    .type-badge { box-shadow: inset 0 1px 0 rgba(255,255,255,.22), 0 2px 5px rgba(0,0,0,.08); }
+    .stats-grid { gap: .7rem; }
+    .stat-box {
+      background: linear-gradient(180deg, #f8faff, #f0f4f9);
+      border: 1px solid #e3eaf3; border-radius: 11px; padding: .62rem .45rem;
+    }
+    .stat-value { color: #1f2f4d; }
+    .form-btn, .shiny-btn, .tab-btn, .calc-btn, .damage-copy-btn {
+      border-color: #d6dfeb; border-radius: 9px;
+      box-shadow: 0 1px 2px rgba(31,48,78,.03);
+      transition: all .16s ease;
+    }
+    .form-btn:hover, .shiny-btn:hover, .tab-btn:hover, .calc-btn:hover, .damage-copy-btn:hover {
+      transform: translateY(-1px); box-shadow: 0 4px 10px rgba(31,48,78,.08);
+    }
+    .form-btn.active, .tab-btn.active {
+      background: linear-gradient(135deg, #4f7cff, #667eea);
+      border-color: #4f7cff; box-shadow: 0 5px 12px rgba(79,124,255,.2);
+    }
+    .calc-btn.primary, .damage-calc-btn {
+      background: linear-gradient(135deg, #4f7cff, #6c63e8);
+      color: #fff; border-color: transparent;
+      box-shadow: 0 6px 14px rgba(79,124,255,.22);
+    }
+    .calc-btn.primary:hover, .damage-calc-btn:hover {
+      filter: brightness(1.04); transform: translateY(-1px);
+    }
+    .calc-row, .damage-side {
+      background: linear-gradient(180deg, #f9fbfd, #f4f7fb);
+      border-color: #e0e7f0;
+    }
+    .calc-result-item, .damage-current-hp {
+      border: 1px solid #e3e9f1; box-shadow: 0 2px 6px rgba(31,48,78,.035);
+    }
+    .damage-card {
+      border-radius: 20px;
+      box-shadow: 0 14px 38px rgba(31,48,78,.09);
+    }
+    .damage-side { border-radius: 16px; padding: 1.05rem 1.1rem .95rem; }
+    .damage-swap button {
+      background: linear-gradient(145deg, #fff, #f1f5fb);
+      border-color: #d4deeb; box-shadow: 0 8px 18px rgba(31,48,78,.09);
+      transition: all .18s ease;
+    }
+    .damage-swap button:hover { transform: scale(1.06); color: #4f7cff; border-color: #aebfe0; }
+    .damage-side-image { filter: drop-shadow(0 10px 12px rgba(31,48,78,.12)); }
+    .damage-adjust-grid input[type="range"], .damage-current-hp input[type="range"] {
+      accent-color: #5b7ff5;
+    }
+    .damage-stat-stage, .damage-stat-current, .damage-adjust-grid input[type="number"],
+    .damage-current-hp-number, .damage-move-controls select, .damage-move-controls input[type="number"] {
+      border-color: #d5dfeb; background: #fff;
+    }
+    .damage-hp-bar {
+      height: 30px; border: 1px solid #cbd5e1; border-radius: 10px;
+      box-shadow: inset 0 1px 3px rgba(15,23,42,.10), 0 3px 8px rgba(31,48,78,.05);
+    }
+    .damage-hp-range-min { background: linear-gradient(90deg, #9ee7a8, #bff2c5); }
+    .damage-hp-range-max { background: linear-gradient(90deg, #f2aaaa, #f8c5c5); }
+    .damage-guaranteed-hits::before {
+      background: #fff; border-color: #334155; box-shadow: 0 2px 6px rgba(31,48,78,.16);
+    }
+    .damage-result {
+      background: linear-gradient(135deg, #f4f7ff, #f7f5ff);
+      border-color: #dfe5f1; box-shadow: inset 0 1px 0 rgba(255,255,255,.8);
+    }
+    .damage-result-value { color: #243b78; }
+    .moves-table-wrap { border: 1px solid #e2e8f0; border-radius: 11px; }
+    th { background: #f4f7fb; }
+    tr:hover td { background: #fafcff; }
+    .discord-link { border-radius: 9px; box-shadow: 0 4px 10px rgba(88,101,242,.2); }
+    @media (max-width: 760px) {
+      body { padding: .7rem; }
+      .card { padding: 1rem; border-radius: 15px; }
+      .damage-card { width: calc(100vw - 1rem); }
+    }
+
+
+    /* ===== 深色模式 ===== */
+    body.dark-theme {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #60a5fa;
+      --border: #334155;
+      --weak-2: #f87171;
+      --weak-4: #fb7185;
+    }
+    body.dark-theme .theme-toggle {
+      background: #1e293b; color: #f8fafc; border-color: #475569;
+      box-shadow: 0 5px 18px rgba(0,0,0,.28);
+    }
+    body.dark-theme .theme-toggle:hover { background: #334155; border-color: #60a5fa; }
+    body.dark-theme .form-btn,
+    body.dark-theme .shiny-btn,
+    body.dark-theme input,
+    body.dark-theme select,
+    body.dark-theme textarea {
+      background: #0f172a; color: #e5e7eb; border-color: #475569;
+    }
+    body.dark-theme .dropdown-item:hover,
+    body.dark-theme .dropdown-item.active { background: #1e3a5f; color: #93c5fd; }
+    body.dark-theme th { background: #273449; color: #e5e7eb; }
+    body.dark-theme tr:hover td { background: #243247; }
+    body.dark-theme .moves-table-wrap { border-color: #334155; }
+    body.dark-theme .ability-badge { background: #12324a; color: #7dd3fc; border-color: #164e63; }
+    body.dark-theme .ability-badge.ability-hidden { background: #35204f; color: #d8b4fe; border-color: #581c87; }
+    body.dark-theme .damage-result-value { color: #bfdbfe; }
+    body.dark-theme .placeholder { color: #94a3b8; }
+    body.dark-theme .damage-stat-row,
+    body.dark-theme .damage-condition-row { border-color: #334155; }
+    body.dark-theme .stat-box { border-color: #334155; background: #182235; }
+    body.dark-theme .type-badge { filter: brightness(.9); }
+    body.dark-theme .discord-link { box-shadow: 0 5px 16px rgba(0,0,0,.3); }
+
+    /* 深色模式：近黑色漸變，避免白底造成刺眼感 */
+    body.dark-theme {
+      --bg: #080b12;
+      --card: #111722;
+      --text: #e7ebf3;
+      --muted: #8d98aa;
+      --accent: #6ea8ff;
+      --border: #293241;
+      background: radial-gradient(circle at 15% 0%, #151b28 0%, #0b0f17 42%, #05070b 100%);
+      background-attachment: fixed;
+    }
+    body.dark-theme .card,
+    body.dark-theme .damage-card,
+    body.dark-theme .calc-row,
+    body.dark-theme .damage-side,
+    body.dark-theme .calc-result-item,
+    body.dark-theme .damage-current-hp,
+    body.dark-theme .damage-condition-row,
+    body.dark-theme .damage-stat-row {
+      background: linear-gradient(145deg, #151b27 0%, #0e131d 100%);
+      border-color: #293241;
+      color: #e7ebf3;
+    }
+    body.dark-theme .calc-row,
+    body.dark-theme .damage-side {
+      background: linear-gradient(155deg, #171e2b 0%, #0d121b 100%);
+    }
+    body.dark-theme .stat-box {
+      background: linear-gradient(155deg, #1b2331 0%, #10151f 100%);
+      border-color: #303a4a;
+    }
+    body.dark-theme .damage-result {
+      background: linear-gradient(135deg, #171d2d 0%, #0d111b 52%, #171126 100%);
+      border-color: #343d51;
+    }
+    body.dark-theme .damage-hp-bar { background: #080c13; border-color: #303a4a; }
+    body.dark-theme .damage-guaranteed-hits::before { background: #111722; border-color: #596477; }
+    body.dark-theme input,
+    body.dark-theme select,
+    body.dark-theme textarea,
+    body.dark-theme .damage-stat-stage,
+    body.dark-theme .damage-stat-current,
+    body.dark-theme .damage-adjust-grid input[type="number"],
+    body.dark-theme .damage-current-hp-number,
+    body.dark-theme .damage-move-controls select,
+    body.dark-theme .damage-move-controls input[type="number"],
+    body.dark-theme .damage-weather-controls select {
+      background: linear-gradient(180deg, #0e141e 0%, #090d14 100%);
+      color: #e7ebf3;
+      border-color: #303a4a;
+    }
+    body.dark-theme th { background: #171e2a; color: #e7ebf3; }
+    body.dark-theme tr:nth-child(even) td { background: #111720; }
+    body.dark-theme tr:hover td { background: #1a2230; }
+    body.dark-theme .moves-table-wrap,
+    body.dark-theme table,
+    body.dark-theme .dropdown,
+    body.dark-theme .search-dropdown,
+    body.dark-theme .pokemon-dropdown {
+      background: #0d131c;
+      border-color: #293241;
+    }
+    body.dark-theme .damage-swap button,
+    body.dark-theme .damage-copy-btn,
+    body.dark-theme .damage-calc-btn:not(.primary) {
+      background: linear-gradient(145deg, #202938, #111720);
+      color: #e7ebf3;
+      border-color: #354052;
+    }
+    body.dark-theme .theme-toggle {
+      background: linear-gradient(145deg, #1c2432, #0c1119);
+      color: #e7ebf3;
+      border-color: #354052;
+    }
+    /* 深色模式：降低純白區塊，提升層次與可讀性 */
+    body.dark-theme .card,
+    body.dark-theme .damage-card,
+    body.dark-theme .calc-row,
+    body.dark-theme .damage-side,
+    body.dark-theme .calc-result-item,
+    body.dark-theme .damage-current-hp,
+    body.dark-theme .damage-condition-row,
+    body.dark-theme .damage-stat-row {
+      background: #1b2638;
+      border-color: #334155;
+      color: #e5e7eb;
+    }
+    body.dark-theme .calc-row,
+    body.dark-theme .damage-side {
+      background: linear-gradient(180deg, #1c293c, #172235);
+    }
+    body.dark-theme .stat-box {
+      background: linear-gradient(180deg, #202f45, #1a2739);
+    }
+    body.dark-theme .damage-result {
+      background: linear-gradient(135deg, #1d2942, #25203d);
+      border-color: #3b4a67;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
+    }
+    body.dark-theme .damage-hp-bar {
+      background: #0f172a;
+      border-color: #475569;
+    }
+    body.dark-theme .damage-guaranteed-hits::before {
+      background: #1b2638;
+      border-color: #64748b;
+      box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    }
+    body.dark-theme .damage-stat-stage,
+    body.dark-theme .damage-stat-current,
+    body.dark-theme .damage-adjust-grid input[type="number"],
+    body.dark-theme .damage-current-hp-number,
+    body.dark-theme .damage-move-controls select,
+    body.dark-theme .damage-move-controls input[type="number"],
+    body.dark-theme .damage-weather-controls select {
+      background: #0f172a;
+      color: #e5e7eb;
+      border-color: #475569;
+    }
+    body.dark-theme .damage-swap button {
+      background: linear-gradient(145deg, #26364d, #182437);
+      color: #e5e7eb;
+      border-color: #475569;
+    }
+    body.dark-theme .damage-swap button:hover {
+      color: #93c5fd;
+      border-color: #60a5fa;
+    }
+    body.dark-theme .damage-copy-btn,
+    body.dark-theme .damage-calc-btn:not(.primary) {
+      background: #263449;
+      color: #e5e7eb;
+      border-color: #475569;
+    }
+    body.dark-theme .dropdown,
+    body.dark-theme .search-dropdown,
+    body.dark-theme .pokemon-dropdown {
+      background: #172235;
+      border-color: #475569;
+      box-shadow: 0 12px 28px rgba(0,0,0,.4);
+    }
+    body.dark-theme .dropdown-item {
+      color: #e5e7eb;
+      border-color: #334155;
+    }
+    body.dark-theme .dropdown-item:hover,
+    body.dark-theme .dropdown-item.active {
+      background: #243b5a;
+      color: #bfdbfe;
+    }
+    body.dark-theme .moves-table-wrap {
+      background: #172235;
+      border-color: #334155;
+    }
+    body.dark-theme table {
+      background: #172235;
+      color: #e5e7eb;
+    }
+    body.dark-theme td {
+      border-color: #334155;
+    }
+    body.dark-theme tr:nth-child(even) td {
+      background: #1a2739;
+    }
+    body.dark-theme tr:hover td {
+      background: #243247;
+    }
+    body.dark-theme .info-left,
+    body.dark-theme .info-right,
+    body.dark-theme .image-area {
+      color: #e5e7eb;
+    }
+    body.dark-theme .placeholder,
+    body.dark-theme .name-sub,
+    body.dark-theme .muted,
+    body.dark-theme small {
+      color: #94a3b8;
+    }
+    body.dark-theme hr {
+      border-color: #334155;
+    }
+
+    .theme-toggle {
+      position: fixed; top: 1rem; right: 1rem; z-index: 1000;
+      display: inline-flex; align-items: center; gap: .4rem;
+      padding: .5rem .8rem; border: 1px solid var(--border); border-radius: 999px;
+      background: var(--card); color: var(--text); cursor: pointer;
+      font: inherit; font-size: .85rem; font-weight: 700;
+      box-shadow: 0 4px 14px rgba(15,23,42,.08);
+      transition: background .2s, border-color .2s, transform .2s, box-shadow .2s;
+    }
+    .theme-toggle:hover { transform: translateY(-1px); border-color: var(--accent); }
+    .theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .theme-toggle-icon { font-size: 1rem; line-height: 1; }
+    @media (max-width: 640px) {
+      .theme-toggle { top: .65rem; right: .65rem; padding: .42rem .65rem; }
+      h1 { padding-right: 4.2rem; }
+    }
+
+    /* 最終深色覆寫：近黑色背景與近黑色漸變 */
+    body.dark-theme {
+      --bg:#080b12; --card:#111722; --text:#e7ebf3; --muted:#8d98aa; --border:#293241;
+      background:radial-gradient(circle at 15% 0%,#151b28 0%,#0b0f17 42%,#05070b 100%);
+      background-attachment:fixed;
+    }
+    body.dark-theme .card,body.dark-theme .damage-card,body.dark-theme .calc-row,body.dark-theme .damage-side,body.dark-theme .calc-result-item,body.dark-theme .damage-current-hp,body.dark-theme .damage-condition-row,body.dark-theme .damage-stat-row { background:linear-gradient(145deg,#151b27 0%,#0e131d 100%); border-color:#293241; color:#e7ebf3; }
+    body.dark-theme .calc-row,body.dark-theme .damage-side { background:linear-gradient(155deg,#171e2b 0%,#0d121b 100%); }
+    body.dark-theme .stat-box { background:linear-gradient(155deg,#1b2331 0%,#10151f 100%); border-color:#303a4a; }
+    body.dark-theme .damage-result { background:linear-gradient(135deg,#171d2d 0%,#0d111b 52%,#171126 100%); border-color:#343d51; }
+    body.dark-theme input,body.dark-theme select,body.dark-theme textarea,body.dark-theme .damage-stat-stage,body.dark-theme .damage-stat-current,body.dark-theme .damage-adjust-grid input[type="number"],body.dark-theme .damage-current-hp-number,body.dark-theme .damage-move-controls select,body.dark-theme .damage-move-controls input[type="number"],body.dark-theme .damage-weather-controls select { background:linear-gradient(180deg,#0e141e 0%,#090d14 100%); color:#e7ebf3; border-color:#303a4a; }
+    body.dark-theme .damage-hp-bar { background:#080c13; border-color:#303a4a; }
+    body.dark-theme .damage-guaranteed-hits::before { background:#111722; border-color:#596477; }
+    body.dark-theme th { background:#171e2a; color:#e7ebf3; }
+    body.dark-theme tr:nth-child(even) td { background:#111720; }
+    body.dark-theme tr:hover td { background:#1a2230; }
+    body.dark-theme .moves-table-wrap,body.dark-theme table { background:#0d131c; border-color:#293241; }
+    body.dark-theme .damage-swap button,body.dark-theme .damage-copy-btn,body.dark-theme .damage-calc-btn:not(.primary),body.dark-theme .theme-toggle { background:linear-gradient(145deg,#202938,#111720); color:#e7ebf3; border-color:#354052; }
+
+
+    /* 深色模式：區塊標題提高對比，避免與背景融在一起 */
+    body.dark-theme .section-title {
+      color: #f8fafc;
+      background: linear-gradient(90deg, #f8fafc 0%, #c7d2fe 55%, #93c5fd 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 18px rgba(96,165,250,.10);
+      border-bottom-color: #3b475a;
+    }
+    body.dark-theme .calc-header .section-title {
+      color: #f8fafc;
+      -webkit-text-fill-color: #f8fafc;
+    }
+    body.dark-theme .damage-card > .section-title {
+      font-size: .95rem;
+      font-weight: 900;
+      color: #ffffff;
+      -webkit-text-fill-color: #ffffff;
+      border-bottom-color: #46536a;
+    }
+    body.dark-theme .base-stat-total {
+      color: #a5b4fc;
+      -webkit-text-fill-color: #a5b4fc;
+    }
+    /* 深色模式：種族值數字提高亮度與對比 */
+    body.dark-theme .stat-value {
+      color: #f8fafc;
+      -webkit-text-fill-color: #f8fafc;
+      text-shadow: 0 0 10px rgba(147,197,253,.10);
+      font-weight: 800;
+    }
+    body.dark-theme .stat-label {
+      color: #cbd5e1;
+      -webkit-text-fill-color: #cbd5e1;
+    }
+
+
+    /* 深色模式：能力值結果欄與其它加成輸入進一步降低亮度 */
+    body.dark-theme .calc-col-result {
+      background: linear-gradient(155deg, #111925 0%, #0a0f17 100%);
+      border-color: #2d394b;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.025);
+    }
+    body.dark-theme .calc-result-item {
+      background: linear-gradient(145deg, #182131 0%, #101722 100%);
+      border-color: #2b3749;
+      color: #e7ebf3;
+    }
+    body.dark-theme .calc-result-item.boost {
+      background: linear-gradient(145deg, #123128 0%, #0d211c 100%);
+    }
+    body.dark-theme .calc-result-item.nerf {
+      background: linear-gradient(145deg, #351b24 0%, #241219 100%);
+    }
+    body.dark-theme .calc-result-item .r-label {
+      color: #aeb9c9;
+    }
+    body.dark-theme .calc-result-item .r-value {
+      color: #f1f5f9;
+    }
+    body.dark-theme .calc-result-item.boost .r-value {
+      color: #6ee7b7;
+    }
+    body.dark-theme .calc-result-item.nerf .r-value {
+      color: #fda4af;
+    }
+    body.dark-theme .damage-bonus-wrap .damage-other-bonus {
+      color: #cbd5e1;
+      background: linear-gradient(145deg, #141d2b 0%, #0b111a 100%);
+      border-color: #2f3b4e;
+      border-radius: 10px;
+      padding: .38rem .55rem;
+    }
+    body.dark-theme .damage-other-bonus input#damage-other-bonus {
+      background: linear-gradient(180deg, #0b111a 0%, #070b11 100%);
+      color: #f1f5f9;
+      border-color: #3b475a;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,.35);
+    }
+    body.dark-theme .damage-other-bonus span {
+      color: #94a3b8;
+    }
+
+    /* 深色模式：傷害計算所有下拉選單 */
+    body.dark-theme .damage-card select,
+    body.dark-theme .damage-section select,
+    body.dark-theme .damage-move-controls select,
+    body.dark-theme .damage-weather-controls select,
+    body.dark-theme .damage-side select,
+    body.dark-theme .damage-pokemon-panel select {
+      appearance: auto;
+      -webkit-appearance: auto;
+      background-color: #111827 !important;
+      background-image: none;
+      color: #f8fafc !important;
+      border: 1px solid #3b4a61 !important;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,.45), 0 0 0 1px rgba(255,255,255,.02);
+    }
+    body.dark-theme .damage-card select:focus,
+    body.dark-theme .damage-section select:focus,
+    body.dark-theme .damage-move-controls select:focus,
+    body.dark-theme .damage-weather-controls select:focus,
+    body.dark-theme .damage-side select:focus,
+    body.dark-theme .damage-pokemon-panel select:focus {
+      background-color: #172033 !important;
+      border-color: #60a5fa !important;
+      color: #ffffff !important;
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(96,165,250,.18);
+    }
+    body.dark-theme select option,
+    body.dark-theme select optgroup {
+      background: #111827 !important;
+      color: #f8fafc !important;
+    }
+    body.dark-theme select option:checked,
+    body.dark-theme select option:hover {
+      background: #26364f !important;
+      color: #ffffff !important;
+    }
+
+
+    /* 深色模式：傷害計算的攻擊方／防禦方對象搜尋框與結果下拉 */
+    body.dark-theme .damage-object-controls .damage-pokemon-input {
+      background: linear-gradient(180deg, #0b111a 0%, #070b11 100%) !important;
+      color: #f1f5f9 !important;
+      border-color: #3b475a !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.025);
+    }
+    body.dark-theme .damage-object-controls .damage-pokemon-input::placeholder {
+      color: #7f8da3 !important;
+      opacity: 1;
+    }
+    body.dark-theme .damage-pokemon-dropdown {
+      background: #0b111a !important;
+      color: #e7ebf3 !important;
+      border-color: #3b475a !important;
+      box-shadow: 0 12px 28px rgba(0,0,0,.55);
+    }
+    body.dark-theme .damage-pokemon-dropdown .damage-pokemon-item {
+      background: transparent !important;
+      color: #e7ebf3 !important;
+    }
+    body.dark-theme .damage-pokemon-dropdown .damage-pokemon-item:hover,
+    body.dark-theme .damage-pokemon-dropdown .damage-pokemon-item.active {
+      background: #1b3555 !important;
+      color: #bfdbfe !important;
+    }
+    body.dark-theme .damage-pokemon-dropdown .damage-pokemon-empty {
+      background: #0b111a !important;
+      color: #94a3b8 !important;
+    }
+    body.dark-theme .damage-object-controls .damage-pokemon-input:focus {
+      background: #0b111a !important;
+      border-color: #60a5fa !important;
+      box-shadow: 0 0 0 3px rgba(96,165,250,.16), inset 0 1px 0 rgba(255,255,255,.025);
+      outline: none;
+    }
+
+/* Fix: light theme damage calculation button keeps white text on hover/focus */
+body:not(.dark-theme) .damage-calc-btn,
+body:not(.dark-theme) .damage-calc-btn:hover,
+body:not(.dark-theme) .damage-calc-btn:focus,
+body:not(.dark-theme) .damage-calc-btn:active {
+  color: #fff !important;
+}
 </style>
 </head>
 <body>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切換深色模式" title="切換深色模式">
+    <span class="theme-toggle-icon">🌙</span><span class="theme-toggle-text">深色</span>
+  </button>
   <div class="container">
     <h1>寶可夢數值計算器</h1>
     <div class="search-wrap">
@@ -478,6 +1058,28 @@
 const searchInput = document.getElementById('pokemon-search');
     const dropdownList = document.getElementById('dropdown-list');
     const contentEl = document.getElementById('content');
+
+    // ===== 深色 / 淺色模式 =====
+    const themeToggle = document.getElementById('theme-toggle');
+    function applyTheme(theme) {
+      const dark = theme === 'dark';
+      document.body.classList.toggle('dark-theme', dark);
+      if (themeToggle) {
+        themeToggle.querySelector('.theme-toggle-icon').textContent = dark ? '☀️' : '🌙';
+        themeToggle.querySelector('.theme-toggle-text').textContent = dark ? '淺色' : '深色';
+        themeToggle.setAttribute('aria-label', dark ? '切換淺色模式' : '切換深色模式');
+        themeToggle.title = dark ? '切換淺色模式' : '切換深色模式';
+      }
+    }
+    const savedTheme = localStorage.getItem('pokemon-calc-theme');
+    applyTheme(savedTheme === 'dark' ? 'dark' : 'light');
+    if (themeToggle) {
+      themeToggle.addEventListener('click', () => {
+        const next = document.body.classList.contains('dark-theme') ? 'light' : 'dark';
+        applyTheme(next);
+        localStorage.setItem('pokemon-calc-theme', next);
+      });
+    }
 
     const pokedex = EMBEDDED_POKEDEX;
             let selectedIndex = null;
