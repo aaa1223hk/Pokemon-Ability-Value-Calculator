@@ -309,6 +309,15 @@
     .damage-stat-stage { width: 100%; min-width: 0; box-sizing: border-box; padding: 0.36rem 0.2rem; border: 1px solid var(--border); border-radius: 8px; background:#fff; font-size:0.78rem; text-align:center; }
     .damage-ev-total { margin-top: 0.8rem; text-align: right; padding-right: 0.1rem; font-size: 0.78rem; color: var(--muted); }
     .damage-ev-total.over { color: #dc2626; font-weight: 700; }
+    .damage-current-hp { display:flex; flex-direction:column; gap:0.4rem; margin-top:0.55rem; }
+    .damage-current-hp-slider-row { display:flex; align-items:center; gap:0.6rem; }
+    .damage-current-hp-slider-row input[type="range"] { flex:1; min-width:0; }
+    .damage-current-hp-number { width:4.5rem; padding:0.32rem 0.4rem; border:1px solid var(--border); border-radius:6px; text-align:center; background:#fff; box-sizing:border-box; }
+    .damage-current-hp { margin-top: 0.75rem; padding: 0.55rem 0.7rem; border: 1px solid var(--border); border-radius: 9px; background: #fff; }
+    .damage-current-hp-head { display:flex; justify-content:space-between; align-items:center; gap:0.6rem; font-size:0.8rem; font-weight:700; margin-bottom:0.35rem; }
+    .damage-current-hp-value { font-size:0.9rem; }
+    .damage-current-hp input[type=range] { width:100%; margin:0; accent-color:var(--accent); cursor:grab; touch-action:none; }
+    .damage-current-hp input[type=range]:active { cursor:grabbing; }
     .damage-swap { display: flex; justify-content: center; align-items: center; }
     .damage-swap button { width: 58px; height: 58px; border: 1px solid var(--border); border-radius: 50%; background: #fff; color: var(--text); cursor: pointer; font-size: 1.65rem; line-height: 1; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
     .damage-swap button:hover { border-color: var(--accent); color: var(--accent); }
@@ -328,10 +337,14 @@
     .damage-result-detail { font-size: 0.78rem; color: var(--muted); margin-top: 0.35rem; }
     .damage-hp-bar-wrap { margin-top: 1.15rem; }
     .damage-hp-bar-labels { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem; padding: 0 0.1rem; font-size: 0.9rem; font-weight: 700; color: var(--text); }
-    .damage-hp-bar { position: relative; width: 100%; height: 28px; border: 1px solid #111827; border-radius: 9px; background: #fff; overflow: hidden; box-sizing: border-box; }
+    .damage-hp-bar { position: relative; width: 100%; height: 28px; border: 1px solid #111827; border-radius: 9px; background: #fff; overflow: visible; box-sizing: border-box; }
+    .damage-hp-bar::before { content: ""; position: absolute; inset: 0; border-radius: 8px; overflow: hidden; pointer-events: none; }
     .damage-hp-range { position: absolute; top: 0; bottom: 0; }
     .damage-hp-range-max { background: #f5b7b7; }
     .damage-hp-range-min { background: #b9efbf; }
+    .damage-guaranteed-hits { position:absolute; top:-1.55rem; transform:translateX(50%); width:32px; height:32px; display:flex; align-items:center; justify-content:center; font-size:0.82rem; line-height:1; font-weight:800; white-space:nowrap; color:var(--text); pointer-events:none; z-index:6; }
+    .damage-guaranteed-hits::before { content:""; position:absolute; width:30px; height:30px; border:2px solid currentColor; border-radius:50%; background:var(--card, #fff); box-sizing:border-box; z-index:-1; }
+    .damage-guaranteed-dot { display:none; }
     .damage-hp-bar-caption { display: flex; justify-content: space-between; gap: 0.75rem; margin-top: 0.35rem; font-size: 0.75rem; color: var(--muted); }
     .damage-note { font-size: 0.75rem; color: var(--muted); margin-top: 0.65rem; text-align: center; }
     @media (max-width: 1050px) {
@@ -395,7 +408,8 @@
     }
     .damage-object-controls label:first-child { justify-content: flex-end; }
     .damage-object-controls label:last-child { justify-content: flex-start; }
-    .damage-object-controls select {
+    .damage-object-controls select,
+    .damage-pokemon-input {
       flex: 1 1 auto;
       min-width: 0;
       width: 100%;
@@ -404,7 +418,18 @@
       border-radius: 8px;
       background: #fff;
       font-size: 0.9rem;
+      box-sizing: border-box;
     }
+    .damage-pokemon-search { position:relative; flex:1 1 auto; min-width:0; }
+    .damage-pokemon-dropdown {
+      display:none; position:absolute; z-index:1000; left:0; right:0; top:calc(100% + 4px);
+      max-height:260px; overflow-y:auto; background:#fff; border:1px solid var(--border);
+      border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,.12);
+    }
+    .damage-pokemon-dropdown.open { display:block; }
+    .damage-pokemon-item { padding:0.55rem 0.7rem; cursor:pointer; font-size:0.9rem; }
+    .damage-pokemon-item:hover { background:var(--surface); }
+    .damage-pokemon-empty { padding:0.55rem 0.7rem; color:var(--muted); font-size:0.85rem; }
     @media (max-width: 760px) {
       .damage-object-controls {
         grid-template-columns: 1fr;
@@ -1137,7 +1162,7 @@ function typeClass(t) { return 'type-' + t; }
     let damageTargetCache = {};
     let damageState = {
       targetIndex: null, targetData: null, targetForm: null,
-      sides: null, result: null, weather: '無', terrain: '無', unknownMoveType: '一般'
+      sides: null, result: null, weather: '無', terrain: '無', unknownMoveType: '一般', currentHpPercent: 100
     };
 
     function damageSafeText(s) {
@@ -1218,6 +1243,81 @@ function typeClass(t) { return 'type-' + t; }
     function buildDamagePokemonOptions(selected) {
       return pokedex.map(p => `<option value="${p.index}" ${p.index === selected ? 'selected' : ''}>${p.index} - ${damageSafeText(p.name_zh)}</option>`).join('');
     }
+
+    // 傷害計算的攻擊／防禦方對象：和最上方搜尋框一樣，可直接輸入圖鑑編號或名稱。
+    function buildDamagePokemonSearch(sideKey, selected) {
+      const p = pokedex.find(x => x.index === selected);
+      const value = p ? `${p.index} - ${p.name_zh}` : '';
+      return `<div class="damage-pokemon-search">
+        <input type="text" id="damage-${sideKey}-search" class="damage-pokemon-input"
+          value="${damageSafeText(value)}" placeholder="輸入編號或名稱搜尋，例如 009 或 妙蛙"
+          autocomplete="off" spellcheck="false"
+          oninput="filterDamagePokemon('${sideKey}', this.value)"
+          onfocus="filterDamagePokemon('${sideKey}', this.value); openDamagePokemonDropdown('${sideKey}')"
+          onkeydown="damagePokemonKeydown(event, '${sideKey}')">
+        <div id="damage-${sideKey}-dropdown" class="damage-pokemon-dropdown"></div>
+      </div>`;
+    }
+
+    function filterDamagePokemon(sideKey, text) {
+      const box = document.getElementById(`damage-${sideKey}-dropdown`);
+      if (!box) return;
+      const q = String(text || '').trim().toLowerCase();
+      let matched = pokedex;
+      if (q) {
+        matched = pokedex.filter(p => {
+          const idx = String(p.index || '').toLowerCase();
+          const name = String(p.name_zh || '').toLowerCase();
+          const strippedQ = q.replace(/^0+/, '');
+          return idx.includes(q) || name.includes(q) ||
+            idx.replace(/^0+/, '').startsWith(strippedQ);
+        });
+      }
+      if (!matched.length) {
+        box.innerHTML = '<div class="damage-pokemon-empty">沒有符合的寶可夢</div>';
+      } else {
+        box.innerHTML = matched.slice(0, 100).map(p =>
+          `<div class="damage-pokemon-item" data-index="${p.index}" onclick="selectDamagePokemon('${sideKey}', '${p.index}')">${p.index} - ${damageSafeText(p.name_zh)}</div>`
+        ).join('') + (matched.length > 100 ? `<div class="damage-pokemon-empty">找到 ${matched.length} 隻，請再輸入關鍵字縮小範圍</div>` : '');
+      }
+      openDamagePokemonDropdown(sideKey);
+    }
+
+    function openDamagePokemonDropdown(sideKey) {
+      document.getElementById(`damage-${sideKey}-dropdown`)?.classList.add('open');
+    }
+
+    function closeDamagePokemonDropdown(sideKey) {
+      document.getElementById(`damage-${sideKey}-dropdown`)?.classList.remove('open');
+    }
+
+    function selectDamagePokemon(sideKey, index) {
+      const p = pokedex.find(x => x.index === index);
+      const input = document.getElementById(`damage-${sideKey}-search`);
+      if (!p || !input) return;
+      input.value = `${p.index} - ${p.name_zh}`;
+      closeDamagePokemonDropdown(sideKey);
+      if (sideKey === 'atk') loadDamageAttacker(index);
+      else loadDamageTarget(index);
+    }
+
+    function damagePokemonKeydown(e, sideKey) {
+      const box = document.getElementById(`damage-${sideKey}-dropdown`);
+      if (!box) return;
+      const items = [...box.querySelectorAll('.damage-pokemon-item')];
+      if (e.key === 'Escape') { closeDamagePokemonDropdown(sideKey); return; }
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        if (items.length === 1) items[0].click();
+      }
+    }
+
+    document.addEventListener('click', e => {
+      if (!e.target.closest('.damage-pokemon-search')) {
+        closeDamagePokemonDropdown('atk');
+        closeDamagePokemonDropdown('def');
+      }
+    });
 
     function getDamageMoves(side) {
       if (!side || !side.data) return [];
@@ -1412,7 +1512,15 @@ function typeClass(t) { return 'type-' + t; }
           <div></div><div class="damage-adjust-title">個體值滑桿</div><div></div><div class="damage-adjust-title">努力值滑桿</div><div></div><div class="damage-adjust-title">能力變化</div><div class="damage-adjust-title">現在數值</div>
           ${rows}
         </div>
-        <div class="damage-ev-total ${totalEv > 510 ? 'over' : ''}">努力值合計：${totalEv} / 510</div>`;
+        <div class="damage-ev-total ${totalEv > 510 ? 'over' : ''}">努力值合計：${totalEv} / 510</div>
+        ${sideKey === 'def' ? `<div class="damage-current-hp">
+          <div class="damage-current-hp-head"><span>現在 HP</span><span class="damage-current-hp-value" id="damage-current-hp-value">${Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)))}%</span></div>
+          <div class="damage-current-hp-slider-row">
+            <input type="range" id="damage-current-hp-range" min="0" max="100" step="1" value="${Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)))}" oninput="onDamageCurrentHp(this.value)" aria-label="防守方目前 HP 百分比">
+            <input type="number" id="damage-current-hp-number" class="damage-current-hp-number" min="0" max="100" step="1" value="${Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)))}" oninput="onDamageCurrentHp(this.value)" aria-label="防守方目前 HP 百分比數值">
+            <span>%</span>
+          </div>
+        </div>` : ''}`;
     }
 
     function switchDamageForm(sideKey, formLabel) {
@@ -1522,6 +1630,20 @@ function typeClass(t) { return 'type-' + t; }
         totalEl.textContent = `努力值合計：${totalEv} / 510`;
         totalEl.classList.toggle('over', totalEv > 510);
       }
+    }
+
+    function onDamageCurrentHp(value) {
+      let v = parseInt(value, 10);
+      if (!Number.isFinite(v)) v = 100;
+      v = Math.max(0, Math.min(100, v));
+      damageState.currentHpPercent = v;
+      const label = document.getElementById('damage-current-hp-value');
+      if (label) label.textContent = `${v}%`;
+      const slider = document.getElementById('damage-current-hp-range');
+      if (slider && slider.value !== String(v)) slider.value = String(v);
+      const number = document.getElementById('damage-current-hp-number');
+      if (number && number.value !== String(v)) number.value = String(v);
+      damageState.result = null;
     }
 
     function onDamageIv(sideKey, key, value) {
@@ -1811,10 +1933,15 @@ function typeClass(t) { return 'type-' + t; }
         v = Math.floor(v * otherBonus);
         values.push(effectiveness === 0 ? 0 : Math.max(1, v));
       }
-      const targetHp = Number(sides.def.stats?.hp || 0);
-      const minPercent = targetHp > 0 ? (Math.min(...values) / targetHp) * 100 : 0;
-      const maxPercent = targetHp > 0 ? (Math.max(...values) / targetHp) * 100 : 0;
-      const result = { attackKey, defenseKey, attackStage, defenseStage, attackBaseStat: Number(sides.atk.stats?.[attackKey] || 0), defenseBaseStat: Number(sides.def.stats?.[defenseKey] || 0), min: Math.min(...values), max: Math.max(...values), move: adjustedMove, originalMove: move, power, attack, defense, base, stab, effectiveness, crit, otherBonus, otherBonusPercent, weather, weatherAttack, terrain, terrainAttack, defenseWeather, values, targetHp, minPercent, maxPercent };
+      const maxHp = Number(sides.def.stats?.hp || 0);
+      const currentHpPercent = Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)));
+      const targetHp = Math.floor(maxHp * currentHpPercent / 100);
+      // 傷害條改以「防守方目前剩餘 HP」為基準，讓上方 HP 滑桿會直接反映在下方讀條。
+      // 例如目前 HP 50%，同樣造成最大 HP 的 10% 傷害，讀條會顯示為目前血量的 20%。
+      const hpBasis = targetHp > 0 ? targetHp : maxHp;
+      const minPercent = hpBasis > 0 ? (Math.min(...values) / hpBasis) * 100 : 0;
+      const maxPercent = hpBasis > 0 ? (Math.max(...values) / hpBasis) * 100 : 0;
+      const result = { attackKey, defenseKey, attackStage, defenseStage, attackBaseStat: Number(sides.atk.stats?.[attackKey] || 0), defenseBaseStat: Number(sides.def.stats?.[defenseKey] || 0), min: Math.min(...values), max: Math.max(...values), move: adjustedMove, originalMove: move, power, attack, defense, base, stab, effectiveness, crit, otherBonus, otherBonusPercent, weather, weatherAttack, terrain, terrainAttack, defenseWeather, values, maxHp, targetHp, currentHpPercent, minPercent, maxPercent };
       damageState.result = result;
       renderDamageResult(result);
     }
@@ -1830,12 +1957,18 @@ function typeClass(t) { return 'type-' + t; }
       const greenWidth = minPct;
       const redWidth = Math.max(0, maxPct - minPct);
       const redRight = minPct;
-      el.innerHTML = `<div class="damage-result-label">傷害範圍</div><div class="damage-result-value">${result.min} ～ ${result.max}</div><div class="damage-result-detail">${damageSafeText(result.move.name)}　｜　威力 ${result.power}　｜　攻擊 ${result.attack}${result.attackStage ? `（基礎 ${result.attackBaseStat} × 能力 ${result.attackStage > 0 ? '+' : ''}${result.attackStage} ×${getDamageStageMultiplier(result.attackStage)}）` : ''}　防禦 ${result.defense}${result.defenseStage ? `（基礎 ${result.defenseBaseStat} × 能力 ${result.defenseStage > 0 ? '+' : ''}${result.defenseStage} ×${getDamageStageMultiplier(result.defenseStage)}）` : ''}　｜　STAB ×${result.stab}　｜　${effText}${result.crit !== 1 ? '　｜　擊中要害 ×1.5' : ''}${result.otherBonus !== 1 ? `　｜　其它加成 ×${result.otherBonus.toFixed(2)}` : ''}　｜　${getWeatherLabel(result.weather)}${result.weatherAttack !== 1 ? `　×${result.weatherAttack}` : ''}　｜　${getTerrainLabel(result.terrain)}${result.terrainAttack !== 1 ? `　×${result.terrainAttack}` : ''}${result.defenseWeather !== 1 ? `　｜　防禦方特防 ×${result.defenseWeather}` : ''}</div>
+      // 「確N」顯示在綠色區域最前端，表示以傷害範圍的最小值估算需要幾次。
+      // 若單次最小傷害已達到／超過 100%，直接顯示確1。
+      const currentHp = Number(result.targetHp || 0);
+      const guaranteedHits = currentHp <= 0 ? null : (result.min >= currentHp ? 1 : (result.min > 0 ? Math.ceil(currentHp / result.min) : null));
+      const guaranteedText = guaranteedHits ? `確${guaranteedHits}` : '確—';
+      el.innerHTML = `<div class="damage-result-label">傷害範圍</div><div class="damage-result-value">${result.min} ～ ${result.max}</div><div class="damage-result-detail">${damageSafeText(result.move.name)}　｜　威力 ${result.power}　｜　防守方目前 HP ${result.targetHp} / ${result.maxHp}（${result.currentHpPercent}%）　｜　攻擊 ${result.attack}${result.attackStage ? `（基礎 ${result.attackBaseStat} × 能力 ${result.attackStage > 0 ? '+' : ''}${result.attackStage} ×${getDamageStageMultiplier(result.attackStage)}）` : ''}　防禦 ${result.defense}${result.defenseStage ? `（基礎 ${result.defenseBaseStat} × 能力 ${result.defenseStage > 0 ? '+' : ''}${result.defenseStage} ×${getDamageStageMultiplier(result.defenseStage)}）` : ''}　｜　STAB ×${result.stab}　｜　${effText}${result.crit !== 1 ? '　｜　擊中要害 ×1.5' : ''}${result.otherBonus !== 1 ? `　｜　其它加成 ×${result.otherBonus.toFixed(2)}` : ''}　｜　${getWeatherLabel(result.weather)}${result.weatherAttack !== 1 ? `　×${result.weatherAttack}` : ''}　｜　${getTerrainLabel(result.terrain)}${result.terrainAttack !== 1 ? `　×${result.terrainAttack}` : ''}${result.defenseWeather !== 1 ? `　｜　防禦方特防 ×${result.defenseWeather}` : ''}</div>
         <div class="damage-hp-bar-wrap">
           <div class="damage-hp-bar-labels"><span>100%</span><span>0%</span></div>
           <div class="damage-hp-bar" aria-label="傷害佔防禦方最大 HP 的比例">
             <span class="damage-hp-range damage-hp-range-max" style="width:${redWidth}%; right:${redRight}%;"></span>
             <span class="damage-hp-range damage-hp-range-min" style="width:${greenWidth}%; right:0;"></span>
+            <span class="damage-guaranteed-hits" style="right:${Math.min(100, Math.max(0, minPct))}%;">${guaranteedText}<span class="damage-guaranteed-dot"></span></span>
           </div>
           <div class="damage-hp-bar-caption"><span>最大傷害 ${maxPct.toFixed(1)}%</span><span>最小傷害 ${minPct.toFixed(1)}%</span></div>
         </div>`;
@@ -1891,13 +2024,9 @@ function typeClass(t) { return 'type-' + t; }
       return `<div class="card damage-card" id="damage-card">
         <div class="section-title">傷害計算</div>
         <div class="damage-object-controls">
-          <label>攻擊方對象
-            <select id="damage-attacker" onchange="loadDamageAttacker(this.value)">${buildDamagePokemonOptions(idx)}</select>
-          </label>
+          <label>攻擊方對象${buildDamagePokemonSearch('atk', idx)}</label>
           <div></div>
-          <label>防禦方對象
-            <select id="damage-target" onchange="loadDamageTarget(this.value)">${buildDamagePokemonOptions(idx)}</select>
-          </label>
+          <label>防禦方對象${buildDamagePokemonSearch('def', idx)}</label>
         </div>
         <div class="damage-sides">
           <div class="damage-side" id="damage-atk-side"></div>
