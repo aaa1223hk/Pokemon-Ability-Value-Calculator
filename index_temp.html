@@ -2244,7 +2244,7 @@ function typeClass(t) { return 'type-' + t; }
       sides: null, result: null, weather: '無', terrain: '無', statuses: [], unknownMoveType: '一般', unknownMoveCategory: '物理', currentHpPercent: 100
     };
 
-    // 傷害計算「狀態」多選項目（燒傷 / 牆 / 極光幕 / 災禍）
+    // 傷害計算「狀態」多選項目（燒傷 / 牆 / 極光幕 / 災禍 / 其他）
     const DAMAGE_STATUSES = [
       { id: 'burn', name: '燒傷' },
       { id: 'reflect_singles', name: '反射壁 (單打)' },
@@ -2256,7 +2256,11 @@ function typeClass(t) { return 'type-' + t; }
       { id: 'ruin_tablets', name: '災禍之簡' },
       { id: 'ruin_sword', name: '災禍之劍' },
       { id: 'ruin_vessel', name: '災禍之鼎' },
-      { id: 'ruin_beads', name: '災禍之玉' }
+      { id: 'ruin_beads', name: '災禍之玉' },
+      { id: 'friend_guard', name: '友情防守' },
+      { id: 'steelworker', name: '鋼之意志' },
+      { id: 'power_spot', name: '能量點' },
+      { id: 'battery', name: '蓄電池' }
     ];
 
     // 傷害計算已實作的「倍率類」持有道具（選單只顯示這些）
@@ -3238,18 +3242,21 @@ function typeClass(t) { return 'type-' + t; }
       return multiplier;
     }
 
-    /** 狀態倍率：燒傷（攻擊方）、反射壁／光牆／極光幕（防守方）、災禍系列（全場、同種不疊加）
-     *  - 燒傷：物理招式傷害 ×0.5（看攻擊方 statuses）
-     *  - 反射壁：物理招式，單打 ×0.5、雙打 ×2732/4096（看防守方）
-     *  - 光牆：特殊招式，單打 ×0.5、雙打 ×2732/4096（看防守方）
-     *  - 極光幕：同時具反射壁+光牆效果；若已選反射壁/光牆則不疊加
-     *  - 災禍之簡／劍／鼎／玉：對應能力 ×3/4；攻守任一方有勾即生效，同種不疊加
+    /** 狀態倍率
+     *  - 燒傷：物理招式傷害 ×0.5（攻擊方）
+     *  - 反射壁／光牆／極光幕（防守方）
+     *  - 災禍系列：全場、同種不疊加
+     *  - 友情防守：受到傷害 ×3/4（防守方）
+     *  - 鋼之意志：鋼屬性招式威力 ×1.5（僅攻擊方有勾才生效）
+     *  - 能量點：招式威力 ×1.3（攻擊方）
+     *  - 蓄電池：特攻招式威力 ×1.3（攻擊方）
      */
-    function getStatusMultipliers(atkStatuses, defStatuses, isSpecial, category) {
+    function getStatusMultipliers(atkStatuses, defStatuses, isSpecial, category, moveType) {
       const atkSet = new Set(Array.isArray(atkStatuses) ? atkStatuses : []);
       const defSet = new Set(Array.isArray(defStatuses) ? defStatuses : []);
       const any = (id) => atkSet.has(id) || defSet.has(id);
       let mult = 1;
+      let powerMult = 1;
       let attackMult = 1;
       let defenseMult = 1;
       const notes = [];
@@ -3269,7 +3276,6 @@ function typeClass(t) { return 'type-' + t; }
         mult *= screenMult;
         notes.push(`極光幕(${hasAuroraDoubles ? '雙打' : '單打'}) ×${hasAuroraDoubles ? '2732/4096' : '1/2'}`);
       } else {
-        // 反射壁（僅物理，防守方）
         if (isPhysical) {
           if (defSet.has('reflect_doubles')) {
             mult *= 2732 / 4096;
@@ -3279,7 +3285,6 @@ function typeClass(t) { return 'type-' + t; }
             notes.push('反射壁(單打) ×1/2');
           }
         }
-        // 光牆（僅特殊，防守方）
         if (isSpecial) {
           if (defSet.has('lightscreen_doubles')) {
             mult *= 2732 / 4096;
@@ -3292,8 +3297,6 @@ function typeClass(t) { return 'type-' + t; }
       }
 
       // 災禍系列：全場、同種不疊加；四種可同時存在
-      // 災禍之簡 → 攻擊 ×3/4；災禍之鼎 → 特攻 ×3/4
-      // 災禍之劍 → 防禦 ×3/4；災禍之玉 → 特防 ×3/4
       if (isPhysical) {
         if (any('ruin_tablets')) {
           attackMult *= 0.75;
@@ -3314,7 +3317,31 @@ function typeClass(t) { return 'type-' + t; }
         }
       }
 
-      return { mult, attackMult, defenseMult, notes };
+      // 友情防守：受到的招式傷害減少 1/4 → ×3/4（防守方）
+      if (defSet.has('friend_guard')) {
+        mult *= 0.75;
+        notes.push('友情防守 ×3/4');
+      }
+
+      // 鋼之意志：鋼屬性招式威力 ×1.5（僅攻擊方有勾才生效）
+      if (atkSet.has('steelworker') && moveType === '鋼') {
+        powerMult *= 1.5;
+        notes.push('鋼之意志 鋼招式威力×1.5');
+      }
+
+      // 能量點：招式威力 ×1.3（攻擊方）
+      if (atkSet.has('power_spot')) {
+        powerMult *= 1.3;
+        notes.push('能量點 威力×1.3');
+      }
+
+      // 蓄電池：特攻招式威力 ×1.3（攻擊方）
+      if (atkSet.has('battery') && isSpecial) {
+        powerMult *= 1.3;
+        notes.push('蓄電池 特攻威力×1.3');
+      }
+
+      return { mult, powerMult, attackMult, defenseMult, notes };
     }
 
     function getTerrainLabel(terrain) {
@@ -3423,11 +3450,21 @@ function typeClass(t) { return 'type-' + t; }
       attack = held.attack;
       defense = held.defense;
       const heldNotes = held.notes || [];
-      // 狀態倍率（燒傷 / 反射壁 / 光牆 / 極光幕 / 災禍）
-      const statusInfo = getStatusMultipliers(sides.atk.statuses || [], sides.def.statuses || [], isSpecial, adjustedMove.category);
+      // 狀態倍率（燒傷 / 牆 / 極光幕 / 災禍 / 友情防守 / 鋼之意志 / 能量點 / 蓄電池）
+      const statusInfo = getStatusMultipliers(
+        sides.atk.statuses || [],
+        sides.def.statuses || [],
+        isSpecial,
+        adjustedMove.category,
+        adjustedMove.type
+      );
       const statusMult = statusInfo.mult;
       const statusNotes = statusInfo.notes || [];
-      // 災禍系列直接作用在攻擊／防禦數值上（同種不疊加，已在 getStatusMultipliers 處理）
+      // 威力類狀態（鋼之意志、能量點、蓄電池）
+      if (statusInfo.powerMult && statusInfo.powerMult !== 1) {
+        power = Math.floor(power * statusInfo.powerMult);
+      }
+      // 災禍系列直接作用在攻擊／防禦數值上（同種不疊加）
       if (statusInfo.attackMult && statusInfo.attackMult !== 1) {
         attack = Math.floor(attack * statusInfo.attackMult);
       }
