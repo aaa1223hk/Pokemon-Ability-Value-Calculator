@@ -512,7 +512,63 @@
     .damage-weather-controls { display:flex; justify-content:center; align-items:flex-start; gap:0.7rem; margin-top:0.9rem; flex-wrap:wrap; }
     .damage-weather-controls label { display:flex; flex-direction:column; align-items:flex-start; gap:0.35rem; font-size:0.95rem; font-weight:600; }
     .damage-weather-controls select { min-width:180px; padding:0.55rem 0.7rem; border:1px solid var(--border); border-radius:8px; background:#fff; font-size:0.95rem; }
-    .damage-weather-controls select[multiple] { min-width:200px; height:auto; min-height:7.5rem; padding:0.35rem; }
+    .damage-status-search { position: relative; width: 220px; min-width: 200px; }
+    .damage-status-btn {
+      width: 100%;
+      padding: 0.55rem 0.7rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+      font-size: 0.95rem;
+      text-align: left;
+      cursor: pointer;
+      box-sizing: border-box;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: var(--text);
+    }
+    .damage-status-btn:hover { border-color: var(--accent); }
+    .damage-status-dropdown {
+      display: none;
+      position: absolute;
+      z-index: 1000;
+      left: 0;
+      right: 0;
+      top: calc(100% + 4px);
+      max-height: 260px;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 6px 18px rgba(0,0,0,.12);
+      text-align: left;
+    }
+    .damage-status-dropdown.open { display: block; }
+    .damage-status-opt {
+      padding: 0.5rem 0.7rem;
+      cursor: pointer;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      user-select: none;
+    }
+    .damage-status-opt:hover { background: #eff6ff; color: var(--accent); }
+    .damage-status-opt .check { width: 1.1em; text-align: center; flex-shrink: 0; }
+    body.dark-theme .damage-status-btn {
+      background: linear-gradient(180deg,#0e141e 0%,#090d14 100%);
+      color: #e7ebf3;
+      border-color: #303a4a;
+    }
+    body.dark-theme .damage-status-dropdown {
+      background: #121925;
+      border-color: #303a4a;
+    }
+    body.dark-theme .damage-status-opt:hover {
+      background: #1a2230;
+      color: #93c5fd;
+    }
     .damage-calc-wrap { display:flex; justify-content:center; align-items:center; gap:14px; margin-top:18px; }
     .damage-calc-wrap .damage-calc-btn { margin:0; }
 
@@ -2130,6 +2186,16 @@ function typeClass(t) { return 'type-' + t; }
       sides: null, result: null, weather: '無', terrain: '無', statuses: [], unknownMoveType: '一般', unknownMoveCategory: '物理', currentHpPercent: 100
     };
 
+    // 傷害計算「狀態」多選項目（燒傷 / 牆 / 極光幕）
+    const DAMAGE_STATUSES = [
+      { id: 'burn_atk', name: '燒傷(攻擊方)' },
+      { id: 'reflect_singles', name: '反射壁 (單打)' },
+      { id: 'reflect_doubles', name: '反射壁 (雙打)' },
+      { id: 'lightscreen_singles', name: '光牆 (單打)' },
+      { id: 'lightscreen_doubles', name: '光牆 (雙打)' },
+      { id: 'aurora_veil', name: '極光幕' }
+    ];
+
     // 傷害計算已實作的「倍率類」持有道具（選單只顯示這些）
     const DAMAGE_HELD_ITEMS = [
       { id: '', name: '（無）' },
@@ -2541,6 +2607,9 @@ function typeClass(t) { return 'type-' + t; }
         closeDamageHeldDropdown('atk');
         closeDamageHeldDropdown('def');
       }
+      if (!e.target.closest('.damage-status-search')) {
+        closeDamageStatusDropdown();
+      }
     });
 
     function getDamageMoves(side) {
@@ -2933,13 +3002,8 @@ function typeClass(t) { return 'type-' + t; }
       if (weatherEl) weatherEl.value = damageState.weather || '無';
       const terrainEl = document.getElementById('damage-terrain');
       if (terrainEl) terrainEl.value = damageState.terrain || '無';
-      const statusEl = document.getElementById('damage-status');
-      if (statusEl) {
-        const selected = new Set(damageState.statuses || []);
-        Array.from(statusEl.options).forEach(opt => {
-          opt.selected = selected.has(opt.value);
-        });
-      }
+      updateDamageStatusBtn();
+      closeDamageStatusDropdown();
       const atkEl = document.getElementById('damage-atk-side');
       const defEl = document.getElementById('damage-def-side');
       if (atkEl) atkEl.innerHTML = renderDamageSide('atk', atk);
@@ -3007,15 +3071,61 @@ function typeClass(t) { return 'type-' + t; }
       updateDamagePowerForConditions();
     }
 
-    function onDamageStatusChange() {
-      const el = document.getElementById('damage-status');
-      if (!el) {
-        damageState.statuses = [];
-        return;
+    function getStatusSummaryText(statuses) {
+      const set = new Set(Array.isArray(statuses) ? statuses : []);
+      if (!set.size) return '(無)';
+      const names = DAMAGE_STATUSES.filter(s => set.has(s.id)).map(s => s.name);
+      if (names.length <= 2) return names.join('、');
+      return names.slice(0, 2).join('、') + ` 等${names.length}項`;
+    }
+
+    function updateDamageStatusBtn() {
+      const btn = document.getElementById('damage-status-btn');
+      if (btn) btn.textContent = getStatusSummaryText(damageState.statuses || []);
+    }
+
+    function renderDamageStatusDropdown() {
+      const box = document.getElementById('damage-status-dropdown');
+      if (!box) return;
+      const selected = new Set(damageState.statuses || []);
+      box.innerHTML = DAMAGE_STATUSES.map(s => {
+        const checked = selected.has(s.id);
+        return `<div class="damage-status-opt" data-id="${s.id}" onclick="toggleDamageStatus('${s.id}', event)">
+          <span class="check">${checked ? '✅' : ''}</span>
+          <span>${damageSafeText(s.name)}</span>
+        </div>`;
+      }).join('');
+    }
+
+    function openDamageStatusDropdown() {
+      renderDamageStatusDropdown();
+      document.getElementById('damage-status-dropdown')?.classList.add('open');
+    }
+
+    function closeDamageStatusDropdown() {
+      document.getElementById('damage-status-dropdown')?.classList.remove('open');
+    }
+
+    function toggleDamageStatusDropdown(e) {
+      if (e) e.stopPropagation();
+      const box = document.getElementById('damage-status-dropdown');
+      if (!box) return;
+      if (box.classList.contains('open')) {
+        closeDamageStatusDropdown();
+      } else {
+        openDamageStatusDropdown();
       }
-      const selected = Array.from(el.selectedOptions).map(o => o.value).filter(Boolean);
-      damageState.statuses = selected;
+    }
+
+    function toggleDamageStatus(id, e) {
+      if (e) e.stopPropagation();
+      const set = new Set(damageState.statuses || []);
+      if (set.has(id)) set.delete(id);
+      else set.add(id);
+      damageState.statuses = Array.from(set);
       damageState.result = null;
+      updateDamageStatusBtn();
+      renderDamageStatusDropdown(); // keep open, refresh checks
     }
 
     function getWeatherAdjustedMove(move, weather) {
@@ -3412,14 +3522,10 @@ function typeClass(t) { return 'type-' + t; }
             </select>
           </label>
           <label>狀態
-            <select id="damage-status" multiple size="5" onchange="onDamageStatusChange()" title="可按住 Ctrl / Cmd 多選">
-              <option value="burn_atk">燒傷(攻擊方)</option>
-              <option value="reflect_singles">反射壁 (單打)</option>
-              <option value="reflect_doubles">反射壁 (雙打)</option>
-              <option value="lightscreen_singles">光牆 (單打)</option>
-              <option value="lightscreen_doubles">光牆 (雙打)</option>
-              <option value="aurora_veil">極光幕</option>
-            </select>
+            <div class="damage-status-search">
+              <button type="button" id="damage-status-btn" class="damage-status-btn" onclick="toggleDamageStatusDropdown(event)">(無)</button>
+              <div id="damage-status-dropdown" class="damage-status-dropdown"></div>
+            </div>
           </label>
         </div>
         <div class="damage-bonus-wrap">
