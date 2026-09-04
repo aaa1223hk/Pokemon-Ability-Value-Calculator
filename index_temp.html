@@ -1627,6 +1627,31 @@ const searchInput = document.getElementById('pokemon-search');
     const STAT_KEYS = ["hp", "attack", "defense", "sp_attack", "sp_defense", "speed"];
 
     let calcIdCounter = 0;
+    // 能力值計算模式：normal | champions（依 cid）
+    const calcModeById = {};
+    const CHAMPIONS_EV_MAX = 32;
+    const CHAMPIONS_EV_TOTAL = 66;
+    // 顯示努力值 → 公式用努力值：32 → 252
+    function championsDisplayToRealEv(displayEv) {
+      return Math.round((Number(displayEv) || 0) * 252 / CHAMPIONS_EV_MAX);
+    }
+    function championsRealToDisplayEv(realEv) {
+      return Math.round((Number(realEv) || 0) * CHAMPIONS_EV_MAX / 252);
+    }
+    function isChampionsMode(cid) {
+      return calcModeById[cid] === 'champions';
+    }
+    function getEvCap(cid) {
+      return isChampionsMode(cid) ? CHAMPIONS_EV_MAX : 252;
+    }
+    function getEvTotalCap(cid) {
+      return isChampionsMode(cid) ? CHAMPIONS_EV_TOTAL : 510;
+    }
+    function getEffectiveEv(cid, key) {
+      const cap = getEvCap(cid);
+      const display = getNum(`ev-${cid}-${key}`, 0, 0, cap);
+      return isChampionsMode(cid) ? championsDisplayToRealEv(display) : display;
+    }
 
     function natureOptionText(n) {
       if (!n.boost) return n.name + " (±0)";
@@ -1665,20 +1690,23 @@ const searchInput = document.getElementById('pokemon-search');
       const baseMap = currentBaseStats && Object.keys(currentBaseStats).length
         ? currentBaseStats
         : ((currentData.stats[0] && currentData.stats[0].data) || {});
-      const level = getNum(`calc-level-${cid}`, 50, 1, 100);
+      const champions = isChampionsMode(cid);
+      const level = champions ? 50 : getNum(`calc-level-${cid}`, 50, 1, 100);
       const natureIdx = getNum(`calc-nature-${cid}`, 0, 0, NATURES.length - 1);
       const nature = NATURES[natureIdx];
       const isShedinja = (currentData.name_zh || "").includes("脫殼忍者") ||
                          (currentData.pokedex_id === "0292") ||
                          (currentData.name_en || "").toLowerCase() === "shedinja";
+      const evCap = getEvCap(cid);
+      const evTotalCap = getEvTotalCap(cid);
 
       const area = document.getElementById(`calc-results-${cid}`);
       if (!area) return;
 
       area.innerHTML = STAT_KEYS.map(key => {
         const base = parseInt(baseMap[key], 10) || 0;
-        const iv = getNum(`iv-${cid}-${key}`, 31, 0, 31);
-        const ev = getNum(`ev-${cid}-${key}`, 0, 0, 252);
+        const iv = champions ? 31 : getNum(`iv-${cid}-${key}`, 31, 0, 31);
+        const ev = getEffectiveEv(cid, key);
         let val;
         if (key === "hp" && isShedinja) {
           val = 1;
@@ -1692,12 +1720,14 @@ const searchInput = document.getElementById('pokemon-search');
         return `<div class="${cls}"><span class="r-label">${STAT_LABELS[key]}</span><span class="r-value">${val}</span></div>`;
       }).join("");
 
-      // EV total
-      const total = STAT_KEYS.reduce((s, k) => s + getNum(`ev-${cid}-${k}`, 0, 0, 252), 0);
+      // EV total（顯示用點數）
+      const total = STAT_KEYS.reduce((s, k) => s + getNum(`ev-${cid}-${k}`, 0, 0, evCap), 0);
       const tel = document.getElementById(`ev-total-${cid}`);
       if (tel) {
-        tel.textContent = `努力值合計：${total} / 510`;
-        tel.classList.toggle("over", total > 510);
+        tel.textContent = champions
+          ? `努力值合計：${total} / ${evTotalCap}（Champions）`
+          : `努力值合計：${total} / ${evTotalCap}`;
+        tel.classList.toggle("over", total > evTotalCap);
       }
     }
 
@@ -1725,11 +1755,13 @@ const searchInput = document.getElementById('pokemon-search');
       const num = document.getElementById(`ev-${cid}-${key}`);
       const range = document.getElementById(`ev-range-${cid}-${key}`);
       if (!num) return;
+      const cap = getEvCap(cid);
+      const totalCap = getEvTotalCap(cid);
       let v = parseInt(num.value, 10);
       if (isNaN(v)) v = 0;
-      v = Math.max(0, Math.min(252, v));
-      const others = STAT_KEYS.filter(k => k !== key).reduce((s, k) => s + getNum(`ev-${cid}-${k}`, 0, 0, 252), 0);
-      if (others + v > 510) v = Math.max(0, 510 - others);
+      v = Math.max(0, Math.min(cap, v));
+      const others = STAT_KEYS.filter(k => k !== key).reduce((s, k) => s + getNum(`ev-${cid}-${k}`, 0, 0, cap), 0);
+      if (others + v > totalCap) v = Math.max(0, totalCap - others);
       num.value = v;
       if (range) range.value = v;
       updateCalcResults(cid);
@@ -1739,10 +1771,12 @@ const searchInput = document.getElementById('pokemon-search');
       const num = document.getElementById(`ev-${cid}-${key}`);
       const range = document.getElementById(`ev-range-${cid}-${key}`);
       if (!range || !num) return;
+      const cap = getEvCap(cid);
+      const totalCap = getEvTotalCap(cid);
       let v = parseInt(range.value, 10);
-      const others = STAT_KEYS.filter(k => k !== key).reduce((s, k) => s + getNum(`ev-${cid}-${k}`, 0, 0, 252), 0);
-      if (others + v > 510) {
-        v = Math.max(0, 510 - others);
+      const others = STAT_KEYS.filter(k => k !== key).reduce((s, k) => s + getNum(`ev-${cid}-${k}`, 0, 0, cap), 0);
+      if (others + v > totalCap) {
+        v = Math.max(0, totalCap - others);
         range.value = v;
       }
       num.value = v;
@@ -1764,7 +1798,8 @@ const searchInput = document.getElementById('pokemon-search');
         if (evn) evn.value = 0;
         if (evr) evr.value = 0;
       });
-      updateCalcResults(cid);
+      if (isChampionsMode(cid)) applyChampionsUi(cid);
+      else updateCalcResults(cid);
     }
 
     function getFinalStat(cid, key) {
@@ -1773,11 +1808,12 @@ const searchInput = document.getElementById('pokemon-search');
         ? currentBaseStats
         : ((currentData.stats[0] && currentData.stats[0].data) || {});
       const base = parseInt(baseMap[key], 10) || 0;
-      const level = getNum(`calc-level-${cid}`, 50, 1, 100);
+      const champions = isChampionsMode(cid);
+      const level = champions ? 50 : getNum(`calc-level-${cid}`, 50, 1, 100);
       const natureIdx = getNum(`calc-nature-${cid}`, 0, 0, NATURES.length - 1);
       const nature = NATURES[natureIdx];
-      const iv = getNum(`iv-${cid}-${key}`, 31, 0, 31);
-      const ev = getNum(`ev-${cid}-${key}`, 0, 0, 252);
+      const iv = champions ? 31 : getNum(`iv-${cid}-${key}`, 31, 0, 31);
+      const ev = getEffectiveEv(cid, key);
       const isShedinja = (currentData.name_zh || "").includes("脫殼忍者") ||
                          (currentData.pokedex_id === "0292") ||
                          (currentData.name_en || "").toLowerCase() === "shedinja";
@@ -1800,18 +1836,21 @@ const searchInput = document.getElementById('pokemon-search');
       }
 
       // 先讀取目前非血防的 EV，計算剩餘
+      const evCap = getEvCap(cid);
+      const evTotalCap = getEvTotalCap(cid);
+      const step = isChampionsMode(cid) ? 1 : 4; // Champions 點數較少，以 1 點為單位分配
       let used = 0;
-      STAT_KEYS.forEach(k => { used += getNum(`ev-${cid}-${k}`, 0, 0, 252); });
-      let remaining = 510 - used;
-      if (remaining < 4) {
-        alert("剩餘努力值不足 4 點，無法再分配。");
+      STAT_KEYS.forEach(k => { used += getNum(`ev-${cid}-${k}`, 0, 0, evCap); });
+      let remaining = evTotalCap - used;
+      if (remaining < step) {
+        alert(isChampionsMode(cid) ? "剩餘努力值不足，無法再分配。" : "剩餘努力值不足 4 點，無法再分配。");
         return;
       }
 
-      // 貪心：每次加 4 點到能讓 score = HP*(Def + SpD) 提升最多的那個
+      // 貪心：每次加 step 點到能讓 score = HP*(Def + SpD) 提升最多的那個
       const targets = isShedinja ? ["defense", "sp_defense"] : ["hp", "defense", "sp_defense"];
 
-      while (remaining >= 4) {
+      while (remaining >= step) {
         // 讀取「當前」已調整後的最終能力值（包含使用者手動拉過的 EV）
         const curHp = getFinalStat(cid, "hp");
         const curDef = getFinalStat(cid, "defense");
@@ -1820,9 +1859,6 @@ const searchInput = document.getElementById('pokemon-search');
         const spec = curHp * curSpd;   // 特殊耐久
 
         // 根據目前哪邊較弱，決定優先加的方向
-        // 若物理較弱 → 優先考慮防禦或 HP
-        // 若特殊較弱 → 優先考慮特防或 HP
-        // 若相等 → 三者都可
         let preferred;
         if (phys < spec) {
           preferred = ["defense", "hp", "sp_defense"];
@@ -1834,8 +1870,8 @@ const searchInput = document.getElementById('pokemon-search');
 
         // 只保留實際還能加的目標
         preferred = preferred.filter(k => {
-          const ev = getNum(`ev-${cid}-${k}`, 0, 0, 252);
-          return targets.includes(k) && ev + 4 <= 252;
+          const ev = getNum(`ev-${cid}-${k}`, 0, 0, evCap);
+          return targets.includes(k) && ev + step <= evCap;
         });
 
         if (preferred.length === 0) break;
@@ -1846,14 +1882,14 @@ const searchInput = document.getElementById('pokemon-search');
         let bestEv = 0;
 
         for (const key of preferred) {
-          const curEv = getNum(`ev-${cid}-${key}`, 0, 0, 252);
+          const curEv = getNum(`ev-${cid}-${key}`, 0, 0, evCap);
 
-          // 暫時加 4 並計算新耐久
+          // 暫時加 step 並計算新耐久
           const el = document.getElementById(`ev-${cid}-${key}`);
           const range = document.getElementById(`ev-range-${cid}-${key}`);
           if (!el) continue;
-          el.value = curEv + 4;
-          if (range) range.value = curEv + 4;
+          el.value = curEv + step;
+          if (range) range.value = curEv + step;
 
           const newHp = getFinalStat(cid, "hp");
           const newDef = getFinalStat(cid, "defense");
@@ -1871,14 +1907,14 @@ const searchInput = document.getElementById('pokemon-search');
             bestMin = newMin;
             bestSum = newSum;
             bestKey = key;
-            bestEv = curEv + 4;
+            bestEv = curEv + step;
           }
         }
 
         // 若因 flooring 導致分數都沒變，仍強制選第一個可加的（確保剩餘點數會被用完）
         if (!bestKey) {
           bestKey = preferred[0];
-          bestEv = getNum(`ev-${cid}-${bestKey}`, 0, 0, 252) + 4;
+          bestEv = getNum(`ev-${cid}-${bestKey}`, 0, 0, evCap) + step;
         }
 
         // 真正加上
@@ -1886,7 +1922,7 @@ const searchInput = document.getElementById('pokemon-search');
         const range = document.getElementById(`ev-range-${cid}-${bestKey}`);
         if (el) el.value = bestEv;
         if (range) range.value = bestEv;
-        remaining -= 4;
+        remaining -= step;
       }
 
       updateCalcResults(cid);
@@ -1899,7 +1935,110 @@ const searchInput = document.getElementById('pokemon-search');
       if (card) card.remove();
     }
 
+    function applyChampionsUi(cid) {
+      const champions = isChampionsMode(cid);
+      const levelEl = document.getElementById(`calc-level-${cid}`);
+      if (levelEl) {
+        if (champions) levelEl.value = 50;
+        levelEl.disabled = champions;
+      }
+      STAT_KEYS.forEach(key => {
+        const ivn = document.getElementById(`iv-${cid}-${key}`);
+        const ivr = document.getElementById(`iv-range-${cid}-${key}`);
+        const evn = document.getElementById(`ev-${cid}-${key}`);
+        const evr = document.getElementById(`ev-range-${cid}-${key}`);
+        if (champions) {
+          if (ivn) { ivn.value = 31; ivn.disabled = true; }
+          if (ivr) { ivr.value = 31; ivr.disabled = true; }
+        } else {
+          if (ivn) ivn.disabled = false;
+          if (ivr) ivr.disabled = false;
+        }
+        const cap = getEvCap(cid);
+        if (evn) {
+          evn.max = cap;
+          let v = parseInt(evn.value, 10) || 0;
+          if (v > cap) v = cap;
+          evn.value = v;
+        }
+        if (evr) {
+          evr.max = cap;
+          let v = parseInt(evr.value, 10) || 0;
+          if (v > cap) v = cap;
+          evr.value = v;
+        }
+      });
+      // 若總點數超過上限，從後往前裁切
+      const totalCap = getEvTotalCap(cid);
+      let total = STAT_KEYS.reduce((s, k) => s + getNum(`ev-${cid}-${k}`, 0, 0, getEvCap(cid)), 0);
+      if (total > totalCap) {
+        for (let i = STAT_KEYS.length - 1; i >= 0 && total > totalCap; i--) {
+          const key = STAT_KEYS[i];
+          const el = document.getElementById(`ev-${cid}-${key}`);
+          const range = document.getElementById(`ev-range-${cid}-${key}`);
+          if (!el) continue;
+          let v = parseInt(el.value, 10) || 0;
+          const cut = Math.min(v, total - totalCap);
+          v -= cut;
+          total -= cut;
+          el.value = v;
+          if (range) range.value = v;
+        }
+      }
+      const titleEl = document.getElementById(`ev-col-title-${cid}`);
+      if (titleEl) {
+        titleEl.textContent = champions ? `努力值 (0–${CHAMPIONS_EV_MAX})` : '努力值 (0–252)';
+      }
+      const noteEl = document.getElementById(`calc-note-${cid}`);
+      if (noteEl) {
+        noteEl.textContent = champions
+          ? `Champions 模式：等級鎖定 50、個體值全 31；努力值總上限 ${CHAMPIONS_EV_TOTAL}、單項最多 ${CHAMPIONS_EV_MAX}（換算約 ×${(252 / CHAMPIONS_EV_MAX).toFixed(3)} 後套用一般公式）。脫殼忍者 HP 固定為 1。`
+          : '努力值總和上限 510。脫殼忍者 HP 固定為 1。';
+      }
+      const btn = document.getElementById(`champions-btn-${cid}`);
+      if (btn) {
+        btn.classList.toggle('primary', champions);
+        btn.setAttribute('aria-pressed', champions ? 'true' : 'false');
+      }
+      updateCalcResults(cid);
+    }
+
+    function toggleChampionsMode(cid) {
+      const was = isChampionsMode(cid);
+      if (!was) {
+        // 進入 Champions：先把目前真實 EV 轉成顯示點數
+        STAT_KEYS.forEach(key => {
+          const el = document.getElementById(`ev-${cid}-${key}`);
+          const range = document.getElementById(`ev-range-${cid}-${key}`);
+          if (!el) return;
+          const real = parseInt(el.value, 10) || 0;
+          const display = championsRealToDisplayEv(real);
+          el.value = display;
+          if (range) range.value = display;
+        });
+        calcModeById[cid] = 'champions';
+      } else {
+        // 離開 Champions：顯示點數轉回真實 EV
+        STAT_KEYS.forEach(key => {
+          const el = document.getElementById(`ev-${cid}-${key}`);
+          const range = document.getElementById(`ev-range-${cid}-${key}`);
+          if (!el) return;
+          const display = parseInt(el.value, 10) || 0;
+          const real = championsDisplayToRealEv(display);
+          el.value = real;
+          if (range) {
+            range.max = 252;
+            range.value = real;
+          }
+          el.max = 252;
+        });
+        calcModeById[cid] = 'normal';
+      }
+      applyChampionsUi(cid);
+    }
+
     function buildCalcCardHtml(cid, isPrimary = false) {
+      calcModeById[cid] = calcModeById[cid] || 'normal';
       const ivRows = STAT_KEYS.map(key => {
         const label = STAT_LABELS[key];
         return `<div class="calc-row">
@@ -1927,6 +2066,7 @@ const searchInput = document.getElementById('pokemon-search');
           <div class="calc-header">
             <div class="section-title">${title}</div>
             <div class="calc-actions">
+              <button type="button" class="calc-btn" id="champions-btn-${cid}" onclick="toggleChampionsMode(${cid})" title="Pokémon Champions 模式：等級 50、個體值全 31、努力值總 66／單項 32">👑Champions</button>
               <button type="button" class="calc-btn" onclick="autoBulk(${cid})" title="把剩餘努力值自動分配到HP/防禦/特防，以最大化物理+特殊耐久">自動血防</button>
               <button type="button" class="calc-btn" onclick="resetCalc(${cid})">重設</button>
               ${isPrimary ? `<button type="button" class="calc-btn primary" onclick="addCalc()">＋</button>` : ""}
@@ -1947,7 +2087,7 @@ const searchInput = document.getElementById('pokemon-search');
               ${ivRows}
             </div>
             <div class="calc-col">
-              <div class="calc-col-title">努力值 (0–252)</div>
+              <div class="calc-col-title" id="ev-col-title-${cid}">努力值 (0–252)</div>
               ${evRows}
               <div class="ev-total" id="ev-total-${cid}">努力值合計：0 / 510</div>
             </div>
@@ -1956,7 +2096,7 @@ const searchInput = document.getElementById('pokemon-search');
               <div id="calc-results-${cid}"></div>
             </div>
           </div>
-          <div class="calc-note">努力值總和上限 510。脫殼忍者 HP 固定為 1。</div>
+          <div class="calc-note" id="calc-note-${cid}">努力值總和上限 510。脫殼忍者 HP 固定為 1。</div>
         </div>`;
     }
 
@@ -2550,16 +2690,19 @@ function typeClass(t) { return 'type-' + t; }
 
     function readCalcSideInputs() {
       const iv = {}, ev = {};
+      const champions = isChampionsMode(0);
       STAT_KEYS.forEach(k => {
-        iv[k] = getNum(`iv-0-${k}`, 31, 0, 31);
-        ev[k] = getNum(`ev-0-${k}`, 0, 0, 252);
+        iv[k] = champions ? 31 : getNum(`iv-0-${k}`, 31, 0, 31);
+        // 複製到傷害計算時一律用「公式用努力值」
+        ev[k] = getEffectiveEv(0, k);
       });
       return { iv, ev };
     }
 
     function makeCurrentCalcSide() {
       const base = { ...(currentBaseStats || {}) };
-      const level = getNum('calc-level-0', 50, 1, 100);
+      const champions = isChampionsMode(0);
+      const level = champions ? 50 : getNum('calc-level-0', 50, 1, 100);
       const natureIdx = getNum('calc-nature-0', 0, 0, NATURES.length - 1);
       const nature = NATURES[natureIdx] || getNeutralNature();
       const inputs = readCalcSideInputs();
