@@ -2411,7 +2411,8 @@ function typeClass(t) { return 'type-' + t; }
       { id: 'friend_guard', name: '友情防守' },
       { id: 'steelworker', name: '鋼之意志' },
       { id: 'power_spot', name: '能量點' },
-      { id: 'battery', name: '蓄電池' }
+      { id: 'battery', name: '蓄電池' },
+      { id: 'helping_hand', name: '幫助' }
     ];
 
     // 傷害計算已實作的「倍率類」持有道具（選單只顯示這些）
@@ -3552,6 +3553,12 @@ function typeClass(t) { return 'type-' + t; }
       if (atkSet.has('battery') && isSpecial) {
         powerMult *= 1.3;
         notes.push('蓄電池 特攻威力×1.3');
+      }
+
+      // 幫助：招式威力 ×1.5（攻擊方）
+      if (atkSet.has('helping_hand')) {
+        powerMult *= 1.5;
+        notes.push('幫助 威力×1.5');
       }
 
       return { mult, powerMult, attackMult, defenseMult, notes };
