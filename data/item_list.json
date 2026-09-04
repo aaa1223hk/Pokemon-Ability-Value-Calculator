@@ -8034,7 +8034,7 @@
         "name_zh": "櫻子果",
         "name_ja": "クラボのみ",
         "name_en": "Cheri Berry",
-        "description": "讓寶可夢攜帶後，可以治癒麻痺。",
+        "description": "攜帶後，可治癒麻痺。",
         "icon": "櫻子果.png"
       },
       {
@@ -8042,7 +8042,7 @@
         "name_zh": "零餘果",
         "name_ja": "カゴのみ",
         "name_en": "Chesto Berry",
-        "description": "讓寶可夢攜帶後，可以治癒睡眠。",
+        "description": "攜帶後，可治癒睡眠。",
         "icon": "零餘果.png"
       },
       {
@@ -8050,7 +8050,7 @@
         "name_zh": "桃桃果",
         "name_ja": "モモンのみ",
         "name_en": "Pecha Berry",
-        "description": "讓寶可夢攜帶後，可以治癒中毒。",
+        "description": "攜帶後，可治癒中毒。",
         "icon": "桃桃果.png"
       },
       {
@@ -8058,7 +8058,7 @@
         "name_zh": "莓莓果",
         "name_ja": "チーゴのみ",
         "name_en": "Rawst Berry",
-        "description": "讓寶可夢攜帶後，可以治癒灼傷。",
+        "description": "攜帶後，可治癒灼傷。",
         "icon": "莓莓果.png"
       },
       {
@@ -8066,7 +8066,7 @@
         "name_zh": "利木果",
         "name_ja": "ナナシのみ",
         "name_en": "Aspear Berry",
-        "description": "讓寶可夢攜帶後，可以治癒冰凍。",
+        "description": "攜帶後，可治癒冰凍。",
         "icon": "利木果.png"
       },
       {
@@ -8074,7 +8074,7 @@
         "name_zh": "蘋野果",
         "name_ja": "ヒメリのみ",
         "name_en": "Leppa Berry",
-        "description": "讓寶可夢攜帶後，可以回覆１０ＰＰ。",
+        "description": "攜帶後，回復PP 10點。",
         "icon": "蘋野果.png"
       },
       {
@@ -8082,7 +8082,7 @@
         "name_zh": "橙橙果",
         "name_ja": "オレンのみ",
         "name_en": "Oran Berry",
-        "description": "讓寶可夢攜帶後，可以回覆１０ＨＰ。",
+        "description": "攜帶後，HP回復10點。",
         "icon": "橙橙果.png"
       },
       {
@@ -8090,7 +8090,7 @@
         "name_zh": "柿仔果",
         "name_ja": "キーのみ",
         "name_en": "Persim Berry",
-        "description": "讓寶可夢攜帶後，可以治癒混亂。",
+        "description": "攜帶後，可治癒混亂。",
         "icon": "柿仔果.png"
       },
       {
@@ -8098,7 +8098,7 @@
         "name_zh": "木子果",
         "name_ja": "ラムのみ",
         "name_en": "Lum Berry",
-        "description": "讓寶可夢攜帶後，可以治癒所有異常狀態。",
+        "description": "攜帶後，可治癒異常狀態（中毒、麻痺、灼傷、冰凍、睡眠、混亂）。",
         "icon": "木子果.png"
       },
       {
@@ -8106,7 +8106,7 @@
         "name_zh": "文柚果",
         "name_ja": "オボンのみ",
         "name_en": "Sitrus Berry",
-        "description": "讓寶可夢攜帶後，可以回覆少量ＨＰ。",
+        "description": "攜帶後，HP降至一半以下時回復最大HP的1/4。",
         "icon": "文柚果.png"
       },
       {
@@ -8114,7 +8114,7 @@
         "name_zh": "勿花果",
         "name_ja": "フィラのみ",
         "name_en": "Figy Berry",
-        "description": "讓寶可夢攜帶後，危機時可以回覆ＨＰ。如果討厭這味道就會混亂。",
+        "description": "攜帶後，HP降至1/4以下時回復最大HP的1/3。若味道不合會混亂。",
         "icon": "勿花果.png"
       },
       {
@@ -8122,7 +8122,7 @@
         "name_zh": "異奇果",
         "name_ja": "ウイのみ",
         "name_en": "Wiki Berry",
-        "description": "讓寶可夢攜帶後，危機時可以回覆ＨＰ。如果討厭這味道就會混亂。",
+        "description": "攜帶後，HP降至1/4以下時回復最大HP的1/3。若味道不合會混亂。",
         "icon": "異奇果.png"
       },
       {
@@ -8130,7 +8130,7 @@
         "name_zh": "芒芒果",
         "name_ja": "マゴのみ",
         "name_en": "Mago Berry",
-        "description": "讓寶可夢攜帶後，危機時可以回覆ＨＰ。如果討厭這味道就會混亂。",
+        "description": "攜帶後，HP降至1/4以下時回復最大HP的1/3。若味道不合會混亂。",
         "icon": "芒芒果.png"
       },
       {
@@ -8138,7 +8138,7 @@
         "name_zh": "樂芭果",
         "name_ja": "バンジのみ",
         "name_en": "Aguav Berry",
-        "description": "讓寶可夢攜帶後，危機時可以回覆ＨＰ。如果討厭這味道就會混亂。",
+        "description": "攜帶後，HP降至1/4以下時回復最大HP的1/3。若味道不合會混亂。",
         "icon": "樂芭果.png"
       },
       {
@@ -8146,7 +8146,7 @@
         "name_zh": "芭亞果",
         "name_ja": "イアのみ",
         "name_en": "Iapapa Berry",
-        "description": "讓寶可夢攜帶後，危機時可以回覆ＨＰ。如果討厭這味道就會混亂。",
+        "description": "攜帶後，HP降至1/4以下時回復最大HP的1/3。若味道不合會混亂。",
         "icon": "芭亞果.png"
       },
       {
@@ -8242,7 +8242,7 @@
         "name_zh": "榴石果",
         "name_ja": "ザロクのみ",
         "name_en": "Pomeg Berry",
-        "description": "如果把它交給寶可夢，寶可夢就會變得非常容易和訓練家親密，但ＨＰ的基礎點數會降低。",
+        "description": "給寶可夢食用可提高親密度，但HP努力值會降低10。",
         "icon": "榴石果.png"
       },
       {
@@ -8250,7 +8250,7 @@
         "name_zh": "藻根果",
         "name_ja": "ネコブのみ",
         "name_en": "Kelpsy Berry",
-        "description": "如果把它交給寶可夢，寶可夢就會變得非常容易和訓練家親密，但攻擊的基礎點數會降低。",
+        "description": "給寶可夢食用可提高親密度，但攻擊努力值會降低10。",
         "icon": "藻根果.png"
       },
       {
@@ -8258,7 +8258,7 @@
         "name_zh": "比巴果",
         "name_ja": "タポルのみ",
         "name_en": "Qualot Berry",
-        "description": "如果把它交給寶可夢，寶可夢就會變得非常容易和訓練家親密，但防禦的基礎點數會降低。",
+        "description": "給寶可夢食用可提高親密度，但防禦努力值會降低10。",
         "icon": "比巴果.png"
       },
       {
@@ -8266,7 +8266,7 @@
         "name_zh": "哈密果",
         "name_ja": "ロメのみ",
         "name_en": "Hondew Berry",
-        "description": "如果把它交給寶可夢，寶可夢就會變得非常容易和訓練家親密，但特攻的基礎點數會降低。",
+        "description": "給寶可夢食用可提高親密度，但特攻努力值會降低10。",
         "icon": "哈密果.png"
       },
       {
@@ -8274,7 +8274,7 @@
         "name_zh": "萄葡果",
         "name_ja": "ウブのみ",
         "name_en": "Grepa Berry",
-        "description": "如果把它交給寶可夢，寶可夢就會變得非常容易和訓練家親密，但特防的基礎點數會降低。",
+        "description": "給寶可夢食用可提高親密度，但特防努力值會降低10。",
         "icon": "萄葡果.png"
       },
       {
@@ -8282,7 +8282,7 @@
         "name_zh": "茄番果",
         "name_ja": "マトマのみ",
         "name_en": "Tamato Berry",
-        "description": "如果把它交給寶可夢，寶可夢就會變得非常容易和訓練家親密，但速度的基礎點數會降低。",
+        "description": "給寶可夢食用可提高親密度，但速度努力值會降低10。",
         "icon": "茄番果.png"
       },
       {
@@ -8362,7 +8362,7 @@
         "name_zh": "巧可果",
         "name_ja": "オッカのみ",
         "name_en": "Occa Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的火屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的火屬性招式時，僅一次使該招式威力減半。",
         "icon": "巧可果.png"
       },
       {
@@ -8370,7 +8370,7 @@
         "name_zh": "千香果",
         "name_ja": "イトケのみ",
         "name_en": "Passho Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的水屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的水屬性招式時，僅一次使該招式威力減半。",
         "icon": "千香果.png"
       },
       {
@@ -8378,7 +8378,7 @@
         "name_zh": "燭木果",
         "name_ja": "ソクノのみ",
         "name_en": "Wacan Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的電屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的電屬性招式時，僅一次使該招式威力減半。",
         "icon": "燭木果.png"
       },
       {
@@ -8386,7 +8386,7 @@
         "name_zh": "羅子果",
         "name_ja": "リンドのみ",
         "name_en": "Rindo Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的草屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的草屬性招式時，僅一次使該招式威力減半。",
         "icon": "羅子果.png"
       },
       {
@@ -8394,7 +8394,7 @@
         "name_zh": "番荔果",
         "name_ja": "ヤチェのみ",
         "name_en": "Yache Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的冰屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的冰屬性招式時，僅一次使該招式威力減半。",
         "icon": "番荔果.png"
       },
       {
@@ -8402,7 +8402,7 @@
         "name_zh": "蓮蒲果",
         "name_ja": "ヨプのみ",
         "name_en": "Chople Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的格鬥屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的格鬥屬性招式時，僅一次使該招式威力減半。",
         "icon": "蓮蒲果.png"
       },
       {
@@ -8410,7 +8410,7 @@
         "name_zh": "通通果",
         "name_ja": "ビアーのみ",
         "name_en": "Kebia Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的毒屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的毒屬性招式時，僅一次使該招式威力減半。",
         "icon": "通通果.png"
       },
       {
@@ -8418,7 +8418,7 @@
         "name_zh": "腰木果",
         "name_ja": "シュカのみ",
         "name_en": "Shuca Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的地面屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的地面屬性招式時，僅一次使該招式威力減半。",
         "icon": "腰木果.png"
       },
       {
@@ -8426,7 +8426,7 @@
         "name_zh": "稜瓜果",
         "name_ja": "バコウのみ",
         "name_en": "Coba Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的飛行屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的飛行屬性招式時，僅一次使該招式威力減半。",
         "icon": "稜瓜果.png"
       },
       {
@@ -8434,7 +8434,7 @@
         "name_zh": "福祿果",
         "name_ja": "ウタンのみ",
         "name_en": "Payapa Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的超能力屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的超能力屬性招式時，僅一次使該招式威力減半。",
         "icon": "福祿果.png"
       },
       {
@@ -8442,7 +8442,7 @@
         "name_zh": "扁櫻果",
         "name_ja": "タンガのみ",
         "name_en": "Tanga Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的蟲屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的蟲屬性招式時，僅一次使該招式威力減半。",
         "icon": "扁櫻果.png"
       },
       {
@@ -8450,7 +8450,7 @@
         "name_zh": "草蠶果",
         "name_ja": "ヨロギのみ",
         "name_en": "Charti Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的岩石屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的岩石屬性招式時，僅一次使該招式威力減半。",
         "icon": "草蠶果.png"
       },
       {
@@ -8458,7 +8458,7 @@
         "name_zh": "佛柑果",
         "name_ja": "カシブのみ",
         "name_en": "Kasib Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的幽靈屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的幽靈屬性招式時，僅一次使該招式威力減半。",
         "icon": "佛柑果.png"
       },
       {
@@ -8466,7 +8466,7 @@
         "name_zh": "莓榴果",
         "name_ja": "ハバンのみ",
         "name_en": "Haban Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的龍屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的龍屬性招式時，僅一次使該招式威力減半。",
         "icon": "莓榴果.png"
       },
       {
@@ -8474,7 +8474,7 @@
         "name_zh": "刺耳果",
         "name_ja": "ナモのみ",
         "name_en": "Colbur Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的惡屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的惡屬性招式時，僅一次使該招式威力減半。",
         "icon": "刺耳果.png"
       },
       {
@@ -8482,7 +8482,7 @@
         "name_zh": "霹霹果",
         "name_ja": "リリバのみ",
         "name_en": "Babiri Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的鋼屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的鋼屬性招式時，僅一次使該招式威力減半。",
         "icon": "霹霹果.png"
       },
       {
@@ -8490,7 +8490,7 @@
         "name_zh": "燈漿果",
         "name_ja": "ホズのみ",
         "name_en": "Chilan Berry",
-        "description": "讓寶可夢攜帶後，在受到一般屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到一般屬性招式時，僅一次使該招式威力減半。",
         "icon": "燈漿果.png"
       },
       {
@@ -8498,7 +8498,7 @@
         "name_zh": "枝荔果",
         "name_ja": "チイラのみ",
         "name_en": "Liechi Berry",
-        "description": "讓寶可夢攜帶後，危機時，自己的攻擊就會提高。",
+        "description": "攜帶後，HP降至1/4以下時自身攻擊提升1階段。",
         "icon": "枝荔果.png"
       },
       {
@@ -8506,7 +8506,7 @@
         "name_zh": "龍睛果",
         "name_ja": "リュガのみ",
         "name_en": "Ganlon Berry",
-        "description": "讓寶可夢攜帶後，危機時，自己的防禦就會提高。",
+        "description": "攜帶後，HP降至1/4以下時自身防禦提升1階段。",
         "icon": "龍睛果.png"
       },
       {
@@ -8514,7 +8514,7 @@
         "name_zh": "沙鱗果",
         "name_ja": "カムラのみ",
         "name_en": "Salac Berry",
-        "description": "讓寶可夢攜帶後，危機時，自己的速度就會提高。",
+        "description": "攜帶後，HP降至1/4以下時自身速度提升1階段。",
         "icon": "沙鱗果.png"
       },
       {
@@ -8522,7 +8522,7 @@
         "name_zh": "龍火果",
         "name_ja": "ヤタピのみ",
         "name_en": "Petaya Berry",
-        "description": "讓寶可夢攜帶後，危機時，自己的特攻就會提高。",
+        "description": "攜帶後，HP降至1/4以下時自身特攻提升1階段。",
         "icon": "龍火果.png"
       },
       {
@@ -8530,7 +8530,7 @@
         "name_zh": "杏仔果",
         "name_ja": "ズアのみ",
         "name_en": "Apicot Berry",
-        "description": "讓寶可夢攜帶後，危機時，自己的特防就會提高。",
+        "description": "攜帶後，HP降至1/4以下時自身特防提升1階段。",
         "icon": "杏仔果.png"
       },
       {
@@ -8538,7 +8538,7 @@
         "name_zh": "蘭薩果",
         "name_ja": "サンのみ",
         "name_en": "Lansat Berry",
-        "description": "讓寶可夢攜帶後，危機時，攻擊會變得容易擊中要害。",
+        "description": "攜帶後，HP降至1/4以下時擊中要害率提升2階段。",
         "icon": "蘭薩果.png"
       },
       {
@@ -8546,7 +8546,7 @@
         "name_zh": "星桃果",
         "name_ja": "スターのみ",
         "name_en": "Starf Berry",
-        "description": "讓寶可夢攜帶後，危機時，某一項能力就會大幅提高。",
+        "description": "攜帶後，HP降至1/4以下時隨機一項能力提升2階段。",
         "icon": "星桃果.png"
       },
       {
@@ -8554,7 +8554,7 @@
         "name_zh": "謎芝果",
         "name_ja": "ナゾのみ",
         "name_en": "Enigma Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的招式攻擊時，可以回覆ＨＰ。",
+        "description": "攜帶後，受到效果絕佳的招式時回復最大HP的1/4。",
         "icon": "謎芝果.png"
       },
       {
@@ -8594,7 +8594,7 @@
         "name_zh": "燈漿果",
         "name_ja": "ホズのみ",
         "name_en": "Chilan Berry",
-        "description": "用於製作寶可方塊，種在鬆軟的土裡會長出神秘的果實。",
+        "description": "攜帶後，受到一般屬性招式時，僅一次使該招式威力減半。",
         "icon": "燈漿果.png"
       },
       {
@@ -8658,7 +8658,7 @@
         "name_zh": "奇秘果",
         "name_ja": "ミクルのみ",
         "name_en": "Micle Berry",
-        "description": "讓寶可夢攜帶後，危機時，招式的命中率僅會提高１次。",
+        "description": "攜帶後，HP降至1/4以下時，僅一次提高招式命中率。",
         "icon": "奇秘果.png"
       },
       {
@@ -8666,7 +8666,7 @@
         "name_zh": "釋陀果",
         "name_ja": "イバンのみ",
         "name_en": "Custap Berry",
-        "description": "讓寶可夢攜帶後，危機時，行動僅會變快１次。",
+        "description": "攜帶後，HP降至1/4以下時，僅一次行動變快（優先度+1）。",
         "icon": "釋陀果.png"
       },
       {
@@ -8674,7 +8674,7 @@
         "name_zh": "嘉珍果",
         "name_ja": "ジャポのみ",
         "name_en": "Jaboca Berry",
-        "description": "讓寶可夢攜帶後，在受到物理招式攻擊時，能給予對手傷害。",
+        "description": "攜帶後，受到物理招式時，對對手造成其最大HP 1/8的傷害。",
         "icon": "嘉珍果.png"
       },
       {
@@ -8682,7 +8682,7 @@
         "name_zh": "霧蓮果",
         "name_ja": "レンブのみ",
         "name_en": "Rowap Berry",
-        "description": "讓寶可夢攜帶後，在受到特殊招式攻擊時，能給予對手傷害。",
+        "description": "攜帶後，受到特殊招式時，對對手造成傷害（對手最大HP的1/8）。",
         "icon": "霧蓮果.png"
       },
       {
@@ -8690,7 +8690,7 @@
         "name_zh": "洛玫果",
         "name_ja": "ロゼルのみ",
         "name_en": "Roseli Berry",
-        "description": "讓寶可夢攜帶後，在受到效果絕佳的妖精屬性招式攻擊時，能令其威力減弱。",
+        "description": "攜帶後，受到效果絕佳的妖精屬性招式時，僅一次使該招式威力減半。",
         "icon": "洛玫果.png"
       },
       {
@@ -8698,7 +8698,7 @@
         "name_zh": "亞開果",
         "name_ja": "アッキのみ",
         "name_en": "Kee Berry",
-        "description": "讓寶可夢攜帶後，在受到物理招式攻擊時，自己的防禦就會提高。",
+        "description": "攜帶後，受到物理招式時自身防禦提升1階段。替身狀態下不會發動。",
         "icon": "亞開果.png"
       },
       {
@@ -8706,7 +8706,7 @@
         "name_zh": "香羅果",
         "name_ja": "タラプのみ",
         "name_en": "Maranga Berry",
-        "description": "讓寶可夢攜帶後，在受到特殊招式攻擊時，自己的特防就會提高。",
+        "description": "攜帶後，受到特殊招式時自身特防提升1階段。替身狀態下不會發動。",
         "icon": "香羅果.png"
       },
       {
