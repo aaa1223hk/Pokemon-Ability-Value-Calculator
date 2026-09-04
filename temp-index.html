@@ -2122,6 +2122,24 @@ function typeClass(t) { return 'type-' + t; }
       { id: 'dark_gem', name: '惡之寶石', kind: 'type_power', type: '惡', mult: 1.3 },
       { id: 'steel_gem', name: '鋼之寶石', kind: 'type_power', type: '鋼', mult: 1.3 },
       { id: 'fairy_gem', name: '妖精寶石', kind: 'type_power', type: '妖精', mult: 1.3 },
+      { id: 'occa_berry', name: '巧可果', kind: 'type_resist', type: '火', mult: 0.5 },
+      { id: 'passho_berry', name: '千香果', kind: 'type_resist', type: '水', mult: 0.5 },
+      { id: 'wacan_berry', name: '燭木果', kind: 'type_resist', type: '電', mult: 0.5 },
+      { id: 'rindo_berry', name: '羅子果', kind: 'type_resist', type: '草', mult: 0.5 },
+      { id: 'yache_berry', name: '番荔果', kind: 'type_resist', type: '冰', mult: 0.5 },
+      { id: 'chople_berry', name: '蓮蒲果', kind: 'type_resist', type: '格鬥', mult: 0.5 },
+      { id: 'kebia_berry', name: '通通果', kind: 'type_resist', type: '毒', mult: 0.5 },
+      { id: 'shuca_berry', name: '腰木果', kind: 'type_resist', type: '地面', mult: 0.5 },
+      { id: 'coba_berry', name: '稜瓜果', kind: 'type_resist', type: '飛行', mult: 0.5 },
+      { id: 'payapa_berry', name: '福祿果', kind: 'type_resist', type: '超能力', mult: 0.5 },
+      { id: 'tanga_berry', name: '扁櫻果', kind: 'type_resist', type: '蟲', mult: 0.5 },
+      { id: 'charti_berry', name: '草蠶果', kind: 'type_resist', type: '岩石', mult: 0.5 },
+      { id: 'kasib_berry', name: '佛柑果', kind: 'type_resist', type: '幽靈', mult: 0.5 },
+      { id: 'haban_berry', name: '莓榴果', kind: 'type_resist', type: '龍', mult: 0.5 },
+      { id: 'colbur_berry', name: '刺耳果', kind: 'type_resist', type: '惡', mult: 0.5 },
+      { id: 'babiri_berry', name: '霹霹果', kind: 'type_resist', type: '鋼', mult: 0.5 },
+      { id: 'roseli_berry', name: '洛玫果', kind: 'type_resist', type: '妖精', mult: 0.5 },
+      { id: 'chilan_berry', name: '燈漿果', kind: 'type_resist', type: '一般', mult: 0.5, any_hit: true },
     ];
 
     const PUNCH_MOVE_NAMES = new Set([
@@ -2291,6 +2309,13 @@ function typeClass(t) { return 'type-' + t; }
       } else if (defItem.kind === 'def_stat' && !isSpecial) {
         defense = Math.floor(defense * defItem.mult);
         notes.push(defItem.name + ' 防禦×' + defItem.mult);
+      } else if (defItem.kind === 'type_resist' && moveType === defItem.type) {
+        // 屬性減半樹果：效果絕佳時（燈漿果為一般屬性任意命中）觸發，威力減半
+        const isChilan = !!defItem.any_hit;
+        if (isChilan || effectiveness > 1) {
+          power = Math.floor(power * defItem.mult);
+          notes.push(defItem.name + ' ' + defItem.type + '威力×' + defItem.mult);
+        }
       }
 
       return { power, attack, defense, notes };
