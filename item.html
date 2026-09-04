@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>寶可夢道具圖鑑</title>
+  <title>道具例表</title>
   <style>
     :root {
       --bg: #f7f9fc;
@@ -242,6 +242,18 @@
       border-color: rgba(110, 168, 255, 0.3);
     }
 
+
+    .drawer-nav a.active {
+      background: rgba(59, 130, 246, 0.12);
+      border-color: rgba(59, 130, 246, 0.35);
+      color: var(--accent);
+      font-weight: 600;
+    }
+    body.dark-theme .drawer-nav a.active {
+      background: rgba(110, 168, 255, 0.14);
+      border-color: rgba(110, 168, 255, 0.35);
+    }
+
   </style>
 </head>
 <body>
@@ -264,6 +276,7 @@
       <button type="button" class="drawer-close" aria-label="關閉" onclick="closeDrawer()">×</button>
     </div>
     <nav class="drawer-nav">
+      <a href="item.html" onclick="closeDrawer()" class="active">道具例表</a>
       <a href="index.html" onclick="closeDrawer()">數值計算器</a>
     </nav>
     <div class="drawer-footer">
@@ -275,7 +288,7 @@
   </aside>
 
   <div class="container">
-    <h1>寶可夢道具圖鑑</h1>
+    <h1>道具例表</h1>
 
     <div class="search-wrap">
       <input type="search" id="search" placeholder="搜尋道具名稱…" oninput="onSearch(this.value)" autocomplete="off">
