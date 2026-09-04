@@ -2138,33 +2138,49 @@ function typeClass(t) { return 'type-' + t; }
       const value = it && it.id ? it.name : '';
       return `<div class="damage-held-search">
         <input type="text" id="damage-${sideKey}-item-search" class="damage-held-input"
-          value="${damageSafeText(value)}" placeholder="搜尋道具，例如 生命寶珠 或 無"
+          value="${damageSafeText(value)}" placeholder="搜尋道具，或選（無）清空"
           autocomplete="off" spellcheck="false"
-          oninput="filterDamageHeldItem('${sideKey}', this.value)"
-          onfocus="filterDamageHeldItem('${sideKey}', this.value); openDamageHeldDropdown('${sideKey}')"
+          oninput="filterDamageHeldItem('${sideKey}', this.value, true)"
+          onfocus="filterDamageHeldItem('${sideKey}', '', false); openDamageHeldDropdown('${sideKey}')"
           onkeydown="damageHeldItemKeydown(event, '${sideKey}')">
         <div id="damage-${sideKey}-item-dropdown" class="damage-held-dropdown"></div>
       </div>`;
     }
 
-    function filterDamageHeldItem(sideKey, text) {
+    function filterDamageHeldItem(sideKey, text, syncClear) {
       const box = document.getElementById(`damage-${sideKey}-item-dropdown`);
       if (!box) return;
       const q = String(text || '').trim().toLowerCase();
+      // 輸入框清空時，同步回到「無」
+      if (syncClear && !q) {
+        const sides = getDamageSides();
+        if (sides?.[sideKey]) sides[sideKey].item = '';
+        damageState.result = null;
+      }
       let matched = DAMAGE_HELD_ITEMS;
       if (q) {
         matched = DAMAGE_HELD_ITEMS.filter(it => {
           const name = String(it.name || '').toLowerCase();
           const id = String(it.id || '').toLowerCase();
-          return name.includes(q) || id.includes(q) || (q === '無' && !it.id);
+          // 「無」可用 無 / (無) / （無） 搜到
+          if (!it.id && (q === '無' || q.includes('無'))) return true;
+          return name.includes(q) || id.includes(q);
         });
+        // 搜尋時仍把「（無）」固定放最上面，方便切回
+        const noneItem = DAMAGE_HELD_ITEMS[0];
+        if (!matched.some(x => !x.id)) {
+          matched = [noneItem, ...matched];
+        } else {
+          matched = [noneItem, ...matched.filter(x => x.id)];
+        }
       }
       if (!matched.length) {
         box.innerHTML = '<div class="damage-held-empty">沒有符合的道具</div>';
       } else {
-        box.innerHTML = matched.map(it =>
-          `<div class="damage-held-item-opt" data-id="${it.id}" onclick="selectDamageHeldItem('${sideKey}', '${it.id}')">${damageSafeText(it.name)}</div>`
-        ).join('');
+        box.innerHTML = matched.map(it => {
+          const idAttr = it.id ? damageSafeText(it.id) : '';
+          return `<div class="damage-held-item-opt" data-id="${idAttr}" onclick="selectDamageHeldItem('${sideKey}', this.dataset.id || '')">${damageSafeText(it.name)}</div>`;
+        }).join('');
       }
       openDamageHeldDropdown(sideKey);
     }
@@ -2180,7 +2196,7 @@ function typeClass(t) { return 'type-' + t; }
     function selectDamageHeldItem(sideKey, id) {
       const sides = getDamageSides();
       if (!sides?.[sideKey]) return;
-      const it = getHeldItemDef(id);
+      const it = getHeldItemDef(id || '');
       sides[sideKey].item = it.id || '';
       const input = document.getElementById(`damage-${sideKey}-item-search`);
       if (input) input.value = it.id ? it.name : '';
@@ -2199,11 +2215,12 @@ function typeClass(t) { return 'type-' + t; }
           e.preventDefault();
           selectDamageHeldItem(sideKey, first.getAttribute('data-id') || '');
         }
+      } else if (e.key === 'Backspace' || e.key === 'Delete') {
+        // 允許刪到空字串後回到無（由 oninput syncClear 處理）
       }
     }
 
     function onDamageHeldItem(sideKey, value) {
-      // 相容舊呼叫；實際以 selectDamageHeldItem 為主
       selectDamageHeldItem(sideKey, value || '');
     }
 
