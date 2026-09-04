@@ -2224,6 +2224,30 @@ function typeClass(t) { return 'type-' + t; }
       selectDamageHeldItem(sideKey, value || '');
     }
 
+    // 進化奇石：僅當該寶可夢在 evolution_chains 中「還能再進化」時生效。
+    // 判斷：其名稱出現在任一進化節點的 from 欄位（表示後面還有下一階段）。
+    function canStillEvolve(data, formLabel) {
+      if (!data) return false;
+      const names = new Set();
+      const baseName = data.name_zh || data.name || '';
+      if (baseName) names.add(baseName);
+      // 表單名稱也可能出現在鏈上（例如地區型態）
+      if (formLabel && formLabel !== '一般') names.add(formLabel);
+      if (Array.isArray(data.forms)) {
+        data.forms.forEach(f => { if (f && f.name) names.add(f.name); });
+      }
+      const chains = data.evolution_chains || [];
+      for (const chain of chains) {
+        if (!Array.isArray(chain)) continue;
+        for (const node of chain) {
+          if (!node) continue;
+          const from = node.from;
+          if (from && names.has(from)) return true;
+        }
+      }
+      return false;
+    }
+
     function applyHeldItemModifiers(ctx) {
       let { power, attack, defense, effectiveness, isSpecial, moveType, moveName } = ctx;
       const atkItem = getHeldItemDef(ctx.atkItemId);
@@ -2257,8 +2281,13 @@ function typeClass(t) { return 'type-' + t; }
         defense = Math.floor(defense * defItem.mult);
         notes.push(defItem.name + ' 特防×' + defItem.mult);
       } else if (defItem.kind === 'def_spd_stat') {
-        defense = Math.floor(defense * defItem.mult);
-        notes.push(defItem.name + ' 防禦/特防×' + defItem.mult);
+        // 進化奇石：必須還能再進化才有效
+        if (canStillEvolve(ctx.defData, ctx.defForm)) {
+          defense = Math.floor(defense * defItem.mult);
+          notes.push(defItem.name + ' 防禦/特防×' + defItem.mult);
+        } else {
+          notes.push(defItem.name + '（已最終進化，無效）');
+        }
       } else if (defItem.kind === 'def_stat' && !isSpecial) {
         defense = Math.floor(defense * defItem.mult);
         notes.push(defItem.name + ' 防禦×' + defItem.mult);
@@ -3045,7 +3074,9 @@ function typeClass(t) { return 'type-' + t; }
         moveType: adjustedMove.type,
         moveName: adjustedMove.name,
         atkItemId: sides.atk.item || '',
-        defItemId: sides.def.item || ''
+        defItemId: sides.def.item || '',
+        defData: sides.def.data || null,
+        defForm: sides.def.form || sides.def.name || ''
       });
       power = held.power;
       attack = held.attack;
