@@ -887,5 +887,17 @@
     }
   ],
   "egg_moves": [],
-  "home_images": []
+  "home_images": [
+	  {
+		  "name": "大針蜂",
+		  "image": "0015.png",
+		  "shiny": "0015-shiny.png"
+		},
+	  {
+		  "name": "大針蜂-超級大針蜂",
+		  "image": "0015-大針蜂-超級大針蜂.png",
+		  "shiny": "0015-大針蜂-超級大針蜂-shiny.png"
+		}
+  
+  ]
 }
