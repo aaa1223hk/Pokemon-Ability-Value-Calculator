@@ -2068,17 +2068,78 @@ function typeClass(t) { return 'type-' + t; }
       return DAMAGE_HELD_ITEMS.find(x => x.id === (id || '')) || DAMAGE_HELD_ITEMS[0];
     }
 
-    function buildHeldItemOptions(selectedId) {
-      return DAMAGE_HELD_ITEMS.map(it =>
-        `<option value="${it.id}"${(selectedId || '') === it.id ? ' selected' : ''}>${it.name}</option>`
-      ).join('');
+    function buildHeldItemSearch(sideKey, selectedId) {
+      const it = getHeldItemDef(selectedId);
+      const value = it && it.id ? it.name : '';
+      return `<div class="damage-held-search">
+        <input type="text" id="damage-${sideKey}-item-search" class="damage-held-input"
+          value="${damageSafeText(value)}" placeholder="搜尋道具，例如 生命寶珠 或 無"
+          autocomplete="off" spellcheck="false"
+          oninput="filterDamageHeldItem('${sideKey}', this.value)"
+          onfocus="filterDamageHeldItem('${sideKey}', this.value); openDamageHeldDropdown('${sideKey}')"
+          onkeydown="damageHeldItemKeydown(event, '${sideKey}')">
+        <div id="damage-${sideKey}-item-dropdown" class="damage-held-dropdown"></div>
+      </div>`;
+    }
+
+    function filterDamageHeldItem(sideKey, text) {
+      const box = document.getElementById(`damage-${sideKey}-item-dropdown`);
+      if (!box) return;
+      const q = String(text || '').trim().toLowerCase();
+      let matched = DAMAGE_HELD_ITEMS;
+      if (q) {
+        matched = DAMAGE_HELD_ITEMS.filter(it => {
+          const name = String(it.name || '').toLowerCase();
+          const id = String(it.id || '').toLowerCase();
+          return name.includes(q) || id.includes(q) || (q === '無' && !it.id);
+        });
+      }
+      if (!matched.length) {
+        box.innerHTML = '<div class="damage-held-empty">沒有符合的道具</div>';
+      } else {
+        box.innerHTML = matched.map(it =>
+          `<div class="damage-held-item-opt" data-id="${it.id}" onclick="selectDamageHeldItem('${sideKey}', '${it.id}')">${damageSafeText(it.name)}</div>`
+        ).join('');
+      }
+      openDamageHeldDropdown(sideKey);
+    }
+
+    function openDamageHeldDropdown(sideKey) {
+      document.getElementById(`damage-${sideKey}-item-dropdown`)?.classList.add('open');
+    }
+
+    function closeDamageHeldDropdown(sideKey) {
+      document.getElementById(`damage-${sideKey}-item-dropdown`)?.classList.remove('open');
+    }
+
+    function selectDamageHeldItem(sideKey, id) {
+      const sides = getDamageSides();
+      if (!sides?.[sideKey]) return;
+      const it = getHeldItemDef(id);
+      sides[sideKey].item = it.id || '';
+      const input = document.getElementById(`damage-${sideKey}-item-search`);
+      if (input) input.value = it.id ? it.name : '';
+      closeDamageHeldDropdown(sideKey);
+      damageState.result = null;
+    }
+
+    function damageHeldItemKeydown(e, sideKey) {
+      if (e.key === 'Escape') {
+        closeDamageHeldDropdown(sideKey);
+        e.target.blur();
+      } else if (e.key === 'Enter') {
+        const box = document.getElementById(`damage-${sideKey}-item-dropdown`);
+        const first = box?.querySelector('.damage-held-item-opt');
+        if (first) {
+          e.preventDefault();
+          selectDamageHeldItem(sideKey, first.getAttribute('data-id') || '');
+        }
+      }
     }
 
     function onDamageHeldItem(sideKey, value) {
-      const sides = getDamageSides();
-      if (!sides?.[sideKey]) return;
-      sides[sideKey].item = value || '';
-      damageState.result = null;
+      // 相容舊呼叫；實際以 selectDamageHeldItem 為主
+      selectDamageHeldItem(sideKey, value || '');
     }
 
     function applyHeldItemModifiers(ctx) {
@@ -2286,6 +2347,10 @@ function typeClass(t) { return 'type-' + t; }
         closeDamagePokemonDropdown('atk');
         closeDamagePokemonDropdown('def');
       }
+      if (!e.target.closest('.damage-held-search')) {
+        closeDamageHeldDropdown('atk');
+        closeDamageHeldDropdown('def');
+      }
     });
 
     function getDamageMoves(side) {
@@ -2479,9 +2544,7 @@ function typeClass(t) { return 'type-' + t; }
           <label>性格 <select onchange="onDamageNatureChange('${sideKey}', this.value)">${buildNatureOptions(Math.max(0, NATURES.indexOf(side.nature)))}</select></label>
         </div>
         <div class="damage-held-item">
-          <label>持有道具
-            <select onchange="onDamageHeldItem('${sideKey}', this.value)">${buildHeldItemOptions(side.item || '')}</select>
-          </label>
+          <label>持有道具${buildHeldItemSearch(sideKey, side.item || '')}</label>
         </div>
         <div class="damage-adjust-grid">
           <div></div><div class="damage-adjust-title">個體值滑桿</div><div></div><div class="damage-adjust-title">努力值滑桿</div><div></div><div class="damage-adjust-title">能力變化</div><div class="damage-adjust-title">現在數值</div>
