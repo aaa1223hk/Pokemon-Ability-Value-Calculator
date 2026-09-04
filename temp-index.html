@@ -1084,12 +1084,180 @@ body:not(.dark-theme) .damage-calc-btn:focus,
 body:not(.dark-theme) .damage-calc-btn:active {
   color: #fff !important;
 }
+
+    /* ===== 左側浮動選單（與道具例表一致） ===== */
+    .menu-fab {
+      position: fixed;
+      top: 0.85rem;
+      left: 0.85rem;
+      z-index: 100;
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
+      transition: background .15s, border-color .15s, box-shadow .15s;
+    }
+    .menu-fab:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      box-shadow: 0 6px 18px rgba(59, 130, 246, 0.18);
+    }
+    .menu-fab svg { width: 20px; height: 20px; }
+    body.dark-theme .menu-fab {
+      box-shadow: 0 4px 16px rgba(0,0,0,.35);
+    }
+    .drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.35);
+      z-index: 110;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .2s, visibility .2s;
+    }
+    body.dark-theme .drawer-overlay { background: rgba(0,0,0,.55); }
+    .drawer-overlay.open {
+      opacity: 1;
+      visibility: visible;
+    }
+    .drawer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: min(280px, 82vw);
+      background: var(--card);
+      z-index: 120;
+      transform: translateX(-105%);
+      transition: transform .25s ease;
+      box-shadow: 4px 0 24px rgba(15, 23, 42, 0.12);
+      display: flex;
+      flex-direction: column;
+      padding: 1.25rem 1rem 1.5rem;
+    }
+    body.dark-theme .drawer {
+      background: #121925;
+      box-shadow: 4px 0 28px rgba(0,0,0,.45);
+    }
+    .drawer.open { transform: translateX(0); }
+    .drawer-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .drawer-title { font-size: 1rem; font-weight: 700; }
+    .drawer-close {
+      width: 32px; height: 32px; border: none; background: transparent;
+      color: var(--muted); cursor: pointer; border-radius: 8px; font-size: 1.25rem; line-height: 1;
+    }
+    .drawer-close:hover { background: rgba(0,0,0,.05); color: var(--text); }
+    body.dark-theme .drawer-close:hover { background: rgba(255,255,255,.06); }
+    .drawer-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      flex: 1;
+    }
+    .drawer-nav a {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      padding: 0.7rem 0.85rem;
+      border-radius: 10px;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .drawer-nav a:hover {
+      background: rgba(59, 130, 246, 0.08);
+      border-color: rgba(59, 130, 246, 0.25);
+      color: var(--accent);
+    }
+    .drawer-nav a.active {
+      background: rgba(59, 130, 246, 0.12);
+      border-color: rgba(59, 130, 246, 0.35);
+      color: var(--accent);
+      font-weight: 600;
+    }
+    body.dark-theme .drawer-nav a:hover {
+      background: rgba(110, 168, 255, 0.1);
+      border-color: rgba(110, 168, 255, 0.3);
+    }
+    body.dark-theme .drawer-nav a.active {
+      background: rgba(110, 168, 255, 0.14);
+      border-color: rgba(110, 168, 255, 0.35);
+    }
+    .drawer-footer {
+      margin-top: auto;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+    .theme-in-drawer {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      width: 100%;
+      padding: 0.7rem 0.85rem;
+      border-radius: 10px;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--text);
+      font-size: 0.95rem;
+      font-weight: 500;
+      cursor: pointer;
+      text-align: left;
+      font-family: inherit;
+    }
+    .theme-in-drawer:hover {
+      background: rgba(59, 130, 246, 0.08);
+      border-color: rgba(59, 130, 246, 0.25);
+      color: var(--accent);
+    }
+    body.dark-theme .theme-in-drawer:hover {
+      background: rgba(110, 168, 255, 0.1);
+      border-color: rgba(110, 168, 255, 0.3);
+    }
+    /* 隱藏原本右上角主題按鈕 */
+    .theme-toggle { display: none !important; }
+
 </style>
 </head>
 <body>
-  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切換深色模式" title="切換深色模式">
-    <span class="theme-toggle-icon">🌙</span><span class="theme-toggle-text">深色</span>
+  <button type="button" class="menu-fab" id="menu-fab" aria-label="開啟選單" onclick="openDrawer()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+      <path d="M4 7h16M4 12h16M4 17h16"/>
+    </svg>
   </button>
+  <div class="drawer-overlay" id="drawer-overlay" onclick="closeDrawer()"></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-label="選單">
+    <div class="drawer-header">
+      <span class="drawer-title">選單</span>
+      <button type="button" class="drawer-close" aria-label="關閉" onclick="closeDrawer()">×</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="index.html" onclick="closeDrawer()">數值計算器</a>
+      <a href="item.html" onclick="closeDrawer()">道具例表</a>
+    </nav>
+    <div class="drawer-footer">
+      <button type="button" id="theme-toggle" class="theme-in-drawer" aria-label="切換深色模式" title="切換深色模式">
+        <span class="theme-toggle-icon">🌙</span>
+        <span class="theme-toggle-text">深色模式</span>
+      </button>
+    </div>
+  </aside>
   <div class="container">
     <h1>寶可夢數值計算器</h1>
     <div class="search-wrap">
@@ -1121,12 +1289,28 @@ const searchInput = document.getElementById('pokemon-search');
 
     // ===== 深色 / 淺色模式 =====
     const themeToggle = document.getElementById('theme-toggle');
+    function openDrawer() {
+      document.getElementById('drawer')?.classList.add('open');
+      document.getElementById('drawer-overlay')?.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeDrawer() {
+      document.getElementById('drawer')?.classList.remove('open');
+      document.getElementById('drawer-overlay')?.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeDrawer();
+    });
+
     function applyTheme(theme) {
       const dark = theme === 'dark';
       document.body.classList.toggle('dark-theme', dark);
       if (themeToggle) {
-        themeToggle.querySelector('.theme-toggle-icon').textContent = dark ? '☀️' : '🌙';
-        themeToggle.querySelector('.theme-toggle-text').textContent = dark ? '淺色' : '深色';
+        const icon = themeToggle.querySelector('.theme-toggle-icon');
+        const text = themeToggle.querySelector('.theme-toggle-text');
+        if (icon) icon.textContent = dark ? '☀️' : '🌛';
+        if (text) text.textContent = dark ? '淺色模式' : '深色模式';
         themeToggle.setAttribute('aria-label', dark ? '切換淺色模式' : '切換深色模式');
         themeToggle.title = dark ? '切換淺色模式' : '切換深色模式';
       }
