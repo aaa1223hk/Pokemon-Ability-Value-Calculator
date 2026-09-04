@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>寶可夢道具圖鑑</title>
+  <style>
+    :root {
+      --bg: #f7f9fc;
+      --card: #ffffff;
+      --text: #1a1a2e;
+      --muted: #5c6b7a;
+      --accent: #3b82f6;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+      padding: 1rem;
+    }
+    .container { max-width: 960px; margin: 0 auto; }
+    header {
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+      gap: 0.75rem; margin-bottom: 1.25rem;
+    }
+    h1 { font-size: 1.45rem; font-weight: 700; }
+    .nav-links { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .nav-links a, .theme-toggle {
+      padding: 0.4rem 0.85rem; border: 1px solid var(--border); border-radius: 8px;
+      background: var(--card); color: var(--text); text-decoration: none; font-size: 0.88rem;
+      cursor: pointer;
+    }
+    .nav-links a:hover, .theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+    .search-wrap { margin-bottom: 1.25rem; }
+    .search-wrap input {
+      width: 100%; max-width: 360px; padding: 0.65rem 0.9rem; font-size: 0.95rem;
+      border: 1px solid var(--border); border-radius: 10px; background: var(--card); color: var(--text);
+    }
+    .section { margin-bottom: 2rem; }
+    .section-title {
+      font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem;
+      padding-bottom: 0.4rem; border-bottom: 2px solid var(--accent);
+      display: flex; align-items: baseline; gap: 0.5rem;
+    }
+    .section-title .count { font-size: 0.85rem; font-weight: 500; color: var(--muted); }
+    .sub-title {
+      font-size: 0.95rem; font-weight: 600; color: var(--muted);
+      margin: 1rem 0 0.55rem;
+    }
+    .item-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0.75rem;
+    }
+    .item-card {
+      display: flex; gap: 0.75rem; align-items: flex-start;
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 0.75rem 0.9rem; transition: border-color .15s;
+    }
+    .item-card:hover { border-color: var(--accent); }
+    .item-icon {
+      width: 40px; height: 40px; object-fit: contain; flex-shrink: 0;
+      background: rgba(0,0,0,.03); border-radius: 8px;
+    }
+    .item-body { min-width: 0; flex: 1; }
+    .item-name { font-weight: 700; font-size: 0.95rem; margin-bottom: 0.15rem; }
+    .item-en { font-size: 0.75rem; color: var(--muted); margin-bottom: 0.25rem; }
+    .item-desc { font-size: 0.8rem; color: var(--muted); line-height: 1.4; }
+    .loading, .error, .empty {
+      text-align: center; padding: 2rem; color: var(--muted);
+    }
+    .error { color: #dc2626; }
+    .hidden { display: none !important; }
+
+    /* 深色模式 */
+    body.dark-theme {
+      --bg: #0b0f17;
+      --card: #141b27;
+      --text: #e7ebf3;
+      --muted: #8d98aa;
+      --accent: #6ea8ff;
+      --border: #293241;
+      background: radial-gradient(circle at 15% 0%, #151b28 0%, #0b0f17 42%, #05070b 100%);
+      background-attachment: fixed;
+    }
+    body.dark-theme .item-icon { background: rgba(255,255,255,.04); }
+    body.dark-theme .item-card:hover { border-color: #60a5fa; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>寶可夢道具圖鑑</h1>
+      <div class="nav-links">
+        <a href="index.html">數值計算器</a>
+        <a href="temp-index.html">temp 版</a>
+        <button type="button" class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">深色</button>
+      </div>
+    </header>
+
+    <div class="search-wrap">
+      <input type="search" id="search" placeholder="搜尋道具名稱…" oninput="onSearch(this.value)" autocomplete="off">
+    </div>
+
+    <div id="content" class="loading">載入中…</div>
+  </div>
+
+  <script>
+    const TARGET_SECTIONS = [
+      { key: '攜帶物品', title: '攜帶物品' },
+      { key: '超級石', title: '超級石' },
+      { key: 'Ｚ純晶', title: 'Ｚ純晶' },
+      { key: '樹果', title: '樹果' }
+    ];
+
+    let allSections = []; // [{ title, groups: [{ subtitle, items: [...] }] }]
+
+    function findCategory(nodes, name) {
+      if (!Array.isArray(nodes)) return null;
+      for (const n of nodes) {
+        if (!n || typeof n !== 'object') continue;
+        if ((n.name || n.name_zh) === name) return n;
+        const found = findCategory(n.children || [], name);
+        if (found) return found;
+      }
+      return null;
+    }
+
+    function collectItems(node) {
+      const items = [];
+      if (!node) return items;
+      if (node.type === 'item') {
+        items.push(node);
+        return items;
+      }
+      for (const c of node.children || []) {
+        items.push(...collectItems(c));
+      }
+      return items;
+    }
+
+    function collectGroups(node) {
+      // If direct children are items → one group; if categories → sub-groups
+      const kids = node.children || [];
+      const hasSubCat = kids.some(c => c && c.type === 'category');
+      if (!hasSubCat) {
+        return [{ subtitle: null, items: collectItems(node) }];
+      }
+      return kids
+        .filter(c => c && c.type === 'category')
+        .map(c => ({
+          subtitle: c.name || c.name_zh || '',
+          items: collectItems(c)
+        }));
+    }
+
+    function iconSrc(icon) {
+      if (!icon) return '';
+      if (Array.isArray(icon)) icon = icon[0];
+      if (typeof icon !== 'string') return '';
+      return 'data/images/items/' + encodeURIComponent(icon);
+    }
+
+    function renderItem(item) {
+      const name = item.name_zh || item.name || '—';
+      const en = item.name_en || '';
+      const desc = item.description || '';
+      const src = iconSrc(item.icon);
+      return `<div class="item-card" data-name="${escapeAttr(name)}" data-en="${escapeAttr(en)}">
+        ${src ? `<img class="item-icon" src="${src}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">` : '<div class="item-icon"></div>'}
+        <div class="item-body">
+          <div class="item-name">${escapeHtml(name)}</div>
+          ${en ? `<div class="item-en">${escapeHtml(en)}</div>` : ''}
+          ${desc ? `<div class="item-desc">${escapeHtml(desc)}</div>` : ''}
+        </div>
+      </div>`;
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+    function escapeAttr(s) {
+      return escapeHtml(s).replace(/'/g, '&#39;');
+    }
+
+    function render() {
+      const root = document.getElementById('content');
+      if (!allSections.length) {
+        root.innerHTML = '<p class="empty">找不到指定分類</p>';
+        return;
+      }
+      root.innerHTML = allSections.map(sec => {
+        const total = sec.groups.reduce((n, g) => n + g.items.length, 0);
+        const groupsHtml = sec.groups.map(g => {
+          const cards = g.items.map(renderItem).join('');
+          return `${g.subtitle ? `<div class="sub-title">${escapeHtml(g.subtitle)}</div>` : ''}
+            <div class="item-grid">${cards || '<p class="empty">無道具</p>'}</div>`;
+        }).join('');
+        return `<section class="section" data-section="${escapeAttr(sec.title)}">
+          <h2 class="section-title">${escapeHtml(sec.title)} <span class="count">(${total})</span></h2>
+          ${groupsHtml}
+        </section>`;
+      }).join('');
+    }
+
+    function onSearch(q) {
+      q = (q || '').trim().toLowerCase();
+      document.querySelectorAll('.item-card').forEach(card => {
+        const name = (card.dataset.name || '').toLowerCase();
+        const en = (card.dataset.en || '').toLowerCase();
+        const show = !q || name.includes(q) || en.includes(q);
+        card.classList.toggle('hidden', !show);
+      });
+      // hide empty sections
+      document.querySelectorAll('.section').forEach(sec => {
+        const visible = sec.querySelectorAll('.item-card:not(.hidden)').length;
+        sec.classList.toggle('hidden', q && visible === 0);
+      });
+    }
+
+    function toggleTheme() {
+      const dark = document.body.classList.toggle('dark-theme');
+      localStorage.setItem('pokemon-calc-theme', dark ? 'dark' : 'light');
+      document.getElementById('theme-toggle').textContent = dark ? '淺色' : '深色';
+    }
+
+    function applyStoredTheme() {
+      const t = localStorage.getItem('pokemon-calc-theme');
+      if (t === 'dark') {
+        document.body.classList.add('dark-theme');
+        document.getElementById('theme-toggle').textContent = '淺色';
+      }
+    }
+
+    async function init() {
+      applyStoredTheme();
+      try {
+        const res = await fetch('data/item_list.json');
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        allSections = [];
+        for (const { key, title } of TARGET_SECTIONS) {
+          const cat = findCategory(data, key);
+          if (!cat) {
+            console.warn('category not found:', key);
+            continue;
+          }
+          allSections.push({
+            title,
+            groups: collectGroups(cat)
+          });
+        }
+        render();
+      } catch (err) {
+        console.error(err);
+        document.getElementById('content').innerHTML =
+          `<p class="error">載入失敗：${escapeHtml(err.message)}。請用本地 HTTP 伺服器開啟（不要直接 file://）。</p>`;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
