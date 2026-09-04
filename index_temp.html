@@ -512,7 +512,20 @@
     .damage-weather-controls { display:flex; justify-content:center; align-items:flex-start; gap:0.7rem; margin-top:0.9rem; flex-wrap:wrap; }
     .damage-weather-controls label { display:flex; flex-direction:column; align-items:flex-start; gap:0.35rem; font-size:0.95rem; font-weight:600; }
     .damage-weather-controls select { min-width:180px; padding:0.55rem 0.7rem; border:1px solid var(--border); border-radius:8px; background:#fff; font-size:0.95rem; }
-    .damage-status-search { position: relative; width: 220px; min-width: 200px; }
+    .damage-status-row {
+      display: flex;
+      justify-content: center;
+      margin-top: 0.65rem;
+    }
+    .damage-status-row > label {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.35rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+    .damage-status-search { position: relative; width: 240px; min-width: 220px; }
     .damage-status-btn {
       width: 100%;
       padding: 0.55rem 0.7rem;
@@ -536,7 +549,8 @@
       left: 0;
       right: 0;
       top: calc(100% + 4px);
-      max-height: 260px;
+      /* 約顯示 4 個選項，可上下捲動 */
+      max-height: 9.6rem;
       overflow-y: auto;
       background: #fff;
       border: 1px solid var(--border);
@@ -546,13 +560,15 @@
     }
     .damage-status-dropdown.open { display: block; }
     .damage-status-opt {
-      padding: 0.5rem 0.7rem;
+      padding: 0.48rem 0.7rem;
       cursor: pointer;
       font-size: 0.9rem;
       display: flex;
       align-items: center;
       gap: 0.45rem;
       user-select: none;
+      min-height: 2.15rem;
+      box-sizing: border-box;
     }
     .damage-status-opt:hover { background: #eff6ff; color: var(--accent); }
     .damage-status-opt .check { width: 1.1em; text-align: center; flex-shrink: 0; }
@@ -3521,6 +3537,8 @@ function typeClass(t) { return 'type-' + t; }
               <option value="精神場地">精神場地</option>
             </select>
           </label>
+        </div>
+        <div class="damage-status-row">
           <label>狀態
             <div class="damage-status-search">
               <button type="button" id="damage-status-btn" class="damage-status-btn" onclick="toggleDamageStatusDropdown(event)">(無)</button>
