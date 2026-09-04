@@ -2244,7 +2244,7 @@ function typeClass(t) { return 'type-' + t; }
       sides: null, result: null, weather: '無', terrain: '無', statuses: [], unknownMoveType: '一般', unknownMoveCategory: '物理', currentHpPercent: 100
     };
 
-    // 傷害計算「狀態」多選項目（燒傷 / 牆 / 極光幕）
+    // 傷害計算「狀態」多選項目（燒傷 / 牆 / 極光幕 / 災禍）
     const DAMAGE_STATUSES = [
       { id: 'burn', name: '燒傷' },
       { id: 'reflect_singles', name: '反射壁 (單打)' },
@@ -2252,7 +2252,11 @@ function typeClass(t) { return 'type-' + t; }
       { id: 'lightscreen_singles', name: '光牆 (單打)' },
       { id: 'lightscreen_doubles', name: '光牆 (雙打)' },
       { id: 'aurora_veil_singles', name: '極光幕 (單打)' },
-      { id: 'aurora_veil_doubles', name: '極光幕 (雙打)' }
+      { id: 'aurora_veil_doubles', name: '極光幕 (雙打)' },
+      { id: 'ruin_tablets', name: '災禍之簡' },
+      { id: 'ruin_sword', name: '災禍之劍' },
+      { id: 'ruin_vessel', name: '災禍之鼎' },
+      { id: 'ruin_beads', name: '災禍之玉' }
     ];
 
     // 傷害計算已實作的「倍率類」持有道具（選單只顯示這些）
@@ -3234,16 +3238,20 @@ function typeClass(t) { return 'type-' + t; }
       return multiplier;
     }
 
-    /** 狀態倍率：燒傷（攻擊方）、反射壁／光牆／極光幕（防守方）
+    /** 狀態倍率：燒傷（攻擊方）、反射壁／光牆／極光幕（防守方）、災禍系列（全場、同種不疊加）
      *  - 燒傷：物理招式傷害 ×0.5（看攻擊方 statuses）
      *  - 反射壁：物理招式，單打 ×0.5、雙打 ×2732/4096（看防守方）
      *  - 光牆：特殊招式，單打 ×0.5、雙打 ×2732/4096（看防守方）
      *  - 極光幕：同時具反射壁+光牆效果；若已選反射壁/光牆則不疊加
+     *  - 災禍之簡／劍／鼎／玉：對應能力 ×3/4；攻守任一方有勾即生效，同種不疊加
      */
     function getStatusMultipliers(atkStatuses, defStatuses, isSpecial, category) {
       const atkSet = new Set(Array.isArray(atkStatuses) ? atkStatuses : []);
       const defSet = new Set(Array.isArray(defStatuses) ? defStatuses : []);
+      const any = (id) => atkSet.has(id) || defSet.has(id);
       let mult = 1;
+      let attackMult = 1;
+      let defenseMult = 1;
       const notes = [];
       const isPhysical = !isSpecial && !String(category || '').includes('特殊');
 
@@ -3283,7 +3291,30 @@ function typeClass(t) { return 'type-' + t; }
         }
       }
 
-      return { mult, notes };
+      // 災禍系列：全場、同種不疊加；四種可同時存在
+      // 災禍之簡 → 攻擊 ×3/4；災禍之鼎 → 特攻 ×3/4
+      // 災禍之劍 → 防禦 ×3/4；災禍之玉 → 特防 ×3/4
+      if (isPhysical) {
+        if (any('ruin_tablets')) {
+          attackMult *= 0.75;
+          notes.push('災禍之簡 攻擊×3/4');
+        }
+        if (any('ruin_sword')) {
+          defenseMult *= 0.75;
+          notes.push('災禍之劍 防禦×3/4');
+        }
+      } else {
+        if (any('ruin_vessel')) {
+          attackMult *= 0.75;
+          notes.push('災禍之鼎 特攻×3/4');
+        }
+        if (any('ruin_beads')) {
+          defenseMult *= 0.75;
+          notes.push('災禍之玉 特防×3/4');
+        }
+      }
+
+      return { mult, attackMult, defenseMult, notes };
     }
 
     function getTerrainLabel(terrain) {
@@ -3392,14 +3423,21 @@ function typeClass(t) { return 'type-' + t; }
       attack = held.attack;
       defense = held.defense;
       const heldNotes = held.notes || [];
+      // 狀態倍率（燒傷 / 反射壁 / 光牆 / 極光幕 / 災禍）
+      const statusInfo = getStatusMultipliers(sides.atk.statuses || [], sides.def.statuses || [], isSpecial, adjustedMove.category);
+      const statusMult = statusInfo.mult;
+      const statusNotes = statusInfo.notes || [];
+      // 災禍系列直接作用在攻擊／防禦數值上（同種不疊加，已在 getStatusMultipliers 處理）
+      if (statusInfo.attackMult && statusInfo.attackMult !== 1) {
+        attack = Math.floor(attack * statusInfo.attackMult);
+      }
+      if (statusInfo.defenseMult && statusInfo.defenseMult !== 1) {
+        defense = Math.floor(defense * statusInfo.defenseMult);
+      }
       const base = Math.floor(Math.floor(Math.floor((2 * level) / 5 + 2) * power * attack / Math.max(1, defense)) / 50) + 2;
       const crit = document.getElementById('damage-crit')?.checked ? 1.5 : 1;
       const weatherAttack = getWeatherAttackMultiplier(weather, adjustedMove.type, adjustedMove.name);
       const terrainAttack = getTerrainAttackMultiplier(terrain, adjustedMove.type, adjustedMove.name);
-      // 狀態倍率（燒傷 / 反射壁 / 光牆 / 極光幕）
-      const statusInfo = getStatusMultipliers(sides.atk.statuses || [], sides.def.statuses || [], isSpecial, adjustedMove.category);
-      const statusMult = statusInfo.mult;
-      const statusNotes = statusInfo.notes || [];
       const otherBonusPercentRaw = parseFloat(document.getElementById('damage-other-bonus')?.value || '0');
       const otherBonusPercent = Number.isFinite(otherBonusPercentRaw) ? otherBonusPercentRaw : 0;
       const otherBonus = 1 + otherBonusPercent / 100;
