@@ -2579,6 +2579,7 @@ function typeClass(t) { return 'type-' + t; }
         stages: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
         item: '',
         statuses: [],
+        currentHpPercent: 100,
         source: 'target'
       };
       side.stats = calcSideStats(side);
@@ -2866,14 +2867,14 @@ function typeClass(t) { return 'type-' + t; }
           ${rows}
         </div>
         <div class="damage-ev-total ${totalEv > 510 ? 'over' : ''}">努力值合計：${totalEv} / 510</div>
-        ${sideKey === 'def' ? `<div class="damage-current-hp">
-          <div class="damage-current-hp-head"><span>現在 HP</span><span class="damage-current-hp-value" id="damage-current-hp-value">${Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)))}%</span></div>
+        <div class="damage-current-hp">
+          <div class="damage-current-hp-head"><span>現在 HP</span><span class="damage-current-hp-value" id="damage-current-hp-value-${sideKey}">${Math.max(0, Math.min(100, Number(side.currentHpPercent ?? 100)))}%</span></div>
           <div class="damage-current-hp-slider-row">
-            <input type="range" id="damage-current-hp-range" min="0" max="100" step="1" value="${Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)))}" oninput="onDamageCurrentHp(this.value)" aria-label="防守方目前 HP 百分比">
-            <input type="number" id="damage-current-hp-number" class="damage-current-hp-number" min="0" max="100" step="1" value="${Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)))}" oninput="onDamageCurrentHp(this.value)" aria-label="防守方目前 HP 百分比數值">
+            <input type="range" id="damage-current-hp-range-${sideKey}" min="0" max="100" step="1" value="${Math.max(0, Math.min(100, Number(side.currentHpPercent ?? 100)))}" oninput="onDamageCurrentHp('${sideKey}', this.value)" aria-label="${sideKey === 'atk' ? '攻擊' : '防守'}方目前 HP 百分比">
+            <input type="number" id="damage-current-hp-number-${sideKey}" class="damage-current-hp-number" min="0" max="100" step="1" value="${Math.max(0, Math.min(100, Number(side.currentHpPercent ?? 100)))}" oninput="onDamageCurrentHp('${sideKey}', this.value)" aria-label="${sideKey === 'atk' ? '攻擊' : '防守'}方目前 HP 百分比數值">
             <span>%</span>
           </div>
-        </div>` : ''}
+        </div>
         <div class="damage-status-panel">
           <div class="damage-status-panel-title">狀態</div>
           <div class="damage-status-list" id="damage-status-list-${sideKey}">
@@ -2991,16 +2992,21 @@ function typeClass(t) { return 'type-' + t; }
       }
     }
 
-    function onDamageCurrentHp(value) {
+    function onDamageCurrentHp(sideKey, value) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
       let v = parseInt(value, 10);
       if (!Number.isFinite(v)) v = 100;
       v = Math.max(0, Math.min(100, v));
-      damageState.currentHpPercent = v;
-      const label = document.getElementById('damage-current-hp-value');
+      side.currentHpPercent = v;
+      // 防守方仍同步到 damageState，供舊路徑與結果顯示相容
+      if (sideKey === 'def') damageState.currentHpPercent = v;
+      const label = document.getElementById(`damage-current-hp-value-${sideKey}`);
       if (label) label.textContent = `${v}%`;
-      const slider = document.getElementById('damage-current-hp-range');
+      const slider = document.getElementById(`damage-current-hp-range-${sideKey}`);
       if (slider && slider.value !== String(v)) slider.value = String(v);
-      const number = document.getElementById('damage-current-hp-number');
+      const number = document.getElementById(`damage-current-hp-number-${sideKey}`);
       if (number && number.value !== String(v)) number.value = String(v);
       damageState.result = null;
     }
@@ -3410,7 +3416,7 @@ function typeClass(t) { return 'type-' + t; }
         values.push(effectiveness === 0 ? 0 : Math.max(1, v));
       }
       const maxHp = Number(sides.def.stats?.hp || 0);
-      const currentHpPercent = Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)));
+      const currentHpPercent = Math.max(0, Math.min(100, Number(sides.def.currentHpPercent ?? damageState.currentHpPercent ?? 100)));
       const targetHp = Math.floor(maxHp * currentHpPercent / 100);
       // 傷害條改以「防守方目前剩餘 HP」為基準，讓上方 HP 滑桿會直接反映在下方讀條。
       // 例如目前 HP 50%，同樣造成最大 HP 的 10% 傷害，讀條會顯示為目前血量的 20%。
