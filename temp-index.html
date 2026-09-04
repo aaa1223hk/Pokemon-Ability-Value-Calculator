@@ -294,6 +294,71 @@
     .damage-level-nature label { display:flex; align-items:center; gap:0.4rem; font-size:0.9rem; font-weight:600; }
     .damage-level-nature input, .damage-level-nature select { padding:0.42rem 0.55rem; border:1px solid var(--border); border-radius:7px; background:#fff; font-size:0.9rem; }
     .damage-level-nature input { width:78px; }
+
+    .damage-held-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0 1rem;
+    }
+    .damage-held-item > label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      width: auto;
+      max-width: none;
+      margin: 0;
+    }
+    .damage-held-search {
+      position: relative;
+      width: 200px;
+      flex: 0 0 200px;
+    }
+    .damage-held-input {
+      width: 100%;
+      padding: 0.42rem 0.55rem;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: #fff;
+      font-size: 0.9rem;
+      box-sizing: border-box;
+      text-align: left;
+    }
+    .damage-held-dropdown {
+      display: none;
+      position: absolute;
+      z-index: 1000;
+      left: 0;
+      right: 0;
+      top: calc(100% + 4px);
+      max-height: 240px;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 6px 18px rgba(0,0,0,.12);
+      text-align: left;
+    }
+    .damage-held-dropdown.open { display: block; }
+    .damage-held-item-opt { padding: 0.5rem 0.7rem; cursor: pointer; font-size: 0.88rem; }
+    .damage-held-item-opt:hover { background: #eff6ff; color: var(--accent); }
+    .damage-held-empty { padding: 0.5rem 0.7rem; color: var(--muted); font-size: 0.85rem; }
+    body.dark-theme .damage-held-input {
+      background: linear-gradient(180deg,#0e141e 0%,#090d14 100%);
+      color: #e7ebf3;
+      border-color: #303a4a;
+    }
+    body.dark-theme .damage-held-dropdown {
+      background: #121925;
+      border-color: #303a4a;
+    }
+    body.dark-theme .damage-held-item-opt:hover {
+      background: #1a2230;
+      color: #93c5fd;
+    }
     .damage-side-image { width: 175px; height: 175px; object-fit: contain; display: block; margin: 0 auto 0.25rem; }
     .damage-side-name { text-align: center; font-size: 1.12rem; font-weight: 800; margin-bottom: 0.15rem; }
     .damage-side-sub { text-align: center; font-size: 0.84rem; color: var(--muted); min-height: 1.25em; }
