@@ -2246,12 +2246,13 @@ function typeClass(t) { return 'type-' + t; }
 
     // 傷害計算「狀態」多選項目（燒傷 / 牆 / 極光幕）
     const DAMAGE_STATUSES = [
-      { id: 'burn_atk', name: '燒傷(攻擊方)' },
+      { id: 'burn', name: '燒傷' },
       { id: 'reflect_singles', name: '反射壁 (單打)' },
       { id: 'reflect_doubles', name: '反射壁 (雙打)' },
       { id: 'lightscreen_singles', name: '光牆 (單打)' },
       { id: 'lightscreen_doubles', name: '光牆 (雙打)' },
-      { id: 'aurora_veil', name: '極光幕' }
+      { id: 'aurora_veil_singles', name: '極光幕 (單打)' },
+      { id: 'aurora_veil_doubles', name: '極光幕 (雙打)' }
     ];
 
     // 傷害計算已實作的「倍率類」持有道具（選單只顯示這些）
@@ -3246,20 +3247,19 @@ function typeClass(t) { return 'type-' + t; }
       const notes = [];
       const isPhysical = !isSpecial && !String(category || '').includes('特殊');
 
-      // 燒傷：僅對物理招式生效（攻擊方狀態）
-      if (atkSet.has('burn_atk') && isPhysical) {
+      // 燒傷：僅對物理招式生效（攻擊方狀態；相容舊 id burn_atk）
+      if ((atkSet.has('burn') || atkSet.has('burn_atk')) && isPhysical) {
         mult *= 0.5;
-        notes.push('燒傷(攻擊方) ×0.5');
+        notes.push('燒傷 ×0.5');
       }
 
       // 極光幕優先（防守方）：同時覆蓋物理與特殊，且不與反射壁/光牆疊加
-      if (defSet.has('aurora_veil')) {
-        let screenMult = 0.5;
-        if (defSet.has('reflect_doubles') || defSet.has('lightscreen_doubles')) {
-          screenMult = 2732 / 4096;
-        }
+      const hasAuroraSingles = defSet.has('aurora_veil_singles') || defSet.has('aurora_veil');
+      const hasAuroraDoubles = defSet.has('aurora_veil_doubles');
+      if (hasAuroraDoubles || hasAuroraSingles) {
+        const screenMult = hasAuroraDoubles ? (2732 / 4096) : 0.5;
         mult *= screenMult;
-        notes.push(`極光幕 ×${screenMult === 0.5 ? '1/2' : '2732/4096'}`);
+        notes.push(`極光幕(${hasAuroraDoubles ? '雙打' : '單打'}) ×${hasAuroraDoubles ? '2732/4096' : '1/2'}`);
       } else {
         // 反射壁（僅物理，防守方）
         if (isPhysical) {
