@@ -338,7 +338,7 @@
             "name_zh": "雪丸",
             "name_ja": "ゆきだま",
             "name_en": "Snowball",
-            "description": "用雪壓成的球狀物體。用它投中寶可夢能使其動作變得遲緩，有時還會生出破綻。",
+            "description": "受到冰屬性招式時，攻擊提升1階段。一次性。",
             "icon": "雪丸.png"
           },
           {
@@ -1378,7 +1378,7 @@
             "name_zh": "光粉",
             "name_ja": "ひかりのこな",
             "name_en": "Bright Powder",
-            "description": "閃閃發光的粉末。攜帶後，光芒會迷惑對手，從而使其招式變得不容易命中。",
+            "description": "對手招式對自己的命中率變成0.9倍。",
             "icon": "光粉.png"
           },
           {
@@ -1386,7 +1386,7 @@
             "name_zh": "先制之爪",
             "name_ja": "せんせいのツメ",
             "name_en": "Quick Claw",
-            "description": "又輕又尖銳的爪子。攜帶後，有時能比對手先一步行動。",
+            "description": "有20%機率不受速度影響，比對手先行動。",
             "icon": "先制之爪.png"
           },
           {
@@ -1394,7 +1394,7 @@
             "name_zh": "王者之證",
             "name_ja": "おうじゃのしるし",
             "name_en": "King's Rock",
-            "description": "攜帶後進行攻擊，在造成傷害時，有時會讓對手畏縮。",
+            "description": "攻擊造成傷害時，有10%機率讓對手畏縮。",
             "icon": "王者之證.png"
           },
           {
@@ -1402,7 +1402,7 @@
             "name_zh": "銀粉",
             "name_ja": "ぎんのこな",
             "name_en": "Silver Powder",
-            "description": "散發著銀色光輝的粉末。攜帶後，蟲屬性的招式威力就會提高。",
+            "description": "蟲屬性招式的威力變成1.2倍。",
             "icon": "銀粉.png"
           },
           {
@@ -1458,7 +1458,7 @@
             "name_zh": "焦點鏡",
             "name_ja": "ピントレンズ",
             "name_en": "Scope Lens",
-            "description": "能看見弱點的鏡片。攜帶它的寶可夢的招式會變得容易擊中要害。",
+            "description": "招式較容易擊中要害。",
             "icon": "焦點鏡.png"
           },
           {
@@ -1466,7 +1466,7 @@
             "name_zh": "金屬膜",
             "name_ja": "メタルコート",
             "name_en": "Metal Coat",
-            "description": "特殊的金屬膜。攜帶後，鋼屬性的招式威力就會提高。",
+            "description": "鋼屬性招式的威力變成1.2倍。",
             "icon": "金屬膜.png"
           },
           {
@@ -1474,7 +1474,7 @@
             "name_zh": "吃剩的東西",
             "name_ja": "たべのこし",
             "name_en": "Leftovers",
-            "description": "攜帶後，寶可夢的ＨＰ會在戰鬥期間緩緩回覆。",
+            "description": "每回合回復最大HP的1/16。",
             "icon": "吃剩的東西.png"
           },
           {
@@ -1498,7 +1498,7 @@
             "name_zh": "柔軟沙子",
             "name_ja": "やわらかいすな",
             "name_en": "Soft Sand",
-            "description": "手感細膩的沙子。攜帶後，地面屬性的招式威力就會提高。",
+            "description": "地面屬性招式的威力變成1.2倍。",
             "icon": "柔軟沙子.png"
           },
           {
@@ -1506,7 +1506,7 @@
             "name_zh": "硬石頭",
             "name_ja": "かたいいし",
             "name_en": "Hard Stone",
-            "description": "絕對不會裂開的石頭。攜帶後，岩石屬性的招式威力就會提高。",
+            "description": "岩石屬性招式的威力變成1.2倍。",
             "icon": "硬石頭.png"
           },
           {
@@ -1514,7 +1514,7 @@
             "name_zh": "奇蹟種子",
             "name_ja": "きせきのタネ",
             "name_en": "Miracle Seed",
-            "description": "孕育生命的種子。攜帶後，草屬性的招式威力就會提高。",
+            "description": "草屬性招式的威力變成1.2倍。",
             "icon": "奇蹟種子.png"
           },
           {
@@ -1522,7 +1522,7 @@
             "name_zh": "黑色眼鏡",
             "name_ja": "くろいメガネ",
             "name_en": "Black Glasses",
-            "description": "看上去很奇怪的眼鏡。攜帶後，惡屬性的招式威力就會提高。",
+            "description": "惡屬性招式的威力變成1.2倍。",
             "icon": "黑色眼鏡.png"
           },
           {
@@ -1530,7 +1530,7 @@
             "name_zh": "黑帶",
             "name_ja": "くろおび",
             "name_en": "Black Belt",
-            "description": "能振作精神的帶子。攜帶後，格鬥屬性的招式威力就會提高。",
+            "description": "格鬥屬性招式的威力變成1.2倍。",
             "icon": "黑帶.png"
           },
           {
@@ -1538,7 +1538,7 @@
             "name_zh": "磁鐵",
             "name_ja": "じしゃく",
             "name_en": "Magnet",
-            "description": "強力的磁鐵。攜帶後，電屬性的招式威力就會提高。",
+            "description": "電屬性招式的威力變成1.2倍。",
             "icon": "磁鐵.png"
           },
           {
@@ -1546,7 +1546,7 @@
             "name_zh": "神秘水滴",
             "name_ja": "しんぴのしずく",
             "name_en": "Mystic Water",
-            "description": "水滴形狀的寶石。攜帶後，水屬性的招式威力就會提高。",
+            "description": "水屬性招式的威力變成1.2倍。",
             "icon": "神秘水滴.png"
           },
           {
@@ -1554,7 +1554,7 @@
             "name_zh": "銳利鳥嘴",
             "name_ja": "するどいくちばし",
             "name_en": "Sharp Beak",
-            "description": "又長又尖的鳥嘴。攜帶後，飛行屬性的招式威力就會提高。",
+            "description": "飛行屬性招式的威力變成1.2倍。",
             "icon": "銳利鳥嘴.png"
           },
           {
@@ -1562,7 +1562,7 @@
             "name_zh": "毒針",
             "name_ja": "どくバリ",
             "name_en": "Poison Barb",
-            "description": "有毒的小針。攜帶後，毒屬性的招式威力就會提高。",
+            "description": "毒屬性招式的威力變成1.2倍。",
             "icon": "毒針.png"
           },
           {
@@ -1570,7 +1570,7 @@
             "name_zh": "不融冰",
             "name_ja": "とけないこおり",
             "name_en": "Never-Melt Ice",
-            "description": "能隔絕熱量的冰。攜帶後，冰屬性的招式威力就會提高。",
+            "description": "冰屬性招式的威力變成1.2倍。",
             "icon": "不融冰.png"
           },
           {
@@ -1578,7 +1578,7 @@
             "name_zh": "詛咒之符",
             "name_ja": "のろいのおふだ",
             "name_en": "Spell Tag",
-            "description": "古怪可怕的咒符。攜帶後，幽靈屬性的招式威力就會提高。",
+            "description": "幽靈屬性招式的威力變成1.2倍。",
             "icon": "詛咒之符.png"
           },
           {
@@ -1586,7 +1586,7 @@
             "name_zh": "彎曲的湯匙",
             "name_ja": "まがったスプーン",
             "name_en": "Twisted Spoon",
-            "description": "注入了念力的湯匙。攜帶後，超能力屬性的招式威力就會提高。",
+            "description": "超能力屬性招式的威力變成1.2倍。",
             "icon": "彎曲的湯匙.png"
           },
           {
@@ -1594,7 +1594,7 @@
             "name_zh": "木炭",
             "name_ja": "もくたん",
             "name_en": "Charcoal",
-            "description": "焚燒用的燃料。攜帶後，火屬性的招式威力就會提高。",
+            "description": "火屬性招式的威力變成1.2倍。",
             "icon": "木炭.png"
           },
           {
@@ -1602,7 +1602,7 @@
             "name_zh": "龍之牙",
             "name_ja": "りゅうのキバ",
             "name_en": "Dragon Fang",
-            "description": "堅硬銳利的牙齒。攜帶後，龍屬性的招式威力就會提高。",
+            "description": "龍屬性招式的威力變成1.2倍。",
             "icon": "龍之牙.png"
           },
           {
@@ -1626,7 +1626,7 @@
             "name_zh": "絲綢圍巾",
             "name_ja": "シルクのスカーフ",
             "name_en": "Silk Scarf",
-            "description": "手感不錯的圍巾。攜帶後，一般屬性的招式威力就會提高。",
+            "description": "一般屬性招式的威力變成1.2倍。",
             "icon": "絲綢圍巾.png"
           },
           {
@@ -1770,7 +1770,7 @@
             "name_zh": "白色香草",
             "name_ja": "しろいハーブ",
             "name_en": "White Herb",
-            "description": "當攜帶它的寶可夢能力降低時，僅能回到之前的狀態１次。",
+            "description": "能力被降低時，一次回復到原本狀態。一次性。",
             "icon": "白色香草.png"
           },
           {
@@ -1778,7 +1778,7 @@
             "name_zh": "心靈香草",
             "name_ja": "メンタルハーブ",
             "name_en": "Mental Herb",
-            "description": "當攜帶它的寶可夢無法自由使出招式時，僅會回覆１次。",
+            "description": "陷入再來一次、無理取鬧、定身法、挑釁、迷戀等狀態時，一次解除。一次性。",
             "icon": "心靈香草.png"
           },
           {
@@ -1786,7 +1786,7 @@
             "name_zh": "強力香草",
             "name_ja": "パワフルハーブ",
             "name_en": "Power Herb",
-            "description": "攜帶它的寶可夢僅有１次機會可以在第１回合使出需要蓄力的招式。",
+            "description": "需要蓄力的招式，可一次立刻使出。一次性。",
             "icon": "強力香草.png"
           },
           {
@@ -1810,7 +1810,7 @@
             "name_zh": "講究頭帶",
             "name_ja": "こだわりハチマキ",
             "name_en": "Choice Band",
-            "description": "有點講究的頭帶。雖然攜帶後攻擊會提高，但只能使出相同的招式。",
+            "description": "攻擊變成1.5倍，但只能連續使用同一招式。",
             "icon": "講究頭帶.png"
           },
           {
@@ -1818,7 +1818,7 @@
             "name_zh": "講究眼鏡",
             "name_ja": "こだわりメガネ",
             "name_en": "Choice Specs",
-            "description": "有點講究的眼鏡。雖然攜帶後特攻會提高，但只能使出相同的招式。",
+            "description": "特攻變成1.5倍，但只能連續使用同一招式。",
             "icon": "講究眼鏡.png"
           },
           {
@@ -1826,7 +1826,7 @@
             "name_zh": "講究圍巾",
             "name_ja": "こだわりスカーフ",
             "name_en": "Choice Scarf",
-            "description": "有點講究的圍巾。雖然攜帶後速度會提高，但只能使出相同的招式。",
+            "description": "速度變成1.5倍，但只能連續使用同一招式。",
             "icon": "講究圍巾.png"
           },
           {
@@ -1834,7 +1834,7 @@
             "name_zh": "心之水滴",
             "name_ja": "こころのしずく",
             "name_en": "Soul Dew",
-            "description": "讓拉帝歐斯或拉帝亞斯攜帶後，超能力和龍屬性的招式威力就會提高的神奇珠子。",
+            "description": "拉帝歐斯或拉帝亞斯攜帶時，超能力與龍屬性招式威力變成1.2倍。",
             "icon": "心之水滴.png"
           },
           {
@@ -1994,7 +1994,7 @@
             "name_zh": "火球石板",
             "name_ja": "ひのたまプレート",
             "name_en": "Flame Plate",
-            "description": "火屬性的石板。攜帶後，火屬性的招式威力就會增強。",
+            "description": "火屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為火屬性。",
             "icon": "火球石板.png"
           },
           {
@@ -2002,7 +2002,7 @@
             "name_zh": "水滴石板",
             "name_ja": "しずくプレート",
             "name_en": "Splash Plate",
-            "description": "水屬性的石板。攜帶後，水屬性的招式威力就會增強。",
+            "description": "水屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為水屬性。",
             "icon": "水滴石板.png"
           },
           {
@@ -2010,7 +2010,7 @@
             "name_zh": "雷電石板",
             "name_ja": "いかずちプレート",
             "name_en": "Zap Plate",
-            "description": "電屬性的石板。攜帶後，電屬性的招式威力就會增強。",
+            "description": "電屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為電屬性。",
             "icon": "雷電石板.png"
           },
           {
@@ -2018,7 +2018,7 @@
             "name_zh": "碧綠石板",
             "name_ja": "みどりのプレート",
             "name_en": "Meadow Plate",
-            "description": "草屬性的石板。攜帶後，草屬性的招式威力就會增強。",
+            "description": "草屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為草屬性。",
             "icon": "碧綠石板.png"
           },
           {
@@ -2026,7 +2026,7 @@
             "name_zh": "冰柱石板",
             "name_ja": "つららのプレート",
             "name_en": "Icicle Plate",
-            "description": "冰屬性的石板。攜帶後，冰屬性的招式威力就會增強。",
+            "description": "冰屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為冰屬性。",
             "icon": "冰柱石板.png"
           },
           {
@@ -2034,7 +2034,7 @@
             "name_zh": "拳頭石板",
             "name_ja": "こぶしのプレート",
             "name_en": "Fist Plate",
-            "description": "格鬥屬性的石板。攜帶後，格鬥屬性的招式威力就會增強。",
+            "description": "格鬥屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為格鬥屬性。",
             "icon": "拳頭石板.png"
           },
           {
@@ -2042,7 +2042,7 @@
             "name_zh": "劇毒石板",
             "name_ja": "もうどくプレート",
             "name_en": "Toxic Plate",
-            "description": "毒屬性的石板。攜帶後，毒屬性的招式威力就會增強。",
+            "description": "毒屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為毒屬性。",
             "icon": "劇毒石板.png"
           },
           {
@@ -2050,7 +2050,7 @@
             "name_zh": "大地石板",
             "name_ja": "だいちのプレート",
             "name_en": "Earth Plate",
-            "description": "地面屬性的石板。攜帶後，地面屬性的招式威力就會增強。",
+            "description": "地面屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為地面屬性。",
             "icon": "大地石板.png"
           },
           {
@@ -2058,7 +2058,7 @@
             "name_zh": "藍天石板",
             "name_ja": "あおぞらプレート",
             "name_en": "Sky Plate",
-            "description": "飛行屬性的石板。攜帶後，飛行屬性的招式威力就會增強。",
+            "description": "飛行屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為飛行屬性。",
             "icon": "藍天石板.png"
           },
           {
@@ -2066,7 +2066,7 @@
             "name_zh": "神奇石板",
             "name_ja": "ふしぎのプレート",
             "name_en": "Mind Plate",
-            "description": "超能力屬性的石板。攜帶後，超能力屬性的招式威力就會增強。",
+            "description": "超能力屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為超能力屬性。",
             "icon": "神奇石板.png"
           },
           {
@@ -2074,7 +2074,7 @@
             "name_zh": "玉蟲石板",
             "name_ja": "たまむしプレート",
             "name_en": "Insect Plate",
-            "description": "蟲屬性的石板。攜帶後，蟲屬性的招式威力就會增強。",
+            "description": "蟲屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為蟲屬性。",
             "icon": "玉蟲石板.png"
           },
           {
@@ -2082,7 +2082,7 @@
             "name_zh": "岩石石板",
             "name_ja": "がんせきプレート",
             "name_en": "Stone Plate",
-            "description": "岩石屬性的石板。攜帶後，岩石屬性的招式威力就會增強。",
+            "description": "岩石屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為岩石屬性。",
             "icon": "岩石石板.png"
           },
           {
@@ -2090,7 +2090,7 @@
             "name_zh": "妖怪石板",
             "name_ja": "もののけプレート",
             "name_en": "Spooky Plate",
-            "description": "幽靈屬性的石板。攜帶後，幽靈屬性的招式威力就會增強。",
+            "description": "幽靈屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為幽靈屬性。",
             "icon": "妖怪石板.png"
           },
           {
@@ -2098,7 +2098,7 @@
             "name_zh": "龍之石板",
             "name_ja": "りゅうのプレート",
             "name_en": "Draco Plate",
-            "description": "龍屬性的石板。攜帶後，龍屬性的招式威力就會增強。",
+            "description": "龍屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為龍屬性。",
             "icon": "龍之石板.png"
           },
           {
@@ -2106,7 +2106,7 @@
             "name_zh": "惡顏石板",
             "name_ja": "こわもてプレート",
             "name_en": "Dread Plate",
-            "description": "惡屬性的石板。攜帶後，惡屬性的招式威力就會增強。",
+            "description": "惡屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為惡屬性。",
             "icon": "惡顏石板.png"
           },
           {
@@ -2114,7 +2114,7 @@
             "name_zh": "鋼鐵石板",
             "name_ja": "こうてつプレート",
             "name_en": "Iron Plate",
-            "description": "鋼屬性的石板。攜帶後，鋼屬性的招式威力就會增強。",
+            "description": "鋼屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為鋼屬性。",
             "icon": "鋼鐵石板.png"
           },
           {
@@ -2122,7 +2122,7 @@
             "name_zh": "妖精石板",
             "name_ja": "せいれいプレート",
             "name_en": "Pixie Plate",
-            "description": "妖精屬性的石板。攜帶後，妖精屬性的招式威力就會增強。",
+            "description": "妖精屬性招式威力變成1.2倍。阿爾宙斯攜帶時變為妖精屬性。",
             "icon": "妖精石板.png"
           },
           {
@@ -2138,7 +2138,7 @@
             "name_zh": "金剛寶珠",
             "name_ja": "こんごうだま",
             "name_en": "Adamant Orb",
-            "description": "讓帝牙盧卡攜帶的話，龍和鋼屬性的招式威力就會提高。散發著光輝的寶珠。",
+            "description": "帝牙盧卡攜帶時，龍與鋼屬性招式威力變成1.2倍。",
             "icon": "金剛寶珠.png"
           },
           {
@@ -2146,7 +2146,7 @@
             "name_zh": "白玉寶珠",
             "name_ja": "しらたま",
             "name_en": "Lustrous Orb",
-            "description": "讓帕路奇亞攜帶的話，龍和水屬性的招式威力就會提高。散發著美麗光輝的寶珠。",
+            "description": "帕路奇亞攜帶時，龍與水屬性招式威力變成1.2倍。",
             "icon": "白玉寶珠.png"
           },
           {
@@ -2154,7 +2154,7 @@
             "name_zh": "白金寶珠",
             "name_ja": "はっきんだま",
             "name_en": "Griseous Orb",
-            "description": "讓騎拉帝納攜帶的話，龍和幽靈屬性的招式威力就會提高。散發著光輝的寶珠。",
+            "description": "騎拉帝納攜帶時，龍與幽靈屬性招式威力變成1.2倍。",
             "icon": "白金寶珠.png"
           },
           {
@@ -2202,7 +2202,7 @@
             "name_zh": "銳利之爪",
             "name_ja": "するどいツメ",
             "name_en": "Razor Claw",
-            "description": "尖銳的爪子。攜帶後，招式會變得容易擊中要害。",
+            "description": "招式較容易擊中要害。",
             "icon": "銳利之爪.png"
           },
           {
@@ -2218,7 +2218,7 @@
             "name_zh": "廣角鏡",
             "name_ja": "こうかくレンズ",
             "name_en": "Wide Lens",
-            "description": "能放大觀看物體的鏡片。攜帶後，招式的命中率就會少量提高。",
+            "description": "招式命中率變成1.1倍。",
             "icon": "廣角鏡.png"
           },
           {
@@ -2242,7 +2242,7 @@
             "name_zh": "達人帶",
             "name_ja": "たつじんのおび",
             "name_en": "Expert Belt",
-            "description": "用慣了的黑色帶子。攜帶後，效果絕佳時的招式威力就會少量提高。",
+            "description": "招式效果絕佳時，威力變成1.2倍。",
             "icon": "達人帶.png"
           },
           {
@@ -2250,7 +2250,7 @@
             "name_zh": "光之黏土",
             "name_ja": "ひかりのねんど",
             "name_en": "Light Clay",
-            "description": "當攜帶它的寶可夢使出光牆或反射壁時，效果會比平時持續得更長。",
+            "description": "使用光牆、反射壁、極光幕時，效果時間延長3回合。",
             "icon": "光之黏土.png"
           },
           {
@@ -2258,7 +2258,7 @@
             "name_zh": "生命寶珠",
             "name_ja": "いのちのたま",
             "name_en": "Life Orb",
-            "description": "攜帶後，雖然每次攻擊時ＨＰ少量減少，但招式的威力會提高。",
+            "description": "招式威力變成1.3倍，但每次攻擊後會損失最大HP的1/10。",
             "icon": "生命寶珠.png"
           },
           {
@@ -2282,7 +2282,7 @@
             "name_zh": "氣勢披帶",
             "name_ja": "きあいのタスキ",
             "name_en": "Focus Sash",
-            "description": "攜帶後，在ＨＰ全滿時，即便受到可能會導致瀕死的招式，也能僅以１ＨＰ撐過去１次。",
+            "description": "HP全滿時，即使受到會陷入瀕死的攻擊（含一擊必殺），也會以HP剩1撐住。一次性。",
             "icon": "氣勢披帶.png"
           },
           {
@@ -2290,7 +2290,7 @@
             "name_zh": "對焦鏡",
             "name_ja": "フォーカスレンズ",
             "name_en": "Zoom Lens",
-            "description": "當攜帶它的寶可夢比對手行動遲緩時，招式會變得容易命中。",
+            "description": "若比對手慢行動，招式命中率變成1.2倍。",
             "icon": "對焦鏡.png"
           },
           {
@@ -2298,7 +2298,7 @@
             "name_zh": "節拍器",
             "name_ja": "メトロノーム",
             "name_en": "Metronome",
-            "description": "攜帶後，連續使出相同招式時，威力就會提高。不再使出相同招式時，威力就會復原。",
+            "description": "連續使用同一招式時，每次威力提升20%（最高+100%）；改用其他招式後重置。",
             "icon": "節拍器.png"
           },
           {
@@ -2314,7 +2314,7 @@
             "name_zh": "後攻之尾",
             "name_ja": "こうこうのしっぽ",
             "name_en": "Lagging Tail",
-            "description": "非常沉重的某種尾巴。攜帶後，行動會比平時更加遲緩。",
+            "description": "行動順序必定變為最後（優先度招式不受影響）。",
             "icon": "後攻之尾.png"
           },
           {
@@ -2322,7 +2322,7 @@
             "name_zh": "紅線",
             "name_ja": "あかいいと",
             "name_en": "Destiny Knot",
-            "description": "長長的鮮紅色細線。攜帶後，在自己著迷時能讓對手也著迷。",
+            "description": "陷入迷戀狀態時，也會讓對手陷入迷戀。",
             "icon": "紅線.png"
           },
           {
@@ -2338,7 +2338,7 @@
             "name_zh": "冰冷岩石",
             "name_ja": "つめたいいわ",
             "name_en": "Icy Rock",
-            "description": "攜帶它的寶可夢使出冰雹的話，冰雹的時間就會比平時更長。",
+            "description": "使出下雪時，天氣持續時間延長3回合。",
             "icon": "冰冷岩石.png"
           },
           {
@@ -2346,7 +2346,7 @@
             "name_zh": "沙沙岩石",
             "name_ja": "さらさらいわ",
             "name_en": "Smooth Rock",
-            "description": "攜帶它的寶可夢使出沙暴的話，沙暴的時間就會比平時更長。",
+            "description": "使出沙暴時，天氣持續時間延長3回合。",
             "icon": "沙沙岩石.png"
           },
           {
@@ -2354,7 +2354,7 @@
             "name_zh": "熾熱岩石",
             "name_ja": "あついいわ",
             "name_en": "Heat Rock",
-            "description": "攜帶它的寶可夢使出大晴天的話，晴天的時間就會比平時更長。",
+            "description": "使出大晴天時，天氣持續時間延長3回合。",
             "icon": "熾熱岩石.png"
           },
           {
@@ -2362,7 +2362,7 @@
             "name_zh": "潮溼岩石",
             "name_ja": "しめったいわ",
             "name_en": "Damp Rock",
-            "description": "攜帶它的寶可夢使出求雨的話，下雨的時間就會比平時更長。",
+            "description": "使出求雨時，天氣持續時間延長3回合。",
             "icon": "潮溼岩石.png"
           },
           {
@@ -2378,7 +2378,7 @@
             "name_zh": "附著針",
             "name_ja": "くっつきバリ",
             "name_en": "Sticky Barb",
-            "description": "攜帶後，每回合都會受到傷害。有時也會附著到碰到自己的對手身上。",
+            "description": "每回合損失最大HP的1/8。若對手沒有攜帶道具，受到接觸招式時有機會黏到對手身上。",
             "icon": "附著針.png"
           },
           {
@@ -2434,7 +2434,7 @@
             "name_zh": "美麗空殼",
             "name_ja": "きれいなぬけがら",
             "name_en": "Shed Shell",
-            "description": "結實堅硬的空殼。攜帶它的寶可夢必定可以和後備的寶可夢進行替換。",
+            "description": "即使被無法交換的效果影響，也能與備戰寶可夢交換。",
             "icon": "美麗空殼.png"
           },
           {
@@ -2442,7 +2442,7 @@
             "name_zh": "大根莖",
             "name_ja": "おおきなねっこ",
             "name_en": "Big Root",
-            "description": "攜帶後，吸取ＨＰ的招式可以比平時更多地回覆自己的ＨＰ。",
+            "description": "吸取HP類招式的回復量變成1.3倍。",
             "icon": "大根莖.png"
           },
           {
@@ -2490,7 +2490,7 @@
             "name_zh": "進化奇石",
             "name_ja": "しんかのきせき",
             "name_en": "Eviolite",
-            "description": "進化的神奇石塊。攜帶後，還能進化的寶可夢的防禦和特防就會提高。",
+            "description": "給尚未最終進化的寶可夢攜帶時，防禦與特防變成1.5倍。",
             "icon": "進化奇石.png"
           },
           {
@@ -2506,7 +2506,7 @@
             "name_zh": "凸凸頭盔",
             "name_ja": "ゴツゴツメット",
             "name_en": "Rocky Helmet",
-            "description": "讓寶可夢攜帶後，在受到打擊招式攻擊時，能給予對手傷害。",
+            "description": "受到接觸類招式時，對對手造成最大HP 1/6的傷害。",
             "icon": "凸凸頭盔.png"
           },
           {
@@ -2514,7 +2514,7 @@
             "name_zh": "氣球",
             "name_ja": "ふうせん",
             "name_en": "Air Balloon",
-            "description": "讓寶可夢攜帶後，寶可夢會浮在空中。受到攻擊就會破裂。",
+            "description": "飄浮在空中，不受地面屬性招式攻擊；受到攻擊後效果消失。",
             "icon": "氣球.png"
           },
           {
@@ -2522,7 +2522,7 @@
             "name_zh": "紅牌",
             "name_ja": "レッドカード",
             "name_en": "Red Card",
-            "description": "有著神奇力量的卡片。攜帶後，能讓使用了招式的對手退場。",
+            "description": "受到招式後，強制讓對手上場的寶可夢退場。若因此瀕死則不發動。一次性。",
             "icon": "紅牌.png"
           },
           {
@@ -2530,7 +2530,7 @@
             "name_zh": "標靶",
             "name_ja": "ねらいのまと",
             "name_en": "Ring Target",
-            "description": "原本因寶可夢的屬性相剋關係而無效的招式現在會變得能夠擊中自己。",
+            "description": "原本因屬性相性無效的招式也能命中。",
             "icon": "標靶.png"
           },
           {
@@ -2546,7 +2546,7 @@
             "name_zh": "球根",
             "name_ja": "きゅうこん",
             "name_en": "Absorb Bulb",
-            "description": "一次性使用的球根。攜帶它的寶可夢如果受到水屬性招式的攻擊，特攻就會提高。",
+            "description": "受到水屬性招式時，特攻提升1階段。一次性。",
             "icon": "球根.png"
           },
           {
@@ -2554,7 +2554,7 @@
             "name_zh": "充電電池",
             "name_ja": "じゅうでんち",
             "name_en": "Cell Battery",
-            "description": "一次性使用的充電電池。攜帶它的寶可夢如果受到電屬性招式的攻擊，攻擊就會提高。",
+            "description": "受到電屬性招式時，攻擊提升1階段。一次性。",
             "icon": "充電電池.png"
           },
           {
@@ -2562,7 +2562,7 @@
             "name_zh": "逃脫按鍵",
             "name_ja": "だっしゅつボタン",
             "name_en": "Eject Button",
-            "description": "攜帶它的寶可夢如果受到招式攻擊，就能逃脫戰鬥，並和同行的其他寶可夢進行替換。",
+            "description": "受到招式後，可與備戰寶可夢交換。一次性。",
             "icon": "逃脫按鍵.png"
           },
           {
@@ -2698,7 +2698,7 @@
             "name_zh": "一般寶石",
             "name_ja": "ノーマルジュエル",
             "name_en": "Normal Gem",
-            "description": "一般屬性的寶石。攜帶後，一般屬性的招式威力僅會增強１次。",
+            "description": "一次讓一般屬性招式的威力變成1.3倍。一次性。",
             "icon": "一般寶石.png"
           },
           {
@@ -2714,7 +2714,7 @@
             "name_zh": "弱點保險",
             "name_ja": "じゃくてんほけん",
             "name_en": "Weakness Policy",
-            "description": "被針對弱點時，攻擊和特攻就會大幅提高。",
+            "description": "受到效果絕佳的招式時，攻擊與特攻提升2階段。一次性。",
             "icon": "弱點保險.png"
           },
           {
@@ -2722,7 +2722,7 @@
             "name_zh": "打空保險",
             "name_ja": "からぶりほけん",
             "name_en": "Blunder Policy",
-            "description": "招式因命中率影響而落空時，速度會大幅提高。",
+            "description": "因命中問題而使招式落空時，速度提升2階段。一次性。",
             "icon": "打空保險.png"
           },
           {
@@ -2730,7 +2730,7 @@
             "name_zh": "突擊背心",
             "name_ja": "とつげきチョッキ",
             "name_en": "Assault Vest",
-            "description": "會變得富有攻擊性的背心。雖然攜帶後特防會提高，但會無法使出變化招式。",
+            "description": "特防變成1.5倍，但無法使用變化招式。",
             "icon": "突擊背心.png"
           },
           {
@@ -2754,7 +2754,7 @@
             "name_zh": "光苔",
             "name_ja": "ひかりごけ",
             "name_en": "Luminous Moss",
-            "description": "一次性使用的光苔。攜帶它的寶可夢如果受到水屬性招式攻擊，特防就會提高。",
+            "description": "受到水屬性招式時，特防提升1階段。一次性。",
             "icon": "光苔.png"
           },
           {
@@ -2762,7 +2762,7 @@
             "name_zh": "雪球",
             "name_ja": "ゆきだま",
             "name_en": "Snowball",
-            "description": "一次性使用的雪球。攜帶它的寶可夢如果受到冰屬性招式攻擊，攻擊就會提高。",
+            "description": "受到冰屬性招式時，攻擊提升1階段。一次性。",
             "icon": "雪球.png"
           },
           {
@@ -2770,7 +2770,7 @@
             "name_zh": "防塵護目鏡",
             "name_ja": "ぼうじんゴーグル",
             "name_en": "Safety Goggles",
-            "description": "不單是天氣造成的傷害，就連粉末類招式的效果也能防禦的護目鏡。",
+            "description": "不受天氣傷害，也不受粉末類招式影響。",
             "icon": "防塵護目鏡.png"
           },
           {
@@ -2786,7 +2786,7 @@
             "name_zh": "大地膜",
             "name_ja": "グランドコート",
             "name_en": "Terrain Extender",
-            "description": "當攜帶它的寶可夢利用招式或特性展開場地時，場地的持續時間會比平時更長。",
+            "description": "展開場地時，場地持續時間延長3回合。",
             "icon": "大地膜.png"
           },
           {
@@ -2794,7 +2794,7 @@
             "name_zh": "部位護具",
             "name_ja": "ぼうごパット",
             "name_en": "Protective Pads",
-            "description": "不會受到觸碰攻擊對手時本應受到的效果。",
+            "description": "接觸對手時，不會受到對手特性效果影響。",
             "icon": "部位護具.png"
           },
           {
@@ -2802,7 +2802,7 @@
             "name_zh": "電氣種子",
             "name_ja": "エレキシード",
             "name_en": "Electric Seed",
-            "description": "讓寶可夢攜帶後，在電氣場地上使用，防禦就會提高。",
+            "description": "在電氣場地時使用，防禦提升1階段。一次性。",
             "icon": "電氣種子.png"
           },
           {
@@ -2810,7 +2810,7 @@
             "name_zh": "精神種子",
             "name_ja": "サイコシード",
             "name_en": "Psychic Seed",
-            "description": "讓寶可夢攜帶後，在精神場地上使用，特防就會提高。",
+            "description": "在精神場地時使用，特防提升1階段。一次性。",
             "icon": "精神種子.png"
           },
           {
@@ -2818,7 +2818,7 @@
             "name_zh": "薄霧種子",
             "name_ja": "ミストシード",
             "name_en": "Misty Seed",
-            "description": "讓寶可夢攜帶後，在薄霧場地上使用，特防就會提高。",
+            "description": "在薄霧場地時使用，特防提升1階段。一次性。",
             "icon": "薄霧種子.png"
           },
           {
@@ -2826,7 +2826,7 @@
             "name_zh": "青草種子",
             "name_ja": "グラスシード",
             "name_en": "Grassy Seed",
-            "description": "讓寶可夢攜帶後，在青草場地上使用，防禦就會提高。",
+            "description": "在青草場地時使用，防禦提升1階段。一次性。",
             "icon": "青草種子.png"
           },
           {
@@ -2970,7 +2970,7 @@
             "name_zh": "腐朽的劍",
             "name_ja": "くちたけん",
             "name_en": "Rusted Sword",
-            "description": "據說很久以前，英雄就是拿著這把劍驅走了災厄。而現在早已變得鏽跡斑斑。",
+            "description": "蒼響攜帶後，戰鬥中變為「劍之王」型態。",
             "icon": "腐朽的劍.png"
           },
           {
@@ -2978,7 +2978,7 @@
             "name_zh": "腐朽的盾",
             "name_ja": "くちたたて",
             "name_en": "Rusted Shield",
-            "description": "據說很久以前，英雄就是拿著這面盾驅走了災厄。而現在早已變得鏽跡斑斑。",
+            "description": "藏瑪然特攜帶後，戰鬥中變為「盾之王」型態。",
             "icon": "腐朽的盾.png"
           },
           {
@@ -3042,7 +3042,7 @@
             "name_zh": "爽喉噴霧",
             "name_ja": "のどスプレー",
             "name_en": "Throat Spray",
-            "description": "使用聲音相關的招式時，特攻會提高。",
+            "description": "使用聲音類招式後，特攻提升1階段。一次性。",
             "icon": "爽喉噴霧.png"
           },
           {
@@ -3050,7 +3050,7 @@
             "name_zh": "避難揹包",
             "name_ja": "だっしゅつパック",
             "name_en": "Eject Pack",
-            "description": "當攜帶它的寶可夢能力下降時，同行寶可夢就會自動替換上場。",
+            "description": "自身能力被降低時，與備戰寶可夢交換。一次性。",
             "icon": "避難揹包.png"
           },
           {
@@ -3058,7 +3058,7 @@
             "name_zh": "厚底靴",
             "name_ja": "あつぞこブーツ",
             "name_en": "Heavy-Duty Boots",
-            "description": "不受腳下陷阱等的影響。",
+            "description": "不受對方設下的場地陷阱影響。",
             "icon": "厚底靴.png"
           },
           {
@@ -3066,7 +3066,7 @@
             "name_zh": "客房服務",
             "name_ja": "ルームサービス",
             "name_en": "Room Service",
-            "description": "讓寶可夢攜帶後，在戲法空間使用時，速度會下降。",
+            "description": "在戲法空間下，速度降低1階段。一次性。",
             "icon": "客房服務.png"
           },
           {
@@ -3074,7 +3074,7 @@
             "name_zh": "萬能傘",
             "name_ja": "ばんのうがさ",
             "name_en": "Utility Umbrella",
-            "description": "攜帶它的寶可夢將不受各種天氣的影響。",
+            "description": "不受「雨天」與「大晴天」天氣影響。",
             "icon": "萬能傘.png"
           },
           {
@@ -3082,7 +3082,7 @@
             "name_zh": "大金剛寶玉",
             "name_ja": "だいこんごうだま",
             "name_en": "Adamant Crystal",
-            "description": "光輝燦爛的大珠子。對帝牙盧卡使用後，能使之力量高漲並改變形態。",
+            "description": "帝牙盧卡攜帶後會型態變化，龍與鋼屬性招式威力變成1.2倍。",
             "icon": "大金剛寶玉.png"
           },
           {
@@ -3090,7 +3090,7 @@
             "name_zh": "大白寶玉",
             "name_ja": "だいしらたま",
             "name_en": "Lustrous Globe",
-            "description": "光輝燦爛的大珠子。對帕路奇亞使用後，能使之力量高漲並改變形態。",
+            "description": "帕路奇亞攜帶後會型態變化，龍與水屬性招式威力變成1.2倍。",
             "icon": "大白寶玉.png"
           },
           {
@@ -3098,7 +3098,7 @@
             "name_zh": "大白金寶玉",
             "name_ja": "だいはっきんだま",
             "name_en": "Griseous Core",
-            "description": "光輝燦爛的大珠子。對騎拉帝納使用後，能使之力量高漲並改變形態。",
+            "description": "騎拉帝納攜帶後會型態變化，龍與幽靈屬性招式威力變成1.2倍。",
             "icon": "大白金寶玉.png"
           },
           {
@@ -3106,7 +3106,7 @@
             "name_zh": "驅勁能量",
             "name_ja": "ブーストエナジー",
             "name_en": "Booster Energy",
-            "description": "充滿能量的膠囊。讓有某種特性的寶可夢攜帶後，其能力會得到提升。",
+            "description": "讓擁有「古代活性」或「夸克充能」的寶可夢，HP以外最高的那一項能力提升。",
             "icon": "驅勁能量.png"
           },
           {
@@ -3114,7 +3114,7 @@
             "name_zh": "特性護具",
             "name_ja": "とくせいガード",
             "name_en": "Ability Shield",
-            "description": "可愛而有個性的盾。攜帶後，特性不會被對手改變。",
+            "description": "攜帶後，不會被對手改變特性。",
             "icon": "特性護具.png"
           },
           {
@@ -3122,7 +3122,7 @@
             "name_zh": "清淨墜飾",
             "name_ja": "クリアチャーム",
             "name_en": "Clear Amulet",
-            "description": "光芒晶瑩剔透的墜飾。攜帶後，不會因為對手的招式或特性而被降低能力。",
+            "description": "不會因對手的招式或特性而降低能力。",
             "icon": "清淨墜飾.png"
           },
           {
@@ -3130,7 +3130,7 @@
             "name_zh": "模仿香草",
             "name_ja": "ものまねハーブ",
             "name_en": "Mirror Herb",
-            "description": "攜帶它的寶可夢僅有１次機會可以在對手提高能力時，對其進行模仿並提高同樣的能力。",
+            "description": "對手能力提升時，可模仿一次相同的能力提升。一次性。",
             "icon": "模仿香草.png"
           },
           {
@@ -3138,7 +3138,7 @@
             "name_zh": "拳擊手套",
             "name_ja": "パンチグローブ",
             "name_en": "Punching Glove",
-            "description": "保護拳頭的手套。攜帶後，拳擊招式的威力會提高，且變得拳擊時不會接觸到對手。",
+            "description": "拳頭類招式威力變成1.1倍，且攻擊時不會與對手接觸。",
             "icon": "拳擊手套.png"
           },
           {
@@ -3146,7 +3146,7 @@
             "name_zh": "密探斗篷",
             "name_ja": "おんみつマント",
             "name_en": "Covert Cloak",
-            "description": "能騙過敵人眼睛的帶帽披風。攜帶後，能夠隱藏身體，變得不會受到招式的追加效果影響。",
+            "description": "攜帶後，不會受到對手招式的追加效果影響。",
             "icon": "密探斗篷.png"
           },
           {
@@ -3154,7 +3154,7 @@
             "name_zh": "機變骰子",
             "name_ja": "いかさまダイス",
             "name_en": "Loaded Dice",
-            "description": "只會出現好數字的骰子。攜帶後，在使用連續招式時，能使出較多次招式。",
+            "description": "攜帶後，使用連續攻擊招式時，攻擊次數較容易變多。",
             "icon": "機變骰子.png"
           },
           {
@@ -3170,7 +3170,7 @@
             "name_zh": "妖精之羽",
             "name_ja": "ようせいのハネ",
             "name_en": "Fairy Feather",
-            "description": "接觸到光後就會微微發光的羽毛。攜帶後，妖精屬性的招式威力就會提高。",
+            "description": "妖精屬性招式的威力變成1.2倍。",
             "icon": "妖精之羽.png"
           },
           {
