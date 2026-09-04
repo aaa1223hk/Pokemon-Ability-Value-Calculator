@@ -249,7 +249,7 @@
     </svg>
   </button>
 
-  <button type="button" class="theme-fab" id="theme-fab" aria-label="切換深淺色" onclick="toggleTheme()">☀️</button>
+
 
   <!-- 遮罩 -->
   <div class="drawer-overlay" id="drawer-overlay" onclick="closeDrawer()"></div>
@@ -261,6 +261,10 @@
       <button type="button" class="drawer-close" aria-label="關閉" onclick="closeDrawer()">×</button>
     </div>
     <nav class="drawer-nav">
+      <button type="button" id="theme-toggle" onclick="toggleTheme()">
+        <span id="theme-icon">🌛</span>
+        <span id="theme-label">深色模式</span>
+      </button>
       <a href="index.html" onclick="closeDrawer()">數值計算器</a>
     </nav>
   </aside>
@@ -400,11 +404,11 @@
     }
 
     function updateThemeIcon() {
-      const fab = document.getElementById('theme-fab');
-      if (!fab) return;
-      // 深色模式時顯示太陽（點了切回淺色）；淺色模式時顯示月亮
-      fab.textContent = document.body.classList.contains('dark-theme') ? '☀️' : '🌛';
-      fab.setAttribute('aria-label', document.body.classList.contains('dark-theme') ? '切換為淺色' : '切換為深色');
+      const dark = document.body.classList.contains('dark-theme');
+      const icon = document.getElementById('theme-icon');
+      const label = document.getElementById('theme-label');
+      if (icon) icon.textContent = dark ? '☀️' : '🌛';
+      if (label) label.textContent = dark ? '淺色模式' : '深色模式';
     }
 
     function toggleTheme() {
