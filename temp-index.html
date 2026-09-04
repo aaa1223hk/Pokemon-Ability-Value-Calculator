@@ -2088,6 +2088,7 @@ function typeClass(t) { return 'type-' + t; }
         iv: { hp:31, attack:31, defense:31, sp_attack:31, sp_defense:31, speed:31 },
         ev: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
         stages: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
+        item: '',
         source: 'target'
       };
       side.stats = calcSideStats(side);
@@ -2362,6 +2363,11 @@ function typeClass(t) { return 'type-' + t; }
         <div class="damage-level-nature">
           <label>等級 <input type="number" min="1" max="100" value="${side.level}" oninput="onDamageLevelChange('${sideKey}', this.value)"></label>
           <label>性格 <select onchange="onDamageNatureChange('${sideKey}', this.value)">${buildNatureOptions(Math.max(0, NATURES.indexOf(side.nature)))}</select></label>
+        </div>
+        <div class="damage-held-item">
+          <label>持有道具
+            <select onchange="onDamageHeldItem('${sideKey}', this.value)">${buildHeldItemOptions(side.item || '')}</select>
+          </label>
         </div>
         <div class="damage-adjust-grid">
           <div></div><div class="damage-adjust-title">個體值滑桿</div><div></div><div class="damage-adjust-title">努力值滑桿</div><div></div><div class="damage-adjust-title">能力變化</div><div class="damage-adjust-title">現在數值</div>
@@ -2762,15 +2768,31 @@ function typeClass(t) { return 'type-' + t; }
       // 注意：能力變化不是只顯示在 UI；這裡會先將「現在能力值」乘上對應倍率，再帶入公式。
       const attackStage = Number(sides.atk.stages?.[attackKey] ?? 0);
       const defenseStage = Number(sides.def.stages?.[defenseKey] ?? 0);
-      const attack = Math.floor(Number(sides.atk.stats?.[attackKey] || 0) * getDamageStageMultiplier(attackStage));
-      const defenseBase = Math.floor(Number(sides.def.stats?.[defenseKey] || 0) * getDamageStageMultiplier(defenseStage));
+      let attack = Math.floor(Number(sides.atk.stats?.[attackKey] || 0) * getDamageStageMultiplier(attackStage));
+      let defenseBase = Math.floor(Number(sides.def.stats?.[defenseKey] || 0) * getDamageStageMultiplier(defenseStage));
       const defenseWeather = getWeatherDefenseMultiplier(weather, sides.def, adjustedMove.category);
-      const defense = Math.floor(defenseBase * defenseWeather);
+      let defense = Math.floor(defenseBase * defenseWeather);
       const customPower = parseInt(document.getElementById('damage-power')?.value, 10);
-      const power = Math.max(1, Number.isFinite(customPower) && customPower > 0 ? customPower : (parseInt(adjustedMove.power,10) || 0));
-      const base = Math.floor(Math.floor(Math.floor((2 * level) / 5 + 2) * power * attack / Math.max(1, defense)) / 50) + 2;
+      let power = Math.max(1, Number.isFinite(customPower) && customPower > 0 ? customPower : (parseInt(adjustedMove.power,10) || 0));
       const stab = (sides.atk.data && getFormTypes(sides.atk.form, sides.atk.data).includes(adjustedMove.type)) ? 1.5 : 1;
       const effectiveness = typeEffectiveness(adjustedMove.type, getDamageTargetTypes(sides.def));
+      // 持有道具倍率（僅已實作項目）
+      const held = applyHeldItemModifiers({
+        isSpecial,
+        power,
+        attack,
+        defense,
+        effectiveness,
+        moveType: adjustedMove.type,
+        moveName: adjustedMove.name,
+        atkItemId: sides.atk.item || '',
+        defItemId: sides.def.item || ''
+      });
+      power = held.power;
+      attack = held.attack;
+      defense = held.defense;
+      const heldNotes = held.notes || [];
+      const base = Math.floor(Math.floor(Math.floor((2 * level) / 5 + 2) * power * attack / Math.max(1, defense)) / 50) + 2;
       const crit = document.getElementById('damage-crit')?.checked ? 1.5 : 1;
       const weatherAttack = getWeatherAttackMultiplier(weather, adjustedMove.type, adjustedMove.name);
       const terrainAttack = getTerrainAttackMultiplier(terrain, adjustedMove.type, adjustedMove.name);
@@ -2796,7 +2818,7 @@ function typeClass(t) { return 'type-' + t; }
       const hpBasis = targetHp > 0 ? targetHp : maxHp;
       const minPercent = hpBasis > 0 ? (Math.min(...values) / hpBasis) * 100 : 0;
       const maxPercent = hpBasis > 0 ? (Math.max(...values) / hpBasis) * 100 : 0;
-      const result = { attackKey, defenseKey, attackStage, defenseStage, attackBaseStat: Number(sides.atk.stats?.[attackKey] || 0), defenseBaseStat: Number(sides.def.stats?.[defenseKey] || 0), min: Math.min(...values), max: Math.max(...values), move: adjustedMove, originalMove: move, power, attack, defense, base, stab, effectiveness, crit, otherBonus, otherBonusPercent, weather, weatherAttack, terrain, terrainAttack, defenseWeather, values, maxHp, targetHp, currentHpPercent, minPercent, maxPercent };
+      const result = { attackKey, defenseKey, attackStage, defenseStage, attackBaseStat: Number(sides.atk.stats?.[attackKey] || 0), defenseBaseStat: Number(sides.def.stats?.[defenseKey] || 0), min: Math.min(...values), max: Math.max(...values), move: adjustedMove, originalMove: move, power, attack, defense, base, stab, effectiveness, crit, otherBonus, otherBonusPercent, weather, weatherAttack, terrain, terrainAttack, defenseWeather, values, maxHp, targetHp, currentHpPercent, minPercent, maxPercent , heldNotes };
       damageState.result = result;
       renderDamageResult(result);
     }
@@ -2806,6 +2828,9 @@ function typeClass(t) { return 'type-' + t; }
       if (!el) return;
       if (result?.error) { el.innerHTML = `<div class="damage-result-label">${damageSafeText(result.error)}</div>`; return; }
       const effText = result.effectiveness === 0 ? '沒有效果' : `屬性相性 ×${result.effectiveness}`;
+      const heldText = (result.heldNotes && result.heldNotes.length)
+        ? `　｜　道具：${result.heldNotes.map(damageSafeText).join('、')}`
+        : '';
       const minPct = Math.min(100, Math.max(0, Number(result.minPercent || 0)));
       const maxPct = Math.min(100, Math.max(0, Number(result.maxPercent || 0)));
       // 血條方向固定為左 100% → 右 0%；受傷區域從右側開始。
@@ -2817,7 +2842,7 @@ function typeClass(t) { return 'type-' + t; }
       const currentHp = Number(result.targetHp || 0);
       const guaranteedHits = currentHp <= 0 ? null : (result.min >= currentHp ? 1 : (result.min > 0 ? Math.ceil(currentHp / result.min) : null));
       const guaranteedText = guaranteedHits ? `確${guaranteedHits}` : '確—';
-      el.innerHTML = `<div class="damage-result-label">傷害範圍</div><div class="damage-result-value">${result.min} ～ ${result.max}</div><div class="damage-result-detail">${damageSafeText(result.move.name)}　｜　威力 ${result.power}　｜　防守方目前 HP ${result.targetHp} / ${result.maxHp}（${result.currentHpPercent}%）　｜　攻擊 ${result.attack}${result.attackStage ? `（基礎 ${result.attackBaseStat} × 能力 ${result.attackStage > 0 ? '+' : ''}${result.attackStage} ×${getDamageStageMultiplier(result.attackStage)}）` : ''}　防禦 ${result.defense}${result.defenseStage ? `（基礎 ${result.defenseBaseStat} × 能力 ${result.defenseStage > 0 ? '+' : ''}${result.defenseStage} ×${getDamageStageMultiplier(result.defenseStage)}）` : ''}　｜　STAB ×${result.stab}　｜　${effText}${result.crit !== 1 ? '　｜　擊中要害 ×1.5' : ''}${result.otherBonus !== 1 ? `　｜　其它加成 ×${result.otherBonus.toFixed(2)}` : ''}　｜　${getWeatherLabel(result.weather)}${result.weatherAttack !== 1 ? `　×${result.weatherAttack}` : ''}　｜　${getTerrainLabel(result.terrain)}${result.terrainAttack !== 1 ? `　×${result.terrainAttack}` : ''}${result.defenseWeather !== 1 ? `　｜　防禦方特防 ×${result.defenseWeather}` : ''}</div>
+      el.innerHTML = `<div class="damage-result-label">傷害範圍</div><div class="damage-result-value">${result.min} ～ ${result.max}</div><div class="damage-result-detail">${damageSafeText(result.move.name)}　｜　威力 ${result.power}　｜　防守方目前 HP ${result.targetHp} / ${result.maxHp}（${result.currentHpPercent}%）　｜　攻擊 ${result.attack}${result.attackStage ? `（基礎 ${result.attackBaseStat} × 能力 ${result.attackStage > 0 ? '+' : ''}${result.attackStage} ×${getDamageStageMultiplier(result.attackStage)}）` : ''}　防禦 ${result.defense}${result.defenseStage ? `（基礎 ${result.defenseBaseStat} × 能力 ${result.defenseStage > 0 ? '+' : ''}${result.defenseStage} ×${getDamageStageMultiplier(result.defenseStage)}）` : ''}　｜　STAB ×${result.stab}　｜　${effText}${heldText}${result.crit !== 1 ? '　｜　擊中要害 ×1.5' : ''}${result.otherBonus !== 1 ? `　｜　其它加成 ×${result.otherBonus.toFixed(2)}` : ''}　｜　${getWeatherLabel(result.weather)}${result.weatherAttack !== 1 ? `　×${result.weatherAttack}` : ''}　｜　${getTerrainLabel(result.terrain)}${result.terrainAttack !== 1 ? `　×${result.terrainAttack}` : ''}${result.defenseWeather !== 1 ? `　｜　防禦方特防 ×${result.defenseWeather}` : ''}</div>
         <div class="damage-hp-bar-wrap">
           <div class="damage-hp-bar-labels"><span>100%</span><span>0%</span></div>
           <div class="damage-hp-bar" aria-label="傷害佔防禦方最大 HP 的比例">
