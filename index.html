@@ -294,6 +294,71 @@
     .damage-level-nature label { display:flex; align-items:center; gap:0.4rem; font-size:0.9rem; font-weight:600; }
     .damage-level-nature input, .damage-level-nature select { padding:0.42rem 0.55rem; border:1px solid var(--border); border-radius:7px; background:#fff; font-size:0.9rem; }
     .damage-level-nature input { width:78px; }
+
+    .damage-held-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0 1rem;
+    }
+    .damage-held-item > label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      width: auto;
+      max-width: none;
+      margin: 0;
+    }
+    .damage-held-search {
+      position: relative;
+      width: 200px;
+      flex: 0 0 200px;
+    }
+    .damage-held-input {
+      width: 100%;
+      padding: 0.42rem 0.55rem;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: #fff;
+      font-size: 0.9rem;
+      box-sizing: border-box;
+      text-align: left;
+    }
+    .damage-held-dropdown {
+      display: none;
+      position: absolute;
+      z-index: 1000;
+      left: 0;
+      right: 0;
+      top: calc(100% + 4px);
+      max-height: 240px;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 6px 18px rgba(0,0,0,.12);
+      text-align: left;
+    }
+    .damage-held-dropdown.open { display: block; }
+    .damage-held-item-opt { padding: 0.5rem 0.7rem; cursor: pointer; font-size: 0.88rem; }
+    .damage-held-item-opt:hover { background: #eff6ff; color: var(--accent); }
+    .damage-held-empty { padding: 0.5rem 0.7rem; color: var(--muted); font-size: 0.85rem; }
+    body.dark-theme .damage-held-input {
+      background: linear-gradient(180deg,#0e141e 0%,#090d14 100%);
+      color: #e7ebf3;
+      border-color: #303a4a;
+    }
+    body.dark-theme .damage-held-dropdown {
+      background: #121925;
+      border-color: #303a4a;
+    }
+    body.dark-theme .damage-held-item-opt:hover {
+      background: #1a2230;
+      color: #93c5fd;
+    }
     .damage-side-image { width: 175px; height: 175px; object-fit: contain; display: block; margin: 0 auto 0.25rem; }
     .damage-side-name { text-align: center; font-size: 1.12rem; font-weight: 800; margin-bottom: 0.15rem; }
     .damage-side-sub { text-align: center; font-size: 0.84rem; color: var(--muted); min-height: 1.25em; }
@@ -2008,8 +2073,254 @@ function typeClass(t) { return 'type-' + t; }
     let damageTargetCache = {};
     let damageState = {
       targetIndex: null, targetData: null, targetForm: null,
-      sides: null, result: null, weather: '無', terrain: '無', unknownMoveType: '一般', currentHpPercent: 100
+      sides: null, result: null, weather: '無', terrain: '無', unknownMoveType: '一般', unknownMoveCategory: '物理', currentHpPercent: 100
     };
+
+    // 傷害計算已實作的「倍率類」持有道具（選單只顯示這些）
+    const DAMAGE_HELD_ITEMS = [
+      { id: '', name: '（無）' },
+      { id: 'life_orb', name: '生命寶珠', kind: 'power', mult: 1.3 },
+      { id: 'choice_band', name: '講究頭帶', kind: 'atk_stat', mult: 1.5 },
+      { id: 'choice_specs', name: '講究眼鏡', kind: 'spa_stat', mult: 1.5 },
+      { id: 'expert_belt', name: '達人帶', kind: 'se_power', mult: 1.2 },
+      { id: 'assault_vest', name: '突擊背心', kind: 'spd_stat', mult: 1.5 },
+      { id: 'eviolite', name: '進化奇石', kind: 'def_spd_stat', mult: 1.5 },
+      { id: 'fairy_feather', name: '妖精之羽', kind: 'type_power', type: '妖精', mult: 1.2 },
+      { id: 'punching_glove', name: '拳擊手套', kind: 'punch_power', mult: 1.1 },
+      { id: 'charcoal', name: '木炭', kind: 'type_power', type: '火', mult: 1.2 },
+      { id: 'mystic_water', name: '神秘水滴', kind: 'type_power', type: '水', mult: 1.2 },
+      { id: 'miracle_seed', name: '奇蹟種子', kind: 'type_power', type: '草', mult: 1.2 },
+      { id: 'magnet', name: '磁鐵', kind: 'type_power', type: '電', mult: 1.2 },
+      { id: 'never_melt_ice', name: '不融冰', kind: 'type_power', type: '冰', mult: 1.2 },
+      { id: 'black_belt', name: '黑帶', kind: 'type_power', type: '格鬥', mult: 1.2 },
+      { id: 'poison_barb', name: '毒針', kind: 'type_power', type: '毒', mult: 1.2 },
+      { id: 'soft_sand', name: '柔軟沙子', kind: 'type_power', type: '地面', mult: 1.2 },
+      { id: 'sharp_beak', name: '銳利鳥嘴', kind: 'type_power', type: '飛行', mult: 1.2 },
+      { id: 'twisted_spoon', name: '彎曲的湯匙', kind: 'type_power', type: '超能力', mult: 1.2 },
+      { id: 'silver_powder', name: '銀粉', kind: 'type_power', type: '蟲', mult: 1.2 },
+      { id: 'hard_stone', name: '硬石頭', kind: 'type_power', type: '岩石', mult: 1.2 },
+      { id: 'spell_tag', name: '詛咒之符', kind: 'type_power', type: '幽靈', mult: 1.2 },
+      { id: 'dragon_fang', name: '龍之牙', kind: 'type_power', type: '龍', mult: 1.2 },
+      { id: 'black_glasses', name: '黑色眼鏡', kind: 'type_power', type: '惡', mult: 1.2 },
+      { id: 'metal_coat', name: '金屬膜', kind: 'type_power', type: '鋼', mult: 1.2 },
+      { id: 'silk_scarf', name: '絲綢圍巾', kind: 'type_power', type: '一般', mult: 1.2 },
+      { id: 'normal_gem', name: '一般寶石', kind: 'type_power', type: '一般', mult: 1.3 },
+      { id: 'fire_gem', name: '火之寶石', kind: 'type_power', type: '火', mult: 1.3 },
+      { id: 'water_gem', name: '水之寶石', kind: 'type_power', type: '水', mult: 1.3 },
+      { id: 'grass_gem', name: '草之寶石', kind: 'type_power', type: '草', mult: 1.3 },
+      { id: 'electric_gem', name: '電之寶石', kind: 'type_power', type: '電', mult: 1.3 },
+      { id: 'ice_gem', name: '冰之寶石', kind: 'type_power', type: '冰', mult: 1.3 },
+      { id: 'fighting_gem', name: '格鬥寶石', kind: 'type_power', type: '格鬥', mult: 1.3 },
+      { id: 'poison_gem', name: '毒之寶石', kind: 'type_power', type: '毒', mult: 1.3 },
+      { id: 'ground_gem', name: '地面寶石', kind: 'type_power', type: '地面', mult: 1.3 },
+      { id: 'flying_gem', name: '飛行寶石', kind: 'type_power', type: '飛行', mult: 1.3 },
+      { id: 'psychic_gem', name: '超能力寶石', kind: 'type_power', type: '超能力', mult: 1.3 },
+      { id: 'bug_gem', name: '蟲之寶石', kind: 'type_power', type: '蟲', mult: 1.3 },
+      { id: 'rock_gem', name: '岩石寶石', kind: 'type_power', type: '岩石', mult: 1.3 },
+      { id: 'ghost_gem', name: '幽靈寶石', kind: 'type_power', type: '幽靈', mult: 1.3 },
+      { id: 'dragon_gem', name: '龍之寶石', kind: 'type_power', type: '龍', mult: 1.3 },
+      { id: 'dark_gem', name: '惡之寶石', kind: 'type_power', type: '惡', mult: 1.3 },
+      { id: 'steel_gem', name: '鋼之寶石', kind: 'type_power', type: '鋼', mult: 1.3 },
+      { id: 'fairy_gem', name: '妖精寶石', kind: 'type_power', type: '妖精', mult: 1.3 },
+      { id: 'occa_berry', name: '巧可果', kind: 'type_resist', type: '火', mult: 0.5 },
+      { id: 'passho_berry', name: '千香果', kind: 'type_resist', type: '水', mult: 0.5 },
+      { id: 'wacan_berry', name: '燭木果', kind: 'type_resist', type: '電', mult: 0.5 },
+      { id: 'rindo_berry', name: '羅子果', kind: 'type_resist', type: '草', mult: 0.5 },
+      { id: 'yache_berry', name: '番荔果', kind: 'type_resist', type: '冰', mult: 0.5 },
+      { id: 'chople_berry', name: '蓮蒲果', kind: 'type_resist', type: '格鬥', mult: 0.5 },
+      { id: 'kebia_berry', name: '通通果', kind: 'type_resist', type: '毒', mult: 0.5 },
+      { id: 'shuca_berry', name: '腰木果', kind: 'type_resist', type: '地面', mult: 0.5 },
+      { id: 'coba_berry', name: '稜瓜果', kind: 'type_resist', type: '飛行', mult: 0.5 },
+      { id: 'payapa_berry', name: '福祿果', kind: 'type_resist', type: '超能力', mult: 0.5 },
+      { id: 'tanga_berry', name: '扁櫻果', kind: 'type_resist', type: '蟲', mult: 0.5 },
+      { id: 'charti_berry', name: '草蠶果', kind: 'type_resist', type: '岩石', mult: 0.5 },
+      { id: 'kasib_berry', name: '佛柑果', kind: 'type_resist', type: '幽靈', mult: 0.5 },
+      { id: 'haban_berry', name: '莓榴果', kind: 'type_resist', type: '龍', mult: 0.5 },
+      { id: 'colbur_berry', name: '刺耳果', kind: 'type_resist', type: '惡', mult: 0.5 },
+      { id: 'babiri_berry', name: '霹霹果', kind: 'type_resist', type: '鋼', mult: 0.5 },
+      { id: 'roseli_berry', name: '洛玫果', kind: 'type_resist', type: '妖精', mult: 0.5 },
+      { id: 'chilan_berry', name: '燈漿果', kind: 'type_resist', type: '一般', mult: 0.5, any_hit: true },
+    ];
+
+    const PUNCH_MOVE_NAMES = new Set([
+      '衝天拳','子彈拳','彗星拳','暗影拳','吸取拳','爆裂拳','雙倍奉還','火焰拳','冰凍拳','雷電拳',
+      '真心之擊','臂錘','增強拳','音速拳','真氣拳','力量拳','迷你拳','百萬噸拳擊','地獄翻滾'
+    ]);
+
+    function getHeldItemDef(id) {
+      return DAMAGE_HELD_ITEMS.find(x => x.id === (id || '')) || DAMAGE_HELD_ITEMS[0];
+    }
+
+    function buildHeldItemSearch(sideKey, selectedId) {
+      const it = getHeldItemDef(selectedId);
+      const value = it && it.id ? it.name : '';
+      return `<div class="damage-held-search">
+        <input type="text" id="damage-${sideKey}-item-search" class="damage-held-input"
+          value="${damageSafeText(value)}" placeholder="搜尋道具，或選（無）清空"
+          autocomplete="off" spellcheck="false"
+          oninput="filterDamageHeldItem('${sideKey}', this.value, true)"
+          onfocus="filterDamageHeldItem('${sideKey}', '', false); openDamageHeldDropdown('${sideKey}')"
+          onkeydown="damageHeldItemKeydown(event, '${sideKey}')">
+        <div id="damage-${sideKey}-item-dropdown" class="damage-held-dropdown"></div>
+      </div>`;
+    }
+
+    function filterDamageHeldItem(sideKey, text, syncClear) {
+      const box = document.getElementById(`damage-${sideKey}-item-dropdown`);
+      if (!box) return;
+      const q = String(text || '').trim().toLowerCase();
+      // 輸入框清空時，同步回到「無」
+      if (syncClear && !q) {
+        const sides = getDamageSides();
+        if (sides?.[sideKey]) sides[sideKey].item = '';
+        damageState.result = null;
+      }
+      let matched = DAMAGE_HELD_ITEMS;
+      if (q) {
+        matched = DAMAGE_HELD_ITEMS.filter(it => {
+          const name = String(it.name || '').toLowerCase();
+          const id = String(it.id || '').toLowerCase();
+          // 「無」可用 無 / (無) / （無） 搜到
+          if (!it.id && (q === '無' || q.includes('無'))) return true;
+          return name.includes(q) || id.includes(q);
+        });
+        // 搜尋時仍把「（無）」固定放最上面，方便切回
+        const noneItem = DAMAGE_HELD_ITEMS[0];
+        if (!matched.some(x => !x.id)) {
+          matched = [noneItem, ...matched];
+        } else {
+          matched = [noneItem, ...matched.filter(x => x.id)];
+        }
+      }
+      if (!matched.length) {
+        box.innerHTML = '<div class="damage-held-empty">沒有符合的道具</div>';
+      } else {
+        box.innerHTML = matched.map(it => {
+          const idAttr = it.id ? damageSafeText(it.id) : '';
+          return `<div class="damage-held-item-opt" data-id="${idAttr}" onclick="selectDamageHeldItem('${sideKey}', this.dataset.id || '')">${damageSafeText(it.name)}</div>`;
+        }).join('');
+      }
+      openDamageHeldDropdown(sideKey);
+    }
+
+    function openDamageHeldDropdown(sideKey) {
+      document.getElementById(`damage-${sideKey}-item-dropdown`)?.classList.add('open');
+    }
+
+    function closeDamageHeldDropdown(sideKey) {
+      document.getElementById(`damage-${sideKey}-item-dropdown`)?.classList.remove('open');
+    }
+
+    function selectDamageHeldItem(sideKey, id) {
+      const sides = getDamageSides();
+      if (!sides?.[sideKey]) return;
+      const it = getHeldItemDef(id || '');
+      sides[sideKey].item = it.id || '';
+      const input = document.getElementById(`damage-${sideKey}-item-search`);
+      if (input) input.value = it.id ? it.name : '';
+      closeDamageHeldDropdown(sideKey);
+      damageState.result = null;
+    }
+
+    function damageHeldItemKeydown(e, sideKey) {
+      if (e.key === 'Escape') {
+        closeDamageHeldDropdown(sideKey);
+        e.target.blur();
+      } else if (e.key === 'Enter') {
+        const box = document.getElementById(`damage-${sideKey}-item-dropdown`);
+        const first = box?.querySelector('.damage-held-item-opt');
+        if (first) {
+          e.preventDefault();
+          selectDamageHeldItem(sideKey, first.getAttribute('data-id') || '');
+        }
+      } else if (e.key === 'Backspace' || e.key === 'Delete') {
+        // 允許刪到空字串後回到無（由 oninput syncClear 處理）
+      }
+    }
+
+    function onDamageHeldItem(sideKey, value) {
+      selectDamageHeldItem(sideKey, value || '');
+    }
+
+    // 進化奇石：僅當該寶可夢在 evolution_chains 中「還能再進化」時生效。
+    // 判斷：其名稱出現在任一進化節點的 from 欄位（表示後面還有下一階段）。
+    function canStillEvolve(data, formLabel) {
+      if (!data) return false;
+      const names = new Set();
+      const baseName = data.name_zh || data.name || '';
+      if (baseName) names.add(baseName);
+      // 表單名稱也可能出現在鏈上（例如地區型態）
+      if (formLabel && formLabel !== '一般') names.add(formLabel);
+      if (Array.isArray(data.forms)) {
+        data.forms.forEach(f => { if (f && f.name) names.add(f.name); });
+      }
+      const chains = data.evolution_chains || [];
+      for (const chain of chains) {
+        if (!Array.isArray(chain)) continue;
+        for (const node of chain) {
+          if (!node) continue;
+          const from = node.from;
+          if (from && names.has(from)) return true;
+        }
+      }
+      return false;
+    }
+
+    function applyHeldItemModifiers(ctx) {
+      let { power, attack, defense, effectiveness, isSpecial, moveType, moveName } = ctx;
+      const atkItem = getHeldItemDef(ctx.atkItemId);
+      const defItem = getHeldItemDef(ctx.defItemId);
+      const notes = [];
+
+      if (atkItem.kind === 'power') {
+        power = Math.floor(power * atkItem.mult);
+        notes.push(atkItem.name + ' 威力×' + atkItem.mult);
+      } else if (atkItem.kind === 'atk_stat' && !isSpecial) {
+        attack = Math.floor(attack * atkItem.mult);
+        notes.push(atkItem.name + ' 攻擊×' + atkItem.mult);
+      } else if (atkItem.kind === 'spa_stat' && isSpecial) {
+        attack = Math.floor(attack * atkItem.mult);
+        notes.push(atkItem.name + ' 特攻×' + atkItem.mult);
+      } else if (atkItem.kind === 'se_power' && effectiveness > 1) {
+        power = Math.floor(power * atkItem.mult);
+        notes.push(atkItem.name + ' 效果絕佳威力×' + atkItem.mult);
+      } else if (atkItem.kind === 'type_power' && moveType === atkItem.type) {
+        power = Math.floor(power * atkItem.mult);
+        notes.push(atkItem.name + ' ' + atkItem.type + '威力×' + atkItem.mult);
+      } else if (atkItem.kind === 'punch_power') {
+        const n = String(moveName || '');
+        if (PUNCH_MOVE_NAMES.has(n) || n.includes('拳')) {
+          power = Math.floor(power * atkItem.mult);
+          notes.push(atkItem.name + ' 拳頭威力×' + atkItem.mult);
+        }
+      }
+
+      if (defItem.kind === 'spd_stat' && isSpecial) {
+        defense = Math.floor(defense * defItem.mult);
+        notes.push(defItem.name + ' 特防×' + defItem.mult);
+      } else if (defItem.kind === 'def_spd_stat') {
+        // 進化奇石：必須還能再進化才有效
+        if (canStillEvolve(ctx.defData, ctx.defForm)) {
+          defense = Math.floor(defense * defItem.mult);
+          notes.push(defItem.name + ' 防禦/特防×' + defItem.mult);
+        } else {
+          notes.push(defItem.name + '（已最終進化，無效）');
+        }
+      } else if (defItem.kind === 'def_stat' && !isSpecial) {
+        defense = Math.floor(defense * defItem.mult);
+        notes.push(defItem.name + ' 防禦×' + defItem.mult);
+      } else if (defItem.kind === 'type_resist' && moveType === defItem.type) {
+        // 屬性減半樹果：效果絕佳時（燈漿果為一般屬性任意命中）觸發，威力減半
+        const isChilan = !!defItem.any_hit;
+        if (isChilan || effectiveness > 1) {
+          power = Math.floor(power * defItem.mult);
+          notes.push(defItem.name + ' ' + defItem.type + '威力×' + defItem.mult);
+        }
+      }
+
+      return { power, attack, defense, notes };
+    }
+
 
     function damageSafeText(s) {
       return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
@@ -2088,6 +2399,7 @@ function typeClass(t) { return 'type-' + t; }
         iv: { hp:31, attack:31, defense:31, sp_attack:31, sp_defense:31, speed:31 },
         ev: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
         stages: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
+        item: '',
         source: 'target'
       };
       side.stats = calcSideStats(side);
@@ -2170,6 +2482,10 @@ function typeClass(t) { return 'type-' + t; }
       if (!e.target.closest('.damage-pokemon-search')) {
         closeDamagePokemonDropdown('atk');
         closeDamagePokemonDropdown('def');
+      }
+      if (!e.target.closest('.damage-held-search')) {
+        closeDamageHeldDropdown('atk');
+        closeDamageHeldDropdown('def');
       }
     });
 
@@ -2362,6 +2678,9 @@ function typeClass(t) { return 'type-' + t; }
         <div class="damage-level-nature">
           <label>等級 <input type="number" min="1" max="100" value="${side.level}" oninput="onDamageLevelChange('${sideKey}', this.value)"></label>
           <label>性格 <select onchange="onDamageNatureChange('${sideKey}', this.value)">${buildNatureOptions(Math.max(0, NATURES.indexOf(side.nature)))}</select></label>
+        </div>
+        <div class="damage-held-item">
+          <label>持有道具${buildHeldItemSearch(sideKey, side.item || '')}</label>
         </div>
         <div class="damage-adjust-grid">
           <div></div><div class="damage-adjust-title">個體值滑桿</div><div></div><div class="damage-adjust-title">努力值滑桿</div><div></div><div class="damage-adjust-title">能力變化</div><div class="damage-adjust-title">現在數值</div>
@@ -2577,14 +2896,25 @@ function typeClass(t) { return 'type-' + t; }
       const moveEl = document.getElementById('damage-move');
       const typeWrap = document.getElementById('damage-unknown-type-wrap');
       const typeEl = document.getElementById('damage-unknown-type');
+      const catWrap = document.getElementById('damage-unknown-category-wrap');
+      const catEl = document.getElementById('damage-unknown-category');
       if (!moveEl || !typeWrap || !typeEl) return;
       const isUnknown = moveEl.value === '__unknown__';
       typeWrap.style.display = isUnknown ? '' : 'none';
-      if (isUnknown) typeEl.value = damageState.unknownMoveType || '一般';
+      if (catWrap) catWrap.style.display = isUnknown ? '' : 'none';
+      if (isUnknown) {
+        typeEl.value = damageState.unknownMoveType || '一般';
+        if (catEl) catEl.value = damageState.unknownMoveCategory || '物理';
+      }
     }
 
     function onDamageUnknownTypeChange(value) {
       damageState.unknownMoveType = DAMAGE_TYPES.includes(value) ? value : '一般';
+      damageState.result = null;
+    }
+
+    function onDamageUnknownCategoryChange(value) {
+      damageState.unknownMoveCategory = (value === '特殊') ? '特殊' : '物理';
       damageState.result = null;
     }
 
@@ -2743,7 +3073,12 @@ function typeClass(t) { return 'type-' + t; }
       const idx = Number(moveEl?.value || 0);
       let move;
       if (moveEl?.value === '__unknown__') {
-        move = { name: '(未知技能)', type: damageState.unknownMoveType || document.getElementById('damage-unknown-type')?.value || '一般', category: '物理', power: 100 };
+        move = {
+          name: '(未知技能)',
+          type: damageState.unknownMoveType || document.getElementById('damage-unknown-type')?.value || '一般',
+          category: damageState.unknownMoveCategory || document.getElementById('damage-unknown-category')?.value || '物理',
+          power: 100
+        };
       } else {
         move = moves[idx];
       }
@@ -2762,15 +3097,33 @@ function typeClass(t) { return 'type-' + t; }
       // 注意：能力變化不是只顯示在 UI；這裡會先將「現在能力值」乘上對應倍率，再帶入公式。
       const attackStage = Number(sides.atk.stages?.[attackKey] ?? 0);
       const defenseStage = Number(sides.def.stages?.[defenseKey] ?? 0);
-      const attack = Math.floor(Number(sides.atk.stats?.[attackKey] || 0) * getDamageStageMultiplier(attackStage));
-      const defenseBase = Math.floor(Number(sides.def.stats?.[defenseKey] || 0) * getDamageStageMultiplier(defenseStage));
+      let attack = Math.floor(Number(sides.atk.stats?.[attackKey] || 0) * getDamageStageMultiplier(attackStage));
+      let defenseBase = Math.floor(Number(sides.def.stats?.[defenseKey] || 0) * getDamageStageMultiplier(defenseStage));
       const defenseWeather = getWeatherDefenseMultiplier(weather, sides.def, adjustedMove.category);
-      const defense = Math.floor(defenseBase * defenseWeather);
+      let defense = Math.floor(defenseBase * defenseWeather);
       const customPower = parseInt(document.getElementById('damage-power')?.value, 10);
-      const power = Math.max(1, Number.isFinite(customPower) && customPower > 0 ? customPower : (parseInt(adjustedMove.power,10) || 0));
-      const base = Math.floor(Math.floor(Math.floor((2 * level) / 5 + 2) * power * attack / Math.max(1, defense)) / 50) + 2;
+      let power = Math.max(1, Number.isFinite(customPower) && customPower > 0 ? customPower : (parseInt(adjustedMove.power,10) || 0));
       const stab = (sides.atk.data && getFormTypes(sides.atk.form, sides.atk.data).includes(adjustedMove.type)) ? 1.5 : 1;
       const effectiveness = typeEffectiveness(adjustedMove.type, getDamageTargetTypes(sides.def));
+      // 持有道具倍率（僅已實作項目）
+      const held = applyHeldItemModifiers({
+        isSpecial,
+        power,
+        attack,
+        defense,
+        effectiveness,
+        moveType: adjustedMove.type,
+        moveName: adjustedMove.name,
+        atkItemId: sides.atk.item || '',
+        defItemId: sides.def.item || '',
+        defData: sides.def.data || null,
+        defForm: sides.def.form || sides.def.name || ''
+      });
+      power = held.power;
+      attack = held.attack;
+      defense = held.defense;
+      const heldNotes = held.notes || [];
+      const base = Math.floor(Math.floor(Math.floor((2 * level) / 5 + 2) * power * attack / Math.max(1, defense)) / 50) + 2;
       const crit = document.getElementById('damage-crit')?.checked ? 1.5 : 1;
       const weatherAttack = getWeatherAttackMultiplier(weather, adjustedMove.type, adjustedMove.name);
       const terrainAttack = getTerrainAttackMultiplier(terrain, adjustedMove.type, adjustedMove.name);
@@ -2796,7 +3149,7 @@ function typeClass(t) { return 'type-' + t; }
       const hpBasis = targetHp > 0 ? targetHp : maxHp;
       const minPercent = hpBasis > 0 ? (Math.min(...values) / hpBasis) * 100 : 0;
       const maxPercent = hpBasis > 0 ? (Math.max(...values) / hpBasis) * 100 : 0;
-      const result = { attackKey, defenseKey, attackStage, defenseStage, attackBaseStat: Number(sides.atk.stats?.[attackKey] || 0), defenseBaseStat: Number(sides.def.stats?.[defenseKey] || 0), min: Math.min(...values), max: Math.max(...values), move: adjustedMove, originalMove: move, power, attack, defense, base, stab, effectiveness, crit, otherBonus, otherBonusPercent, weather, weatherAttack, terrain, terrainAttack, defenseWeather, values, maxHp, targetHp, currentHpPercent, minPercent, maxPercent };
+      const result = { attackKey, defenseKey, attackStage, defenseStage, attackBaseStat: Number(sides.atk.stats?.[attackKey] || 0), defenseBaseStat: Number(sides.def.stats?.[defenseKey] || 0), min: Math.min(...values), max: Math.max(...values), move: adjustedMove, originalMove: move, power, attack, defense, base, stab, effectiveness, crit, otherBonus, otherBonusPercent, weather, weatherAttack, terrain, terrainAttack, defenseWeather, values, maxHp, targetHp, currentHpPercent, minPercent, maxPercent , heldNotes };
       damageState.result = result;
       renderDamageResult(result);
     }
@@ -2806,6 +3159,9 @@ function typeClass(t) { return 'type-' + t; }
       if (!el) return;
       if (result?.error) { el.innerHTML = `<div class="damage-result-label">${damageSafeText(result.error)}</div>`; return; }
       const effText = result.effectiveness === 0 ? '沒有效果' : `屬性相性 ×${result.effectiveness}`;
+      const heldText = (result.heldNotes && result.heldNotes.length)
+        ? `　｜　道具：${result.heldNotes.map(damageSafeText).join('、')}`
+        : '';
       const minPct = Math.min(100, Math.max(0, Number(result.minPercent || 0)));
       const maxPct = Math.min(100, Math.max(0, Number(result.maxPercent || 0)));
       // 血條方向固定為左 100% → 右 0%；受傷區域從右側開始。
@@ -2817,7 +3173,7 @@ function typeClass(t) { return 'type-' + t; }
       const currentHp = Number(result.targetHp || 0);
       const guaranteedHits = currentHp <= 0 ? null : (result.min >= currentHp ? 1 : (result.min > 0 ? Math.ceil(currentHp / result.min) : null));
       const guaranteedText = guaranteedHits ? `確${guaranteedHits}` : '確—';
-      el.innerHTML = `<div class="damage-result-label">傷害範圍</div><div class="damage-result-value">${result.min} ～ ${result.max}</div><div class="damage-result-detail">${damageSafeText(result.move.name)}　｜　威力 ${result.power}　｜　防守方目前 HP ${result.targetHp} / ${result.maxHp}（${result.currentHpPercent}%）　｜　攻擊 ${result.attack}${result.attackStage ? `（基礎 ${result.attackBaseStat} × 能力 ${result.attackStage > 0 ? '+' : ''}${result.attackStage} ×${getDamageStageMultiplier(result.attackStage)}）` : ''}　防禦 ${result.defense}${result.defenseStage ? `（基礎 ${result.defenseBaseStat} × 能力 ${result.defenseStage > 0 ? '+' : ''}${result.defenseStage} ×${getDamageStageMultiplier(result.defenseStage)}）` : ''}　｜　STAB ×${result.stab}　｜　${effText}${result.crit !== 1 ? '　｜　擊中要害 ×1.5' : ''}${result.otherBonus !== 1 ? `　｜　其它加成 ×${result.otherBonus.toFixed(2)}` : ''}　｜　${getWeatherLabel(result.weather)}${result.weatherAttack !== 1 ? `　×${result.weatherAttack}` : ''}　｜　${getTerrainLabel(result.terrain)}${result.terrainAttack !== 1 ? `　×${result.terrainAttack}` : ''}${result.defenseWeather !== 1 ? `　｜　防禦方特防 ×${result.defenseWeather}` : ''}</div>
+      el.innerHTML = `<div class="damage-result-label">傷害範圍</div><div class="damage-result-value">${result.min} ～ ${result.max}</div><div class="damage-result-detail">${damageSafeText(result.move.name)}　｜　威力 ${result.power}　｜　防守方目前 HP ${result.targetHp} / ${result.maxHp}（${result.currentHpPercent}%）　｜　攻擊 ${result.attack}${result.attackStage ? `（基礎 ${result.attackBaseStat} × 能力 ${result.attackStage > 0 ? '+' : ''}${result.attackStage} ×${getDamageStageMultiplier(result.attackStage)}）` : ''}　防禦 ${result.defense}${result.defenseStage ? `（基礎 ${result.defenseBaseStat} × 能力 ${result.defenseStage > 0 ? '+' : ''}${result.defenseStage} ×${getDamageStageMultiplier(result.defenseStage)}）` : ''}　｜　STAB ×${result.stab}　｜　${effText}${heldText}${result.crit !== 1 ? '　｜　擊中要害 ×1.5' : ''}${result.otherBonus !== 1 ? `　｜　其它加成 ×${result.otherBonus.toFixed(2)}` : ''}　｜　${getWeatherLabel(result.weather)}${result.weatherAttack !== 1 ? `　×${result.weatherAttack}` : ''}　｜　${getTerrainLabel(result.terrain)}${result.terrainAttack !== 1 ? `　×${result.terrainAttack}` : ''}${result.defenseWeather !== 1 ? `　｜　防禦方特防 ×${result.defenseWeather}` : ''}</div>
         <div class="damage-hp-bar-wrap">
           <div class="damage-hp-bar-labels"><span>100%</span><span>0%</span></div>
           <div class="damage-hp-bar" aria-label="傷害佔防禦方最大 HP 的比例">
@@ -2894,6 +3250,12 @@ function typeClass(t) { return 'type-' + t; }
           </label>
           <label id="damage-unknown-type-wrap">屬性
             <select id="damage-unknown-type" onchange="onDamageUnknownTypeChange(this.value)">${DAMAGE_TYPES.map(t => `<option value="${t}">${t}</option>`).join('')}</select>
+          </label>
+          <label id="damage-unknown-category-wrap" style="display:none">分類
+            <select id="damage-unknown-category" onchange="onDamageUnknownCategoryChange(this.value)">
+              <option value="物理">攻擊（物理）</option>
+              <option value="特殊">特攻（特殊）</option>
+            </select>
           </label>
           <label>招式威力 <input type="number" id="damage-power" min="1" max="1000" value="100"></label>
         </div>
