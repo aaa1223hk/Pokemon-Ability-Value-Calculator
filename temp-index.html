@@ -2073,7 +2073,7 @@ function typeClass(t) { return 'type-' + t; }
     let damageTargetCache = {};
     let damageState = {
       targetIndex: null, targetData: null, targetForm: null,
-      sides: null, result: null, weather: '無', terrain: '無', unknownMoveType: '一般', currentHpPercent: 100
+      sides: null, result: null, weather: '無', terrain: '無', unknownMoveType: '一般', unknownMoveCategory: '物理', currentHpPercent: 100
     };
 
     // 傷害計算已實作的「倍率類」持有道具（選單只顯示這些）
@@ -2871,14 +2871,25 @@ function typeClass(t) { return 'type-' + t; }
       const moveEl = document.getElementById('damage-move');
       const typeWrap = document.getElementById('damage-unknown-type-wrap');
       const typeEl = document.getElementById('damage-unknown-type');
+      const catWrap = document.getElementById('damage-unknown-category-wrap');
+      const catEl = document.getElementById('damage-unknown-category');
       if (!moveEl || !typeWrap || !typeEl) return;
       const isUnknown = moveEl.value === '__unknown__';
       typeWrap.style.display = isUnknown ? '' : 'none';
-      if (isUnknown) typeEl.value = damageState.unknownMoveType || '一般';
+      if (catWrap) catWrap.style.display = isUnknown ? '' : 'none';
+      if (isUnknown) {
+        typeEl.value = damageState.unknownMoveType || '一般';
+        if (catEl) catEl.value = damageState.unknownMoveCategory || '物理';
+      }
     }
 
     function onDamageUnknownTypeChange(value) {
       damageState.unknownMoveType = DAMAGE_TYPES.includes(value) ? value : '一般';
+      damageState.result = null;
+    }
+
+    function onDamageUnknownCategoryChange(value) {
+      damageState.unknownMoveCategory = (value === '特殊') ? '特殊' : '物理';
       damageState.result = null;
     }
 
@@ -3037,7 +3048,12 @@ function typeClass(t) { return 'type-' + t; }
       const idx = Number(moveEl?.value || 0);
       let move;
       if (moveEl?.value === '__unknown__') {
-        move = { name: '(未知技能)', type: damageState.unknownMoveType || document.getElementById('damage-unknown-type')?.value || '一般', category: '物理', power: 100 };
+        move = {
+          name: '(未知技能)',
+          type: damageState.unknownMoveType || document.getElementById('damage-unknown-type')?.value || '一般',
+          category: damageState.unknownMoveCategory || document.getElementById('damage-unknown-category')?.value || '物理',
+          power: 100
+        };
       } else {
         move = moves[idx];
       }
@@ -3209,6 +3225,12 @@ function typeClass(t) { return 'type-' + t; }
           </label>
           <label id="damage-unknown-type-wrap">屬性
             <select id="damage-unknown-type" onchange="onDamageUnknownTypeChange(this.value)">${DAMAGE_TYPES.map(t => `<option value="${t}">${t}</option>`).join('')}</select>
+          </label>
+          <label id="damage-unknown-category-wrap" style="display:none">分類
+            <select id="damage-unknown-category" onchange="onDamageUnknownCategoryChange(this.value)">
+              <option value="物理">攻擊（物理）</option>
+              <option value="特殊">特攻（特殊）</option>
+            </select>
           </label>
           <label>招式威力 <input type="number" id="damage-power" min="1" max="1000" value="100"></label>
         </div>
