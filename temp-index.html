@@ -105,6 +105,8 @@
     }
     #abilities-area { display: flex; flex-wrap: wrap; gap: 0.25rem; }
     .ability-badge { cursor: help; position: relative; }
+    .move-name-tip { cursor: help; border-bottom: 1px dashed #94a3b8; }
+    body.dark-theme .move-name-tip { border-bottom-color: #64748b; }
     .ability-tooltip {
       position: fixed; z-index: 9999; max-width: 320px;
       background: #1e293b; color: #f1f5f9; padding: 0.75rem 1rem;
@@ -1979,12 +1981,63 @@ function typeClass(t) { return 'type-' + t; }
     function hideAbilityTip() {
       if (tipEl) tipEl.style.display = 'none';
       // 移除可能殘留的 mousemove
-      document.querySelectorAll('.ability-badge').forEach(b => {
+      document.querySelectorAll('.ability-badge, .move-name-tip').forEach(b => {
         if (b._tipMove) {
           document.removeEventListener('mousemove', b._tipMove);
           b._tipMove = null;
         }
       });
+    }
+
+    // 招式效果快取（來自 data/move_list.json）
+    const moveEffectCache = {};
+    let moveListLoaded = false;
+    let moveListPromise = null;
+
+    async function ensureMoveList() {
+      if (moveListLoaded) return;
+      if (moveListPromise) return moveListPromise;
+      moveListPromise = (async () => {
+        try {
+          const res = await fetch('data/move_list.json');
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          const list = await res.json();
+          if (Array.isArray(list)) {
+            for (const m of list) {
+              const name = m.name_zh || m.name;
+              if (name) {
+                moveEffectCache[name] = m.description || m.effect || '';
+              }
+            }
+          }
+          moveListLoaded = true;
+        } catch (err) {
+          console.warn('move_list.json load failed', err);
+          moveListLoaded = true; // 避免重試爆炸
+        }
+      })();
+      return moveListPromise;
+    }
+
+    async function showMoveTip(e) {
+      const name = e.currentTarget.getAttribute('data-move');
+      if (!name) return;
+      const el = ensureTipEl();
+      el.innerHTML = `<div class="tip-name">${name}</div><div class="tip-loading">載入中…</div>`;
+      positionTip(e);
+
+      const moveHandler = (ev) => positionTip(ev);
+      e.currentTarget._tipMove = moveHandler;
+      document.addEventListener('mousemove', moveHandler);
+
+      await ensureMoveList();
+      const desc = moveEffectCache[name];
+      if (desc) {
+        el.innerHTML = `<div class="tip-name">${name}</div><div>${desc}</div>`;
+      } else {
+        el.innerHTML = `<div class="tip-name">${name}</div><div class="tip-loading">找不到招式說明</div>`;
+      }
+      positionTip(e);
     }
 
     function updateBaseStatTotal(statsOrData) {
@@ -3642,11 +3695,18 @@ function typeClass(t) { return 'type-' + t; }
           <th class="sortable" onclick="sortMoves('accuracy')">命中<span class="sort-ind">${ind('accuracy')}</span></th>
           <th>PP</th>
         </tr></thead>
-        <tbody>${list.map(m => `<tr>
-          <td>${m.level ?? '—'}</td><td>${m.name ?? '—'}</td>
+        <tbody>${list.map(m => {
+          const mn = m.name ?? '—';
+          const safeName = String(mn).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+          const nameCell = mn === '—'
+            ? '—'
+            : `<span class="move-name-tip" data-move="${safeName}" onmouseenter="showMoveTip(event)" onmouseleave="hideAbilityTip()">${mn}</span>`;
+          return `<tr>
+          <td>${m.level ?? '—'}</td><td>${nameCell}</td>
           <td><span class="type-badge ${typeClass(m.type || '')}" style="font-size:0.75rem;padding:0.1rem 0.4rem">${m.type || '—'}</span></td>
           <td>${m.category ?? '—'}</td><td>${m.power ?? '—'}</td><td>${m.accuracy ?? '—'}</td><td>${m.pp ?? '—'}</td>
-        </tr>`).join('')}</tbody></table></div>`;
+        </tr>`;
+        }).join('')}</tbody></table></div>`;
     }
 
     function sortMoves(key) {
