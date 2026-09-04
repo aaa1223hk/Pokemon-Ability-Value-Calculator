@@ -509,9 +509,10 @@
       }
     }
     .damage-crit-inline { display:inline-flex; align-items:center; gap:8px; margin-left:16px; font-weight:600; }
-    .damage-weather-controls { display:flex; justify-content:center; align-items:center; gap:0.7rem; margin-top:0.9rem; flex-wrap:wrap; }
-    .damage-weather-controls label { display:flex; align-items:center; gap:0.55rem; font-size:0.95rem; font-weight:600; }
+    .damage-weather-controls { display:flex; justify-content:center; align-items:flex-start; gap:0.7rem; margin-top:0.9rem; flex-wrap:wrap; }
+    .damage-weather-controls label { display:flex; flex-direction:column; align-items:flex-start; gap:0.35rem; font-size:0.95rem; font-weight:600; }
     .damage-weather-controls select { min-width:180px; padding:0.55rem 0.7rem; border:1px solid var(--border); border-radius:8px; background:#fff; font-size:0.95rem; }
+    .damage-weather-controls select[multiple] { min-width:200px; height:auto; min-height:7.5rem; padding:0.35rem; }
     .damage-calc-wrap { display:flex; justify-content:center; align-items:center; gap:14px; margin-top:18px; }
     .damage-calc-wrap .damage-calc-btn { margin:0; }
 
@@ -2126,7 +2127,7 @@ function typeClass(t) { return 'type-' + t; }
     let damageTargetCache = {};
     let damageState = {
       targetIndex: null, targetData: null, targetForm: null,
-      sides: null, result: null, weather: '無', terrain: '無', unknownMoveType: '一般', unknownMoveCategory: '物理', currentHpPercent: 100
+      sides: null, result: null, weather: '無', terrain: '無', statuses: [], unknownMoveType: '一般', unknownMoveCategory: '物理', currentHpPercent: 100
     };
 
     // 傷害計算已實作的「倍率類」持有道具（選單只顯示這些）
@@ -2932,6 +2933,13 @@ function typeClass(t) { return 'type-' + t; }
       if (weatherEl) weatherEl.value = damageState.weather || '無';
       const terrainEl = document.getElementById('damage-terrain');
       if (terrainEl) terrainEl.value = damageState.terrain || '無';
+      const statusEl = document.getElementById('damage-status');
+      if (statusEl) {
+        const selected = new Set(damageState.statuses || []);
+        Array.from(statusEl.options).forEach(opt => {
+          opt.selected = selected.has(opt.value);
+        });
+      }
       const atkEl = document.getElementById('damage-atk-side');
       const defEl = document.getElementById('damage-def-side');
       if (atkEl) atkEl.innerHTML = renderDamageSide('atk', atk);
@@ -2997,6 +3005,17 @@ function typeClass(t) { return 'type-' + t; }
       damageState.terrain = ['無','電氣場地','青草場地','薄霧場地','精神場地'].includes(value) ? value : '無';
       damageState.result = null;
       updateDamagePowerForConditions();
+    }
+
+    function onDamageStatusChange() {
+      const el = document.getElementById('damage-status');
+      if (!el) {
+        damageState.statuses = [];
+        return;
+      }
+      const selected = Array.from(el.selectedOptions).map(o => o.value).filter(Boolean);
+      damageState.statuses = selected;
+      damageState.result = null;
     }
 
     function getWeatherAdjustedMove(move, weather) {
@@ -3068,6 +3087,59 @@ function typeClass(t) { return 'type-' + t; }
         if (name.includes('廣域戰力')) multiplier *= 1.5;
       }
       return multiplier;
+    }
+
+    /** 狀態倍率：燒傷、反射壁、光牆、極光幕
+     *  - 燒傷(攻擊方)：物理招式傷害 ×0.5
+     *  - 反射壁：物理招式，單打 ×0.5、雙打 ×2732/4096
+     *  - 光牆：特殊招式，單打 ×0.5、雙打 ×2732/4096
+     *  - 極光幕：同時具反射壁+光牆效果；若已選反射壁/光牆則不疊加
+     */
+    function getStatusMultipliers(statuses, isSpecial, category) {
+      const set = new Set(Array.isArray(statuses) ? statuses : []);
+      let mult = 1;
+      const notes = [];
+      const isPhysical = !isSpecial && !String(category || '').includes('特殊');
+
+      // 燒傷：僅對物理招式生效（與官方一致）
+      if (set.has('burn_atk') && isPhysical) {
+        mult *= 0.5;
+        notes.push('燒傷(攻擊方) ×0.5');
+      }
+
+      // 極光幕優先：同時覆蓋物理與特殊，且不與反射壁/光牆疊加
+      if (set.has('aurora_veil')) {
+        // 極光幕使用單打倍率 ×1/2（官方極光幕在單打為 1/2，雙打為 2732/4096；此處先採單打預設，若同時選了 doubles 選項再覆寫）
+        let screenMult = 0.5;
+        if (set.has('reflect_doubles') || set.has('lightscreen_doubles')) {
+          screenMult = 2732 / 4096;
+        }
+        mult *= screenMult;
+        notes.push(`極光幕 ×${screenMult === 0.5 ? '1/2' : '2732/4096'}`);
+      } else {
+        // 反射壁（僅物理）
+        if (isPhysical) {
+          if (set.has('reflect_doubles')) {
+            mult *= 2732 / 4096;
+            notes.push('反射壁(雙打) ×2732/4096');
+          } else if (set.has('reflect_singles')) {
+            mult *= 0.5;
+            notes.push('反射壁(單打) ×1/2');
+          }
+        }
+        // 光牆（僅特殊）
+        if (isSpecial) {
+          if (set.has('lightscreen_doubles')) {
+            mult *= 2732 / 4096;
+            notes.push('光牆(雙打) ×2732/4096');
+          } else if (set.has('lightscreen_singles')) {
+            mult *= 0.5;
+            notes.push('光牆(單打) ×1/2');
+          }
+        }
+      }
+
+      return { mult, notes };
     }
 
     function getTerrainLabel(terrain) {
@@ -3180,6 +3252,10 @@ function typeClass(t) { return 'type-' + t; }
       const crit = document.getElementById('damage-crit')?.checked ? 1.5 : 1;
       const weatherAttack = getWeatherAttackMultiplier(weather, adjustedMove.type, adjustedMove.name);
       const terrainAttack = getTerrainAttackMultiplier(terrain, adjustedMove.type, adjustedMove.name);
+      // 狀態倍率（燒傷 / 反射壁 / 光牆 / 極光幕）
+      const statusInfo = getStatusMultipliers(damageState.statuses || [], isSpecial, adjustedMove.category);
+      const statusMult = statusInfo.mult;
+      const statusNotes = statusInfo.notes || [];
       const otherBonusPercentRaw = parseFloat(document.getElementById('damage-other-bonus')?.value || '0');
       const otherBonusPercent = Number.isFinite(otherBonusPercentRaw) ? otherBonusPercentRaw : 0;
       const otherBonus = 1 + otherBonusPercent / 100;
@@ -3191,6 +3267,7 @@ function typeClass(t) { return 'type-' + t; }
         v = Math.floor(v * effectiveness);
         v = Math.floor(v * weatherAttack);
         v = Math.floor(v * terrainAttack);
+        v = Math.floor(v * statusMult);
         v = Math.floor(v * otherBonus);
         values.push(effectiveness === 0 ? 0 : Math.max(1, v));
       }
@@ -3202,7 +3279,7 @@ function typeClass(t) { return 'type-' + t; }
       const hpBasis = targetHp > 0 ? targetHp : maxHp;
       const minPercent = hpBasis > 0 ? (Math.min(...values) / hpBasis) * 100 : 0;
       const maxPercent = hpBasis > 0 ? (Math.max(...values) / hpBasis) * 100 : 0;
-      const result = { attackKey, defenseKey, attackStage, defenseStage, attackBaseStat: Number(sides.atk.stats?.[attackKey] || 0), defenseBaseStat: Number(sides.def.stats?.[defenseKey] || 0), min: Math.min(...values), max: Math.max(...values), move: adjustedMove, originalMove: move, power, attack, defense, base, stab, effectiveness, crit, otherBonus, otherBonusPercent, weather, weatherAttack, terrain, terrainAttack, defenseWeather, values, maxHp, targetHp, currentHpPercent, minPercent, maxPercent , heldNotes };
+      const result = { attackKey, defenseKey, attackStage, defenseStage, attackBaseStat: Number(sides.atk.stats?.[attackKey] || 0), defenseBaseStat: Number(sides.def.stats?.[defenseKey] || 0), min: Math.min(...values), max: Math.max(...values), move: adjustedMove, originalMove: move, power, attack, defense, base, stab, effectiveness, crit, otherBonus, otherBonusPercent, weather, weatherAttack, terrain, terrainAttack, defenseWeather, statusMult, statusNotes, values, maxHp, targetHp, currentHpPercent, minPercent, maxPercent , heldNotes };
       damageState.result = result;
       renderDamageResult(result);
     }
@@ -3215,6 +3292,9 @@ function typeClass(t) { return 'type-' + t; }
       const heldText = (result.heldNotes && result.heldNotes.length)
         ? `　｜　道具：${result.heldNotes.map(damageSafeText).join('、')}`
         : '';
+      const statusText = (result.statusNotes && result.statusNotes.length)
+        ? `　｜　狀態：${result.statusNotes.map(damageSafeText).join('、')}`
+        : '';
       const minPct = Math.min(100, Math.max(0, Number(result.minPercent || 0)));
       const maxPct = Math.min(100, Math.max(0, Number(result.maxPercent || 0)));
       // 血條方向固定為左 100% → 右 0%；受傷區域從右側開始。
@@ -3226,7 +3306,7 @@ function typeClass(t) { return 'type-' + t; }
       const currentHp = Number(result.targetHp || 0);
       const guaranteedHits = currentHp <= 0 ? null : (result.min >= currentHp ? 1 : (result.min > 0 ? Math.ceil(currentHp / result.min) : null));
       const guaranteedText = guaranteedHits ? `確${guaranteedHits}` : '確—';
-      el.innerHTML = `<div class="damage-result-label">傷害範圍</div><div class="damage-result-value">${result.min} ～ ${result.max}</div><div class="damage-result-detail">${damageSafeText(result.move.name)}　｜　威力 ${result.power}　｜　防守方目前 HP ${result.targetHp} / ${result.maxHp}（${result.currentHpPercent}%）　｜　攻擊 ${result.attack}${result.attackStage ? `（基礎 ${result.attackBaseStat} × 能力 ${result.attackStage > 0 ? '+' : ''}${result.attackStage} ×${getDamageStageMultiplier(result.attackStage)}）` : ''}　防禦 ${result.defense}${result.defenseStage ? `（基礎 ${result.defenseBaseStat} × 能力 ${result.defenseStage > 0 ? '+' : ''}${result.defenseStage} ×${getDamageStageMultiplier(result.defenseStage)}）` : ''}　｜　STAB ×${result.stab}　｜　${effText}${heldText}${result.crit !== 1 ? '　｜　擊中要害 ×1.5' : ''}${result.otherBonus !== 1 ? `　｜　其它加成 ×${result.otherBonus.toFixed(2)}` : ''}　｜　${getWeatherLabel(result.weather)}${result.weatherAttack !== 1 ? `　×${result.weatherAttack}` : ''}　｜　${getTerrainLabel(result.terrain)}${result.terrainAttack !== 1 ? `　×${result.terrainAttack}` : ''}${result.defenseWeather !== 1 ? `　｜　防禦方特防 ×${result.defenseWeather}` : ''}</div>
+      el.innerHTML = `<div class="damage-result-label">傷害範圍</div><div class="damage-result-value">${result.min} ～ ${result.max}</div><div class="damage-result-detail">${damageSafeText(result.move.name)}　｜　威力 ${result.power}　｜　防守方目前 HP ${result.targetHp} / ${result.maxHp}（${result.currentHpPercent}%）　｜　攻擊 ${result.attack}${result.attackStage ? `（基礎 ${result.attackBaseStat} × 能力 ${result.attackStage > 0 ? '+' : ''}${result.attackStage} ×${getDamageStageMultiplier(result.attackStage)}）` : ''}　防禦 ${result.defense}${result.defenseStage ? `（基礎 ${result.defenseBaseStat} × 能力 ${result.defenseStage > 0 ? '+' : ''}${result.defenseStage} ×${getDamageStageMultiplier(result.defenseStage)}）` : ''}　｜　STAB ×${result.stab}　｜　${effText}${heldText}${statusText}${result.crit !== 1 ? '　｜　擊中要害 ×1.5' : ''}${result.otherBonus !== 1 ? `　｜　其它加成 ×${result.otherBonus.toFixed(2)}` : ''}　｜　${getWeatherLabel(result.weather)}${result.weatherAttack !== 1 ? `　×${result.weatherAttack}` : ''}　｜　${getTerrainLabel(result.terrain)}${result.terrainAttack !== 1 ? `　×${result.terrainAttack}` : ''}${result.defenseWeather !== 1 ? `　｜　防禦方特防 ×${result.defenseWeather}` : ''}</div>
         <div class="damage-hp-bar-wrap">
           <div class="damage-hp-bar-labels"><span>100%</span><span>0%</span></div>
           <div class="damage-hp-bar" aria-label="傷害佔防禦方最大 HP 的比例">
@@ -3329,6 +3409,16 @@ function typeClass(t) { return 'type-' + t; }
               <option value="青草場地">青草場地</option>
               <option value="薄霧場地">薄霧場地</option>
               <option value="精神場地">精神場地</option>
+            </select>
+          </label>
+          <label>狀態
+            <select id="damage-status" multiple size="5" onchange="onDamageStatusChange()" title="可按住 Ctrl / Cmd 多選">
+              <option value="burn_atk">燒傷(攻擊方)</option>
+              <option value="reflect_singles">反射壁 (單打)</option>
+              <option value="reflect_doubles">反射壁 (雙打)</option>
+              <option value="lightscreen_singles">光牆 (單打)</option>
+              <option value="lightscreen_doubles">光牆 (雙打)</option>
+              <option value="aurora_veil">極光幕</option>
             </select>
           </label>
         </div>
