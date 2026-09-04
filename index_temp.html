@@ -585,6 +585,48 @@
       background: #1a2230;
       color: #93c5fd;
     }
+    .damage-status-panel {
+      margin-top: 0.85rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.65rem;
+    }
+    .damage-status-panel-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+      text-align: center;
+    }
+    .damage-status-list {
+      max-height: 7.2rem; /* 約顯示 4 項 */
+      overflow-y: auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+    }
+    .damage-status-row {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.38rem 0.55rem;
+      font-size: 0.86rem;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .damage-status-row:last-child { border-bottom: none; }
+    .damage-status-row:hover { background: #eff6ff; }
+    .damage-status-row .check { width: 1.15em; text-align: center; flex-shrink: 0; }
+    body.dark-theme .damage-status-list {
+      background: #121925;
+      border-color: #303a4a;
+    }
+    body.dark-theme .damage-status-row {
+      border-bottom-color: #1e293b;
+    }
+    body.dark-theme .damage-status-row:hover {
+      background: #1a2230;
+    }
     .damage-calc-wrap { display:flex; justify-content:center; align-items:center; gap:14px; margin-top:18px; }
     .damage-calc-wrap .damage-calc-btn { margin:0; }
 
@@ -2536,6 +2578,7 @@ function typeClass(t) { return 'type-' + t; }
         ev: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
         stages: { hp:0, attack:0, defense:0, sp_attack:0, sp_defense:0, speed:0 },
         item: '',
+        statuses: [],
         source: 'target'
       };
       side.stats = calcSideStats(side);
@@ -2622,9 +2665,6 @@ function typeClass(t) { return 'type-' + t; }
       if (!e.target.closest('.damage-held-search')) {
         closeDamageHeldDropdown('atk');
         closeDamageHeldDropdown('def');
-      }
-      if (!e.target.closest('.damage-status-search')) {
-        closeDamageStatusDropdown();
       }
     });
 
@@ -2833,7 +2873,13 @@ function typeClass(t) { return 'type-' + t; }
             <input type="number" id="damage-current-hp-number" class="damage-current-hp-number" min="0" max="100" step="1" value="${Math.max(0, Math.min(100, Number(damageState.currentHpPercent ?? 100)))}" oninput="onDamageCurrentHp(this.value)" aria-label="防守方目前 HP 百分比數值">
             <span>%</span>
           </div>
-        </div>` : ''}`;
+        </div>` : ''}
+        <div class="damage-status-panel">
+          <div class="damage-status-panel-title">狀態</div>
+          <div class="damage-status-list" id="damage-status-list-${sideKey}">
+            ${buildDamageStatusList(sideKey, side.statuses || [])}
+          </div>
+        </div>`;
     }
 
     function switchDamageForm(sideKey, formLabel) {
@@ -3018,8 +3064,6 @@ function typeClass(t) { return 'type-' + t; }
       if (weatherEl) weatherEl.value = damageState.weather || '無';
       const terrainEl = document.getElementById('damage-terrain');
       if (terrainEl) terrainEl.value = damageState.terrain || '無';
-      updateDamageStatusBtn();
-      closeDamageStatusDropdown();
       const atkEl = document.getElementById('damage-atk-side');
       const defEl = document.getElementById('damage-def-side');
       if (atkEl) atkEl.innerHTML = renderDamageSide('atk', atk);
@@ -3087,61 +3131,29 @@ function typeClass(t) { return 'type-' + t; }
       updateDamagePowerForConditions();
     }
 
-    function getStatusSummaryText(statuses) {
-      const set = new Set(Array.isArray(statuses) ? statuses : []);
-      if (!set.size) return '(無)';
-      const names = DAMAGE_STATUSES.filter(s => set.has(s.id)).map(s => s.name);
-      if (names.length <= 2) return names.join('、');
-      return names.slice(0, 2).join('、') + ` 等${names.length}項`;
-    }
-
-    function updateDamageStatusBtn() {
-      const btn = document.getElementById('damage-status-btn');
-      if (btn) btn.textContent = getStatusSummaryText(damageState.statuses || []);
-    }
-
-    function renderDamageStatusDropdown() {
-      const box = document.getElementById('damage-status-dropdown');
-      if (!box) return;
-      const selected = new Set(damageState.statuses || []);
-      box.innerHTML = DAMAGE_STATUSES.map(s => {
+    function buildDamageStatusList(sideKey, statuses) {
+      const selected = new Set(Array.isArray(statuses) ? statuses : []);
+      return DAMAGE_STATUSES.map(s => {
         const checked = selected.has(s.id);
-        return `<div class="damage-status-opt" data-id="${s.id}" onclick="toggleDamageStatus('${s.id}', event)">
+        return `<div class="damage-status-row" onclick="toggleDamageSideStatus('${sideKey}', '${s.id}')">
           <span class="check">${checked ? '✅' : ''}</span>
           <span>${damageSafeText(s.name)}</span>
         </div>`;
       }).join('');
     }
 
-    function openDamageStatusDropdown() {
-      renderDamageStatusDropdown();
-      document.getElementById('damage-status-dropdown')?.classList.add('open');
-    }
-
-    function closeDamageStatusDropdown() {
-      document.getElementById('damage-status-dropdown')?.classList.remove('open');
-    }
-
-    function toggleDamageStatusDropdown(e) {
-      if (e) e.stopPropagation();
-      const box = document.getElementById('damage-status-dropdown');
-      if (!box) return;
-      if (box.classList.contains('open')) {
-        closeDamageStatusDropdown();
-      } else {
-        openDamageStatusDropdown();
-      }
-    }
-
-    function toggleDamageStatus(id, e) {
-      if (e) e.stopPropagation();
-      const set = new Set(damageState.statuses || []);
+    function toggleDamageSideStatus(sideKey, id) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      if (!Array.isArray(side.statuses)) side.statuses = [];
+      const set = new Set(side.statuses);
       if (set.has(id)) set.delete(id);
       else set.add(id);
-      damageState.statuses = Array.from(set);
+      side.statuses = Array.from(set);
       damageState.result = null;
-      updateDamageStatusBtn();
-      renderDamageStatusDropdown(); // keep open, refresh checks
+      const listEl = document.getElementById(`damage-status-list-${sideKey}`);
+      if (listEl) listEl.innerHTML = buildDamageStatusList(sideKey, side.statuses);
     }
 
     function getWeatherAdjustedMove(move, weather) {
@@ -3215,50 +3227,50 @@ function typeClass(t) { return 'type-' + t; }
       return multiplier;
     }
 
-    /** 狀態倍率：燒傷、反射壁、光牆、極光幕
-     *  - 燒傷(攻擊方)：物理招式傷害 ×0.5
-     *  - 反射壁：物理招式，單打 ×0.5、雙打 ×2732/4096
-     *  - 光牆：特殊招式，單打 ×0.5、雙打 ×2732/4096
+    /** 狀態倍率：燒傷（攻擊方）、反射壁／光牆／極光幕（防守方）
+     *  - 燒傷：物理招式傷害 ×0.5（看攻擊方 statuses）
+     *  - 反射壁：物理招式，單打 ×0.5、雙打 ×2732/4096（看防守方）
+     *  - 光牆：特殊招式，單打 ×0.5、雙打 ×2732/4096（看防守方）
      *  - 極光幕：同時具反射壁+光牆效果；若已選反射壁/光牆則不疊加
      */
-    function getStatusMultipliers(statuses, isSpecial, category) {
-      const set = new Set(Array.isArray(statuses) ? statuses : []);
+    function getStatusMultipliers(atkStatuses, defStatuses, isSpecial, category) {
+      const atkSet = new Set(Array.isArray(atkStatuses) ? atkStatuses : []);
+      const defSet = new Set(Array.isArray(defStatuses) ? defStatuses : []);
       let mult = 1;
       const notes = [];
       const isPhysical = !isSpecial && !String(category || '').includes('特殊');
 
-      // 燒傷：僅對物理招式生效（與官方一致）
-      if (set.has('burn_atk') && isPhysical) {
+      // 燒傷：僅對物理招式生效（攻擊方狀態）
+      if (atkSet.has('burn_atk') && isPhysical) {
         mult *= 0.5;
         notes.push('燒傷(攻擊方) ×0.5');
       }
 
-      // 極光幕優先：同時覆蓋物理與特殊，且不與反射壁/光牆疊加
-      if (set.has('aurora_veil')) {
-        // 極光幕使用單打倍率 ×1/2（官方極光幕在單打為 1/2，雙打為 2732/4096；此處先採單打預設，若同時選了 doubles 選項再覆寫）
+      // 極光幕優先（防守方）：同時覆蓋物理與特殊，且不與反射壁/光牆疊加
+      if (defSet.has('aurora_veil')) {
         let screenMult = 0.5;
-        if (set.has('reflect_doubles') || set.has('lightscreen_doubles')) {
+        if (defSet.has('reflect_doubles') || defSet.has('lightscreen_doubles')) {
           screenMult = 2732 / 4096;
         }
         mult *= screenMult;
         notes.push(`極光幕 ×${screenMult === 0.5 ? '1/2' : '2732/4096'}`);
       } else {
-        // 反射壁（僅物理）
+        // 反射壁（僅物理，防守方）
         if (isPhysical) {
-          if (set.has('reflect_doubles')) {
+          if (defSet.has('reflect_doubles')) {
             mult *= 2732 / 4096;
             notes.push('反射壁(雙打) ×2732/4096');
-          } else if (set.has('reflect_singles')) {
+          } else if (defSet.has('reflect_singles')) {
             mult *= 0.5;
             notes.push('反射壁(單打) ×1/2');
           }
         }
-        // 光牆（僅特殊）
+        // 光牆（僅特殊，防守方）
         if (isSpecial) {
-          if (set.has('lightscreen_doubles')) {
+          if (defSet.has('lightscreen_doubles')) {
             mult *= 2732 / 4096;
             notes.push('光牆(雙打) ×2732/4096');
-          } else if (set.has('lightscreen_singles')) {
+          } else if (defSet.has('lightscreen_singles')) {
             mult *= 0.5;
             notes.push('光牆(單打) ×1/2');
           }
@@ -3379,7 +3391,7 @@ function typeClass(t) { return 'type-' + t; }
       const weatherAttack = getWeatherAttackMultiplier(weather, adjustedMove.type, adjustedMove.name);
       const terrainAttack = getTerrainAttackMultiplier(terrain, adjustedMove.type, adjustedMove.name);
       // 狀態倍率（燒傷 / 反射壁 / 光牆 / 極光幕）
-      const statusInfo = getStatusMultipliers(damageState.statuses || [], isSpecial, adjustedMove.category);
+      const statusInfo = getStatusMultipliers(sides.atk.statuses || [], sides.def.statuses || [], isSpecial, adjustedMove.category);
       const statusMult = statusInfo.mult;
       const statusNotes = statusInfo.notes || [];
       const otherBonusPercentRaw = parseFloat(document.getElementById('damage-other-bonus')?.value || '0');
@@ -3536,14 +3548,6 @@ function typeClass(t) { return 'type-' + t; }
               <option value="薄霧場地">薄霧場地</option>
               <option value="精神場地">精神場地</option>
             </select>
-          </label>
-        </div>
-        <div class="damage-status-row">
-          <label>狀態
-            <div class="damage-status-search">
-              <button type="button" id="damage-status-btn" class="damage-status-btn" onclick="toggleDamageStatusDropdown(event)">(無)</button>
-              <div id="damage-status-dropdown" class="damage-status-dropdown"></div>
-            </div>
           </label>
         </div>
         <div class="damage-bonus-wrap">
