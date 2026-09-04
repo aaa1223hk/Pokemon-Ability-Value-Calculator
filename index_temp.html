@@ -289,8 +289,19 @@
       white-space: nowrap;
     }
     .damage-copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .damage-copy-btn.active {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: #eff6ff;
+      font-weight: 700;
+    }
+    body.dark-theme .damage-copy-btn.active {
+      background: #1a2230;
+      color: #93c5fd;
+      border-color: #3b82f6;
+    }
 
-    .damage-side-title { text-align: center; font-weight: 800; color: var(--text); margin-bottom: 0.6rem; font-size: 1.08rem; }
+    .damage-side-title { display:flex; justify-content:center; align-items:center; gap:0.45rem; flex-wrap:wrap; text-align: center; font-weight: 800; color: var(--text); margin-bottom: 0.6rem; font-size: 1.08rem; }
     .damage-side-head { text-align: center; margin-bottom: 0.9rem; }
     .damage-level-nature { display:flex; justify-content:center; align-items:center; gap:0.7rem; flex-wrap:wrap; margin:0.75rem 0 1rem; }
     .damage-level-nature label { display:flex; align-items:center; gap:0.4rem; font-size:0.9rem; font-weight:600; }
@@ -2668,7 +2679,8 @@ function typeClass(t) { return 'type-' + t; }
 
     function calcSideStats(side) {
       const base = side.baseStats || {};
-      const level = Math.max(1, Math.min(100, parseInt(side.level, 10) || 50));
+      const champions = !!side.champions;
+      const level = champions ? 50 : Math.max(1, Math.min(100, parseInt(side.level, 10) || 50));
       const nature = side.nature || getNeutralNature();
       const isShedinja = (side.name || side.data?.name_zh || '').includes('脫殼忍者') ||
                          (side.index || side.data?.pokedex_id || '') === '0292' ||
@@ -2680,8 +2692,11 @@ function typeClass(t) { return 'type-' + t; }
           stats[k] = 1;
           return;
         }
-        const iv = Math.max(0, Math.min(31, parseInt((side.iv || {})[k], 10) || 0));
-        const ev = Math.max(0, Math.min(252, parseInt((side.ev || {})[k], 10) || 0));
+        const iv = champions ? 31 : Math.max(0, Math.min(31, parseInt((side.iv || {})[k], 10) || 0));
+        let ev = Math.max(0, parseInt((side.ev || {})[k], 10) || 0);
+        // Champions：side.ev 存的是顯示點數（0–32），公式前換算成真實努力值
+        if (champions) ev = championsDisplayToRealEv(Math.min(CHAMPIONS_EV_MAX, ev));
+        else ev = Math.min(252, ev);
         const mod = k === 'hp' ? 1 : getNatureMod(nature, k);
         stats[k] = calcStat(parseInt(base[k], 10) || 0, iv, ev, level, k === 'hp', mod);
       });
@@ -2732,6 +2747,7 @@ function typeClass(t) { return 'type-' + t; }
         item: '',
         statuses: [],
         currentHpPercent: 100,
+        champions: false,
         source: 'target'
       };
       side.stats = calcSideStats(side);
@@ -2985,30 +3001,41 @@ function typeClass(t) { return 'type-' + t; }
       const title = sideKey === 'atk' ? '攻擊方' : '防守方';
       const imgSrc = getDamageImageSrc(side);
       const typeText = getDamageTargetTypes(side).join('／') || '—';
+      const champions = !!side.champions;
+      const level = champions ? 50 : Number(side.level || 50);
+      const evCap = champions ? CHAMPIONS_EV_MAX : 252;
+      const evTotalCap = champions ? CHAMPIONS_EV_TOTAL : 510;
       const totalEv = STAT_KEYS.reduce((sum, k) => sum + Number(side.ev?.[k] || 0), 0);
       const isShedinja = (side.name || side.data?.name_zh || '').includes('脫殼忍者') ||
                          (side.index || side.data?.pokedex_id || '') === '0292' ||
                          (side.data?.name_en || '').toLowerCase() === 'shedinja';
       const rows = STAT_KEYS.map(key => {
-        const label = STAT_LABELS[key], iv = Number(side.iv?.[key] ?? 31), ev = Number(side.ev?.[key] ?? 0), stat = Number(side.stats?.[key] ?? 0);
+        const label = STAT_LABELS[key];
+        const iv = champions ? 31 : Number(side.iv?.[key] ?? 31);
+        const ev = Number(side.ev?.[key] ?? 0);
+        const stat = Number(side.stats?.[key] ?? 0);
         const hpLocked = key === 'hp' && isShedinja;
+        const ivDisabled = champions || hpLocked;
         return `<div class="damage-adjust-label">${label}${hpLocked ? ' <span class="damage-stat-locked">🔒</span>' : ''}</div>
-          <input type="range" id="damage-iv-range-${sideKey}-${key}" min="0" max="31" value="${iv}" ${hpLocked ? 'disabled' : ''} oninput="onDamageIv('${sideKey}','${key}',this.value)">
-          <input type="number" id="damage-iv-${sideKey}-${key}" min="0" max="31" value="${iv}" ${hpLocked ? 'disabled' : ''} oninput="onDamageIv('${sideKey}','${key}',this.value)">
-          <input type="range" id="damage-ev-range-${sideKey}-${key}" min="0" max="252" value="${ev}" ${hpLocked ? 'disabled' : ''} oninput="onDamageEv('${sideKey}','${key}',this.value)">
-          <input type="number" id="damage-ev-${sideKey}-${key}" min="0" max="252" value="${ev}" ${hpLocked ? 'disabled' : ''} oninput="onDamageEv('${sideKey}','${key}',this.value)">
+          <input type="range" id="damage-iv-range-${sideKey}-${key}" min="0" max="31" value="${iv}" ${ivDisabled ? 'disabled' : ''} oninput="onDamageIv('${sideKey}','${key}',this.value)">
+          <input type="number" id="damage-iv-${sideKey}-${key}" min="0" max="31" value="${iv}" ${ivDisabled ? 'disabled' : ''} oninput="onDamageIv('${sideKey}','${key}',this.value)">
+          <input type="range" id="damage-ev-range-${sideKey}-${key}" min="0" max="${evCap}" value="${ev}" ${hpLocked ? 'disabled' : ''} oninput="onDamageEv('${sideKey}','${key}',this.value)">
+          <input type="number" id="damage-ev-${sideKey}-${key}" min="0" max="${evCap}" value="${ev}" ${hpLocked ? 'disabled' : ''} oninput="onDamageEv('${sideKey}','${key}',this.value)">
           ${key === 'hp' ? '<span></span>' : `<select class="damage-stat-stage" id="damage-stage-${sideKey}-${key}" onchange="onDamageStageChange('${sideKey}','${key}',this.value)">${buildDamageStageOptions(side.stages?.[key] ?? 0)}</select>`}
           <span class="damage-stat-current${hpLocked ? ' damage-stat-locked-value' : ''}">${stat}</span>`;
       }).join('');
-      return `<div class="damage-side-title"><span>${title}</span><button type="button" class="damage-copy-btn" onclick="copyCalcValuesToDamageSide('${sideKey}')">複製能力值計算</button></div>
+      return `<div class="damage-side-title"><span>${title}</span>
+          <button type="button" class="damage-copy-btn${champions ? ' active' : ''}" onclick="toggleDamageChampionsMode('${sideKey}')" title="Pokémon Champions 模式">👑Champions</button>
+          <button type="button" class="damage-copy-btn" onclick="copyCalcValuesToDamageSide('${sideKey}')">複製能力值計算</button>
+        </div>
         <div class="damage-side-head">
           <img class="damage-side-image" src="${damageSafeText(imgSrc)}" alt="${damageSafeText(side.name)}" onerror="this.style.visibility='hidden';">
           <div class="damage-side-name">${damageSafeText(side.name)}${side.form && side.form !== side.name ? `（${damageSafeText(side.form)}）` : ''}</div>
-          <div class="damage-side-sub">Lv.${side.level}　${damageSafeText(typeText)}</div>
+          <div class="damage-side-sub">Lv.${level}${champions ? ' · Champions' : ''}　${damageSafeText(typeText)}</div>
           ${renderDamageFormButtons(sideKey, side)}
         </div>
         <div class="damage-level-nature">
-          <label>等級 <input type="number" min="1" max="100" value="${side.level}" oninput="onDamageLevelChange('${sideKey}', this.value)"></label>
+          <label>等級 <input type="number" min="1" max="100" value="${level}" ${champions ? 'disabled' : ''} oninput="onDamageLevelChange('${sideKey}', this.value)"></label>
           <label>性格 <select onchange="onDamageNatureChange('${sideKey}', this.value)">${buildNatureOptions(Math.max(0, NATURES.indexOf(side.nature)))}</select></label>
         </div>
         <div class="damage-held-item">
@@ -3018,7 +3045,7 @@ function typeClass(t) { return 'type-' + t; }
           <div></div><div class="damage-adjust-title">個體值滑桿</div><div></div><div class="damage-adjust-title">努力值滑桿</div><div></div><div class="damage-adjust-title">能力變化</div><div class="damage-adjust-title">現在數值</div>
           ${rows}
         </div>
-        <div class="damage-ev-total ${totalEv > 510 ? 'over' : ''}">努力值合計：${totalEv} / 510</div>
+        <div class="damage-ev-total ${totalEv > evTotalCap ? 'over' : ''}">努力值合計：${totalEv} / ${evTotalCap}${champions ? '（Champions）' : ''}</div>
         <div class="damage-current-hp">
           <div class="damage-current-hp-head"><span>現在 HP</span><span class="damage-current-hp-value" id="damage-current-hp-value-${sideKey}">${Math.max(0, Math.min(100, Number(side.currentHpPercent ?? 100)))}%</span></div>
           <div class="damage-current-hp-slider-row">
@@ -3058,7 +3085,7 @@ function typeClass(t) { return 'type-' + t; }
     function onDamageLevelChange(sideKey, value) {
       const sides = getDamageSides();
       const side = sides?.[sideKey];
-      if (!side) return;
+      if (!side || side.champions) return;
       let v = parseInt(value, 10); if (isNaN(v)) v = 50;
       side.level = Math.max(1, Math.min(100, v));
       side.stats = calcSideStats(side);
@@ -3137,10 +3164,13 @@ function typeClass(t) { return 'type-' + t; }
       if (currentEl) currentEl.textContent = side.stats[key];
 
       const totalEv = STAT_KEYS.reduce((sum, k) => sum + Number(side.ev?.[k] || 0), 0);
+      const totalCap = side.champions ? CHAMPIONS_EV_TOTAL : 510;
       const totalEl = document.querySelector(`#damage-${sideKey}-side .damage-ev-total`);
       if (totalEl) {
-        totalEl.textContent = `努力值合計：${totalEv} / 510`;
-        totalEl.classList.toggle('over', totalEv > 510);
+        totalEl.textContent = side.champions
+          ? `努力值合計：${totalEv} / ${totalCap}（Champions）`
+          : `努力值合計：${totalEv} / ${totalCap}`;
+        totalEl.classList.toggle('over', totalEv > totalCap);
       }
     }
 
@@ -3176,13 +3206,53 @@ function typeClass(t) { return 'type-' + t; }
     function onDamageEv(sideKey, key, value) {
       const sides = getDamageSides();
       if (!sides?.[sideKey]) return;
+      const side = sides[sideKey];
+      const champions = !!side.champions;
+      const cap = champions ? CHAMPIONS_EV_MAX : 252;
+      const totalCap = champions ? CHAMPIONS_EV_TOTAL : 510;
       let v = parseInt(value, 10); if (isNaN(v)) v = 0;
-      v = Math.max(0, Math.min(252, v));
-      const others = STAT_KEYS.filter(k => k !== key).reduce((sum, k) => sum + Number(sides[sideKey].ev?.[k] || 0), 0);
-      v = Math.min(v, Math.max(0, 510 - others));
-      sides[sideKey].ev[key] = v;
+      v = Math.max(0, Math.min(cap, v));
+      const others = STAT_KEYS.filter(k => k !== key).reduce((sum, k) => sum + Number(side.ev?.[k] || 0), 0);
+      v = Math.min(v, Math.max(0, totalCap - others));
+      side.ev[key] = v;
       updateDamageStatRow(sideKey, key);
       damageState.result = null;
+    }
+
+    function toggleDamageChampionsMode(sideKey) {
+      const sides = getDamageSides();
+      const side = sides?.[sideKey];
+      if (!side) return;
+      if (!side.champions) {
+        // 進入：真實 EV → 顯示點數
+        STAT_KEYS.forEach(k => {
+          const real = Number(side.ev?.[k] || 0);
+          side.ev[k] = championsRealToDisplayEv(real);
+        });
+        // 裁切總上限
+        let total = STAT_KEYS.reduce((s, k) => s + Number(side.ev[k] || 0), 0);
+        if (total > CHAMPIONS_EV_TOTAL) {
+          for (let i = STAT_KEYS.length - 1; i >= 0 && total > CHAMPIONS_EV_TOTAL; i--) {
+            const k = STAT_KEYS[i];
+            const cut = Math.min(Number(side.ev[k] || 0), total - CHAMPIONS_EV_TOTAL);
+            side.ev[k] -= cut;
+            total -= cut;
+          }
+        }
+        side.level = 50;
+        STAT_KEYS.forEach(k => { side.iv[k] = 31; });
+        side.champions = true;
+      } else {
+        // 離開：顯示點數 → 真實 EV
+        STAT_KEYS.forEach(k => {
+          const display = Number(side.ev?.[k] || 0);
+          side.ev[k] = championsDisplayToRealEv(display);
+        });
+        side.champions = false;
+      }
+      side.stats = calcSideStats(side);
+      damageState.result = null;
+      refreshDamageSideOnly(sideKey);
     }
 
     function refreshDamageSideOnly(sideKey) {
@@ -3686,6 +3756,7 @@ function typeClass(t) { return 'type-' + t; }
 
       const source = makeCurrentCalcSide();
       const target = sides[sideKey];
+      const calcChampions = isChampionsMode(0);
 
       // 手動複製上方能力值計算：包含寶可夢／型態、等級、性格、IV、EV。
       target.index = source.index;
@@ -3696,7 +3767,18 @@ function typeClass(t) { return 'type-' + t; }
       target.nature = source.nature;
       target.baseStats = { ...source.baseStats };
       target.iv = { ...source.iv };
-      target.ev = { ...source.ev };
+      // source.ev 已是公式用真實努力值；若傷害側要開 Champions，再轉成顯示點數
+      target.champions = calcChampions;
+      if (calcChampions) {
+        target.level = 50;
+        STAT_KEYS.forEach(k => { target.iv[k] = 31; });
+        target.ev = {};
+        STAT_KEYS.forEach(k => {
+          target.ev[k] = championsRealToDisplayEv(Number(source.ev?.[k] || 0));
+        });
+      } else {
+        target.ev = { ...source.ev };
+      }
       target.stats = calcSideStats(target);
 
       if (sideKey === 'def') {
