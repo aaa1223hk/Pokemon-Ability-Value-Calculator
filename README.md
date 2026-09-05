@@ -20,12 +20,10 @@ discord：https://discord.gg/vqgJfjSdM
 
 ‧ 新的Mage數據追加(暫時新公報的3隻特性已加進去)
 
-‧ 能力值計算器增加冠軍能力值調整模式
-
 ‧ 調整地區型態圖片沒對上問題
 
 
-已完成：✅
+已完成：:white_check_mark:
 
 ‧ 1 - 1025號基本種族值 / 特性 / 技能 數據庫
 
@@ -46,3 +44,7 @@ discord：https://discord.gg/vqgJfjSdM
 ‧ UI改善，深色模式 / 其它效果
 
 ‧ 技能說明
+
+‧ 能力值計算器增加冠軍能力值調整模式
+
+‧ 狀態加成
