@@ -3467,7 +3467,7 @@ function typeClass(t) { return 'type-' + t; }
      *  - 能量點：招式威力 ×1.3（攻擊方）
      *  - 蓄電池：特攻招式威力 ×1.3（攻擊方）
      */
-    function getStatusMultipliers(atkStatuses, defStatuses, isSpecial, category, moveType) {
+    function getStatusMultipliers(atkStatuses, defStatuses, isSpecial, category, moveType, moveName) {
       const atkSet = new Set(Array.isArray(atkStatuses) ? atkStatuses : []);
       const defSet = new Set(Array.isArray(defStatuses) ? defStatuses : []);
       const any = (id) => atkSet.has(id) || defSet.has(id);
@@ -3477,11 +3477,20 @@ function typeClass(t) { return 'type-' + t; }
       let defenseMult = 1;
       const notes = [];
       const isPhysical = !isSpecial && !String(category || '').includes('特殊');
+      const name = String(moveName || '');
+      const isFacade = name === '硬撐' || name.toLowerCase() === 'facade';
+      const isBurned = atkSet.has('burn') || atkSet.has('burn_atk');
 
       // 燒傷：僅對物理招式生效（攻擊方狀態；相容舊 id burn_atk）
-      if ((atkSet.has('burn') || atkSet.has('burn_atk')) && isPhysical) {
-        mult *= 0.5;
-        notes.push('燒傷 ×0.5');
+      // 例外：硬撐（Facade）不受燒傷傷害減半，改為威力 ×2
+      if (isBurned && isPhysical) {
+        if (isFacade) {
+          powerMult *= 2;
+          notes.push('硬撐（燒傷）威力×2');
+        } else {
+          mult *= 0.5;
+          notes.push('燒傷 ×0.5');
+        }
       }
 
       // 極光幕優先（防守方）：同時覆蓋物理與特殊，且不與反射壁/光牆疊加
@@ -3678,7 +3687,8 @@ function typeClass(t) { return 'type-' + t; }
         sides.def.statuses || [],
         isSpecial,
         adjustedMove.category,
-        adjustedMove.type
+        adjustedMove.type,
+        adjustedMove.name
       );
       const statusMult = statusInfo.mult;
       const statusNotes = statusInfo.notes || [];
