@@ -1,0 +1,155 @@
+/* ===== 共用左側浮動選單 (drawer) ===== */
+/* 可直接 copy 到其他工具頁使用 */
+
+.menu-fab {
+  position: fixed;
+  top: 0.85rem;
+  left: 0.85rem;
+  z-index: 100;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  border: 1px solid var(--border, #e2e8f0);
+  background: var(--card, #ffffff);
+  color: var(--text, #1a1a2e);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
+  transition: background .15s, border-color .15s, box-shadow .15s;
+}
+.menu-fab:hover {
+  border-color: var(--accent, #3b82f6);
+  color: var(--accent, #3b82f6);
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.18);
+}
+.menu-fab svg { width: 20px; height: 20px; }
+
+body.dark-theme .menu-fab {
+  box-shadow: 0 4px 16px rgba(0,0,0,.35);
+}
+
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.35);
+  z-index: 110;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .2s, visibility .2s;
+}
+body.dark-theme .drawer-overlay { background: rgba(0,0,0,.55); }
+.drawer-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: min(280px, 82vw);
+  background: var(--card, #ffffff);
+  z-index: 120;
+  transform: translateX(-105%);
+  transition: transform .25s ease;
+  box-shadow: 4px 0 24px rgba(15, 23, 42, 0.12);
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1rem 1.5rem;
+}
+body.dark-theme .drawer {
+  background: #121925;
+  box-shadow: 4px 0 28px rgba(0,0,0,.45);
+}
+.drawer.open { transform: translateX(0); }
+
+.drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border, #e2e8f0);
+}
+.drawer-title { font-size: 1rem; font-weight: 700; }
+.drawer-close {
+  width: 32px; height: 32px; border: none; background: transparent;
+  color: var(--muted, #5c6b7a); cursor: pointer; border-radius: 8px;
+  font-size: 1.25rem; line-height: 1;
+}
+.drawer-close:hover { background: rgba(0,0,0,.05); color: var(--text, #1a1a2e); }
+body.dark-theme .drawer-close:hover { background: rgba(255,255,255,.06); }
+
+.drawer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+}
+.drawer-nav a {
+  display: block;
+  padding: 0.7rem 0.85rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  color: var(--text, #1a1a2e);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: background .15s, border-color .15s, color .15s;
+}
+.drawer-nav a:hover {
+  background: rgba(59, 130, 246, 0.08);
+  border-color: rgba(59, 130, 246, 0.25);
+  color: var(--accent, #3b82f6);
+}
+.drawer-nav a.active {
+  background: rgba(59, 130, 246, 0.12);
+  border-color: rgba(59, 130, 246, 0.35);
+  color: var(--accent, #3b82f6);
+  font-weight: 600;
+}
+body.dark-theme .drawer-nav a:hover {
+  background: rgba(110, 168, 255, 0.1);
+  border-color: rgba(110, 168, 255, 0.3);
+}
+body.dark-theme .drawer-nav a.active {
+  background: rgba(110, 168, 255, 0.14);
+  border-color: rgba(110, 168, 255, 0.35);
+}
+
+.drawer-footer {
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border, #e2e8f0);
+}
+.theme-in-drawer {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text, #1a1a2e);
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+}
+.theme-in-drawer:hover {
+  background: rgba(59, 130, 246, 0.08);
+  border-color: rgba(59, 130, 246, 0.25);
+  color: var(--accent, #3b82f6);
+}
+body.dark-theme .theme-in-drawer:hover {
+  background: rgba(110, 168, 255, 0.1);
+  border-color: rgba(110, 168, 255, 0.3);
+}
+
+/* 若頁面有舊的右上角主題按鈕，可隱藏 */
+.theme-toggle { display: none !important; }
