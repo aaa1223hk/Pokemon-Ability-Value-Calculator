@@ -257,6 +257,7 @@
     }
 
   </style>
+  <link rel="stylesheet" href="shared/drawer.css">
 </head>
 <body>
   <!-- 浮動選單按鈕 -->
@@ -265,8 +266,6 @@
       <path d="M4 7h16M4 12h16M4 17h16"/>
     </svg>
   </button>
-
-
 
   <!-- 遮罩 -->
   <div class="drawer-overlay" id="drawer-overlay" onclick="closeDrawer()"></div>
@@ -279,12 +278,23 @@
     </div>
     <nav class="drawer-nav">
       <a href="index.html" onclick="closeDrawer()">數值計算器</a>
-      <a href="item.html" onclick="closeDrawer()" class="active">道具例表</a>
+      <a href="item.html" onclick="closeDrawer()">道具例表</a>
     </nav>
+
+    <div class="drawer-section">
+      <div class="drawer-section-title">其它</div>
+      <nav class="drawer-nav">
+        <a href="https://aaa1223hk.github.io/QRcode-gen/" target="_blank" rel="noopener">即時 QR 生成 / 解碼</a>
+        <a href="https://aaa1223hk.github.io/Game-Probability-Calculator/" target="_blank" rel="noopener">遊戲機率模擬器</a>
+        <a href="https://aaa1223hk.github.io/Game-lottery-calculator/" target="_blank" rel="noopener">抽蛋計算器</a>
+        <a href="https://aaa1223hk.github.io/DN-3-color-beans/" target="_blank" rel="noopener">龍之谷3色豆集古代最佳化</a>
+      </nav>
+    </div>
+
     <div class="drawer-footer">
-      <button type="button" id="theme-toggle" class="theme-in-drawer" onclick="toggleTheme()">
-        <span id="theme-icon">🌛</span>
-        <span id="theme-label">深色模式</span>
+      <button type="button" id="theme-toggle" class="theme-in-drawer" aria-label="切換深色模式" title="切換深色模式">
+        <span class="theme-toggle-icon">🌙</span>
+        <span class="theme-toggle-text">深色模式</span>
       </button>
     </div>
   </aside>
@@ -309,16 +319,8 @@
 
     let allSections = [];
 
-    function openDrawer() {
-      document.getElementById('drawer').classList.add('open');
-      document.getElementById('drawer-overlay').classList.add('open');
-      document.body.style.overflow = 'hidden';
-    }
-    function closeDrawer() {
-      document.getElementById('drawer').classList.remove('open');
-      document.getElementById('drawer-overlay').classList.remove('open');
-      document.body.style.overflow = '';
-    }
+    // openDrawer moved to shared/drawer.js
+    // closeDrawer moved to shared/drawer.js
 
     function findCategory(nodes, name) {
       if (!Array.isArray(nodes)) return null;
@@ -423,35 +425,10 @@
       });
     }
 
-    function updateThemeIcon() {
-      const dark = document.body.classList.contains('dark-theme');
-      const icon = document.getElementById('theme-icon');
-      const label = document.getElementById('theme-label');
-      if (icon) icon.textContent = dark ? '☀️' : '🌛';
-      if (label) label.textContent = dark ? '淺色模式' : '深色模式';
-    }
-
-    function toggleTheme() {
-      document.body.classList.toggle('dark-theme');
-      const dark = document.body.classList.contains('dark-theme');
-      localStorage.setItem('pokemon-calc-theme', dark ? 'dark' : 'light');
-      updateThemeIcon();
-    }
-
-    function applyStoredTheme() {
-      const t = localStorage.getItem('pokemon-calc-theme');
-      if (t === 'dark') {
-        document.body.classList.add('dark-theme');
-      }
-      updateThemeIcon();
-    }
+    // Theme & drawer handled by shared/drawer.js
 
     async function init() {
-      applyStoredTheme();
-      // ESC 關閉選單
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') closeDrawer();
-      });
+      // ESC is already handled in shared/drawer.js
       try {
         const res = await fetch('data/item_list.json');
         if (!res.ok) throw new Error('HTTP ' + res.status);
