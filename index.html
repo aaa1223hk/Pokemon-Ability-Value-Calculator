@@ -8,26 +8,51 @@
   <link rel="apple-touch-icon" href="icon.png">
   <style>
     :root {
-      --bg: #f7f9fc;
-      --card: #ffffff;
-      --text: #1a1a2e;
-      --muted: #5c6b7a;
-      --accent: #3b82f6;
-      --border: #e2e8f0;
-      --weak-2: #ef4444;
-      --weak-4: #b91c1c;
+      /* 方印工房 UI 藍本 */
+      --bg: #f2efe6;
+      --card: #faf8f3;
+      --surface: #faf8f3;
+      --surface-2: #ebe6da;
+      --text: #1c1915;
+      --fg: #1c1915;
+      --muted: #6e6860;
+      --subtle: #938c82;
+      --accent: #1c1915;          /* 改為近黑，減少藍調 */
+      --border: #ddd6c8;
+      --danger: #8f2d20;
+      --warn: #8a5a18;
+      --weak-2: #8f2d20;
+      --weak-4: #6b1f16;
+      --radius-lg: 16px;
+      --radius-xl: 24px;
+      --shadow: 0 0 0 1px rgba(28,25,21,.06), 0 1px 2px -1px rgba(28,25,21,.06), 0 2px 8px 0 rgba(28,25,21,.04);
+      --font: "Segoe UI", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+      --display: Georgia, "Iowan Old Style", "Songti TC", serif;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      font-family: var(--font);
       background: var(--bg);
       color: var(--text);
       line-height: 1.5;
       min-height: 100vh;
       padding: 1rem;
+      background-image:
+        linear-gradient(to right, rgba(28,25,21,.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(28,25,21,.035) 1px, transparent 1px);
+      background-size: 24px 24px;
+      -webkit-font-smoothing: antialiased;
     }
-    .container { max-width: 900px; margin: 0 auto; }
-    h1 { text-align: center; font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700; }
+    .container { max-width: 72rem; margin: 0 auto; padding: 0 0.5rem; }
+    h1 {
+      text-align: center;
+      font-family: var(--display);
+      font-size: clamp(1.5rem, 1.2rem + 1.5vw, 2rem);
+      margin-bottom: 1rem;
+      font-weight: 500;
+      letter-spacing: -0.03em;
+      color: var(--fg);
+    }
     .main-info {
       display: flex;
       gap: 1.25rem;
@@ -49,23 +74,31 @@
     .search-wrap { position: relative; margin-bottom: 1.25rem; }
     .search-input {
       width: 100%; padding: 0.75rem 1rem; font-size: 1rem;
-      border: 1px solid var(--border); border-radius: 10px;
+      border: 1px solid var(--border); border-radius: 8px;
       background: var(--card); color: var(--text);
+      box-shadow: var(--shadow);
     }
-    .search-input:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .search-input:focus-visible {
+      outline: none;
+      border-color: color-mix(in srgb, var(--fg) 40%, var(--border));
+      box-shadow: var(--shadow), 0 0 0 3px color-mix(in srgb, var(--fg) 16%, transparent);
+    }
     .dropdown-list {
       display: none; position: absolute; left: 0; right: 0; top: calc(100% + 4px);
       max-height: 360px; overflow-y: auto; background: var(--card);
-      border: 1px solid var(--border); border-radius: 10px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.12); z-index: 50;
+      border: 1px solid var(--border); border-radius: 12px;
+      box-shadow: var(--shadow); z-index: 50;
     }
     .dropdown-list.open { display: block; }
     .dropdown-item { padding: 0.55rem 1rem; cursor: pointer; font-size: 0.95rem; }
-    .dropdown-item:hover, .dropdown-item.active { background: #eff6ff; color: var(--accent); }
+    .dropdown-item:hover, .dropdown-item.active { background: #eff6ff; color: var(--fg); }
     .dropdown-empty { padding: 0.75rem 1rem; color: var(--muted); font-size: 0.9rem; }
     .card {
-      background: var(--card); border-radius: 14px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.06); padding: 1.25rem; margin-bottom: 1rem;
+      background: var(--card);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
     }
     .image-area {
       text-align: center; min-height: 160px;
@@ -81,9 +114,9 @@
       padding: 0.3rem 0.7rem; border: 1px solid var(--border); border-radius: 8px;
       background: #fff; cursor: pointer; font-size: 0.8rem; color: var(--text);
     }
-    .form-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .form-btn:hover { border-color: var(--fg); color: var(--fg); }
     .form-btn.active {
-      background: var(--accent); color: #fff; border-color: var(--accent);
+      background: var(--fg); color: #fff; border-color: var(--fg);
     }
     .shiny-toggle {
       margin-top: 0.5rem; display: flex; justify-content: center;
@@ -112,14 +145,14 @@
     .ability-tooltip {
       position: fixed; z-index: 9999; max-width: 320px;
       background: #1e293b; color: #f1f5f9; padding: 0.75rem 1rem;
-      border-radius: 10px; font-size: 0.85rem; line-height: 1.5;
+      border-radius: 8px; font-size: 0.85rem; line-height: 1.5;
       box-shadow: 0 8px 24px rgba(0,0,0,0.25); pointer-events: none;
       white-space: pre-wrap; display: none;
     }
     .ability-tooltip .tip-name {
       font-weight: 700; margin-bottom: 0.35rem; color: #93c5fd;
     }
-    .ability-tooltip .tip-loading { color: #94a3b8; font-style: italic; }
+    .ability-tooltip .tip-loading { color: var(--muted); font-style: italic; }
 
     .info-right .image-area { min-height: 200px; }
     .placeholder { color: var(--muted); font-size: 0.95rem; }
@@ -166,7 +199,7 @@
       padding: 0.35rem 0.8rem; border: 1px solid var(--border); border-radius: 8px;
       background: #fff; cursor: pointer; font-size: 0.85rem;
     }
-    .tab-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .tab-btn.active { background: var(--fg); color: #fff; border-color: var(--fg); }
     .moves-table-wrap { overflow-x: auto; max-height: 360px; overflow-y: auto; }
     table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
     th, td { padding: 0.4rem 0.5rem; text-align: left; border-bottom: 1px solid var(--border); }
@@ -209,13 +242,13 @@
     }
     .calc-row {
       display: flex; align-items: center; gap: 0.5rem;
-      background: #f8fafc; border-radius: 10px; padding: 0.35rem 0.5rem;
+      background: #f8fafc; border-radius: 8px; padding: 0.35rem 0.5rem;
     }
     .calc-row .stat-name {
       flex: 0 0 2.6rem; font-size: 0.8rem; font-weight: 600; text-align: center;
     }
     .calc-row input[type="range"] {
-      flex: 1; min-width: 0; height: 6px; accent-color: var(--accent);
+      flex: 1; min-width: 0; height: 6px; accent-color: var(--fg);
     }
     .calc-row input[type="number"] {
       width: 3.2rem; padding: 0.2rem 0.25rem; border: 1px solid var(--border);
@@ -255,13 +288,13 @@
       background: #fff; cursor: pointer; font-size: 0.85rem; line-height: 1.2;
     }
     .calc-btn:hover { background: #f1f5f9; }
-    .calc-btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .calc-btn.primary { background: var(--fg); color: #fff; border-color: var(--fg); }
     .calc-btn.primary:hover { filter: brightness(1.05); }
     .calc-btn.danger { color: #dc2626; }
     #calc-container { display: flex; flex-direction: column; gap: 1rem; }
     .calc-card-extra { border: 1px dashed #cbd5e1; }
     th.sortable { cursor: pointer; user-select: none; }
-    th.sortable:hover { color: var(--accent); }
+    th.sortable:hover { color: var(--fg); }
     th.sortable .sort-ind { font-size: 0.7em; opacity: 0.6; margin-left: 2px; }
 
     .base-stat-total {
@@ -290,10 +323,10 @@
       cursor: pointer;
       white-space: nowrap;
     }
-    .damage-copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .damage-copy-btn:hover { border-color: var(--fg); color: var(--fg); }
     .damage-copy-btn.active {
-      border-color: var(--accent);
-      color: var(--accent);
+      border-color: var(--fg);
+      color: var(--fg);
       background: #eff6ff;
       font-weight: 700;
     }
@@ -359,7 +392,7 @@
     }
     .damage-held-dropdown.open { display: block; }
     .damage-held-item-opt { padding: 0.5rem 0.7rem; cursor: pointer; font-size: 0.88rem; }
-    .damage-held-item-opt:hover { background: #eff6ff; color: var(--accent); }
+    .damage-held-item-opt:hover { background: #eff6ff; color: var(--fg); }
     .damage-held-empty { padding: 0.5rem 0.7rem; color: var(--muted); font-size: 0.85rem; }
     body.dark-theme .damage-held-input {
       background: linear-gradient(180deg,#0e141e 0%,#090d14 100%);
@@ -382,7 +415,7 @@
     .damage-adjust-grid { display: grid; grid-template-columns: 2.9rem minmax(65px, 1fr) 3.3rem minmax(65px, 1fr) 3.3rem 4.2rem 4.7rem; gap: 0.55rem 0.55rem; align-items: center; }
     .damage-adjust-title { font-size: 0.76rem; font-weight: 700; color: var(--muted); text-align: center; white-space: nowrap; }
     .damage-adjust-label { font-size: 0.82rem; font-weight: 700; text-align: left; white-space: nowrap; }
-    .damage-adjust-grid input[type="range"] { width: 100%; min-width: 0; height: 6px; accent-color: var(--accent); margin: 0; cursor: grab; touch-action: none; user-select: none; }
+    .damage-adjust-grid input[type="range"] { width: 100%; min-width: 0; height: 6px; accent-color: var(--fg); margin: 0; cursor: grab; touch-action: none; user-select: none; }
     .damage-adjust-grid input[type="range"]:active { cursor: grabbing; }
     .damage-adjust-grid input[type="number"] { width: 100%; min-width: 0; box-sizing: border-box; padding: 0.36rem 0.25rem; border: 1px solid var(--border); border-radius: 8px; font-size: 0.82rem; text-align: center; background: #fff; }
     .damage-stat-current { display: inline-flex; justify-content: center; align-items: center; min-width: 0; width: 100%; padding: 0.36rem 0.35rem; border-radius: 8px; background: #fff; border: 1px solid var(--border); text-align: center; font-size: 0.84rem; font-weight: 800; }
@@ -400,7 +433,7 @@
     .damage-current-hp input[type=range]:active { cursor:grabbing; }
     .damage-swap { display: flex; justify-content: center; align-items: center; }
     .damage-swap button { width: 58px; height: 58px; border: 1px solid var(--border); border-radius: 50%; background: #fff; color: var(--text); cursor: pointer; font-size: 1.65rem; line-height: 1; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-    .damage-swap button:hover { border-color: var(--accent); color: var(--accent); }
+    .damage-swap button:hover { border-color: var(--fg); color: var(--accent); }
     .damage-move-controls { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 0.7rem; margin-top: 1rem; }
     .damage-move-controls label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.88rem; }
     .damage-move-controls select { max-width: 360px; padding: 0.35rem 0.5rem; border: 1px solid var(--border); border-radius: 6px; background: #fff; }
@@ -410,7 +443,7 @@
     .damage-other-bonus input[type="number"] { width: 4.8rem; padding: 0.35rem 0.45rem; border: 1px solid var(--border); border-radius: 6px; text-align: center; background: #fff; }
     .damage-calc-wrap { display: flex; justify-content: center; margin-top: 0.85rem; }
     .damage-calc-btn { border: 1px solid var(--border); border-radius: 8px; background: #fff; color: var(--text); cursor: pointer; padding: 0.5rem 2.4rem; font-size: 0.9rem; }
-    .damage-calc-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .damage-calc-btn:hover { border-color: var(--fg); color: var(--accent); }
     .damage-result { margin-top: 1rem; text-align: center; background: #f1f5f9; border: 1px solid var(--border); border-radius: 12px; padding: 0.8rem; }
     .damage-result-label { color: var(--muted); font-size: 0.8rem; }
     .damage-result-value { font-size: 1.55rem; font-weight: 800; margin-top: 0.15rem; }
@@ -554,7 +587,7 @@
       text-overflow: ellipsis;
       color: var(--text);
     }
-    .damage-status-btn:hover { border-color: var(--accent); }
+    .damage-status-btn:hover { border-color: var(--fg); }
     .damage-status-dropdown {
       display: none;
       position: absolute;
@@ -700,7 +733,7 @@
     }
     .search-input:hover { border-color: #b8c7dc; }
     .search-input:focus, select:focus, input[type="number"]:focus {
-      outline: none; border-color: var(--accent);
+      outline: none; border-color: var(--fg);
       box-shadow: 0 0 0 3px rgba(79,124,255,.13);
     }
     .dropdown-list, .damage-pokemon-dropdown {
@@ -771,13 +804,13 @@
       border-color: #d5dfeb; background: #fff;
     }
     .damage-hp-bar {
-      height: 30px; border: 1px solid #cbd5e1; border-radius: 10px;
+      height: 30px; border: 1px solid #cbd5e1; border-radius: 8px;
       box-shadow: inset 0 1px 3px rgba(15,23,42,.10), 0 3px 8px rgba(31,48,78,.05);
     }
     .damage-hp-range-min { background: linear-gradient(90deg, #9ee7a8, #bff2c5); }
     .damage-hp-range-max { background: linear-gradient(90deg, #f2aaaa, #f8c5c5); }
     .damage-guaranteed-hits::before {
-      background: #fff; border-color: #334155; box-shadow: 0 2px 6px rgba(31,48,78,.16);
+      background: #fff; border-color: var(--border); box-shadow: 0 2px 6px rgba(31,48,78,.16);
     }
     .damage-result {
       background: linear-gradient(135deg, #f4f7ff, #f7f5ff);
@@ -797,52 +830,57 @@
 
     /* ===== 深色模式 ===== */
     body.dark-theme {
-      --bg: #0f172a;
-      --card: #1e293b;
-      --text: #e5e7eb;
-      --muted: #94a3b8;
-      --accent: #60a5fa;
-      --border: #334155;
+      --bg: #141210;
+      --card: #1e1b17;
+      --surface: #1e1b17;
+      --surface-2: #2a2520;
+      --text: #f2efe6;
+      --fg: #f2efe6;
+      --muted: #a8a29a;
+      --subtle: #78716c;
+      --accent: #f2efe6;
+      --border: #3f3a32;
+      --danger: #f87171;
+      --warn: #fbbf24;
       --weak-2: #f87171;
       --weak-4: #fb7185;
+      --shadow: 0 0 0 1px rgba(242,239,230,.06), 0 1px 2px -1px rgba(0,0,0,.3), 0 2px 8px 0 rgba(0,0,0,.25);
+    }
+    body.dark-theme {
+      background-image:
+        linear-gradient(to right, rgba(242,239,230,.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(242,239,230,.04) 1px, transparent 1px);
     }
     body.dark-theme .theme-toggle {
-      background: #1e293b; color: #f8fafc; border-color: #475569;
+      background: var(--card); color: var(--text); border-color: var(--border);
       box-shadow: 0 5px 18px rgba(0,0,0,.28);
     }
-    body.dark-theme .theme-toggle:hover { background: #334155; border-color: #60a5fa; }
+    body.dark-theme .theme-toggle:hover { background: var(--surface-2); border-color: var(--fg); }
     body.dark-theme .form-btn,
     body.dark-theme .shiny-btn,
     body.dark-theme input,
     body.dark-theme select,
     body.dark-theme textarea {
-      background: #0f172a; color: #e5e7eb; border-color: #475569;
+      background: var(--bg); color: var(--text); border-color: var(--border);
     }
     body.dark-theme .dropdown-item:hover,
-    body.dark-theme .dropdown-item.active { background: #1e3a5f; color: #93c5fd; }
-    body.dark-theme th { background: #273449; color: #e5e7eb; }
-    body.dark-theme tr:hover td { background: #243247; }
-    body.dark-theme .moves-table-wrap { border-color: #334155; }
-    body.dark-theme .ability-badge { background: #12324a; color: #7dd3fc; border-color: #164e63; }
-    body.dark-theme .ability-badge.ability-hidden { background: #35204f; color: #d8b4fe; border-color: #581c87; }
-    body.dark-theme .damage-result-value { color: #bfdbfe; }
-    body.dark-theme .placeholder { color: #94a3b8; }
+    body.dark-theme .dropdown-item.active { background: var(--surface-2); color: var(--fg); }
+    body.dark-theme th { background: var(--surface-2); color: var(--text); }
+    body.dark-theme tr:hover td { background: var(--surface-2); }
+    body.dark-theme .moves-table-wrap { border-color: var(--border); }
+    body.dark-theme .ability-badge { background: #1a2e28; color: #a7d4c8; border-color: #2a4a40; }
+    body.dark-theme .ability-badge.ability-hidden { background: #2a1f3d; color: #d4b8f0; border-color: #4a3560; }
+    body.dark-theme .damage-result-value { color: var(--fg); }
+    body.dark-theme .placeholder { color: var(--muted); }
     body.dark-theme .damage-stat-row,
-    body.dark-theme .damage-condition-row { border-color: #334155; }
-    body.dark-theme .stat-box { border-color: #334155; background: #182235; }
+    body.dark-theme .damage-condition-row { border-color: var(--border); }
+    body.dark-theme .stat-box { border-color: var(--border); background: var(--surface-2); }
     body.dark-theme .type-badge { filter: brightness(.9); }
     body.dark-theme .discord-link { box-shadow: 0 5px 16px rgba(0,0,0,.3); }
 
-    /* 深色模式：近黑色漸變，避免白底造成刺眼感 */
+    /* 深色模式：已改用方印工房紙感配色，此處保留結構但不再覆蓋變數 */
     body.dark-theme {
-      --bg: #080b12;
-      --card: #111722;
-      --text: #e7ebf3;
-      --muted: #8d98aa;
-      --accent: #6ea8ff;
-      --border: #293241;
-      background: radial-gradient(circle at 15% 0%, #151b28 0%, #0b0f17 42%, #05070b 100%);
-      background-attachment: fixed;
+      /* 變數由前面的 body.dark-theme 定義 */
     }
     body.dark-theme .card,
     body.dark-theme .damage-card,
@@ -921,7 +959,7 @@
     body.dark-theme .damage-condition-row,
     body.dark-theme .damage-stat-row {
       background: #1b2638;
-      border-color: #334155;
+      border-color: var(--border);
       color: #e5e7eb;
     }
     body.dark-theme .calc-row,
@@ -980,29 +1018,29 @@
     }
     body.dark-theme .dropdown-item {
       color: #e5e7eb;
-      border-color: #334155;
+      border-color: var(--border);
     }
     body.dark-theme .dropdown-item:hover,
     body.dark-theme .dropdown-item.active {
       background: #243b5a;
-      color: #bfdbfe;
+      color: var(--fg);
     }
     body.dark-theme .moves-table-wrap {
       background: #172235;
-      border-color: #334155;
+      border-color: var(--border);
     }
     body.dark-theme table {
       background: #172235;
       color: #e5e7eb;
     }
     body.dark-theme td {
-      border-color: #334155;
+      border-color: var(--border);
     }
     body.dark-theme tr:nth-child(even) td {
       background: #1a2739;
     }
     body.dark-theme tr:hover td {
-      background: #243247;
+      background: var(--surface-2);
     }
     body.dark-theme .info-left,
     body.dark-theme .info-right,
@@ -1013,10 +1051,10 @@
     body.dark-theme .name-sub,
     body.dark-theme .muted,
     body.dark-theme small {
-      color: #94a3b8;
+      color: var(--muted);
     }
     body.dark-theme hr {
-      border-color: #334155;
+      border-color: var(--border);
     }
 
     .theme-toggle {
@@ -1028,7 +1066,7 @@
       box-shadow: 0 4px 14px rgba(15,23,42,.08);
       transition: background .2s, border-color .2s, transform .2s, box-shadow .2s;
     }
-    .theme-toggle:hover { transform: translateY(-1px); border-color: var(--accent); }
+    .theme-toggle:hover { transform: translateY(-1px); border-color: var(--fg); }
     .theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     .theme-toggle-icon { font-size: 1rem; line-height: 1; }
     @media (max-width: 640px) {
@@ -1193,7 +1231,7 @@
       box-shadow: inset 0 1px 2px rgba(0,0,0,.35);
     }
     body.dark-theme .damage-other-bonus span {
-      color: #94a3b8;
+      color: var(--muted);
     }
 
     /* 深色模式：傷害計算所有下拉選單 */
@@ -1300,7 +1338,7 @@ body:not(.dark-theme) .damage-calc-btn:active {
       transition: background .15s, border-color .15s, box-shadow .15s;
     }
     .menu-fab:hover {
-      border-color: var(--accent);
+      border-color: var(--fg);
       color: var(--accent);
       box-shadow: 0 6px 18px rgba(59, 130, 246, 0.18);
     }
@@ -1454,7 +1492,10 @@ body:not(.dark-theme) .damage-calc-btn:active {
     </div>
   </aside>
   <div class="container">
-    <h1>寶可夢數值計算器</h1>
+    <header style="text-align:center; margin-bottom:1.5rem;">
+      <p style="margin:0 0 .35rem; font-size:.875rem; font-weight:500; color:var(--muted); letter-spacing:.04em;">方印工房 · 工具</p>
+      <h1 style="margin:0;">寶可夢數值計算器</h1>
+    </header>
     <div class="search-wrap">
       <input type="text" id="pokemon-search" class="search-input"
              placeholder="輸入編號或名稱搜尋，例如 009 或 妙蛙" autocomplete="off" spellcheck="false">
