@@ -38,12 +38,24 @@
     <span class="drawer-title">選單</span>
     <button type="button" class="drawer-close" aria-label="關閉" onclick="closeDrawer()">×</button>
   </div>
+
+  <!-- 主要工具連結 -->
   <nav class="drawer-nav">
-    <!-- 依工具自行修改連結 -->
     <a href="index.html">數值計算器</a>
     <a href="item.html">道具例表</a>
-    <!-- 之後可再加其他工具 -->
   </nav>
+
+  <!-- 其它區塊（2026-09-08 新增） -->
+  <div class="drawer-section">
+    <div class="drawer-section-title">其它</div>
+    <nav class="drawer-nav">
+      <!-- 之後在這裡加入其他工具連結，例如：
+      <a href="../QRcode-gen/">即時 QR</a>
+      <a href="../">抽蛋計算器</a>
+      -->
+    </nav>
+  </div>
+
   <div class="drawer-footer">
     <button type="button" id="theme-toggle" class="theme-in-drawer" aria-label="切換深色模式" title="切換深色模式">
       <span class="theme-toggle-icon">🌙</span>
@@ -62,4 +74,4 @@
 
 ## 之後擴充
 
-把其他工具（QR、抽蛋…）的連結加進 `.drawer-nav` 即可。
+把其他工具（QR、抽蛋…）的連結加進「其它」區塊的 `.drawer-nav` 即可。
