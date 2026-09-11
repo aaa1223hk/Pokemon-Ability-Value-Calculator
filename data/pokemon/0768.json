@@ -118,7 +118,7 @@
       "category": "裝甲寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "硬爪",
           "is_hidden": false
         }
       ],
@@ -1308,6 +1308,11 @@
       "name": "具甲武者",
       "image": "0768-具甲武者.png",
       "shiny": "0768-具甲武者-shiny.png"
+    },
+	{
+      "name": "具甲武者-超級具甲武者",
+      "image": "0768-具甲武者-超級具甲武者.png",
+      "shiny": "0768-具甲武者-超級具甲武者-shiny.png"
     }
   ]
 }

@@ -127,7 +127,7 @@
       "category": "冰龍寶可夢",
       "abilities": [
         {
-          "name": "未知",
+          "name": "熱交換",
           "is_hidden": false
         }
       ],
@@ -1070,6 +1070,11 @@
       "name": "戟脊龍",
       "image": "0998-戟脊龍.png",
       "shiny": "0998-戟脊龍-shiny.png"
+    },
+	{
+      "name": "戟脊龍-超級戟脊龍",
+      "image": "0998-戟脊龍-超級戟脊龍.png",
+      "shiny": "0998-戟脊龍-超級戟脊龍-shiny.png"
     }
   ]
 }
