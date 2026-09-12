@@ -3434,9 +3434,11 @@ function typeClass(t) { return 'type-' + t; }
 
     function getWeatherDefenseMultiplier(weather, side, moveCategory) {
       const types = getDamageTargetTypes(side);
-      if (weather === '冰雹' && types.includes('冰') && !String(moveCategory || '').includes('特殊')) return 1;
-      if (weather === '冰雹' && types.includes('冰') && String(moveCategory || '').includes('特殊')) return 1.5;
-      if (weather === '沙暴' && types.includes('岩石') && String(moveCategory || '').includes('特殊')) return 1.5;
+      const isSpecial = String(moveCategory || '').includes('特殊');
+      // 冰雹／下雪：冰屬性防禦×1.5（影響物理招式）
+      if (weather === '冰雹' && types.includes('冰') && !isSpecial) return 1.5;
+      // 沙暴：岩石屬性特防×1.5（影響特殊招式）
+      if (weather === '沙暴' && types.includes('岩石') && isSpecial) return 1.5;
       return 1;
     }
 
