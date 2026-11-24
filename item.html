@@ -260,6 +260,31 @@
       border-color: rgba(110, 168, 255, 0.35);
     }
 
+
+    .friend-ad {
+      text-align: center;
+      margin: 1.5rem auto 1rem;
+      padding: 0.5rem 0.75rem;
+      border-radius: 8px;
+      background: rgba(0,0,0,0.15);
+      max-width: 420px;
+    }
+    .friend-ad-title {
+      font-size: 0.7rem;
+      color: #8ab4f8;
+      margin-bottom: 0.35rem;
+      letter-spacing: 0.04em;
+    }
+    body.dark-theme .friend-ad-title { color: #8ab4f8; }
+    .friend-ad-body {
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      color: #6b7a90;
+    }
+
   </style>
   <link rel="stylesheet" href="shared/drawer.css">
 </head>
@@ -311,6 +336,13 @@
     </div>
 
     <div id="content" class="loading">載入中…</div>
+  </div>
+
+  <div class="friend-ad" id="friend-ad">
+    <div class="friend-ad-title">友誼小廣告</div>
+    <div class="friend-ad-body">
+      <!-- 廣告碼將放置於此 -->
+    </div>
   </div>
 
   <script>
